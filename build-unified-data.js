@@ -168,36 +168,22 @@ function loadOsSubject() {
   return subject;
 }
 
+function loadGeneratedSubject(subjectId) {
+  const subject = readJson(path.join(outDir, "generated-exams", `${subjectId}.json`));
+  subject.exams = subject.exams.map(exam => normalizeExam(subject.id, "rewritten-md", "Rewritten Markdown Exams", exam));
+  subject.banks = [{ id: "rewritten-md", title: "Rewritten Markdown Exams", examCount: subject.exams.length }];
+  subject.questionCount = subject.exams.reduce((sum, exam) => sum + exam.questions.length, 0);
+  subject.examCount = subject.exams.length;
+  return subject;
+}
+
 const subjects = [
-  loadManifestSubject({
-    id: "math-ai",
-    dataDir: path.join(downloads, "math ai", "exam", "data")
-  }),
-  loadManifestSubject({
-    id: "information-security",
-    dataDir: path.join(downloads, "Information Security", "exam", "data")
-  }),
-  loadManifestSubject({
-    id: "oop",
-    dataDir: path.join(downloads, "Oop Lectures", "exam", "data")
-  }),
-  loadJsonSubject({
-    id: "ai-ethics",
-    title: "AI Ethics",
-    description: "AI ethics exams from the AI Ethics folder.",
-    dataDir: path.join(downloads, "ai ethics", "exam", "data"),
-    files: [
-      { path: "ai-ethics-exams.json", bankId: "chapters", title: "AI Ethics Chapter Exams" }
-    ]
-  }),
-  loadAutoJsonSubject({
-    id: "ai",
-    title: "Artificial Intelligence",
-    description: "AI lecture exams. This subject is ready now and will automatically include future JSON files with an exams array from the Downloads/AI folder.",
-    rootDir: path.join(downloads, "AI"),
-    seedFiles: [path.join(outDir, "ai-base-exams.json")]
-  }),
-  loadOsSubject()
+  loadGeneratedSubject("math-ai"),
+  loadGeneratedSubject("information-security"),
+  loadGeneratedSubject("oop"),
+  loadGeneratedSubject("ai-ethics"),
+  loadGeneratedSubject("ai"),
+  loadGeneratedSubject("os")
 ];
 
 const output = {

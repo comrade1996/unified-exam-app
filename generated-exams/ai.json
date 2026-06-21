@@ -1,0 +1,2524 @@
+{
+  "id": "ai",
+  "title": "Artificial Intelligence",
+  "description": "Fresh closed-question exams generated from the AI Markdown lecture sources.",
+  "banks": [
+    {
+      "id": "rewritten-md",
+      "title": "Rewritten Markdown Exams",
+      "examCount": 12
+    }
+  ],
+  "exams": [
+    {
+      "id": "01-backpropagation",
+      "kind": "Closed Memorization Exam",
+      "title": "backpropagation",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about Backpropagation?",
+          "choices": [
+            "د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله",
+            "هي خوارزمية تُستخدم من أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+            "Backward Pass → نحسب تأثير كل وزن على الخطأ",
+            "الناتج الحقيقي : ( y{true} = 1 )"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: Backpropagation\nSource: backpropagation\nMemorize this exact idea: د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د. أمي ن مبارك ____",
+          "choices": [
+            "أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+            "تأثير كل وزن على الخطأ",
+            "( y{true} = 1 )",
+            "– الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for Backpropagation.",
+          "fullExplanation": "Source: backpropagation\nTopic: Backpropagation\nWhy: د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about Backpropagation?",
+          "choices": [
+            "Backward Pass → نحسب تأثير كل وزن على الخطأ",
+            "الناتج الحقيقي : ( y{true} = 1 )",
+            "هي خوارزمية تُستخدم من أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+            "د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: هي خوارزمية تُستخدم من أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+          "fullExplanation": "Topic: Backpropagation\nSource: backpropagation\nMemorize this exact idea: هي خوارزمية تُستخدم من أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: هي خوارزمية تُستخدم من ____",
+          "choices": [
+            "( y{true} = 1 )",
+            "أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+            "– الذكاء االصطناعي وتعلم االله",
+            "تأثير كل وزن على الخطأ"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for Backpropagation.",
+          "fullExplanation": "Source: backpropagation\nTopic: Backpropagation\nWhy: هي خوارزمية تُستخدم من أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about Forward?",
+          "choices": [
+            "د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله",
+            "هي خوارزمية تُستخدم من أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+            "Backward Pass → نحسب تأثير كل وزن على الخطأ",
+            "الناتج الحقيقي : ( y{true} = 1 )"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: Forward\nSource: backpropagation\nMemorize this exact idea: د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about Forward?",
+          "choices": [
+            "د. أمي ن مبارك – الذكاء االصطناعي وتعلم االله",
+            "هي خوارزمية تُستخدم من أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+            "Backward Pass → نحسب تأثير كل وزن على الخطأ",
+            "الطبقة المخفية تجعل النموذج ذكي وقادر على التعقيد"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Correct: الطبقة المخفية تجعل النموذج ذكي وقادر على التعقيد",
+          "fullExplanation": "Topic: Forward\nSource: backpropagation\nMemorize this exact idea: الطبقة المخفية تجعل النموذج ذكي وقادر على التعقيد",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: الطبقة المخفية تجعل النموذج ____",
+          "choices": [
+            "أجل تحديث األوزان (Weights) لتقليل الخطأ (Error)",
+            "تأثير كل وزن على الخطأ",
+            "النموذج ذكي وقادر على التعقيد",
+            "– الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "This statement is correct for Forward.",
+          "fullExplanation": "Source: backpropagation\nTopic: Forward\nWhy: الطبقة المخفية تجعل النموذج ذكي وقادر على التعقيد",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "02-examples-for-reading",
+      "kind": "Closed Memorization Exam",
+      "title": "examples for reading",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about د. أمي ن مبارك?",
+          "choices": [
+            "د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله",
+            "z = (w1 * x1) + (w2 * x2) + b",
+            "h1 = (x1 * 0.5) + (x2 * 0.5)",
+            "h2 = (x1 * 0.3) + (x2 * 0.7)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: examples for reading\nSource: examples for reading\nMemorize this exact idea: د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د. أمي ن مبارك ____",
+          "choices": [
+            "x1) + (w2 * x2) + b",
+            "0.5) + (x2 * 0.5)",
+            "0.3) + (x2 * 0.7)",
+            "- الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for examples for reading.",
+          "fullExplanation": "Source: examples for reading\nTopic: examples for reading\nWhy: د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about حساب المجموع?",
+          "choices": [
+            "h1 = (x1 * 0.5) + (x2 * 0.5)",
+            "h2 = (x1 * 0.3) + (x2 * 0.7)",
+            "z = (w1 * x1) + (w2 * x2) + b",
+            "د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: z = (w1 * x1) + (w2 * x2) + b",
+          "fullExplanation": "Topic: حساب المجموع\nSource: examples for reading\nMemorize this exact idea: z = (w1 * x1) + (w2 * x2) + b",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: z = (w1 * ____",
+          "choices": [
+            "0.3) + (x2 * 0.7)",
+            "x1) + (w2 * x2) + b",
+            "- الذكاء االصطناعي وتعلم االله",
+            "0.5) + (x2 * 0.5)"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for حساب المجموع.",
+          "fullExplanation": "Source: examples for reading\nTopic: حساب المجموع\nWhy: z = (w1 * x1) + (w2 * x2) + b",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الطبقة المخفية --------?",
+          "choices": [
+            "h1 = (x1 * 0.5) + (x2 * 0.5)",
+            "د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله",
+            "z = (w1 * x1) + (w2 * x2) + b",
+            "h2 = (x1 * 0.3) + (x2 * 0.7)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: h1 = (x1 * 0.5) + (x2 * 0.5)",
+          "fullExplanation": "Topic: الطبقة المخفية --------\nSource: examples for reading\nMemorize this exact idea: h1 = (x1 * 0.5) + (x2 * 0.5)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: h1 = (x1 * ____",
+          "choices": [
+            "- الذكاء االصطناعي وتعلم االله",
+            "x1) + (w2 * x2) + b",
+            "0.3) + (x2 * 0.7)",
+            "0.5) + (x2 * 0.5)"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الطبقة المخفية --------.",
+          "fullExplanation": "Source: examples for reading\nTopic: الطبقة المخفية --------\nWhy: h1 = (x1 * 0.5) + (x2 * 0.5)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الطبقة المخفية --------?",
+          "choices": [
+            "z = (w1 * x1) + (w2 * x2) + b",
+            "h1 = (x1 * 0.5) + (x2 * 0.5)",
+            "h2 = (x1 * 0.3) + (x2 * 0.7)",
+            "د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: h2 = (x1 * 0.3) + (x2 * 0.7)",
+          "fullExplanation": "Topic: الطبقة المخفية --------\nSource: examples for reading\nMemorize this exact idea: h2 = (x1 * 0.3) + (x2 * 0.7)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: h2 = (x1 * ____",
+          "choices": [
+            "0.5) + (x2 * 0.5)",
+            "0.3) + (x2 * 0.7)",
+            "- الذكاء االصطناعي وتعلم االله",
+            "x1) + (w2 * x2) + b"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الطبقة المخفية --------.",
+          "fullExplanation": "Source: examples for reading\nTopic: الطبقة المخفية --------\nWhy: h2 = (x1 * 0.3) + (x2 * 0.7)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الطبقة المخفية مع ReLU?",
+          "choices": [
+            "h1 = relu((x1 * 0.5) + (x2 * 0.5))",
+            "د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله",
+            "z = (w1 * x1) + (w2 * x2) + b",
+            "h1 = (x1 * 0.5) + (x2 * 0.5)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: h1 = relu((x1 * 0.5) + (x2 * 0.5))",
+          "fullExplanation": "Topic: الطبقة المخفية مع ReLU\nSource: examples for reading\nMemorize this exact idea: h1 = relu((x1 * 0.5) + (x2 * 0.5))",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: h1 = relu((x1 * ____",
+          "choices": [
+            "- الذكاء االصطناعي وتعلم االله",
+            "x1) + (w2 * x2) + b",
+            "0.5) + (x2 * 0.5)",
+            "0.5) + (x2 * 0.5))"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الطبقة المخفية مع ReLU.",
+          "fullExplanation": "Source: examples for reading\nTopic: الطبقة المخفية مع ReLU\nWhy: h1 = relu((x1 * 0.5) + (x2 * 0.5))",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الطبقة المخفية مع ReLU?",
+          "choices": [
+            "z = (w1 * x1) + (w2 * x2) + b",
+            "h1 = (x1 * 0.5) + (x2 * 0.5)",
+            "h2 = relu((x1 * 0.3) + (x2 * 0.7))",
+            "د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: h2 = relu((x1 * 0.3) + (x2 * 0.7))",
+          "fullExplanation": "Topic: الطبقة المخفية مع ReLU\nSource: examples for reading\nMemorize this exact idea: h2 = relu((x1 * 0.3) + (x2 * 0.7))",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: h2 = relu((x1 * ____",
+          "choices": [
+            "0.5) + (x2 * 0.5)",
+            "0.3) + (x2 * 0.7))",
+            "- الذكاء االصطناعي وتعلم االله",
+            "x1) + (w2 * x2) + b"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الطبقة المخفية مع ReLU.",
+          "fullExplanation": "Source: examples for reading\nTopic: الطبقة المخفية مع ReLU\nWhy: h2 = relu((x1 * 0.3) + (x2 * 0.7))",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about اإلخراج?",
+          "choices": [
+            "y = relu((h1 * 0.6) + (h2 * 0.4))",
+            "د. أمي ن مبارك - الذكاء االصطناعي وتعلم االله",
+            "z = (w1 * x1) + (w2 * x2) + b",
+            "h1 = (x1 * 0.5) + (x2 * 0.5)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: y = relu((h1 * 0.6) + (h2 * 0.4))",
+          "fullExplanation": "Topic: اإلخراج\nSource: examples for reading\nMemorize this exact idea: y = relu((h1 * 0.6) + (h2 * 0.4))",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: y = relu((h1 * ____",
+          "choices": [
+            "- الذكاء االصطناعي وتعلم االله",
+            "x1) + (w2 * x2) + b",
+            "0.5) + (x2 * 0.5)",
+            "0.6) + (h2 * 0.4))"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for اإلخراج.",
+          "fullExplanation": "Source: examples for reading\nTopic: اإلخراج\nWhy: y = relu((h1 * 0.6) + (h2 * 0.4))",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "03-الانتشار-الامامي",
+      "kind": "Closed Memorization Exam",
+      "title": "الانتشار الامامي",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about د. أمي ن مبارك األمين?",
+          "choices": [
+            "د. أمي ن مبارك األمين - الذكاء االصطناعي وتعلم االله",
+            "االنتشار األمامي (Forward Propagation) هو الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "إلى المخرجات داخل الشب كة العصبية للحصول على التنبؤ .",
+            "ان + دوال تنشيط)تمر عبر الطبقات (مع أوز"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين - الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: الانتشار الامامي\nSource: الانتشار الامامي\nMemorize this exact idea: د. أمي ن مبارك األمين - الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د. أمي ن مبارك ____",
+          "choices": [
+            "الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "كة العصبية للحصول على التنبؤ ",
+            "تنشيط)تمر عبر الطبقات (مع أوز",
+            "األمين - الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الانتشار الامامي.",
+          "fullExplanation": "Source: الانتشار الامامي\nTopic: الانتشار الامامي\nWhy: د. أمي ن مبارك األمين - الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الانتشار الامامي?",
+          "choices": [
+            "إلى المخرجات داخل الشب كة العصبية للحصول على التنبؤ .",
+            "ان + دوال تنشيط)تمر عبر الطبقات (مع أوز",
+            "االنتشار األمامي (Forward Propagation) هو الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "د. أمي ن مبارك األمين - الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: االنتشار األمامي (Forward Propagation) هو الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+          "fullExplanation": "Topic: الانتشار الامامي\nSource: الانتشار الامامي\nMemorize this exact idea: االنتشار األمامي (Forward Propagation) هو الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: االنتشار األمامي (Forward Propagation) هو ____",
+          "choices": [
+            "تنشيط)تمر عبر الطبقات (مع أوز",
+            "الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "األمين - الذكاء االصطناعي وتعلم االله",
+            "كة العصبية للحصول على التنبؤ "
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الانتشار الامامي.",
+          "fullExplanation": "Source: الانتشار الامامي\nTopic: الانتشار الامامي\nWhy: االنتشار األمامي (Forward Propagation) هو الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الانتشار الامامي?",
+          "choices": [
+            "X = np.array([[1, 2]]) # عينة واحدة فيها ميزتين",
+            "د. أمي ن مبارك األمين - الذكاء االصطناعي وتعلم االله",
+            "االنتشار األمامي (Forward Propagation) هو الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "إلى المخرجات داخل الشب كة العصبية للحصول على التنبؤ ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: X = np.array([[1, 2]]) # عينة واحدة فيها ميزتين",
+          "fullExplanation": "Topic: الانتشار الامامي\nSource: الانتشار الامامي\nMemorize this exact idea: X = np.array([[1, 2]]) # عينة واحدة فيها ميزتين",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: X = np.array([[1, 2]]) ____",
+          "choices": [
+            "األمين - الذكاء االصطناعي وتعلم االله",
+            "الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "كة العصبية للحصول على التنبؤ ",
+            "# عينة واحدة فيها ميزتين"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الانتشار الامامي.",
+          "fullExplanation": "Source: الانتشار الامامي\nTopic: الانتشار الامامي\nWhy: X = np.array([[1, 2]]) # عينة واحدة فيها ميزتين",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الطبقة النهائية?",
+          "choices": [
+            "االنتشار األمامي (Forward Propagation) هو الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "إلى المخرجات داخل الشب كة العصبية للحصول على التنبؤ .",
+            "output = Z2 # بدون دالة تنشيط (Regression)",
+            "د. أمي ن مبارك األمين - الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: output = Z2 # بدون دالة تنشيط (Regression)",
+          "fullExplanation": "Topic: الطبقة النهائية\nSource: الانتشار الامامي\nMemorize this exact idea: output = Z2 # بدون دالة تنشيط (Regression)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: output = Z2 # ____",
+          "choices": [
+            "كة العصبية للحصول على التنبؤ ",
+            "# بدون دالة تنشيط (Regression)",
+            "األمين - الذكاء االصطناعي وتعلم االله",
+            "الخطوة التي يتم فيها تمرير البيانات من المدخالت"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الطبقة النهائية.",
+          "fullExplanation": "Source: الانتشار الامامي\nTopic: الطبقة النهائية\nWhy: output = Z2 # بدون دالة تنشيط (Regression)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about 🔹 الً?",
+          "choices": [
+            "🔹 الً: ماذا يعنيأو Z1 و A1 ؟",
+            "د. أمي ن مبارك األمين - الذكاء االصطناعي وتعلم االله",
+            "االنتشار األمامي (Forward Propagation) هو الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "إلى المخرجات داخل الشب كة العصبية للحصول على التنبؤ ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: 🔹 الً: ماذا يعنيأو Z1 و A1 ؟",
+          "fullExplanation": "Topic: الانتشار الامامي\nSource: الانتشار الامامي\nMemorize this exact idea: 🔹 الً: ماذا يعنيأو Z1 و A1 ؟",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: 🔹 الً: ____",
+          "choices": [
+            "األمين - الذكاء االصطناعي وتعلم االله",
+            "الخطوة التي يتم فيها تمرير البيانات من المدخالت",
+            "كة العصبية للحصول على التنبؤ ",
+            "ماذا يعنيأو Z1 و A1 ؟"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الانتشار الامامي.",
+          "fullExplanation": "Source: الانتشار الامامي\nTopic: الانتشار الامامي\nWhy: 🔹 الً: ماذا يعنيأو Z1 و A1 ؟",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "04-الشبكات-العصبية",
+      "kind": "Closed Memorization Exam",
+      "title": "الشبكات العصبية",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 1?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "Perceptron هو ع من الشبكات العصبيةأبسط نو ، ويُستخدم في التصنيف الثنائي ( مثل: نعم/ال، 0 / 1 )."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: الشبكات العصبية topic 1\nSource: الشبكات العصبية\nMemorize this exact idea: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د. أمي ن مبارك ____",
+          "choices": [
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر ",
+            "نعم/ال، 0 / 1 )",
+            "األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 1.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 1\nWhy: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 1?",
+          "choices": [
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "Perceptron هو ع من الشبكات العصبيةأبسط نو ، ويُستخدم في التصنيف الثنائي ( مثل: نعم/ال، 0 / 1 ).",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+          "fullExplanation": "Topic: الشبكات العصبية topic 1\nSource: الشبكات العصبية\nMemorize this exact idea: الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: الشبكات العصبية (Neural Networks) ي، ____",
+          "choices": [
+            "نعم/ال، 0 / 1 )",
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "األمين – الذكاء االصطناعي وتعلم االله",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر "
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 1.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 1\nWhy: الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about ( f )?",
+          "choices": [
+            "( f ): دالة التنشيط ( مثل Step Function)",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: ( f ): دالة التنشيط ( مثل Step Function)",
+          "fullExplanation": "Topic: الشبكات العصبية topic 2\nSource: الشبكات العصبية\nMemorize this exact idea: ( f ): دالة التنشيط ( مثل Step Function)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ( f ): ____",
+          "choices": [
+            "األمين – الذكاء االصطناعي وتعلم االله",
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر ",
+            "دالة التنشيط ( مثل Step Function)"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 2.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 2\nWhy: ( f ): دالة التنشيط ( مثل Step Function)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about إذا أردنا تحديد هل الطالب اسبناجح أو ر?",
+          "choices": [
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "إذا أردنا تحديد هل الطالب اسبناجح أو ر :",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: إذا أردنا تحديد هل الطالب اسبناجح أو ر :",
+          "fullExplanation": "Topic: الشبكات العصبية topic 2\nSource: الشبكات العصبية\nMemorize this exact idea: إذا أردنا تحديد هل الطالب اسبناجح أو ر :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: إذا أردنا تحديد هل ____",
+          "choices": [
+            "Learning) اتارللتعرف على األنماط واتخاذ القر ",
+            "الطالب اسبناجح أو ر :",
+            "األمين – الذكاء االصطناعي وتعلم االله",
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 2.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 2\nWhy: إذا أردنا تحديد هل الطالب اسبناجح أو ر :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 3?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "Perceptron هو ع من الشبكات العصبيةأبسط نو ، ويُستخدم في التصنيف الثنائي ( مثل: نعم/ال، 0 / 1 )."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: الشبكات العصبية topic 3\nSource: الشبكات العصبية\nMemorize this exact idea: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about هي تطوير للبيرسيبترون، وتتكون من عدة طبقات?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "هي تطوير للبيرسيبترون، وتتكون من عدة طبقات :"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Correct: هي تطوير للبيرسيبترون، وتتكون من عدة طبقات :",
+          "fullExplanation": "Topic: الشبكات العصبية topic 3\nSource: الشبكات العصبية\nMemorize this exact idea: هي تطوير للبيرسيبترون، وتتكون من عدة طبقات :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: هي تطوير للبيرسيبترون، وتتكون ____",
+          "choices": [
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر ",
+            "وتتكون من عدة طبقات :",
+            "األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 3.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 3\nWhy: هي تطوير للبيرسيبترون، وتتكون من عدة طبقات :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 4?",
+          "choices": [
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "(Nonlinearity) ، وبدونها تصبح الشبكة مجرد نموذج خطي ال يستطيع حل مشاكل مثل XOR.",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Correct: (Nonlinearity) ، وبدونها تصبح الشبكة مجرد نموذج خطي ال يستطيع حل مشاكل مثل XOR.",
+          "fullExplanation": "Topic: الشبكات العصبية topic 4\nSource: الشبكات العصبية\nMemorize this exact idea: (Nonlinearity) ، وبدونها تصبح الشبكة مجرد نموذج خطي ال يستطيع حل مشاكل مثل XOR.",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: (Nonlinearity) ، وبدونها تصبح الشبكة مجرد ____",
+          "choices": [
+            "نموذج خطي ال يستطيع حل مشاكل مثل XOR",
+            "األمين – الذكاء االصطناعي وتعلم االله",
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر "
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 4.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 4\nWhy: (Nonlinearity) ، وبدونها تصبح الشبكة مجرد نموذج خطي ال يستطيع حل مشاكل مثل XOR.",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 4?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "مشكلة Vanishing Gradient ( ًج يصبح صغير جداالتدر )"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Correct: مشكلة Vanishing Gradient ( ًج يصبح صغير جداالتدر )",
+          "fullExplanation": "Topic: الشبكات العصبية topic 4\nSource: الشبكات العصبية\nMemorize this exact idea: مشكلة Vanishing Gradient ( ًج يصبح صغير جداالتدر )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: مشكلة Vanishing Gradient ( ____",
+          "choices": [
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر ",
+            "ًج يصبح صغير جداالتدر )",
+            "األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 4.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 4\nWhy: مشكلة Vanishing Gradient ( ًج يصبح صغير جداالتدر )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 5?",
+          "choices": [
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "Neural Networks) ، خاصة عند استخدام خوارزمية االنتشار العكسي (Backpropagation).",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Correct: Neural Networks) ، خاصة عند استخدام خوارزمية االنتشار العكسي (Backpropagation).",
+          "fullExplanation": "Topic: الشبكات العصبية topic 5\nSource: الشبكات العصبية\nMemorize this exact idea: Neural Networks) ، خاصة عند استخدام خوارزمية االنتشار العكسي (Backpropagation).",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: Neural Networks) ، خاصة ____",
+          "choices": [
+            "عند استخدام خوارزمية االنتشار العكسي (Backpropagation)",
+            "األمين – الذكاء االصطناعي وتعلم االله",
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر "
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 5.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 5\nWhy: Neural Networks) ، خاصة عند استخدام خوارزمية االنتشار العكسي (Backpropagation).",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 5?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "عند تدريب الشبكة، نقوم بحساب المشتقات (Gradients) انلتحديث األوز ."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Correct: عند تدريب الشبكة، نقوم بحساب المشتقات (Gradients) انلتحديث األوز .",
+          "fullExplanation": "Topic: الشبكات العصبية topic 5\nSource: الشبكات العصبية\nMemorize this exact idea: عند تدريب الشبكة، نقوم بحساب المشتقات (Gradients) انلتحديث األوز .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: عند تدريب الشبكة، نقوم ____",
+          "choices": [
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر ",
+            "بحساب المشتقات (Gradients) انلتحديث األوز ",
+            "األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 5.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 5\nWhy: عند تدريب الشبكة، نقوم بحساب المشتقات (Gradients) انلتحديث األوز .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 6?",
+          "choices": [
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "Tanh → ة حولعندما تحتاج بيانات متمركز الصفر",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Correct: Tanh → ة حولعندما تحتاج بيانات متمركز الصفر",
+          "fullExplanation": "Topic: الشبكات العصبية topic 6\nSource: الشبكات العصبية\nMemorize this exact idea: Tanh → ة حولعندما تحتاج بيانات متمركز الصفر",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: Tanh → ة حولعندما ____",
+          "choices": [
+            "حولعندما تحتاج بيانات متمركز الصفر",
+            "األمين – الذكاء االصطناعي وتعلم االله",
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر "
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 6.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 6\nWhy: Tanh → ة حولعندما تحتاج بيانات متمركز الصفر",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الشبكات العصبية topic 6?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "الشبكات العصبية (Neural Networks) ي، وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "في التعلم اآللي (Machine Learning) اتارللتعرف على األنماط واتخاذ القر .",
+            "بدون دوال التنشيط → الشبكة = خط مستقيم ❌"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Correct: بدون دوال التنشيط → الشبكة = خط مستقيم ❌",
+          "fullExplanation": "Topic: الشبكات العصبية topic 6\nSource: الشبكات العصبية\nMemorize this exact idea: بدون دوال التنشيط → الشبكة = خط مستقيم ❌",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: بدون دوال التنشيط → ____",
+          "choices": [
+            "وتُستخدمهي نموذج مستوحى من طريقة عمل الدماغ البشر",
+            "Learning) اتارللتعرف على األنماط واتخاذ القر ",
+            "الشبكة = خط مستقيم ❌",
+            "األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "This statement is correct for الشبكات العصبية topic 6.",
+          "fullExplanation": "Source: الشبكات العصبية\nTopic: الشبكات العصبية topic 6\nWhy: بدون دوال التنشيط → الشبكة = خط مستقيم ❌",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "05-الغابة-العشوائية",
+      "kind": "Closed Memorization Exam",
+      "title": "الغابة العشوائية",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about د. أمي ن مبارك?",
+          "choices": [
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف",
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر .",
+            "بدال ً من االعتماد على ار واحدةة قرشجر ( قد تعاني من Overfitting) ، تقوم Random Forest بـ :"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف",
+          "fullExplanation": "Topic: الغابة العشوائية topic 1\nSource: الغابة العشوائية\nMemorize this exact idea: د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د. أمي ن مبارك ____",
+          "choices": [
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ",
+            "( قد تعاني من Overfitting) ، تقوم Random Forest بـ :",
+            "- معهد دكنس – تعلم االله بإشراف"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 1.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 1\nWhy: د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الغابة العشوائية topic 1?",
+          "choices": [
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر .",
+            "بدال ً من االعتماد على ار واحدةة قرشجر ( قد تعاني من Overfitting) ، تقوم Random Forest بـ :",
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+          "fullExplanation": "Topic: الغابة العشوائية topic 1\nSource: الغابة العشوائية\nMemorize this exact idea: Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: Random Forest هي خوارزمية من ____",
+          "choices": [
+            "( قد تعاني من Overfitting) ، تقوم Random Forest بـ :",
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "- معهد دكنس – تعلم االله بإشراف",
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر "
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 1.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 1\nWhy: Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الغابة العشوائية topic 2?",
+          "choices": [
+            "Overfitting يحدث عندما يتعلّم النموذج بيانات التدريب بشكل مفرط ، فيحفظها بدل أن يتعلّم األنماط العامة .",
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف",
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: Overfitting يحدث عندما يتعلّم النموذج بيانات التدريب بشكل مفرط ، فيحفظها بدل أن يتعلّم األنماط العامة .",
+          "fullExplanation": "Topic: الغابة العشوائية topic 2\nSource: الغابة العشوائية\nMemorize this exact idea: Overfitting يحدث عندما يتعلّم النموذج بيانات التدريب بشكل مفرط ، فيحفظها بدل أن يتعلّم األنماط العامة .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: Overfitting يحدث عندما يتعلّم النموذج بيانات التدريب ____",
+          "choices": [
+            "- معهد دكنس – تعلم االله بإشراف",
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ",
+            "بشكل مفرط ، فيحفظها بدل أن يتعلّم األنماط العامة "
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 2.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 2\nWhy: Overfitting يحدث عندما يتعلّم النموذج بيانات التدريب بشكل مفرط ، فيحفظها بدل أن يتعلّم األنماط العامة .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الغابة العشوائية topic 2?",
+          "choices": [
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر .",
+            "ار عميقة جدًا تتعلّم كل التفاصيل والضوضاء في البياناتة قرشجر",
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: ار عميقة جدًا تتعلّم كل التفاصيل والضوضاء في البياناتة قرشجر",
+          "fullExplanation": "Topic: الغابة العشوائية topic 2\nSource: الغابة العشوائية\nMemorize this exact idea: ار عميقة جدًا تتعلّم كل التفاصيل والضوضاء في البياناتة قرشجر",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ار عميقة جدًا تتعلّم ____",
+          "choices": [
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ",
+            "كل التفاصيل والضوضاء في البياناتة قرشجر",
+            "- معهد دكنس – تعلم االله بإشراف",
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 2.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 2\nWhy: ار عميقة جدًا تتعلّم كل التفاصيل والضوضاء في البياناتة قرشجر",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الغابة العشوائية topic 3?",
+          "choices": [
+            "نقوم بـ تقسيم البيانات إلى عدة أجزاء (Fold) ، ونجرب النموذج عدة مرات .",
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف",
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: نقوم بـ تقسيم البيانات إلى عدة أجزاء (Fold) ، ونجرب النموذج عدة مرات .",
+          "fullExplanation": "Topic: الغابة العشوائية topic 3\nSource: الغابة العشوائية\nMemorize this exact idea: نقوم بـ تقسيم البيانات إلى عدة أجزاء (Fold) ، ونجرب النموذج عدة مرات .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: نقوم بـ تقسيم البيانات إلى عدة ____",
+          "choices": [
+            "- معهد دكنس – تعلم االله بإشراف",
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ",
+            "أجزاء (Fold) ، ونجرب النموذج عدة مرات "
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 3.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 3\nWhy: نقوم بـ تقسيم البيانات إلى عدة أجزاء (Fold) ، ونجرب النموذج عدة مرات .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about نقسم البيانات إلى K أجزاء ( ًمثال 5 )?",
+          "choices": [
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر .",
+            "نقسم البيانات إلى K أجزاء ( ًمثال 5 ):",
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: نقسم البيانات إلى K أجزاء ( ًمثال 5 ):",
+          "fullExplanation": "Topic: الغابة العشوائية topic 3\nSource: الغابة العشوائية\nMemorize this exact idea: نقسم البيانات إلى K أجزاء ( ًمثال 5 ):",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: نقسم البيانات إلى K ____",
+          "choices": [
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ",
+            "أجزاء ( ًمثال 5 ):",
+            "- معهد دكنس – تعلم االله بإشراف",
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 3.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 3\nWhy: نقسم البيانات إلى K أجزاء ( ًمثال 5 ):",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الغابة العشوائية topic 4?",
+          "choices": [
+            "لفهم أي المتغيرات تؤثر أكثر في النموذج .",
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف",
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: لفهم أي المتغيرات تؤثر أكثر في النموذج .",
+          "fullExplanation": "Topic: الغابة العشوائية topic 4\nSource: الغابة العشوائية\nMemorize this exact idea: لفهم أي المتغيرات تؤثر أكثر في النموذج .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: لفهم أي المتغيرات تؤثر ____",
+          "choices": [
+            "- معهد دكنس – تعلم االله بإشراف",
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ",
+            "تؤثر أكثر في النموذج "
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 4.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 4\nWhy: لفهم أي المتغيرات تؤثر أكثر في النموذج .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about في الغابة العشوائية، يتم حساب أهمية كل Feature بناء ً على?",
+          "choices": [
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر .",
+            "في الغابة العشوائية، يتم حساب أهمية كل Feature بناء ً على :",
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: في الغابة العشوائية، يتم حساب أهمية كل Feature بناء ً على :",
+          "fullExplanation": "Topic: الغابة العشوائية topic 4\nSource: الغابة العشوائية\nMemorize this exact idea: في الغابة العشوائية، يتم حساب أهمية كل Feature بناء ً على :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: في الغابة العشوائية، يتم حساب ____",
+          "choices": [
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ",
+            "أهمية كل Feature بناء ً على :",
+            "- معهد دكنس – تعلم االله بإشراف",
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 4.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 4\nWhy: في الغابة العشوائية، يتم حساب أهمية كل Feature بناء ً على :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الغابة العشوائية topic 5?",
+          "choices": [
+            "نموذج قوي، مستقر، وشائع االستخدام في التصنيف واالنحدار .",
+            "د. أمي ن مبارك - معهد دكنس – تعلم االله بإشراف",
+            "Random Forest هي خوارزمية من خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "Learning) ، وتعمل من خالل إنشاء ارعدد كبير من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: نموذج قوي، مستقر، وشائع االستخدام في التصنيف واالنحدار .",
+          "fullExplanation": "Topic: الغابة العشوائية topic 5\nSource: الغابة العشوائية\nMemorize this exact idea: نموذج قوي، مستقر، وشائع االستخدام في التصنيف واالنحدار .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: نموذج قوي، مستقر، وشائع ____",
+          "choices": [
+            "- معهد دكنس – تعلم االله بإشراف",
+            "خوارزميات التعلم اآللي تعتمد على التعلم التجميعي (Ensemble",
+            "من أشجار القر ار أدقثم دمج نتائجها للحصول على قر ",
+            "االستخدام في التصنيف واالنحدار "
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for الغابة العشوائية topic 5.",
+          "fullExplanation": "Source: الغابة العشوائية\nTopic: الغابة العشوائية topic 5\nWhy: نموذج قوي، مستقر، وشائع االستخدام في التصنيف واالنحدار .",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "06-مثال-تطبيقي-لخوارزمية-الغابة-العشوائية",
+      "kind": "Closed Memorization Exam",
+      "title": "مثال تطبيقي لخوارزمية الغابة العشوائية",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about مثال تطبيقي لخوارزمية الغابة العشوائية?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+            "مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "Iris Dataset هورتحتوي على ثالث أنواع من الز",
+            "الهدف: التنبؤ بنوع الزهرة باستخدام خوازمية Random forest"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+          "fullExplanation": "Topic: مثال تطبيقي لخوارزمية الغابة العشوائية\nSource: مثال تطبيقي لخوارزمية الغابة العشوائية\nMemorize this exact idea: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د. أمي ن مبارك ____",
+          "choices": [
+            "عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "على ثالث أنواع من الز",
+            "التنبؤ بنوع الزهرة باستخدام خوازمية Random forest",
+            "األمين – الذكاء االصطناعي وتعلم االل ه"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for مثال تطبيقي لخوارزمية الغابة العشوائية.",
+          "fullExplanation": "Source: مثال تطبيقي لخوارزمية الغابة العشوائية\nTopic: مثال تطبيقي لخوارزمية الغابة العشوائية\nWhy: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about مثال تطبيقي لخوارزمية الغابة العشوائية?",
+          "choices": [
+            "Iris Dataset هورتحتوي على ثالث أنواع من الز",
+            "الهدف: التنبؤ بنوع الزهرة باستخدام خوازمية Random forest",
+            "مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+          "fullExplanation": "Topic: مثال تطبيقي لخوارزمية الغابة العشوائية\nSource: مثال تطبيقي لخوارزمية الغابة العشوائية\nMemorize this exact idea: مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: مثال عملي يوضح خوارزمية الغابة العشوائية في ____",
+          "choices": [
+            "التنبؤ بنوع الزهرة باستخدام خوازمية Random forest",
+            "عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "األمين – الذكاء االصطناعي وتعلم االل ه",
+            "على ثالث أنواع من الز"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for مثال تطبيقي لخوارزمية الغابة العشوائية.",
+          "fullExplanation": "Source: مثال تطبيقي لخوارزمية الغابة العشوائية\nTopic: مثال تطبيقي لخوارزمية الغابة العشوائية\nWhy: مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about إنشاء النموذج?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+            "مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "Iris Dataset هورتحتوي على ثالث أنواع من الز",
+            "الهدف: التنبؤ بنوع الزهرة باستخدام خوازمية Random forest"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+          "fullExplanation": "Topic: إنشاء النموذج\nSource: مثال تطبيقي لخوارزمية الغابة العشوائية\nMemorize this exact idea: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الدقة?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+            "مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "Iris Dataset هورتحتوي على ثالث أنواع من الز",
+            "new_flower [[ = 5.1 , 3.5 , 1.4 , 0.2 ]]"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Correct: new_flower [[ = 5.1 , 3.5 , 1.4 , 0.2 ]]",
+          "fullExplanation": "Topic: الدقة\nSource: مثال تطبيقي لخوارزمية الغابة العشوائية\nMemorize this exact idea: new_flower [[ = 5.1 , 3.5 , 1.4 , 0.2 ]]",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: new_flower [[ = 5.1 ____",
+          "choices": [
+            "عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "على ثالث أنواع من الز",
+            ", 3.5 , 1.4 , 0.2 ]]",
+            "األمين – الذكاء االصطناعي وتعلم االل ه"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "This statement is correct for الدقة.",
+          "fullExplanation": "Source: مثال تطبيقي لخوارزمية الغابة العشوائية\nTopic: الدقة\nWhy: new_flower [[ = 5.1 , 3.5 , 1.4 , 0.2 ]]",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about نتيجة التنبوء?",
+          "choices": [
+            "الهدف: التنبؤ بنوع الزهرة باستخدام خوازمية Random forest",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+            "مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "Iris Dataset هورتحتوي على ثالث أنواع من الز"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+          "fullExplanation": "Topic: نتيجة التنبوء\nSource: مثال تطبيقي لخوارزمية الغابة العشوائية\nMemorize this exact idea: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about نتيجة التنبوء?",
+          "choices": [
+            "بدون هذا الرقم → النتائج تختلف كل مرة",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االل ه",
+            "مثال عملي يوضح خوارزمية الغابة العشوائية في عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "Iris Dataset هورتحتوي على ثالث أنواع من الز"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: بدون هذا الرقم → النتائج تختلف كل مرة",
+          "fullExplanation": "Topic: نتيجة التنبوء\nSource: مثال تطبيقي لخوارزمية الغابة العشوائية\nMemorize this exact idea: بدون هذا الرقم → النتائج تختلف كل مرة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: بدون هذا الرقم → ____",
+          "choices": [
+            "األمين – الذكاء االصطناعي وتعلم االل ه",
+            "عملية التنبؤ بتصنيف قاعدة بي ا ة السوسنهرنات ز",
+            "على ثالث أنواع من الز",
+            "→ النتائج تختلف كل مرة"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for نتيجة التنبوء.",
+          "fullExplanation": "Source: مثال تطبيقي لخوارزمية الغابة العشوائية\nTopic: نتيجة التنبوء\nWhy: بدون هذا الرقم → النتائج تختلف كل مرة",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "07-تقييم-نماذج-الانحدار-1",
+      "kind": "Closed Memorization Exam",
+      "title": "تقييم نماذج الانحدار 1",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج الانحدار 1 topic 1?",
+          "choices": [
+            "يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+            "هذه النتائج تشير إلى أن النموذج ًقوي جدا بشكل عام .",
+            "يعني التوقعات قريبة جدا ً من القيم الحقيقية"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+          "fullExplanation": "Topic: تقييم نماذج الانحدار 1 topic 1\nSource: تقييم نماذج الانحدار 1\nMemorize this exact idea: يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة ____",
+          "choices": [
+            "الكبيرة لما األخطاء الكبيرة خطيرة",
+            "أن النموذج ًقوي جدا بشكل عام ",
+            "جدا ً من القيم الحقيقية",
+            "بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for تقييم نماذج الانحدار 1 topic 1.",
+          "fullExplanation": "Source: تقييم نماذج الانحدار 1\nTopic: تقييم نماذج الانحدار 1 topic 1\nWhy: يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج الانحدار 1 topic 1?",
+          "choices": [
+            "هذه النتائج تشير إلى أن النموذج ًقوي جدا بشكل عام .",
+            "يعني التوقعات قريبة جدا ً من القيم الحقيقية",
+            "MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+            "يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+          "fullExplanation": "Topic: تقييم نماذج الانحدار 1 topic 1\nSource: تقييم نماذج الانحدار 1\nMemorize this exact idea: MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: MSE يعاقب األخطاء الكبيرة ____",
+          "choices": [
+            "جدا ً من القيم الحقيقية",
+            "الكبيرة لما األخطاء الكبيرة خطيرة",
+            "بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "أن النموذج ًقوي جدا بشكل عام "
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for تقييم نماذج الانحدار 1 topic 1.",
+          "fullExplanation": "Source: تقييم نماذج الانحدار 1\nTopic: تقييم نماذج الانحدار 1 topic 1\nWhy: MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج الانحدار 1 topic 2?",
+          "choices": [
+            "✔ ال توجد أخطاء كبيرة (MSE منخفض )",
+            "يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+            "هذه النتائج تشير إلى أن النموذج ًقوي جدا بشكل عام ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: ✔ ال توجد أخطاء كبيرة (MSE منخفض )",
+          "fullExplanation": "Topic: تقييم نماذج الانحدار 1 topic 2\nSource: تقييم نماذج الانحدار 1\nMemorize this exact idea: ✔ ال توجد أخطاء كبيرة (MSE منخفض )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ ال توجد أخطاء ____",
+          "choices": [
+            "بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "الكبيرة لما األخطاء الكبيرة خطيرة",
+            "أن النموذج ًقوي جدا بشكل عام ",
+            "أخطاء كبيرة (MSE منخفض )"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for تقييم نماذج الانحدار 1 topic 2.",
+          "fullExplanation": "Source: تقييم نماذج الانحدار 1\nTopic: تقييم نماذج الانحدار 1 topic 2\nWhy: ✔ ال توجد أخطاء كبيرة (MSE منخفض )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج الانحدار 1 topic 2?",
+          "choices": [
+            "MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+            "هذه النتائج تشير إلى أن النموذج ًقوي جدا بشكل عام .",
+            "✔ النموذج يفسّر البيانات بشكل قوي (R² عالي )",
+            "يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: ✔ النموذج يفسّر البيانات بشكل قوي (R² عالي )",
+          "fullExplanation": "Topic: تقييم نماذج الانحدار 1 topic 2\nSource: تقييم نماذج الانحدار 1\nMemorize this exact idea: ✔ النموذج يفسّر البيانات بشكل قوي (R² عالي )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ النموذج يفسّر البيانات ____",
+          "choices": [
+            "أن النموذج ًقوي جدا بشكل عام ",
+            "بشكل قوي (R² عالي )",
+            "بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "الكبيرة لما األخطاء الكبيرة خطيرة"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for تقييم نماذج الانحدار 1 topic 2.",
+          "fullExplanation": "Source: تقييم نماذج الانحدار 1\nTopic: تقييم نماذج الانحدار 1 topic 2\nWhy: ✔ النموذج يفسّر البيانات بشكل قوي (R² عالي )",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "08-تقييم-نماذج-الانحدار",
+      "kind": "Closed Memorization Exam",
+      "title": "تقييم نماذج الانحدار",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج الانحدار topic 1?",
+          "choices": [
+            "يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+            "هذه النتائج تشير إلى أن النموذج ًقوي جدا بشكل عام .",
+            "يعني التوقعات قريبة جدا ً من القيم الحقيقية"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+          "fullExplanation": "Topic: تقييم نماذج الانحدار topic 1\nSource: تقييم نماذج الانحدار\nMemorize this exact idea: يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة ____",
+          "choices": [
+            "الكبيرة لما األخطاء الكبيرة خطيرة",
+            "أن النموذج ًقوي جدا بشكل عام ",
+            "جدا ً من القيم الحقيقية",
+            "بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for تقييم نماذج الانحدار topic 1.",
+          "fullExplanation": "Source: تقييم نماذج الانحدار\nTopic: تقييم نماذج الانحدار topic 1\nWhy: يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج الانحدار topic 1?",
+          "choices": [
+            "هذه النتائج تشير إلى أن النموذج ًقوي جدا بشكل عام .",
+            "يعني التوقعات قريبة جدا ً من القيم الحقيقية",
+            "MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+            "يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+          "fullExplanation": "Topic: تقييم نماذج الانحدار topic 1\nSource: تقييم نماذج الانحدار\nMemorize this exact idea: MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: MSE يعاقب األخطاء الكبيرة ____",
+          "choices": [
+            "جدا ً من القيم الحقيقية",
+            "الكبيرة لما األخطاء الكبيرة خطيرة",
+            "بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "أن النموذج ًقوي جدا بشكل عام "
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for تقييم نماذج الانحدار topic 1.",
+          "fullExplanation": "Source: تقييم نماذج الانحدار\nTopic: تقييم نماذج الانحدار topic 1\nWhy: MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج الانحدار topic 2?",
+          "choices": [
+            "✔ ال توجد أخطاء كبيرة (MSE منخفض )",
+            "يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+            "هذه النتائج تشير إلى أن النموذج ًقوي جدا بشكل عام ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: ✔ ال توجد أخطاء كبيرة (MSE منخفض )",
+          "fullExplanation": "Topic: تقييم نماذج الانحدار topic 2\nSource: تقييم نماذج الانحدار\nMemorize this exact idea: ✔ ال توجد أخطاء كبيرة (MSE منخفض )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ ال توجد أخطاء ____",
+          "choices": [
+            "بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "الكبيرة لما األخطاء الكبيرة خطيرة",
+            "أن النموذج ًقوي جدا بشكل عام ",
+            "أخطاء كبيرة (MSE منخفض )"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for تقييم نماذج الانحدار topic 2.",
+          "fullExplanation": "Source: تقييم نماذج الانحدار\nTopic: تقييم نماذج الانحدار topic 2\nWhy: ✔ ال توجد أخطاء كبيرة (MSE منخفض )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج الانحدار topic 2?",
+          "choices": [
+            "MSE يعاقب األخطاء الكبيرة لما األخطاء الكبيرة خطيرة",
+            "هذه النتائج تشير إلى أن النموذج ًقوي جدا بشكل عام .",
+            "✔ النموذج يفسّر البيانات بشكل قوي (R² عالي )",
+            "يختلف عن التصنيف ألنه يتعامل مع قيم عددية مستمرة بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: ✔ النموذج يفسّر البيانات بشكل قوي (R² عالي )",
+          "fullExplanation": "Topic: تقييم نماذج الانحدار topic 2\nSource: تقييم نماذج الانحدار\nMemorize this exact idea: ✔ النموذج يفسّر البيانات بشكل قوي (R² عالي )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ النموذج يفسّر البيانات ____",
+          "choices": [
+            "أن النموذج ًقوي جدا بشكل عام ",
+            "بشكل قوي (R² عالي )",
+            "بدل فئات. الهدف هو قياس “كم الفرق” بين القيم الحقيقية والمتوقعة",
+            "الكبيرة لما األخطاء الكبيرة خطيرة"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for تقييم نماذج الانحدار topic 2.",
+          "fullExplanation": "Source: تقييم نماذج الانحدار\nTopic: تقييم نماذج الانحدار topic 2\nWhy: ✔ النموذج يفسّر البيانات بشكل قوي (R² عالي )",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "09-تقييم-نماذج-التصنيف",
+      "kind": "Closed Memorization Exam",
+      "title": "تقييم نماذج التصنيف",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج التصنيف topic 1?",
+          "choices": [
+            "د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "تقيس نسبة التوقعات الصحيحة من كل البيانات :",
+            "كم نسبة الحاالت اإليجابية التي اكتشفها النموذج :"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: تقييم نماذج التصنيف topic 1\nSource: تقييم نماذج التصنيف\nMemorize this exact idea: د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د.امين مبارك األمين – ____",
+          "choices": [
+            "خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "الصحيحة من كل البيانات :",
+            "اإليجابية التي اكتشفها النموذج :",
+            "– الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for تقييم نماذج التصنيف topic 1.",
+          "fullExplanation": "Source: تقييم نماذج التصنيف\nTopic: تقييم نماذج التصنيف topic 1\nWhy: د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج التصنيف topic 1?",
+          "choices": [
+            "تقيس نسبة التوقعات الصحيحة من كل البيانات :",
+            "كم نسبة الحاالت اإليجابية التي اكتشفها النموذج :",
+            "تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+          "fullExplanation": "Topic: تقييم نماذج التصنيف topic 1\nSource: تقييم نماذج التصنيف\nMemorize this exact idea: تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: تقييم نماذ ج التصنيف (Classification Evaluation) هو ____",
+          "choices": [
+            "اإليجابية التي اكتشفها النموذج :",
+            "خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "– الذكاء االصطناعي وتعلم االله",
+            "الصحيحة من كل البيانات :"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for تقييم نماذج التصنيف topic 1.",
+          "fullExplanation": "Source: تقييم نماذج التصنيف\nTopic: تقييم نماذج التصنيف topic 1\nWhy: تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about بدل تقييم النموذج مرة واحدة، نقسم البيانات عدة مرات?",
+          "choices": [
+            "بدل تقييم النموذج مرة واحدة، نقسم البيانات عدة مرات :",
+            "د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "تقيس نسبة التوقعات الصحيحة من كل البيانات :"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: بدل تقييم النموذج مرة واحدة، نقسم البيانات عدة مرات :",
+          "fullExplanation": "Topic: تقييم نماذج التصنيف topic 2\nSource: تقييم نماذج التصنيف\nMemorize this exact idea: بدل تقييم النموذج مرة واحدة، نقسم البيانات عدة مرات :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: بدل تقييم النموذج مرة ____",
+          "choices": [
+            "– الذكاء االصطناعي وتعلم االله",
+            "خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "الصحيحة من كل البيانات :",
+            "واحدة، نقسم البيانات عدة مرات :"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for تقييم نماذج التصنيف topic 2.",
+          "fullExplanation": "Source: تقييم نماذج التصنيف\nTopic: تقييم نماذج التصنيف topic 2\nWhy: بدل تقييم النموذج مرة واحدة، نقسم البيانات عدة مرات :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج التصنيف topic 2?",
+          "choices": [
+            "تقيس نسبة التوقعات الصحيحة من كل البيانات :",
+            "كم نسبة الحاالت اإليجابية التي اكتشفها النموذج :",
+            "د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: تقييم نماذج التصنيف topic 2\nSource: تقييم نماذج التصنيف\nMemorize this exact idea: د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج التصنيف topic 3?",
+          "choices": [
+            "كم نسبة الحاالت اإليجابية التي اكتشفها النموذج :",
+            "د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "تقيس نسبة التوقعات الصحيحة من كل البيانات :"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Correct: د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "fullExplanation": "Topic: تقييم نماذج التصنيف topic 3\nSource: تقييم نماذج التصنيف\nMemorize this exact idea: د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج التصنيف topic 3?",
+          "choices": [
+            "✔ كل ما تنبأ النموذج بأنه 1 كان صحيح 100 %",
+            "د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "تقيس نسبة التوقعات الصحيحة من كل البيانات :"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: ✔ كل ما تنبأ النموذج بأنه 1 كان صحيح 100 %",
+          "fullExplanation": "Topic: تقييم نماذج التصنيف topic 3\nSource: تقييم نماذج التصنيف\nMemorize this exact idea: ✔ كل ما تنبأ النموذج بأنه 1 كان صحيح 100 %",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ كل ما تنبأ ____",
+          "choices": [
+            "– الذكاء االصطناعي وتعلم االله",
+            "خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "الصحيحة من كل البيانات :",
+            "النموذج بأنه 1 كان صحيح 100 %"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for تقييم نماذج التصنيف topic 3.",
+          "fullExplanation": "Source: تقييم نماذج التصنيف\nTopic: تقييم نماذج التصنيف topic 3\nWhy: ✔ كل ما تنبأ النموذج بأنه 1 كان صحيح 100 %",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about الحالة 2?",
+          "choices": [
+            "تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "تقيس نسبة التوقعات الصحيحة من كل البيانات :",
+            "الحالة 2 : إذا المشكلة مثل كشف Spam",
+            "د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: الحالة 2 : إذا المشكلة مثل كشف Spam",
+          "fullExplanation": "Topic: تقييم نماذج التصنيف topic 4\nSource: تقييم نماذج التصنيف\nMemorize this exact idea: الحالة 2 : إذا المشكلة مثل كشف Spam",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: الحالة 2 : ____",
+          "choices": [
+            "الصحيحة من كل البيانات :",
+            "إذا المشكلة مثل كشف Spam",
+            "– الذكاء االصطناعي وتعلم االله",
+            "خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for تقييم نماذج التصنيف topic 4.",
+          "fullExplanation": "Source: تقييم نماذج التصنيف\nTopic: تقييم نماذج التصنيف topic 4\nWhy: الحالة 2 : إذا المشكلة مثل كشف Spam",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about تقييم نماذج التصنيف topic 4?",
+          "choices": [
+            "o ال يخطئ في اإليجابي (Precision عالي )",
+            "د.امين مبارك األمين – الذكاء االصطناعي وتعلم االله",
+            "تقييم نماذ ج التصنيف (Classification Evaluation) هو خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "تقيس نسبة التوقعات الصحيحة من كل البيانات :"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: o ال يخطئ في اإليجابي (Precision عالي )",
+          "fullExplanation": "Topic: تقييم نماذج التصنيف topic 4\nSource: تقييم نماذج التصنيف\nMemorize this exact idea: o ال يخطئ في اإليجابي (Precision عالي )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: o ال يخطئ في ____",
+          "choices": [
+            "– الذكاء االصطناعي وتعلم االله",
+            "خطوة أساسية لمعرفة مدى جودة النموذج في التنبؤ بالفئات",
+            "الصحيحة من كل البيانات :",
+            "في اإليجابي (Precision عالي )"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for تقييم نماذج التصنيف topic 4.",
+          "fullExplanation": "Source: تقييم نماذج التصنيف\nTopic: تقييم نماذج التصنيف topic 4\nWhy: o ال يخطئ في اإليجابي (Precision عالي )",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "10-طرق-تحسين-النموذج-1",
+      "kind": "Closed Memorization Exam",
+      "title": "طرق تحسين النموذج 1",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 1 topic 1?",
+          "choices": [
+            "تحسين النماذج ( Model Improvement / Model Optimization ) يعني رفع دقة النموذج",
+            "وكفاءته وتقليل األخطاء مثل Overfitting و Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+            "✔ تنظيف البيانات ( القيم المفقودة – القيم الشاذة ) ( Outliers )",
+            "✔ ال يتم أي تغيير على البيانات هنا بعد"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: تحسين النماذج ( Model Improvement / Model Optimization ) يعني رفع دقة النموذج",
+          "fullExplanation": "Topic: طرق تحسين النموذج 1 topic 1\nSource: طرق تحسين النموذج 1\nMemorize this exact idea: تحسين النماذج ( Model Improvement / Model Optimization ) يعني رفع دقة النموذج",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: تحسين النماذج ( Model Improvement ____",
+          "choices": [
+            "Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+            "المفقودة – القيم الشاذة ) ( Outliers )",
+            "تغيير على البيانات هنا بعد",
+            "/ Model Optimization ) يعني رفع دقة النموذج"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 1 topic 1.",
+          "fullExplanation": "Source: طرق تحسين النموذج 1\nTopic: طرق تحسين النموذج 1 topic 1\nWhy: تحسين النماذج ( Model Improvement / Model Optimization ) يعني رفع دقة النموذج",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 1 topic 1?",
+          "choices": [
+            "✔ تنظيف البيانات ( القيم المفقودة – القيم الشاذة ) ( Outliers )",
+            "✔ ال يتم أي تغيير على البيانات هنا بعد",
+            "وكفاءته وتقليل األخطاء مثل Overfitting و Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+            "تحسين النماذج ( Model Improvement / Model Optimization ) يعني رفع دقة النموذج"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: وكفاءته وتقليل األخطاء مثل Overfitting و Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+          "fullExplanation": "Topic: طرق تحسين النموذج 1 topic 1\nSource: طرق تحسين النموذج 1\nMemorize this exact idea: وكفاءته وتقليل األخطاء مثل Overfitting و Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: وكفاءته وتقليل األخطاء مثل Overfitting و ____",
+          "choices": [
+            "تغيير على البيانات هنا بعد",
+            "Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+            "/ Model Optimization ) يعني رفع دقة النموذج",
+            "المفقودة – القيم الشاذة ) ( Outliers )"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 1 topic 1.",
+          "fullExplanation": "Source: طرق تحسين النموذج 1\nTopic: طرق تحسين النموذج 1 topic 1\nWhy: وكفاءته وتقليل األخطاء مثل Overfitting و Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 1 topic 2?",
+          "choices": [
+            "✔ تُستخدم للبحث عن أفضل معامالت (Hyperparameters) للنموذج",
+            "تحسين النماذج ( Model Improvement / Model Optimization ) يعني رفع دقة النموذج",
+            "وكفاءته وتقليل األخطاء مثل Overfitting و Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+            "✔ تنظيف البيانات ( القيم المفقودة – القيم الشاذة ) ( Outliers )"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: ✔ تُستخدم للبحث عن أفضل معامالت (Hyperparameters) للنموذج",
+          "fullExplanation": "Topic: طرق تحسين النموذج 1 topic 2\nSource: طرق تحسين النموذج 1\nMemorize this exact idea: ✔ تُستخدم للبحث عن أفضل معامالت (Hyperparameters) للنموذج",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ تُستخدم للبحث عن ____",
+          "choices": [
+            "/ Model Optimization ) يعني رفع دقة النموذج",
+            "Underfitting ع أساسي في، وهو موضو تعلم اآللة",
+            "المفقودة – القيم الشاذة ) ( Outliers )",
+            "عن أفضل معامالت (Hyperparameters) للنموذج"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 1 topic 2.",
+          "fullExplanation": "Source: طرق تحسين النموذج 1\nTopic: طرق تحسين النموذج 1 topic 2\nWhy: ✔ تُستخدم للبحث عن أفضل معامالت (Hyperparameters) للنموذج",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "11-طرق-تحسين-النموذج-2",
+      "kind": "Closed Memorization Exam",
+      "title": "طرق تحسين النموذج 2",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about د. أمي ن مبارك?",
+          "choices": [
+            "د. أمي ن مبارك - دورة تعلم االله بإشراف",
+            "✔ تُستخدم لتقييم النموذج باستخدام التحقق المتقاطع (Cross Validation)",
+            "تقسيم البيانات إلى k اءأجز ( هنا k = 5)",
+            "✔ كل قيمة تمثل دقة النموذج في طية واحدة"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك - دورة تعلم االله بإشراف",
+          "fullExplanation": "Topic: طرق تحسين النموذج 2 topic 1\nSource: طرق تحسين النموذج 2\nMemorize this exact idea: د. أمي ن مبارك - دورة تعلم االله بإشراف",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د. أمي ن مبارك ____",
+          "choices": [
+            "باستخدام التحقق المتقاطع (Cross Validation)",
+            "اءأجز ( هنا k = 5)",
+            "دقة النموذج في طية واحدة",
+            "- دورة تعلم االله بإشراف"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 2 topic 1.",
+          "fullExplanation": "Source: طرق تحسين النموذج 2\nTopic: طرق تحسين النموذج 2 topic 1\nWhy: د. أمي ن مبارك - دورة تعلم االله بإشراف",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 2 topic 1?",
+          "choices": [
+            "تقسيم البيانات إلى k اءأجز ( هنا k = 5)",
+            "✔ كل قيمة تمثل دقة النموذج في طية واحدة",
+            "✔ تُستخدم لتقييم النموذج باستخدام التحقق المتقاطع (Cross Validation)",
+            "د. أمي ن مبارك - دورة تعلم االله بإشراف"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: ✔ تُستخدم لتقييم النموذج باستخدام التحقق المتقاطع (Cross Validation)",
+          "fullExplanation": "Topic: طرق تحسين النموذج 2 topic 1\nSource: طرق تحسين النموذج 2\nMemorize this exact idea: ✔ تُستخدم لتقييم النموذج باستخدام التحقق المتقاطع (Cross Validation)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ تُستخدم لتقييم النموذج ____",
+          "choices": [
+            "دقة النموذج في طية واحدة",
+            "باستخدام التحقق المتقاطع (Cross Validation)",
+            "- دورة تعلم االله بإشراف",
+            "اءأجز ( هنا k = 5)"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 2 topic 1.",
+          "fullExplanation": "Source: طرق تحسين النموذج 2\nTopic: طرق تحسين النموذج 2 topic 1\nWhy: ✔ تُستخدم لتقييم النموذج باستخدام التحقق المتقاطع (Cross Validation)",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 2 topic 2?",
+          "choices": [
+            "✔ يتم التدريب من جديد في كل طية",
+            "د. أمي ن مبارك - دورة تعلم االله بإشراف",
+            "✔ تُستخدم لتقييم النموذج باستخدام التحقق المتقاطع (Cross Validation)",
+            "تقسيم البيانات إلى k اءأجز ( هنا k = 5)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: ✔ يتم التدريب من جديد في كل طية",
+          "fullExplanation": "Topic: طرق تحسين النموذج 2 topic 2\nSource: طرق تحسين النموذج 2\nMemorize this exact idea: ✔ يتم التدريب من جديد في كل طية",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ يتم التدريب من ____",
+          "choices": [
+            "- دورة تعلم االله بإشراف",
+            "باستخدام التحقق المتقاطع (Cross Validation)",
+            "اءأجز ( هنا k = 5)",
+            "من جديد في كل طية"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 2 topic 2.",
+          "fullExplanation": "Source: طرق تحسين النموذج 2\nTopic: طرق تحسين النموذج 2 topic 2\nWhy: ✔ يتم التدريب من جديد في كل طية",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 2 topic 2?",
+          "choices": [
+            "✔ تُستخدم لتقييم النموذج باستخدام التحقق المتقاطع (Cross Validation)",
+            "تقسيم البيانات إلى k اءأجز ( هنا k = 5)",
+            "✔ ال يحدث Data Leakage إذا استُخدم بشكل صحيح",
+            "د. أمي ن مبارك - دورة تعلم االله بإشراف"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: ✔ ال يحدث Data Leakage إذا استُخدم بشكل صحيح",
+          "fullExplanation": "Topic: طرق تحسين النموذج 2 topic 2\nSource: طرق تحسين النموذج 2\nMemorize this exact idea: ✔ ال يحدث Data Leakage إذا استُخدم بشكل صحيح",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ✔ ال يحدث Data ____",
+          "choices": [
+            "اءأجز ( هنا k = 5)",
+            "Leakage إذا استُخدم بشكل صحيح",
+            "- دورة تعلم االله بإشراف",
+            "باستخدام التحقق المتقاطع (Cross Validation)"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 2 topic 2.",
+          "fullExplanation": "Source: طرق تحسين النموذج 2\nTopic: طرق تحسين النموذج 2 topic 2\nWhy: ✔ ال يحدث Data Leakage إذا استُخدم بشكل صحيح",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about أحيانًا تغيير الخوارزمية نفسها يعطي نتيجة أفضل?",
+          "choices": [
+            "أحيانًا تغيير الخوارزمية نفسها يعطي نتيجة أفضل :",
+            "د. أمي ن مبارك - دورة تعلم االله بإشراف",
+            "✔ تُستخدم لتقييم النموذج باستخدام التحقق المتقاطع (Cross Validation)",
+            "تقسيم البيانات إلى k اءأجز ( هنا k = 5)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: أحيانًا تغيير الخوارزمية نفسها يعطي نتيجة أفضل :",
+          "fullExplanation": "Topic: طرق تحسين النموذج 2 topic 3\nSource: طرق تحسين النموذج 2\nMemorize this exact idea: أحيانًا تغيير الخوارزمية نفسها يعطي نتيجة أفضل :",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: أحيانًا تغيير الخوارزمية نفسها ____",
+          "choices": [
+            "- دورة تعلم االله بإشراف",
+            "باستخدام التحقق المتقاطع (Cross Validation)",
+            "اءأجز ( هنا k = 5)",
+            "نفسها يعطي نتيجة أفضل :"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 2 topic 3.",
+          "fullExplanation": "Source: طرق تحسين النموذج 2\nTopic: طرق تحسين النموذج 2 topic 3\nWhy: أحيانًا تغيير الخوارزمية نفسها يعطي نتيجة أفضل :",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    },
+    {
+      "id": "12-طرق-تحسين-النموذج-3",
+      "kind": "Closed Memorization Exam",
+      "title": "طرق تحسين النموذج 3",
+      "description": "Closed questions covering the titles, subtitles, and facts found in this Markdown source.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 3 topic 1?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+            "هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى .",
+            "ارة: النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر .",
+            "يجعل النموذج أكثر ًااراستقر عند التعامل مع بيانات جديدة"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+          "fullExplanation": "Topic: طرق تحسين النموذج 3 topic 1\nSource: طرق تحسين النموذج 3\nMemorize this exact idea: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: د. أمي ن مبارك ____",
+          "choices": [
+            "(Model) للحصول على نموذج واحد أقوى ",
+            "النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر ",
+            "عند التعامل مع بيانات جديدة",
+            "األمين – الذكاء االصطناعي وتعلم االلة"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 3 topic 1.",
+          "fullExplanation": "Source: طرق تحسين النموذج 3\nTopic: طرق تحسين النموذج 3 topic 1\nWhy: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 3 topic 1?",
+          "choices": [
+            "ارة: النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر .",
+            "يجعل النموذج أكثر ًااراستقر عند التعامل مع بيانات جديدة",
+            "هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى .",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى .",
+          "fullExplanation": "Topic: طرق تحسين النموذج 3 topic 1\nSource: طرق تحسين النموذج 3\nMemorize this exact idea: هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: هو دمج أكثر من نموذج ____",
+          "choices": [
+            "عند التعامل مع بيانات جديدة",
+            "(Model) للحصول على نموذج واحد أقوى ",
+            "األمين – الذكاء االصطناعي وتعلم االلة",
+            "النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر "
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 3 topic 1.",
+          "fullExplanation": "Source: طرق تحسين النموذج 3\nTopic: طرق تحسين النموذج 3 topic 1\nWhy: هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى .",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 3 topic 2?",
+          "choices": [
+            "Stacking استخدام عدة نماذج مختلفة ثم دمج نتائجها بنموذج آخر Logistic Regression كـ",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+            "هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى .",
+            "ارة: النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر ."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Correct: Stacking استخدام عدة نماذج مختلفة ثم دمج نتائجها بنموذج آخر Logistic Regression كـ",
+          "fullExplanation": "Topic: طرق تحسين النموذج 3 topic 2\nSource: طرق تحسين النموذج 3\nMemorize this exact idea: Stacking استخدام عدة نماذج مختلفة ثم دمج نتائجها بنموذج آخر Logistic Regression كـ",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: Stacking استخدام عدة نماذج مختلفة ____",
+          "choices": [
+            "األمين – الذكاء االصطناعي وتعلم االلة",
+            "(Model) للحصول على نموذج واحد أقوى ",
+            "النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر ",
+            "ثم دمج نتائجها بنموذج آخر Logistic Regression كـ"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 3 topic 2.",
+          "fullExplanation": "Source: طرق تحسين النموذج 3\nTopic: طرق تحسين النموذج 3 topic 2\nWhy: Stacking استخدام عدة نماذج مختلفة ثم دمج نتائجها بنموذج آخر Logistic Regression كـ",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 3 topic 2?",
+          "choices": [
+            "ارة: النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر .",
+            "يجعل النموذج أكثر ًااراستقر عند التعامل مع بيانات جديدة",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+            "هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى ."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+          "fullExplanation": "Topic: طرق تحسين النموذج 3 topic 2\nSource: طرق تحسين النموذج 3\nMemorize this exact idea: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 3 topic 3?",
+          "choices": [
+            "ارة: النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر .",
+            "اد العددكلما ز → دقة أعلى ( حتى حد معين )",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+            "هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى ."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Correct: اد العددكلما ز → دقة أعلى ( حتى حد معين )",
+          "fullExplanation": "Topic: طرق تحسين النموذج 3 topic 3\nSource: طرق تحسين النموذج 3\nMemorize this exact idea: اد العددكلما ز → دقة أعلى ( حتى حد معين )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: اد العددكلما ز → ____",
+          "choices": [
+            "دقة أعلى ( حتى حد معين )",
+            "األمين – الذكاء االصطناعي وتعلم االلة",
+            "(Model) للحصول على نموذج واحد أقوى ",
+            "النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر "
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 3 topic 3.",
+          "fullExplanation": "Source: طرق تحسين النموذج 3\nTopic: طرق تحسين النموذج 3 topic 3\nWhy: اد العددكلما ز → دقة أعلى ( حتى حد معين )",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 3 topic 3?",
+          "choices": [
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+            "هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى .",
+            "ارة: النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر .",
+            "ةة صغيركل شجر → التباين يقل، النموذج يصبح أكثر ًااراستقر"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Correct: ةة صغيركل شجر → التباين يقل، النموذج يصبح أكثر ًااراستقر",
+          "fullExplanation": "Topic: طرق تحسين النموذج 3 topic 3\nSource: طرق تحسين النموذج 3\nMemorize this exact idea: ةة صغيركل شجر → التباين يقل، النموذج يصبح أكثر ًااراستقر",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: ةة صغيركل شجر → ____",
+          "choices": [
+            "(Model) للحصول على نموذج واحد أقوى ",
+            "النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر ",
+            "التباين يقل، النموذج يصبح أكثر ًااراستقر",
+            "األمين – الذكاء االصطناعي وتعلم االلة"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 3 topic 3.",
+          "fullExplanation": "Source: طرق تحسين النموذج 3\nTopic: طرق تحسين النموذج 3 topic 3\nWhy: ةة صغيركل شجر → التباين يقل، النموذج يصبح أكثر ًااراستقر",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 3 topic 4?",
+          "choices": [
+            "ارة: النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر .",
+            "RandomForestClassifier نموذج Ensemble يعتمد على Bagging + Decision Trees",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+            "هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى ."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Correct: RandomForestClassifier نموذج Ensemble يعتمد على Bagging + Decision Trees",
+          "fullExplanation": "Topic: طرق تحسين النموذج 3 topic 4\nSource: طرق تحسين النموذج 3\nMemorize this exact idea: RandomForestClassifier نموذج Ensemble يعتمد على Bagging + Decision Trees",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Complete the memorized idea: RandomForestClassifier نموذج Ensemble يعتمد ____",
+          "choices": [
+            "على Bagging + Decision Trees",
+            "األمين – الذكاء االصطناعي وتعلم االلة",
+            "(Model) للحصول على نموذج واحد أقوى ",
+            "النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر "
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "This statement is correct for طرق تحسين النموذج 3 topic 4.",
+          "fullExplanation": "Source: طرق تحسين النموذج 3\nTopic: طرق تحسين النموذج 3 topic 4\nWhy: RandomForestClassifier نموذج Ensemble يعتمد على Bagging + Decision Trees",
+          "points": 1,
+          "source": "ai"
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What must you memorize about طرق تحسين النموذج 3 topic 4?",
+          "choices": [
+            "هو دمج أكثر من نموذج (Model) للحصول على نموذج واحد أقوى .",
+            "ارة: النموذج الواحد قد يخطئ، لكن عند الجمع بينهم يمكن تحسين الدقة واالستقرالفكر .",
+            "يجعل النموذج أكثر ًااراستقر عند التعامل مع بيانات جديدة",
+            "د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Correct: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+          "fullExplanation": "Topic: طرق تحسين النموذج 3 topic 4\nSource: طرق تحسين النموذج 3\nMemorize this exact idea: د. أمي ن مبارك األمين – الذكاء االصطناعي وتعلم االلة",
+          "points": 1,
+          "source": "ai"
+        }
+      ]
+    }
+  ]
+}
