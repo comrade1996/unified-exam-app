@@ -19,8 +19,15 @@
         {
           "type": "Single Choice",
           "prompt": "What is the purpose of checking worked solutions after attempting tutorial questions?",
-          "choices": ["To compare reasoning steps and correct mistakes", "To avoid solving any question", "To remove concepts from the course", "To replace all lectures"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "To make the student explore before seeing formal guidance",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "Solutions are useful after attempting the work because they show the correct reasoning path.",
           "points": 1
         }
@@ -35,8 +42,15 @@
         {
           "type": "Single Choice",
           "prompt": "Why does the tutorial ask students to attempt questions before checking answers?",
-          "choices": ["To build understanding before seeing the solution", "To skip practice", "To avoid feedback", "To remove calculations"],
-          "answer": [0],
+          "choices": [
+            "To build understanding before seeing the solution",
+            "To compare reasoning steps and correct mistakes",
+            "It explains the reasoning after the learner tries the exercise",
+            "To make the student explore before seeing formal guidance"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Active attempt makes the solution more meaningful.",
           "points": 1
         }
@@ -51,8 +65,15 @@
         {
           "type": "Single Choice",
           "prompt": "What is the role of a solution workbook in active learning?",
-          "choices": ["It explains the reasoning after the learner tries the exercise", "It removes the need for intuition", "It hides all answers permanently", "It covers only operating systems"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "To make the student explore before seeing formal guidance"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "The workbook supports guided practice and feedback.",
           "points": 1
         }
@@ -67,8 +88,15 @@
         {
           "type": "Single Choice",
           "prompt": "What is the purpose of the 'Try this first' structure?",
-          "choices": ["To make the student explore before seeing formal guidance", "To give the final answer immediately", "To skip the topic", "To test only typing speed"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "To make the student explore before seeing formal guidance",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "The workbook is designed around active-learning attempts before hints or answers.",
           "points": 1
         }
@@ -83,8 +111,15 @@
         {
           "type": "Single Choice",
           "prompt": "Which mathematical foundation is strongly connected to systems of linear equations?",
-          "choices": ["Linear algebra", "Firewall configuration", "Thread scheduling", "File permissions only"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "Linear algebra"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "Systems of linear equations are a central topic in linear algebra.",
           "points": 1
         }
@@ -99,16 +134,30 @@
         {
           "type": "Single Choice",
           "prompt": "Which object represents an ordered list of numbers?",
-          "choices": ["Vector", "Scalar", "Single Boolean flag", "Plain sentence"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "Vector",
+            "Matrix"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "A vector stores several components in an ordered form.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "Which object is arranged in rows and columns?",
-          "choices": ["Matrix", "Scalar", "Derivative symbol", "Single class label"],
-          "answer": [0],
+          "choices": [
+            "To build understanding before seeing the solution",
+            "Matrix",
+            "Vector",
+            "To compare reasoning steps and correct mistakes"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "A matrix is a rectangular array of values.",
           "points": 1
         }
@@ -123,8 +172,15 @@
         {
           "type": "Single Choice",
           "prompt": "When is matrix multiplication AB defined?",
-          "choices": ["When the number of columns of A equals the number of rows of B", "Only when A and B are both scalars", "Only when both matrices are empty", "Always, regardless of size"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "When the number of columns of A equals the number of rows of B",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "The inner dimensions must match for matrix multiplication.",
           "points": 1
         }
@@ -139,8 +195,15 @@
         {
           "type": "Single Choice",
           "prompt": "What is Gaussian elimination used for?",
-          "choices": ["Solving systems of linear equations", "Encrypting passwords", "Drawing web pages", "Scheduling CPU processes"],
-          "answer": [0],
+          "choices": [
+            "Solving systems of linear equations",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Elimination transforms equations to a simpler form for solving.",
           "points": 1
         }
@@ -155,8 +218,15 @@
         {
           "type": "Single Choice",
           "prompt": "What must a subspace be closed under?",
-          "choices": ["Vector addition and scalar multiplication", "Only file deletion", "Only positive integers", "Only screen output"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "Vector addition and scalar multiplication"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "Closure under addition and scalar multiplication is essential for subspaces.",
           "points": 1
         }
@@ -171,16 +241,30 @@
         {
           "type": "Single Choice",
           "prompt": "What does a zero determinant indicate in the lecture notes?",
-          "choices": ["Dimension collapse or rank deficiency", "Perfect invertibility", "No relation to rank", "A probability distribution"],
-          "answer": [0],
+          "choices": [
+            "The matrix is invertible",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "Dimension collapse or rank deficiency"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "The Markdown notes connect zero determinant with dimension collapse.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "What does full rank usually imply for a square matrix?",
-          "choices": ["The matrix is invertible", "The matrix must be all zeros", "The matrix is not usable", "The matrix has no pivots"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "The matrix is invertible",
+            "Dimension collapse or rank deficiency"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "For a square matrix, full rank means the columns are independent and the matrix is invertible.",
           "points": 1
         }
@@ -195,16 +279,30 @@
         {
           "type": "Single Choice",
           "prompt": "In Row Echelon Form, where must all-zero rows appear?",
-          "choices": ["Below all nonzero rows", "Above every row", "Between every pivot", "Only in the first row"],
-          "answer": [0],
+          "choices": [
+            "Each pivot appears to the right of the pivot above it",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "Below all nonzero rows"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "The notes list zero rows below nonzero rows as a REF condition.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "What creates the staircase pattern in Row Echelon Form?",
-          "choices": ["Each pivot appears to the right of the pivot above it", "Every row starts in the same column", "All entries are equal", "All columns are deleted"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "Each pivot appears to the right of the pivot above it",
+            "Below all nonzero rows"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "The pivots move right as you go down the rows.",
           "points": 1
         }
@@ -219,8 +317,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does a norm measure?",
-          "choices": ["The length or magnitude of a vector", "The color of a vector", "The file type", "The number of users"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "The length or magnitude of a vector",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "Norms quantify vector size.",
           "points": 1
         }
@@ -235,8 +340,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does it mean for two vectors to be orthogonal?",
-          "choices": ["Their inner product is zero", "They are always identical", "They have no components", "They cannot be drawn"],
-          "answer": [0],
+          "choices": [
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "Their inner product is zero",
+            "To compare reasoning steps and correct mistakes"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "Orthogonality is expressed by a zero inner product.",
           "points": 1
         }
@@ -251,8 +363,15 @@
         {
           "type": "Single Choice",
           "prompt": "What is Gram-Schmidt used to construct?",
-          "choices": ["An orthogonal or orthonormal set of vectors", "A firewall", "A class constructor", "A page table"],
-          "answer": [0],
+          "choices": [
+            "An orthogonal or orthonormal set of vectors",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Gram-Schmidt turns independent vectors into an orthogonal basis.",
           "points": 1
         }
@@ -267,8 +386,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does a determinant represent geometrically?",
-          "choices": ["Volume or area scaling by a linear transformation", "The number of hidden layers", "The CPU speed", "A password length"],
-          "answer": [0],
+          "choices": [
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "Volume or area scaling by a linear transformation",
+            "To compare reasoning steps and correct mistakes"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "Determinants measure scaling and reveal singularity.",
           "points": 1
         }
@@ -283,8 +409,15 @@
         {
           "type": "Single Choice",
           "prompt": "Why is diagonalization useful?",
-          "choices": ["It can simplify repeated matrix operations", "It removes all eigenvectors", "It makes every matrix zero", "It is unrelated to bases"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "It can simplify repeated matrix operations"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "A diagonal form is easier to work with for powers and transformations.",
           "points": 1
         }
@@ -299,8 +432,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does covariance measure?",
-          "choices": ["How two variables vary together", "Only the maximum value", "Only the number of rows", "A class name in C++"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "How two variables vary together",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "The notes use study hours and exam scores to show joint variation.",
           "points": 1
         }
@@ -315,8 +455,15 @@
         {
           "type": "Single Choice",
           "prompt": "What is the general purpose of matrix decomposition?",
-          "choices": ["Factor a matrix into simpler matrices for analysis or computation", "Delete the matrix", "Convert numbers into text only", "Prevent linear algebra"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "Factor a matrix into simpler matrices for analysis or computation",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "Decompositions expose structure and simplify computations.",
           "points": 1
         }
@@ -331,8 +478,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does SVD decompose a matrix into?",
-          "choices": ["Singular vectors and singular values", "Only random numbers", "Only a determinant", "A firewall rule"],
-          "answer": [0],
+          "choices": [
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "Singular vectors and singular values",
+            "To compare reasoning steps and correct mistakes"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "SVD represents a matrix through directions and scaling strengths.",
           "points": 1
         }
@@ -347,8 +501,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does a gradient indicate?",
-          "choices": ["The direction of steepest increase of a function", "The number of files in a folder", "The final class label only", "The memory address"],
-          "answer": [0],
+          "choices": [
+            "The direction of steepest increase of a function",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Gradients guide optimization algorithms in AI.",
           "points": 1
         }
@@ -363,8 +524,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does the chain rule help compute?",
-          "choices": ["Derivatives of composite functions", "Disk partitions", "Firewall rules", "Class inheritance only"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "Derivatives of composite functions",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "The chain rule is essential for gradients through layered models.",
           "points": 1
         }
@@ -379,8 +547,15 @@
         {
           "type": "Single Choice",
           "prompt": "What is hypothesis testing used for?",
-          "choices": ["Making decisions about a population parameter using sample data", "Drawing class diagrams", "Scheduling threads", "Encrypting files"],
-          "answer": [0],
+          "choices": [
+            "Making decisions about a population parameter using sample data",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Hypothesis testing supports statistical decisions from samples.",
           "points": 1
         }
@@ -395,8 +570,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does a Z-test require in the lecture formula?",
-          "choices": ["Sample mean, claimed population mean, population standard deviation, and sample size", "Only a class name", "Only a password", "Only an image"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "Sample mean, claimed population mean, population standard deviation, and sample size"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "The Z statistic compares the sample mean to a hypothesized mean using standard error.",
           "points": 1
         }
@@ -411,8 +593,15 @@
         {
           "type": "Single Choice",
           "prompt": "What is an optimization objective in machine learning?",
-          "choices": ["A function the model tries to minimize or maximize", "A file name only", "A network cable", "A fixed monitor size"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "A function the model tries to minimize or maximize"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "Learning usually means optimizing an objective such as loss.",
           "points": 1
         }
@@ -427,8 +616,15 @@
         {
           "type": "Single Choice",
           "prompt": "What does the learning rate control in gradient descent?",
-          "choices": ["The step size of parameter updates", "The number of users", "The screen brightness", "The file extension"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "The step size of parameter updates"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "A learning rate that is too large or too small can hurt convergence.",
           "points": 1
         }
@@ -443,8 +639,15 @@
         {
           "type": "Single Choice",
           "prompt": "Why is discrete mathematics useful in AI?",
-          "choices": ["It models objects, rules, relationships, paths, and combinations", "It removes all logic", "It only studies screen colors", "It is unrelated to datasets"],
-          "answer": [0],
+          "choices": [
+            "It models objects, rules, relationships, paths, and combinations",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "The notes explain that many AI problems involve discrete structures.",
           "points": 1
         }
@@ -459,8 +662,15 @@
         {
           "type": "Single Choice",
           "prompt": "What are the two main parts of a graph?",
-          "choices": ["Vertices and edges", "Rows and passwords", "Classes and destructors", "Only numbers and colors"],
-          "answer": [0],
+          "choices": [
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "It explains the reasoning after the learner tries the exercise",
+            "Vertices and edges"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "A graph represents objects as vertices and relationships as edges.",
           "points": 1
         }
@@ -475,8 +685,15 @@
         {
           "type": "Single Choice",
           "prompt": "Why can computers introduce numerical error?",
-          "choices": ["They represent real numbers using finite precision", "They store every real number exactly", "They cannot perform arithmetic", "They ignore all decimals"],
-          "answer": [0],
+          "choices": [
+            "It explains the reasoning after the learner tries the exercise",
+            "They represent real numbers using finite precision",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "Finite precision means real values are approximated.",
           "points": 1
         }
@@ -491,16 +708,30 @@
         {
           "type": "Single Choice",
           "prompt": "What is overflow?",
-          "choices": ["A number is too large for the computer to represent", "A number is exactly zero", "A vector is orthogonal", "A class is inherited"],
-          "answer": [0],
+          "choices": [
+            "A number is too large for the computer to represent",
+            "A number is too close to zero to represent accurately",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Overflow happens when a value exceeds the representable range.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "What is underflow?",
-          "choices": ["A number is too close to zero to represent accurately", "A number is too large", "A graph has many edges", "A password is weak"],
-          "answer": [0],
+          "choices": [
+            "A number is too large for the computer to represent",
+            "To compare reasoning steps and correct mistakes",
+            "To build understanding before seeing the solution",
+            "A number is too close to zero to represent accurately"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "Very tiny values may be rounded to zero.",
           "points": 1
         }

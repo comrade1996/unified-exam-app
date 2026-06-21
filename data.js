@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-21T12:44:03.385Z",
+  "generatedAt": "2026-06-21T12:49:00.677Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -28,13 +28,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the purpose of checking worked solutions after attempting tutorial questions?",
               "choices": [
+                "It explains the reasoning after the learner tries the exercise",
+                "To make the student explore before seeing formal guidance",
                 "To compare reasoning steps and correct mistakes",
-                "To avoid solving any question",
-                "To remove concepts from the course",
-                "To replace all lectures"
+                "To build understanding before seeing the solution"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "Solutions are useful after attempting the work because they show the correct reasoning path.",
               "fullExplanation": null,
@@ -57,9 +57,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why does the tutorial ask students to attempt questions before checking answers?",
               "choices": [
                 "To build understanding before seeing the solution",
-                "To skip practice",
-                "To avoid feedback",
-                "To remove calculations"
+                "To compare reasoning steps and correct mistakes",
+                "It explains the reasoning after the learner tries the exercise",
+                "To make the student explore before seeing formal guidance"
               ],
               "answer": [
                 0
@@ -85,9 +85,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is the role of a solution workbook in active learning?",
               "choices": [
                 "It explains the reasoning after the learner tries the exercise",
-                "It removes the need for intuition",
-                "It hides all answers permanently",
-                "It covers only operating systems"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "To make the student explore before seeing formal guidance"
               ],
               "answer": [
                 0
@@ -112,13 +112,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the purpose of the 'Try this first' structure?",
               "choices": [
+                "It explains the reasoning after the learner tries the exercise",
                 "To make the student explore before seeing formal guidance",
-                "To give the final answer immediately",
-                "To skip the topic",
-                "To test only typing speed"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The workbook is designed around active-learning attempts before hints or answers.",
               "fullExplanation": null,
@@ -140,13 +140,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which mathematical foundation is strongly connected to systems of linear equations?",
               "choices": [
-                "Linear algebra",
-                "Firewall configuration",
-                "Thread scheduling",
-                "File permissions only"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
+                "Linear algebra"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Systems of linear equations are a central topic in linear algebra.",
               "fullExplanation": null,
@@ -168,13 +168,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which object represents an ordered list of numbers?",
               "choices": [
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
                 "Vector",
-                "Scalar",
-                "Single Boolean flag",
-                "Plain sentence"
+                "Matrix"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "A vector stores several components in an ordered form.",
               "fullExplanation": null,
@@ -184,13 +184,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which object is arranged in rows and columns?",
               "choices": [
+                "To build understanding before seeing the solution",
                 "Matrix",
-                "Scalar",
-                "Derivative symbol",
-                "Single class label"
+                "Vector",
+                "To compare reasoning steps and correct mistakes"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "A matrix is a rectangular array of values.",
               "fullExplanation": null,
@@ -212,13 +212,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "When is matrix multiplication AB defined?",
               "choices": [
+                "It explains the reasoning after the learner tries the exercise",
                 "When the number of columns of A equals the number of rows of B",
-                "Only when A and B are both scalars",
-                "Only when both matrices are empty",
-                "Always, regardless of size"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The inner dimensions must match for matrix multiplication.",
               "fullExplanation": null,
@@ -241,9 +241,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is Gaussian elimination used for?",
               "choices": [
                 "Solving systems of linear equations",
-                "Encrypting passwords",
-                "Drawing web pages",
-                "Scheduling CPU processes"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise"
               ],
               "answer": [
                 0
@@ -268,13 +268,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What must a subspace be closed under?",
               "choices": [
-                "Vector addition and scalar multiplication",
-                "Only file deletion",
-                "Only positive integers",
-                "Only screen output"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
+                "Vector addition and scalar multiplication"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Closure under addition and scalar multiplication is essential for subspaces.",
               "fullExplanation": null,
@@ -296,13 +296,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does a zero determinant indicate in the lecture notes?",
               "choices": [
-                "Dimension collapse or rank deficiency",
-                "Perfect invertibility",
-                "No relation to rank",
-                "A probability distribution"
+                "The matrix is invertible",
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "Dimension collapse or rank deficiency"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "The Markdown notes connect zero determinant with dimension collapse.",
               "fullExplanation": null,
@@ -312,13 +312,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does full rank usually imply for a square matrix?",
               "choices": [
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
                 "The matrix is invertible",
-                "The matrix must be all zeros",
-                "The matrix is not usable",
-                "The matrix has no pivots"
+                "Dimension collapse or rank deficiency"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "For a square matrix, full rank means the columns are independent and the matrix is invertible.",
               "fullExplanation": null,
@@ -340,13 +340,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "In Row Echelon Form, where must all-zero rows appear?",
               "choices": [
-                "Below all nonzero rows",
-                "Above every row",
-                "Between every pivot",
-                "Only in the first row"
+                "Each pivot appears to the right of the pivot above it",
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "Below all nonzero rows"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "The notes list zero rows below nonzero rows as a REF condition.",
               "fullExplanation": null,
@@ -356,13 +356,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What creates the staircase pattern in Row Echelon Form?",
               "choices": [
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
                 "Each pivot appears to the right of the pivot above it",
-                "Every row starts in the same column",
-                "All entries are equal",
-                "All columns are deleted"
+                "Below all nonzero rows"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "The pivots move right as you go down the rows.",
               "fullExplanation": null,
@@ -384,13 +384,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does a norm measure?",
               "choices": [
+                "It explains the reasoning after the learner tries the exercise",
                 "The length or magnitude of a vector",
-                "The color of a vector",
-                "The file type",
-                "The number of users"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "Norms quantify vector size.",
               "fullExplanation": null,
@@ -412,13 +412,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does it mean for two vectors to be orthogonal?",
               "choices": [
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
                 "Their inner product is zero",
-                "They are always identical",
-                "They have no components",
-                "They cannot be drawn"
+                "To compare reasoning steps and correct mistakes"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "Orthogonality is expressed by a zero inner product.",
               "fullExplanation": null,
@@ -441,9 +441,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is Gram-Schmidt used to construct?",
               "choices": [
                 "An orthogonal or orthonormal set of vectors",
-                "A firewall",
-                "A class constructor",
-                "A page table"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise"
               ],
               "answer": [
                 0
@@ -468,13 +468,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does a determinant represent geometrically?",
               "choices": [
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
                 "Volume or area scaling by a linear transformation",
-                "The number of hidden layers",
-                "The CPU speed",
-                "A password length"
+                "To compare reasoning steps and correct mistakes"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "Determinants measure scaling and reveal singularity.",
               "fullExplanation": null,
@@ -496,13 +496,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why is diagonalization useful?",
               "choices": [
-                "It can simplify repeated matrix operations",
-                "It removes all eigenvectors",
-                "It makes every matrix zero",
-                "It is unrelated to bases"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
+                "It can simplify repeated matrix operations"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "A diagonal form is easier to work with for powers and transformations.",
               "fullExplanation": null,
@@ -524,13 +524,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does covariance measure?",
               "choices": [
+                "It explains the reasoning after the learner tries the exercise",
                 "How two variables vary together",
-                "Only the maximum value",
-                "Only the number of rows",
-                "A class name in C++"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The notes use study hours and exam scores to show joint variation.",
               "fullExplanation": null,
@@ -552,13 +552,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the general purpose of matrix decomposition?",
               "choices": [
+                "It explains the reasoning after the learner tries the exercise",
                 "Factor a matrix into simpler matrices for analysis or computation",
-                "Delete the matrix",
-                "Convert numbers into text only",
-                "Prevent linear algebra"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "Decompositions expose structure and simplify computations.",
               "fullExplanation": null,
@@ -580,13 +580,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does SVD decompose a matrix into?",
               "choices": [
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
                 "Singular vectors and singular values",
-                "Only random numbers",
-                "Only a determinant",
-                "A firewall rule"
+                "To compare reasoning steps and correct mistakes"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "SVD represents a matrix through directions and scaling strengths.",
               "fullExplanation": null,
@@ -609,9 +609,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does a gradient indicate?",
               "choices": [
                 "The direction of steepest increase of a function",
-                "The number of files in a folder",
-                "The final class label only",
-                "The memory address"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise"
               ],
               "answer": [
                 0
@@ -636,13 +636,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does the chain rule help compute?",
               "choices": [
+                "It explains the reasoning after the learner tries the exercise",
                 "Derivatives of composite functions",
-                "Disk partitions",
-                "Firewall rules",
-                "Class inheritance only"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The chain rule is essential for gradients through layered models.",
               "fullExplanation": null,
@@ -665,9 +665,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is hypothesis testing used for?",
               "choices": [
                 "Making decisions about a population parameter using sample data",
-                "Drawing class diagrams",
-                "Scheduling threads",
-                "Encrypting files"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise"
               ],
               "answer": [
                 0
@@ -692,13 +692,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does a Z-test require in the lecture formula?",
               "choices": [
-                "Sample mean, claimed population mean, population standard deviation, and sample size",
-                "Only a class name",
-                "Only a password",
-                "Only an image"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
+                "Sample mean, claimed population mean, population standard deviation, and sample size"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "The Z statistic compares the sample mean to a hypothesized mean using standard error.",
               "fullExplanation": null,
@@ -720,13 +720,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is an optimization objective in machine learning?",
               "choices": [
-                "A function the model tries to minimize or maximize",
-                "A file name only",
-                "A network cable",
-                "A fixed monitor size"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
+                "A function the model tries to minimize or maximize"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Learning usually means optimizing an objective such as loss.",
               "fullExplanation": null,
@@ -748,13 +748,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does the learning rate control in gradient descent?",
               "choices": [
-                "The step size of parameter updates",
-                "The number of users",
-                "The screen brightness",
-                "The file extension"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
+                "The step size of parameter updates"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "A learning rate that is too large or too small can hurt convergence.",
               "fullExplanation": null,
@@ -777,9 +777,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why is discrete mathematics useful in AI?",
               "choices": [
                 "It models objects, rules, relationships, paths, and combinations",
-                "It removes all logic",
-                "It only studies screen colors",
-                "It is unrelated to datasets"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise"
               ],
               "answer": [
                 0
@@ -804,13 +804,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What are the two main parts of a graph?",
               "choices": [
-                "Vertices and edges",
-                "Rows and passwords",
-                "Classes and destructors",
-                "Only numbers and colors"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "It explains the reasoning after the learner tries the exercise",
+                "Vertices and edges"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "A graph represents objects as vertices and relationships as edges.",
               "fullExplanation": null,
@@ -832,13 +832,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why can computers introduce numerical error?",
               "choices": [
+                "It explains the reasoning after the learner tries the exercise",
                 "They represent real numbers using finite precision",
-                "They store every real number exactly",
-                "They cannot perform arithmetic",
-                "They ignore all decimals"
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "Finite precision means real values are approximated.",
               "fullExplanation": null,
@@ -861,9 +861,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is overflow?",
               "choices": [
                 "A number is too large for the computer to represent",
-                "A number is exactly zero",
-                "A vector is orthogonal",
-                "A class is inherited"
+                "A number is too close to zero to represent accurately",
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution"
               ],
               "answer": [
                 0
@@ -876,13 +876,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is underflow?",
               "choices": [
-                "A number is too close to zero to represent accurately",
-                "A number is too large",
-                "A graph has many edges",
-                "A password is weak"
+                "A number is too large for the computer to represent",
+                "To compare reasoning steps and correct mistakes",
+                "To build understanding before seeing the solution",
+                "A number is too close to zero to represent accurately"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Very tiny values may be rounded to zero.",
               "fullExplanation": null,
@@ -920,13 +920,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the main purpose of information security?",
               "choices": [
+                "To understand possible dangers and select suitable controls",
                 "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-                "Make every system public",
-                "Remove all controls from an organization",
-                "Store information without any protection"
+                "Security Systems Development Life Cycle",
+                "Ensure systems and contents stay protected and useful"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "Information security protects information assets and the systems that process them.",
               "fullExplanation": null,
@@ -937,9 +937,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which lifecycle is used to develop security controls in an organized way?",
               "choices": [
                 "Security Systems Development Life Cycle",
-                "Random guessing cycle",
-                "Printer replacement cycle",
-                "Color selection cycle"
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Ensure systems and contents stay protected and useful",
+                "To understand possible dangers and select suitable controls"
               ],
               "answer": [
                 0
@@ -964,13 +964,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a primary mission of information security?",
               "choices": [
+                "Security Systems Development Life Cycle",
                 "Ensure systems and contents stay protected and useful",
-                "Make attacks easier",
-                "Disable every network",
-                "Ignore threats"
+                "To understand possible dangers and select suitable controls",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The lecture connects information security with protecting systems, content, and operations.",
               "fullExplanation": null,
@@ -981,9 +981,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why are threats studied in information security?",
               "choices": [
                 "To understand possible dangers and select suitable controls",
-                "To remove all users from a system",
-                "To make passwords optional",
-                "To avoid risk analysis"
+                "Ensure systems and contents stay protected and useful",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle"
               ],
               "answer": [
                 0
@@ -1009,9 +1009,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "An information system consists of which broad components?",
               "choices": [
                 "Software, hardware, data, people, procedures, and networks",
-                "Only software",
-                "Only hardware",
-                "Only passwords"
+                "The physical technology used to process, store, and communicate information",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle"
               ],
               "answer": [
                 0
@@ -1024,13 +1024,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does hardware mean in an information system?",
               "choices": [
-                "The physical technology used to process, store, and communicate information",
-                "A written policy only",
-                "A user role only",
-                "A firewall rule only"
+                "Software, hardware, data, people, procedures, and networks",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
+                "The physical technology used to process, store, and communicate information"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Hardware is the physical part of the information system.",
               "fullExplanation": null,
@@ -1053,9 +1053,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does software include in an information system?",
               "choices": [
                 "Applications, operating systems, and command utilities",
-                "Only keyboards",
-                "Only printed documents",
-                "Only office furniture"
+                "Because errors can become threats or vulnerabilities",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle"
               ],
               "answer": [
                 0
@@ -1068,13 +1068,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are software failures security-relevant?",
               "choices": [
-                "Because errors can become threats or vulnerabilities",
-                "Because software errors improve protection",
-                "Because software is never attacked",
-                "Because software has no relation to information systems"
+                "Applications, operating systems, and command utilities",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
+                "Because errors can become threats or vulnerabilities"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Technical software failures or errors are a category of threat.",
               "fullExplanation": null,
@@ -1096,13 +1096,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is an attack?",
               "choices": [
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
                 "An action that exploits a weakness",
-                "A security policy document",
-                "A backup schedule",
-                "A harmless label"
+                "A weakness in a system or control"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "The lecture defines attack as exploiting a weakness.",
               "fullExplanation": null,
@@ -1112,13 +1112,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a vulnerability?",
               "choices": [
+                "Security Systems Development Life Cycle",
                 "A weakness in a system or control",
-                "A confirmed successful backup",
-                "A fully patched server",
-                "A type of monitor"
+                "An action that exploits a weakness",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "A vulnerability is a weakness that can be exploited.",
               "fullExplanation": null,
@@ -1140,13 +1140,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Who is a hacker in the security context used by the lecture?",
               "choices": [
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
                 "A person who accesses systems or information without authorization",
-                "A person who prints reports only",
-                "A network cable",
-                "A software license"
+                "Weak passwords can allow unauthorized access"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "The lecture describes unauthorized system or information access.",
               "fullExplanation": null,
@@ -1156,13 +1156,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are password vulnerabilities important?",
               "choices": [
+                "Security Systems Development Life Cycle",
                 "Weak passwords can allow unauthorized access",
-                "Passwords are unrelated to security",
-                "Passwords only affect screen color",
-                "Passwords always stop every attack"
+                "A person who accesses systems or information without authorization",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "Password weaknesses are a common path to breaching confidentiality.",
               "fullExplanation": null,
@@ -1185,9 +1185,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is antivirus software designed to do?",
               "choices": [
                 "Detect, block, and remove malicious software",
-                "Create malicious software",
-                "Disable every file",
-                "Replace the operating system"
+                "Identify suspicious activity and help stop attacks",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle"
               ],
               "answer": [
                 0
@@ -1200,13 +1200,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the purpose of intrusion detection and prevention?",
               "choices": [
-                "Identify suspicious activity and help stop attacks",
-                "Make attacks invisible",
-                "Remove all monitoring",
-                "Disable alerts"
+                "Detect, block, and remove malicious software",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
+                "Identify suspicious activity and help stop attacks"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Security software helps detect and respond to malicious behavior.",
               "fullExplanation": null,
@@ -1229,9 +1229,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is cryptography?",
               "choices": [
                 "Making and using codes to secure transmission of information",
-                "Breaking into encrypted messages only",
-                "Removing all keys from a system",
-                "A type of physical lock"
+                "Trying to obtain the original message from encrypted data without authorized access",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle"
               ],
               "answer": [
                 0
@@ -1244,13 +1244,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is cryptanalysis?",
               "choices": [
-                "Trying to obtain the original message from encrypted data without authorized access",
-                "Writing a firewall policy",
-                "Installing antivirus software",
-                "Backing up a database"
+                "Making and using codes to secure transmission of information",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
+                "Trying to obtain the original message from encrypted data without authorized access"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Cryptanalysis studies breaking or analyzing encrypted messages.",
               "fullExplanation": null,
@@ -1272,13 +1272,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is access control concerned with?",
               "choices": [
-                "Determining whether and how to admit a user into a trusted area or system",
-                "Changing wallpaper",
-                "Removing all permissions",
-                "Ignoring identity"
+                "Restricted computer room",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
+                "Determining whether and how to admit a user into a trusted area or system"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Access control manages admission and permissions.",
               "fullExplanation": null,
@@ -1288,13 +1288,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which is an example of a trusted area?",
               "choices": [
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
                 "Restricted computer room",
-                "Public parking space",
-                "Uncontrolled hallway",
-                "Anonymous website comment"
+                "Determining whether and how to admit a user into a trusted area or system"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "The lecture lists information systems and restricted computer rooms as trusted areas.",
               "fullExplanation": null,
@@ -1316,13 +1316,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are firewalls used?",
               "choices": [
-                "To protect networks and sensitive information by controlling traffic",
-                "To make all traffic trusted",
-                "To remove every security policy",
-                "To replace user training"
+                "Rapid growth in digital communication and network threats",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
+                "To protect networks and sensitive information by controlling traffic"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Firewalls are network protection components.",
               "fullExplanation": null,
@@ -1332,13 +1332,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What increased the need for network protection?",
               "choices": [
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
                 "Rapid growth in digital communication and network threats",
-                "Reduced use of networks",
-                "Elimination of hacking",
-                "No sensitive information online"
+                "To protect networks and sensitive information by controlling traffic"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "More digital communication increases exposure to attacks.",
               "fullExplanation": null,
@@ -1360,13 +1360,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is risk management in information security?",
               "choices": [
+                "Security Systems Development Life Cycle",
                 "Identifying, assessing, and treating risks to information assets",
-                "Ignoring threats until an incident happens",
-                "Removing all business operations",
-                "Choosing passwords randomly"
+                "It helps prioritize controls according to likelihood and impact",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "Risk management connects threats, vulnerabilities, likelihood, impact, and controls.",
               "fullExplanation": null,
@@ -1377,9 +1377,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why is risk assessment important?",
               "choices": [
                 "It helps prioritize controls according to likelihood and impact",
-                "It guarantees no attack can happen",
-                "It replaces all security policies",
-                "It makes assets unnecessary"
+                "Identifying, assessing, and treating risks to information assets",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle"
               ],
               "answer": [
                 0
@@ -1404,13 +1404,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which idea is central in information security references?",
               "choices": [
-                "Protecting confidentiality, integrity, and availability",
-                "Making all information public",
-                "Avoiding all controls",
-                "Using one password for every system"
+                "Policies define expectations and controls help enforce them",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
+                "Protecting confidentiality, integrity, and availability"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "The CIA triad is a core framework in information security.",
               "fullExplanation": null,
@@ -1420,13 +1420,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why do references discuss policies and controls together?",
               "choices": [
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
                 "Policies define expectations and controls help enforce them",
-                "Policies are always enough without action",
-                "Controls remove the need for management",
-                "Neither affects security"
+                "Protecting confidentiality, integrity, and availability"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "Security needs both direction and implementation.",
               "fullExplanation": null,
@@ -1448,13 +1448,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What should an organization protect as information assets?",
               "choices": [
-                "Data, systems, people, processes, and supporting technology",
-                "Only screen brightness",
-                "Only unused files",
-                "Only furniture"
+                "Threats, vulnerabilities, and business needs change over time",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
+                "Data, systems, people, processes, and supporting technology"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Modern security treats information assets broadly, not as software alone.",
               "fullExplanation": null,
@@ -1464,13 +1464,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why do security controls need continuous review?",
               "choices": [
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle",
                 "Threats, vulnerabilities, and business needs change over time",
-                "Controls never fail",
-                "Attackers stop changing",
-                "Policies become permanent after one draft"
+                "Data, systems, people, processes, and supporting technology"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "Security is an ongoing management process.",
               "fullExplanation": null,
@@ -1492,13 +1492,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما الفكرة العامة لأمن المعلومات؟",
               "choices": [
+                "Security Systems Development Life Cycle",
                 "حماية المعلومات من الوصول أو التعديل أو الإتلاف غير المصرح به",
-                "نشر كل المعلومات دون قيود",
-                "حذف النسخ الاحتياطية",
-                "إلغاء كلمات المرور"
+                "لأن سلوك المستخدم جزء مهم من الحماية",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "أمن المعلومات يركز على حماية السرية والسلامة والتوافر.",
               "fullExplanation": null,
@@ -1509,9 +1509,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "لماذا يجب تبسيط مفاهيم أمن المعلومات للمستخدمين؟",
               "choices": [
                 "لأن سلوك المستخدم جزء مهم من الحماية",
-                "لأن المستخدمين لا يؤثرون في الأمن",
-                "لأن التقنية وحدها تكفي دائما",
-                "لأن التدريب يزيد الخطر"
+                "حماية المعلومات من الوصول أو التعديل أو الإتلاف غير المصرح به",
+                "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+                "Security Systems Development Life Cycle"
               ],
               "answer": [
                 0
@@ -1552,13 +1552,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which topic belongs to an advanced OOP syllabus?",
               "choices": [
+                "A style or model for designing and organizing programs",
+                "Because project scale, risk, and structure can differ",
                 "Constructors and destructors",
-                "Z-test only",
-                "Firewall filtering only",
-                "CPU scheduling only"
+                "To organize repeated output logic into a reusable block"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "The syllabus lists constructors and destructors among OOP topics.",
               "fullExplanation": null,
@@ -1581,9 +1581,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why use a user-defined function such as display()?",
               "choices": [
                 "To organize repeated output logic into a reusable block",
-                "To delete all variables",
-                "To stop compiling code",
-                "To replace every class"
+                "Constructors and destructors",
+                "A style or model for designing and organizing programs",
+                "Because project scale, risk, and structure can differ"
               ],
               "answer": [
                 0
@@ -1608,13 +1608,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a programming paradigm?",
               "choices": [
+                "To organize repeated output logic into a reusable block",
                 "A style or model for designing and organizing programs",
-                "A hardware cable",
-                "A password rule only",
-                "A random file name"
+                "Because project scale, risk, and structure can differ",
+                "Constructors and destructors"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The lecture compares different ways to plan and build software.",
               "fullExplanation": null,
@@ -1625,9 +1625,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why can different projects need different paradigms?",
               "choices": [
                 "Because project scale, risk, and structure can differ",
-                "Because all software is identical",
-                "Because planning is never needed",
-                "Because code cannot be organized"
+                "A style or model for designing and organizing programs",
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block"
               ],
               "answer": [
                 0
@@ -1652,13 +1652,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why pass data through a member function instead of directly changing member data?",
               "choices": [
-                "To validate or filter data before storing it",
-                "To remove the object",
-                "To make data impossible to access",
-                "To skip class design"
+                "Defining data and functions that describe a type of object",
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
+                "To validate or filter data before storing it"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "The notes say member functions allow filtering before using member data.",
               "fullExplanation": null,
@@ -1668,13 +1668,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a class used for in OOP?",
               "choices": [
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
                 "Defining data and functions that describe a type of object",
-                "Running only SQL queries",
-                "Encrypting a password only",
-                "Replacing every function"
+                "To validate or filter data before storing it"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "A class groups state and behavior.",
               "fullExplanation": null,
@@ -1696,13 +1696,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does a constructor do in a Counter class example?",
               "choices": [
-                "Initializes the object state such as count",
-                "Deletes the class definition",
-                "Stops object creation",
-                "Converts C++ to HTML"
+                "Defining functions with the same name but different parameter lists",
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
+                "Initializes the object state such as count"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "The example uses Counter() : count(0) to initialize count.",
               "fullExplanation": null,
@@ -1712,13 +1712,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is function overloading?",
               "choices": [
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
                 "Defining functions with the same name but different parameter lists",
-                "Using no functions",
-                "Giving every function a random name",
-                "Deleting parameters"
+                "Initializes the object state such as count"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "Overloading lets one name handle related operations with different inputs.",
               "fullExplanation": null,
@@ -1740,13 +1740,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why overload an operator for a user-defined type?",
               "choices": [
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
                 "To define what an operator means for objects of that class",
-                "To prevent object use",
-                "To remove arithmetic from C++",
-                "To make all operators illegal"
+                "<< and >>"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "The compiler needs a definition for operators used with custom objects.",
               "fullExplanation": null,
@@ -1756,13 +1756,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which operator pair is associated with stream insertion and extraction?",
               "choices": [
+                "To validate or filter data before storing it",
                 "<< and >>",
-                "++ and -- only",
-                "&& and || only",
-                "new and delete only"
+                "To define what an operator means for objects of that class",
+                "To organize repeated output logic into a reusable block"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The notes mention inserter and extractor operators.",
               "fullExplanation": null,
@@ -1785,9 +1785,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما المقصود بتحميل المؤثرات في C++؟",
               "choices": [
                 "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
-                "حذف كل المؤثرات من اللغة",
-                "تشغيل قاعدة بيانات فقط",
-                "إلغاء الكائنات"
+                "لتمثيل بيع عنصر وزيادة عداد المبيعات",
+                "التحقق من صحة القيم المدخلة وأنها رقمية",
+                "إدارة بيانات الحسابات وعملياتها الأساسية"
               ],
               "answer": [
                 0
@@ -1800,13 +1800,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "في مثال Pharmacy، لماذا يمكن استخدام ++item؟",
               "choices": [
-                "لتمثيل بيع عنصر وزيادة عداد المبيعات",
-                "لإلغاء الصنف",
-                "لتغيير اسم الدواء",
-                "لإيقاف البرنامج دائما"
+                "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+                "التحقق من صحة القيم المدخلة وأنها رقمية",
+                "إدارة بيانات الحسابات وعملياتها الأساسية",
+                "لتمثيل بيع عنصر وزيادة عداد المبيعات"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "المثال يستخدم زيادة العداد عند بيع عنصر.",
               "fullExplanation": null,
@@ -1828,13 +1828,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is inheritance in OOP?",
               "choices": [
+                "To organize repeated output logic into a reusable block",
                 "A subclass acquires properties of a parent class",
-                "A function deletes an object",
-                "A variable changes color",
-                "A password is encrypted"
+                "It supports reusability and can improve reliability",
+                "Constructors and destructors"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The notes define inheritance as acquiring parent class properties.",
               "fullExplanation": null,
@@ -1845,9 +1845,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why is inheritance useful?",
               "choices": [
                 "It supports reusability and can improve reliability",
-                "It forces rewriting every class",
-                "It prevents code reuse",
-                "It removes parent classes"
+                "A subclass acquires properties of a parent class",
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block"
               ],
               "answer": [
                 0
@@ -1872,13 +1872,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "In public inheritance, what happens to public members of the base class?",
               "choices": [
+                "To organize repeated output logic into a reusable block",
                 "They remain public in the derived class",
-                "They always become private",
-                "They are deleted",
-                "They become global variables"
+                "They become private in the derived class",
+                "Constructors and destructors"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "The notes state public base members remain public under public inheritance.",
               "fullExplanation": null,
@@ -1889,9 +1889,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "In private inheritance, what happens to public and protected base members?",
               "choices": [
                 "They become private in the derived class",
-                "They become public",
-                "They become unrelated functions",
-                "They are converted to files"
+                "They remain public in the derived class",
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block"
               ],
               "answer": [
                 0
@@ -1916,13 +1916,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does polymorphism mean?",
               "choices": [
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
                 "Many forms",
-                "One fixed file",
-                "No objects",
-                "Only one function name allowed"
+                "Calling the derived class version through a base pointer or reference"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "The lecture states polymorphism means many forms.",
               "fullExplanation": null,
@@ -1932,13 +1932,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does a virtual function allow?",
               "choices": [
+                "To organize repeated output logic into a reusable block",
                 "Calling the derived class version through a base pointer or reference",
-                "Disabling overriding",
-                "Deleting inheritance",
-                "Making all functions private"
+                "Many forms",
+                "Constructors and destructors"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "Virtual functions enable runtime dispatch to the correct overridden function.",
               "fullExplanation": null,
@@ -1960,13 +1960,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a friend function allowed to do?",
               "choices": [
+                "To organize repeated output logic into a reusable block",
                 "Access private or protected members of a class that declares it as friend",
-                "Delete the compiler",
-                "Run without any declaration",
-                "Replace all constructors"
+                "To compute a value from the object's axes or coordinates",
+                "Constructors and destructors"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "Friend functions are external functions granted special access.",
               "fullExplanation": null,
@@ -1977,9 +1977,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why might a Point class use a sum() member function?",
               "choices": [
                 "To compute a value from the object's axes or coordinates",
-                "To remove object data",
-                "To stop initialization",
-                "To change the language syntax"
+                "Access private or protected members of a class that declares it as friend",
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block"
               ],
               "answer": [
                 0
@@ -2004,13 +2004,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What problem do templates solve?",
               "choices": [
-                "Writing generic code that works with different data types",
-                "Removing all functions",
-                "Preventing parameter passing",
-                "Using only integers forever"
+                "One generic definition can serve multiple types",
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
+                "Writing generic code that works with different data types"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Templates avoid duplicating similar functions for each type.",
               "fullExplanation": null,
@@ -2020,13 +2020,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why is a template better than writing many sum functions for int, float, and double?",
               "choices": [
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
                 "One generic definition can serve multiple types",
-                "It makes the function unusable",
-                "It removes type checking",
-                "It prevents compilation"
+                "Writing generic code that works with different data types"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "Templates parameterize the type.",
               "fullExplanation": null,
@@ -2048,13 +2048,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which concept is fundamental when learning C++ for OOP?",
               "choices": [
-                "Classes and objects",
-                "Only network firewalls",
-                "Only Z-tests",
-                "Only disk partitions"
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
+                "A style or model for designing and organizing programs",
+                "Classes and objects"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "C++ OOP relies on classes and objects as core building blocks.",
               "fullExplanation": null,
@@ -2076,13 +2076,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are constructors important in C++ classes?",
               "choices": [
-                "They initialize objects when they are created",
-                "They always destroy the program",
-                "They replace every variable",
-                "They are used only for comments"
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
+                "A style or model for designing and organizing programs",
+                "They initialize objects when they are created"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "Constructors prepare object state.",
               "fullExplanation": null,
@@ -2104,13 +2104,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which group contains core OOP ideas?",
               "choices": [
-                "Encapsulation, inheritance, and polymorphism",
-                "Only encryption keys",
-                "Only probability values",
-                "Only file extensions"
+                "Constructors and destructors",
+                "To organize repeated output logic into a reusable block",
+                "A style or model for designing and organizing programs",
+                "Encapsulation, inheritance, and polymorphism"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "These are standard OOP pillars used throughout C++ OOP references.",
               "fullExplanation": null,
@@ -2132,13 +2132,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "في مشروع محول العملات، ما التحقق المطلوب؟",
               "choices": [
+                "لتمثيل بيع عنصر وزيادة عداد المبيعات",
                 "التحقق من صحة القيم المدخلة وأنها رقمية",
-                "قبول أي نص كقيمة مالية",
-                "منع عرض رسالة خطأ",
-                "حذف كل العملات"
+                "إدارة بيانات الحسابات وعملياتها الأساسية",
+                "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "وصف المشروع يطلب التأكد من صحة البيانات المدخلة.",
               "fullExplanation": null,
@@ -2149,9 +2149,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما المطلوب من نظام إدارة سجلات بنكية؟",
               "choices": [
                 "إدارة بيانات الحسابات وعملياتها الأساسية",
-                "إلغاء كل الحسابات",
-                "رسم صور فقط",
-                "تغيير لون الشاشة فقط"
+                "التحقق من صحة القيم المدخلة وأنها رقمية",
+                "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+                "لتمثيل بيع عنصر وزيادة عداد المبيعات"
               ],
               "answer": [
                 0
@@ -2177,9 +2177,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما الفكرة الأساسية في البرمجة الشيئية؟",
               "choices": [
                 "تنظيم البرنامج حول كائنات تجمع البيانات والعمليات",
-                "كتابة كل شيء في دالة واحدة",
-                "منع استخدام الأصناف",
-                "إلغاء إعادة الاستخدام"
+                "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+                "لتمثيل بيع عنصر وزيادة عداد المبيعات",
+                "التحقق من صحة القيم المدخلة وأنها رقمية"
               ],
               "answer": [
                 0
@@ -2205,9 +2205,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "لماذا تصلح مشاريع مثل ATM أو Bank Account لتطبيق OOP؟",
               "choices": [
                 "لأنها تحتوي كيانات وبيانات وعمليات يمكن تمثيلها بأصناف وكائنات",
-                "لأنها لا تحتاج إلى أي بيانات",
-                "لأنها تمنع الدوال",
-                "لأنها لا تحتوي عمليات"
+                "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+                "لتمثيل بيع عنصر وزيادة عداد المبيعات",
+                "التحقق من صحة القيم المدخلة وأنها رقمية"
               ],
               "answer": [
                 0
@@ -2248,13 +2248,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما الهدف الرئيسي من دراسة أخلاقيات المهنة في علوم الحاسوب؟",
               "choices": [
+                "جمع ومعالجة البيانات وفق مبادئ واضحة وحماية مناسبة",
                 "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
-                "تعلم أوامر الطباعة فقط",
-                "إلغاء الحاجة إلى القانون",
-                "تجاهل المصلحة العامة"
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
+                "الخصوصية وحماية البيانات الشخصية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "المحاضرة تركز على القرار الأخلاقي وتحليل القضايا التقنية والموازنة مع المصلحة العامة.",
               "fullExplanation": null,
@@ -2265,9 +2265,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "أي عبارة تصف العلاقة بين الأخلاق والقانون؟",
               "choices": [
                 "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
-                "الأخلاق والقانون لا علاقة بينهما إطلاقا",
-                "القانون يمنع التفكير الأخلاقي",
-                "الأخلاق تعني العقوبة القانونية فقط"
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الخصوصية وحماية البيانات الشخصية",
+                "جمع ومعالجة البيانات وفق مبادئ واضحة وحماية مناسبة"
               ],
               "answer": [
                 0
@@ -2292,13 +2292,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما الموضوع المركزي في المحاضرة الثانية؟",
               "choices": [
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
                 "الخصوصية وحماية البيانات الشخصية",
-                "توريث الأصناف في C++",
-                "جدولة العمليات",
-                "تجزئة القرص الصلب"
+                "جمع ومعالجة البيانات وفق مبادئ واضحة وحماية مناسبة",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "المحاضرة تعرض الخصوصية، أنواع البيانات الشخصية، وقوانين حماية البيانات.",
               "fullExplanation": null,
@@ -2309,9 +2309,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما مسؤولية المطور تجاه بيانات المستخدمين؟",
               "choices": [
                 "جمع ومعالجة البيانات وفق مبادئ واضحة وحماية مناسبة",
-                "بيع البيانات دون إذن",
-                "جمع كل شيء حتى لو لم يكن مطلوبا",
-                "إخفاء سياسة الخصوصية"
+                "الخصوصية وحماية البيانات الشخصية",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2336,13 +2336,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "كيف تعرض المحاضرة الأمن السيبراني؟",
               "choices": [
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
                 "كمسؤولية أخلاقية ومهنية وليس تقنية فقط",
-                "كمشكلة تخص المستخدم وحده",
-                "كمجال لا يحتاج إلى إفصاح مسؤول",
-                "كطريقة لاختراق الأنظمة فقط"
+                "إبلاغ الجهة المعنية بطريقة تقلل الضرر قبل النشر العام",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "الأمن السيبراني يرتبط بحماية الناس والبنية التحتية والثقة العامة.",
               "fullExplanation": null,
@@ -2353,9 +2353,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما المقصود بالإفصاح المسؤول عن الثغرات؟",
               "choices": [
                 "إبلاغ الجهة المعنية بطريقة تقلل الضرر قبل النشر العام",
-                "نشر الثغرة فورا دون تحذير",
-                "استغلال الثغرة لتحقيق ربح",
-                "إخفاء الثغرة إلى الأبد"
+                "كمسؤولية أخلاقية ومهنية وليس تقنية فقط",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2380,13 +2380,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما الذي تحميه الملكية الفكرية في مجال البرمجيات؟",
               "choices": [
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
                 "الأعمال والأفكار الإبداعية والتراخيص المرتبطة بالبرمجيات",
-                "كلمات المرور فقط",
-                "سعة الذاكرة",
-                "سرعة المعالج"
+                "لأن كل رخصة لها شروط استخدام وتوزيع مختلفة",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "المحاضرة تتناول حقوق النشر والتراخيص والمصادر المفتوحة.",
               "fullExplanation": null,
@@ -2397,9 +2397,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "لماذا يجب فهم تراخيص المصادر المفتوحة؟",
               "choices": [
                 "لأن كل رخصة لها شروط استخدام وتوزيع مختلفة",
-                "لأنها تمنع استخدام البرمجيات دائما",
-                "لأنها تلغي حقوق النشر بالكامل",
-                "لأنها لا تؤثر في المشاريع"
+                "الأعمال والأفكار الإبداعية والتراخيص المرتبطة بالبرمجيات",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2424,13 +2424,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "أي قضية أخلاقية ترتبط مباشرة بخوارزميات الذكاء الاصطناعي؟",
               "choices": [
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
                 "التحيز في البيانات أو الخوارزمية",
-                "لون لوحة المفاتيح",
-                "عدد المنافذ في الجهاز",
-                "اسم ملف المشروع"
+                "حتى يمكن فهم أسباب القرار ومساءلة النظام",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "التحيز قد يؤدي إلى قرارات غير عادلة عند استخدام الأنظمة الذكية.",
               "fullExplanation": null,
@@ -2441,9 +2441,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "لماذا تعد الشفافية والقابلية للتفسير مهمة في AI؟",
               "choices": [
                 "حتى يمكن فهم أسباب القرار ومساءلة النظام",
-                "حتى يصبح النموذج أبطأ دائما",
-                "حتى تختفي البيانات التدريبية",
-                "حتى لا يتم اختبار النموذج"
+                "التحيز في البيانات أو الخوارزمية",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2468,13 +2468,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما المسؤولية الأخلاقية في نشر المعلومات عبر وسائل التواصل؟",
               "choices": [
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
                 "تجنب التضليل والتحقق من المحتوى قبل نشره",
-                "نشر أي محتوى بسرعة دون تحقق",
-                "إخفاء مصدر المعلومات دائما",
-                "إلغاء حقوق المستخدمين"
+                "تحليل مصدر الخبر ومقارنته بمصادر موثوقة",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "المحاضرة تناقش المعلومات المضللة وحقوق المستخدمين في المنصات الرقمية.",
               "fullExplanation": null,
@@ -2485,9 +2485,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "أي إجراء يساعد في مكافحة المعلومات المضللة؟",
               "choices": [
                 "تحليل مصدر الخبر ومقارنته بمصادر موثوقة",
-                "مشاركة الخبر لأنه شائع",
-                "حذف كل التعليقات",
-                "عدم قراءة المحتوى"
+                "تجنب التضليل والتحقق من المحتوى قبل نشره",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2512,13 +2512,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما مثال على السلوك المهني الأخلاقي في بيئة العمل؟",
               "choices": [
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
                 "الصدق والشفافية في عرض الكفاءات",
-                "ادعاء خبرة غير موجودة",
-                "تسريب أسرار العمل",
-                "إخفاء تضارب المصالح"
+                "وجود مصلحة شخصية قد تؤثر في الحكم المهني",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "المحاضرة تركز على الصدق والسرية وتضارب المصالح والتنوع.",
               "fullExplanation": null,
@@ -2529,9 +2529,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ماذا يعني تضارب المصالح؟",
               "choices": [
                 "وجود مصلحة شخصية قد تؤثر في الحكم المهني",
-                "تعاون الفريق في حل مشكلة",
-                "احترام السرية المهنية",
-                "اتباع سياسة الشركة"
+                "الصدق والشفافية في عرض الكفاءات",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2556,13 +2556,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "لماذا نحتاج إطار عمل لاتخاذ القرار الأخلاقي؟",
               "choices": [
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
                 "لتحليل المعضلات بطريقة منظمة قبل اختيار التصرف",
-                "لتجنب التفكير في العواقب",
-                "لجعل القرار عشوائيا",
-                "لإلغاء المبادئ الأخلاقية"
+                "التفكير النقدي الأخلاقي",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "الإطار المنهجي يساعد في فهم الأطراف المتأثرة والمخاطر والبدائل.",
               "fullExplanation": null,
@@ -2573,9 +2573,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما المهارة التي تؤكدها المحاضرة عند التعامل مع موقف أخلاقي معقد؟",
               "choices": [
                 "التفكير النقدي الأخلاقي",
-                "الحفظ الآلي للأوامر",
-                "تجاهل أصحاب المصلحة",
-                "اختيار أسرع حل فقط"
+                "لتحليل المعضلات بطريقة منظمة قبل اختيار التصرف",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2600,13 +2600,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما المقصود بالفجوة الرقمية؟",
               "choices": [
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
                 "اختلاف فرص الوصول إلى التقنية والاستفادة منها بين الأفراد أو المجتمعات",
-                "اختلاف ألوان الشاشات",
-                "فرق سرعة الكتابة فقط",
-                "وجود ملفين بنفس الاسم"
+                "لتمكين جميع المستخدمين من استخدام التقنية بما فيهم ذوو الإعاقة",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "الفجوة الرقمية قضية اجتماعية لأنها تؤثر في العدالة والفرص.",
               "fullExplanation": null,
@@ -2617,9 +2617,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "لماذا تعد إمكانية الوصول Accessibility مهمة؟",
               "choices": [
                 "لتمكين جميع المستخدمين من استخدام التقنية بما فيهم ذوو الإعاقة",
-                "لإخفاء المحتوى عن المستخدمين",
-                "لزيادة صعوبة الواجهة",
-                "لمنع استخدام الأجهزة المساعدة"
+                "اختلاف فرص الوصول إلى التقنية والاستفادة منها بين الأفراد أو المجتمعات",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2645,9 +2645,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما الذي يساعد على بناء سمعة مهنية قوية؟",
               "choices": [
                 "الالتزام الأخلاقي والتعلم المستمر والقيادة المسؤولة",
-                "إخفاء الأخطاء دائما",
-                "تجاهل التطور التقني",
-                "مخالفة السياسات"
+                "لأن التقنيات والمخاطر تتغير ويجب تحديث المسؤولية المهنية معها",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة"
               ],
               "answer": [
                 0
@@ -2660,13 +2660,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "لماذا التعلم المستمر مهم أخلاقيا في التقنية؟",
               "choices": [
-                "لأن التقنيات والمخاطر تتغير ويجب تحديث المسؤولية المهنية معها",
-                "لأنه يلغي الحاجة إلى الخبرة",
-                "لأنه يمنع التعاون",
-                "لأنه يجعل القوانين غير مهمة"
+                "الالتزام الأخلاقي والتعلم المستمر والقيادة المسؤولة",
+                "اتخاذ قرارات أخلاقية عند التعامل مع مواقف تقنية",
+                "الأخلاق قد تسبق القانون وتساعد على ظهور قوانين جديدة",
+                "لأن التقنيات والمخاطر تتغير ويجب تحديث المسؤولية المهنية معها"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "المهني الأخلاقي يطوّر معرفته حتى لا يسبب ضررا بسبب جهل أو قدم معرفة.",
               "fullExplanation": null,
@@ -2704,13 +2704,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما الهدف الأساسي من خوارزمية الانتشار العكسي؟",
               "choices": [
+                "فهم طريقة الحساب داخل النموذج خطوة بخطوة",
+                "مدخلات وأوزان وانحياز ثم دالة قرار",
                 "تحديث الأوزان لتقليل الخطأ",
-                "حذف طبقة الإدخال",
-                "زيادة الخطأ عمدا",
-                "إيقاف عملية التدريب"
+                "تأثير كل وزن على الخطأ"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "الانتشار العكسي يحسب تأثير الأوزان على الخطأ ثم يحدّثها لتقليل الخطأ.",
               "fullExplanation": null,
@@ -2720,13 +2720,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "في Backward Pass، ما الذي نحاول حسابه؟",
               "choices": [
+                "مدخلات وأوزان وانحياز ثم دالة قرار",
                 "تأثير كل وزن على الخطأ",
-                "عدد الصفوف في قاعدة البيانات",
-                "لون واجهة المستخدم",
-                "نوع نظام التشغيل"
+                "تحديث الأوزان لتقليل الخطأ",
+                "فهم طريقة الحساب داخل النموذج خطوة بخطوة"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "المرحلة الخلفية تربط تغير الوزن بتغير الخطأ حتى يمكن تحسين النموذج.",
               "fullExplanation": null,
@@ -2737,9 +2737,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "أي قيمة تمثل المخرَج الحقيقي في مثال المحاضرة؟",
               "choices": [
                 "y_true = 1",
-                "x = 0",
-                "loss = -1",
-                "w = null"
+                "Perceptron",
+                "Forward propagation computes model outputs",
+                "Cross validation estimates model performance"
               ],
               "answer": [
                 0
@@ -2764,13 +2764,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما الغرض من أمثلة البيرسيبترون والشبكات متعددة الطبقات؟",
               "choices": [
+                "تأثير كل وزن على الخطأ",
                 "فهم طريقة الحساب داخل النموذج خطوة بخطوة",
-                "شرح إدارة الملفات فقط",
-                "استبدال التدريب العكسي بالكامل",
-                "حذف الأوزان من النموذج"
+                "مدخلات وأوزان وانحياز ثم دالة قرار",
+                "تحديث الأوزان لتقليل الخطأ"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "الأمثلة تعرض كيف تتحول المدخلات والأوزان إلى ناتج.",
               "fullExplanation": null,
@@ -2781,9 +2781,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "في مثال بيرسيبترون بمدخلين، ما العناصر الأساسية للحساب؟",
               "choices": [
                 "مدخلات وأوزان وانحياز ثم دالة قرار",
-                "ملفات ومجلدات فقط",
-                "جداول صفحات الذاكرة",
-                "مفاتيح تشفير عامة"
+                "فهم طريقة الحساب داخل النموذج خطوة بخطوة",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ"
               ],
               "answer": [
                 0
@@ -2808,13 +2808,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما المقصود بالانتشار الأمامي في الشبكة العصبية؟",
               "choices": [
-                "تمرير البيانات من المدخلات إلى المخرجات للحصول على التنبؤ",
-                "إرجاع الخطأ من المخرجات إلى المدخلات",
-                "حذف جميع دوال التنشيط",
-                "تخزين البيانات في ملف خارجي"
+                "ناتج الطبقة السابقة",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
+                "تمرير البيانات من المدخلات إلى المخرجات للحصول على التنبؤ"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "الانتشار الأمامي يبدأ من المدخلات ويمر عبر الطبقات حتى ينتج Output.",
               "fullExplanation": null,
@@ -2824,13 +2824,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ماذا تأخذ كل طبقة في الانتشار الأمامي؟",
               "choices": [
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
                 "ناتج الطبقة السابقة",
-                "اسم المستخدم",
-                "رقم الصفحة فقط",
-                "قائمة الملفات"
+                "تمرير البيانات من المدخلات إلى المخرجات للحصول على التنبؤ"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "كل طبقة تستخدم ناتج الطبقة السابقة وتطبق أوزانا ودوال تنشيط.",
               "fullExplanation": null,
@@ -2852,13 +2852,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما الفكرة العامة للشبكات العصبية؟",
               "choices": [
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
                 "نماذج مستوحاة من الدماغ للتعرف على الأنماط واتخاذ القرارات",
-                "طريقة لضغط الملفات فقط",
-                "أداة لإيقاف التعلم الآلي",
-                "قاعدة بيانات ثابتة بلا تدريب"
+                "إدخال لاخطية تساعد النموذج على تعلم علاقات معقدة"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "الشبكات العصبية تستخدم في التعلم الآلي لاكتشاف الأنماط من البيانات.",
               "fullExplanation": null,
@@ -2868,13 +2868,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما دور دالة التنشيط في الشبكة العصبية؟",
               "choices": [
+                "تأثير كل وزن على الخطأ",
                 "إدخال لاخطية تساعد النموذج على تعلم علاقات معقدة",
-                "حذف الطبقات المخفية",
-                "جعل كل الحسابات نصية",
-                "منع النموذج من التصنيف"
+                "نماذج مستوحاة من الدماغ للتعرف على الأنماط واتخاذ القرارات",
+                "تحديث الأوزان لتقليل الخطأ"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "بدون دوال التنشيط تصبح الشبكة أقرب إلى نموذج خطي بسيط.",
               "fullExplanation": null,
@@ -2885,9 +2885,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما أبسط نوع مذكور من الشبكات العصبية؟",
               "choices": [
                 "Perceptron",
-                "Random Forest",
-                "Firewall",
-                "Hash Table"
+                "y_true = 1",
+                "Forward propagation computes model outputs",
+                "Cross validation estimates model performance"
               ],
               "answer": [
                 0
@@ -2913,9 +2913,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "على ماذا تعتمد خوارزمية Random Forest؟",
               "choices": [
                 "إنشاء عدة أشجار قرار ودمج نتائجها",
-                "شجرة قرار واحدة فقط دائما",
-                "إزالة كل الخصائص من البيانات",
-                "تدريب نموذج بلا بيانات"
+                "لأنها تجمع قرارات عدة أشجار مدربة على عينات وخصائص مختلفة",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ"
               ],
               "answer": [
                 0
@@ -2928,13 +2928,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "لماذا تساعد Random Forest في تقليل Overfitting؟",
               "choices": [
-                "لأنها تجمع قرارات عدة أشجار مدربة على عينات وخصائص مختلفة",
-                "لأنها تحفظ بيانات التدريب فقط",
-                "لأنها تمنع التصويت بين الأشجار",
-                "لأنها لا تستخدم خصائص"
+                "إنشاء عدة أشجار قرار ودمج نتائجها",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
+                "لأنها تجمع قرارات عدة أشجار مدربة على عينات وخصائص مختلفة"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "تنوع العينات والخصائص بين الأشجار يجعل القرار النهائي أكثر استقرارا.",
               "fullExplanation": null,
@@ -2957,9 +2957,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما الهدف من مثال Iris Dataset؟",
               "choices": [
                 "التنبؤ بنوع الزهرة باستخدام Random Forest",
-                "حساب مساحة القرص الصلب",
-                "اختبار سرعة الشبكة",
-                "رسم واجهة تطبيق"
+                "لتقسيم البيانات إلى تدريب واختبار",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ"
               ],
               "answer": [
                 0
@@ -2972,13 +2972,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "لماذا يُستخدم train_test_split في المثال؟",
               "choices": [
-                "لتقسيم البيانات إلى تدريب واختبار",
-                "لإلغاء النموذج",
-                "لتشفير الصور",
-                "لتغيير لغة البرمجة"
+                "التنبؤ بنوع الزهرة باستخدام Random Forest",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
+                "لتقسيم البيانات إلى تدريب واختبار"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "تقسيم البيانات يسمح بتدريب النموذج ثم اختبار أدائه على بيانات منفصلة.",
               "fullExplanation": null,
@@ -3001,9 +3001,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما الذي يميز تقييم الانحدار عن تقييم التصنيف؟",
               "choices": [
                 "الانحدار يتعامل مع قيم عددية مستمرة",
-                "الانحدار يتعامل فقط مع فئات منفصلة",
-                "الانحدار لا يحتاج إلى قياس خطأ",
-                "الانحدار يستخدم الصور فقط"
+                "عندما تكون الأخطاء الكبيرة مهمة ويجب معاقبتها أكثر",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ"
               ],
               "answer": [
                 0
@@ -3016,13 +3016,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "متى يكون MSE مناسبا؟",
               "choices": [
-                "عندما تكون الأخطاء الكبيرة مهمة ويجب معاقبتها أكثر",
-                "عندما نريد تجاهل الأخطاء الكبيرة",
-                "عندما تكون المخرجات فئات نصية فقط",
-                "عندما لا توجد قيم حقيقية"
+                "الانحدار يتعامل مع قيم عددية مستمرة",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
+                "عندما تكون الأخطاء الكبيرة مهمة ويجب معاقبتها أكثر"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "MSE يربع الخطأ لذلك يعطي وزنا أكبر للأخطاء الكبيرة.",
               "fullExplanation": null,
@@ -3044,13 +3044,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما معنى R² في تقييم الانحدار؟",
               "choices": [
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
                 "يقيس مقدار التباين الذي يفسره النموذج",
-                "يقيس عدد الفئات فقط",
-                "يحسب عدد الطبقات المخفية",
-                "يحول النموذج إلى تصنيف"
+                "عندما نريد متوسط خطأ سهل التفسير"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "R² يوضح مدى تفسير النموذج للتباين في البيانات.",
               "fullExplanation": null,
@@ -3060,13 +3060,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "متى يكون MAE مفيدا؟",
               "choices": [
+                "تأثير كل وزن على الخطأ",
                 "عندما نريد متوسط خطأ سهل التفسير",
-                "عندما نريد تربيع الخطأ فقط",
-                "عندما لا توجد توقعات",
-                "عندما لا توجد بيانات اختبار"
+                "يقيس مقدار التباين الذي يفسره النموذج",
+                "تحديث الأوزان لتقليل الخطأ"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "MAE يعطي متوسط مقدار الخطأ بدون تربيع.",
               "fullExplanation": null,
@@ -3089,9 +3089,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "ما الهدف من تقييم نماذج التصنيف؟",
               "choices": [
                 "معرفة جودة النموذج في التنبؤ بالفئات",
-                "حساب قيم مستمرة فقط",
-                "إلغاء مصفوفة الالتباس",
-                "منع اختبار النموذج"
+                "تلخيص التوقعات الصحيحة والخاطئة حسب الفئات",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ"
               ],
               "answer": [
                 0
@@ -3104,13 +3104,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما وظيفة Confusion Matrix؟",
               "choices": [
-                "تلخيص التوقعات الصحيحة والخاطئة حسب الفئات",
-                "تدريب النموذج فقط",
-                "اختيار لون الرسم",
-                "حذف بيانات الاختبار"
+                "معرفة جودة النموذج في التنبؤ بالفئات",
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
+                "تلخيص التوقعات الصحيحة والخاطئة حسب الفئات"
               ],
               "answer": [
-                0
+                3
               ],
               "explanation": "مصفوفة الالتباس هي أساس مقاييس مثل Accuracy وPrecision وRecall.",
               "fullExplanation": null,
@@ -3132,13 +3132,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما معنى تحسين النموذج؟",
               "choices": [
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
                 "رفع الدقة والكفاءة وتقليل أخطاء مثل Overfitting وUnderfitting",
-                "إزالة بيانات التدريب",
-                "تجاهل جودة البيانات",
-                "استخدام نموذج بلا تقييم"
+                "تنظيف القيم المفقودة والقيم الشاذة"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "تحسين النموذج يركز على الأداء والتعميم وتقليل الأخطاء.",
               "fullExplanation": null,
@@ -3148,13 +3148,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "أي إجراء يُعد من تحسين جودة البيانات؟",
               "choices": [
+                "تأثير كل وزن على الخطأ",
                 "تنظيف القيم المفقودة والقيم الشاذة",
-                "زيادة الأخطاء عمدا",
-                "إلغاء كل الخصائص",
-                "تجاهل البيانات غير الصالحة"
+                "رفع الدقة والكفاءة وتقليل أخطاء مثل Overfitting وUnderfitting",
+                "تحديث الأوزان لتقليل الخطأ"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "جودة البيانات تؤثر مباشرة في جودة النموذج.",
               "fullExplanation": null,
@@ -3176,13 +3176,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما وظيفة Cross Validation؟",
               "choices": [
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
                 "إعطاء تقييم أكثر واقعية لأداء النموذج",
-                "تدريب النموذج مرة واحدة فقط دون اختبار",
-                "إلغاء تقسيم البيانات",
-                "تحويل كل القيم إلى نصوص"
+                "عدد الأجزاء التي تُقسم إليها البيانات"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "التحقق المتقاطع يكرر التدريب والاختبار على أجزاء مختلفة من البيانات.",
               "fullExplanation": null,
@@ -3192,13 +3192,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "في k-fold cross validation، ماذا يعني k؟",
               "choices": [
+                "تأثير كل وزن على الخطأ",
                 "عدد الأجزاء التي تُقسم إليها البيانات",
-                "عدد الألوان في الرسم",
-                "عدد الملفات المحذوفة",
-                "عدد أنظمة التشغيل"
+                "إعطاء تقييم أكثر واقعية لأداء النموذج",
+                "تحديث الأوزان لتقليل الخطأ"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "تقسم البيانات إلى k أجزاء ويتم التبديل بين التدريب والاختبار.",
               "fullExplanation": null,
@@ -3220,13 +3220,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما فكرة Ensemble Learning؟",
               "choices": [
+                "تحديث الأوزان لتقليل الخطأ",
+                "تأثير كل وزن على الخطأ",
                 "دمج أكثر من نموذج للحصول على نموذج أقوى",
-                "استخدام نموذج واحد فقط دائما",
-                "إلغاء التدريب",
-                "تحويل البيانات إلى صور فقط"
+                "Bagging يدرب نماذج على عينات مختلفة، وBoosting يدرب نماذج بالتتابع لتصحيح الأخطاء"
               ],
               "answer": [
-                0
+                2
               ],
               "explanation": "دمج النماذج قد يحسن الدقة والاستقرار مقارنة بنموذج منفرد.",
               "fullExplanation": null,
@@ -3236,13 +3236,13 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما الفرق العام بين Bagging وBoosting؟",
               "choices": [
+                "تأثير كل وزن على الخطأ",
                 "Bagging يدرب نماذج على عينات مختلفة، وBoosting يدرب نماذج بالتتابع لتصحيح الأخطاء",
-                "Bagging يحذف البيانات، وBoosting يمنع التدريب",
-                "كلاهما يعنيان تشفير الملفات فقط",
-                "كلاهما يستخدمان شجرة واحدة ثابتة فقط"
+                "دمج أكثر من نموذج للحصول على نموذج أقوى",
+                "تحديث الأوزان لتقليل الخطأ"
               ],
               "answer": [
-                0
+                1
               ],
               "explanation": "المحاضرة تميز بين التدريب المتوازي على عينات مختلفة والتدريب المتتابع لتصحيح الأخطاء.",
               "fullExplanation": null,
@@ -3278,7 +3278,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Definition: A resource?",
+              "prompt": "Which statement is correct about Definition: A resource?",
               "choices": [
                 "Definition: A resource is any physical or logical entity that must be acquired, used, and released over time (e.g., printers, scanners, database records, semaphores).",
                 "Preemptable: Can be taken away from a process with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -3310,7 +3310,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Preemptable?",
+              "prompt": "Which statement is correct about Preemptable?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "The Problem: If processes acquire resources in a different order, a deadlock can occur (e.g., Process A holds R1 and waits for R2, while Process B holds R2 and waits for R1). ![ref1]",
@@ -3342,7 +3342,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Mutual Exclusion?",
+              "prompt": "Which statement is correct about Mutual Exclusion?",
               "choices": [
                 "Mutual Exclusion: Resources cannot be shared; only one process can use a resource at a time.",
                 "Definition: A resource is any physical or logical entity that must be acquired, used, and released over time (e.g., printers, scanners, database records, semaphores).",
@@ -3374,7 +3374,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Hold and Wait?",
+              "prompt": "Which statement is correct about Hold and Wait?",
               "choices": [
                 "Preemptable: Can be taken away from a process with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
@@ -3406,7 +3406,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DEADLOCK topic 3?",
+              "prompt": "Which statement is correct about DEADLOCK topic 3?",
               "choices": [
                 "Detection with One Resource of Each Type (Using a Resource Graph)",
                 "Definition: A resource is any physical or logical entity that must be acquired, used, and released over time (e.g., printers, scanners, database records, semaphores).",
@@ -3438,7 +3438,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DEADLOCK topic 3?",
+              "prompt": "Which statement is correct about DEADLOCK topic 3?",
               "choices": [
                 "Preemptable: Can be taken away from a process with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
@@ -3470,7 +3470,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about E (Existing Resources)?",
+              "prompt": "Which statement is correct about E (Existing Resources)?",
               "choices": [
                 "E (Existing Resources): Total instances of each resource in the system.",
                 "Definition: A resource is any physical or logical entity that must be acquired, used, and released over time (e.g., printers, scanners, database records, semaphores).",
@@ -3502,7 +3502,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A (Available Resources): Current instances of each resource that?",
+              "prompt": "Which statement is correct about A (Available Resources): Current instances of each resource that?",
               "choices": [
                 "Preemptable: Can be taken away from a process with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
@@ -3534,7 +3534,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Result: When the algorithm finishes, any process left unmarked?",
+              "prompt": "Which statement is correct about Result: When the algorithm finishes, any process left unmarked?",
               "choices": [
                 "Result: When the algorithm finishes, any process left unmarked is deadlocked. ![](Aspose.Words.f6818421-acd1-4f84-9f12-0491ca068a93.002.png)",
                 "Definition: A resource is any physical or logical entity that must be acquired, used, and released over time (e.g., printers, scanners, database records, semaphores).",
@@ -3566,7 +3566,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DEADLOCK topic 5?",
+              "prompt": "Which statement is correct about DEADLOCK topic 5?",
               "choices": [
                 "Preemptable: Can be taken away from a process with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
@@ -3598,7 +3598,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about P (Possessed)?",
+              "prompt": "Which statement is correct about P (Possessed)?",
               "choices": [
                 "P (Possessed): Total resources currently allocated (sum of rows in the allocation matrix).",
                 "Definition: A resource is any physical or logical entity that must be acquired, used, and released over time (e.g., printers, scanners, database records, semaphores).",
@@ -3630,7 +3630,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A (Available)?",
+              "prompt": "Which statement is correct about A (Available)?",
               "choices": [
                 "Preemptable: Can be taken away from a process with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
@@ -3662,7 +3662,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DEADLOCK topic 7?",
+              "prompt": "Which statement is correct about DEADLOCK topic 7?",
               "choices": [
                 "If such a process exists, assume it finishes, returns its resources. Add its allocation to A, and mark the process as done.",
                 "Definition: A resource is any physical or logical entity that must be acquired, used, and released over time (e.g., printers, scanners, database records, semaphores).",
@@ -3694,7 +3694,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Result: If all processes can be marked as done, the state?",
+              "prompt": "Which statement is correct about Result: If all processes can be marked as done, the state?",
               "choices": [
                 "Preemptable: Can be taken away from a process with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
@@ -3738,7 +3738,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Preemptable?",
+              "prompt": "Which statement is correct about Preemptable?",
               "choices": [
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
@@ -3770,7 +3770,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Nonpreemptable?",
+              "prompt": "Which statement is correct about Nonpreemptable?",
               "choices": [
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
                 "Ø§Ù„Ø¹Ù…Ù„ÙŠØ© Ø¯ÙˆÙ† Ø¢Ø«Ø§Ø± Ø¬Ø§Ù†Ø¨ÙŠØ© (Ù…Ø«Ù„ ÙˆØ­Ø¯Ø© Ø§Ù„Ù…Ø¹Ø§Ù„Ø¬Ø© Ø§Ù„Ù…Ø±ÙƒØ²ÙŠØ©ØŒ \\",
@@ -3802,7 +3802,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DEADLOCKØ´Ø±Ø­ topic 2?",
+              "prompt": "Which statement is correct about DEADLOCKØ´Ø±Ø­ topic 2?",
               "choices": [
                 "Ø«Ù„Ø§Ø«ÙŠ Ø§Ù„Ø£Ø¨Ø¹Ø§Ø¯(. Ø§Ù„Ø¬Ù…ÙˆØ¯ Ù„Ø§ ÙŠØ­Ø¯Ø« Ø¥Ù„Ø§ Ù…Ø¹ Ø§Ù„Ù…ÙˆØ§Ø±Ø¯ ØºÙŠØ± Ø§Ù„Ù‚Ø§Ø¨Ù„Ø© Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯.",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -3834,7 +3834,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DEADLOCKØ´Ø±Ø­ topic 2?",
+              "prompt": "Which statement is correct about DEADLOCKØ´Ø±Ø­ topic 2?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -3866,7 +3866,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |1\\. Mutual Exclusion?",
+              "prompt": "Which statement is correct about |1\\. Mutual Exclusion?",
               "choices": [
                 "|1\\. Mutual Exclusion: Resources cannot be shared; only one process can use a resource at a time. | .1Ø§Ù„Ø§Ø³ØªØ¨Ø¹Ø§Ø¯ Ø§Ù„Ù…ØªØ¨Ø§Ø¯Ù„: Ù„Ø§ ÙŠÙ…ÙƒÙ† Ù…Ø´Ø§Ø±ÙƒØ© Ø§Ù„Ù…ÙˆØ§Ø±Ø¯Ø› Ø¹Ù…Ù„ÙŠØ© ÙˆØ§Ø­Ø¯Ø© ÙÙ‚Ø· ÙŠÙ…ÙƒÙ†Ù‡Ø§ Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø§Ù„Ù…ÙˆØ±Ø¯ ÙÙŠ ÙˆÙ‚Øª ÙˆØ§Ø­Ø¯. |",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -3898,7 +3898,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Hold and Wait?",
+              "prompt": "Which statement is correct about Hold and Wait?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -3930,7 +3930,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø¹Ø¯Ù… Ø§Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯?",
+              "prompt": "Which statement is correct about Ø¹Ø¯Ù… Ø§Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯?",
               "choices": [
                 "Ø¹Ø¯Ù… Ø§Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯: Ù„Ø§ ÙŠÙ…ÙƒÙ† Ø£Ø®Ø° Ø§Ù„Ù…ÙˆØ§Ø±Ø¯ Ù‚Ø³Ø±Ø§Ø› ÙŠØ¬Ø¨ ØªØ­Ø±ÙŠØ±Ù‡Ø§![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.008.png) Ø·ÙˆØ¹Ø§ Ø¨ÙˆØ§Ø³Ø·Ø© Ø§Ù„Ø¹Ù…Ù„ÙŠØ© Ø§Ù„ØªÙŠ ØªØ­ØªÙØ¸ Ø¨Ù‡Ø§.",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -3962,7 +3962,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø§Ù„Ø§Ù†ØªØ¸Ø§Ø± Ø§Ù„Ø¯Ø§Ø¦Ø±ÙŠ?",
+              "prompt": "Which statement is correct about Ø§Ù„Ø§Ù†ØªØ¸Ø§Ø± Ø§Ù„Ø¯Ø§Ø¦Ø±ÙŠ?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -3994,7 +3994,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about E (Existing Resources)?",
+              "prompt": "Which statement is correct about E (Existing Resources)?",
               "choices": [
                 "E (Existing Resources): Total instances of each resource in the system.",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -4026,7 +4026,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A (Available Resources): Current instances of each resource that?",
+              "prompt": "Which statement is correct about A (Available Resources): Current instances of each resource that?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -4058,7 +4058,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |4\\. R (Request Matrix)?",
+              "prompt": "Which statement is correct about |4\\. R (Request Matrix)?",
               "choices": [
                 "|4\\. R (Request Matrix): Resources each process still needs to complete its work. |<p>` `Ù…ØµÙÙˆÙØ© Ø§Ù„Ø·Ù„Ø¨(: Ø§Ù„Ù…ÙˆØ§Ø±Ø¯ Ø§Ù„ØªÙŠ Ù„Ø§ ØªØ²Ø§Ù„ ØªØ­ØªØ§Ø¬Ù‡Ø§ ÙƒÙ„( R -4</p><p>Ø¹Ù…Ù„ÙŠØ© Ù„Ø¥ÙƒÙ…Ø§Ù„ Ø¹Ù…Ù„Ù‡Ø§. </p>|",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -4090,7 +4090,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |**Result: When the algorithm finishes, any process left unmarked?",
+              "prompt": "Which statement is correct about |**Result: When the algorithm finishes, any process left unmarked?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -4122,7 +4122,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Unsafe State: No such guarantee exists. The system might still run, but it?",
+              "prompt": "Which statement is correct about Unsafe State: No such guarantee exists. The system might still run, but it?",
               "choices": [
                 "Unsafe State: No such guarantee exists. The system might still run, but it is not guaranteed to avoid deadlock.",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -4154,7 +4154,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø§Ù„Ø­Ø§Ù„Ø© Ø§Ù„Ø¢Ù…Ù†Ø©?",
+              "prompt": "Which statement is correct about Ø§Ù„Ø­Ø§Ù„Ø© Ø§Ù„Ø¢Ù…Ù†Ø©?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -4186,7 +4186,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DEADLOCKØ´Ø±Ø­ topic 8?",
+              "prompt": "Which statement is correct about DEADLOCKØ´Ø±Ø­ topic 8?",
               "choices": [
                 "|**B. Banker's Algorithm for Multiple Resources** |**Ø¨. Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ© Ø§Ù„Ù…ØµØ±ÙÙŠ Ù„Ù…ÙˆØ§Ø±Ø¯ Ù…ØªØ¹Ø¯Ø¯Ø©** |",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -4218,7 +4218,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |1\\. E (Existing Resources)?",
+              "prompt": "Which statement is correct about |1\\. E (Existing Resources)?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -4250,7 +4250,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Algorithm to Check for a Safe State?",
+              "prompt": "Which statement is correct about The Algorithm to Check for a Safe State?",
               "choices": [
                 "The Algorithm to Check for a Safe State:**",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -4282,7 +4282,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about \\. Look for a process whose remaining needs?",
+              "prompt": "Which statement is correct about \\. Look for a process whose remaining needs?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -4314,7 +4314,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |**The Banker's algorithm will only grant a request if the resulting state?",
+              "prompt": "Which statement is correct about |**The Banker's algorithm will only grant a request if the resulting state?",
               "choices": [
                 "|**The Banker's algorithm will only grant a request if the resulting state is safe.** |**Ù„Ù† ØªÙ…Ù†Ø­ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ© Ø§Ù„Ù…ØµØ±ÙÙŠ Ø·Ù„Ø¨Ø§Ø§ Ø¥Ù„Ø§ Ø¥Ø°Ø§ ÙƒØ§Ù†Øª Ø§Ù„Ø­Ø§Ù„Ø© Ø§Ù„Ù†Ø§ØªØ¬Ø© Ø¢Ù…Ù†Ø©.** |",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -4346,7 +4346,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø§Ù„Ù†Ù‚Ø¯?",
+              "prompt": "Which statement is correct about Ø§Ù„Ù†Ù‚Ø¯?",
               "choices": [
                 "Nonpreemptable: Cannot be taken away without causing failure (e.g., a printer in the middle of printing, a 3D scanner). Deadlocks only involve nonpreemptable resources.",
                 "\u000e .1Ù‚Ø§Ø¨Ù„ Ù„Ù„Ø§Ø³ØªØ±Ø¯Ø§Ø¯ :(Preemptable) ÙŠÙ…ÙƒÙ† Ø£Ø®Ø°Ù‡ Ù…Ù† \\",
@@ -4378,7 +4378,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DEADLOCKØ´Ø±Ø­ topic 11?",
+              "prompt": "Which statement is correct about DEADLOCKØ´Ø±Ø­ topic 11?",
               "choices": [
                 "|3\\. Resources can fail or be removed. | .3ÙŠÙ…ÙƒÙ† Ø£Ù† ØªØªØ¹Ø·Ù„ Ø§Ù„Ù…ÙˆØ§Ø±Ø¯ Ø£Ùˆ ØªØªÙ… Ø¥Ø²Ø§Ù„ØªÙ‡Ø§. |",
                 "Preemptable: Can be taken away from a process ![](Aspose.Words.befc4ab3-7f18-4c26-9577-220c0b022d90.003.png)with no ill effects (e.g., CPU, memory). Taking away memory via swapping usually doesn't cause failure.",
@@ -4422,7 +4422,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 1?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 1?",
               "choices": [
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
@@ -4454,7 +4454,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø§ï»Ÿï»”ï»›Ø±Ø©?",
+              "prompt": "Which statement is correct about ` `Ø§ï»Ÿï»”ï»›Ø±Ø©?",
               "choices": [
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
                 "ïº³ï¯¾ï»›ÙˆÙ† Ø§ï»Ÿï»£Ø±ïºŸï»Š Ø§ï»Ÿïº—ïºŽï»Ÿï»² ï»Ÿï®­ïºŽ ï»“ï»² Ø£ïº‘ï»ŒØ¯ Ùˆï»—Øª ï»£ï»£ï»›Ù† ï»¹Ø²Ø§ï»Ÿïº—ï®­ïºŽ![ref2]",
@@ -4518,7 +4518,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Result?",
+              "prompt": "Which statement is correct about Result?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -4550,7 +4550,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
+              "prompt": "Which statement is correct about Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
               "choices": [
                 "Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï¯¾ïº—Ù… ïº—ïº»ï»§ï¯¾Ù Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø¥ï»Ÿï»° 4 ï»“ïº‹ïºŽØª ïº£ïº³Ø¨ ï»—ï¯¾Ù… R ![ref2]",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -4582,7 +4582,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 3?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 3?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -4614,7 +4614,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Result?",
+              "prompt": "Which statement is correct about Result?",
               "choices": [
                 "Result: Simple but crude algorithm that may not choose the best page to remove.",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -4646,7 +4646,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 4?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 4?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -4678,7 +4678,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 5?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 5?",
               "choices": [
                 "` `Ø§ï»ŸÙˆïº»ÙˆÙ„. ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ØŒ ï¯¾ïº—Ù… Ø¥Ø²Ø§ï»Ÿïº” Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø±Ø£Ø³ Ø§ï»Ÿï»˜ïºŽïº‹ï»£ïº” (Ø§ï»·ï»—Ø¯Ù…) ÙˆØ¥ïº¿ïºŽï»“ïº” Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»ŸïºŸØ¯ï¯¾Ø¯Ø© Ø¥ï»Ÿï»° ï»§ï®­ïºŽï¯¾ïº”",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -4710,7 +4710,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø§ï»Ÿï»§ïº—ï¯¾ïºŸïº”?",
+              "prompt": "Which statement is correct about ` `Ø§ï»Ÿï»§ïº—ï¯¾ïºŸïº”?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -4742,7 +4742,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Result?",
+              "prompt": "Which statement is correct about Result?",
               "choices": [
                 "Result: Simple algorithm but may remove important and frequently used pages (Belady's anomaly).",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -4774,7 +4774,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 6?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 6?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -4806,7 +4806,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 7?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 7?",
               "choices": [
                 "` `Ùˆï»§ï»˜Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø¥ï»Ÿï»° ï»§ï®­ïºŽï¯¾ïº” Ø§ï»Ÿï»˜ïºŽïº‹ï»£ïº” (Ùˆï»›ïº„ï»§ï®­ïºŽ ïºŸØ¯ï¯¾Ø¯Ø©)ØŒ ïº›Ù… ï¯¾ïº³ïº—ï»£Ø± .Ø§ï»Ÿïº‘ïº£Ø«![ref2]",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -4838,7 +4838,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ùˆïº—ïº—ïºŸï»§Ø¨ Ø¥Ø²Ø§ï»Ÿïº” Ø§ï»Ÿïº»ï»”ïº£ïºŽØª FIFO Ø§ï»Ÿï»§ïº—ï¯¾ïºŸïº”?",
+              "prompt": "Which statement is correct about ` `Ùˆïº—ïº—ïºŸï»§Ø¨ Ø¥Ø²Ø§ï»Ÿïº” Ø§ï»Ÿïº»ï»”ïº£ïºŽØª FIFO Ø§ï»Ÿï»§ïº—ï¯¾ïºŸïº”?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -4870,7 +4870,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Idea?",
+              "prompt": "Which statement is correct about Idea?",
               "choices": [
                 "Idea: A more efficient implementation of the Second-Chance algorithm using a",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -4902,7 +4902,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
+              "prompt": "Which statement is correct about ` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -4934,7 +4934,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 9?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 9?",
               "choices": [
                 "Use: Used in many modern operating",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -4966,7 +4966,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about (Least Recently Used?",
+              "prompt": "Which statement is correct about (Least Recently Used?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -4998,7 +4998,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Idea?",
+              "prompt": "Which statement is correct about Idea?",
               "choices": [
                 "Idea: Remove the page that has not been used for the longest time.",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5062,7 +5062,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
+              "prompt": "Which statement is correct about ` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
               "choices": [
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»Ÿï»›Ù„ ïº»ï»”ïº£ïº” ï»‹Ø¯Ø§Ø¯ (ï»£ïº›ï»¼ 8 ïº‘Øª). ï»‹ï»§Ø¯ ï»›Ù„ ï»§ïº‘ïº¿ïº”",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5094,7 +5094,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø¥ï»Ÿï»° Ø£ï»—ïº»ï»° R ïº³ïºŽï»‹ïº”?",
+              "prompt": "Which statement is correct about ` `Ø¥ï»Ÿï»° Ø£ï»—ïº»ï»° R ïº³ïºŽï»‹ïº”?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -5126,7 +5126,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about counter?",
+              "prompt": "Which statement is correct about counter?",
               "choices": [
                 "counter is shifted right, the R bit is added",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5158,7 +5158,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about to the far left, then R?",
+              "prompt": "Which statement is correct about to the far left, then R?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -5190,7 +5190,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø§ï»Ÿï»”ï»›Ø±Ø©?",
+              "prompt": "Which statement is correct about ` `Ø§ï»Ÿï»”ï»›Ø±Ø©?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—ï»Œïº—ï»£Ø¯ ï»‹ï» ï»° ï»£ï»”ï®­ÙˆÙ… \"ï»£ïºŸï»£Ùˆï»‹ïº” Ø§ï»Ÿï»Œï»£Ù„\" (Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ïº³ïº—ïº§Ø¯ï»£ïº” ïº£ïºŽï»Ÿï¯¾ïºŽ). Ø§ï»Ÿï®­Ø¯Ù Ú¾Ùˆ Ø¥ïº‘ï»˜ïºŽØ¡ ï»£ïºŸï»£Ùˆï»‹ïº” Ø§ï»Ÿï»Œï»£Ù„ ï»“ï»² .Ø§ï»ŸØ°Ø§ï»›Ø±Ø©![ref2]![ref4]",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5222,7 +5222,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
+              "prompt": "Which statement is correct about ` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -5254,7 +5254,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about \u000eIdea?",
+              "prompt": "Which statement is correct about \u000eIdea?",
               "choices": [
                 "\u000eIdea: Based on the concept of the \"Working Set\" (currently used pages). The goal is to keep the working set in",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5318,7 +5318,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 15?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 15?",
               "choices": [
                 "` `ïº—ïº‘ï»˜ï»° Ø§ï»Ÿïº»ï»”ïº£ïº”. Ø¥Ø°Ø§ ï»›ïºŽÙ† Ø§ï»Ÿï»Œï»£Ø± ØŒÏ„ Ùˆï¯¾ï»˜Ù„ Ø§ï»Ÿï»Œï»£Ø± ï»‹Ù† R=0 ï»›ïºŽÙ† Ùˆï»§Ø¸ï¯¾ï»”ïº”ØŒ ï¯¾ïº—Ù… Ø¥Ø²Ø§ï»Ÿïº—ï®­ïºŽ. Ø¥Ø°Ø§ ï»›ïºŽï»§Øª ï»—Ø°Ø±Ø©ØŒ ïº—ïºŸØ¯ÙˆÙ„ Ï„ Ø£ï»›ïº‘Ø± ï»£Ù†",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5350,7 +5350,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø§ï»Ÿï»§ïº—ï¯¾ïºŸïº”?",
+              "prompt": "Which statement is correct about ` `Ø§ï»Ÿï»§ïº—ï¯¾ïºŸïº”?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -5382,7 +5382,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 16?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 16?",
               "choices": [
                 "Use: Widely used in real operating",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5414,7 +5414,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 16?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 16?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -5446,7 +5446,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 17?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 17?",
               "choices": [
                 "|Chance |` `ï»“Ø±ïº»ïº” Ø¥Ø°Ø§ ï»›ïºŽï»§Øª|` `ïº—ïº—ïºŸï»§Ø¨ Ø¥Ø²Ø§ï»Ÿïº”|` `ïº‘ïº³ïº‘Ø¨ ïº—ïº£Ø±ï¯¾Ùƒ|Ø§ï»Ÿïº³ïºŽï»‹ïº”|",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5478,7 +5478,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 17?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 17?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -5510,7 +5510,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 18?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 18?",
               "choices": [
                 "|Set |` `ï»“ï»² ï»£ïºŸï»£Ùˆï»‹ïº” Ø§ï»Ÿï»Œï»£Ù„|` `ïºŸï¯¾Ø¯|` `(ï»‹ï»§Ø¯ ï»›Ù„ ïº§Ø·ïº„|Ø§ï»·ï»§Ø¸ï»£ïº”|",
                 "Optimal Page Replacement) 1. ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø§ï»»ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿï»£ïº›ïºŽï»Ÿï¯¾ïº” (Algorithm**",
@@ -5542,7 +5542,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 18?",
+              "prompt": "Which statement is correct about Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨Ø¹Ø© topic 18?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø©: ïº—Ø²ï¯¾Ù„ Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»² ï»ŸÙ† ï¯¾ïº—Ù… Ø§ïº³ïº—ïº§Ø¯Ø§ï»£ï®­ïºŽ ï»·Ø·ÙˆÙ„ ï»“ïº—Ø±Ø©",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ ïº£Ø¯ÙˆØ« ïº§Ø·ïº„ ï»“ï»² Ø§ï»Ÿïº»ï»”ïº£ïº”ØŒ ï¯¾ïº—Ù… ï»“ïº£Øµ ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿïº»ï»”ïº£ïºŽØª Ø§ï»Ÿï»£ÙˆïºŸÙˆØ¯Ø© ï»“ï»² Ø§ï»ŸØ°Ø§ï»›Ø±Ø©ØŒ Ùˆï¯¾ïº—Ù… Ø§ïº§ïº—ï¯¾ïºŽØ± Ø§ï»Ÿïº»ï»”ïº£ïº” Ø§ï»Ÿïº—ï»²",
@@ -5586,7 +5586,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”?",
+              "prompt": "Which statement is correct about ` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”?",
               "choices": [
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
@@ -5618,7 +5618,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `(Ø§ï»Ÿï»§ÙˆØ¹?",
+              "prompt": "Which statement is correct about ` `(Ø§ï»Ÿï»§ÙˆØ¹?",
               "choices": [
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
                 "Core Idea: The task with the nearest (smallest) deadline gets the highest",
@@ -5650,7 +5650,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `ï»‹ïºŽï»Ÿï»²ØŒ Ùˆï»» ï¯¾ïº¿ï»£Ù† (Overhead) Ø§ï»Ÿï»Œï¯¾ÙˆØ¨?",
+              "prompt": "Which statement is correct about ` `ï»‹ïºŽï»Ÿï»²ØŒ Ùˆï»» ï¯¾ïº¿ï»£Ù† (Overhead) Ø§ï»Ÿï»Œï¯¾ÙˆØ¨?",
               "choices": [
                 "` `ï»‹ïºŽï»Ÿï»²ØŒ Ùˆï»» ï¯¾ïº¿ï»£Ù† (Overhead) Ø§ï»Ÿï»Œï¯¾ÙˆØ¨: ïº£ï»£Ù„ Ø²Ø§ïº‹Ø¯ ïºŸØ¯Ùˆï»Ÿïº” ïºŸï»£ï¯¾ï»Š Ø§ï»Ÿï»£ï®­ïºŽÙ… ï»“ï»² ïº£ïºŽï»Ÿïº” Ø§ï»Ÿïº£ï»£Ù„ Ø§ï»ŸØ²Ø§ïº‹Ø¯![ref6]![ref1]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -5682,7 +5682,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Disadvantages?",
+              "prompt": "Which statement is correct about Disadvantages?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -5714,7 +5714,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø§ï»Ÿïº§Ø·ÙˆØ© 1?",
+              "prompt": "Which statement is correct about Ø§ï»Ÿïº§Ø·ÙˆØ© 1?",
               "choices": [
                 "Ø§ï»Ÿïº§Ø·ÙˆØ© 1: ïº£ïº³ïºŽØ¨ ï»‹ïºŽï»£Ù„ Ø§ï»»ïº³ïº—ïº§Ø¯Ø§Ù… / Step 1: Calculate Utilization Factor",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -5746,7 +5746,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 3?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 3?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -5778,7 +5778,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 4?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 4?",
               "choices": [
                 "` `ï»£ï»¼ïº£Ø¸ïºŽØª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»ŸÙˆï»—Øª / Time Ø§ï»Ÿï»£ï®­ï»£ïº” Ø§ï»Ÿï»£ï»§ï»”Ø°Ø© / Ø§ï»ŸÙˆï»—Øª Ø§ï»Ÿï»£ïº—ïº‘ï»˜ï»²![ref8]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -5810,7 +5810,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 4?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 4?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -5842,7 +5842,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 5?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 5?",
               "choices": [
                 "|17-20 |T2 (cycle 3) |e=0 |24 |T2 completes a|",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -5874,7 +5874,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø§ï»Ÿïº§Ø·ÙˆØ© 3?",
+              "prompt": "Which statement is correct about Ø§ï»Ÿïº§Ø·ÙˆØ© 3?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -5906,7 +5906,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
+              "prompt": "Which statement is correct about ` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„?",
               "choices": [
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï¯¾ïº—Ù… ïº—ï»Œï¯¾ï¯¾Ù† Ø£Ùˆï»ŸÙˆï¯¾ïº” ïº›ïºŽïº‘ïº—ïº” ï»Ÿï»›Ù„ ï»£ï®­ï»£ïº” ïº£ïº³Ø¨ Ø·ÙˆÙ„ Ø§ï»Ÿï»”ïº—Ø±Ø©![ref6]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -5938,7 +5938,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø§ï»Ÿïº·Ø±Ø· Ø§ï»Ÿï»›ïºŽï»“ï»²?",
+              "prompt": "Which statement is correct about Ø§ï»Ÿïº·Ø±Ø· Ø§ï»Ÿï»›ïºŽï»“ï»²?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -5970,7 +5970,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 7?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 7?",
               "choices": [
                 "` `ïº‘ïºŽïº³ïº—ïº§Ø¯Ø§Ù… ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Rate MonotonicØŒ ï»—Ù… ïº‘ïºŸØ¯Ùˆï»Ÿïº” Ø§ï»Ÿï»£ï®­ïºŽÙ… Ø§ï»Ÿïº—ïºŽï»Ÿï¯¾ïº” Ùˆïº—ïº£ï»˜ï»– ï»£Ù† Ø¥ï»£ï»›ïºŽï»§ï¯¾ïº” ïºŸØ¯Ùˆï»Ÿïº” Ø§ï»Ÿï»§Ø¸ïºŽÙ….",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6002,7 +6002,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 7?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 7?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6034,7 +6034,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 8?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 8?",
               "choices": [
                 "U = 0.4 + 0.375 + 0.4 U = 1.175 ![ref4]![ref3]![ref12]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6066,7 +6066,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 8?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 8?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6098,7 +6098,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø§ï»Ÿï»§Ø¸ïºŽÙ… ï»ï¯¾Ø± ï»—ïºŽïº‘Ù„ ï»Ÿï» ïºŸØ¯Ùˆï»Ÿïº” / U = 1.175 > 0.78 â†’ System?",
+              "prompt": "Which statement is correct about Ø§ï»Ÿï»§Ø¸ïºŽÙ… ï»ï¯¾Ø± ï»—ïºŽïº‘Ù„ ï»Ÿï» ïºŸØ¯Ùˆï»Ÿïº” / U = 1.175 > 0.78 â†’ System?",
               "choices": [
                 "Ø§ï»Ÿï»§Ø¸ïºŽÙ… ï»ï¯¾Ø± ï»—ïºŽïº‘Ù„ ï»Ÿï» ïºŸØ¯Ùˆï»Ÿïº” / U = 1.175 > 0.78 â†’ System is NOT schedulable :Ø§ï»Ÿïº—ïº£ï»˜ï»– / Check ![ref7]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6130,7 +6130,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø§ï»Ÿïº§Ø·ÙˆØ© 3?",
+              "prompt": "Which statement is correct about Ø§ï»Ÿïº§Ø·ÙˆØ© 3?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6162,7 +6162,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 10?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 10?",
               "choices": [
                 "Task / Ø§ï»Ÿï»£ï®­ï»£ïº” Cycle / Ø§ï»ŸØ¯ÙˆØ±Ø© Completion / Deadline / Result /",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6194,7 +6194,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 10?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 10?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6226,7 +6226,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² - Ø§ï»ŸÙˆï»—Øª) = Laxity?",
+              "prompt": "Which statement is correct about ` `Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² - Ø§ï»ŸÙˆï»—Øª) = Laxity?",
               "choices": [
                 "` `Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² - Ø§ï»ŸÙˆï»—Øª) = Laxity :ïº»ï¯¾ï»ïº” Ø§ï»Ÿïº£ïº³ïºŽØ¨ Ø§ï»Ÿïº£ïºŽï»Ÿï»²) - Ø§ï»ŸÙˆï»—Øª Ø§ï»Ÿï»£ïº—ïº‘ï»˜ï»² ï»Ÿï» ïº—ï»§ï»”ï¯¾Ø°![ref6]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6258,7 +6258,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø§ï»Ÿï»Œï¯¾ÙˆØ¨?",
+              "prompt": "Which statement is correct about ` `Ø§ï»Ÿï»Œï¯¾ÙˆØ¨?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6290,7 +6290,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 12?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 12?",
               "choices": [
                 "` `ïº‘ïºŽïº³ïº—ïº§Ø¯Ø§Ù… ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” LLFØŒ Ø§ïº£ïº³Ø¨ Ø§ï»ŸÙ€ Laxity ï»Ÿï»›Ù„ ï»£ï®­ï»£ïº” Ùˆïº£Ø¯Ø¯ ïº—Ø±ïº—ï¯¾Ø¨ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°.",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6322,7 +6322,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 12?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 12?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6354,7 +6354,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about T2 executes for 2 time units T2 completes at time 2 (deadline?",
+              "prompt": "Which statement is correct about T2 executes for 2 time units T2 completes at time 2 (deadline?",
               "choices": [
                 "T2 executes for 2 time units T2 completes at time 2 (deadline: 8) ![ref5]âœ… ![ref5]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6386,7 +6386,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 13?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 13?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6418,7 +6418,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about T1 executes for 3 time units T1 completes at time 5 (deadline?",
+              "prompt": "Which statement is correct about T1 executes for 3 time units T1 completes at time 5 (deadline?",
               "choices": [
                 "T1 executes for 3 time units T1 completes at time 5 (deadline: 10) ![ref5]âœ… ![ref5]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6450,7 +6450,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 14?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 14?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6482,7 +6482,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 15?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 15?",
               "choices": [
                 "T3 executes for 5 time units T3 ïº—ï»§ï»”Ø° ï»Ÿï»£Ø¯Ø© 5 Ùˆïº£Ø¯Ø§Øª Ø²ï»£ï»§ï¯¾ïº” T3 completes at time 10 (deadline: 15) ![ref3] T3 15 :ïº—ï»›ïº—ï»£Ù„ ï»“ï»² Ø§ï»ŸÙˆï»—Øª 10 (Ø§ï»Ÿï»£Ùˆï»‹Ø¯) âœ…",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6514,7 +6514,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about T2 â†’ T1 â†’ T3?",
+              "prompt": "Which statement is correct about T2 â†’ T1 â†’ T3?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6546,7 +6546,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Core Idea: Disk requests?",
+              "prompt": "Which statement is correct about Core Idea: Disk requests?",
               "choices": [
                 "Core Idea: Disk requests are served in",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6578,7 +6578,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 16?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 16?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6610,7 +6610,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 17?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 17?",
               "choices": [
                 "= 2 + 18 + 28 + 33 + 3 + 8 + 34 + 14 + 6 + 26 = Ø§ï»Ÿï»£ïº³ïºŽï»“ïº” Ø§ï»¹ïºŸï»£ïºŽï»Ÿï¯¾ïº” / Total Distance ![ref12]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6642,7 +6642,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 17?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 17?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6674,7 +6674,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `ï»Ÿï» Ø·ï» ïº‘ïºŽØª Ø§ï»Ÿïº‘ï»Œï¯¾Ø¯Ø© (Starvation) Ø§ï»Ÿï»Œï¯¾ÙˆØ¨?",
+              "prompt": "Which statement is correct about ` `ï»Ÿï» Ø·ï» ïº‘ïºŽØª Ø§ï»Ÿïº‘ï»Œï¯¾Ø¯Ø© (Starvation) Ø§ï»Ÿï»Œï¯¾ÙˆØ¨?",
               "choices": [
                 "` `ï»Ÿï» Ø·ï» ïº‘ïºŽØª Ø§ï»Ÿïº‘ï»Œï¯¾Ø¯Ø© (Starvation) Ø§ï»Ÿï»Œï¯¾ÙˆØ¨: ï»—Ø¯ ï¯¾ïº³ïº‘Ø¨ ïº—ïºŸÙˆï¯¾ï»Š![ref6]![ref1]",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6706,7 +6706,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Core Idea: The request closest to the current head position?",
+              "prompt": "Which statement is correct about Core Idea: The request closest to the current head position?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6738,7 +6738,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 19?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø¢Ù„ÙŠØ© Ø¹Ù…Ù„ Ø®ÙˆØ§Ø±Ø²Ù…ÙŠØ§Øª Ø§Ù„ÙˆØ³Ø§ÙŠØ· Ø§Ù„Ù…ØªØ¹Ø¯Ø¯Ø© topic 19?",
               "choices": [
                 "Step / Head Position Selected Distanc ðŸ‡¦ðŸ‡ª Ø§ï»Ÿïº·Ø±Ø­ ðŸ‡¬ðŸ‡§ ï»£Ùˆïº¿ï»Š Ø§ï»ŸØ±Ø£Ø³ / Ø§ï»Ÿïº§Ø·ÙˆØ© Request / e / Ø§ï»Ÿï»£ïº³ïºŽï»“ïº” Explanati",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6770,7 +6770,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Start 50?",
+              "prompt": "Which statement is correct about Start 50?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6802,7 +6802,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about â†’ 24 24 6 Ø£ï»—Ø±Ø¨ Closest ![ref14]Ø·ï» Ø¨ Ú¾Ùˆ request?",
+              "prompt": "Which statement is correct about â†’ 24 24 6 Ø£ï»—Ø±Ø¨ Closest ![ref14]Ø·ï» Ø¨ Ú¾Ùˆ request?",
               "choices": [
                 "â†’ 24 24 6 Ø£ï»—Ø±Ø¨ Closest ![ref14]Ø·ï» Ø¨ Ú¾Ùˆ request is",
                 "` `Ø§ï»Ÿï»”ï»›Ø±Ø© Ø§ï»·ïº³ïºŽïº³ï¯¾ïº”: Ø§ï»Ÿï»£ï®­ï»£ïº” Ø°Ø§Øª Ø§ï»Ÿï»£Ùˆï»‹Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï»² Ø§ï»·ï»—Ø±Ø¨ (Ø§ï»·ïº»ï»Ø±) ïº—ïº£ïº»Ù„ ï»‹ï» ï»° Ø£ï»‹ï» ï»° Ø£Ùˆï»ŸÙˆï¯¾ïº”![ref4]",
@@ -6834,7 +6834,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about â†’ 22 22 2 Ø£ï»—Ø±Ø¨ Closest Ø·ï» Ø¨ Ú¾Ùˆ request?",
+              "prompt": "Which statement is correct about â†’ 22 22 2 Ø£ï»—Ø±Ø¨ Closest Ø·ï» Ø¨ Ú¾Ùˆ request?",
               "choices": [
                 "` `(Ø§ï»Ÿï»§ÙˆØ¹: ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº” Ø¯ï¯¾ï»§ïºŽï»£ï¯¾ï»›ï¯¾ïº” (ïº—ïº—ï»ï¯¾Ø± Ø§ï»·Ùˆï»ŸÙˆï¯¾ïºŽØª Ø£ïº›ï»§ïºŽØ¡ Ø§ï»Ÿïº—ï»§ï»”ï¯¾Ø°![ref5]",
                 "` `Ø¢ï»Ÿï¯¾ïº” Ø§ï»Ÿï»Œï»£Ù„: ï»‹ï»§Ø¯ Ùˆïº»ÙˆÙ„ ï»£ï®­ï»£ïº” ïºŸØ¯ï¯¾Ø¯Ø©ØŒ ï¯¾ïº—Ù… Ø¥ï»‹ïºŽØ¯Ø© ïº—Ø±ïº—ï¯¾Ø¨ ï»—ïºŽïº‹ï»£ïº” Ø§ï»»ï»§ïº—Ø¸ïºŽØ± ïº£ïº³Ø¨ Ø§ï»Ÿï»£ÙˆØ§ï»‹ï¯¾Ø¯ Ø§ï»Ÿï»§ï®­ïºŽïº‹ï¯¾ïº”![ref5]",
@@ -6878,7 +6878,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 1?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 1?",
               "choices": [
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
@@ -6910,7 +6910,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 1?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 1?",
               "choices": [
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
                 "ïº§Ø·ïº„ ïº»ï»”ïº£ïº” (âœ… :(Page Fault ï¯¾ï»Œï»§ï»² ïº§Ø·ïº„ØŒ âŒ ï¯¾ï»Œï»§ï»² ï»» ï¯¾ÙˆïºŸØ¯ ïº§Ø·ïº„",
@@ -6942,7 +6942,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 2?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 2?",
               "choices": [
                 "` `Ø§ï»Ÿïº·Ø±Ø­ Ø§ï»Ÿï»£ï»”ïº»Ù„ ïº§Ø·ïº„ØŸ Ø§ï»¹Ø·ïºŽØ± Ø§ï»¹Ø·ïºŽØ± Ø§ï»¹Ø·ïºŽØ± Ø§ï»¹Ø·ïºŽØ± Ø§ï»Ÿï»£Ø±ïºŸï»Š Ø§ï»Ÿïº§Ø·ÙˆØ©",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -6974,7 +6974,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 2?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 2?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7006,7 +7006,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 3?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 3?",
               "choices": [
                 "|8 |4 |3 |4 |1 |2 |âœ… |ï»›ï¯¾Ù ïº£ïº³ïº‘ï»§ïºŽØŸ|",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7038,7 +7038,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 3?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 3?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7070,7 +7070,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 4?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 4?",
               "choices": [
                 "|14 |1 |3 |4 |0 |1 |âœ… |ï»›ï¯¾Ù ïº£ïº³ïº‘ï»§ïºŽØŸ|",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7102,7 +7102,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 4?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 4?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7134,7 +7134,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `ïº—Ø±ïº—ï¯¾Ø¨ Ø¯ïº§ÙˆÙ„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª?",
+              "prompt": "Which statement is correct about ` `ïº—Ø±ïº—ï¯¾Ø¨ Ø¯ïº§ÙˆÙ„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª?",
               "choices": [
                 "` `ïº—Ø±ïº—ï¯¾Ø¨ Ø¯ïº§ÙˆÙ„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª: 7 â†’ 0 â†’ 1 â†’ 2 â†’ 3 â†’ 4 â†’ 0 â†’ 1 â†’ 2 â†’ 7 â†’ 0",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7166,7 +7166,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 5?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 5?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7198,7 +7198,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |6 |3 |3 â† |0 |1 |2 |âœ… |?",
+              "prompt": "Which statement is correct about |6 |3 |3 â† |0 |1 |2 |âœ… |?",
               "choices": [
                 "|6 |3 |3 â† |0 |1 |2 |âœ… |- |ï»›ï¯¾Ù ïº£ïº³ïº‘ï»§ïºŽØŸ|",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7230,7 +7230,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 6?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 6?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7262,7 +7262,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about (ïº—ïº³ïº—ïº§Ø¯Ù… ï»—ïºŽïº‹ï»£ïº” ïº§Ø·ï¯¾ïº” (ï»§ï»§ï»˜Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª ï»Ÿï» ïº§ï» Ù?",
+              "prompt": "Which statement is correct about (ïº—ïº³ïº—ïº§Ø¯Ù… ï»—ïºŽïº‹ï»£ïº” ïº§Ø·ï¯¾ïº” (ï»§ï»§ï»˜Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª ï»Ÿï» ïº§ï» Ù?",
               "choices": [
                 "(ïº—ïº³ïº—ïº§Ø¯Ù… ï»—ïºŽïº‹ï»£ïº” ïº§Ø·ï¯¾ïº” (ï»§ï»§ï»˜Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª ï»Ÿï» ïº§ï» Ù :Second Chance â—",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7294,7 +7294,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about (ïº—ïº³ïº—ïº§Ø¯Ù… ï»—ïºŽïº‹ï»£ïº” Ø¯Ø§ïº‹Ø±ï¯¾ïº” (ï»£Ø¤ïº·Ø± ï¯¾ïº—ïº£Ø±Ùƒ ï»“ï»˜Ø·?",
+              "prompt": "Which statement is correct about (ïº—ïº³ïº—ïº§Ø¯Ù… ï»—ïºŽïº‹ï»£ïº” Ø¯Ø§ïº‹Ø±ï¯¾ïº” (ï»£Ø¤ïº·Ø± ï¯¾ïº—ïº£Ø±Ùƒ ï»“ï»˜Ø·?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7326,7 +7326,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 8?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 8?",
               "choices": [
                 "|7 |0 |3 |0 |1 |2 |âŒ |1 |Ø¥Ø·ïºŽØ± 2 â†’|",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7358,7 +7358,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |8 |4 |3 |0(0) |1 |2 |âœ… |?",
+              "prompt": "Which statement is correct about |8 |4 |3 |0(0) |1 |2 |âœ… |?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7390,7 +7390,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 9?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 9?",
               "choices": [
                 "|12-13 |3,2 |3 |4 |0 |2 |âŒ |1 |Ø¥Ø·ïºŽØ± 4 â†’|",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7422,7 +7422,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |14 |1 |3 |4 |0 |2(0) |âœ… |?",
+              "prompt": "Which statement is correct about |14 |1 |3 |4 |0 |2(0) |âœ… |?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7454,7 +7454,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 10?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 10?",
               "choices": [
                 "|||2 |0 |0 |1 ||1 |Ø¥Ø·ïºŽØ± 3 â†’|",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7486,7 +7486,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about |17 |1 |2 |0 |0(0) |1 |âœ… |?",
+              "prompt": "Which statement is correct about |17 |1 |2 |0 |0(0) |1 |âœ… |?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7518,7 +7518,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø¥Ø·ïºŽØ± 2 â†’ 1 7 1 0 0![](Aspose.Words.2a056608?",
+              "prompt": "Which statement is correct about ` `Ø¥Ø·ïºŽØ± 2 â†’ 1 7 1 0 0![](Aspose.Words.2a056608?",
               "choices": [
                 "` `Ø¥Ø·ïºŽØ± 2 â†’ 1 7 1 0 0![](Aspose.Words.2a056608-e3d8-46d7-ae2d-07c7c655bae6.010.png)",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7550,7 +7550,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 11?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 11?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7582,7 +7582,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 12?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 12?",
               "choices": [
                 "âŒ [3, 1, 2, 0] 17 ![ref4]![ref2] 1 3 4 0 1 âŒ [3, 2, 0, 1] 18 ![ref2] 7 7 4 0 1 âœ… [2, 0, 1, 7] â† 3",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7614,7 +7614,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 12?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 12?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7646,7 +7646,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ` `Ø§ï»Ÿï»ŒïºªØ§Ø¯ Ø§ï»Ÿïº ïºªï¯¾ïºª = (R) + (Ø§ï»Ÿï»ŒïºªØ§Ø¯ Ø§ï»Ÿï»˜ïºªï¯¾ï»¢ >> 1)![](Aspose.Words.2a056608?",
+              "prompt": "Which statement is correct about ` `Ø§ï»Ÿï»ŒïºªØ§Ø¯ Ø§ï»Ÿïº ïºªï¯¾ïºª = (R) + (Ø§ï»Ÿï»ŒïºªØ§Ø¯ Ø§ï»Ÿï»˜ïºªï¯¾ï»¢ >> 1)![](Aspose.Words.2a056608?",
               "choices": [
                 "` `Ø§ï»Ÿï»ŒïºªØ§Ø¯ Ø§ï»Ÿïº ïºªï¯¾ïºª = (R) + (Ø§ï»Ÿï»ŒïºªØ§Ø¯ Ø§ï»Ÿï»˜ïºªï¯¾ï»¢ >> 1)![](Aspose.Words.2a056608-e3d8-46d7-ae2d-07c7c655bae6.013.png)",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7678,7 +7678,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about [Tick 1)?",
+              "prompt": "Which statement is correct about [Tick 1)?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7710,7 +7710,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 14?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 14?",
               "choices": [
                 "(1) + (0010 >> 1) = 1 + 0001 1001 ![ref11]![ref12]1 (1) + (1000 >> 1) = 1 + 0100 1100 ![ref12]2 (0) + (1010 >> 1) = 0 + 0101 0010 ![ref12]3 (1) + (0000 >> 1) = 1 + 0000 1000 ![ref14]![ref9]",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7742,7 +7742,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about [Tick 4)?",
+              "prompt": "Which statement is correct about [Tick 4)?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7774,7 +7774,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 15?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 15?",
               "choices": [
                 "@1 âœ… Ø¥ïº¿ïºŽï»“ïº” (Ø§ï»ŸØ°Ø§ï»›Ø±Ø© ï»“ïºŽØ±ï»ïº”) 2 ![ref15] 0 7@1, 0@2 âœ… Ø¥ïº¿ïºŽï»“ïº” 3 ![ref16] 1 7@1, 0@2, âœ… Ø¥ïº¿ïºŽï»“ïº”",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7806,7 +7806,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 15?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 15?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7838,7 +7838,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 16?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 16?",
               "choices": [
                 "@8, 0@7, âŒ 3 ï»£ÙˆïºŸÙˆØ¯Ø© â†’ ïº—ïº£Ø¯ï¯¾Ø« Ùˆï»—ïº—ï®­ïºŽ",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7870,7 +7870,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 16?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 16?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7902,7 +7902,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 17?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 17?",
               "choices": [
                 "Ø¥Ø°Ø§ ï»›ïºŽÙ† R = 0 ÙˆØ§ï»Ÿï»Œï»£Ø± â‰¤ 2 â†’ ïº—ï»˜Ø¯Ù… (ï»» ïº—Ø²Ø§Ù„ ï»“ï»² ï»£ïºŸï»£Ùˆï»‹ïº” Ø§ï»Ÿï»Œï»£Ù„)",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7934,7 +7934,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 17?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 17?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -7966,7 +7966,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 18?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 18?",
               "choices": [
                 "|4 |2 |4(R= |2(R= |3(R= |0(R= |âŒ |ï»£ÙˆïºŸÙˆØ¯Ø© 2|",
                 "ïº·Ø±Ø­ ïº—ï»”ïº»ï¯¾ï» ï»² ï»Ÿï»›ï¯¾ï»”ï¯¾ïº” ïº£ïº³ïºŽØ¨ Ø§ï»·Ø±ï»—ïºŽÙ… ï»“ï»² ïºŸØ¯Ø§ÙˆÙ„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„** ðŸ“š",
@@ -7998,7 +7998,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 18?",
+              "prompt": "Which statement is correct about Ø´Ø±Ø­ Ø§Ù„ÙŠØ© Ø¹Ù…Ù„ Ø§Ù„Ø®ÙˆØ§Ø²Ù…ÙŠØ§Øª Ù„Ù„Ù…Ø­Ø§Ø¶Ø±Ø© Ø§Ù„Ø±Ø§Ø¨ØºØ© topic 18?",
               "choices": [
                 "` `ï»—ïº‘Ù„ Ø£Ù† ï»§ïº‘Ø¯Ø£ ï»“ï»² ïº·Ø±Ø­ ï»›Ù„ ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïº”ØŒ Ø¯ï»‹ï»§ïºŽ ï»§ï»”ï®­Ù… Ø§ï»Ÿï»£ï»›Ùˆï»§ïºŽØª Ø§ï»·ïº³ïºŽïº³ï¯¾ïº” ï»·ÙŠ ïºŸØ¯ÙˆÙ„ ï»“ï»² ïº§ÙˆØ§Ø±Ø²ï»£ï¯¾ïºŽØª Ø§ïº³ïº—ïº‘Ø¯Ø§Ù„ Ø§ï»Ÿïº»ï»”ïº£ïºŽØª:",
                 "Ø§ï»¹Ø·ïºŽØ±Ø§Øª (Frames): ï»£ïº£ïº—Ùˆï¯¾ïºŽØª Ø§ï»ŸØ°Ø§ï»›Ø±Ø© (ï»‹Ø¯Ø¯Ú¾ïºŽ = 4 ï»“ï»² Ø£ï»£ïº›ï» ïº—ï»§ïºŽ)",
@@ -8042,7 +8042,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A modern computer?",
+              "prompt": "Which statement is correct about A modern computer?",
               "choices": [
                 "A modern computer consists of processors, memory, disks,",
                 "the intricate details of all these components .",
@@ -8074,7 +8074,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Complexity of the Hardware?",
+              "prompt": "Which statement is correct about The Complexity of the Hardware?",
               "choices": [
                 "The operating system is a layer of software that provides a",
                 "It is responsible for managing resources optimally .",
@@ -8106,7 +8106,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about It performs two largely unrelated functions?",
+              "prompt": "Which statement is correct about It performs two largely unrelated functions?",
               "choices": [
                 "It performs two largely unrelated functions: â€¢ Providing abstractions to application programmers .",
                 "A modern computer consists of processors, memory, disks,",
@@ -8138,7 +8138,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about what is an Operating System??",
+              "prompt": "Which statement is correct about what is an Operating System??",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8170,7 +8170,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Hardware architecture at the machine-language level?",
+              "prompt": "Which statement is correct about Hardware architecture at the machine-language level?",
               "choices": [
                 "Hardware architecture at the machine-language level is often primitive and awkward to program. â€¢ Example: Modern SATA hard disk interfaces have manuals spanning hundreds of pages.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8202,7 +8202,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The OS?",
+              "prompt": "Which statement is correct about The OS?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8234,7 +8234,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about This?",
+              "prompt": "Which statement is correct about This?",
               "choices": [
                 "This is a bottom-up view of the operating system.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8266,7 +8266,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The OS?",
+              "prompt": "Which statement is correct about The OS?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8298,7 +8298,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Managing Resource Chaos?",
+              "prompt": "Which statement is correct about Managing Resource Chaos?",
               "choices": [
                 "The OS prevents chaos by buffering output (e.g., for a printer).",
                 "A modern computer consists of processors, memory, disks,",
@@ -8330,7 +8330,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Managing Resource Chaos?",
+              "prompt": "Which statement is correct about Managing Resource Chaos?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8362,7 +8362,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Time Multiplexing?",
+              "prompt": "Which statement is correct about Time Multiplexing?",
               "choices": [
                 "Time Multiplexing: Different users or programs take turns using a resource (e.g., the CPU).",
                 "A modern computer consists of processors, memory, disks,",
@@ -8394,7 +8394,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Space Multiplexing?",
+              "prompt": "Which statement is correct about Space Multiplexing?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8426,7 +8426,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Early Batch System?",
+              "prompt": "Which statement is correct about The Early Batch System?",
               "choices": [
                 "Designed to reduce wasted computer time spent waiting for operators.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8458,7 +8458,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Jobs?",
+              "prompt": "Which statement is correct about Jobs?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8490,7 +8490,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Typical flow?",
+              "prompt": "Which statement is correct about Typical flow?",
               "choices": [
                 "Typical flow: $ , FORTRAN compiler request DATA",
                 "A modern computer consists of processors, memory, disks,",
@@ -8522,7 +8522,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about These?",
+              "prompt": "Which statement is correct about These?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8554,7 +8554,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multiprogramming and Spooling?",
+              "prompt": "Which statement is correct about Multiprogramming and Spooling?",
               "choices": [
                 "Multiprogramming Partitioning memory to hold multiple jobs at once.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8586,7 +8586,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Spooling: Reading jobs from cards onto disk immediately so they?",
+              "prompt": "Which statement is correct about Spooling: Reading jobs from cards onto disk immediately so they?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8618,7 +8618,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Timesharing?",
+              "prompt": "Which statement is correct about Timesharing?",
               "choices": [
                 "Timesharing: A variant of multiprogramming where each user has an online terminal.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8650,7 +8650,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about MULTICS?",
+              "prompt": "Which statement is correct about MULTICS?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8682,7 +8682,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Ken Thompson wrote a stripped?",
+              "prompt": "Which statement is correct about Ken Thompson wrote a stripped?",
               "choices": [
                 "Ken Thompson wrote a stripped-down version of MULTICS for a PDP-7.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8714,7 +8714,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Birth of UNIX?",
+              "prompt": "Which statement is correct about The Birth of UNIX?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8746,7 +8746,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The GUI Revolution?",
+              "prompt": "Which statement is correct about The GUI Revolution?",
               "choices": [
                 "Doug Engelbart invented the Graphical User Interface (GUI) in the 1960s.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8778,7 +8778,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The GUI Revolution?",
+              "prompt": "Which statement is correct about The GUI Revolution?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8810,7 +8810,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The OS?",
+              "prompt": "Which statement is correct about The OS?",
               "choices": [
                 "The OS is intimately tied to the hardware it manages.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8842,7 +8842,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Key components?",
+              "prompt": "Which statement is correct about Key components?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8874,7 +8874,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about CPU Basics?",
+              "prompt": "Which statement is correct about CPU Basics?",
               "choices": [
                 "The CPU fetches, decodes, and executes instructions from memory.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8906,7 +8906,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about CPU Basics?",
+              "prompt": "Which statement is correct about CPU Basics?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -8938,7 +8938,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Program Counter (PC)?",
+              "prompt": "Which statement is correct about Program Counter (PC)?",
               "choices": [
                 "Program Counter (PC): Contains the address of the next instruction.",
                 "A modern computer consists of processors, memory, disks,",
@@ -8970,7 +8970,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Stack Pointer?",
+              "prompt": "Which statement is correct about Stack Pointer?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -9002,7 +9002,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about CPU Pipelines?",
+              "prompt": "Which statement is correct about CPU Pipelines?",
               "choices": [
                 "Separate units handle fetch, decode, and execute in stages.",
                 "A modern computer consists of processors, memory, disks,",
@@ -9034,7 +9034,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Instructions?",
+              "prompt": "Which statement is correct about Instructions?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -9066,7 +9066,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Instructions?",
+              "prompt": "Which statement is correct about Instructions?",
               "choices": [
                 "Instructions are often executed out of order.",
                 "A modern computer consists of processors, memory, disks,",
@@ -9098,7 +9098,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Kernel Mode?",
+              "prompt": "Which statement is correct about Kernel Mode?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -9130,7 +9130,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about User Mode: Only a subset of instructions?",
+              "prompt": "Which statement is correct about User Mode: Only a subset of instructions?",
               "choices": [
                 "User Mode: Only a subset of instructions is available; I/O and memory protection are forbidden.",
                 "A modern computer consists of processors, memory, disks,",
@@ -9162,7 +9162,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multithreading (Hyperthreading)?",
+              "prompt": "Which statement is correct about Multithreading (Hyperthreading)?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -9194,7 +9194,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multicore?",
+              "prompt": "Which statement is correct about Multicore?",
               "choices": [
                 "Multicore: Multiple complete processors (cores) on a single chip.",
                 "A modern computer consists of processors, memory, disks,",
@@ -9226,7 +9226,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Memory Hierarchy?",
+              "prompt": "Which statement is correct about Memory Hierarchy?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -9258,7 +9258,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Order?",
+              "prompt": "Which statement is correct about Order?",
               "choices": [
                 "Order: Registers (fastest), Cache (L1, L2), Main Memory (RAM), Magnetic Disk/SSD (slowest).",
                 "A modern computer consists of processors, memory, disks,",
@@ -9290,7 +9290,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about L1 Cache?",
+              "prompt": "Which statement is correct about L1 Cache?",
               "choices": [
                 "the intricate details of all these components .",
                 "The operating system is a layer of software that provides a",
@@ -9334,7 +9334,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The process?",
+              "prompt": "Which statement is correct about The process?",
               "choices": [
                 "The process is the most central concept in any operating",
                 "system, serving as an abstraction of a running program.",
@@ -9366,7 +9366,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Advanced Operating Systems Process and Threads?",
+              "prompt": "Which statement is correct about Advanced Operating Systems Process and Threads?",
               "choices": [
                 "Everything in OS design hinges on this concept, as it allows",
                 "Processes turn a single physical CPU into multiple \"virtual",
@@ -9398,7 +9398,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about In this model, all runnable software?",
+              "prompt": "Which statement is correct about In this model, all runnable software?",
               "choices": [
                 "In this model, all runnable software is organized into",
                 "The process is the most central concept in any operating",
@@ -9430,7 +9430,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A process?",
+              "prompt": "Which statement is correct about A process?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9462,7 +9462,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about independent, sequential processes. (c) Only one program?",
+              "prompt": "Which statement is correct about independent, sequential processes. (c) Only one program?",
               "choices": [
                 "independent, sequential processes. (c) Only one program is active at once. 4",
                 "The process is the most central concept in any operating",
@@ -9494,7 +9494,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A program?",
+              "prompt": "Which statement is correct about A program?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9526,7 +9526,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about process?",
+              "prompt": "Which statement is correct about process?",
               "choices": [
                 "process is an active entity.",
                 "The process is the most central concept in any operating",
@@ -9558,7 +9558,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Example: Background processes called daemons?",
+              "prompt": "Which statement is correct about Example: Background processes called daemons?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9590,7 +9590,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Process Creation Events?",
+              "prompt": "Which statement is correct about Process Creation Events?",
               "choices": [
                 "boot time to handle tasks like incoming email or web requests.",
                 "The process is the most central concept in any operating",
@@ -9622,7 +9622,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Example: A compiler executes a system call to tell the OS it?",
+              "prompt": "Which statement is correct about Example: A compiler executes a system call to tell the OS it?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9654,7 +9654,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Example?",
+              "prompt": "Which statement is correct about Example?",
               "choices": [
                 "Example: A program attempting to divide by zero or accessing non-existent memory causes an involuntary termination (Fatal Error).",
                 "The process is the most central concept in any operating",
@@ -9686,7 +9686,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Implementation of Processes?",
+              "prompt": "Which statement is correct about Implementation of Processes?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9718,7 +9718,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Implementation of Processes?",
+              "prompt": "Which statement is correct about Implementation of Processes?",
               "choices": [
                 "Entries store vital data like the program counter, stack pointer,",
                 "The process is the most central concept in any operating",
@@ -9750,7 +9750,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Threads?",
+              "prompt": "Which statement is correct about Threads?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9782,7 +9782,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about They?",
+              "prompt": "Which statement is correct about They?",
               "choices": [
                 "They are significantly faster to create and destroy than",
                 "The process is the most central concept in any operating",
@@ -9814,7 +9814,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A word processor?",
+              "prompt": "Which statement is correct about A word processor?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9846,7 +9846,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Thread Example: Word Processor?",
+              "prompt": "Which statement is correct about Thread Example: Word Processor?",
               "choices": [
                 "Thread 1 interacts with the user, Thread 2 reformats the",
                 "The process is the most central concept in any operating",
@@ -9878,7 +9878,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Thread Example: Web Server?",
+              "prompt": "Which statement is correct about Thread Example: Web Server?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9910,7 +9910,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Thread Example: Web Server?",
+              "prompt": "Which statement is correct about Thread Example: Web Server?",
               "choices": [
                 "The dispatcher wakes an idle Worker thread, which then",
                 "The process is the most central concept in any operating",
@@ -9942,7 +9942,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Classical Thread Model?",
+              "prompt": "Which statement is correct about The Classical Thread Model?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -9974,7 +9974,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Classical Thread Model?",
+              "prompt": "Which statement is correct about The Classical Thread Model?",
               "choices": [
                 "but share the process's global variables and open files. â€¢ If one thread opens a file, that file is immediately visible to all",
                 "The process is the most central concept in any operating",
@@ -10006,7 +10006,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about POSIX Threads (Pthreads)?",
+              "prompt": "Which statement is correct about POSIX Threads (Pthreads)?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10038,7 +10038,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about POSIX Threads (Pthreads)?",
+              "prompt": "Which statement is correct about POSIX Threads (Pthreads)?",
               "choices": [
                 "_ allows one thread to wait for another to finish.",
                 "The process is the most central concept in any operating",
@@ -10070,7 +10070,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about User-Space: Threads?",
+              "prompt": "Which statement is correct about User-Space: Threads?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10102,7 +10102,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about User-Space vs. Kernel-Space Threads?",
+              "prompt": "Which statement is correct about User-Space vs. Kernel-Space Threads?",
               "choices": [
                 "A thread switch can be done in a handful of instructions",
                 "The process is the most central concept in any operating",
@@ -10134,7 +10134,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Hybrid Thread Implementations?",
+              "prompt": "Which statement is correct about Hybrid Thread Implementations?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10166,7 +10166,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multiple user-level threads?",
+              "prompt": "Which statement is correct about Multiple user-level threads?",
               "choices": [
                 "Multiple user-level threads are multiplexed onto a smaller",
                 "The process is the most central concept in any operating",
@@ -10198,7 +10198,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Figure 2?",
+              "prompt": "Which statement is correct about Figure 2?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10230,7 +10230,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Hybrid Thread Implementations?",
+              "prompt": "Which statement is correct about Hybrid Thread Implementations?",
               "choices": [
                 "Existing libraries often use global variables that can cause",
                 "The process is the most central concept in any operating",
@@ -10262,7 +10262,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Figure 2?",
+              "prompt": "Which statement is correct about Figure 2?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10294,7 +10294,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about An alternative to threads that?",
+              "prompt": "Which statement is correct about An alternative to threads that?",
               "choices": [
                 "An alternative to threads that uses a single thread and",
                 "The process is the most central concept in any operating",
@@ -10326,7 +10326,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Event-Driven Servers?",
+              "prompt": "Which statement is correct about Event-Driven Servers?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10358,7 +10358,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about processes don't interfere with each other, and proper sequencing. â€¢ Example?",
+              "prompt": "Which statement is correct about processes don't interfere with each other, and proper sequencing. â€¢ Example?",
               "choices": [
                 "processes don't interfere with each other, and proper sequencing. â€¢ Example: In an airline reservation system, two threads must be",
                 "The process is the most central concept in any operating",
@@ -10390,7 +10390,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Interprocess Communication (IPC)?",
+              "prompt": "Which statement is correct about Interprocess Communication (IPC)?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10454,7 +10454,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Race Conditions?",
+              "prompt": "Which statement is correct about Race Conditions?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10486,7 +10486,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Critical Regions?",
+              "prompt": "Which statement is correct about Critical Regions?",
               "choices": [
                 "To avoid races, we use mutual exclusion, ensuring only one",
                 "The process is the most central concept in any operating",
@@ -10518,7 +10518,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The part of the program where shared memory?",
+              "prompt": "Which statement is correct about The part of the program where shared memory?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10550,7 +10550,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Critical Regions?",
+              "prompt": "Which statement is correct about Critical Regions?",
               "choices": [
                 "Busy waiting involves a process sitting in a tight loop checking a",
                 "The process is the most central concept in any operating",
@@ -10582,7 +10582,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Critical Regions?",
+              "prompt": "Which statement is correct about Critical Regions?",
               "choices": [
                 "system, serving as an abstraction of a running program.",
                 "Everything in OS design hinges on this concept, as it allows",
@@ -10626,7 +10626,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Quest for Power: The computer industry?",
+              "prompt": "Which statement is correct about The Quest for Power: The computer industry?",
               "choices": [
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
@@ -10658,7 +10658,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Heat Dissipation Constraints?",
+              "prompt": "Which statement is correct about Heat Dissipation Constraints?",
               "choices": [
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
                 "interactions requires long runs on many CPUs simultaneously.",
@@ -10690,7 +10690,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Shared-Memory Multiprocessors?",
+              "prompt": "Which statement is correct about Shared-Memory Multiprocessors?",
               "choices": [
                 "Shared-Memory Multiprocessors: All CPUs share full access to a common RAM.",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -10722,7 +10722,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Message-Passing Multicomputers?",
+              "prompt": "Which statement is correct about Message-Passing Multicomputers?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -10754,7 +10754,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about can be read as fast as any other. `â€¢` Bus-Based Architecture?",
+              "prompt": "Which statement is correct about can be read as fast as any other. `â€¢` Bus-Based Architecture?",
               "choices": [
                 "can be read as fast as any other. `â€¢` Bus-Based Architecture: The simplest UMA design",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -10786,7 +10786,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Primary System Models?",
+              "prompt": "Which statement is correct about Primary System Models?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -10818,7 +10818,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Contention Problem?",
+              "prompt": "Which statement is correct about The Contention Problem?",
               "choices": [
                 "The Contention Problem: With 32 or 64 CPUs, a single",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -10850,7 +10850,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about bus becomes a bottleneck. `â€¢` Solution: Adding local caches to each CPU?",
+              "prompt": "Which statement is correct about bus becomes a bottleneck. `â€¢` Solution: Adding local caches to each CPU?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -10882,7 +10882,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Scalability Limit?",
+              "prompt": "Which statement is correct about Scalability Limit?",
               "choices": [
                 "Scalability Limit: The number of crosspoints grows as , making it impractical for thousands of nodes.",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -10914,7 +10914,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about `â€¢` Nonuniform Memory Access (NUMA): Memory?",
+              "prompt": "Which statement is correct about `â€¢` Nonuniform Memory Access (NUMA): Memory?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -10946,7 +10946,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multistage Switching Networks?",
+              "prompt": "Which statement is correct about Multistage Switching Networks?",
               "choices": [
                 "physically distributed, resulting in faster access to local memory than remote memory. `â€¢` Memory Management: The address space is statically",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -10978,7 +10978,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multicore?",
+              "prompt": "Which statement is correct about Multicore?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11010,7 +11010,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about often share an L3 cache. `â€¢` Manycore?",
+              "prompt": "Which statement is correct about often share an L3 cache. `â€¢` Manycore?",
               "choices": [
                 "often share an L3 cache. `â€¢` Manycore: Chips containing hundreds or thousands of",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11042,7 +11042,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Model?",
+              "prompt": "Which statement is correct about The Model?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11074,7 +11074,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about and OS tasks; others run user processes. `â€¢` Load Balancing?",
+              "prompt": "Which statement is correct about and OS tasks; others run user processes. `â€¢` Load Balancing?",
               "choices": [
                 "and OS tasks; others run user processes. `â€¢` Load Balancing: The leader assigns processes to",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11106,7 +11106,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about `â€¢` Equality?",
+              "prompt": "Which statement is correct about `â€¢` Equality?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11138,7 +11138,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about run it to handle system calls. `â€¢` Big Kernel Lock?",
+              "prompt": "Which statement is correct about run it to handle system calls. `â€¢` Big Kernel Lock?",
               "choices": [
                 "run it to handle system calls. `â€¢` Big Kernel Lock: Initially, a single mutex protected the",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11170,7 +11170,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about `â€¢` The Cache Problem?",
+              "prompt": "Which statement is correct about `â€¢` The Cache Problem?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11202,7 +11202,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about hardware, causing cache blocks to shuttle constantly between CPUs. `â€¢` Solution?",
+              "prompt": "Which statement is correct about hardware, causing cache blocks to shuttle constantly between CPUs. `â€¢` Solution?",
               "choices": [
                 "hardware, causing cache blocks to shuttle constantly between CPUs. `â€¢` Solution: Use private lock variables for each CPU to test",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11234,7 +11234,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Spinning vs. Switching?",
+              "prompt": "Which statement is correct about Spinning vs. Switching?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11266,7 +11266,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Spinning vs. Switching?",
+              "prompt": "Which statement is correct about Spinning vs. Switching?",
               "choices": [
                 "other CPUs will waste their entire time slices spinning for it.",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11298,7 +11298,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Partitioning: CPUs?",
+              "prompt": "Which statement is correct about Partitioning: CPUs?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11330,7 +11330,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about to the threads of one process. `â€¢` Benefit?",
+              "prompt": "Which statement is correct about to the threads of one process. `â€¢` Benefit?",
               "choices": [
                 "to the threads of one process. `â€¢` Benefit: Eliminates the overhead of context switching",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11362,7 +11362,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Gang Scheduling?",
+              "prompt": "Which statement is correct about Gang Scheduling?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11394,7 +11394,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Solution?",
+              "prompt": "Which statement is correct about The Solution?",
               "choices": [
                 "The Solution: Synchronously schedule all members of a",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11426,7 +11426,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Figure 8-14. Communication between two threads belonging to thread A that?",
+              "prompt": "Which statement is correct about Figure 8-14. Communication between two threads belonging to thread A that?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11458,7 +11458,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Definition?",
+              "prompt": "Which statement is correct about Definition?",
               "choices": [
                 "Definition: Tightly coupled CPUs that do not share",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11490,7 +11490,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about `â€¢` Nodes?",
+              "prompt": "Which statement is correct about `â€¢` Nodes?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11522,7 +11522,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Structures?",
+              "prompt": "Which statement is correct about Structures?",
               "choices": [
                 "Structures: Star, Ring, Grid, Double Torus, Cube, and",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11554,7 +11554,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Interconnect Topologies?",
+              "prompt": "Which statement is correct about Interconnect Topologies?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11586,7 +11586,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Interconnect Topologies?",
+              "prompt": "Which statement is correct about Interconnect Topologies?",
               "choices": [
                 "(a) A single switch. (b) A ring. 37",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11618,7 +11618,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Store-and-Forward: Packets?",
+              "prompt": "Which statement is correct about Store-and-Forward: Packets?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11650,7 +11650,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about switch; latency increases with the number of hops. `â€¢` Circuit Switching?",
+              "prompt": "Which statement is correct about switch; latency increases with the number of hops. `â€¢` Circuit Switching?",
               "choices": [
                 "switch; latency increases with the number of hops. `â€¢` Circuit Switching: Establishes a synchronous path",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11682,7 +11682,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about RAM and the interface board. `â€¢` Copy Steps?",
+              "prompt": "Which statement is correct about RAM and the interface board. `â€¢` Copy Steps?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11714,7 +11714,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about copies (user space to kernel, kernel to board, etc.). `â€¢` Optimization?",
+              "prompt": "Which statement is correct about copies (user space to kernel, kernel to board, etc.). `â€¢` Optimization?",
               "choices": [
                 "copies (user space to kernel, kernel to board, etc.). `â€¢` Optimization: Mapping the interface board directly into",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11746,7 +11746,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Figure 8?",
+              "prompt": "Which statement is correct about Figure 8?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11778,7 +11778,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about `â€¢` Concept?",
+              "prompt": "Which statement is correct about `â€¢` Concept?",
               "choices": [
                 "`â€¢` Concept: Allows one computer to access application",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11810,7 +11810,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Goal?",
+              "prompt": "Which statement is correct about Goal?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11842,7 +11842,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about `â€¢` Stubs?",
+              "prompt": "Which statement is correct about `â€¢` Stubs?",
               "choices": [
                 "`â€¢` Stubs: Client and server stubs handle \"marshaling",
                 "The Quest for Power: The computer industry is driven by an endless demand for computing cycles to solve complex problems in astronomy, biology, and aeronautical engineering.",
@@ -11874,7 +11874,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Figure 8-20. Steps in making a remote procedure call. The stubs?",
+              "prompt": "Which statement is correct about Figure 8-20. Steps in making a remote procedure call. The stubs?",
               "choices": [
                 "Heat Dissipation Constraints: Faster CPUs generate significant heat; on high-end systems, coolers are often larger than the CPUs themselves.",
                 "Evolution of Parallelism: To bypass physical limits, systems link multiple processors together in various configurations.",
@@ -11918,7 +11918,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Dream?",
+              "prompt": "Which statement is correct about The Dream?",
               "choices": [
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
                 "The memory manager is the OS component responsible for:",
@@ -11950,7 +11950,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The memory manager?",
+              "prompt": "Which statement is correct about The memory manager?",
               "choices": [
                 "Tracking which parts of memory are in use.",
                 "Goal: Manage the abstraction of the memory hierarchy into a useful model.",
@@ -11982,7 +11982,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Tracking which parts of memory?",
+              "prompt": "Which statement is correct about Tracking which parts of memory?",
               "choices": [
                 "Tracking which parts of memory are in use.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12014,7 +12014,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about No Memory Abstraction?",
+              "prompt": "Which statement is correct about No Memory Abstraction?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12046,7 +12046,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Mechanism?",
+              "prompt": "Which statement is correct about Mechanism?",
               "choices": [
                 "Mechanism: Every program sees and addresses physical memory directly.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12078,7 +12078,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Challenges of Running Multiple Programs (No Abstraction)?",
+              "prompt": "Which statement is correct about Challenges of Running Multiple Programs (No Abstraction)?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12110,7 +12110,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Parallelism?",
+              "prompt": "Which statement is correct about Parallelism?",
               "choices": [
                 "Parallelism: Difficult to achieve because of address conflicts.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12142,7 +12142,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Protection Keys?",
+              "prompt": "Which statement is correct about Protection Keys?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12174,7 +12174,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Static Relocation: Modifying a program s addresses on-the-fly as it?",
+              "prompt": "Which statement is correct about Static Relocation: Modifying a program s addresses on-the-fly as it?",
               "choices": [
                 "Static Relocation: Modifying a program s addresses on-the-fly as it is loaded into memory.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12206,7 +12206,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Concept?",
+              "prompt": "Which statement is correct about Concept?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12238,7 +12238,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Analogy: Telephone numbers or .com domains?",
+              "prompt": "Which statement is correct about Analogy: Telephone numbers or .com domains?",
               "choices": [
                 "Analogy: Telephone numbers or .com domains are address spaces that decouple a name from a specific physical location.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12270,7 +12270,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Definition?",
+              "prompt": "Which statement is correct about Definition?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12302,7 +12302,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Use Case?",
+              "prompt": "Which statement is correct about Use Case?",
               "choices": [
                 "Use Case: When the total RAM needed by all processes exceeds physical capacity.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12334,7 +12334,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Compaction?",
+              "prompt": "Which statement is correct about Compaction?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12366,7 +12366,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Drawback?",
+              "prompt": "Which statement is correct about Drawback?",
               "choices": [
                 "Drawback: Extremely CPU intensive (e.g., 16 seconds to compact 16 GB on some systems).",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12398,7 +12398,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Memory?",
+              "prompt": "Which statement is correct about Memory?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12430,7 +12430,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about = = Bitmap?",
+              "prompt": "Which statement is correct about = = Bitmap?",
               "choices": [
                 "= = Bitmap: A bit represents each unit (0 free, 1 occupied).",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12462,7 +12462,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Managing Free Memory: Bitmaps?",
+              "prompt": "Which statement is correct about Managing Free Memory: Bitmaps?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12494,7 +12494,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Managing Free Memory: Linked Lists?",
+              "prompt": "Which statement is correct about Managing Free Memory: Linked Lists?",
               "choices": [
                 "Maintains a sorted list of allocated and free memory segments.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12526,7 +12526,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Segment Entry?",
+              "prompt": "Which statement is correct about Segment Entry?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12558,7 +12558,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Problem?",
+              "prompt": "Which statement is correct about Problem?",
               "choices": [
                 "Problem: Bloatware â€“ programs getting larger faster than memories.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12590,7 +12590,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Virtual Memory?",
+              "prompt": "Which statement is correct about Virtual Memory?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12622,7 +12622,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Virtual address space?",
+              "prompt": "Which statement is correct about Virtual address space?",
               "choices": [
                 "Virtual address space is divided into fixed-size units called",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12654,7 +12654,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Physical memory?",
+              "prompt": "Which statement is correct about Physical memory?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12686,7 +12686,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about being a part of the CPU chip because it commonly?",
+              "prompt": "Which statement is correct about being a part of the CPU chip because it commonly?",
               "choices": [
                 "being a part of the CPU chip because it commonly is nowadays. However, logi-",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12718,7 +12718,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The offset?",
+              "prompt": "Which statement is correct about The offset?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12750,7 +12750,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Figure 3?",
+              "prompt": "Which statement is correct about Figure 3?",
               "choices": [
                 "Figure 3-10. The internal operation of the MMU with 16 4-KB pages.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12782,7 +12782,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The MMU notices the page?",
+              "prompt": "Which statement is correct about The MMU notices the page?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12814,7 +12814,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Handling a Page Fault?",
+              "prompt": "Which statement is correct about Handling a Page Fault?",
               "choices": [
                 "the OS. 2. The OS picks a page frame to evict (writes it to disk if \" \" dirty ).",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12846,7 +12846,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Used to handle massive virtual address spaces (like 32?",
+              "prompt": "Which statement is correct about Used to handle massive virtual address spaces (like 32?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12878,7 +12878,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Mechanism?",
+              "prompt": "Which statement is correct about Mechanism?",
               "choices": [
                 "Mechanism: A top-level directory points to second-level page tables, which point to the actual pages.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12910,7 +12910,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Used on 64?",
+              "prompt": "Which statement is correct about Used on 64?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -12942,7 +12942,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Structure?",
+              "prompt": "Which statement is correct about Structure?",
               "choices": [
                 "Structure: One entry per physical page frame in RAM, rather than per virtual page.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -12974,7 +12974,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Figure 3?",
+              "prompt": "Which statement is correct about Figure 3?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -13006,7 +13006,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Rule?",
+              "prompt": "Which statement is correct about Rule?",
               "choices": [
                 "Rule: Evict the page that will not be used for the longest time in the future.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -13038,7 +13038,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about An efficient version of Second?",
+              "prompt": "Which statement is correct about An efficient version of Second?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -13070,7 +13070,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about = Mechanism?",
+              "prompt": "Which statement is correct about = Mechanism?",
               "choices": [
                 "= Mechanism: A \"hand points to the oldest page. If R 0, evict =",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -13102,7 +13102,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Rule?",
+              "prompt": "Which statement is correct about Rule?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -13134,7 +13134,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Theory?",
+              "prompt": "Which statement is correct about Theory?",
               "choices": [
                 "Theory: Pages used recently will likely be used again soon.",
                 "The Dream: Programmers want infinitely large, fast, nonvolatile, and inexpensive memory.",
@@ -13166,7 +13166,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Aging?",
+              "prompt": "Which statement is correct about Aging?",
               "choices": [
                 "The memory manager is the OS component responsible for:",
                 "Tracking which parts of memory are in use.",
@@ -13210,7 +13210,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Abstraction of the File?",
+              "prompt": "Which statement is correct about The Abstraction of the File?",
               "choices": [
                 "Operating systems abstract the physical properties of storage .",
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
@@ -13242,7 +13242,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Abstraction of the File?",
+              "prompt": "Which statement is correct about The Abstraction of the File?",
               "choices": [
                 "Files are be accessed persistent objects named by processes to",
                 "by others later. â€¢ Systems differ on case sensitivity (UNIX is",
@@ -13274,7 +13274,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Files?",
+              "prompt": "Which statement is correct about Files?",
               "choices": [
                 "Files are be accessed persistent objects named by processes to",
                 "Operating systems abstract the physical properties of storage .",
@@ -13306,7 +13306,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about by others later. â€¢ Systems differ on case sensitivity (UNIX?",
+              "prompt": "Which statement is correct about by others later. â€¢ Systems differ on case sensitivity (UNIX?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13338,7 +13338,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Byte Sequence?",
+              "prompt": "Which statement is correct about Byte Sequence?",
               "choices": [
                 "Byte Sequence: An unstructured stream of bytes; the OS does not care about content (used by UNIX and Windows).",
                 "Operating systems abstract the physical properties of storage .",
@@ -13370,7 +13370,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Record Sequence: A file?",
+              "prompt": "Which statement is correct about Record Sequence: A file?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13402,7 +13402,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Figure 4?",
+              "prompt": "Which statement is correct about Figure 4?",
               "choices": [
                 "Figure 4-2. Three kinds of files. (a) Byte sequence. (b) Record sequence.",
                 "Operating systems abstract the physical properties of storage .",
@@ -13434,7 +13434,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Regular Files?",
+              "prompt": "Which statement is correct about Regular Files?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13466,7 +13466,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Directories?",
+              "prompt": "Which statement is correct about Directories?",
               "choices": [
                 "Directories: System files used to maintain the hierarchy of the file system.",
                 "Operating systems abstract the physical properties of storage .",
@@ -13498,7 +13498,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ASCII Files?",
+              "prompt": "Which statement is correct about ASCII Files?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13530,7 +13530,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Binary Files?",
+              "prompt": "Which statement is correct about Binary Files?",
               "choices": [
                 "Binary Files: Have internal structures (e.g., executable headers, relocation bits) known only to the programs that use them.",
                 "Operating systems abstract the physical properties of storage .",
@@ -13562,7 +13562,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Sequential Access?",
+              "prompt": "Which statement is correct about Sequential Access?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13594,7 +13594,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Random (Direct) Access?",
+              "prompt": "Which statement is correct about Random (Direct) Access?",
               "choices": [
                 "Random (Direct) Access: Reading bytes in any order by specifying a key or using a seek operation.",
                 "Operating systems abstract the physical properties of storage .",
@@ -13626,7 +13626,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about File Attributes (Metadata)?",
+              "prompt": "Which statement is correct about File Attributes (Metadata)?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13658,7 +13658,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Flags: Control properties like whether a file?",
+              "prompt": "Which statement is correct about Flags: Control properties like whether a file?",
               "choices": [
                 "Flags: Control properties like whether a file is hidden, read-only, or needs to be backed up (archive bit).",
                 "Operating systems abstract the physical properties of storage .",
@@ -13690,7 +13690,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Standard system calls include?",
+              "prompt": "Which statement is correct about Standard system calls include?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13722,7 +13722,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Seek?",
+              "prompt": "Which statement is correct about Seek?",
               "choices": [
                 "Seek: Moves the file pointer to a specific position for random access. '",
                 "Operating systems abstract the physical properties of storage .",
@@ -13754,7 +13754,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The simplest model where one directory?",
+              "prompt": "Which statement is correct about The simplest model where one directory?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13786,7 +13786,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Single-Level Directory Systems?",
+              "prompt": "Which statement is correct about Single-Level Directory Systems?",
               "choices": [
                 "Used in early mainframes and still found in simple embedded devices like digital cameras.",
                 "Operating systems abstract the physical properties of storage .",
@@ -13818,7 +13818,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A tree structure that?",
+              "prompt": "Which statement is correct about A tree structure that?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13850,7 +13850,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Hierarchical Directory Systems?",
+              "prompt": "Which statement is correct about Hierarchical Directory Systems?",
               "choices": [
                 "Enables multiple users to share a server while maintaining private hierarchies.",
                 "Operating systems abstract the physical properties of storage .",
@@ -13882,7 +13882,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Absolute Paths?",
+              "prompt": "Which statement is correct about Absolute Paths?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13914,7 +13914,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Relative Paths?",
+              "prompt": "Which statement is correct about Relative Paths?",
               "choices": [
                 "Relative Paths: Trace the name relative to the current .",
                 "Operating systems abstract the physical properties of storage .",
@@ -13946,7 +13946,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Users?",
+              "prompt": "Which statement is correct about Users?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -13978,7 +13978,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about On older BIOS?",
+              "prompt": "Which statement is correct about On older BIOS?",
               "choices": [
                 "On older BIOS is the systems,",
                 "Operating systems abstract the physical properties of storage .",
@@ -14010,7 +14010,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about File-System Layout (The MBR)?",
+              "prompt": "Which statement is correct about File-System Layout (The MBR)?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -14042,7 +14042,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Files?",
+              "prompt": "Which statement is correct about Files?",
               "choices": [
                 "Files are stored as a single contiguous run of disk blocks.",
                 "Operating systems abstract the physical properties of storage .",
@@ -14074,7 +14074,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about : Leads to over time as files?",
+              "prompt": "Which statement is correct about : Leads to over time as files?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -14106,7 +14106,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Each disk block?",
+              "prompt": "Which statement is correct about Each disk block?",
               "choices": [
                 "Each disk block contains a pointer to the next block in the file.",
                 "Operating systems abstract the physical properties of storage .",
@@ -14138,7 +14138,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about : No space?",
+              "prompt": "Which statement is correct about : No space?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -14170,7 +14170,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Pointers?",
+              "prompt": "Which statement is correct about Pointers?",
               "choices": [
                 "Pointers are removed from disk blocks and in an placed",
                 "Operating systems abstract the physical properties of storage .",
@@ -14202,7 +14202,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about in-memory table. â€¢ : Faster random access than a linked list and?",
+              "prompt": "Which statement is correct about in-memory table. â€¢ : Faster random access than a linked list and?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -14234,7 +14234,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about An lists attributes and disk addresses for a (index?",
+              "prompt": "Which statement is correct about An lists attributes and disk addresses for a (index?",
               "choices": [
                 "An lists attributes and disk addresses for a (index-node)",
                 "Operating systems abstract the physical properties of storage .",
@@ -14266,7 +14266,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about : Only needs to be in memory when the file?",
+              "prompt": "Which statement is correct about : Only needs to be in memory when the file?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -14298,7 +14298,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Implementing Directories?",
+              "prompt": "Which statement is correct about Implementing Directories?",
               "choices": [
                 "Directories the ASCII name of a file to the information map",
                 "Operating systems abstract the physical properties of storage .",
@@ -14330,7 +14330,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about needed to locate its data (i-node number or block address). â€¢?",
+              "prompt": "Which statement is correct about needed to locate its data (i-node number or block address). â€¢?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -14362,7 +14362,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about : entries to the same Multiple directory point i?",
+              "prompt": "Which statement is correct about : entries to the same Multiple directory point i?",
               "choices": [
                 ": entries to the same Multiple directory point i-node;",
                 "Operating systems abstract the physical properties of storage .",
@@ -14394,7 +14394,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about uses a reference count to determine when to delete. â€¢ : A new file?",
+              "prompt": "Which statement is correct about uses a reference count to determine when to delete. â€¢ : A new file?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -14426,7 +14426,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Log-Structured File Systems (LFS)?",
+              "prompt": "Which statement is correct about Log-Structured File Systems (LFS)?",
               "choices": [
                 "Designed to solve the bottleneck of disk seek times by treating",
                 "Operating systems abstract the physical properties of storage .",
@@ -14458,7 +14458,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Writes?",
+              "prompt": "Which statement is correct about Writes?",
               "choices": [
                 "devices (disks/SSDs) into logical units called â€¢ Processes can read, write, and create files without knowing the",
                 "Files are be accessed persistent objects named by processes to",
@@ -14502,7 +14502,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Overview?",
+              "prompt": "Which statement is correct about Overview?",
               "choices": [
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
                 "But layer creates virtual system (virtual machine, or VM) on",
@@ -14534,7 +14534,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Overview?",
+              "prompt": "Which statement is correct about Overview?",
               "choices": [
                 "which operating systems or applications can run",
                 "runs virtual machines by providing interface that is the host â—† (Except in the case of paravirtualization)",
@@ -14566,7 +14566,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about runs virtual machines by providing interface that?",
+              "prompt": "Which statement is correct about runs virtual machines by providing interface that?",
               "choices": [
                 "runs virtual machines by providing interface that is the host â—† (Except in the case of paravirtualization)",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -14598,7 +14598,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Overview (Cont.)?",
+              "prompt": "Which statement is correct about Overview (Cont.)?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -14630,7 +14630,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Vary greatly, with options including?",
+              "prompt": "Which statement is correct about Vary greatly, with options including?",
               "choices": [
                 "Vary greatly, with options including: â–  Type 0 hypervisors - Hardware-based solutions that provide support for virtual machine creation and management via firmware â—† IBM LPARs and Oracle LDOMs are examples",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -14662,7 +14662,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Type 1 hypervisors?",
+              "prompt": "Which statement is correct about Type 1 hypervisors?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -14694,7 +14694,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Paravirtualization?",
+              "prompt": "Which statement is correct about Paravirtualization?",
               "choices": [
                 "Paravirtualization - Technique in which the guest operating",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -14726,7 +14726,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about system?",
+              "prompt": "Which statement is correct about system?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -14758,7 +14758,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Allowed multiple users to share a batch?",
+              "prompt": "Which statement is correct about Allowed multiple users to share a batch?",
               "choices": [
                 "Allowed multiple users to share a batch-oriented system",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -14790,7 +14790,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about History?",
+              "prompt": "Which statement is correct about History?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -14822,7 +14822,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Benefits and Features?",
+              "prompt": "Which statement is correct about Benefits and Features?",
               "choices": [
                 "Host system protected from VMs, VMs protected from each other",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -14854,7 +14854,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Sharing?",
+              "prompt": "Which statement is correct about Sharing?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -14886,7 +14886,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Benefits and Features (Cont.)?",
+              "prompt": "Which statement is correct about Benefits and Features (Cont.)?",
               "choices": [
                 "Templating â€“ create an OS + application VM, provide it to customers, use it to create multiple instances of that combination",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -14918,7 +14918,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Benefits and Features (Cont.)?",
+              "prompt": "Which statement is correct about Benefits and Features (Cont.)?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -14950,7 +14950,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Building Blocks?",
+              "prompt": "Which statement is correct about Building Blocks?",
               "choices": [
                 "Generally difficult to provide an duplicate of underlying machine â–  Especially if only dual-mode operation available on CPU",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -14982,7 +14982,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Building Blocks?",
+              "prompt": "Which statement is correct about Building Blocks?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15014,7 +15014,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Dual mode CPU?",
+              "prompt": "Which statement is correct about Dual mode CPU?",
               "choices": [
                 "Dual mode CPU means guest executes in user mode",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15046,7 +15046,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Building Block â€“ Trap and Emulate?",
+              "prompt": "Which statement is correct about Building Block â€“ Trap and Emulate?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15110,7 +15110,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Trap-and-Emulate (Cont.)?",
+              "prompt": "Which statement is correct about Trap-and-Emulate (Cont.)?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15142,7 +15142,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Trap-and-Emulate (Cont.)?",
+              "prompt": "Which statement is correct about Trap-and-Emulate (Cont.)?",
               "choices": [
                 "User mode code in guest runs at same speed as if not a guest",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15174,7 +15174,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about But kernel mode privilege mode code runs slower due to trap?",
+              "prompt": "Which statement is correct about But kernel mode privilege mode code runs slower due to trap?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15206,7 +15206,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Building Block â€“ Binary Translation?",
+              "prompt": "Which statement is correct about Building Block â€“ Binary Translation?",
               "choices": [
                 "Some CPUs don t have clean separation between privileged and nonprivileged instructions",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15238,7 +15238,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Earlier Intel x86 CPUs?",
+              "prompt": "Which statement is correct about Earlier Intel x86 CPUs?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15270,7 +15270,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Other similar problem instructions we will call â–  Caused trap?",
+              "prompt": "Which statement is correct about Other similar problem instructions we will call â–  Caused trap?",
               "choices": [
                 "Other similar problem instructions we will call â–  Caused trap-and-emulate method considered impossible until 1998",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15302,7 +15302,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Binary Translation (Cont.)?",
+              "prompt": "Which statement is correct about Binary Translation (Cont.)?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15334,7 +15334,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Binary Translation (Cont.)?",
+              "prompt": "Which statement is correct about Binary Translation (Cont.)?",
               "choices": [
                 "Code reads native instructions dynamically from guest, on demand, generates native binary code that executes in place of original code",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15366,7 +15366,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Binary Translation (Cont.)?",
+              "prompt": "Which statement is correct about Binary Translation (Cont.)?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15398,7 +15398,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Nested Page Tables?",
+              "prompt": "Which statement is correct about Nested Page Tables?",
               "choices": [
                 "Memory management another general challenge to VMM implementations",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15462,7 +15462,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about More support?",
+              "prompt": "Which statement is correct about More support?",
               "choices": [
                 "More support - more feature rich, stable, better performance of guests",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15494,7 +15494,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Intel added new VT?",
+              "prompt": "Which statement is correct about Intel added new VT?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15526,7 +15526,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Types of VMs â€“ Type 0 Hypervisor?",
+              "prompt": "Which statement is correct about Types of VMs â€“ Type 0 Hypervisor?",
               "choices": [
                 "Old idea, under many names by HW manufacturers",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15558,7 +15558,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about OS need to nothing special, VMM?",
+              "prompt": "Which statement is correct about OS need to nothing special, VMM?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15590,7 +15590,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Types of VMs â€“ Type 1 Hypervisor?",
+              "prompt": "Which statement is correct about Types of VMs â€“ Type 1 Hypervisor?",
               "choices": [
                 "In a sense becoming â€œdatacenter operating systems â—† Datacenter managers control and manage OSes in",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15622,7 +15622,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Types of VMs â€“ Type 1 Hypervisor?",
+              "prompt": "Which statement is correct about Types of VMs â€“ Type 1 Hypervisor?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15654,7 +15654,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Types of VMs â€“ Type 2 Hypervisor?",
+              "prompt": "Which statement is correct about Types of VMs â€“ Type 2 Hypervisor?",
               "choices": [
                 "VMM is simply another process, run and managed by host â€™",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15686,7 +15686,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Even the host doesn t know they?",
+              "prompt": "Which statement is correct about Even the host doesn t know they?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15718,7 +15718,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Types of VMs â€“ Paravirtualization?",
+              "prompt": "Which statement is correct about Types of VMs â€“ Paravirtualization?",
               "choices": [
                 "Does not fit the definition of virtualization â€“ VMM not presenting an exact duplication of underlying hardware",
                 "Fundamental idea â€“ abstract hardware of a single computer into several different execution environments",
@@ -15750,7 +15750,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Types of VMs â€“ Paravirtualization?",
+              "prompt": "Which statement is correct about Types of VMs â€“ Paravirtualization?",
               "choices": [
                 "But layer creates virtual system (virtual machine, or VM) on",
                 "which operating systems or applications can run",
@@ -15794,7 +15794,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Hardware Acceleration and Parallelism?",
+              "prompt": "Which statement is correct about Hardware Acceleration and Parallelism?",
               "choices": [
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
                 "Specialized Drivers: AI models depend on low-level drivers like",
@@ -15826,7 +15826,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Specialized Drivers?",
+              "prompt": "Which statement is correct about Specialized Drivers?",
               "choices": [
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
                 "OS Scheduling: An AI-optimized OS must intelligently schedule",
@@ -15858,7 +15858,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Heterogeneity?",
+              "prompt": "Which statement is correct about Heterogeneity?",
               "choices": [
                 "Heterogeneity: Data centers frequently mix older and newer generations of GPUs with significantly different power and performance profiles.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -15890,7 +15890,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Scalability?",
+              "prompt": "Which statement is correct about Scalability?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -15922,7 +15922,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Bless fine?",
+              "prompt": "Which statement is correct about Bless fine?",
               "choices": [
                 "Bless fine-tunes resource allocation using a \"kernel squad approachâ€”grouping kernels from different apps to fill resource gaps.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -15954,7 +15954,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Bless: Adaptive Bubbleless Sharing?",
+              "prompt": "Which statement is correct about Bless: Adaptive Bubbleless Sharing?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -15986,7 +15986,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Naive memory allocation leads to 60?",
+              "prompt": "Which statement is correct about Naive memory allocation leads to 60?",
               "choices": [
                 "Naive memory allocation leads to 60-80% waste due to internal fragmentation.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16018,7 +16018,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Memory Management Challenges?",
+              "prompt": "Which statement is correct about Memory Management Challenges?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16050,7 +16050,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about IceCache: Semantic Token Clustering?",
+              "prompt": "Which statement is correct about IceCache: Semantic Token Clustering?",
               "choices": [
                 "IceCache groups semantically related tokens into the same memory pages.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16082,7 +16082,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Organization via a hierarchical DCI?",
+              "prompt": "Which statement is correct about Organization via a hierarchical DCI?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16114,7 +16114,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about NVMe/Remote Storage?",
+              "prompt": "Which statement is correct about NVMe/Remote Storage?",
               "choices": [
                 "NVMe/Remote Storage: Tertiary tier for persistent context storage.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16146,7 +16146,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Data movement, not just FLOPs, dominates long?",
+              "prompt": "Which statement is correct about Data movement, not just FLOPs, dominates long?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16178,7 +16178,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Stream2LLM overlaps context streaming and prefill to reduce Time?",
+              "prompt": "Which statement is correct about Stream2LLM overlaps context streaming and prefill to reduce Time?",
               "choices": [
                 "Stream2LLM overlaps context streaming and prefill to reduce Time-to-First-Token (TTFT).",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16210,7 +16210,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about GPU drivers act as the essential translation layer between high?",
+              "prompt": "Which statement is correct about GPU drivers act as the essential translation layer between high?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16242,7 +16242,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about GPU Driver Architecture?",
+              "prompt": "Which statement is correct about GPU Driver Architecture?",
               "choices": [
                 "The OS manages device queues as ring buffers accessed by both CPU and GPU via DMA.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16274,7 +16274,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Management Daemon Tools?",
+              "prompt": "Which statement is correct about Management Daemon Tools?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16306,7 +16306,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Virtualization?",
+              "prompt": "Which statement is correct about Virtualization?",
               "choices": [
                 "Virtualization allows multiple guest operating systems or containers to share a single physical GPU, maximizing utilization and reducing infrastructure costs.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16338,7 +16338,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Direct Pass-Through (vDGA): A full physical GPU?",
+              "prompt": "Which statement is correct about Direct Pass-Through (vDGA): A full physical GPU?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16370,7 +16370,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Primitives?",
+              "prompt": "Which statement is correct about Primitives?",
               "choices": [
                 "Primitives are the foundational hardware and software building blocks used by drivers and frameworks to command the GPU.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16402,7 +16402,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about DMA (Direct Memory Access)?",
+              "prompt": "Which statement is correct about DMA (Direct Memory Access)?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16434,7 +16434,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Command Buffers?",
+              "prompt": "Which statement is correct about Command Buffers?",
               "choices": [
                 "Command Buffers: The CPU driver packages instructions (e.g., draw commands, matrix multiplications) into command buffers. The GPU asynchronously reads these buffers through DMA to execute tasks.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16466,7 +16466,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Distributed Artificial Intelligence (DAI)?",
+              "prompt": "Which statement is correct about Distributed Artificial Intelligence (DAI)?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16498,7 +16498,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Rather than centralizing all data in one massive server, DAI?",
+              "prompt": "Which statement is correct about Rather than centralizing all data in one massive server, DAI?",
               "choices": [
                 "Rather than centralizing all data in one massive server, DAI allows devices to collaborate, share resources, and process data locally.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16530,7 +16530,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Model scale (trillions of parameters)?",
+              "prompt": "Which statement is correct about Model scale (trillions of parameters)?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16562,7 +16562,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Success?",
+              "prompt": "Which statement is correct about Success?",
               "choices": [
                 "Success is measured by Model FLOPs Utilization (MFU) and Training Throughput.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16594,7 +16594,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Data Parallelism (DP) and ZeRO?",
+              "prompt": "Which statement is correct about Data Parallelism (DP) and ZeRO?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16626,7 +16626,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about ZeRO (Zero Redundancy Optimizer)?",
+              "prompt": "Which statement is correct about ZeRO (Zero Redundancy Optimizer)?",
               "choices": [
                 "ZeRO (Zero Redundancy Optimizer): Shards optimizer states (ZeRO-1), gradients (ZeRO-2), and parameters (ZeRO-3) across devices.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16658,7 +16658,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Tensor Parallelism (TP)?",
+              "prompt": "Which statement is correct about Tensor Parallelism (TP)?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16690,7 +16690,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Communication?",
+              "prompt": "Which statement is correct about Communication?",
               "choices": [
                 "Communication-intensive; restricted to high-bandwidth intranode links like NVLink.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16722,7 +16722,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Introduces \"pipeline bubbles where devices sit idle waiting for micro?",
+              "prompt": "Which statement is correct about Introduces \"pipeline bubbles where devices sit idle waiting for micro?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16754,7 +16754,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Critical for ultra?",
+              "prompt": "Which statement is correct about Critical for ultra?",
               "choices": [
                 "Critical for ultra-long context (million tokens) by distributing activation memory.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16786,7 +16786,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about D Hybrid Parallelism?",
+              "prompt": "Which statement is correct about D Hybrid Parallelism?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16818,7 +16818,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Rank assignment?",
+              "prompt": "Which statement is correct about Rank assignment?",
               "choices": [
                 "Rank assignment is critical; TP/CP groups are typically placed on GPUs within the same node to minimize communication latency.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16850,7 +16850,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Collective Communication Primitives?",
+              "prompt": "Which statement is correct about Collective Communication Primitives?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16882,7 +16882,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Large-scale training?",
+              "prompt": "Which statement is correct about Large-scale training?",
               "choices": [
                 "Large-scale training is vulnerable to hardware failures.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16914,7 +16914,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Sparing Strategies?",
+              "prompt": "Which statement is correct about Sparing Strategies?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -16946,7 +16946,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about NVIDIA Container Toolkit?",
+              "prompt": "Which statement is correct about NVIDIA Container Toolkit?",
               "choices": [
                 "Enables Docker containers to access host GPU resources directly via the driver.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -16978,7 +16978,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about NVIDIA Container Toolkit?",
+              "prompt": "Which statement is correct about NVIDIA Container Toolkit?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -17010,7 +17010,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about TinyML and SLMs?",
+              "prompt": "Which statement is correct about TinyML and SLMs?",
               "choices": [
                 "Shift toward Small Language Models (SLMs) for low latency and privacy.",
                 "Hardware Acceleration and Parallelism: Unlike CPUs, which handle sequential logic, deep learning requires massive parallelism.",
@@ -17042,7 +17042,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about TinyML?",
+              "prompt": "Which statement is correct about TinyML?",
               "choices": [
                 "Specialized Drivers: AI models depend on low-level drivers like",
                 "NVIDIA CUDA or ROCm to execute linear algebra operations efficiently.",
@@ -17086,7 +17086,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Overview of Multimedia Operating Systems?",
+              "prompt": "Which statement is correct about Overview of Multimedia Operating Systems?",
               "choices": [
                 "Operating systems must handle multimedia data alongside",
                 "Multimedia data consists of conventional files and continuous",
@@ -17118,7 +17118,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multimedia data?",
+              "prompt": "Which statement is correct about Multimedia data?",
               "choices": [
                 "Continuous media data imposes strict time constraints that must",
                 "Size: Multimedia files are exceptionally large; for example, 100 .",
@@ -17150,7 +17150,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Size: Multimedia files?",
+              "prompt": "Which statement is correct about Size: Multimedia files?",
               "choices": [
                 "Size: Multimedia files are exceptionally large; for example, 100 .",
                 "Operating systems must handle multimedia data alongside",
@@ -17182,7 +17182,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about minutes of HDTV?",
+              "prompt": "Which statement is correct about minutes of HDTV?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17214,7 +17214,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Traditional real?",
+              "prompt": "Which statement is correct about Traditional real?",
               "choices": [
                 "Traditional real-time systems prioritize security and fault tolerance.",
                 "Operating systems must handle multimedia data alongside",
@@ -17246,7 +17246,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multimedia systems often have less strict fault?",
+              "prompt": "Which statement is correct about Multimedia systems often have less strict fault?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17278,7 +17278,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Scheduling for multimedia?",
+              "prompt": "Which statement is correct about Scheduling for multimedia?",
               "choices": [
                 "Scheduling for multimedia is simplified because time-critical .",
                 "Operating systems must handle multimedia data alongside",
@@ -17310,7 +17310,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about operations?",
+              "prompt": "Which statement is correct about operations?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17342,7 +17342,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about File Systems?",
+              "prompt": "Which statement is correct about File Systems?",
               "choices": [
                 "File Systems: Optimizing disk access and data placement.",
                 "Operating systems must handle multimedia data alongside",
@@ -17374,7 +17374,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Synchronization?",
+              "prompt": "Which statement is correct about Synchronization?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17406,7 +17406,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A deadline?",
+              "prompt": "Which statement is correct about A deadline?",
               "choices": [
                 "A deadline is the latest acceptable time for presenting a processing result.",
                 "Operating systems must handle multimedia data alongside",
@@ -17438,7 +17438,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Multimedia systems utilize two types of deadlines?",
+              "prompt": "Which statement is correct about Multimedia systems utilize two types of deadlines?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17470,7 +17470,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Soft deadlines?",
+              "prompt": "Which statement is correct about Soft deadlines?",
               "choices": [
                 "Soft deadlines are those where an exact determination isn t possible or a miss doesn't result in total failure.",
                 "Operating systems must handle multimedia data alongside",
@@ -17502,7 +17502,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Playback remains acceptable as long as misses?",
+              "prompt": "Which statement is correct about Playback remains acceptable as long as misses?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17534,7 +17534,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Hard Deadlines?",
+              "prompt": "Which statement is correct about Hard Deadlines?",
               "choices": [
                 "Hard deadlines must never be broken, as doing so leads to",
                 "Operating systems must handle multimedia data alongside",
@@ -17566,7 +17566,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about These?",
+              "prompt": "Which statement is correct about These?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17598,7 +17598,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Resource Management Concepts?",
+              "prompt": "Which statement is correct about Resource Management Concepts?",
               "choices": [
                 "Multimedia systems operate at the limit of their capabilities despite compression technologies.",
                 "Operating systems must handle multimedia data alongside",
@@ -17630,7 +17630,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Resource capacity redundancy?",
+              "prompt": "Which statement is correct about Resource capacity redundancy?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17662,7 +17662,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Goal of Resource Management?",
+              "prompt": "Which statement is correct about The Goal of Resource Management?",
               "choices": [
                 "The OS must follow timing guarantees throughout the entire data path.",
                 "Operating systems must handle multimedia data alongside",
@@ -17694,7 +17694,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Goal of Resource Management?",
+              "prompt": "Which statement is correct about The Goal of Resource Management?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17726,7 +17726,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Active Resources?",
+              "prompt": "Which statement is correct about Active Resources?",
               "choices": [
                 "Active Resources: Provide a service, such as the CPU or a network adapter.",
                 "Operating systems must handle multimedia data alongside",
@@ -17758,7 +17758,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Passive Resources?",
+              "prompt": "Which statement is correct about Passive Resources?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17790,7 +17790,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Throughput?",
+              "prompt": "Which statement is correct about Throughput?",
               "choices": [
                 "Throughput: Determined by the data rate and size of data units.",
                 "Operating systems must handle multimedia data alongside",
@@ -17822,7 +17822,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Local Delay?",
+              "prompt": "Which statement is correct about Local Delay?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17854,7 +17854,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Delay Jitter?",
+              "prompt": "Which statement is correct about Delay Jitter?",
               "choices": [
                 "Delay Jitter: The maximum allowed variance in data arrival time.",
                 "Operating systems must handle multimedia data alongside",
@@ -17886,7 +17886,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Reliability?",
+              "prompt": "Which statement is correct about Reliability?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17918,7 +17918,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The client?",
+              "prompt": "Which statement is correct about The client?",
               "choices": [
                 "The client provides a QoS specification when requesting a resource.",
                 "Operating systems must handle multimedia data alongside",
@@ -17950,7 +17950,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Resource Negotiation Phase?",
+              "prompt": "Which statement is correct about Resource Negotiation Phase?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -17982,7 +17982,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Scheduling?",
+              "prompt": "Which statement is correct about Scheduling?",
               "choices": [
                 "Scheduling: Verifying QoS parameters like throughput. 2. QoS Computation: Determining the optimal performance available.",
                 "Operating systems must handle multimedia data alongside",
@@ -18014,7 +18014,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Resource Reservation?",
+              "prompt": "Which statement is correct about Resource Reservation?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -18046,7 +18046,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Pessimistic Approach?",
+              "prompt": "Which statement is correct about Pessimistic Approach?",
               "choices": [
                 "Pessimistic Approach: Plans for the worst-case scenario to prevent resource conflicts.",
                 "Operating systems must handle multimedia data alongside",
@@ -18078,7 +18078,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Allocation Schemes: Pessimistic?",
+              "prompt": "Which statement is correct about Allocation Schemes: Pessimistic?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -18110,7 +18110,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Optimistic Approach?",
+              "prompt": "Which statement is correct about Optimistic Approach?",
               "choices": [
                 "Optimistic Approach: Reserves resources based on average workload.",
                 "Operating systems must handle multimedia data alongside",
@@ -18142,7 +18142,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Allocation Schemes: Optimistic?",
+              "prompt": "Which statement is correct about Allocation Schemes: Optimistic?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -18174,7 +18174,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Used to manage resources across an end?",
+              "prompt": "Which statement is correct about Used to manage resources across an end?",
               "choices": [
                 "Used to manage resources across an end-to-end path in distributed environments.",
                 "Operating systems must handle multimedia data alongside",
@@ -18206,7 +18206,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Data streams?",
+              "prompt": "Which statement is correct about Data streams?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -18238,7 +18238,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Proper buffer sizing?",
+              "prompt": "Which statement is correct about Proper buffer sizing?",
               "choices": [
                 "Proper buffer sizing is critical to avoid overflow or underutilization.",
                 "Operating systems must handle multimedia data alongside",
@@ -18270,7 +18270,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The formula for buffer size?",
+              "prompt": "Which statement is correct about The formula for buffer size?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -18302,7 +18302,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Logical Backlog: The number of messages that?",
+              "prompt": "Which statement is correct about Logical Backlog: The number of messages that?",
               "choices": [
                 "Logical Backlog: The number of messages that are \"ahead of schedule\" when a message arrives.",
                 "Operating systems must handle multimedia data alongside",
@@ -18334,7 +18334,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Logical Arrival Time?",
+              "prompt": "Which statement is correct about Logical Arrival Time?",
               "choices": [
                 "Multimedia data consists of conventional files and continuous",
                 "Continuous media data imposes strict time constraints that must",
@@ -18378,7 +18378,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 1?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 1?",
               "choices": [
                 "The use of electronics and software within a product that has a",
                 "Any device that includes a computer chip, but that is not a",
@@ -18410,7 +18410,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Any device that?",
+              "prompt": "Which statement is correct about Any device that?",
               "choices": [
                 "Today, most devices that use electric power have an embedded",
                 "Examples: # cell # phones, # digital # cameras, # video # cameras,",
@@ -18442,7 +18442,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Human Interface?",
+              "prompt": "Which statement is correct about Human Interface?",
               "choices": [
                 "Human Interface: flashing light or real-time robotic vision.",
                 "The use of electronics and software within a product that has a",
@@ -18474,7 +18474,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Efficiency#?",
+              "prompt": "Which statement is correct about Efficiency#?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -18506,7 +18506,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Dedicated Processors#?",
+              "prompt": "Which statement is correct about Dedicated Processors#?",
               "choices": [
                 "Dedicated Processors# : Specialized for specific tasks (e.g., a",
                 "The use of electronics and software within a product that has a",
@@ -18538,7 +18538,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 3?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 3?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -18570,7 +18570,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Billions?",
+              "prompt": "Which statement is correct about Billions?",
               "choices": [
                 "Billions are produced annually for everything from toys to",
                 "The use of electronics and software within a product that has a",
@@ -18602,7 +18602,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 4?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 4?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -18634,7 +18634,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Real-time operation#?",
+              "prompt": "Which statement is correct about Real-time operation#?",
               "choices": [
                 "Real-time operation# : dictated by external I/O and control",
                 "The use of electronics and software within a product that has a",
@@ -18666,7 +18666,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Reactive operation#?",
+              "prompt": "Which statement is correct about Reactive operation#?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -18698,7 +18698,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 6?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 6?",
               "choices": [
                 "Simple systems use a single loop; complex systems require",
                 "The use of electronics and software within a product that has a",
@@ -18730,7 +18730,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 6?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 6?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -18762,7 +18762,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 7?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 7?",
               "choices": [
                 "Critical when the host (e.g., x86) differs from the target (e.g.,",
                 "The use of electronics and software within a product that has a",
@@ -18794,7 +18794,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 7?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 7?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -18826,7 +18826,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Cons#?",
+              "prompt": "Which statement is correct about Cons#?",
               "choices": [
                 "Cons# : Not optimized for real-time; often too large, slower and",
                 "The use of electronics and software within a product that has a",
@@ -18858,7 +18858,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 8?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 8?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -18890,7 +18890,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 9?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 9?",
               "choices": [
                 "A version of Linux tailored for embedded systems.",
                 "The use of electronics and software within a product that has a",
@@ -18922,7 +18922,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about It typically?",
+              "prompt": "Which statement is correct about It typically?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -18954,7 +18954,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Stringent time constraints#?",
+              "prompt": "Which statement is correct about Stringent time constraints#?",
               "choices": [
                 "Stringent time constraints# : the system must respond in a",
                 "The use of electronics and software within a product that has a",
@@ -18986,7 +18986,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Mild time constraints# : timely response?",
+              "prompt": "Which statement is correct about Mild time constraints# : timely response?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19018,7 +19018,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about JFFS2 (The Journaling Flash File System)#?",
+              "prompt": "Which statement is correct about JFFS2 (The Journaling Flash File System)#?",
               "choices": [
                 "JFFS2 (The Journaling Flash File System)# : Log-based,",
                 "The use of electronics and software within a product that has a",
@@ -19050,7 +19050,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 11?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 11?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19082,7 +19082,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about cramfs (The Compressed RAM file system)#?",
+              "prompt": "Which statement is correct about cramfs (The Compressed RAM file system)#?",
               "choices": [
                 "cramfs (The Compressed RAM file system)# : Simple,",
                 "The use of electronics and software within a product that has a",
@@ -19114,7 +19114,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 12?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 12?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19146,7 +19146,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 13?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 13?",
               "choices": [
                 "its address space until an # `# execve()# ` # or # `# exit()# ` # occurs.",
                 "The use of electronics and software within a product that has a",
@@ -19178,7 +19178,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 13?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 13?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19210,7 +19210,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 14?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 14?",
               "choices": [
                 "Based on the Linux kernel but vertically integrated.",
                 "The use of electronics and software within a product that has a",
@@ -19242,7 +19242,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 14?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 14?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19274,7 +19274,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Sensors?",
+              "prompt": "Which statement is correct about Sensors?",
               "choices": [
                 "Sensors are # \"# off# \" # most of the time to save power.",
                 "The use of electronics and software within a product that has a",
@@ -19306,7 +19306,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Data flows?",
+              "prompt": "Which statement is correct about Data flows?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19338,7 +19338,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Only two levels of concurrency?",
+              "prompt": "Which statement is correct about Only two levels of concurrency?",
               "choices": [
                 "Only two levels of concurrency: # Tasks # and # Events# .",
                 "The use of electronics and software within a product that has a",
@@ -19370,7 +19370,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 8 slides topic 16?",
+              "prompt": "Which statement is correct about lecture 8 slides topic 16?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19402,7 +19402,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about \"# Wiring# \" #?",
+              "prompt": "Which statement is correct about \"# Wiring# \" #?",
               "choices": [
                 "\"# Wiring# \" # is the process of connecting a component that uses",
                 "The use of electronics and software within a product that has a",
@@ -19434,7 +19434,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about This creates a holistic application structure at compile?",
+              "prompt": "Which statement is correct about This creates a holistic application structure at compile?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19466,7 +19466,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about An example?",
+              "prompt": "Which statement is correct about An example?",
               "choices": [
                 "An example is a clock or timer.",
                 "The use of electronics and software within a product that has a",
@@ -19498,7 +19498,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Shared#?",
+              "prompt": "Which statement is correct about Shared#?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19530,7 +19530,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Resource#?",
+              "prompt": "Which statement is correct about Resource#?",
               "choices": [
                 "Resource# : The client issues a request at this interface,",
                 "The use of electronics and software within a product that has a",
@@ -19562,7 +19562,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about requesting access to the resource. If the resource?",
+              "prompt": "Which statement is correct about requesting access to the resource. If the resource?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19594,7 +19594,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Resource Configure# : This interface?",
+              "prompt": "Which statement is correct about Resource Configure# : This interface?",
               "choices": [
                 "Resource Configure# : This interface allows a resource to be",
                 "The use of electronics and software within a product that has a",
@@ -19626,7 +19626,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about automatically configured just before a client?",
+              "prompt": "Which statement is correct about automatically configured just before a client?",
               "choices": [
                 "Any device that includes a computer chip, but that is not a",
                 "Today, most devices that use electric power have an embedded",
@@ -19670,7 +19670,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 1?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 1?",
               "choices": [
                 "access to a shared pool of configurable computing resources.",
                 "and services) can be rapidly provisioned with minimal",
@@ -19702,7 +19702,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 1?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 1?",
               "choices": [
                 "It is a model that promotes high availability and elasticity.",
                 "On-demand # self-service# : # Consumers # can # provision # computing",
@@ -19734,7 +19734,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 2?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 2?",
               "choices": [
                 "network and accessed through standard mechanisms (e.g., mobile",
                 "access to a shared pool of configurable computing resources.",
@@ -19766,7 +19766,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Resource # pooling# : # Provider # resources #?",
+              "prompt": "Which statement is correct about Resource # pooling# : # Provider # resources #?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -19798,7 +19798,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about This?",
+              "prompt": "Which statement is correct about This?",
               "choices": [
                 "This provides transparency for both the provider and",
                 "access to a shared pool of configurable computing resources.",
@@ -19830,7 +19830,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Software as a Service (SaaS)# : The consumer?",
+              "prompt": "Which statement is correct about Software as a Service (SaaS)# : The consumer?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -19862,7 +19862,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about These?",
+              "prompt": "Which statement is correct about These?",
               "choices": [
                 "These are created using programming languages, libraries,",
                 "access to a shared pool of configurable computing resources.",
@@ -19894,7 +19894,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 4?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 4?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -19926,7 +19926,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Cloud Deployment Models?",
+              "prompt": "Which statement is correct about Cloud Deployment Models?",
               "choices": [
                 "Cloud Deployment Models: Public # & # Private",
                 "access to a shared pool of configurable computing resources.",
@@ -19958,7 +19958,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Public Cloud# : The infrastructure?",
+              "prompt": "Which statement is correct about Public Cloud# : The infrastructure?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -19990,7 +19990,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Cloud Deployment Models?",
+              "prompt": "Which statement is correct about Cloud Deployment Models?",
               "choices": [
                 "Cloud Deployment Models: Community # & # Hybrid",
                 "access to a shared pool of configurable computing resources.",
@@ -20022,7 +20022,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Community Cloud# : The infrastructure?",
+              "prompt": "Which statement is correct about Community Cloud# : The infrastructure?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20054,7 +20054,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 7?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 7?",
               "choices": [
                 "Provider, Cloud Broker, Cloud Auditor, and Cloud Carrier.",
                 "access to a shared pool of configurable computing resources.",
@@ -20086,7 +20086,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 7?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 7?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20118,7 +20118,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 8?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 8?",
               "choices": [
                 "entity responsible for making a service available to interested",
                 "access to a shared pool of configurable computing resources.",
@@ -20150,7 +20150,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Cloud Auditor#?",
+              "prompt": "Which statement is correct about Cloud Auditor#?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20182,7 +20182,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Service aggregation#?",
+              "prompt": "Which statement is correct about Service aggregation#?",
               "choices": [
                 "Service aggregation# : The broker combines multiple cloud services",
                 "access to a shared pool of configurable computing resources.",
@@ -20214,7 +20214,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 9?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 9?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20246,7 +20246,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 10?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 10?",
               "choices": [
                 "A cloud auditor conducts independent audits and may",
                 "access to a shared pool of configurable computing resources.",
@@ -20278,7 +20278,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Datacenter networks#?",
+              "prompt": "Which statement is correct about Datacenter networks#?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20310,7 +20310,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A Cloud Operating System?",
+              "prompt": "Which statement is correct about A Cloud Operating System?",
               "choices": [
                 "A Cloud Operating System is a distributed OS designed to run",
                 "access to a shared pool of configurable computing resources.",
@@ -20342,7 +20342,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about in a provider# '# s datacenter to manage high?",
+              "prompt": "Which statement is correct about in a provider# '# s datacenter to manage high?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20374,7 +20374,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Storage Service#?",
+              "prompt": "Which statement is correct about Storage Service#?",
               "choices": [
                 "Storage Service# : Must provide block-level, file-level, and",
                 "access to a shared pool of configurable computing resources.",
@@ -20406,7 +20406,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Network Service#?",
+              "prompt": "Which statement is correct about Network Service#?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20438,7 +20438,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 13?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 13?",
               "choices": [
                 "Storage can be organized as Storage Area Networks (SAN) or",
                 "access to a shared pool of configurable computing resources.",
@@ -20470,7 +20470,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about SAN#?",
+              "prompt": "Which statement is correct about SAN#?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20502,7 +20502,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 14?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 14?",
               "choices": [
                 "drive, making it easy to replicate to other locations.",
                 "access to a shared pool of configurable computing resources.",
@@ -20534,7 +20534,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about File-based storage?",
+              "prompt": "Which statement is correct about File-based storage?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20566,7 +20566,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Orchestration#?",
+              "prompt": "Which statement is correct about Orchestration#?",
               "choices": [
                 "Orchestration# : Installs and configures new network services",
                 "access to a shared pool of configurable computing resources.",
@@ -20598,7 +20598,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about VM Manager#?",
+              "prompt": "Which statement is correct about VM Manager#?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20630,7 +20630,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 16?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 16?",
               "choices": [
                 "It provides a uniform interface for managing diverse",
                 "access to a shared pool of configurable computing resources.",
@@ -20662,7 +20662,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 16?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 16?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20694,7 +20694,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Compute Controller#?",
+              "prompt": "Which statement is correct about Compute Controller#?",
               "choices": [
                 "Compute Controller# : Manages virtual machine instances and",
                 "access to a shared pool of configurable computing resources.",
@@ -20726,7 +20726,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Database#?",
+              "prompt": "Which statement is correct about Database#?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20758,7 +20758,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 18?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 18?",
               "choices": [
                 "Images can be stored in diverse locations, ranging from",
                 "access to a shared pool of configurable computing resources.",
@@ -20790,7 +20790,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 18?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 18?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20822,7 +20822,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Cinder can use Swift as a back?",
+              "prompt": "Which statement is correct about Cinder can use Swift as a back?",
               "choices": [
                 "Cinder can use Swift as a back-end for volume backups.",
                 "access to a shared pool of configurable computing resources.",
@@ -20854,7 +20854,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Keystone?",
+              "prompt": "Which statement is correct about Keystone?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20886,7 +20886,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about lecture 9 slides topic 20?",
+              "prompt": "Which statement is correct about lecture 9 slides topic 20?",
               "choices": [
                 "It enables users to launch instances, assign IP addresses, and",
                 "access to a shared pool of configurable computing resources.",
@@ -20918,7 +20918,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about It is designed to be extensible to accommodate third?",
+              "prompt": "Which statement is correct about It is designed to be extensible to accommodate third?",
               "choices": [
                 "and services) can be rapidly provisioned with minimal",
                 "It is a model that promotes high availability and elasticity.",
@@ -20962,7 +20962,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Value of Information?",
+              "prompt": "Which statement is correct about The Value of Information?",
               "choices": [
                 "The Value of Information: Modern computer systems store",
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
@@ -20994,7 +20994,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Introduction?",
+              "prompt": "Which statement is correct about Introduction?",
               "choices": [
                 "Security refers to the overall problem of ensuring data is not",
                 "Protection Domain refers to the specific operations a user or",
@@ -21026,7 +21026,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Confidentiality: Ensuring secret data remains secret and?",
+              "prompt": "Which statement is correct about Confidentiality: Ensuring secret data remains secret and?",
               "choices": [
                 "Confidentiality: Ensuring secret data remains secret and is only released to authorized individuals.",
                 "The Value of Information: Modern computer systems store",
@@ -21058,7 +21058,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Integrity?",
+              "prompt": "Which statement is correct about Integrity?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21090,7 +21090,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Economy of Mechanism?",
+              "prompt": "Which statement is correct about Economy of Mechanism?",
               "choices": [
                 "Economy of Mechanism: Keep the design as simple and small as possible to minimize the attack surface.",
                 "The Value of Information: Modern computer systems store",
@@ -21122,7 +21122,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Fail-safe Defaults?",
+              "prompt": "Which statement is correct about Fail-safe Defaults?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21154,7 +21154,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Least Common Mechanism?",
+              "prompt": "Which statement is correct about Least Common Mechanism?",
               "choices": [
                 "Least Common Mechanism: Minimize the amount of mechanism common to more than one user and depended on by all users.",
                 "The Value of Information: Modern computer systems store",
@@ -21186,7 +21186,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Psychological Acceptability?",
+              "prompt": "Which statement is correct about Psychological Acceptability?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21218,7 +21218,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Protection Domain?",
+              "prompt": "Which statement is correct about Protection Domain?",
               "choices": [
                 "Protection Domain: A set of (object, rights) pairs defining what a process can do.",
                 "The Value of Information: Modern computer systems store",
@@ -21250,7 +21250,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Dynamics?",
+              "prompt": "Which statement is correct about Dynamics?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21282,7 +21282,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Concept?",
+              "prompt": "Which statement is correct about Concept?",
               "choices": [
                 "Concept: A conceptual model where rows represent domains and columns represent objects.",
                 "The Value of Information: Modern computer systems store",
@@ -21314,7 +21314,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Rights?",
+              "prompt": "Which statement is correct about Rights?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21346,7 +21346,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Mechanism?",
+              "prompt": "Which statement is correct about Mechanism?",
               "choices": [
                 "Mechanism: Associates an ordered list of authorized domains and their rights with each specific object.",
                 "The Value of Information: Modern computer systems store",
@@ -21378,7 +21378,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Principals: Users (subjects)?",
+              "prompt": "Which statement is correct about Principals: Users (subjects)?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21410,7 +21410,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Groups?",
+              "prompt": "Which statement is correct about Groups?",
               "choices": [
                 "Groups: Users can be categorized into groups to simplify permission management.",
                 "The Value of Information: Modern computer systems store",
@@ -21442,7 +21442,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Roles?",
+              "prompt": "Which statement is correct about Roles?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21474,7 +21474,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Mechanism: Associated with a process (domain), this?",
+              "prompt": "Which statement is correct about Mechanism: Associated with a process (domain), this?",
               "choices": [
                 "Mechanism: Associated with a process (domain), this is a list of",
                 "The Value of Information: Modern computer systems store",
@@ -21506,7 +21506,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about \"tickets\" (capabilities) that grant rights to specific objects. â€¢ Addressing?",
+              "prompt": "Which statement is correct about \"tickets\" (capabilities) that grant rights to specific objects. â€¢ Addressing?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21538,7 +21538,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Discretionary Access Control (DAC)?",
+              "prompt": "Which statement is correct about Discretionary Access Control (DAC)?",
               "choices": [
                 "Discretionary Access Control (DAC): Users determine who can access their files.",
                 "The Value of Information: Modern computer systems store",
@@ -21570,7 +21570,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Mandatory Access Control (MAC)?",
+              "prompt": "Which statement is correct about Mandatory Access Control (MAC)?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21602,7 +21602,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Purpose?",
+              "prompt": "Which statement is correct about Purpose?",
               "choices": [
                 "Purpose: The inverse of Bell-LaPadula, focused on preventing data corruption.",
                 "The Value of Information: Modern computer systems store",
@@ -21634,7 +21634,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The simple integrity property?",
+              "prompt": "Which statement is correct about The simple integrity property?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21666,7 +21666,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Terminology: Plaintext?",
+              "prompt": "Which statement is correct about Terminology: Plaintext?",
               "choices": [
                 "Terminology: Plaintext is converted to ciphertext via an encryption algorithm and key.",
                 "The Value of Information: Modern computer systems store",
@@ -21698,7 +21698,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Secret-Key (Symmetric)?",
+              "prompt": "Which statement is correct about Secret-Key (Symmetric)?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21730,7 +21730,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Asymmetric?",
+              "prompt": "Which statement is correct about Asymmetric?",
               "choices": [
                 "Asymmetric: Uses distinct keys for encryption (public) and decryption (private).",
                 "The Value of Information: Modern computer systems store",
@@ -21762,7 +21762,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about RSA: A popular system where the public key?",
+              "prompt": "Which statement is correct about RSA: A popular system where the public key?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21794,7 +21794,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Goal?",
+              "prompt": "Which statement is correct about Goal?",
               "choices": [
                 "Goal: Prove the authenticity and integrity of a document.",
                 "The Value of Information: Modern computer systems store",
@@ -21826,7 +21826,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Process?",
+              "prompt": "Which statement is correct about Process?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21858,7 +21858,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Basics?",
+              "prompt": "Which statement is correct about The Basics?",
               "choices": [
                 "The Basics: The most widely used form of authentication involves a login name and password.",
                 "The Value of Information: Modern computer systems store",
@@ -21890,7 +21890,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Feedback Error: Systems should never indicate if a login name?",
+              "prompt": "Which statement is correct about Feedback Error: Systems should never indicate if a login name?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21922,7 +21922,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Lamport s Scheme?",
+              "prompt": "Which statement is correct about Lamport s Scheme?",
               "choices": [
                 "Lamport s Scheme: Uses a sequence of hashes generated by .",
                 "The Value of Information: Modern computer systems store",
@@ -21954,7 +21954,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Usage: Each login?",
+              "prompt": "Which statement is correct about Usage: Each login?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -21986,7 +21986,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Concept?",
+              "prompt": "Which statement is correct about Concept?",
               "choices": [
                 "Concept: A secret value ( canary ) placed on the stack before the return address.",
                 "The Value of Information: Modern computer systems store",
@@ -22018,7 +22018,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Check: Before a function returns, it checks if the canary?",
+              "prompt": "Which statement is correct about Check: Before a function returns, it checks if the canary?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -22050,7 +22050,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Counter-Measure: ROP?",
+              "prompt": "Which statement is correct about Counter-Measure: ROP?",
               "choices": [
                 "Counter-Measure: ROP is used to bypass NX bit protections.",
                 "The Value of Information: Modern computer systems store",
@@ -22082,7 +22082,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Gadgets?",
+              "prompt": "Which statement is correct about Gadgets?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -22146,7 +22146,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Leaking Data?",
+              "prompt": "Which statement is correct about Leaking Data?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -22178,7 +22178,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Use-After-Free and Dangling Pointers?",
+              "prompt": "Which statement is correct about Use-After-Free and Dangling Pointers?",
               "choices": [
                 "Bug: Accessing memory via a pointer after the memory has been freed.",
                 "The Value of Information: Modern computer systems store",
@@ -22210,7 +22210,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Exploit?",
+              "prompt": "Which statement is correct about Exploit?",
               "choices": [
                 "sensitive technical, commercial, financial, and legal data that must be guarded.",
                 "Security refers to the overall problem of ensuring data is not",
@@ -22254,7 +22254,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Linux?",
+              "prompt": "Which statement is correct about Linux?",
               "choices": [
                 "Linux is a modern, free operating system based on UNIX standards.",
                 "First developed as a small but self-contained kernel in 1991 by Linus",
@@ -22286,7 +22286,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about First developed as a small but self?",
+              "prompt": "Which statement is correct about First developed as a small but self?",
               "choices": [
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
                 "the world, corresponding almost exclusively over the Internet. â— It has been designed to run efficiently and reliably on common PC",
@@ -22318,7 +22318,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Version 0.01 (May 1991) had no networking, ran only on 80386?",
+              "prompt": "Which statement is correct about Version 0.01 (May 1991) had no networking, ran only on 80386?",
               "choices": [
                 "Version 0.01 (May 1991) had no networking, ran only on 80386-compatible Intel processors and on PC hardware, had extremely limited device-drive support, and supported only the Minix file system.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22350,7 +22350,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Linux 1.0 (March 1994) included these new features?",
+              "prompt": "Which statement is correct about Linux 1.0 (March 1994) included these new features?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22382,7 +22382,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Released in June 1996, 2.0 added two major new capabilities?",
+              "prompt": "Which statement is correct about Released in June 1996, 2.0 added two major new capabilities?",
               "choices": [
                 "Released in June 1996, 2.0 added two major new capabilities:",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22414,7 +22414,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Support for multiple architectures, including a fully 64?",
+              "prompt": "Which statement is correct about Support for multiple architectures, including a fully 64?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22446,7 +22446,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Linux?",
+              "prompt": "Which statement is correct about Linux?",
               "choices": [
                 "Linux uses many tools developed as part of Berkeley s BSD operating system, MITâ€™s X Window System, and the Free Software Foundation's GNU project.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22478,7 +22478,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The main system libraries?",
+              "prompt": "Which statement is correct about The main system libraries?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22510,7 +22510,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Linux Distributions?",
+              "prompt": "Which statement is correct about Linux Distributions?",
               "choices": [
                 "Standard, precompiled sets of packages, or distributions, include the basic Linux system, system installation and management utilities, and ready-to-install packages of common UNIX tools.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22542,7 +22542,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The first distributions managed these packages by simply providing a?",
+              "prompt": "Which statement is correct about The first distributions managed these packages by simply providing a?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22574,7 +22574,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Linux?",
+              "prompt": "Which statement is correct about Linux?",
               "choices": [
                 "Linux is a multiuser, multitasking system with a full set of UNIX-compatible tools.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22606,7 +22606,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Design Principles?",
+              "prompt": "Which statement is correct about Design Principles?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22638,7 +22638,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Like most UNIX implementations, Linux?",
+              "prompt": "Which statement is correct about Like most UNIX implementations, Linux?",
               "choices": [
                 "Like most UNIX implementations, Linux is composed of three main bodies of code; the most important distinction between the kernel and all other components.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22670,7 +22670,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The kernel?",
+              "prompt": "Which statement is correct about The kernel?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22702,7 +22702,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Components of a Linux System (Cont.)?",
+              "prompt": "Which statement is correct about Components of a Linux System (Cont.)?",
               "choices": [
                 "The system utilities perform individual specialized management tasks.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22734,7 +22734,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about User?",
+              "prompt": "Which statement is correct about User?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22766,7 +22766,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Kernel Modules?",
+              "prompt": "Which statement is correct about Kernel Modules?",
               "choices": [
                 "Sections of kernel code that can be compiled, loaded, and unloaded independent of the rest of the kernel.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22798,7 +22798,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Kernel Modules?",
+              "prompt": "Which statement is correct about Kernel Modules?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22830,7 +22830,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Module Management?",
+              "prompt": "Which statement is correct about Module Management?",
               "choices": [
                 "Supports loading modules into memory and letting them talk to the rest of the kernel.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22862,7 +22862,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Module loading?",
+              "prompt": "Which statement is correct about Module loading?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22894,7 +22894,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Driver Registration?",
+              "prompt": "Which statement is correct about Driver Registration?",
               "choices": [
                 "Allows modules to tell the rest of the kernel that a new driver has become available.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22926,7 +22926,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The kernel maintains dynamic tables of all known drivers, and?",
+              "prompt": "Which statement is correct about The kernel maintains dynamic tables of all known drivers, and?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -22958,7 +22958,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A mechanism that?",
+              "prompt": "Which statement is correct about A mechanism that?",
               "choices": [
                 "A mechanism that allows different device drivers to reserve hardware resources and to protect those resources from accidental use by another driver.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -22990,7 +22990,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Conflict Resolution?",
+              "prompt": "Which statement is correct about Conflict Resolution?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23022,7 +23022,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Process Management?",
+              "prompt": "Which statement is correct about Process Management?",
               "choices": [
                 "UNIX process management separates the creation of processes and the running of a new program into two distinct operations. â€¢ The fork() system call creates a new process.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -23054,7 +23054,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A new program?",
+              "prompt": "Which statement is correct about A new program?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23086,7 +23086,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Process ID (PID)?",
+              "prompt": "Which statement is correct about Process ID (PID)?",
               "choices": [
                 "Process ID (PID) - The unique identifier for the process; used to specify processes to the operating system when an application makes a system call to signal, modify, or wait for another process.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -23118,7 +23118,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Credentials?",
+              "prompt": "Which statement is correct about Credentials?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23150,7 +23150,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The process s environment?",
+              "prompt": "Which statement is correct about The process s environment?",
               "choices": [
                 "The process s environment is inherited from its parent, and is composed of two null-terminated vectors:",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -23182,7 +23182,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The argument vector lists the command?",
+              "prompt": "Which statement is correct about The argument vector lists the command?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23214,7 +23214,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Process Context?",
+              "prompt": "Which statement is correct about Process Context?",
               "choices": [
                 "The (constantly changing) state of a running program at any point in time.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -23246,7 +23246,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The scheduling context?",
+              "prompt": "Which statement is correct about The scheduling context?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23278,7 +23278,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Whereas the file table lists the existing open files, the file?",
+              "prompt": "Which statement is correct about Whereas the file table lists the existing open files, the file?",
               "choices": [
                 "Whereas the file table lists the existing open files, the file-system context applies to requests to open new files.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -23310,7 +23310,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The current root and default directories to be used for new file searches?",
+              "prompt": "Which statement is correct about The current root and default directories to be used for new file searches?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23342,7 +23342,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Linux?",
+              "prompt": "Which statement is correct about Linux?",
               "choices": [
                 "Linux uses the same internal representation for processes and threads; a thread is simply a new process that happens to share the same address space as its parent. â€¢ Both are called tasks by Linux.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -23374,7 +23374,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about A distinction?",
+              "prompt": "Which statement is correct about A distinction?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23406,7 +23406,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Scheduling?",
+              "prompt": "Which statement is correct about Scheduling?",
               "choices": [
                 "The job of allocating CPU time to different tasks within an operating system.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -23438,7 +23438,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about While scheduling?",
+              "prompt": "Which statement is correct about While scheduling?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23470,7 +23470,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about CFS?",
+              "prompt": "Which statement is correct about CFS?",
               "choices": [
                 "Instead all tasks allocated portion of processorâ€™s time.",
                 "Linux is a modern, free operating system based on UNIX standards.",
@@ -23502,7 +23502,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about CFS?",
+              "prompt": "Which statement is correct about CFS?",
               "choices": [
                 "First developed as a small but self-contained kernel in 1991 by Linus",
                 "Torvalds, with the major design goal of UNIX compatibility, released as open source. â— Its history has been one of collaboration by many users from all around",
@@ -23546,7 +23546,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about History?",
+              "prompt": "Which statement is correct about History?",
               "choices": [
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
                 "Originally, NT was supposed to use the OS/2 API as its native",
@@ -23578,7 +23578,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Originally, NT?",
+              "prompt": "Which statement is correct about Originally, NT?",
               "choices": [
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
                 "Many older versions still in use, less secure, some unpatched.",
@@ -23610,7 +23610,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about and 64?",
+              "prompt": "Which statement is correct about and 64?",
               "choices": [
                 "and 64-bit preemptive multitasking operating system for Intel microprocessors.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -23642,7 +23642,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Windows 10?",
+              "prompt": "Which statement is correct about Windows 10?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -23674,7 +23674,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Access control lists (ACLs) â€“ both attribute?",
+              "prompt": "Which statement is correct about Access control lists (ACLs) â€“ both attribute?",
               "choices": [
                 "Access control lists (ACLs) â€“ both attribute-based and claim-based.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -23706,7 +23706,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Exploit mitigations â€“ address?",
+              "prompt": "Which statement is correct about Exploit mitigations â€“ address?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -23738,7 +23738,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Portability?",
+              "prompt": "Which statement is correct about Portability?",
               "choices": [
                 "Portability: Windows 10 can be moved from one hardware architecture to another with relatively few changes.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -23770,7 +23770,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Processor-specific portions?",
+              "prompt": "Which statement is correct about Processor-specific portions?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -23802,7 +23802,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Protected mode?",
+              "prompt": "Which statement is correct about Protected mode?",
               "choices": [
                 "Protected mode: hardware abstraction layer (HAL), kernel, executive.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -23834,7 +23834,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about System Components?",
+              "prompt": "Which statement is correct about System Components?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -23866,7 +23866,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Virtual Trust Levels (VTLs) option implemented by Hyper?",
+              "prompt": "Which statement is correct about Virtual Trust Levels (VTLs) option implemented by Hyper?",
               "choices": [
                 "Virtual Trust Levels (VTLs) option implemented by Hyper-V virtualization.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -23898,7 +23898,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Never paged out of memory; execution?",
+              "prompt": "Which statement is correct about Never paged out of memory; execution?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -23930,7 +23930,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Kernel?",
+              "prompt": "Which statement is correct about Kernel?",
               "choices": [
                 "Kernel is object-oriented, uses two sets of objects. â€¢ dispatcher objects control dispatching and synchronization (events, mutexes, semaphores, threads and timers) .",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -23962,7 +23962,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Kernel â€” Process and Threads?",
+              "prompt": "Which statement is correct about Kernel â€” Process and Threads?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -23994,7 +23994,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Threads?",
+              "prompt": "Which statement is correct about Threads?",
               "choices": [
                 "Threads are the unit of execution scheduled by the kernel dispatcher.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24026,7 +24026,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The dispatcher?",
+              "prompt": "Which statement is correct about The dispatcher?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24058,7 +24058,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Priorities?",
+              "prompt": "Which statement is correct about Priorities?",
               "choices": [
                 "Priorities are divided into two classes:",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24090,7 +24090,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Kernel â€” Scheduling (Cont.)?",
+              "prompt": "Which statement is correct about Kernel â€” Scheduling (Cont.)?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24122,7 +24122,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Real-time threads?",
+              "prompt": "Which statement is correct about Real-time threads?",
               "choices": [
                 "Real-time threads are given preferential access to the CPU; but widows 10 does not guarantee that a real-time thread will start to execute within any particular time limit. â€¢ This is known as soft realtime.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24154,7 +24154,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The kernel?",
+              "prompt": "Which statement is correct about The kernel?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24186,7 +24186,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Exceptions that cannot be handled by the trap handler?",
+              "prompt": "Which statement is correct about Exceptions that cannot be handled by the trap handler?",
               "choices": [
                 "Exceptions that cannot be handled by the trap handler are ' s .",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24218,7 +24218,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Windows 10?",
+              "prompt": "Which statement is correct about Windows 10?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24250,7 +24250,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Keeps track of which processes?",
+              "prompt": "Which statement is correct about Keeps track of which processes?",
               "choices": [
                 "Keeps track of which processes are using each object.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24282,7 +24282,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The Windows 10 executive?",
+              "prompt": "Which statement is correct about The Windows 10 executive?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24314,7 +24314,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Object names?",
+              "prompt": "Which statement is correct about Object names?",
               "choices": [
                 "Object names are structured like file path names in MS-DOS and UNIX.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24346,7 +24346,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Executive â€” Virtual Memory Manager?",
+              "prompt": "Which statement is correct about Executive â€” Virtual Memory Manager?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24378,7 +24378,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The VM manager in Windows 10?",
+              "prompt": "Which statement is correct about The VM manager in Windows 10?",
               "choices": [
                 "The VM manager in Windows 10 uses a page-based management scheme with a whatever page sizes are supported by hardware (4 KB, 2MB, 1GB).",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24410,7 +24410,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Virtual-to-Physical Address Translation on IA-32?",
+              "prompt": "Which statement is correct about Virtual-to-Physical Address Translation on IA-32?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24442,7 +24442,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about = = = V 0, T 0, P 0 5 bits for page protection, 32 bits for page?",
+              "prompt": "Which statement is correct about = = = V 0, T 0, P 0 5 bits for page protection, 32 bits for page?",
               "choices": [
                 "= = = V 0, T 0, P 0 5 bits for page protection, 32 bits for page-file offset, 4 bits to select a paging file, and 20 bits for additional bookkeeping",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24474,7 +24474,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Executive â€” Process Manager?",
+              "prompt": "Which statement is correct about Executive â€” Process Manager?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24506,7 +24506,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Issues such as parent/child relationships or process hierarchies?",
+              "prompt": "Which statement is correct about Issues such as parent/child relationships or process hierarchies?",
               "choices": [
                 "Issues such as parent/child relationships or process hierarchies are left to the particular environmental subsystem that owns the process.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24538,7 +24538,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about The I/O manager?",
+              "prompt": "Which statement is correct about The I/O manager?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24570,7 +24570,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Keeps track of which installable file systems?",
+              "prompt": "Which statement is correct about Keeps track of which installable file systems?",
               "choices": [
                 "Keeps track of which installable file systems are loaded, and manages buffers for I/O requests.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24602,7 +24602,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Executive â€“ Power Manager?",
+              "prompt": "Which statement is correct about Executive â€“ Power Manager?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24634,7 +24634,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Executive â€“ Registry?",
+              "prompt": "Which statement is correct about Executive â€“ Registry?",
               "choices": [
                 "Configuration information kept in internal repositories called hives.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24666,7 +24666,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Executive â€“ Registry?",
+              "prompt": "Which statement is correct about Executive â€“ Registry?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24698,7 +24698,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about UEFI?",
+              "prompt": "Which statement is correct about UEFI?",
               "choices": [
                 "UEFI includes Secure Boot feature that provides integrity checking via digital signature verification of all firmware and boot-time components.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24730,7 +24730,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about If machine?",
+              "prompt": "Which statement is correct about If machine?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",
@@ -24762,7 +24762,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about User?",
+              "prompt": "Which statement is correct about User?",
               "choices": [
                 "User-mode processes layered over the native Windows executive services to enable to run programs developed for other operating system.",
                 "In 1988, Microsoft decided to develop a â€œnew technology (NT) portable operating system that supported both the OS/2 and POSIX APIs.",
@@ -24794,7 +24794,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What must you Study about Windows?",
+              "prompt": "Which statement is correct about Windows?",
               "choices": [
                 "Originally, NT was supposed to use the OS/2 API as its native",
                 "environment but during development NT was changed to use the Win32 API, reflecting the popularity of Windows 3.0. â— Many versions of Windows along the way, XP, Vista, 7, 8, 10, and now",

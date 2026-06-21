@@ -20,12 +20,14 @@
           "type": "Single Choice",
           "prompt": "What is the main purpose of information security?",
           "choices": [
+            "To understand possible dangers and select suitable controls",
             "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Make every system public",
-            "Remove all controls from an organization",
-            "Store information without any protection"
+            "Security Systems Development Life Cycle",
+            "Ensure systems and contents stay protected and useful"
           ],
-          "answer": [0],
+          "answer": [
+            1
+          ],
           "explanation": "Information security protects information assets and the systems that process them.",
           "points": 1
         },
@@ -34,11 +36,13 @@
           "prompt": "Which lifecycle is used to develop security controls in an organized way?",
           "choices": [
             "Security Systems Development Life Cycle",
-            "Random guessing cycle",
-            "Printer replacement cycle",
-            "Color selection cycle"
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Ensure systems and contents stay protected and useful",
+            "To understand possible dangers and select suitable controls"
           ],
-          "answer": [0],
+          "answer": [
+            0
+          ],
           "explanation": "The lecture lists the Security Systems Development Life Cycle as a core topic.",
           "points": 1
         }
@@ -54,12 +58,14 @@
           "type": "Single Choice",
           "prompt": "What is a primary mission of information security?",
           "choices": [
+            "Security Systems Development Life Cycle",
             "Ensure systems and contents stay protected and useful",
-            "Make attacks easier",
-            "Disable every network",
-            "Ignore threats"
+            "To understand possible dangers and select suitable controls",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
           ],
-          "answer": [0],
+          "answer": [
+            1
+          ],
           "explanation": "The lecture connects information security with protecting systems, content, and operations.",
           "points": 1
         },
@@ -68,11 +74,13 @@
           "prompt": "Why are threats studied in information security?",
           "choices": [
             "To understand possible dangers and select suitable controls",
-            "To remove all users from a system",
-            "To make passwords optional",
-            "To avoid risk analysis"
+            "Ensure systems and contents stay protected and useful",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle"
           ],
-          "answer": [0],
+          "answer": [
+            0
+          ],
           "explanation": "Threat understanding is necessary before choosing effective protection.",
           "points": 1
         }
@@ -89,11 +97,13 @@
           "prompt": "An information system consists of which broad components?",
           "choices": [
             "Software, hardware, data, people, procedures, and networks",
-            "Only software",
-            "Only hardware",
-            "Only passwords"
+            "The physical technology used to process, store, and communicate information",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle"
           ],
-          "answer": [0],
+          "answer": [
+            0
+          ],
           "explanation": "The lecture says an information system is more than hardware and software.",
           "points": 1
         },
@@ -101,12 +111,14 @@
           "type": "Single Choice",
           "prompt": "What does hardware mean in an information system?",
           "choices": [
-            "The physical technology used to process, store, and communicate information",
-            "A written policy only",
-            "A user role only",
-            "A firewall rule only"
+            "Software, hardware, data, people, procedures, and networks",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
+            "The physical technology used to process, store, and communicate information"
           ],
-          "answer": [0],
+          "answer": [
+            3
+          ],
           "explanation": "Hardware is the physical part of the information system.",
           "points": 1
         }
@@ -123,11 +135,13 @@
           "prompt": "What does software include in an information system?",
           "choices": [
             "Applications, operating systems, and command utilities",
-            "Only keyboards",
-            "Only printed documents",
-            "Only office furniture"
+            "Because errors can become threats or vulnerabilities",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle"
           ],
-          "answer": [0],
+          "answer": [
+            0
+          ],
           "explanation": "The lecture identifies software as one major component of information systems.",
           "points": 1
         },
@@ -135,12 +149,14 @@
           "type": "Single Choice",
           "prompt": "Why are software failures security-relevant?",
           "choices": [
-            "Because errors can become threats or vulnerabilities",
-            "Because software errors improve protection",
-            "Because software is never attacked",
-            "Because software has no relation to information systems"
+            "Applications, operating systems, and command utilities",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
+            "Because errors can become threats or vulnerabilities"
           ],
-          "answer": [0],
+          "answer": [
+            3
+          ],
           "explanation": "Technical software failures or errors are a category of threat.",
           "points": 1
         }
@@ -156,12 +172,14 @@
           "type": "Single Choice",
           "prompt": "What is an attack?",
           "choices": [
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
             "An action that exploits a weakness",
-            "A security policy document",
-            "A backup schedule",
-            "A harmless label"
+            "A weakness in a system or control"
           ],
-          "answer": [0],
+          "answer": [
+            2
+          ],
           "explanation": "The lecture defines attack as exploiting a weakness.",
           "points": 1
         },
@@ -169,12 +187,14 @@
           "type": "Single Choice",
           "prompt": "What is a vulnerability?",
           "choices": [
+            "Security Systems Development Life Cycle",
             "A weakness in a system or control",
-            "A confirmed successful backup",
-            "A fully patched server",
-            "A type of monitor"
+            "An action that exploits a weakness",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
           ],
-          "answer": [0],
+          "answer": [
+            1
+          ],
           "explanation": "A vulnerability is a weakness that can be exploited.",
           "points": 1
         }
@@ -190,12 +210,14 @@
           "type": "Single Choice",
           "prompt": "Who is a hacker in the security context used by the lecture?",
           "choices": [
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
             "A person who accesses systems or information without authorization",
-            "A person who prints reports only",
-            "A network cable",
-            "A software license"
+            "Weak passwords can allow unauthorized access"
           ],
-          "answer": [0],
+          "answer": [
+            2
+          ],
           "explanation": "The lecture describes unauthorized system or information access.",
           "points": 1
         },
@@ -203,12 +225,14 @@
           "type": "Single Choice",
           "prompt": "Why are password vulnerabilities important?",
           "choices": [
+            "Security Systems Development Life Cycle",
             "Weak passwords can allow unauthorized access",
-            "Passwords are unrelated to security",
-            "Passwords only affect screen color",
-            "Passwords always stop every attack"
+            "A person who accesses systems or information without authorization",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
           ],
-          "answer": [0],
+          "answer": [
+            1
+          ],
           "explanation": "Password weaknesses are a common path to breaching confidentiality.",
           "points": 1
         }
@@ -225,11 +249,13 @@
           "prompt": "What is antivirus software designed to do?",
           "choices": [
             "Detect, block, and remove malicious software",
-            "Create malicious software",
-            "Disable every file",
-            "Replace the operating system"
+            "Identify suspicious activity and help stop attacks",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle"
           ],
-          "answer": [0],
+          "answer": [
+            0
+          ],
           "explanation": "The lecture names viruses, worms, and trojans as examples of malware.",
           "points": 1
         },
@@ -237,12 +263,14 @@
           "type": "Single Choice",
           "prompt": "What is the purpose of intrusion detection and prevention?",
           "choices": [
-            "Identify suspicious activity and help stop attacks",
-            "Make attacks invisible",
-            "Remove all monitoring",
-            "Disable alerts"
+            "Detect, block, and remove malicious software",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
+            "Identify suspicious activity and help stop attacks"
           ],
-          "answer": [0],
+          "answer": [
+            3
+          ],
           "explanation": "Security software helps detect and respond to malicious behavior.",
           "points": 1
         }
@@ -259,11 +287,13 @@
           "prompt": "What is cryptography?",
           "choices": [
             "Making and using codes to secure transmission of information",
-            "Breaking into encrypted messages only",
-            "Removing all keys from a system",
-            "A type of physical lock"
+            "Trying to obtain the original message from encrypted data without authorized access",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle"
           ],
-          "answer": [0],
+          "answer": [
+            0
+          ],
           "explanation": "Cryptography protects information by transforming it using codes or keys.",
           "points": 1
         },
@@ -271,12 +301,14 @@
           "type": "Single Choice",
           "prompt": "What is cryptanalysis?",
           "choices": [
-            "Trying to obtain the original message from encrypted data without authorized access",
-            "Writing a firewall policy",
-            "Installing antivirus software",
-            "Backing up a database"
+            "Making and using codes to secure transmission of information",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
+            "Trying to obtain the original message from encrypted data without authorized access"
           ],
-          "answer": [0],
+          "answer": [
+            3
+          ],
           "explanation": "Cryptanalysis studies breaking or analyzing encrypted messages.",
           "points": 1
         }
@@ -292,12 +324,14 @@
           "type": "Single Choice",
           "prompt": "What is access control concerned with?",
           "choices": [
-            "Determining whether and how to admit a user into a trusted area or system",
-            "Changing wallpaper",
-            "Removing all permissions",
-            "Ignoring identity"
+            "Restricted computer room",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
+            "Determining whether and how to admit a user into a trusted area or system"
           ],
-          "answer": [0],
+          "answer": [
+            3
+          ],
           "explanation": "Access control manages admission and permissions.",
           "points": 1
         },
@@ -305,12 +339,14 @@
           "type": "Single Choice",
           "prompt": "Which is an example of a trusted area?",
           "choices": [
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
             "Restricted computer room",
-            "Public parking space",
-            "Uncontrolled hallway",
-            "Anonymous website comment"
+            "Determining whether and how to admit a user into a trusted area or system"
           ],
-          "answer": [0],
+          "answer": [
+            2
+          ],
           "explanation": "The lecture lists information systems and restricted computer rooms as trusted areas.",
           "points": 1
         }
@@ -326,12 +362,14 @@
           "type": "Single Choice",
           "prompt": "Why are firewalls used?",
           "choices": [
-            "To protect networks and sensitive information by controlling traffic",
-            "To make all traffic trusted",
-            "To remove every security policy",
-            "To replace user training"
+            "Rapid growth in digital communication and network threats",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
+            "To protect networks and sensitive information by controlling traffic"
           ],
-          "answer": [0],
+          "answer": [
+            3
+          ],
           "explanation": "Firewalls are network protection components.",
           "points": 1
         },
@@ -339,12 +377,14 @@
           "type": "Single Choice",
           "prompt": "What increased the need for network protection?",
           "choices": [
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
             "Rapid growth in digital communication and network threats",
-            "Reduced use of networks",
-            "Elimination of hacking",
-            "No sensitive information online"
+            "To protect networks and sensitive information by controlling traffic"
           ],
-          "answer": [0],
+          "answer": [
+            2
+          ],
           "explanation": "More digital communication increases exposure to attacks.",
           "points": 1
         }
@@ -360,12 +400,14 @@
           "type": "Single Choice",
           "prompt": "What is risk management in information security?",
           "choices": [
+            "Security Systems Development Life Cycle",
             "Identifying, assessing, and treating risks to information assets",
-            "Ignoring threats until an incident happens",
-            "Removing all business operations",
-            "Choosing passwords randomly"
+            "It helps prioritize controls according to likelihood and impact",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
           ],
-          "answer": [0],
+          "answer": [
+            1
+          ],
           "explanation": "Risk management connects threats, vulnerabilities, likelihood, impact, and controls.",
           "points": 1
         },
@@ -374,11 +416,13 @@
           "prompt": "Why is risk assessment important?",
           "choices": [
             "It helps prioritize controls according to likelihood and impact",
-            "It guarantees no attack can happen",
-            "It replaces all security policies",
-            "It makes assets unnecessary"
+            "Identifying, assessing, and treating risks to information assets",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle"
           ],
-          "answer": [0],
+          "answer": [
+            0
+          ],
           "explanation": "Controls should be chosen based on the importance and level of risk.",
           "points": 1
         }
@@ -394,12 +438,14 @@
           "type": "Single Choice",
           "prompt": "Which idea is central in information security references?",
           "choices": [
-            "Protecting confidentiality, integrity, and availability",
-            "Making all information public",
-            "Avoiding all controls",
-            "Using one password for every system"
+            "Policies define expectations and controls help enforce them",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
+            "Protecting confidentiality, integrity, and availability"
           ],
-          "answer": [0],
+          "answer": [
+            3
+          ],
           "explanation": "The CIA triad is a core framework in information security.",
           "points": 1
         },
@@ -407,12 +453,14 @@
           "type": "Single Choice",
           "prompt": "Why do references discuss policies and controls together?",
           "choices": [
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
             "Policies define expectations and controls help enforce them",
-            "Policies are always enough without action",
-            "Controls remove the need for management",
-            "Neither affects security"
+            "Protecting confidentiality, integrity, and availability"
           ],
-          "answer": [0],
+          "answer": [
+            2
+          ],
           "explanation": "Security needs both direction and implementation.",
           "points": 1
         }
@@ -428,12 +476,14 @@
           "type": "Single Choice",
           "prompt": "What should an organization protect as information assets?",
           "choices": [
-            "Data, systems, people, processes, and supporting technology",
-            "Only screen brightness",
-            "Only unused files",
-            "Only furniture"
+            "Threats, vulnerabilities, and business needs change over time",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
+            "Data, systems, people, processes, and supporting technology"
           ],
-          "answer": [0],
+          "answer": [
+            3
+          ],
           "explanation": "Modern security treats information assets broadly, not as software alone.",
           "points": 1
         },
@@ -441,12 +491,14 @@
           "type": "Single Choice",
           "prompt": "Why do security controls need continuous review?",
           "choices": [
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle",
             "Threats, vulnerabilities, and business needs change over time",
-            "Controls never fail",
-            "Attackers stop changing",
-            "Policies become permanent after one draft"
+            "Data, systems, people, processes, and supporting technology"
           ],
-          "answer": [0],
+          "answer": [
+            2
+          ],
           "explanation": "Security is an ongoing management process.",
           "points": 1
         }
@@ -462,12 +514,14 @@
           "type": "Single Choice",
           "prompt": "ما الفكرة العامة لأمن المعلومات؟",
           "choices": [
+            "Security Systems Development Life Cycle",
             "حماية المعلومات من الوصول أو التعديل أو الإتلاف غير المصرح به",
-            "نشر كل المعلومات دون قيود",
-            "حذف النسخ الاحتياطية",
-            "إلغاء كلمات المرور"
+            "لأن سلوك المستخدم جزء مهم من الحماية",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
           ],
-          "answer": [0],
+          "answer": [
+            1
+          ],
           "explanation": "أمن المعلومات يركز على حماية السرية والسلامة والتوافر.",
           "points": 1
         },
@@ -476,11 +530,13 @@
           "prompt": "لماذا يجب تبسيط مفاهيم أمن المعلومات للمستخدمين؟",
           "choices": [
             "لأن سلوك المستخدم جزء مهم من الحماية",
-            "لأن المستخدمين لا يؤثرون في الأمن",
-            "لأن التقنية وحدها تكفي دائما",
-            "لأن التدريب يزيد الخطر"
+            "حماية المعلومات من الوصول أو التعديل أو الإتلاف غير المصرح به",
+            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
+            "Security Systems Development Life Cycle"
           ],
-          "answer": [0],
+          "answer": [
+            0
+          ],
           "explanation": "الفهم الجيد يساعد المستخدم على تجنب الأخطاء والهجمات الاجتماعية.",
           "points": 1
         }

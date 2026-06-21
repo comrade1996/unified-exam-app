@@ -19,8 +19,15 @@
         {
           "type": "Single Choice",
           "prompt": "Which topic belongs to an advanced OOP syllabus?",
-          "choices": ["Constructors and destructors", "Z-test only", "Firewall filtering only", "CPU scheduling only"],
-          "answer": [0],
+          "choices": [
+            "A style or model for designing and organizing programs",
+            "Because project scale, risk, and structure can differ",
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "The syllabus lists constructors and destructors among OOP topics.",
           "points": 1
         }
@@ -35,8 +42,15 @@
         {
           "type": "Single Choice",
           "prompt": "Why use a user-defined function such as display()?",
-          "choices": ["To organize repeated output logic into a reusable block", "To delete all variables", "To stop compiling code", "To replace every class"],
-          "answer": [0],
+          "choices": [
+            "To organize repeated output logic into a reusable block",
+            "Constructors and destructors",
+            "A style or model for designing and organizing programs",
+            "Because project scale, risk, and structure can differ"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Functions let code be reused and organized.",
           "points": 1
         }
@@ -51,16 +65,30 @@
         {
           "type": "Single Choice",
           "prompt": "What is a programming paradigm?",
-          "choices": ["A style or model for designing and organizing programs", "A hardware cable", "A password rule only", "A random file name"],
-          "answer": [0],
+          "choices": [
+            "To organize repeated output logic into a reusable block",
+            "A style or model for designing and organizing programs",
+            "Because project scale, risk, and structure can differ",
+            "Constructors and destructors"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "The lecture compares different ways to plan and build software.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "Why can different projects need different paradigms?",
-          "choices": ["Because project scale, risk, and structure can differ", "Because all software is identical", "Because planning is never needed", "Because code cannot be organized"],
-          "answer": [0],
+          "choices": [
+            "Because project scale, risk, and structure can differ",
+            "A style or model for designing and organizing programs",
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "A small app and a safety-critical system need different design thinking.",
           "points": 1
         }
@@ -75,16 +103,30 @@
         {
           "type": "Single Choice",
           "prompt": "Why pass data through a member function instead of directly changing member data?",
-          "choices": ["To validate or filter data before storing it", "To remove the object", "To make data impossible to access", "To skip class design"],
-          "answer": [0],
+          "choices": [
+            "Defining data and functions that describe a type of object",
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "To validate or filter data before storing it"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "The notes say member functions allow filtering before using member data.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "What is a class used for in OOP?",
-          "choices": ["Defining data and functions that describe a type of object", "Running only SQL queries", "Encrypting a password only", "Replacing every function"],
-          "answer": [0],
+          "choices": [
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "Defining data and functions that describe a type of object",
+            "To validate or filter data before storing it"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "A class groups state and behavior.",
           "points": 1
         }
@@ -99,16 +141,30 @@
         {
           "type": "Single Choice",
           "prompt": "What does a constructor do in a Counter class example?",
-          "choices": ["Initializes the object state such as count", "Deletes the class definition", "Stops object creation", "Converts C++ to HTML"],
-          "answer": [0],
+          "choices": [
+            "Defining functions with the same name but different parameter lists",
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "Initializes the object state such as count"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "The example uses Counter() : count(0) to initialize count.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "What is function overloading?",
-          "choices": ["Defining functions with the same name but different parameter lists", "Using no functions", "Giving every function a random name", "Deleting parameters"],
-          "answer": [0],
+          "choices": [
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "Defining functions with the same name but different parameter lists",
+            "Initializes the object state such as count"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "Overloading lets one name handle related operations with different inputs.",
           "points": 1
         }
@@ -123,16 +179,30 @@
         {
           "type": "Single Choice",
           "prompt": "Why overload an operator for a user-defined type?",
-          "choices": ["To define what an operator means for objects of that class", "To prevent object use", "To remove arithmetic from C++", "To make all operators illegal"],
-          "answer": [0],
+          "choices": [
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "To define what an operator means for objects of that class",
+            "<< and >>"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "The compiler needs a definition for operators used with custom objects.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "Which operator pair is associated with stream insertion and extraction?",
-          "choices": ["<< and >>", "++ and -- only", "&& and || only", "new and delete only"],
-          "answer": [0],
+          "choices": [
+            "To validate or filter data before storing it",
+            "<< and >>",
+            "To define what an operator means for objects of that class",
+            "To organize repeated output logic into a reusable block"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "The notes mention inserter and extractor operators.",
           "points": 1
         }
@@ -147,16 +217,30 @@
         {
           "type": "Single Choice",
           "prompt": "ما المقصود بتحميل المؤثرات في C++؟",
-          "choices": ["ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف", "حذف كل المؤثرات من اللغة", "تشغيل قاعدة بيانات فقط", "إلغاء الكائنات"],
-          "answer": [0],
+          "choices": [
+            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+            "لتمثيل بيع عنصر وزيادة عداد المبيعات",
+            "التحقق من صحة القيم المدخلة وأنها رقمية",
+            "إدارة بيانات الحسابات وعملياتها الأساسية"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "المحاضرة تشرح أن المؤثر يستدعي دالة عند تطبيقه على كائن.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "في مثال Pharmacy، لماذا يمكن استخدام ++item؟",
-          "choices": ["لتمثيل بيع عنصر وزيادة عداد المبيعات", "لإلغاء الصنف", "لتغيير اسم الدواء", "لإيقاف البرنامج دائما"],
-          "answer": [0],
+          "choices": [
+            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+            "التحقق من صحة القيم المدخلة وأنها رقمية",
+            "إدارة بيانات الحسابات وعملياتها الأساسية",
+            "لتمثيل بيع عنصر وزيادة عداد المبيعات"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "المثال يستخدم زيادة العداد عند بيع عنصر.",
           "points": 1
         }
@@ -171,16 +255,30 @@
         {
           "type": "Single Choice",
           "prompt": "What is inheritance in OOP?",
-          "choices": ["A subclass acquires properties of a parent class", "A function deletes an object", "A variable changes color", "A password is encrypted"],
-          "answer": [0],
+          "choices": [
+            "To organize repeated output logic into a reusable block",
+            "A subclass acquires properties of a parent class",
+            "It supports reusability and can improve reliability",
+            "Constructors and destructors"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "The notes define inheritance as acquiring parent class properties.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "Why is inheritance useful?",
-          "choices": ["It supports reusability and can improve reliability", "It forces rewriting every class", "It prevents code reuse", "It removes parent classes"],
-          "answer": [0],
+          "choices": [
+            "It supports reusability and can improve reliability",
+            "A subclass acquires properties of a parent class",
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Inheritance helps reuse existing classes instead of recreating them.",
           "points": 1
         }
@@ -195,16 +293,30 @@
         {
           "type": "Single Choice",
           "prompt": "In public inheritance, what happens to public members of the base class?",
-          "choices": ["They remain public in the derived class", "They always become private", "They are deleted", "They become global variables"],
-          "answer": [0],
+          "choices": [
+            "To organize repeated output logic into a reusable block",
+            "They remain public in the derived class",
+            "They become private in the derived class",
+            "Constructors and destructors"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "The notes state public base members remain public under public inheritance.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "In private inheritance, what happens to public and protected base members?",
-          "choices": ["They become private in the derived class", "They become public", "They become unrelated functions", "They are converted to files"],
-          "answer": [0],
+          "choices": [
+            "They become private in the derived class",
+            "They remain public in the derived class",
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "Private inheritance hides inherited interface from outside users.",
           "points": 1
         }
@@ -219,16 +331,30 @@
         {
           "type": "Single Choice",
           "prompt": "What does polymorphism mean?",
-          "choices": ["Many forms", "One fixed file", "No objects", "Only one function name allowed"],
-          "answer": [0],
+          "choices": [
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "Many forms",
+            "Calling the derived class version through a base pointer or reference"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "The lecture states polymorphism means many forms.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "What does a virtual function allow?",
-          "choices": ["Calling the derived class version through a base pointer or reference", "Disabling overriding", "Deleting inheritance", "Making all functions private"],
-          "answer": [0],
+          "choices": [
+            "To organize repeated output logic into a reusable block",
+            "Calling the derived class version through a base pointer or reference",
+            "Many forms",
+            "Constructors and destructors"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "Virtual functions enable runtime dispatch to the correct overridden function.",
           "points": 1
         }
@@ -243,16 +369,30 @@
         {
           "type": "Single Choice",
           "prompt": "What is a friend function allowed to do?",
-          "choices": ["Access private or protected members of a class that declares it as friend", "Delete the compiler", "Run without any declaration", "Replace all constructors"],
-          "answer": [0],
+          "choices": [
+            "To organize repeated output logic into a reusable block",
+            "Access private or protected members of a class that declares it as friend",
+            "To compute a value from the object's axes or coordinates",
+            "Constructors and destructors"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "Friend functions are external functions granted special access.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "Why might a Point class use a sum() member function?",
-          "choices": ["To compute a value from the object's axes or coordinates", "To remove object data", "To stop initialization", "To change the language syntax"],
-          "answer": [0],
+          "choices": [
+            "To compute a value from the object's axes or coordinates",
+            "Access private or protected members of a class that declares it as friend",
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "The lecture examples show summing point axes.",
           "points": 1
         }
@@ -267,16 +407,30 @@
         {
           "type": "Single Choice",
           "prompt": "What problem do templates solve?",
-          "choices": ["Writing generic code that works with different data types", "Removing all functions", "Preventing parameter passing", "Using only integers forever"],
-          "answer": [0],
+          "choices": [
+            "One generic definition can serve multiple types",
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "Writing generic code that works with different data types"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "Templates avoid duplicating similar functions for each type.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "Why is a template better than writing many sum functions for int, float, and double?",
-          "choices": ["One generic definition can serve multiple types", "It makes the function unusable", "It removes type checking", "It prevents compilation"],
-          "answer": [0],
+          "choices": [
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "One generic definition can serve multiple types",
+            "Writing generic code that works with different data types"
+          ],
+          "answer": [
+            2
+          ],
           "explanation": "Templates parameterize the type.",
           "points": 1
         }
@@ -291,8 +445,15 @@
         {
           "type": "Single Choice",
           "prompt": "Which concept is fundamental when learning C++ for OOP?",
-          "choices": ["Classes and objects", "Only network firewalls", "Only Z-tests", "Only disk partitions"],
-          "answer": [0],
+          "choices": [
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "A style or model for designing and organizing programs",
+            "Classes and objects"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "C++ OOP relies on classes and objects as core building blocks.",
           "points": 1
         }
@@ -307,8 +468,15 @@
         {
           "type": "Single Choice",
           "prompt": "Why are constructors important in C++ classes?",
-          "choices": ["They initialize objects when they are created", "They always destroy the program", "They replace every variable", "They are used only for comments"],
-          "answer": [0],
+          "choices": [
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "A style or model for designing and organizing programs",
+            "They initialize objects when they are created"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "Constructors prepare object state.",
           "points": 1
         }
@@ -323,8 +491,15 @@
         {
           "type": "Single Choice",
           "prompt": "Which group contains core OOP ideas?",
-          "choices": ["Encapsulation, inheritance, and polymorphism", "Only encryption keys", "Only probability values", "Only file extensions"],
-          "answer": [0],
+          "choices": [
+            "Constructors and destructors",
+            "To organize repeated output logic into a reusable block",
+            "A style or model for designing and organizing programs",
+            "Encapsulation, inheritance, and polymorphism"
+          ],
+          "answer": [
+            3
+          ],
           "explanation": "These are standard OOP pillars used throughout C++ OOP references.",
           "points": 1
         }
@@ -339,16 +514,30 @@
         {
           "type": "Single Choice",
           "prompt": "في مشروع محول العملات، ما التحقق المطلوب؟",
-          "choices": ["التحقق من صحة القيم المدخلة وأنها رقمية", "قبول أي نص كقيمة مالية", "منع عرض رسالة خطأ", "حذف كل العملات"],
-          "answer": [0],
+          "choices": [
+            "لتمثيل بيع عنصر وزيادة عداد المبيعات",
+            "التحقق من صحة القيم المدخلة وأنها رقمية",
+            "إدارة بيانات الحسابات وعملياتها الأساسية",
+            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف"
+          ],
+          "answer": [
+            1
+          ],
           "explanation": "وصف المشروع يطلب التأكد من صحة البيانات المدخلة.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "ما المطلوب من نظام إدارة سجلات بنكية؟",
-          "choices": ["إدارة بيانات الحسابات وعملياتها الأساسية", "إلغاء كل الحسابات", "رسم صور فقط", "تغيير لون الشاشة فقط"],
-          "answer": [0],
+          "choices": [
+            "إدارة بيانات الحسابات وعملياتها الأساسية",
+            "التحقق من صحة القيم المدخلة وأنها رقمية",
+            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+            "لتمثيل بيع عنصر وزيادة عداد المبيعات"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "مشاريع OOP تتطلب تمثيل كيانات وعمليات مناسبة.",
           "points": 1
         }
@@ -363,8 +552,15 @@
         {
           "type": "Single Choice",
           "prompt": "ما الفكرة الأساسية في البرمجة الشيئية؟",
-          "choices": ["تنظيم البرنامج حول كائنات تجمع البيانات والعمليات", "كتابة كل شيء في دالة واحدة", "منع استخدام الأصناف", "إلغاء إعادة الاستخدام"],
-          "answer": [0],
+          "choices": [
+            "تنظيم البرنامج حول كائنات تجمع البيانات والعمليات",
+            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+            "لتمثيل بيع عنصر وزيادة عداد المبيعات",
+            "التحقق من صحة القيم المدخلة وأنها رقمية"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "البرمجة الشيئية تقوم على الكائنات والأصناف وتجميع البيانات مع السلوك.",
           "points": 1
         }
@@ -379,8 +575,15 @@
         {
           "type": "Single Choice",
           "prompt": "لماذا تصلح مشاريع مثل ATM أو Bank Account لتطبيق OOP؟",
-          "choices": ["لأنها تحتوي كيانات وبيانات وعمليات يمكن تمثيلها بأصناف وكائنات", "لأنها لا تحتاج إلى أي بيانات", "لأنها تمنع الدوال", "لأنها لا تحتوي عمليات"],
-          "answer": [0],
+          "choices": [
+            "لأنها تحتوي كيانات وبيانات وعمليات يمكن تمثيلها بأصناف وكائنات",
+            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
+            "لتمثيل بيع عنصر وزيادة عداد المبيعات",
+            "التحقق من صحة القيم المدخلة وأنها رقمية"
+          ],
+          "answer": [
+            0
+          ],
           "explanation": "مشاريع OOP الجيدة تحتوي كائنات واضحة مثل حساب أو بطاقة أو طالب.",
           "points": 1
         }
