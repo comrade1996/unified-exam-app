@@ -3,7 +3,6 @@ const storageKey = "unified-exam-progress-v1";
 
 const state = {
   subjectId: data.subjects[0]?.id || "",
-  bankId: "all",
   search: "",
   examId: null,
   submitted: false,
@@ -12,7 +11,6 @@ const state = {
 
 const els = {
   subjectSelect: document.getElementById("subjectSelect"),
-  bankSelect: document.getElementById("bankSelect"),
   resetBtn: document.getElementById("resetBtn"),
   subjectTitle: document.getElementById("subjectTitle"),
   subjectDescription: document.getElementById("subjectDescription"),
@@ -55,10 +53,9 @@ function filteredExams() {
   const subject = currentSubject();
   const search = state.search.trim().toLowerCase();
   return subject.exams.filter(exam => {
-    const bankOk = state.bankId === "all" || exam.bankId === state.bankId;
     const text = `${exam.title} ${exam.kind} ${exam.bankTitle}`.toLowerCase();
     const searchOk = !search || text.includes(search);
-    return bankOk && searchOk;
+    return searchOk;
   });
 }
 
@@ -67,19 +64,6 @@ function renderSelectors() {
     return `<option value="${escapeAttr(subject.id)}">${escapeHtml(subject.title)}</option>`;
   }).join("");
   els.subjectSelect.value = state.subjectId;
-  renderBankSelector();
-}
-
-function renderBankSelector() {
-  const subject = currentSubject();
-  const options = [{ id: "all", title: "All banks" }, ...subject.banks];
-  els.bankSelect.innerHTML = options.map(bank => {
-    return `<option value="${escapeAttr(bank.id)}">${escapeHtml(bank.title)}</option>`;
-  }).join("");
-  if (!options.some(bank => bank.id === state.bankId)) {
-    state.bankId = "all";
-  }
-  els.bankSelect.value = state.bankId;
 }
 
 function renderSubject() {
@@ -209,7 +193,6 @@ function escapeAttr(value) {
 }
 
 function renderAll() {
-  renderBankSelector();
   renderSubject();
   renderExamList();
   renderExam();
@@ -217,16 +200,9 @@ function renderAll() {
 
 els.subjectSelect.addEventListener("change", event => {
   state.subjectId = event.target.value;
-  state.bankId = "all";
   state.examId = null;
   els.searchBox.value = "";
   state.search = "";
-  renderAll();
-});
-
-els.bankSelect.addEventListener("change", event => {
-  state.bankId = event.target.value;
-  state.examId = null;
   renderAll();
 });
 
