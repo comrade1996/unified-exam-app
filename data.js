@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-21T13:29:43.259Z",
+  "generatedAt": "2026-06-21T13:37:38.087Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -3590,81 +3590,865 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What is a multiprocessor system?",
+              "prompt": "Why did computer systems move toward multiprocessor and distributed designs?",
               "choices": [
-                "A system that cannot run parallel work",
-                "A system used only for printing",
-                "A system with multiple CPUs sharing memory",
-                "A system with one CPU and no memory"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "Multiprocessors contain multiple processors, often sharing a common memory space.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What is a multicomputer system?",
-              "choices": [
-                "A disk scheduling method",
-                "Multiple computers connected by a network, usually with separate memories",
-                "One CPU with several registers",
-                "A single process with many threads only"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "Multicomputers communicate by messages because memory is not shared in the same way.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Why is synchronization harder in distributed systems?",
-              "choices": [
-                "There is no single global clock and communication has delays",
-                "Every process shares the same register",
-                "All nodes execute one instruction at a time",
-                "Messages always arrive instantly"
+                "Single faster CPUs hit heat and physical limits while demand for computing cycles kept growing.",
+                "Users wanted fewer computing cycles for scientific workloads.",
+                "Cooling constraints disappeared on high-end systems.",
+                "All applications became single-threaded and smaller."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Distributed systems must handle latency, partial failure, and lack of global time.",
+              "explanation": "Parallelism lets systems solve large problems when one CPU is not enough.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does transparency mean in a distributed system?",
+              "prompt": "Which workload is a typical reason to use many CPUs at the same time?",
               "choices": [
-                "Making all files invisible",
-                "Showing every packet to the user",
-                "Disabling the network",
-                "Hiding distribution details from users or programs"
+                "Typing a short text file.",
+                "Weather prediction or drug-receptor modeling.",
+                "Changing a desktop wallpaper.",
+                "Renaming one local folder."
               ],
               "answer": [
-                3
+                1
               ],
-              "explanation": "Transparency makes a distributed system appear simpler or more unified than it is.",
+              "explanation": "Long scientific computations benefit from many CPUs.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which issue is a classic distributed-system failure problem?",
+              "prompt": "What is a shared-memory multiprocessor?",
               "choices": [
-                "No node can ever crash",
-                "Every message is guaranteed before it is sent",
-                "Partial failure of one node while others continue",
-                "All components always fail together"
+                "A system where every CPU has only private RAM and sends messages.",
+                "A wide-area web service with no shared hardware.",
+                "A system where all CPUs share access to common RAM.",
+                "A single CPU with no cache."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Partial failures make distributed systems harder than centralized systems.",
+              "explanation": "Shared-memory systems let CPUs address the same memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a message-passing multicomputer?",
+              "choices": [
+                "All CPUs read one common RAM at uniform speed.",
+                "A single processor runs all processes sequentially.",
+                "A file system stores every process message on disk only.",
+                "CPUs have local memory and communicate through high-speed interconnects."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Multicomputers do not share physical memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What defines a wide-area distributed system?",
+              "choices": [
+                "Complete computers connected over a wide-area network such as the Internet.",
+                "Many cores on a single chip only.",
+                "One CPU with multiple hardware threads.",
+                "A single bus-based UMA machine."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Wide-area distributed systems are loosely connected complete systems.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Uniform Memory Access?",
+              "choices": [
+                "Local memory is always faster than remote memory.",
+                "Every memory word can be read as fast as any other.",
+                "Memory is accessed only through network packets.",
+                "Each process has no address space."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "UMA gives equal memory access time to all memory locations.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does a bus-based UMA design stop scaling well?",
+              "choices": [
+                "It requires no communication between CPUs.",
+                "Each CPU has private RAM only.",
+                "Many CPUs contend for the same bus.",
+                "It has no shared memory."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "A single bus becomes a bottleneck as CPU count grows.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How do CPU caches improve UMA systems?",
+              "choices": [
+                "They force every read to use the bus twice.",
+                "They remove all memory consistency concerns.",
+                "They make RAM slower than disk.",
+                "They satisfy many reads locally without using the shared bus."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Local cache hits reduce bus traffic.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a cache line?",
+              "choices": [
+                "A block of data fetched into cache, often 32 or 64 bytes.",
+                "A process scheduling queue.",
+                "A network routing path.",
+                "A disk partition table."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Caches move data in blocks rather than one byte at a time.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the advantage of a crossbar switch in UMA hardware?",
+              "choices": [
+                "It uses one shared bus for all traffic.",
+                "It allows multiple simultaneous CPU-memory connections without blocking.",
+                "It eliminates the need for memory modules.",
+                "It works only for one CPU."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Crossbars increase parallel memory access.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are crossbar switches impractical for very large systems?",
+              "choices": [
+                "They cannot connect CPUs to memory.",
+                "They always use fewer switches than multistage networks.",
+                "The number of crosspoints grows rapidly with CPU and memory count.",
+                "They require no hardware."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Crossbar cost and complexity grow too fast.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an Omega or multistage switching network built from?",
+              "choices": [
+                "One huge nonblocking crossbar only.",
+                "A linked list of disk blocks.",
+                "Only wireless network cards.",
+                "Small 2x2 switches arranged in stages."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Multistage networks reduce switch complexity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What distinguishes NUMA from UMA?",
+              "choices": [
+                "Local memory is faster than remote memory.",
+                "All memory is always equally fast.",
+                "There is no address space.",
+                "CPUs communicate only through files."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "NUMA memory is physically distributed.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How is NUMA memory commonly allocated in the lecture example?",
+              "choices": [
+                "Every byte is randomly moved every instruction.",
+                "Address ranges are statically assigned to nodes.",
+                "No CPU owns any local memory.",
+                "All memory lives in one cache line."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Static address ranges can map to different NUMA nodes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a multicore chip?",
+              "choices": [
+                "A cluster of complete computers over the Internet.",
+                "A disk controller with no CPU cores.",
+                "A small multiprocessor on one chip, often with shared cache.",
+                "A software-only thread library."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Multicore puts multiple CPU cores on one chip.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a manycore chip?",
+              "choices": [
+                "A single-core CPU with a larger fan.",
+                "A bus that connects two CPUs.",
+                "A file system with many directories.",
+                "A chip with hundreds or thousands of cores."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Manycore designs provide massive on-chip parallelism.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the GPU execution model described in the lecture?",
+              "choices": [
+                "SIMD-style execution using thousands of small cores for data-intensive tasks.",
+                "One large core executing one instruction stream only.",
+                "A disk scheduler for file systems.",
+                "A distributed shared memory protocol."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "GPUs run the same operation over lots of data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does hyper-threading replicate inside one core?",
+              "choices": [
+                "All physical memory banks.",
+                "Control logic so one core can hold multiple hardware thread states.",
+                "The entire operating system per user.",
+                "A disk block table."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Simultaneous multithreading exposes hardware threads as CPUs to the OS.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What was the “each CPU has its own OS” multiprocessor approach?",
+              "choices": [
+                "One leader CPU handled every system call.",
+                "All CPUs executed one kernel with fine-grained locks.",
+                "Each CPU had private OS data structures while sharing code.",
+                "CPUs communicated only with RPC."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Early ports used separate OS state per CPU for simplicity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the leader-follower multiprocessor model?",
+              "choices": [
+                "Every CPU independently runs a full unrelated OS.",
+                "All CPUs share the kernel equally with no leader.",
+                "Only the GPU handles system calls.",
+                "One leader handles OS tasks while follower CPUs run user processes."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The leader coordinates OS work and process assignment.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does leader-follower become a bottleneck?",
+              "choices": [
+                "The leader CPU must handle all OS tasks as CPU count grows.",
+                "Followers handle too many system calls independently.",
+                "There is no shared memory.",
+                "All CPUs stop running user processes."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Centralizing OS work limits scalability.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the key idea of symmetric multiprocessing?",
+              "choices": [
+                "Each CPU has a separate OS copy only.",
+                "One OS copy is in memory and any CPU can run kernel code.",
+                "One CPU is permanently the only kernel CPU.",
+                "All communication uses wide-area messages."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "SMP treats CPUs more equally.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What was the big kernel lock?",
+              "choices": [
+                "A hardware crossbar switch.",
+                "A GPU cache line.",
+                "A single mutex protecting the whole kernel as one critical region.",
+                "A distributed file lock only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The big kernel lock simplified synchronization but limited parallelism.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is disabling interrupts insufficient for multiprocessor synchronization?",
+              "choices": [
+                "It disables every CPU in the system automatically.",
+                "It prevents all cache coherence issues forever.",
+                "It replaces atomic instructions.",
+                "It affects only the local CPU; other CPUs can still access shared data."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Multiprocessors need inter-CPU synchronization.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are atomic instructions such as TSL needed?",
+              "choices": [
+                "They lock or atomically update shared state so multiple CPUs cannot acquire the same lock.",
+                "They make all memory access uniform.",
+                "They send RPC parameters.",
+                "They allocate disk blocks."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Atomic primitives protect shared data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can TSL cause cache thrashing?",
+              "choices": [
+                "It never touches caches.",
+                "Lock cache lines may bounce between CPUs due to snooping and repeated writes.",
+                "It stores all data on disk.",
+                "It disables all CPU caches permanently."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Busy lock variables can move between caches constantly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is spinning?",
+              "choices": [
+                "Saving and restoring a full process context.",
+                "Sending a network packet through every switch.",
+                "Polling a lock repeatedly while waiting.",
+                "Moving a page to remote RAM."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Spinning wastes CPU cycles if the lock is not soon released.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When can switching be more wasteful than spinning?",
+              "choices": [
+                "When the blocked thread never needs CPU again.",
+                "When there are no ready processes.",
+                "When all locks are remote files.",
+                "When the lock will be released very soon and context switching clears state and caches."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Switching has overhead too.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What problem occurs if a thread holding a spin lock loses its quantum?",
+              "choices": [
+                "Other CPUs may waste their time slices spinning for that lock.",
+                "The lock is automatically released by hardware.",
+                "Every CPU gains more cache locality.",
+                "The system stops needing synchronization."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A preempted lock holder can stall other CPUs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is centralized time-sharing scheduling on multiprocessors?",
+              "choices": [
+                "Each process gets a fixed group of CPUs forever.",
+                "One system-wide ready queue is shared by all CPUs.",
+                "All related threads run simultaneously as a gang.",
+                "Each CPU has no scheduler."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "A central queue balances load but can become contended.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is space sharing?",
+              "choices": [
+                "Using one central ready queue for every CPU.",
+                "Moving memory pages over a network.",
+                "Partitioning CPUs into groups dedicated to a process’s threads.",
+                "Storing files contiguously."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Space sharing gives a job a set of CPUs at once.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the benefit of space sharing?",
+              "choices": [
+                "It always maximizes CPU sharing between unrelated jobs.",
+                "It removes the need for multiple CPUs.",
+                "It replaces synchronization with disk I/O.",
+                "It reduces context switching and multiprogramming overhead for parallel jobs."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Dedicated CPU groups can improve parallel job execution.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What problem does gang scheduling solve?",
+              "choices": [
+                "Related communicating threads are scheduled together instead of out of phase.",
+                "It prevents any thread from communicating.",
+                "It schedules only one thread of a process.",
+                "It removes all network interfaces."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Gang scheduling helps parallel threads interact promptly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a multicomputer?",
+              "choices": [
+                "A UMA system with one common RAM.",
+                "Tightly coupled CPUs that do not share memory.",
+                "One CPU with hyper-threading only.",
+                "A single disk with many files."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Multicomputers use message passing across nodes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which topologies are named for multicomputer interconnects?",
+              "choices": [
+                "Only bus and FAT.",
+                "Only inode and dentry.",
+                "Star, ring, grid, double torus, cube, and hypercube.",
+                "Only FIFO and LRU."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Topology defines node interconnection structure.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is store-and-forward switching?",
+              "choices": [
+                "A complete circuit is reserved before transmission.",
+                "The receiver steals work from overloaded nodes.",
+                "The CPU directly reads remote RAM.",
+                "Each switch buffers a packet before forwarding, so latency grows with hops."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Store-and-forward adds per-hop delay.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is circuit switching?",
+              "choices": [
+                "A path is established before bits flow through continuously.",
+                "Every switch stores the whole packet first.",
+                "All messages are copied through the kernel five times.",
+                "A page fault fetches remote memory."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Circuit switching reserves a communication path.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is data copying a network-interface bottleneck?",
+              "choices": [
+                "Network cards cannot use RAM.",
+                "Packets may be copied many times between user space, kernel, and interface hardware.",
+                "Every packet is already in the right user buffer.",
+                "Copying always improves latency."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Extra memory copies cost time.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How can mapping an interface board into user space help?",
+              "choices": [
+                "It increases the number of required copies.",
+                "It prevents applications from sending data.",
+                "It can bypass kernel copies for faster communication.",
+                "It makes every packet go through disk."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "User-level access can reduce data movement overhead.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does RDMA allow?",
+              "choices": [
+                "A CPU disables interrupts on all other CPUs.",
+                "A file system journals metadata.",
+                "A process reads only local disk.",
+                "One computer directly accesses application memory on another computer."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "RDMA reduces latency by bypassing OS involvement.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is blocking send?",
+              "choices": [
+                "The sender waits until the message is physically sent.",
+                "The sender returns immediately no matter what.",
+                "The receiver must poll a spin lock.",
+                "The OS fetches a remote page."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Blocking send delays the sender until transfer progress is made.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is nonblocking send?",
+              "choices": [
+                "The sender waits for the receiver to finish processing.",
+                "The call returns quickly even though the message may still be buffered.",
+                "The message cannot enter the kernel.",
+                "The call deletes the message."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Nonblocking send improves overlap but needs buffering.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the goal of RPC?",
+              "choices": [
+                "Expose all network packets to the programmer.",
+                "Force every call to use shared memory.",
+                "Make remote communication look like a local procedure call.",
+                "Replace parameters with page faults."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "RPC hides message passing behind call syntax.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What do RPC stubs do?",
+              "choices": [
+                "Allocate CPUs to overloaded nodes.",
+                "Move DSM pages between machines only.",
+                "Manage cache lines in SMP locks.",
+                "Marshal and unmarshal parameters into messages."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Client and server stubs package call data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are pointers difficult in RPC?",
+              "choices": [
+                "Client and server have different address spaces, so a pointer value is meaningless remotely.",
+                "Pointers are always serializable by default.",
+                "RPC does not use parameters.",
+                "The server shares the exact same RAM."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Addresses do not refer to the same memory on another machine.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is distributed shared memory?",
+              "choices": [
+                "A file system where all files are contiguous.",
+                "A system where remote RAM is used to satisfy memory faults as if memory were shared.",
+                "A GPU SIMD execution model.",
+                "A single shared bus."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "DSM simulates shared memory over a network.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens when a DSM CPU touches a remote page?",
+              "choices": [
+                "It reads the page from local cache with no OS action.",
+                "The page is deleted permanently.",
+                "It traps to the OS, which fetches the page over the network.",
+                "The CPU becomes the leader CPU."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "DSM uses page faults to move data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is false sharing in DSM?",
+              "choices": [
+                "Two processes intentionally share one variable.",
+                "All pages are read-only.",
+                "The network interface avoids copying.",
+                "Unrelated variables on the same page cause the page to bounce between CPUs."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Page-level sharing can cause unnecessary movement.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the goal of processor allocation algorithms?",
+              "choices": [
+                "Choose nodes for processes to reduce communication cost and network traffic.",
+                "Always run all processes on one node.",
+                "Ignore communication patterns.",
+                "Only allocate disk blocks."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Good placement keeps communicating processes near each other.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does graph-theoretic processor allocation model the problem?",
+              "choices": [
+                "Memory pages are sorted by age.",
+                "Processes are vertices and communication costs are weighted arcs.",
+                "Files are grouped by extension.",
+                "Locks are arranged as a ring."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Graph weights represent communication intensity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is sender-initiated load balancing?",
+              "choices": [
+                "Idle nodes probe others to steal work.",
+                "All nodes stop sending probes under overload.",
+                "Overloaded nodes probe others to find lightly loaded nodes and migrate work.",
+                "Only one central leader assigns CPUs."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The sender is the overloaded node.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the weakness of sender-initiated load balancing?",
+              "choices": [
+                "It cannot migrate any process.",
+                "It probes only when the system is idle.",
+                "It requires shared memory.",
+                "It can create heavy probe traffic when the whole system is overloaded."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "When everyone is overloaded, probes often fail.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is receiver-initiated load balancing?",
+              "choices": [
+                "Idle or underloaded nodes probe others to steal work.",
+                "Overloaded nodes search for idle nodes.",
+                "The leader CPU handles every system call.",
+                "The VMM schedules VCPUs."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The receiver is the node seeking work.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is receiver-initiated load balancing stable under high load?",
+              "choices": [
+                "Every overloaded node probes continuously.",
+                "Few idle nodes exist, so probe traffic stays low when everyone is busy.",
+                "It disables work migration.",
+                "It requires all nodes to share RAM."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Receiver probing is naturally limited when load is high.",
               "fullExplanation": null,
               "points": 1
             }
@@ -3682,81 +4466,1185 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What is virtual memory used for?",
+              "prompt": "What is the ideal memory programmers want?",
               "choices": [
-                "Making CPU scheduling unnecessary",
-                "Giving each process the illusion of a large private address space",
-                "Removing the need for secondary storage",
-                "Forcing all processes to share one address"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "Virtual memory separates logical addresses from physical memory and supports isolation.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What is a page fault?",
-              "choices": [
-                "A referenced page is not currently in physical memory",
-                "A process exits normally",
-                "A printer becomes unavailable",
-                "A mutex is unlocked"
+                "Memory that is huge, fast, nonvolatile, and inexpensive.",
+                "Memory that is tiny, slow, volatile, and costly.",
+                "Only magnetic disk with no RAM.",
+                "Only CPU registers with no storage."
               ],
               "answer": [
                 0
               ],
-              "explanation": "A page fault triggers OS handling to bring the needed page into memory if valid.",
+              "explanation": "The lecture contrasts this ideal with real memory hierarchy.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does FIFO page replacement remove?",
+              "prompt": "Which order correctly follows the memory hierarchy from fastest to slowest?",
               "choices": [
-                "The page used farthest in the future",
-                "The page with the smallest file name",
-                "The page most recently loaded",
-                "The page that has been in memory the longest"
-              ],
-              "answer": [
-                3
-              ],
-              "explanation": "FIFO removes the oldest loaded page, regardless of future use.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Why is optimal page replacement not implementable in practice?",
-              "choices": [
-                "It ignores memory completely",
-                "It works only for printers",
-                "It requires knowing future references",
-                "It never produces page faults"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "Optimal replacement needs future knowledge, so it is mainly a benchmark.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What is the goal of a working set model?",
-              "choices": [
-                "Disable page tables",
-                "Keep the pages a process is actively using in memory",
-                "Give every process zero pages",
-                "Replace scheduling algorithms"
+                "Disk, RAM, cache, registers.",
+                "Registers, cache, RAM, SSD or disk.",
+                "RAM, disk, registers, cache.",
+                "Cache, disk, registers, RAM."
               ],
               "answer": [
                 1
               ],
-              "explanation": "The working set approximates the locality currently needed by a process.",
+              "explanation": "Registers are fastest and disks/SSDs are slower but cheaper.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the memory manager track?",
+              "choices": [
+                "Only network packet routes.",
+                "Only file names and extensions.",
+                "Which parts of memory are in use and which are free.",
+                "Only user passwords."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Tracking memory usage is a core memory manager function.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the memory manager allocate and deallocate?",
+              "choices": [
+                "Only CPU priorities.",
+                "Only directory entries.",
+                "Only RPC stubs.",
+                "Memory for processes as needed and when they finish."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "It manages process memory lifetime.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens with no memory abstraction?",
+              "choices": [
+                "Programs address physical memory directly.",
+                "Every process has a private virtual address space.",
+                "The MMU maps all addresses through pages.",
+                "The OS can always swap pages transparently."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Early/simple systems exposed physical memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is running multiple programs hard without memory abstraction?",
+              "choices": [
+                "Address conflicts are impossible.",
+                "One program can overwrite another program or the OS.",
+                "Every program is automatically isolated.",
+                "No program can access memory."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Physical addresses allow interference.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What were protection keys used for?",
+              "choices": [
+                "Choosing a page replacement algorithm.",
+                "Naming files by extension.",
+                "Restricting access to blocks of memory.",
+                "Routing network messages."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "IBM 360 used keys to protect memory blocks.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is static relocation?",
+              "choices": [
+                "Moving pages between RAM and disk on demand.",
+                "Scanning RAM for identical pages.",
+                "Pinning DMA pages.",
+                "Changing a program’s addresses as it is loaded into memory."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Static relocation adjusts addresses before execution.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is static relocation difficult?",
+              "choices": [
+                "The loader may not distinguish constants from actual addresses.",
+                "Programs have no addresses.",
+                "All constants must be page aligned.",
+                "The MMU handles all relocation automatically."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Relocating values that are not addresses is wrong.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an address space?",
+              "choices": [
+                "A list of file extensions.",
+                "The set of addresses a process can use, separated from physical RAM.",
+                "A disk block bitmap.",
+                "A CPU scheduling queue."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Address spaces abstract memory names from locations.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the purpose of base and limit registers?",
+              "choices": [
+                "Store file metadata.",
+                "Choose disk cylinders.",
+                "Translate and check process addresses dynamically.",
+                "Marshal RPC parameters."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Base plus limit gives each process a protected region.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the base register contain?",
+              "choices": [
+                "The length of the process.",
+                "The page replacement class.",
+                "The number of disk blocks.",
+                "The starting physical address of the process."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Generated addresses are added to the base.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the limit register contain?",
+              "choices": [
+                "The length or maximum valid range of the process.",
+                "The first disk sector of a file.",
+                "The current TLB mapping.",
+                "The number of free blocks."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Limit checking protects memory bounds.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is swapping?",
+              "choices": [
+                "Moving one cache line between CPUs.",
+                "Moving an entire process between RAM and disk/SSD.",
+                "Renaming a file without copying data.",
+                "Sending an RPC message."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Swapping frees RAM when total process demand exceeds capacity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What causes holes in memory with swapping?",
+              "choices": [
+                "Every process uses the same size forever.",
+                "Memory is never freed.",
+                "Processes are swapped in and out leaving separated free regions.",
+                "All memory is paged only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Variable process placement creates fragmentation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is memory compaction?",
+              "choices": [
+                "Pinning pages during DMA.",
+                "Hashing an inverted page table.",
+                "Copying a file system journal.",
+                "Moving processes to combine many small holes into one large hole."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Compaction reduces external fragmentation but is expensive.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does a bitmap track free memory?",
+              "choices": [
+                "One bit represents each allocation unit as free or occupied.",
+                "Each free segment is a linked-list node only.",
+                "Every page table entry stores a file name.",
+                "Every process has a private disk."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Bitmaps compactly track allocation units.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the bitmap unit-size trade-off?",
+              "choices": [
+                "Smaller units always waste more memory and smaller bitmaps.",
+                "Smaller units need larger bitmaps; larger units waste more memory.",
+                "Unit size has no effect.",
+                "Larger units remove internal fragmentation."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Unit size affects metadata size and internal fragmentation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does a linked list track free memory?",
+              "choices": [
+                "It uses one bit per block only.",
+                "It stores all memory inside the TLB.",
+                "It stores segments labeled hole or process with start, length, and next pointer.",
+                "It maps virtual pages to frames."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Linked lists represent memory as ordered segments.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What can happen when a process terminates in a linked-list memory manager?",
+              "choices": [
+                "All holes are deleted.",
+                "The process becomes a page table.",
+                "The TLB is flushed forever.",
+                "Adjacent holes may be merged."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Merging reduces fragmentation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is First Fit?",
+              "choices": [
+                "Scan from the start and take the first hole large enough.",
+                "Search the whole list for the smallest adequate hole.",
+                "Always take the largest hole.",
+                "Use separate lists for common sizes only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "First Fit is simple and fast.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Next Fit?",
+              "choices": [
+                "Always starts at the beginning.",
+                "Like First Fit but resumes searching from the previous stopping point.",
+                "Always picks the smallest hole.",
+                "Never scans the free list."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Next Fit often performs worse than First Fit.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Best Fit?",
+              "choices": [
+                "Take the first hole found.",
+                "Always allocate the largest hole.",
+                "Search the whole list for the smallest hole that is large enough.",
+                "Use only page tables."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Best Fit can leave tiny unusable holes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Quick Fit?",
+              "choices": [
+                "Search all holes for every request.",
+                "Never merge free holes.",
+                "Always move all processes downward.",
+                "Keep separate lists for common request sizes."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Quick Fit speeds allocation but complicates merging.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What problem does virtual memory solve?",
+              "choices": [
+                "Programs larger than physical memory can run by keeping only needed parts in RAM.",
+                "Programs must fit entirely in registers.",
+                "All processes must be swapped as wholes only.",
+                "No program can use disk."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Virtual memory overlays address space parts between RAM and storage.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a page?",
+              "choices": [
+                "A variable-length segment only.",
+                "A fixed-size unit of virtual address space.",
+                "A directory entry.",
+                "A CPU core."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Paging divides virtual memory into pages.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a page frame?",
+              "choices": [
+                "A file name extension.",
+                "A process credential.",
+                "A fixed-size unit of physical memory that holds a page.",
+                "A network packet."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Physical RAM is divided into frames.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the MMU do?",
+              "choices": [
+                "Stores file-system backups.",
+                "Chooses disk quotas.",
+                "Marshals RPC arguments.",
+                "Maps virtual addresses to physical addresses on the fly."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The MMU performs hardware address translation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens if a referenced page is absent from RAM?",
+              "choices": [
+                "The MMU causes a page fault so the OS can fetch the page.",
+                "The CPU ignores the access.",
+                "The file is renamed.",
+                "The process always continues without delay."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Page faults bring missing pages into memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How is a virtual address split in paging?",
+              "choices": [
+                "UID plus GID.",
+                "Page number plus offset within the page.",
+                "Directory plus extension.",
+                "Seek time plus latency."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The page number indexes mapping; offset is copied.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which page-fault step happens if the victim frame is dirty?",
+              "choices": [
+                "The OS deletes it without saving.",
+                "The MMU changes the file name.",
+                "The OS writes the evicted page back to disk.",
+                "The TLB becomes a file system."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Dirty pages must be saved before replacement.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which control bit says whether a page is in RAM?",
+              "choices": [
+                "Archive bit.",
+                "Setuid bit.",
+                "Cylinder bit.",
+                "Present/absent bit."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The present bit controls page-fault behavior.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the modified or dirty bit indicate?",
+              "choices": [
+                "The page has been written since it was loaded.",
+                "The page was never accessed.",
+                "The page is executable only.",
+                "The page is in a directory."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Dirty pages require write-back before eviction.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the referenced bit indicate?",
+              "choices": [
+                "The page is on magnetic tape.",
+                "The page has been used recently.",
+                "The page belongs to a file extension.",
+                "The page is a disk quota."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Referenced bits help replacement algorithms.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the TLB?",
+              "choices": [
+                "A file-system journal.",
+                "A memory compaction tool.",
+                "A small fast MMU cache for recent virtual-to-physical translations.",
+                "A disk quota table."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "TLB hits avoid page-table memory access.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a soft TLB miss?",
+              "choices": [
+                "The page is absent from RAM and must be fetched from disk.",
+                "The process has no address space.",
+                "The disk is out of free blocks.",
+                "The mapping is not in the TLB but the page is in memory."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Soft miss needs translation handling, not disk I/O.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a hard miss?",
+              "choices": [
+                "The referenced page itself is not in RAM.",
+                "Only the TLB entry is missing while page is present.",
+                "The file name is too long.",
+                "The directory is not hierarchical."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hard misses involve page faults and disk/storage access.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are multilevel page tables used?",
+              "choices": [
+                "To make every page table one flat array in RAM.",
+                "To avoid keeping huge contiguous page tables for massive address spaces.",
+                "To eliminate virtual memory.",
+                "To store disk quotas."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Only used parts of the hierarchy need memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an inverted page table?",
+              "choices": [
+                "A table with one entry per file name.",
+                "A page table stored upside down on disk.",
+                "A table with one entry per physical frame rather than per virtual page.",
+                "A linked list of free holes."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Inverted tables help with huge virtual address spaces.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why do inverted page tables need hashing?",
+              "choices": [
+                "To encrypt all pages.",
+                "To choose a disk block size.",
+                "To compute file extensions.",
+                "To find which virtual page is stored in a physical frame efficiently."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Lookup is no longer direct by virtual page number.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the optimal page replacement algorithm evict?",
+              "choices": [
+                "The page that will not be used for the longest time in the future.",
+                "The oldest loaded page always.",
+                "The most recently used page always.",
+                "A random dirty page only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Optimal is a benchmark because the future is unknowable.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is the optimal algorithm not implementable?",
+              "choices": [
+                "It uses too little memory.",
+                "The OS cannot predict future references exactly.",
+                "It requires no page table.",
+                "It always causes thrashing."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "It serves as a theoretical comparison.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which NRU class is best to evict first?",
+              "choices": [
+                "Class 3: referenced and modified.",
+                "Class 2: referenced and not modified.",
+                "Class 0: not referenced and not modified.",
+                "Any class equally."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "NRU chooses from the lowest-numbered nonempty class.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is FIFO page replacement?",
+              "choices": [
+                "Evict the page with nearest future use.",
+                "Evict the page with the highest counter.",
+                "Evict the newest page always.",
+                "Evict the oldest page in memory."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "FIFO is simple but can remove heavily used pages.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does Second Chance improve FIFO?",
+              "choices": [
+                "It checks the R bit and gives recently used old pages another chance.",
+                "It always evicts dirty pages first.",
+                "It predicts the future exactly.",
+                "It uses no queue."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Second Chance avoids immediately evicting referenced pages.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the Clock algorithm?",
+              "choices": [
+                "A page table with one entry per frame.",
+                "A circular-list version of Second Chance with a moving hand.",
+                "A disk scheduling method only.",
+                "A memory compaction routine."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Clock efficiently approximates Second Chance.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does LRU evict?",
+              "choices": [
+                "The page loaded most recently.",
+                "The page with the largest frame number.",
+                "The page unused for the longest time.",
+                "The first page in a disk file."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "LRU relies on locality.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is exact LRU expensive?",
+              "choices": [
+                "It needs no reference data.",
+                "It only uses one bit per process.",
+                "It cannot work with virtual memory.",
+                "It requires hardware or bookkeeping to track every memory reference order."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Precise recency tracking is costly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does NFU simulate page usage?",
+              "choices": [
+                "It adds the R bit to a software counter at each clock interrupt.",
+                "It shifts counters right and inserts R at the left.",
+                "It uses future knowledge.",
+                "It moves all pages to disk."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "NFU counts frequency, not true recentness.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does Aging improve on NFU?",
+              "choices": [
+                "It ignores all R bits.",
+                "It shifts counters and inserts the R bit to preserve recency information.",
+                "It always evicts modified pages.",
+                "It uses only FIFO order."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Aging approximates LRU better than plain NFU.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a working set?",
+              "choices": [
+                "All disk blocks in a file system.",
+                "All processes in a ready queue.",
+                "The set of pages a process is currently using.",
+                "All users in an ACL."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Working sets represent active memory needs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is thrashing?",
+              "choices": [
+                "The disk head moves in one direction only.",
+                "A process shares a library page.",
+                "A file is securely deleted.",
+                "The system spends most time handling page faults because working sets do not fit in RAM."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Too little memory causes excessive paging.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is prepaging?",
+              "choices": [
+                "Loading a process working set before letting it run.",
+                "Evicting all pages before execution.",
+                "Deleting the page table.",
+                "Scanning disk quotas."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Prepaging reduces immediate page faults.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does WSClock combine?",
+              "choices": [
+                "FIFO with disk quotas.",
+                "Clock replacement with working-set information.",
+                "Base-limit relocation with file names.",
+                "Segmentation with RPC."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "WSClock is practical and widely used.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is local page allocation?",
+              "choices": [
+                "Any page in memory may be evicted.",
+                "All processes share one fixed frame.",
+                "A faulting process may evict only its own pages.",
+                "The OS swaps all processes on every fault."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Local allocation isolates replacement decisions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is global page allocation?",
+              "choices": [
+                "A process can only evict its own pages.",
+                "Only pages from disk can be evicted.",
+                "No page replacement occurs.",
+                "A fault can select any page in memory as a victim."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Global allocation adapts to changing process needs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does page fault frequency control?",
+              "choices": [
+                "The number of frames assigned to a process based on its fault rate.",
+                "The number of file names in a directory.",
+                "The size of each disk block.",
+                "The CPU clock speed."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "PFF expands or shrinks allocations dynamically.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How can load control stop thrashing?",
+              "choices": [
+                "Add more page faults.",
+                "Swap some processes out entirely so remaining working sets fit in RAM.",
+                "Pin every page forever.",
+                "Disable all virtual memory."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Reducing multiprogramming can restore efficiency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is memory deduplication?",
+              "choices": [
+                "Deleting all duplicate file names.",
+                "Compressing every disk block.",
+                "Merging identical pages into one shared frame with copy-on-write.",
+                "Moving all pages to swap."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Same page merging saves RAM.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is copy-on-write?",
+              "choices": [
+                "All pages are copied immediately.",
+                "Pages can never be written.",
+                "The TLB writes every page to disk.",
+                "A shared page is copied only when a process tries to modify it."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "COW keeps sharing safe until modification.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an advantage of small pages?",
+              "choices": [
+                "Less internal fragmentation.",
+                "Smaller page tables always.",
+                "Better TLB coverage always.",
+                "Faster disk transfers always."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Small pages waste less space at segment ends.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an advantage of large pages?",
+              "choices": [
+                "More precise fitting with no waste.",
+                "Smaller page tables and better TLB coverage.",
+                "No internal fragmentation.",
+                "No need for disk transfers."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Large pages reduce mapping overhead.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are separate I-space and D-space?",
+              "choices": [
+                "Separate disks for input and output.",
+                "Separate users and groups.",
+                "Separate instruction/code and data address spaces.",
+                "Separate network interfaces only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "They can increase usable address space and cache design flexibility.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are shared libraries useful?",
+              "choices": [
+                "Every process stores a private duplicate of all libraries.",
+                "Libraries cannot be updated.",
+                "They remove virtual memory.",
+                "Processes share one copy of library code in RAM."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Sharing saves memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does shared library code need PIC?",
+              "choices": [
+                "It may be loaded at different virtual addresses in different processes.",
+                "It must use absolute addresses only.",
+                "It runs without any address space.",
+                "It is stored only in disk firmware."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Position-independent code avoids hard-coded addresses.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is page pinning?",
+              "choices": [
+                "Moving every page to disk.",
+                "Locking a page in memory so replacement cannot evict it during I/O.",
+                "Making a page smaller.",
+                "Deleting the page table."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "DMA pages must stay resident to avoid corruption.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a swap partition?",
+              "choices": [
+                "A memory cache inside the MMU.",
+                "A process address-space segment.",
+                "A dedicated disk area without a normal file system used for paging.",
+                "A directory entry for shared libraries."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Swap partitions provide fast backing store.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is dynamic backing store allocation?",
+              "choices": [
+                "All pages get disk space in advance.",
+                "Pages never need backing store.",
+                "Disk space is allocated by file extension.",
+                "Disk space for a page is allocated only when it is evicted."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Dynamic backing can save disk space.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is policy in memory management?",
+              "choices": [
+                "Decision logic choosing which pages to keep or evict.",
+                "Hardware trapping and mapping code only.",
+                "The physical page frame number.",
+                "The disk block size."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Policy decides behavior; mechanism implements primitive actions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is mechanism in memory management?",
+              "choices": [
+                "The strategy for which page is best.",
+                "Kernel/hardware support for mapping and trapping page faults.",
+                "A user-space pager decision.",
+                "A file extension convention."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Mechanism supplies the low-level capability.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is segmentation?",
+              "choices": [
+                "Fixed-size pages only.",
+                "One flat physical address space only.",
+                "Multiple independent variable-size address spaces called segments.",
+                "A disk quota method."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Segmentation is two-dimensional memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a benefit of segmentation?",
+              "choices": [
+                "It eliminates all external fragmentation.",
+                "It requires no memory management.",
+                "All segments must be the same size.",
+                "Segments can grow independently and support sharing/protection per segment."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Separate logical units such as stack and symbol table can be managed independently.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the main implementation problem with segmentation?",
+              "choices": [
+                "Variable-size segments create external fragmentation or checkerboarding.",
+                "Segments are always fixed pages.",
+                "Segments cannot be protected.",
+                "Segments prevent sharing."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Compaction may be needed to reclaim holes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How do modern systems often use segmentation?",
+              "choices": [
+                "Use segmentation with no paging ever.",
+                "Combine segmentation with paging.",
+                "Use only physical addresses.",
+                "Use segmentation only for disk files."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Systems such as MULTICS and x86 combine concepts.",
               "fullExplanation": null,
               "points": 1
             }
@@ -3774,65 +5662,1169 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What is a file system responsible for?",
+              "prompt": "What does the file abstraction hide?",
               "choices": [
-                "Organizing, naming, storing, and retrieving files",
-                "Only running CPU instructions",
-                "Only controlling semaphores",
-                "Replacing main memory"
+                "Physical storage details such as disk blocks and device behavior.",
+                "Process scheduling priorities only.",
+                "CPU register contents.",
+                "Network route costs only."
               ],
               "answer": [
                 0
               ],
-              "explanation": "The file system manages persistent data and metadata.",
+              "explanation": "Files let processes use persistent data without hardware details.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does a directory mainly provide?",
+              "prompt": "How do UNIX and Windows differ in filename case sensitivity?",
               "choices": [
-                "A CPU quantum",
-                "A page frame",
-                "A semaphore count",
-                "A mapping from names to files or subdirectories"
-              ],
-              "answer": [
-                3
-              ],
-              "explanation": "Directories organize names and allow hierarchical file lookup.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Why is caching used in file systems?",
-              "choices": [
-                "To remove all metadata",
-                "To replace synchronization",
-                "To reduce repeated disk access and improve performance",
-                "To make files impossible to find"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "Caching keeps frequently used blocks in memory.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What problem can journaling help with?",
-              "choices": [
-                "Changing process priorities",
-                "Recovering file-system consistency after a crash",
-                "Choosing a CPU scheduling quantum",
-                "Avoiding all user authentication"
+                "Windows is always case-sensitive and UNIX never is.",
+                "UNIX is generally case-sensitive; MS-DOS/Windows are generally not.",
+                "Both always ignore case.",
+                "Neither system names files."
               ],
               "answer": [
                 1
               ],
-              "explanation": "A journal records intended updates so recovery can repair incomplete operations.",
+              "explanation": "The lecture contrasts naming rules across systems.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How are file extensions treated differently by Windows and UNIX?",
+              "choices": [
+                "UNIX requires extensions for every executable.",
+                "Windows ignores extensions completely.",
+                "Windows uses extensions to choose programs; UNIX mostly treats them as conventions.",
+                "Extensions are only disk addresses."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Extensions can imply type or simply be naming conventions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a byte-sequence file model?",
+              "choices": [
+                "A tree of records sorted by key.",
+                "A sequence of fixed-length records only.",
+                "A directory with no data.",
+                "An unstructured stream of bytes where the OS does not care about content."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "UNIX and Windows commonly use byte streams.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a record-sequence file model?",
+              "choices": [
+                "A file made of fixed-length records.",
+                "A raw byte stream with no structure.",
+                "A global distributed tuple space.",
+                "A block bitmap."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Older mainframe systems often used records.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a tree file model?",
+              "choices": [
+                "Every file is one linked list of blocks.",
+                "Records are arranged in a sorted tree by key for fast search.",
+                "All bytes are unstructured.",
+                "A directory has no hierarchy."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Tree files support keyed lookup.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a regular file?",
+              "choices": [
+                "A system file used only for directory hierarchy.",
+                "A special file representing a device.",
+                "A file containing user information such as ASCII text or binary data.",
+                "A block allocation bitmap."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Regular files store ordinary user data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What do directories do?",
+              "choices": [
+                "Contain only raw video frames.",
+                "Execute CPU instructions directly.",
+                "Replace all file attributes.",
+                "Maintain the hierarchy and names of the file system."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Directories map names into file-system objects.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are special files used for?",
+              "choices": [
+                "Making I/O devices appear like files.",
+                "Storing only user text.",
+                "Scheduling CPU time.",
+                "Allocating virtual pages."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "UNIX-like systems expose devices through special files.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which special file models serial devices?",
+              "choices": [
+                "Block special file.",
+                "Character special file.",
+                "Regular ASCII file.",
+                "Tree file."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Terminals and printers are character-like devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which special file models randomly addressable devices?",
+              "choices": [
+                "Character special file.",
+                "Directory file only.",
+                "Block special file.",
+                "Symbolic path file."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Disks are block devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What distinguishes ASCII files?",
+              "choices": [
+                "They contain only executable headers.",
+                "They have no readable characters.",
+                "They are always device files.",
+                "They contain text lines that can be displayed or edited directly."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "ASCII files are human-readable text.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What distinguishes binary files?",
+              "choices": [
+                "They contain internal structures understood by programs.",
+                "They can always be edited safely as plain text.",
+                "They contain only directory names.",
+                "They cannot store executable data."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Binary formats may include headers and relocation data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is sequential access?",
+              "choices": [
+                "Reading any byte by seeking directly.",
+                "Reading data in order from the beginning.",
+                "Reading only file metadata.",
+                "Reading only directory names."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Tapes are a classic sequential medium.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is random access important?",
+              "choices": [
+                "It forces all reads from the beginning.",
+                "It prevents seeking.",
+                "Applications such as databases need to read records in arbitrary order.",
+                "It works only on tapes."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Direct access enables efficient lookup.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are file attributes?",
+              "choices": [
+                "Only file contents.",
+                "Only disk head movement.",
+                "Only CPU scheduling state.",
+                "Metadata such as owner, size, creation time, and protection bits."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Attributes describe a file beyond its data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does an archive bit or hidden flag represent?",
+              "choices": [
+                "A file property flag stored as metadata.",
+                "A physical sector address.",
+                "A process state.",
+                "A network packet type."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Flags control file properties.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does seek do?",
+              "choices": [
+                "Deletes a file.",
+                "Moves the file pointer to a specified position.",
+                "Creates a directory hierarchy.",
+                "Changes a file name only."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Seek enables random access.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does rename do?",
+              "choices": [
+                "Copies all blocks to a new disk.",
+                "Deletes file metadata.",
+                "Changes a file name without copying the file data.",
+                "Changes the disk block size."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Rename updates names, not contents.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a single-level directory system?",
+              "choices": [
+                "A tree of subdirectories.",
+                "A distributed global namespace only.",
+                "A file allocation table.",
+                "One directory contains all files."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "It is simple but poor for many users/files.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a hierarchical directory system?",
+              "choices": [
+                "A tree allowing files to be grouped into subdirectories.",
+                "One flat directory for the whole system.",
+                "A sequence of fixed-length records.",
+                "A disk journal."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hierarchy organizes files and users.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an absolute path?",
+              "choices": [
+                "A path interpreted relative to the current directory.",
+                "A path traced from the root directory.",
+                "A file extension only.",
+                "A disk block address."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Absolute paths start at root.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a relative path?",
+              "choices": [
+                "A path that always begins at root.",
+                "A file type convention.",
+                "A path interpreted from the current working directory.",
+                "A partition table entry."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Relative paths depend on current location.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What do dot and dotdot mean?",
+              "choices": [
+                "Dot is root and dotdot is a file extension.",
+                "Both mean the same file.",
+                "They are disk block states.",
+                "Dot is current directory; dotdot is parent directory."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "These special entries help navigate directories.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are users usually forbidden to write directory files directly?",
+              "choices": [
+                "To preserve file-system integrity.",
+                "To stop them from reading regular files.",
+                "To force all paths to be absolute.",
+                "To prevent random access."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Directory structure must be updated safely by the OS.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the MBR used for on older BIOS systems?",
+              "choices": [
+                "It stores every file attribute.",
+                "It contains the partition table and boot code for the active partition.",
+                "It tracks free memory pages.",
+                "It logs all file operations."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "MBR is part of older disk boot layout.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What modern layout replaced MBR for large disks?",
+              "choices": [
+                "FAT with linked lists only.",
+                "A single-level directory.",
+                "UEFI with GPT.",
+                "DSM pages."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "GPT supports very large disks and modern booting.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is contiguous file allocation?",
+              "choices": [
+                "Store a pointer inside every block.",
+                "Store every block address in an i-node only.",
+                "Store all data in a tuple space.",
+                "Store each file as one continuous run of disk blocks."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Contiguous allocation is simple and fast for sequential reads.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the main problem with contiguous allocation?",
+              "choices": [
+                "External fragmentation and difficult file growth.",
+                "No read performance benefit.",
+                "It requires all files to be in memory.",
+                "It cannot store small files."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Files need contiguous free runs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is linked-list file allocation?",
+              "choices": [
+                "All blocks must be adjacent.",
+                "Each block points to the next block of the file.",
+                "A single table keeps all pointers in memory.",
+                "The i-node stores all pointers."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Linked allocation avoids external fragmentation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the main disadvantage of linked-list allocation?",
+              "choices": [
+                "Sequential access is impossible.",
+                "No block can contain data.",
+                "Random access is very slow.",
+                "It requires contiguous free space."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "To reach block n, previous links must be followed.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does FAT improve over simple linked-list allocation?",
+              "choices": [
+                "It removes all memory use.",
+                "It stores pointers inside each data block only.",
+                "It requires no table.",
+                "Pointers are kept in an in-memory table, allowing faster random access and full data blocks."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "FAT centralizes block chain pointers.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a FAT scalability problem?",
+              "choices": [
+                "The entire table must be kept in memory for large disks.",
+                "It cannot support sequential access.",
+                "It requires contiguous allocation.",
+                "It has no file names."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Large disks make FAT tables large.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an i-node?",
+              "choices": [
+                "A global list of free disk blocks only.",
+                "A structure containing file attributes and addresses of the file blocks.",
+                "A file extension used by Windows.",
+                "A network publish event."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "I-nodes describe files and locate their blocks.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why do i-nodes scale better than FAT?",
+              "choices": [
+                "The entire disk table must always be in RAM.",
+                "They require every block to be contiguous.",
+                "Only the i-node for an open file needs to be in memory.",
+                "They store no addresses."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "I-nodes avoid a huge global in-memory table.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How do i-nodes support large files?",
+              "choices": [
+                "By requiring contiguous allocation.",
+                "By storing all file data inside the directory entry.",
+                "By using only one block address.",
+                "Using direct and indirect block pointers."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Indirect pointers extend address capacity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What do directory entries map?",
+              "choices": [
+                "File names to information needed to locate file data, such as i-node numbers.",
+                "Page numbers to physical frames only.",
+                "CPU IDs to process IDs.",
+                "Network switches to packets."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Directories connect names to file objects.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a hard link?",
+              "choices": [
+                "A file that stores a pathname to another file.",
+                "Multiple directory entries point to the same i-node.",
+                "A compressed copy of a file.",
+                "A disk quota entry."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Hard links share one underlying file object and reference count.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a symbolic link?",
+              "choices": [
+                "A second directory entry pointing to the same i-node only.",
+                "A copy of all data blocks.",
+                "A file containing the pathname of another file.",
+                "A disk partition table."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Symbolic links can cross file-system boundaries.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What problem are log-structured file systems designed to reduce?",
+              "choices": [
+                "CPU scheduling latency only.",
+                "Password reuse.",
+                "TLB misses.",
+                "Disk seek bottlenecks by writing large contiguous segments."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "LFS treats the disk like a log for efficient writes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does journaling record?",
+              "choices": [
+                "Planned file-system operations so crash recovery can finish or undo them.",
+                "Only user passwords.",
+                "Only CPU cache lines.",
+                "Only network topology."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Journals avoid slow full consistency checks.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why do SSD file systems need special handling?",
+              "choices": [
+                "SSDs have large moving heads.",
+                "NAND flash has erase/write behavior and needs logical-to-physical mapping and cleaning.",
+                "SSDs can only read sequentially.",
+                "SSDs use no blocks."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Flash translation and TRIM-like support matter.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does VFS provide?",
+              "choices": [
+                "A single physical disk format only.",
+                "A process scheduler.",
+                "A uniform interface over different local and remote file systems.",
+                "A memory replacement policy."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "VFS hides file-system differences.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the block-size trade-off?",
+              "choices": [
+                "Large blocks always save space and improve speed.",
+                "Small blocks always improve throughput.",
+                "Block size has no effect.",
+                "Large blocks improve throughput but waste space; small blocks save space but reduce performance."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Block size balances internal fragmentation and I/O efficiency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How can free blocks be tracked?",
+              "choices": [
+                "Linked lists of free block numbers or bitmaps.",
+                "Only file extensions.",
+                "Only process credentials.",
+                "Only RPC stubs."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Free-space management tracks available disk blocks.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When are bitmaps generally more space-efficient?",
+              "choices": [
+                "Only when every block is allocated.",
+                "Except when the disk is nearly full.",
+                "Never; linked lists are always smaller.",
+                "Only for memory, not disks."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Bitmaps compactly represent free/used blocks.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a disk quota?",
+              "choices": [
+                "A page replacement algorithm.",
+                "A type of symbolic link.",
+                "A limit on disk space and number of files a user may consume.",
+                "A network topology."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Quotas control user storage consumption.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a soft quota limit?",
+              "choices": [
+                "A limit that immediately prevents all allocation.",
+                "A block size selected by the disk.",
+                "A symbolic link target.",
+                "A warning threshold before strict enforcement."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Soft limits warn users.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a hard quota limit?",
+              "choices": [
+                "A strict limit that prevents further allocation.",
+                "A warning only.",
+                "A backup type.",
+                "A metadata cache."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hard limits enforce storage caps.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a physical dump backup?",
+              "choices": [
+                "Recursively copying changed files.",
+                "Copying disk blocks in order.",
+                "Copying only directory names.",
+                "Copying only open files."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Physical dumps operate below file structure.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a logical backup?",
+              "choices": [
+                "Copying every disk block regardless of file structure.",
+                "Copying only free blocks.",
+                "Recursively copying changed files and directories from a chosen point.",
+                "Writing a journal transaction."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Logical backups follow file-system structure.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What can file-system consistency tools detect?",
+              "choices": [
+                "CPU overheating.",
+                "Branch prediction errors.",
+                "GPU memory fragmentation.",
+                "Blocks marked both free and in use or directory inconsistencies."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Crashes can leave inconsistent metadata.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the buffer cache?",
+              "choices": [
+                "RAM cache for heavily used disk blocks.",
+                "A list of user passwords.",
+                "A CPU ready queue.",
+                "A distributed tuple space."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Caching avoids slow disk accesses.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is block read ahead?",
+              "choices": [
+                "Writing all blocks twice.",
+                "Prefetching the next block during sequential reading.",
+                "Reading only backwards.",
+                "Deleting unused blocks."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Read ahead improves sequential hit rate.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How can disk-arm motion be reduced?",
+              "choices": [
+                "Scatter every block randomly.",
+                "Disable all caching.",
+                "Place related i-nodes and data blocks close together.",
+                "Use only symbolic links."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Physical locality reduces seek time.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is defragmentation useful for magnetic disks?",
+              "choices": [
+                "It improves SSDs without wear cost.",
+                "It encrypts data.",
+                "It replaces journaling.",
+                "It makes files more contiguous and groups free space."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Magnetic disks benefit from reduced seeking.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is defragmentation less appropriate for SSDs?",
+              "choices": [
+                "It increases wear without similar seek-time benefit.",
+                "SSDs have larger disk arms.",
+                "SSDs cannot do random access.",
+                "SSDs require contiguous files."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "SSDs have no mechanical seek delay.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is file compression?",
+              "choices": [
+                "Finding identical blocks and sharing one frame only.",
+                "Reducing the storage footprint of individual files.",
+                "Deleting files securely.",
+                "Mapping local files to remote handlers."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Compression stores less data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is deduplication?",
+              "choices": [
+                "Encrypting raw disk blocks.",
+                "Renaming files without copying.",
+                "Finding identical blocks/pages and pointing multiple logical copies to one physical copy with copy-on-write.",
+                "Reading the next block early."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Deduplication saves storage or memory for duplicates.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is simple deletion not secure?",
+              "choices": [
+                "It always overwrites every block randomly.",
+                "It encrypts the disk automatically.",
+                "It physically destroys the drive.",
+                "Data may remain on disk until overwritten."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Deleting metadata does not erase old contents.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What protects data if a drive is stolen?",
+              "choices": [
+                "Encrypting raw blocks.",
+                "Renaming every file.",
+                "Using a single-level directory.",
+                "Making filenames longer."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Encryption keeps physical media unreadable without keys.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What file allocation structure does MS-DOS rely on?",
+              "choices": [
+                "UNIX i-nodes only.",
+                "A File Allocation Table in memory.",
+                "A log-structured segment cleaner.",
+                "A tuple space."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "MS-DOS FAT tracks block chains.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does UNIX V7 use for file block addressing?",
+              "choices": [
+                "A global FAT only.",
+                "Only contiguous allocation.",
+                "I-nodes with direct and multiple indirect block pointers.",
+                "Only symbolic links."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "UNIX V7 uses i-node addressing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is middleware in a distributed system?",
+              "choices": [
+                "A physical disk sector.",
+                "A CPU cache line.",
+                "A single-level directory.",
+                "Software that provides a uniform paradigm across heterogeneous platforms."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Middleware hides differences between systems.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the Web paradigm in document-based middleware?",
+              "choices": [
+                "A directed graph of documents connected by hyperlinks.",
+                "A single global disk block table.",
+                "A central CPU ready queue.",
+                "A bitmap of free memory."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The web connects documents by URLs and links.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does file-system-based middleware try to provide?",
+              "choices": [
+                "Only local disk blocks with no networking.",
+                "A single global file-system view for distributed users.",
+                "Only message queues with no files.",
+                "Only CPU scheduling."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Distributed files can make remote data look local.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does NFS-style middleware commonly communicate?",
+              "choices": [
+                "Every process shares physical RAM.",
+                "All communication is via CPU interrupts only.",
+                "Processes write data into files and others read it back through a remote file interface.",
+                "No authorization is possible."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "File-system middleware uses file operations as communication.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Linda tuple space?",
+              "choices": [
+                "A disk partition table.",
+                "A FAT directory entry.",
+                "A CPU cache hierarchy.",
+                "A global abstract memory of tuples accessed with out, in, and read operations."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Linda coordinates through tuples.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does out do in Linda?",
+              "choices": [
+                "Places a tuple into tuple space.",
+                "Removes a matching tuple.",
+                "Copies a matching tuple without removing it.",
+                "Deletes a disk block."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "out publishes a tuple.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does in do in Linda?",
+              "choices": [
+                "Copies a tuple without removing it.",
+                "Removes a matching tuple from tuple space.",
+                "Creates a file extension.",
+                "Allocates a disk quota."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "in consumes a tuple.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does read do in Linda?",
+              "choices": [
+                "Removes the tuple permanently.",
+                "Writes a disk journal.",
+                "Copies a matching tuple without removing it.",
+                "Deletes a directory."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "read observes tuple data non-destructively.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the publish/subscribe model?",
+              "choices": [
+                "Every receiver reads every message manually.",
+                "All communication uses direct shared memory.",
+                "Only one process can publish.",
+                "Producers publish information and consumers subscribe only to topics they need."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Pub/sub decouples producers and consumers.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does a tuple daemon do in the lecture example?",
+              "choices": [
+                "Monitors published tuples and forwards copies to interested processes.",
+                "Allocates contiguous disk blocks.",
+                "Chooses page replacement victims.",
+                "Maps virtual addresses."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A daemon can implement subscription delivery.",
               "fullExplanation": null,
               "points": 1
             }
@@ -12911,7 +15903,7 @@ window.UNIFIED_EXAM_DATA = {
           ]
         }
       ],
-      "questionCount": 587,
+      "questionCount": 774,
       "examCount": 21
     }
   ]
