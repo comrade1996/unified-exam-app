@@ -674,62 +674,662 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is an embedded system?",
+          "prompt": "Which definition best matches an embedded system?",
           "choices": [
-            "Electronics and software inside a product with a specific function",
-            "A general-purpose desktop workstation only",
-            "A file-system directory",
-            "A database record"
+            "Electronics and software inside a product to perform a specific function",
+            "A general-purpose desktop designed mainly for many unrelated user tasks",
+            "A cloud platform that only rents virtual machines",
+            "A compiler feature that converts source code to assembly"
           ],
           "answer": [
             0
           ],
-          "explanation": "Embedded systems are built into devices to perform dedicated functions.",
+          "explanation": "An embedded system is computing hardware and software built into a product for a dedicated function.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Which components are central in embedded-system organization?",
+          "prompt": "In embedded-system organization, which pair represents external interaction with the environment?",
           "choices": [
-            "Only a cloud database",
-            "Only a browser tab",
-            "Only a text editor",
-            "Processor, memory, custom logic, sensors, and actuators"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "Embedded systems interact with the environment through sensors and actuators.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "Which requirement is especially important in embedded systems?",
-          "choices": [
-            "No reliability requirements",
-            "Always running a desktop OS",
-            "Efficiency in energy, code size, and execution time",
-            "Unlimited memory and power"
-          ],
-          "answer": [
-            2
-          ],
-          "explanation": "Embedded systems often have tight resource constraints.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "What is a microcontroller?",
-          "choices": [
-            "A cloud service model",
-            "A computer on a chip with processor, memory, and I/O logic",
-            "A CPU that always needs external RAM and ROM",
-            "A distributed file system"
+            "Only registers and cache lines",
+            "Sensors as input and actuators as output",
+            "User accounts and passwords",
+            "Hypervisors and guest VMs"
           ],
           "answer": [
             1
           ],
-          "explanation": "Microcontrollers integrate core components into one package.",
+          "explanation": "Sensors detect environmental input, and actuators perform output actions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are many embedded systems described as reactive?",
+          "choices": [
+            "They execute only after a human opens a desktop application",
+            "They never receive input from sensors",
+            "Their execution pace is often determined by events in the environment",
+            "They run only batch jobs with no external timing"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Reactive systems respond to outside events such as sensor changes or control signals.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which set of requirements is most typical for embedded systems?",
+          "choices": [
+            "Maximum graphics quality, unlimited RAM, and no time constraints",
+            "Only database throughput and user account management",
+            "Large desktop applications and frequent manual maintenance",
+            "Energy efficiency, small code size, limited memory, and high reliability"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Embedded systems usually have strict limits on power, memory, size, timing, and reliability.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the key difference between an application processor and a dedicated processor?",
+          "choices": [
+            "An application processor can run complex OSs, while a dedicated processor is specialized for a specific task",
+            "A dedicated processor always runs a full desktop operating system",
+            "An application processor has no memory access",
+            "A dedicated processor is used only for cloud storage"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Application processors are high-end and general within the device, while dedicated processors are optimized for special functions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement correctly distinguishes a microprocessor from a microcontroller?",
+          "choices": [
+            "A microprocessor always includes all RAM, ROM, and I/O on the same chip",
+            "A microcontroller integrates processor, memory, and I/O logic in one package",
+            "A microcontroller cannot execute software",
+            "A microprocessor is used only inside wireless sensors"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Microcontrollers integrate the processor, memory, and I/O logic in one package.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are microcontrollers produced in extremely large numbers?",
+          "choices": [
+            "They are useful only for laptop CPUs",
+            "They replace every network protocol",
+            "They provide low-cost, low-area, energy-efficient control for many products",
+            "They require a full human interface in every device"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Microcontrollers are cheap, small, and efficient, so they appear in cars, toys, appliances, and many other products.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which description best fits a deeply embedded system?",
+          "choices": [
+            "A desktop machine used for software development",
+            "A public cloud service sold to many customers",
+            "A database server with many human users",
+            "A single-purpose device that senses environmental data and performs basic processing"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Deeply embedded systems are often tiny, single-purpose, networked sensing or control devices.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which constraint is common in deeply embedded systems?",
+          "choices": [
+            "Limited RAM and strict power management needs",
+            "Unlimited battery capacity",
+            "A required desktop GUI",
+            "Mandatory large hard-disk storage"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Deeply embedded devices often run on batteries with limited memory and processing power.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which feature belongs to an embedded OS more than a general desktop OS?",
+          "choices": [
+            "Only support for unlimited user-installed applications",
+            "Direct use of interrupts and high configurability for a specific device",
+            "Mandatory paging even when hardware has no MMU",
+            "Ignoring external I/O timing"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Embedded OSs are often configurable, reactive, interrupt-driven, and tailored to device hardware.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why might a complex embedded product need an embedded OS instead of a simple loop?",
+          "choices": [
+            "To remove all task management",
+            "To make the device behave like a word processor",
+            "To manage multiple tasks, timing, interrupts, and device interactions",
+            "To prevent any hardware-specific configuration"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "As embedded software becomes complex, an OS helps coordinate tasks and hardware events.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In embedded development, what are the host and target environments?",
+          "choices": [
+            "The host is the final embedded device, and the target is the developer PC",
+            "Both host and target are always the same microcontroller",
+            "The host is a network switch, and the target is always a printer",
+            "The host is the development machine, and the target is the embedded device that runs the code"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Code is usually written and built on a powerful host, then run on a smaller target device.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the role of a cross-compiler in embedded systems?",
+          "choices": [
+            "It produces executable code for the target architecture while running on the host",
+            "It schedules cloud VMs across datacenters",
+            "It replaces the boot loader after every interrupt",
+            "It converts sensors into actuators"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A cross-compiler is needed when the development host and embedded target use different architectures.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a boot loader usually do in an embedded system?",
+          "choices": [
+            "Provide all user applications in the cloud",
+            "Initialize hardware and load the kernel into RAM",
+            "Replace every device driver with a database",
+            "Disable startup from flash memory"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The boot loader is the early startup program that prepares hardware and loads the OS kernel.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are embedded kernels usually built with only necessary modules?",
+          "choices": [
+            "To increase kernel size as much as possible",
+            "To force every device to use virtual memory",
+            "To save memory and remove features unsupported by the hardware",
+            "To make all drivers optional at runtime only"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Unneeded modules such as paging on non-MMU hardware waste space and may not work.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a disadvantage of adapting a commercial OS for embedded use?",
+          "choices": [
+            "It can never provide familiar interfaces",
+            "It removes all portability",
+            "It cannot support any device driver",
+            "It may be too large, slower, or less predictable for real-time behavior"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Stripped-down commercial OSs can be familiar but may still carry size and timing costs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which property is typical of a purpose-built embedded OS?",
+          "choices": [
+            "Fast thread switching, small size, and deterministic interrupt response",
+            "Slow thread switching and unpredictable interrupt response",
+            "Mandatory large swap files on disk",
+            "No support for locking code or data in memory"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Purpose-built embedded OSs are designed for small size and predictable timing.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which requirement belongs to a real-time embedded kernel?",
+          "choices": [
+            "Unbounded primitive execution time",
+            "Bounded primitive execution, real-time queues, clocks, alarms, and time-outs",
+            "Only best-effort scheduling with no clock",
+            "No suspend or resume primitives"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Real-time kernels must provide predictable timing and mechanisms for timed control.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is embedded Linux?",
+          "choices": [
+            "A Linux system that always requires a desktop GPU",
+            "A version of Linux that cannot use device drivers",
+            "A Linux system tailored for embedded devices, often using a custom kernel configuration",
+            "A Linux system used only as a web browser"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Embedded Linux is Linux adapted and configured for device constraints.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which factor is used to classify embedded Linux systems in the slides?",
+          "choices": [
+            "Only the number of desktop users",
+            "Only the color of the device screen",
+            "Only the number of installed office programs",
+            "Kernel and memory size, timing constraints, networkability, and user interaction level"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The lecture classifies embedded Linux by size, timing, connectivity, and interface complexity.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why must embedded Linux kernels often be aggressively stripped down?",
+          "choices": [
+            "Linux kernel size has grown over time while embedded devices may have limited memory",
+            "Embedded systems always have unlimited flash storage",
+            "The kernel cannot be configured",
+            "All embedded devices require full desktop services"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Kernel growth conflicts with embedded memory and storage limits, so unused features are removed.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What storage medium do embedded Linux file systems often target?",
+          "choices": [
+            "Only magnetic tape",
+            "Flash memory rather than traditional hard disks",
+            "Only remote cloud object storage",
+            "Only optical discs"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Embedded systems commonly use flash, which needs specialized file-system behavior.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which file system is log-based and designed for NOR and NAND flash with wear leveling?",
+          "choices": [
+            "cramfs",
+            "squashfs",
+            "JFFS2",
+            "NTFS"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "JFFS2 is the journaling flash file system used for flash devices and wear leveling.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which file-system pair is mainly used for compressed read-only embedded file systems?",
+          "choices": [
+            "JFFS2 and UBIFS only",
+            "FAT and NTFS only",
+            "SAN and NAS",
+            "cramfs and squashfs"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "cramfs and squashfs are compressed read-only file systems used to save space.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which advantage is associated with embedded Linux?",
+          "choices": [
+            "Vendor independence and broad hardware support",
+            "Mandatory proprietary licensing only",
+            "No access to source code",
+            "Support for only one processor family"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Embedded Linux benefits include low cost, open source, vendor independence, and hardware support.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is mClinux designed for?",
+          "choices": [
+            "Only desktop computers with large swap files",
+            "Processors without a memory management unit",
+            "Only cloud object storage nodes",
+            "Only multimedia playback applications"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "mClinux is a Linux variation for microcontrollers and systems without an MMU.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What memory-management limitation exists in mClinux compared with full Linux?",
+          "choices": [
+            "Each process gets a protected virtual address space",
+            "mClinux requires more than 32 GB RAM",
+            "All processes share a single address space and applications may need absolute linking",
+            "mClinux cannot run on microcontrollers"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Without an MMU, mClinux lacks full virtual address spaces and process isolation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does mClinux use vfork() instead of fork()?",
+          "choices": [
+            "Because vfork() is a networking protocol",
+            "Because fork() only works in TinyOS",
+            "Because vfork() always creates a cloud VM",
+            "Because fork() depends on separate address-space support not available without an MMU"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "vfork() lets the child borrow the parent address space until execve() or exit().",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main purpose of mClibc?",
+          "choices": [
+            "To provide a smaller C library suitable for embedded Linux systems",
+            "To replace flash storage with cloud storage",
+            "To force every embedded system to use glibc",
+            "To manage OpenStack compute instances"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "mClibc reduces redundancy and disables features by default to save space.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What kind of protection can newer mClinux versions provide with an MPU?",
+          "choices": [
+            "Full virtual memory identical to a desktop MMU",
+            "Basic process-to-kernel protection with less hardware overhead than a full MMU",
+            "No protection of any kind",
+            "Only network encryption"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "An MPU gives simpler protection than a full MMU but can still separate process and kernel access.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is TinyOS mainly designed for?",
+          "choices": [
+            "Large desktop workstations",
+            "Cloud datacenter orchestration",
+            "Wireless sensor networks and very small embedded systems",
+            "Running full Android applications"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "TinyOS targets tiny, power-constrained sensor devices with minimal memory.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement about TinyOS is correct?",
+          "choices": [
+            "It requires gigabytes of RAM to boot",
+            "It is designed only for graphical smartphones",
+            "It cannot be used with wireless sensor networks",
+            "It is a very minimal OS focused on power efficiency and simplicity rather than being a full real-time OS"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "TinyOS is minimal and power-aware, with very small code and memory needs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What workload pattern is common in wireless sensor networks?",
+          "choices": [
+            "Sensors are off most of the time, with low-rate data and many concurrent events",
+            "Sensors are active at full power all the time",
+            "Every sensor runs a full desktop application",
+            "No events occur after deployment"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Wireless sensor networks save power by sleeping often and reacting to events.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which list matches TinyOS component abstractions?",
+          "choices": [
+            "VMs, hypervisors, and volumes",
+            "Commands, events, and tasks",
+            "Processes, page tables, and swap partitions",
+            "Packets, routers, and VLANs only"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "TinyOS components are built around commands, events, and tasks.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In TinyOS, what is the difference between commands and events?",
+          "choices": [
+            "Commands are upward signals, and events are downward calls",
+            "Commands and events are both disk blocks",
+            "Commands are downward calls to lower components, while events are upward signals from lower components",
+            "Events are used only for file compression"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Commands go down the component stack, and events signal upward, often from hardware interrupts.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How do TinyOS tasks execute?",
+          "choices": [
+            "They always preempt hardware interrupts",
+            "They require one kernel stack per task like a full desktop OS",
+            "They are cloud services launched by Nova",
+            "They are atomic, run to completion, and do not preempt each other"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "TinyOS tasks are nonpreemptive and run to completion, which reduces stack complexity.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which concurrency rule is used by TinyOS?",
+          "choices": [
+            "Events can preempt tasks, but tasks cannot preempt each other",
+            "Tasks can preempt events, but events never interrupt tasks",
+            "All components run as independent Linux processes",
+            "Only one event can ever occur in the whole system"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "TinyOS has two concurrency levels: tasks and events.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does nesC add for TinyOS component specification?",
+          "choices": [
+            "A virtual machine monitor for IaaS clouds",
+            "A component model with provided and used interfaces plus event-based concurrency",
+            "A replacement for all embedded hardware",
+            "A disk-only file system"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "TinyOS uses nesC to define components, interfaces, and event-driven behavior.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does the TinyOS scheduler behave when the task queue is empty?",
+          "choices": [
+            "It starts a cloud VM",
+            "It creates a new MMU",
+            "It enters a low-power sleep mode",
+            "It runs all tasks in parallel"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The scheduler is a simple FIFO queue and saves energy by sleeping when there is no work.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does wiring mean in TinyOS?",
+          "choices": [
+            "Installing physical Ethernet cables only",
+            "Replacing all tasks with interrupts",
+            "Compressing read-only file systems",
+            "Connecting a component that uses an interface to one that provides it"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Wiring connects components at compile time through interfaces.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which TinyOS resource type is accessed through an arbiter because it must be shared safely?",
+          "choices": [
+            "Shared resource",
+            "Dedicated resource",
+            "Virtualized resource",
+            "Compressed resource"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Shared resources use an arbiter to enforce mutual exclusion and manage requests.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a TinyOS arbiter do for a shared resource?",
+          "choices": [
+            "Allows all clients to use the resource at the same instant",
+            "Chooses which client may lock, use, and release the resource, while queueing others",
+            "Removes every resource interface",
+            "Converts the resource into a cloud storage object"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The arbiter enforces the sharing policy and ensures one client uses the resource at a time.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which TinyOS shared-resource interface is used by a client to request and release access?",
+          "choices": [
+            "Resource Configure",
+            "Resource-specific interface",
+            "Resource",
+            "Dashboard"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The Resource interface handles access requests and release commands.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the purpose of the Resource Configure interface in TinyOS?",
+          "choices": [
+            "Store VM images for OpenStack",
+            "Compress the Linux kernel",
+            "Disable all interrupts permanently",
+            "Automatically configure the resource just before a client is granted access"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Resource Configure prepares a resource for a client before access is granted.",
           "points": 1
         }
       ]
@@ -742,77 +1342,1127 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is cloud computing?",
+          "prompt": "Which statement best defines cloud computing?",
           "choices": [
-            "On-demand network access to a shared pool of configurable resources",
-            "A single offline desktop program",
-            "Only a local printer service",
-            "A CPU cache replacement rule"
+            "Ubiquitous, on-demand network access to a shared pool of configurable resources",
+            "A fixed local machine with no network services",
+            "A storage device used only inside one embedded sensor",
+            "A scheduling algorithm for one CPU core"
           ],
           "answer": [
             0
           ],
-          "explanation": "Cloud computing provides networked, elastic resources such as servers, storage, and services.",
+          "explanation": "Cloud computing provides elastic network access to shared resources such as servers, storage, applications, and services.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "What does on-demand self-service mean?",
+          "prompt": "What does on-demand self-service mean in cloud computing?",
           "choices": [
-            "The provider must manually install every byte",
-            "Users cannot request resources",
-            "All resources are fixed forever",
-            "Consumers can provision computing capabilities automatically when needed"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "On-demand self-service is one essential cloud characteristic.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "Which cloud model gives users provider-hosted applications without managing infrastructure?",
-          "choices": [
-            "A mutex",
-            "A page table",
-            "SaaS",
-            "IaaS"
-          ],
-          "answer": [
-            2
-          ],
-          "explanation": "Software as a Service exposes applications while hiding most infrastructure management.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "Which cloud model gives control over operating systems and deployed applications but not the underlying cloud infrastructure?",
-          "choices": [
-            "A deadlock detector",
-            "IaaS",
-            "SaaS only",
-            "A semaphore"
+            "Consumers must call an administrator for every resource change",
+            "Consumers can provision computing capabilities automatically without provider human interaction",
+            "Only the provider can start or stop resources manually",
+            "Resources are assigned once and never changed"
           ],
           "answer": [
             1
           ],
-          "explanation": "Infrastructure as a Service provides processing, storage, and networks with user control over deployed software.",
+          "explanation": "On-demand self-service lets consumers request capabilities automatically as needed.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "What is rapid elasticity?",
+          "prompt": "Which essential characteristic means cloud capabilities are reachable through standard network mechanisms?",
           "choices": [
-            "Resources can scale outward or inward with demand",
-            "Resources can never change",
-            "Only one user can access the network",
-            "Every VM must be shut down"
+            "Measured service",
+            "Resource pooling",
+            "Broad network access",
+            "Service arbitrage"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Broad network access means access through standard mechanisms from clients such as laptops and phones.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does resource pooling mean?",
+          "choices": [
+            "Every consumer owns a physically separate datacenter",
+            "Only one application can use the cloud at a time",
+            "Resources are never reassigned between customers",
+            "Provider resources serve multiple consumers through a multitenant model"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Resource pooling uses shared provider resources to serve multiple consumers.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which characteristic allows cloud resources to scale outward and inward quickly with demand?",
+          "choices": [
+            "Rapid elasticity",
+            "Static linking",
+            "Kernel locking",
+            "Direct interrupt handling"
           ],
           "answer": [
             0
           ],
-          "explanation": "Elasticity is the ability to provision and release resources quickly.",
+          "explanation": "Rapid elasticity is the ability to provision and release resources quickly.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is measured service important?",
+          "choices": [
+            "It disables all billing and monitoring",
+            "It automatically controls, optimizes, and meters resource use for transparency",
+            "It prevents users from seeing any usage data",
+            "It removes the need for resource allocation"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Measured service gives both provider and consumer visibility into resource use.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which service model lets consumers use provider-hosted applications without managing the underlying infrastructure?",
+          "choices": [
+            "IaaS",
+            "PaaS",
+            "SaaS",
+            "MANO"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "SaaS exposes applications while the provider manages the cloud infrastructure.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which service model lets consumers deploy applications using provider-supported languages, libraries, and tools?",
+          "choices": [
+            "SaaS",
+            "Public cloud",
+            "Cloud carrier",
+            "PaaS"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "PaaS gives a platform for deploying consumer-created or acquired applications.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which service model gives consumers control over operating systems, storage, and deployed applications?",
+          "choices": [
+            "IaaS",
+            "SaaS",
+            "Community cloud",
+            "Cloud auditor"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "IaaS provides fundamental resources while consumers manage their OSs and applications.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which deployment model is operated solely for one organization and offers the highest control?",
+          "choices": [
+            "Public cloud",
+            "Private cloud",
+            "Hybrid cloud only",
+            "Cloud broker"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "A private cloud is dedicated to one organization and may be managed internally or by a third party.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which deployment model is shared by organizations with common concerns?",
+          "choices": [
+            "Public cloud",
+            "IaaS",
+            "Community cloud",
+            "Object storage"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "A community cloud supports a specific community of organizations with shared requirements.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a hybrid cloud?",
+          "choices": [
+            "A single cloud that cannot connect to any other model",
+            "A SaaS application with no infrastructure",
+            "A storage protocol for block devices",
+            "A composition of two or more distinct cloud deployment models"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Hybrid cloud combines private, public, or community clouds with portability mechanisms.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which list matches the five major NIST cloud actors?",
+          "choices": [
+            "Consumer, provider, broker, auditor, carrier",
+            "Scheduler, kernel, driver, process, thread",
+            "Sensor, actuator, timer, GPIO, UART",
+            "Nova, Glance, Neutron, Swift, Cinder"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "NIST identifies cloud consumer, provider, broker, auditor, and carrier.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the role of a cloud service consumer?",
+          "choices": [
+            "To only audit performance with no service use",
+            "To maintain a business relationship with and use services from cloud providers",
+            "To transport packets without owning any relationship",
+            "To replace the cloud provider hardware"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The consumer uses cloud services and has a business relationship with providers.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the role of a cloud service provider?",
+          "choices": [
+            "To only connect network links between users",
+            "To independently audit cloud systems",
+            "To make cloud services available to interested parties",
+            "To choose services from many providers for a consumer"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The provider is responsible for making services available.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which actor conducts unbiased assessments such as security and performance audits?",
+          "choices": [
+            "Cloud carrier",
+            "Cloud broker",
+            "Cloud consumer",
+            "Cloud auditor"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "A cloud auditor independently evaluates cloud services.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a cloud carrier provide?",
+          "choices": [
+            "Connectivity and transport of cloud services between providers and consumers",
+            "Application source code written by the consumer",
+            "Only object storage metadata",
+            "VM disk images for Nova"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The carrier provides the network transport path for cloud services.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is service intermediation by a cloud broker?",
+          "choices": [
+            "Combining flash file systems in embedded Linux",
+            "Adding value such as identity management, reporting, or enhanced security",
+            "Removing all provider-consumer relationships",
+            "Launching a TinyOS task queue"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Intermediation adds extra capability on top of a cloud service.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is service aggregation by a cloud broker?",
+          "choices": [
+            "Selecting exactly one provider and ignoring cost",
+            "Auditing the provider without managing delivery",
+            "Combining multiple cloud services to meet consumer needs or optimize performance/cost",
+            "Transporting packets across a carrier network only"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Aggregation combines several services into a useful package for the consumer.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is service arbitrage by a cloud broker?",
+          "choices": [
+            "Forcing all consumers onto one fixed provider",
+            "Measuring processor usage for billing only",
+            "Configuring a UART interface",
+            "Using multiple possible providers and choosing among them flexibly"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Arbitrage lets the broker choose among services from different providers.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which cloud networking type consists of racks of servers and storage connected by high-speed top-of-rack switches?",
+          "choices": [
+            "Datacenter networks",
+            "Enterprise networks",
+            "Cloud carriers only",
+            "Wireless sensor networks"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Datacenter networks connect provider servers and storage with high-speed switching.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What concern is central to cloud carriers in networking?",
+          "choices": [
+            "Replacing all virtual machines with physical desktops",
+            "Creating virtual networks with suitable SLA and security guarantees",
+            "Providing only GPIO interfaces",
+            "Running the TinyOS FIFO scheduler"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Cloud carriers must provide secure, reliable network transport with appropriate guarantees.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a Cloud Operating System?",
+          "choices": [
+            "A mobile phone OS used only for local apps",
+            "A file system for flash memory only",
+            "A distributed OS in a provider datacenter that manages servers, network, and storage",
+            "A CPU scheduling policy for one desktop"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "A Cloud OS manages physical and virtualized datacenter resources and implements IaaS.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is a Cloud OS distinct from PaaS?",
+          "choices": [
+            "It only supplies programming libraries to application developers",
+            "It is never used in datacenters",
+            "It cannot manage storage or networks",
+            "It manages physical and virtualized hardware transparently to the end user"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Cloud OS is the infrastructure management layer, while PaaS is an application platform layer.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which operation belongs to the computing service requirement for IaaS?",
+          "choices": [
+            "Creating, deleting, starting, shutting down, suspending, or migrating VMs",
+            "Only compiling embedded C code",
+            "Only compressing read-only file systems",
+            "Only measuring sensor temperature"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "IaaS computing services manage VM lifecycle operations.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which storage types must an IaaS storage service provide?",
+          "choices": [
+            "Only removable optical storage",
+            "Block-level, file-level, and object-based storage",
+            "Only CPU registers",
+            "Only UART buffers"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The lecture lists block, file, and object storage as IaaS storage services.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which network functions are part of IaaS network service?",
+          "choices": [
+            "Only keyboard interrupts",
+            "Only boot-loader execution",
+            "IP addresses, VLANs, virtual switches, load balancers, and firewalls",
+            "Only local LED control"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "IaaS networking provides virtual network functions for cloud resources.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does virtualization enable in the general architecture of a Cloud OS?",
+          "choices": [
+            "Preventing any VM movement",
+            "Forcing every server to run one fixed application",
+            "Removing all storage pools",
+            "Decoupling software from hardware so capacity can scale with virtual resources"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Virtualization lets providers move from dedicated servers to flexible COTS hardware and virtual capacity.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In cloud infrastructure, what does SAN provide?",
+          "choices": [
+            "Block-level access to storage over a high-speed network",
+            "File sharing only through a network appliance",
+            "Object metadata with unique IDs only",
+            "Wireless access for IoT sensors"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A SAN provides block-level storage access through a high-speed network.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does object storage organize data?",
+          "choices": [
+            "As fixed-size CPU registers only",
+            "As objects containing data, metadata, and a unique identifier",
+            "As one local directory tree with no metadata",
+            "As volatile RAM pages only"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Object storage stores data with metadata and unique IDs, supporting massive scalability.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is MANO responsible for?",
+          "choices": [
+            "Handling only GPIO pins",
+            "Replacing all cloud storage with flash memory",
+            "Composing and coordinating system components and managing lifecycle operations",
+            "Running only a user dashboard"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Management and Orchestration coordinates compute, storage, network, and service lifecycle tasks.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the VM Manager do in MANO?",
+          "choices": [
+            "Stores RFID tags",
+            "Implements TinyOS wiring",
+            "Provides a compressed read-only file system",
+            "Oversees the creation and management of VM instances"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The VM Manager handles virtual-machine instance management.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is OpenStack in this lecture?",
+          "choices": [
+            "A modular open-source project for building a Cloud OS",
+            "A microcontroller C library",
+            "A wireless sensor operating system",
+            "A compressed embedded Linux file system"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "OpenStack is presented as a case study for an open-source Cloud OS.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which OpenStack component manages compute instances?",
+          "choices": [
+            "Glance",
+            "Nova",
+            "Swift",
+            "Cinder"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Nova manages the lifecycle of compute instances.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement about Nova is correct?",
+          "choices": [
+            "Nova includes all virtualization software itself",
+            "Nova is only an object store for static data",
+            "Nova manages underlying virtualization mechanisms through drivers but does not include the virtualization software itself",
+            "Nova is the web dashboard"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Nova works with hypervisors through drivers rather than being the hypervisor itself.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which Nova component decides where a requested VM instance should run?",
+          "choices": [
+            "API Server",
+            "Message Queue",
+            "Database",
+            "Scheduler"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The Nova Scheduler places VM instance requests.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Glance provide in OpenStack?",
+          "choices": [
+            "A library of virtual disk images that users can discover, register, and retrieve",
+            "Persistent block volumes attached to guest VMs",
+            "A web dashboard for users",
+            "A common authentication directory"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Glance is OpenStack Image Service.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Neutron provide?",
+          "choices": [
+            "Object storage for static data",
+            "Networking as a service, letting users create networks and attach interfaces",
+            "A database-as-a-service engine",
+            "A C library for microcontrollers"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Neutron provides OpenStack networking services and plugin-based extensibility.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which pairing is correct for Swift and Cinder?",
+          "choices": [
+            "Swift provides identity; Cinder provides dashboard UI",
+            "Swift schedules VMs; Cinder stores VM images",
+            "Swift provides object storage; Cinder provides persistent block storage volumes",
+            "Swift manages interrupts; Cinder manages TinyOS tasks"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Swift is object storage, while Cinder provides block volumes for guest VMs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Keystone provide?",
+          "choices": [
+            "A web UI for launching instances only",
+            "A VM disk image library",
+            "A network plugin system",
+            "A central directory of users and common authentication for OpenStack services"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Keystone is OpenStack Identity.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which services coordinate when launching a VM according to the slides?",
+          "choices": [
+            "Keystone for credentials, Nova Scheduler for placement, and Glance for the disk image",
+            "TinyOS, mClinux, and JFFS2",
+            "GPIO, UART, and SPI only",
+            "Trove, Zaqar, and Barbican only"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Launching a VM requires identity, placement, and image services, with storage if needed.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Horizon provide?",
+          "choices": [
+            "Persistent block storage for VMs",
+            "A web-based interface for managing cloud infrastructure",
+            "A central authentication system",
+            "A network switch inside a rack only"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Horizon is the OpenStack dashboard.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is Ceilometer used for?",
+          "choices": [
+            "Compiling nesC components",
+            "Providing flash wear leveling",
+            "Metering usage data for billing, benchmarking, scalability, and statistics",
+            "Running a boot loader"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Ceilometer collects metering data such as CPU, storage, and network usage.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Heat do in OpenStack?",
+          "choices": [
+            "Stores static data as objects only",
+            "Provides user authentication only",
+            "Detects environmental temperature",
+            "Orchestrates composite cloud applications from templates across their lifecycle"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Heat is OpenStack orchestration and uses templates as infrastructure code.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which optional OpenStack service provides database-as-a-service?",
+          "choices": [
+            "Trove",
+            "Zaqar",
+            "Barbican",
+            "Congress"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Trove provisions relational and nonrelational database engines.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which optional OpenStack service stores and manages secrets such as passwords and encryption keys?",
+          "choices": [
+            "Zaqar",
+            "Barbican",
+            "Congress",
+            "Trove"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Barbican provides secure storage and management for secret values.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Internet of Things?",
+          "choices": [
+            "A single centralized mainframe with no devices",
+            "A type of virtual disk image only",
+            "A computing and communications model involving many interconnected devices with sensors and actuators",
+            "A closed desktop file manager"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "IoT connects everyday objects, sensors, actuators, and cloud services.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which components are typical in an IoT-enabled device?",
+          "choices": [
+            "Only hypervisors and VM schedulers",
+            "Only desktop monitors and keyboards",
+            "Only object-storage buckets",
+            "Sensors, actuators, microcontrollers, transceivers, and sometimes RFID"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "IoT devices sense, act, process locally, and communicate wirelessly.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are the four enterprise IoT context layers in the slides?",
+          "choices": [
+            "Edge, Fog, Core, and Cloud",
+            "Sensor, Kernel, Disk, and UI",
+            "SaaS, PaaS, IaaS, and NAS",
+            "Nova, Glance, Swift, and Cinder"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The lecture places IoT in Edge, Fog, Core, and Cloud layers.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What happens at the Edge layer?",
+          "choices": [
+            "Long-term cloud analytics only",
+            "Sensors and actuators interact with the environment",
+            "High-performance backbone routing only",
+            "Provider billing only"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The edge is closest to the physical environment.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main purpose of fog computing?",
+          "choices": [
+            "Store all data only in far cloud servers before any filtering",
+            "Replace every IoT device with a desktop",
+            "Move processing closer to sensors for data reduction and real-time analysis",
+            "Disable low-latency processing"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Fog computing reduces latency and data volume before reaching the cloud.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Core layer do in the IoT context?",
+          "choices": [
+            "Directly opens physical valves",
+            "Runs only battery-powered sensors",
+            "Stores only RFID tags",
+            "Provides the high-performance backbone connecting fog to cloud"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The core connects fog systems with cloud systems.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does fog differ from cloud in the slide comparison?",
+          "choices": [
+            "Fog is distributed at the edge with low latency; cloud is centralized with higher latency",
+            "Fog is always more centralized than cloud",
+            "Cloud only serves tens of devices, while fog serves one user",
+            "Fog has no relation to IoT devices"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Fog is closer to devices and optimized for low latency, while cloud is centralized and highly available.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why do many IoT devices need a specialized OS?",
+          "choices": [
+            "They always have unlimited datacenter resources",
+            "They have tighter RAM, ROM, and power constraints than smartphones",
+            "They never need networking",
+            "They only run desktop applications"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "IoT OSs must fit constrained hardware and conserve power.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which constrained-device class has memory less than 10 kB and code less than 100 kB?",
+          "choices": [
+            "Class 1",
+            "Class 2",
+            "Class 0",
+            "Class 3"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The lecture lists Class 0 as the smallest constrained-device class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which key IoT OS characteristic supports many different 8-bit, 16-bit, and 32-bit microcontrollers?",
+          "choices": [
+            "Measured cloud service",
+            "Public deployment",
+            "Object storage",
+            "Heterogeneous hardware support"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "IoT operating systems must run across many microcontroller architectures.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which characteristic is critical for battery-powered IoT devices expected to last for years?",
+          "choices": [
+            "Energy efficiency",
+            "Large desktop UI",
+            "Maximum disk throughput only",
+            "Manual provisioning"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Battery-powered IoT devices depend on low-power operation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which layers/components are in a typical IoT OS architecture?",
+          "choices": [
+            "Only SaaS, PaaS, and IaaS",
+            "HAL, kernel, system libraries, device drivers/logical file system, and network stack",
+            "Only Nova, Glance, and Horizon",
+            "Only sensors and actuators with no software layers"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The lecture architecture includes hardware abstraction, kernel services, libraries, drivers/file system, and networking.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Hardware Abstraction Layer do?",
+          "choices": [
+            "Stores cloud VM images",
+            "Meters OpenStack network traffic",
+            "Presents a consistent API to upper layers while mapping operations to specific hardware",
+            "Runs service arbitrage"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The HAL hides hardware differences behind common interfaces.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which interface is a generic pin that can be set as input or output at run time?",
+          "choices": [
+            "UART",
+            "SPI",
+            "I2C",
+            "GPIO"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "GPIO means General Purpose Input/Output.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which HAL interface is an asynchronous serial digital data link?",
+          "choices": [
+            "UART",
+            "SPI",
+            "GPIO",
+            "I2C"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "UART is the Universal Asynchronous Receiver/Transmitter interface.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which HAL interface is a synchronous serial digital data link?",
+          "choices": [
+            "UART",
+            "SPI",
+            "GPIO",
+            "RFID"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "SPI is the Serial Peripheral Interface.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the IoT kernel typically provide?",
+          "choices": [
+            "Only object-storage metadata",
+            "Only user dashboards",
+            "Scheduler, task management, mutual exclusion, and timers",
+            "Only RFID tag reading"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The IoT kernel provides minimal core OS services.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why must the IoT kernel be modular?",
+          "choices": [
+            "To force every device to install every driver",
+            "To remove scheduler support",
+            "To make all devices use the same memory size",
+            "To allow minimal configurations tailored to specific devices"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Modularity lets an IoT OS include only what the device needs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why do many constrained IoT devices use a low-power network stack?",
+          "choices": [
+            "They may need limited sensor-to-gateway communication or efficient end-to-end Internet communication",
+            "They always transmit unlimited video to the cloud",
+            "They have no network requirements",
+            "They only communicate through local disk files"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Low-power networking matches limited energy and communication needs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are examples of other main IoT OS components besides the kernel and network stack?",
+          "choices": [
+            "Only billing meters and dashboards",
+            "Streamlined support libraries, device drivers, and a logical file system",
+            "Only cloud brokers and auditors",
+            "Only compressed read-only desktop images"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "IoT OSs include minimal libraries, drivers, and file-system support configured for the application.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is RIOT designed for?",
+          "choices": [
+            "Only full Linux servers with more than 32 GB RAM",
+            "Only public cloud deployment models",
+            "Constrained IoT devices",
+            "Only OpenStack dashboards"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "RIOT is an open-source OS specifically designed for constrained IoT devices.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which architecture does RIOT follow?",
+          "choices": [
+            "Large monolithic desktop-only kernel with no drivers",
+            "Cloud-only hypervisor architecture",
+            "No kernel architecture at all",
+            "Microkernel architecture with essential features in the core and other functions as threads"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "RIOT keeps essential features in the core and runs drivers/libraries separately.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which comparison is correct?",
+          "choices": [
+            "RIOT supports C/C++, multithreading, and real-time features with a small footprint",
+            "TinyOS has full standard C support and full multithreading like Linux",
+            "mClinux uses less memory than RIOT and TinyOS",
+            "RIOT requires more than 32 MB RAM in the lecture comparison"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The lecture contrasts RIOT with TinyOS and mClinux by footprint and features.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How is RIOT structured?",
+          "choices": [
+            "Only cloud brokers and carriers",
+            "Core kernel, drivers, packages, and system libraries",
+            "Only commands, events, and TinyOS wiring",
+            "Only block, file, and object storage"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "RIOT is organized into core, drivers, pkg, and sys.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which modules are included in the RIOT kernel core?",
+          "choices": [
+            "SaaS, PaaS, IaaS, and public cloud",
+            "JFFS2, UBIFS, cramfs, and squashfs",
+            "IRQ handling, IPC, scheduling, synchronization, and threads",
+            "Sensors, actuators, RFID, and fog only"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The RIOT kernel core includes the OS mechanisms needed for concurrent IoT programs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does RIOT IPC provide?",
+          "choices": [
+            "Only object storage metadata",
+            "Only VM image registration",
+            "Only GPIO pin direction control",
+            "A safe, synchronized way for threads to communicate with defined priorities"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "RIOT IPC is for synchronized communication between threads.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does RIOT power management handle?",
+          "choices": [
+            "The kernel power-management interface",
+            "Cloud billing records",
+            "OpenStack user accounts",
+            "Flash wear leveling"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "RIOT includes a kernel power-management module for low-power devices.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the RIOT hardware abstraction relationship mean?",
+          "choices": [
+            "Every processor belongs to only one board design forever",
+            "A board has exactly one processor, while a processor can be part of many boards",
+            "A board has no processor",
+            "Hardware abstraction is unrelated to portability"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "RIOT separates processor and board support to improve portability.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does scheduling in RIOT support?",
+          "choices": [
+            "Only one nonpreemptive task for the entire system",
+            "Cloud VM placement by Nova Scheduler",
+            "Multithreading and context switching for concurrent application execution",
+            "Only service aggregation by brokers"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "RIOT scheduling enables concurrent threads on constrained IoT devices.",
           "points": 1
         }
       ]
