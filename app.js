@@ -148,7 +148,7 @@ function renderExam() {
     return `
       <section class="question-card" data-question-index="${index}">
         <p class="eyebrow">${escapeHtml(question.type)}</p>
-        <h3>${index + 1}. ${escapeHtml(question.prompt)}</h3>
+        <h3 dir="auto">${index + 1}. ${escapeHtml(question.prompt)}</h3>
         ${question.choices.map((choice, choiceIndex) => {
           const checked = saved.includes(choiceIndex) ? " checked" : "";
           const resultClass = state.submitted
@@ -161,11 +161,11 @@ function renderExam() {
           return `
             <label class="choice${resultClass}">
               <input type="${inputType}" name="q-${index}" value="${choiceIndex}"${checked}${state.submitted ? " disabled" : ""}>
-              <span>${escapeHtml(choice)}</span>
+              <span dir="auto">${escapeHtml(choice)}</span>
             </label>
           `;
         }).join("")}
-        <div class="feedback">${escapeHtml(question.fullExplanation || question.explanation)}</div>
+        <div class="feedback" dir="auto">${escapeHtml(question.fullExplanation || question.explanation)}</div>
       </section>
     `;
   }).join("");

@@ -6,7 +6,7 @@ const downloads = "C:\\Users\\Omair Gibreel\\Downloads";
 const outDir = __dirname;
 
 function readJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  return JSON.parse(fs.readFileSync(filePath, "utf8").replace(/^\uFEFF/, ""));
 }
 
 function normalizeQuestion(question) {
@@ -14,13 +14,17 @@ function normalizeQuestion(question) {
   const answer = Array.isArray(question.answer) ? question.answer.map(Number) : [];
   return {
     type: question.type || (answer.length > 1 ? "Multiple Select" : "Single Choice"),
-    prompt: String(question.prompt || ""),
-    choices,
+    prompt: cleanStudyText(question.prompt || ""),
+    choices: choices.map(cleanStudyText),
     answer,
-    explanation: String(question.explanation || ""),
-    fullExplanation: question.fullExplanation ? String(question.fullExplanation) : null,
+    explanation: cleanStudyText(question.explanation || ""),
+    fullExplanation: question.fullExplanation ? cleanStudyText(question.fullExplanation) : null,
     points: Number(question.points || 1)
   };
+}
+
+function cleanStudyText(value) {
+  return String(value);
 }
 
 function normalizeExam(subjectId, bankId, bankTitle, exam) {
@@ -29,8 +33,8 @@ function normalizeExam(subjectId, bankId, bankTitle, exam) {
     sourceId: exam.id,
     subjectId,
     bankId,
-    bankTitle,
-    kind: exam.kind || "Exam",
+    bankTitle: cleanStudyText(bankTitle),
+    kind: cleanStudyText(exam.kind || "Exam"),
     title: exam.title || exam.id,
     description: exam.description || "",
     questions: (exam.questions || []).map(normalizeQuestion).filter(question => {
@@ -170,8 +174,8 @@ function loadOsSubject() {
 
 function loadGeneratedSubject(subjectId) {
   const subject = readJson(path.join(outDir, "generated-exams", `${subjectId}.json`));
-  subject.exams = subject.exams.map(exam => normalizeExam(subject.id, "rewritten-md", "Rewritten Markdown Exams", exam));
-  subject.banks = [{ id: "rewritten-md", title: "Rewritten Markdown Exams", examCount: subject.exams.length }];
+  subject.exams = subject.exams.map(exam => normalizeExam(subject.id, "manual-md", "Manual Markdown Exams", exam));
+  subject.banks = [{ id: "manual-md", title: "Manual Markdown Exams", examCount: subject.exams.length }];
   subject.questionCount = subject.exams.reduce((sum, exam) => sum + exam.questions.length, 0);
   subject.examCount = subject.exams.length;
   return subject;
