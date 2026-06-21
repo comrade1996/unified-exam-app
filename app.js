@@ -88,7 +88,15 @@ function filteredExams() {
     const text = `${exam.title} ${exam.kind} ${exam.bankTitle}`.toLowerCase();
     const searchOk = !search || text.includes(search);
     return searchOk;
-  });
+  }).sort((left, right) => examSortKey(left).localeCompare(examSortKey(right), undefined, { numeric: true }));
+}
+
+function examSortKey(exam) {
+  const lecture = exam.title.match(/^Lecture\s+(\d+)/i);
+  if (lecture) return `0-${lecture[1].padStart(2, "0")}-${exam.title}`;
+  const algorithm = exam.title.match(/^Algorithm/i);
+  if (algorithm) return `1-${exam.title}`;
+  return `2-${exam.title}`;
 }
 
 function renderSelectors() {

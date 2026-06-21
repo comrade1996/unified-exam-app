@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-21T13:21:19.578Z",
+  "generatedAt": "2026-06-21T13:29:43.259Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -3274,7 +3274,7 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Lecture 1 - OS Introduction",
-          "description": "Manual questions from lec1 handout.md.",
+          "description": "Manual questions from lecture 1 handout.md.",
           "questions": [
             {
               "type": "Single Choice",
@@ -3382,7 +3382,7 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Lecture 2 - Processes, IPC, Synchronization, and Scheduling",
-          "description": "Manual questions from lec2 handout.md.",
+          "description": "Manual questions from lecture 2 handout.md.",
           "questions": [
             {
               "type": "Single Choice",
@@ -3586,7 +3586,7 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Lecture 3 - Multiprocessors, Multicomputers, and Distributed Systems",
-          "description": "Manual questions from lec3 handout.md.",
+          "description": "Manual questions from lecture 3 handout.md.",
           "questions": [
             {
               "type": "Single Choice",
@@ -3678,7 +3678,7 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Lecture 4 - Memory Management",
-          "description": "Manual questions from lec4 slides.md.",
+          "description": "Manual questions from lecture 4 slides.md.",
           "questions": [
             {
               "type": "Single Choice",
@@ -3770,7 +3770,7 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Lecture 5 - File Systems",
-          "description": "Manual questions from lec5 slides.md.",
+          "description": "Manual questions from lecture 5 slides.md.",
           "questions": [
             {
               "type": "Single Choice",
@@ -3846,21 +3846,85 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Lecture 6 - Virtualization",
-          "description": "Manual questions from lec6 slides.md.",
+          "description": "Manual questions from lecture 6 slides.md.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What is the core idea of virtualization?",
+              "prompt": "What is the fundamental idea of virtualization?",
               "choices": [
-                "Abstract one physical machine into one or more virtual execution environments",
-                "Remove all hardware abstraction",
-                "Run every program directly on firmware",
-                "Disable operating systems"
+                "Abstract the hardware of one computer into multiple execution environments.",
+                "Convert every program into a static library.",
+                "Replace the operating system with a file system.",
+                "Run only one process at a time."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Virtualization creates virtual machines or environments over real hardware.",
+              "explanation": "Virtualization creates virtual machines or environments on top of physical hardware.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In virtualization terminology, what does the VMM or hypervisor do?",
+              "choices": [
+                "Stores only user documents.",
+                "Creates and runs virtual machines by providing a virtual hardware interface.",
+                "Schedules only multimedia disk blocks.",
+                "Encrypts only file names."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The VMM controls the real machine and presents virtual machines to guests.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is usually running inside a VM as the guest?",
+              "choices": [
+                "Only a physical CPU register.",
+                "Only a BIOS firmware password.",
+                "An operating system or application environment.",
+                "Only a disk sector."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Guests normally believe they are running on their own machine.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a Type 0 hypervisor?",
+              "choices": [
+                "An application running on top of a normal host OS.",
+                "A guest OS modified to call the hypervisor.",
+                "A Java bytecode interpreter.",
+                "A hardware or firmware-based virtualization solution."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Type 0 hypervisors are implemented by hardware/firmware features such as partitions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which examples match Type 0 hypervisors from the lecture?",
+              "choices": [
+                "IBM LPARs and Oracle LDOMs.",
+                "VMware Workstation and VirtualBox.",
+                "JVM and .NET CLR.",
+                "BSD jails and Solaris zones only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "LPARs and LDOMs are firmware/hardware-style partitioning systems.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3868,15 +3932,31 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a Type 1 hypervisor?",
               "choices": [
-                "A normal user application running inside a host OS only",
-                "A file-system cache",
-                "A page replacement algorithm",
-                "A hypervisor that runs directly on hardware"
+                "A normal desktop application that runs guests inside a host OS.",
+                "Operating-system-like software that runs directly on hardware to manage guests.",
+                "A programming language virtual machine only.",
+                "A file compression tool."
               ],
               "answer": [
-                3
+                1
               ],
-              "explanation": "Type 1 hypervisors run on bare metal.",
+              "explanation": "Type 1 hypervisors provide virtualization directly on physical hardware.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which examples are Type 1 hypervisors or Type 1-style systems?",
+              "choices": [
+                "Only Java and .NET.",
+                "Only MS-DOS and FAT.",
+                "VMware ESX, XenServer, Hyper-V, and KVM-based systems.",
+                "Only NTFS and ext3."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The lecture lists dedicated and general-purpose OS variants as Type 1.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3884,31 +3964,639 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a Type 2 hypervisor?",
               "choices": [
-                "A hardware-only router",
-                "A distributed lock",
-                "A hypervisor that runs as a process on a host operating system",
-                "A CPU instruction that disables memory"
+                "Firmware that dedicates all hardware to partitions.",
+                "A CPU instruction used for binary translation.",
+                "A disk scheduling algorithm.",
+                "A VMM application running on a standard host operating system."
               ],
               "answer": [
-                2
+                3
               ],
-              "explanation": "Type 2 hypervisors are hosted by an existing OS.",
+              "explanation": "Type 2 hypervisors are hosted applications such as VMware Workstation or VirtualBox.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why are nested page tables useful?",
+              "prompt": "Why are Type 2 hypervisors convenient for students or personal machines?",
               "choices": [
-                "They are used only for sound playback",
-                "They help translate guest virtual addresses to real physical memory efficiently",
-                "They replace all user accounts",
-                "They remove the need for storage"
+                "They require no host OS changes and can run guests on Windows, Linux, or macOS.",
+                "They require replacing all hardware firmware.",
+                "They cannot run multiple guests.",
+                "They only work on IBM mainframes."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hosted hypervisors are easy to install on normal systems.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is paravirtualization?",
+              "choices": [
+                "Exact hardware duplication with no guest changes ever.",
+                "A technique where the guest OS is modified to cooperate with the VMM for better performance.",
+                "Running a Java class file in a JVM.",
+                "A disk block allocation method."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Nested paging assists memory virtualization.",
+              "explanation": "Paravirtualized guests use hypervisor-aware interfaces.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is paravirtualization less needed on modern CPUs?",
+              "choices": [
+                "Modern CPUs removed all privilege levels.",
+                "Guests no longer need I/O.",
+                "Hardware virtualization support reduced the need to modify guests.",
+                "Virtual machines can no longer use memory."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Hardware support can handle operations that once required guest changes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is programming-environment virtualization?",
+              "choices": [
+                "Dedicating a physical GPU to one VM.",
+                "Partitioning firmware into hardware domains.",
+                "Using only trap-and-emulate for kernel code.",
+                "Providing a virtual execution environment and APIs for programs, such as JVM or .NET."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "This virtualizes a language/runtime environment instead of real hardware.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is emulation?",
+              "choices": [
+                "Translating guest instructions so software for one CPU can run on a different CPU.",
+                "Running a guest only on identical underlying CPU hardware.",
+                "Sharing one file-system volume between guests.",
+                "Moving a VM live between hosts."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Emulation allows cross-architecture execution but is much slower.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is emulation usually slower than virtualization?",
+              "choices": [
+                "It always has more physical CPUs than needed.",
+                "It must translate all guest CPU instructions to native CPU instructions.",
+                "It avoids every privileged instruction.",
+                "It never touches memory."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Instruction translation creates major overhead.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is application containment?",
+              "choices": [
+                "Running a full guest kernel for every app.",
+                "Replacing every app with a hypervisor.",
+                "Segregating applications from the OS to provide virtualization-like isolation without full hardware virtualization.",
+                "Using only firmware partitions."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Zones and jails isolate applications while sharing the host kernel.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How do containers or zones differ from full VMs?",
+              "choices": [
+                "They always run a separate guest kernel per app.",
+                "They require a different CPU architecture.",
+                "They cannot isolate networking.",
+                "They share one host kernel while giving applications isolated resources and namespaces."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Application containment virtualizes OS views rather than full hardware.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What formal condition says the VMM must control resources?",
+              "choices": [
+                "The VMM is in complete control of system resources.",
+                "The guest can bypass the VMM for all devices.",
+                "The VMM should never trap privileged operations.",
+                "The host OS must be unaware of all guests."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The classical definition includes control, equivalence, and efficiency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a VCPU?",
+              "choices": [
+                "A physical CPU dedicated only to firmware.",
+                "A virtual representation of a guest CPU state.",
+                "A network packet priority class.",
+                "A page-file entry."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The VMM saves and restores VCPU state when scheduling guests.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is virtualization difficult on a simple dual-mode CPU?",
+              "choices": [
+                "User code cannot run natively.",
+                "There are too many privilege levels already.",
+                "A guest kernel cannot safely run in real kernel mode, so virtual kernel behavior must be simulated.",
+                "The CPU has no user mode."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The VMM must protect itself while letting guest kernels believe they are privileged.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is trap-and-emulate?",
+              "choices": [
+                "The VMM translates every user instruction even when not privileged.",
+                "The guest directly controls all physical devices.",
+                "The host OS ignores all guest errors.",
+                "Privileged guest operations trap to the VMM, which performs or simulates them and returns control."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Trap-and-emulate is a core virtualization technique.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does guest kernel code run slower with trap-and-emulate?",
+              "choices": [
+                "Privileged operations cause traps and VMM handling overhead.",
+                "User-mode code is always interpreted.",
+                "The guest has no virtual CPU.",
+                "The VMM never receives control."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Kernel-like guest operations need VMM intervention.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why was binary translation needed on older x86 CPUs?",
+              "choices": [
+                "x86 had no instructions at all.",
+                "Some sensitive instructions behaved differently without trapping in user mode.",
+                "All x86 instructions were privileged.",
+                "Binary translation was used only for Java bytecode."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Problematic instructions such as popf could not be handled by simple trap-and-emulate.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does binary translation handle guest kernel-mode code?",
+              "choices": [
+                "It lets all instructions run in real kernel mode.",
+                "It stops all user-mode execution.",
+                "The VMM examines instructions and replaces problematic ones with safe sequences.",
+                "It disables the guest page tables."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Binary translation rewrites sensitive code paths before execution.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the purpose of nested page tables?",
+              "choices": [
+                "Store Java class files.",
+                "Schedule disk requests by deadline.",
+                "Hold ACL entries for files.",
+                "Represent guest page-table state while the VMM keeps control of real address translation."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "NPTs separate guest-visible physical memory from machine memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What performance cost can nested page tables cause?",
+              "choices": [
+                "More TLB misses and slower memory translation.",
+                "No memory translation at all.",
+                "Only faster disk access.",
+                "No guest isolation."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Extra translation layers can increase TLB pressure.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What did Intel VT-x and AMD-V add?",
+              "choices": [
+                "A new file system for guest disks.",
+                "Hardware support with host and guest modes for virtualization.",
+                "A replacement for all device drivers.",
+                "A Java garbage collector."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Hardware assistance reduces the need for binary translation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In hardware-assisted virtualization, what causes traps to the VMM?",
+              "choices": [
+                "Every user-level arithmetic instruction.",
+                "Only opening a text file.",
+                "Access to virtualized devices or privileged instructions configured to exit guest mode.",
+                "Only rendering a GUI window."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The CPU can run guests while trapping selected sensitive events.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the typical VM lifecycle?",
+              "choices": [
+                "Encrypt VM, print it, then archive the keyboard.",
+                "Boot firmware, format disk, remove CPU.",
+                "Only create a VM with no resource assignment.",
+                "Create VM, assign resources, run it, then delete it when no longer needed."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "VMs are managed objects with configurable CPU, memory, network, and storage.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is virtual machine sprawl?",
+              "choices": [
+                "Too many VMs are created, making history and state difficult to track.",
+                "A VM uses too few resources.",
+                "A hypervisor cannot create any VM.",
+                "All VMs are deleted automatically."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Easy VM creation can lead to uncontrolled growth.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is I/O challenging for Type 0 hypervisors?",
+              "choices": [
+                "Type 0 guests cannot use CPUs.",
+                "It is hard to dedicate enough physical devices and controllers to every guest.",
+                "Firmware cannot create partitions.",
+                "Every guest has unlimited devices."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Shared I/O often needs a control partition or special design.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What role can a control partition play in Type 0 systems?",
+              "choices": [
+                "Translate Java bytecode into native code.",
+                "Store guest source code only.",
+                "Run daemons that other guests communicate with for shared I/O.",
+                "Replace all VCPUs."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Control partitions help provide shared services.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are Type 1 hypervisors common in datacenters?",
+              "choices": [
+                "They run only as browser tabs.",
+                "They cannot manage memory.",
+                "They require one physical server per guest.",
+                "They consolidate many OSs and apps, support snapshots, cloning, and movement between hosts."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Type 1 hypervisors act like datacenter operating systems.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is direct pass-through I/O?",
+              "choices": [
+                "Giving a guest direct access to a physical device to reduce hypervisor involvement.",
+                "Copying every I/O byte through the VMM twice.",
+                "Running a VM without storage.",
+                "Translating Java bytecode."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Less hypervisor involvement can improve I/O performance.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does NAT provide for guest networking?",
+              "choices": [
+                "It gives every guest a dedicated physical NIC.",
+                "It hides the guest local address by translating traffic through the VMM or host.",
+                "It disables network access.",
+                "It moves memory pages to disk."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "NAT lets guests communicate using translated addresses.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is CPU overcommitment in virtualization?",
+              "choices": [
+                "Every guest receives a dedicated physical CPU forever.",
+                "The VMM disables CPU scheduling.",
+                "Configured VCPUs exceed available physical CPUs, so the VMM schedules them over time.",
+                "Only one VM can ever run."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Overcommitment is common when not enough CPUs exist for all VCPUs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can CPU oversubscription break a guest time-sharing assumption?",
+              "choices": [
+                "The guest scheduler always sees physical time exactly.",
+                "VCPUs cannot be context switched.",
+                "Guests cannot run time-sharing schedulers.",
+                "A guest 100 ms slice may take much longer in real time because the VMM steals cycles."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "VMM scheduling affects guest-visible timing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is double paging?",
+              "choices": [
+                "The guest thinks a page is in memory while the VMM has moved it to backing store.",
+                "Two guests share a CPU core.",
+                "A disk scheduler moves the head twice.",
+                "A Java object has two class files."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Double paging can occur when both guest and VMM manage memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a balloon memory manager?",
+              "choices": [
+                "A disk image format.",
+                "A pseudo-device driver inside the guest that allocates or releases memory under VMM direction.",
+                "A CPU trap handler.",
+                "A Java bytecode verifier."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Ballooning helps the VMM reclaim or return guest memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How can VMM page deduplication save memory?",
+              "choices": [
+                "Every guest receives duplicated pages only.",
+                "All memory is encrypted and hidden.",
+                "Identical pages loaded in multiple guests can be mapped to the same physical page.",
+                "The VMM deletes guest page tables."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Deduplication reduces memory use when guests share identical content.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is storage for VMs usually represented as disk images?",
+              "choices": [
+                "It prevents VMs from booting.",
+                "It requires one physical disk partition per guest always.",
+                "It eliminates backups.",
+                "It allows guest disks and configuration to be stored as files or VMM-managed objects."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Disk images make copying, moving, and creating guests easier.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is P-to-V conversion?",
+              "choices": [
+                "Converting native physical disk blocks into a VMM virtual disk format.",
+                "Converting a Java class into bytecode.",
+                "Changing a Type 2 hypervisor into firmware.",
+                "Moving CPU time from guest to host."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Physical-to-virtual conversion migrates existing systems into VM format.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is live migration?",
+              "choices": [
+                "Deleting a VM and reinstalling it later.",
+                "Moving a running guest from one host to another without interrupting user access.",
+                "Running an emulator on a different CPU.",
+                "Creating a Java object at runtime."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Live migration is a major VMM feature for maintenance and load balancing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens near the end of live migration?",
+              "choices": [
+                "The guest is shut down for a full reinstall.",
+                "The target ignores memory state.",
+                "The source freezes the guest, sends final VCPU state and dirty pages, then the target starts it.",
+                "All pages are sent only after deleting the source."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The final stop-and-copy phase transfers remaining changed state.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What type of hypervisor is VMware Workstation?",
+              "choices": [
+                "Type 0 firmware partitioning.",
+                "A paravirtualized guest only.",
+                "A programming language VM only.",
+                "Type 2 hypervisor running as an application on a host OS."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "VMware Workstation runs on top of a native host OS.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the JVM an example of?",
+              "choices": [
+                "Programming-environment virtualization.",
+                "Type 0 hardware partitioning.",
+                "Bare-metal Type 1 hypervisor.",
+                "Disk live migration."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The JVM provides a virtual execution environment for Java bytecode.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does Java bytecode provide?",
+              "choices": [
+                "Direct execution only on one CPU model.",
+                "Architecture-neutral code loaded and executed by a JVM built for the host architecture.",
+                "A physical disk format.",
+                "A hypervisor control partition."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Java programs compile to bytecode for portability.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does the JVM use JIT compilation?",
+              "choices": [
+                "To slow every program deliberately.",
+                "To create nested page tables.",
+                "To translate bytecode into native code and cache it for speed.",
+                "To dedicate a GPU to a VM."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "JIT improves runtime performance over pure interpretation.",
               "fullExplanation": null,
               "points": 1
             }
@@ -3926,65 +4614,849 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What makes multimedia data different from ordinary files?",
+              "prompt": "Which data type does a multimedia OS handle in addition to conventional files?",
               "choices": [
-                "Audio/video are continuous media with timing constraints",
-                "Multimedia data never needs storage",
-                "Multimedia files are always smaller than text files",
-                "Audio/video cannot be scheduled"
+                "Continuous media such as audio and video.",
+                "Only process credentials.",
+                "Only kernel module symbols.",
+                "Only password salts."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Continuous media must be delivered at the right rate and time.",
+              "explanation": "Multimedia systems deal with ordinary files plus time-sensitive continuous media.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is timing important in multimedia playback?",
+              "prompt": "Why is multimedia data difficult for an OS?",
               "choices": [
-                "The OS must always stop playback after one second",
-                "Multimedia has no deadlines",
-                "The CPU cannot process audio",
-                "Delays or missed deadlines can cause glitches such as jitter or bad synchronization"
-              ],
-              "answer": [
-                3
-              ],
-              "explanation": "Multimedia quality depends on meeting timing constraints.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Which OS issue is important for lip-sync?",
-              "choices": [
-                "Only file name length",
-                "Only bootloader design",
-                "Synchronization between media streams",
-                "Only page coloring"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "Audio and video streams must remain synchronized.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Why should multimedia OS designs minimize copying data?",
-              "choices": [
-                "To avoid all memory use",
-                "To reduce latency and overhead for high-rate media",
-                "To make playback slower",
-                "To increase disk fragmentation"
+                "It is always tiny and delay-insensitive.",
+                "It is large, high-rate, and sensitive to playback timing.",
+                "It never uses storage.",
+                "It has no synchronization needs."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Extra copies consume time and bandwidth.",
+              "explanation": "Audio/video require timely delivery at high data rates.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the primary OS challenge with continuous media?",
+              "choices": [
+                "Only encrypting every file name.",
+                "Only changing process UIDs.",
+                "Real-time processing and delivery under timing constraints.",
+                "Only compiling source code."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Continuous media must arrive and be presented on time.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does multimedia differ from strict physical real-time control systems?",
+              "choices": [
+                "Multimedia deadlines are always more catastrophic.",
+                "Multimedia has no deadlines.",
+                "Physical control systems never care about timing.",
+                "A missed multimedia deadline may degrade quality, while a physical control miss may be catastrophic."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Multimedia often tolerates occasional small deadline misses.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is multimedia scheduling often simplified?",
+              "choices": [
+                "Time-critical operations are generally periodic.",
+                "All media tasks are random one-time jobs.",
+                "No task repeats during playback.",
+                "Multimedia never uses scheduling."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Continuous media streams often have periodic processing demands.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which OS areas are key for multimedia support?",
+              "choices": [
+                "Only user authentication.",
+                "Process management, file systems, synchronization, and memory management.",
+                "Only registry management.",
+                "Only firmware boot."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Multimedia affects scheduling, disk layout, timing sync, and data movement.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a deadline?",
+              "choices": [
+                "The first time a process is created.",
+                "The size of a disk block.",
+                "The latest acceptable time to present or finish a processing result.",
+                "The number of users in a system."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Deadlines define when media results must be ready.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a soft deadline?",
+              "choices": [
+                "A deadline that must never be missed under any condition.",
+                "A memory address used for buffers.",
+                "A file-system allocation unit.",
+                "A deadline where occasional or small misses do not cause total failure."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Video streaming commonly uses soft deadlines.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a hard deadline?",
+              "choices": [
+                "A deadline whose miss causes system failure.",
+                "A deadline used only for online video buffering.",
+                "A delay that is never checked.",
+                "A QoS value for file names."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hard deadlines are dictated by physical real-time processes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the goal of multimedia resource management?",
+              "choices": [
+                "Allow every new connection regardless of capacity.",
+                "Maintain timing guarantees along the whole data path without violating existing connections.",
+                "Maximize disk fragmentation.",
+                "Ignore existing streams when adding new ones."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Resource managers must preserve guarantees for active streams.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an active resource?",
+              "choices": [
+                "A passive storage capacity such as file-system space only.",
+                "A user password.",
+                "A resource that provides a service, such as CPU or a network adapter.",
+                "A completed disk request."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Active resources perform work and are often exclusive.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a passive resource?",
+              "choices": [
+                "Only a CPU core.",
+                "Only a network adapter.",
+                "Only an interrupt handler.",
+                "A required system capability such as memory or a file system."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Passive resources support active resources and are usually more shareable.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which QoS parameter is determined by data rate and data-unit size?",
+              "choices": [
+                "Throughput.",
+                "Jitter.",
+                "Reliability.",
+                "Seek time only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Throughput describes how much data must be processed or transferred.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does local delay measure?",
+              "choices": [
+                "Total transmission from source to destination.",
+                "The maximum time a specific resource may take to complete a task.",
+                "The number of media files in storage.",
+                "The amount of RAM in a PC."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Local delay is per-resource timing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does end-to-end delay measure?",
+              "choices": [
+                "Only disk head movement.",
+                "Only CPU context switch time.",
+                "Total time from source to destination.",
+                "Only memory allocation time."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "End-to-end delay covers the whole path.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is delay jitter?",
+              "choices": [
+                "The maximum file size.",
+                "The number of disk cylinders.",
+                "A password recovery method.",
+                "The allowed variance in data arrival time."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Jitter measures timing variation, important for smooth playback.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is forward error correction preferred for time-critical media?",
+              "choices": [
+                "Retransmission may arrive too late to be useful.",
+                "It always reduces bandwidth to zero.",
+                "It eliminates all storage requirements.",
+                "It replaces scheduling."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "FEC avoids waiting for retransmission during playback.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens during resource negotiation?",
+              "choices": [
+                "The OS immediately accepts all streams.",
+                "The client gives QoS needs and the resource manager tests whether capacity exists.",
+                "The file system deletes old streams.",
+                "The scheduler ignores timing."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Admission control checks whether guarantees can be met.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are the resource management phases?",
+              "choices": [
+                "Booting, logging in, and shutdown.",
+                "Fork, exec, and wait only.",
+                "Scheduling, QoS computation, and resource reservation.",
+                "Seek, rotate, and transfer only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The lecture lists these three phases.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the pessimistic allocation approach?",
+              "choices": [
+                "Reserve based only on average workload.",
+                "Never reserve resources.",
+                "Always overload the system.",
+                "Reserve for the worst case to avoid conflicts, at the cost of low utilization."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Pessimistic schemes are conservative.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the optimistic allocation approach?",
+              "choices": [
+                "Reserve based on average workload and monitor overload situations.",
+                "Reserve worst-case resources forever.",
+                "Reject every request.",
+                "Avoid monitoring entirely."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Optimistic schemes improve utilization but need overload handling.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the continuous media resource model use as stream units?",
+              "choices": [
+                "Process IDs.",
+                "Logical Data Units.",
+                "Page table entries.",
+                "Access tokens."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "LDUs model media stream units along an end-to-end path.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which parameters define LBAP?",
+              "choices": [
+                "PID, UID, and GID.",
+                "Seek, latency, and transfer only.",
+                "Maximum Burstiness, Maximum Message Rate, and Maximum Message Size.",
+                "Read, write, and execute bits."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "LBAP uses B, R, and M.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the LBAP buffer-size formula?",
+              "choices": [
+                "S = B / M.",
+                "S = R - M.",
+                "S = deadline x seek time.",
+                "S = M x (B + 1)."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The formula sizes buffers for bursty arrivals.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is logical backlog?",
+              "choices": [
+                "The number of messages ahead of schedule when a message arrives.",
+                "The number of failed login attempts.",
+                "The number of mounted file systems.",
+                "The number of CPU cores."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Logical backlog tracks work that arrives early.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When is a message considered critical in the workahead model?",
+              "choices": [
+                "When it is encrypted.",
+                "When its logical arrival time has passed.",
+                "When it is stored contiguously.",
+                "When it is a text file."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Once logical arrival time passes, delay threatens playback.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the dispatcher do in process management?",
+              "choices": [
+                "Stores multimedia files contiguously.",
+                "Creates password hashes.",
+                "Maps ready processes to resources according to scheduling policy.",
+                "Calculates disk block size."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The dispatcher is the kernel component that selects what runs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are the multimedia scheduling goals?",
+              "choices": [
+                "Always prefer text over video.",
+                "Ignore connection overhead.",
+                "Run only one stream at a time.",
+                "Avoid starvation for uncritical work and prevent priority inversion for time-critical processes."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Both critical and noncritical work must be managed properly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which two basic real-time scheduling algorithms are named?",
+              "choices": [
+                "Earliest Deadline First and Rate Monotonic Scheduling.",
+                "FIFO and LRU only.",
+                "SCAN and C-SCAN only.",
+                "PAM and ACL only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "EDF and RM are the lecture basic algorithms.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What parameters define a scheduling task in the system model?",
+              "choices": [
+                "PID, UID, GID, and namespace.",
+                "Start time, processing time, deadline, and period.",
+                "Cylinder, sector, track, and cluster.",
+                "Salt, hash, key, and signature."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Tasks are described as (s, e, d, p).",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is processor utilization for task i?",
+              "choices": [
+                "Deadline divided by burstiness.",
+                "Message size divided by disk size.",
+                "Processing time divided by period, ei/pi.",
+                "Seek time plus latency."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Utilization measures CPU demand relative to available period.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does EDF choose priority?",
+              "choices": [
+                "The task with the largest file name runs first.",
+                "The task with the lowest data rate runs first always.",
+                "The newest task always runs first.",
+                "The task with the nearest deadline gets highest priority."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "EDF is dynamic and deadline-driven.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can EDF behave poorly during overload?",
+              "choices": [
+                "It has no absolute guarantee when total demand exceeds capacity.",
+                "It cannot schedule periodic tasks.",
+                "It is always static priority.",
+                "It ignores deadlines completely."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "EDF is optimal under feasible loads but not magic under overload.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does the TDS extension help EDF overload?",
+              "choices": [
+                "It doubles every deadline.",
+                "It terminates jobs that can no longer finish before deadline.",
+                "It disables scheduling tests.",
+                "It stores all media in one block."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "TDS avoids wasting time on impossible jobs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are mandatory and optional task parts useful?",
+              "choices": [
+                "Mandatory parts are always cancelled first.",
+                "They eliminate all CPU demand.",
+                "Optional parts can be cancelled during overload, preserving essential output.",
+                "They are used only for disk formatting."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Scalable media can reduce quality by dropping optional work.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does Rate Monotonic assign priority?",
+              "choices": [
+                "Nearest deadline always wins dynamically.",
+                "Lowest bandwidth always wins.",
+                "Largest file first.",
+                "Higher request rate means higher static priority."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "RM is static and rate-based.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What assumption is required for Rate Monotonic scheduling?",
+              "choices": [
+                "Tasks are periodic and independent.",
+                "Tasks are all nonperiodic and dependent.",
+                "Deadlines do not exist.",
+                "All tasks have zero processing time."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "RM works for periodic independent task sets.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the RM utilization bound indicate?",
+              "choices": [
+                "If disk seek time is zero, all files are contiguous.",
+                "If total ei/pi is below the bound, all deadlines are guaranteed.",
+                "If passwords are salted, CPU is fair.",
+                "If jitter is high, all streams succeed."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The bound is a schedulability test.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Least Laxity First based on?",
+              "choices": [
+                "Shortest disk seek time only.",
+                "Largest message size only.",
+                "Slack time: deadline minus current time minus remaining processing time.",
+                "Process ID order."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "LLF dynamically prioritizes the least slack.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is LLF difficult to implement?",
+              "choices": [
+                "It never uses deadlines.",
+                "It only works for file compression.",
+                "It requires no preemption.",
+                "Processing times may be unpredictable."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Accurate remaining time is hard to know.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can preemptive scheduling reduce priority inversion?",
+              "choices": [
+                "Higher-priority work can interrupt lower-priority work.",
+                "It forces all work to finish in arrival order.",
+                "It prevents interruption entirely.",
+                "It removes all deadlines."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Preemption lets urgent tasks regain the resource.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which service is required from multimedia file systems?",
+              "choices": [
+                "Only password authentication.",
+                "Constant and timely retrieval of digitized video and audio.",
+                "Only process creation.",
+                "Only source-code compilation."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Media playback depends on timely disk service.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a problem with contiguous storage?",
+              "choices": [
+                "It always makes random access impossible.",
+                "It never supports direct access.",
+                "Expanding a file can require moving it and causes external fragmentation.",
+                "It prevents sequential reads."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Contiguous storage is fast but inflexible.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a problem with non-sequential storage?",
+              "choices": [
+                "It always eliminates seek time.",
+                "It cannot store small files.",
+                "It requires no metadata.",
+                "Random access can be costly because prior blocks or metadata paths may be needed."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Non-contiguous layouts can hurt media streaming.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which disk access-time factor is usually largest?",
+              "choices": [
+                "Seek time.",
+                "Data transfer time only.",
+                "CPU scheduling time.",
+                "Password hashing time."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Moving the disk head is usually the biggest mechanical delay.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does SSTF disk scheduling choose?",
+              "choices": [
+                "The oldest request always.",
+                "The request with the shortest seek time from the current head position.",
+                "The earliest multimedia deadline only.",
+                "The largest file first."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "SSTF reduces seek time but may starve edge requests.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does C-SCAN differ from SCAN?",
+              "choices": [
+                "C-SCAN never moves the disk head.",
+                "C-SCAN is only CPU scheduling.",
+                "C-SCAN serves in one direction then returns to the start for fairer service.",
+                "C-SCAN always chooses shortest seek."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Circular SCAN makes wait times more uniform.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can plain disk EDF perform poorly for multimedia?",
+              "choices": [
+                "It always minimizes seek time.",
+                "It cannot use deadlines.",
+                "It requires contiguous storage.",
+                "It ignores physical head position, causing excessive seek time."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Deadline order alone may destroy disk throughput.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does SCAN-EDF combine?",
+              "choices": [
+                "Earliest deadline ordering with SCAN direction for equal-deadline requests.",
+                "Only FCFS with password hashing.",
+                "Only CFS with page replacement.",
+                "Only FEC with encryption."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "SCAN-EDF balances timing and disk movement efficiency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does Group Sweeping Scheduling work?",
+              "choices": [
+                "All requests are served strictly by shortest seek.",
+                "Streams are grouped by similar deadlines; groups are served in order and requests inside a group use SCAN.",
+                "Every stream gets a separate disk.",
+                "Only one group exists forever."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "GSS reduces seek overhead while respecting deadline groups.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the mixed disk scheduling strategy based on?",
+              "choices": [
+                "Only FCFS and no buffering.",
+                "Only password authentication.",
+                "A balance strategy and shortest seek.",
+                "Only static priority CPU scheduling."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Mixed scheduling changes behavior based on urgency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the mixed strategy, when should the balance strategy be used?",
+              "choices": [
+                "When urgency is small and buffers are full enough.",
+                "Only when no media stream exists.",
+                "Only for text files.",
+                "When urgency is large and buffers are close to running out."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "High urgency means streams need data soon.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the mixed strategy, when is shortest seek safe?",
+              "choices": [
+                "When urgency is small.",
+                "When all buffers are empty.",
+                "When deadlines are already missed.",
+                "When media is encrypted."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Low urgency gives room to optimize disk movement.",
               "fullExplanation": null,
               "points": 1
             }
@@ -9738,37 +11210,149 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Lecture 13 - OS for AI and Machine Learning",
-          "description": "Manual questions from lec13 slides.md, excluding the out-of-exam slide range.",
+          "description": "Manual questions from lecture 13 slides.md, excluding the out-of-exam slide range.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "Why do AI/ML workloads need hardware acceleration?",
+              "prompt": "Why do AI and ML workloads need special OS support?",
               "choices": [
-                "AI workloads never use GPUs",
-                "AI workloads are always single-threaded",
-                "Acceleration is used only for file compression",
-                "Deep learning requires massive parallelism for operations such as matrix multiplication"
+                "They rely on massive parallelism, accelerators, extreme memory use, and high-throughput I/O.",
+                "They run only small sequential programs.",
+                "They never use GPUs or memory sharing.",
+                "They avoid all scheduling and drivers."
               ],
               "answer": [
-                3
+                0
               ],
-              "explanation": "AI workloads rely heavily on parallel computation, often on GPUs or other accelerators.",
+              "explanation": "AI workloads stress GPU scheduling, memory, and I/O differently from normal CPU-centric apps.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What do CUDA and ROCm provide in AI systems?",
+              "prompt": "Why are specialized drivers such as CUDA or ROCm important?",
               "choices": [
-                "A CPU-only scheduling policy",
-                "A multimedia synchronization protocol",
-                "Low-level GPU software support for efficient linear algebra operations",
-                "A file-system journaling format"
+                "They replace all file systems.",
+                "They let AI software use GPU hardware efficiently for linear algebra operations.",
+                "They prevent matrix multiplication.",
+                "They are only used for password hashing."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Drivers bridge AI frameworks and accelerator hardware.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which workload must an AI-optimized OS coordinate across multi-GPU clusters?",
+              "choices": [
+                "Only one foreground text editor.",
+                "Only disk seek requests.",
+                "Thousands of concurrent threads and accelerator tasks while avoiding communication bottlenecks.",
+                "Only boot firmware stages."
               ],
               "answer": [
                 2
               ],
-              "explanation": "CUDA and ROCm are GPU computing ecosystems used by AI frameworks.",
+              "explanation": "Large GPU clusters need careful scheduling and communication placement.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is unified memory useful for AI workloads?",
+              "choices": [
+                "It makes all memory read-only.",
+                "It prevents GPUs from accessing data.",
+                "It replaces accelerators with disks.",
+                "It allows CPUs and GPUs to share memory/pooling and reduce copies or crashes."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Unified memory helps high-throughput CPU-GPU data movement.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What do agentic AI workflows require from OS-level infrastructure?",
+              "choices": [
+                "Shared context, permissions, budgets, governance, auditing, and traceability.",
+                "Only a local printer queue.",
+                "No logging or permission control.",
+                "A single isolated model with no state sharing."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Multiple agents need safe shared state and governance.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does predictive resource allocation differ from traditional fair management?",
+              "choices": [
+                "It only reacts after every process blocks.",
+                "It forecasts needs and proactively allocates cache, compute, storage, and memory.",
+                "It never uses telemetry.",
+                "It gives every process equal resources forever."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "AI workloads benefit from prediction instead of static heuristics.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the architectural shift caused by LLMs and foundation models?",
+              "choices": [
+                "From GPUs to floppy-only systems.",
+                "From dynamic optimization to fixed single-task systems.",
+                "From CPU-centric static OS designs toward accelerator-centric self-optimizing platforms.",
+                "From resource management to no OS at all."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Modern AI makes GPU/NPU the primary compute unit.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How do traditional apps differ from AI workloads?",
+              "choices": [
+                "Traditional apps always require more GPUs than AI.",
+                "AI workloads are always purely sequential.",
+                "AI workloads have predictable tiny memory access only.",
+                "Traditional apps are often control-flow or I/O bound; AI workloads are compute-bound and massively parallel."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "AI commonly uses GEMM and stochastic massive parallelism.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What operation consumes much GPU time in ML workloads?",
+              "choices": [
+                "Dense matrix multiplication such as GEMM.",
+                "Opening registry keys.",
+                "Disk formatting.",
+                "DNS resolution."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "GEMM can consume 60 to 80 percent of GPU time.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9776,47 +11360,1055 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the memory wall in LLM systems?",
               "choices": [
-                "A Windows-only page table",
-                "A bottleneck where memory capacity or bandwidth limits model performance",
-                "A physical wall around the data center",
-                "A rule that prevents caching"
+                "A firewall that blocks all network traffic.",
+                "A bottleneck where memory bandwidth and capacity limit latency and model serving.",
+                "A disk partition used for swap.",
+                "A CPU-only scheduling queue."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Large models can be limited by moving and storing huge amounts of data.",
+              "explanation": "LLMs can be limited by moving and storing KV/cache data more than raw compute.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a KV cache used for in large language models?",
+              "prompt": "What does a KV cache store?",
               "choices": [
-                "Storing key/value vectors so previous token context does not need to be recomputed",
-                "Saving passwords in plain text",
-                "Replacing all GPU drivers",
-                "Scheduling printers"
+                "Only encrypted passwords.",
+                "Only GPU temperature logs.",
+                "Intermediate key and value vectors used to avoid recomputing attention over previous tokens.",
+                "Only disk block addresses."
               ],
               "answer": [
-                0
+                2
               ],
-              "explanation": "KV cache speeds generation by reusing attention-related intermediate values.",
+              "explanation": "KV cache speeds autoregressive generation.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How do training and inference priorities differ?",
+              "prompt": "How does KV cache memory usage scale?",
               "choices": [
-                "Training never uses GPUs; inference always uses CPUs only",
-                "Both ignore latency and throughput",
-                "Inference requires no memory management",
-                "Training favors throughput; inference often favors low time to first token"
+                "Always stays constant regardless of input.",
+                "Only with number of CPU cores.",
+                "Only with disk seek time.",
+                "Linearly with sequence length and batch size."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Training and serving optimize different performance goals.",
+              "explanation": "Longer contexts and larger batches require more KV memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is accelerator-centric scheduling concerned with?",
+              "choices": [
+                "Interconnect bandwidth, HBM saturation, and training vs inference priorities.",
+                "Only keyboard input timing.",
+                "Only printer queues.",
+                "Only NTFS compression."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Scheduling must match hardware limits such as NVLink and high-bandwidth memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the main priority for AI training workloads?",
+              "choices": [
+                "Lowest Time to First Token only.",
+                "High throughput such as tokens per second.",
+                "Smallest file name.",
+                "Shortest disk seek only."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Training aims to process as much work as possible.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the main priority for inference serving?",
+              "choices": [
+                "Maximum batch delay forever.",
+                "No memory reuse.",
+                "Low Time to First Token and responsiveness.",
+                "Only offline throughput."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Interactive inference cares about latency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which frameworks are examples of large-scale AI training infrastructure?",
+              "choices": [
+                "NTFS and FAT.",
+                "TinyOS and nesC only.",
+                "SMB and NetBIOS.",
+                "Megatron-LM and DeepSpeed."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "These frameworks manage huge models with parallelism.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which inference engines are named for optimizing responsiveness?",
+              "choices": [
+                "vLLM and SGLang.",
+                "JFFS2 and UBIFS.",
+                "VMware and VirtualBox.",
+                "PAM and ACL."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "They use advanced memory techniques for serving.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does resource management in AI systems optimize?",
+              "choices": [
+                "Only desktop wallpaper.",
+                "Compute hardware, data, human capital, cost, performance, and energy.",
+                "Only single-user file permissions.",
+                "Only bootloader signatures."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "AI resource management balances complex infrastructure demands.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which hardware types are common in AI compute management?",
+              "choices": [
+                "Only keyboard controllers.",
+                "Only magnetic tape drives.",
+                "GPUs, TPUs, and specialized ASICs.",
+                "Only VGA text adapters."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "AI systems rely on heterogeneous accelerators.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is green scheduling?",
+              "choices": [
+                "Scheduling only green-colored processes.",
+                "Disabling all GPUs.",
+                "Always using the nearest deadline first.",
+                "Routing workloads to lower-carbon times or data centers and power-gating idle nodes."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Energy-aware scheduling reduces power and carbon cost.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is data pipelining important for AI?",
+              "choices": [
+                "It prevents GPUs from being starved while streaming data and model updates.",
+                "It blocks all GPU execution.",
+                "It replaces tensors with passwords.",
+                "It forces CPU-only inference."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "AI accelerators need steady data feeds.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does Kubernetes provide in AI orchestration?",
+              "choices": [
+                "GPU matrix multiplication kernels only.",
+                "Container orchestration, job management, fault tolerance, and scaling support.",
+                "KV cache compression only.",
+                "Disk head movement scheduling only."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Kubernetes manages distributed containerized workloads.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How can reinforcement learning help resource allocation?",
+              "choices": [
+                "It permanently disables telemetry.",
+                "It only compresses model weights.",
+                "An RL agent observes system state and learns sequential allocation decisions.",
+                "It creates page tables manually."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "RL can outperform fixed heuristics for changing workloads.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does predictive analytics do in data centers?",
+              "choices": [
+                "Delete all historical data.",
+                "Run every model on one CPU.",
+                "Prevent serverless scaling.",
+                "Forecast future resource demand from historical patterns to pre-provision hardware."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Prediction helps avoid demand spikes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is serverless computing in this context?",
+              "choices": [
+                "Breaking AI functions into microservices that scale on demand and to zero when idle.",
+                "Keeping every GPU allocated forever.",
+                "Installing one monolithic VM per user.",
+                "Running only firmware partitions."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Serverless reduces idle cost by allocating resources only when needed.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What challenge does heterogeneity create?",
+              "choices": [
+                "All devices become identical.",
+                "Mixed GPU/TPU/NPU generations have different performance and power profiles.",
+                "Scheduling no longer matters.",
+                "Every model fits on one device."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Schedulers must account for diverse hardware.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the scalability challenge in distributed AI training?",
+              "choices": [
+                "Keeping all training on one CPU core.",
+                "Avoiding any interconnect use.",
+                "Balancing large-scale training with communication overhead and network bandwidth limits.",
+                "Replacing models with text files."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "More GPUs can add communication cost.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the cold start problem?",
+              "choices": [
+                "A GPU overheating problem.",
+                "A disk seek problem.",
+                "A password reset problem.",
+                "Predicting resources for new models or sudden traffic with little or no history."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Cold starts lack prior data for prediction.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are compute bubbles?",
+              "choices": [
+                "Idle periods during inter-GPU communication or memory synchronization.",
+                "Encrypted model weights.",
+                "Disk blocks that cannot be read.",
+                "User interface windows."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Bubbles waste GPU time during distributed training.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does Hummingbird exploit?",
+              "choices": [
+                "Only unused disk sectors.",
+                "Small compute bubbles to run low-priority tasks without violating high-priority SLOs.",
+                "Only password hash tables.",
+                "Only bootloader stages."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Hummingbird uses microsecond-scale preemption opportunities.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does Bless do?",
+              "choices": [
+                "Deletes all low-priority jobs.",
+                "Forces every GPU to run one tenant only.",
+                "Groups kernels from different applications to fill resource gaps and guarantee tenant quotas.",
+                "Replaces Kubernetes."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Bless performs adaptive bubbleless sharing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why must AI scheduling be NUMA-aware?",
+              "choices": [
+                "To make all memory local by definition.",
+                "To avoid using GPUs.",
+                "To replace tensor parallelism.",
+                "To reduce latency for cross-device transfers in complex hardware topologies."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "NUMA placement affects data-transfer cost.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is naive KV-cache memory allocation wasteful?",
+              "choices": [
+                "Internal fragmentation can waste 60 to 80 percent of memory.",
+                "It always reduces waste below 1 percent.",
+                "It stores no token data.",
+                "It avoids memory allocation entirely."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Poor allocation leaves unusable gaps.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is PagedAttention?",
+              "choices": [
+                "A disk elevator algorithm.",
+                "A virtual-memory-inspired method that partitions KV cache into fixed-size non-contiguous blocks.",
+                "A GPU side-channel attack.",
+                "A bootloader verification method."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "PagedAttention reduces fragmentation and supports prefix sharing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What benefit does PagedAttention provide?",
+              "choices": [
+                "It prevents all batching.",
+                "It removes the KV cache completely.",
+                "It can reduce KV-cache fragmentation to under 4 percent and share common prefixes.",
+                "It requires contiguous memory only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Paged KV blocks improve memory efficiency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does IceCache do?",
+              "choices": [
+                "Runs Docker containers on GPUs.",
+                "Partitions CPUs into VMs.",
+                "Encrypts all model weights.",
+                "Groups semantically related tokens into the same memory pages to improve retrieval and bandwidth use."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Semantic clustering can increase cache hit rates.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does KV-cache offloading with NVIDIA Dynamo or LMCache enable?",
+              "choices": [
+                "Moving KV cache to CPU RAM or SSD so very long contexts can be served with fewer GPUs.",
+                "Running all inference without storage.",
+                "Making every token recompute from scratch.",
+                "Disabling CPU-GPU transfer."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Offloading extends context capacity beyond GPU memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which tier is primary for active AI computation in tiered memory?",
+              "choices": [
+                "Remote storage.",
+                "GPU HBM.",
+                "CPU DRAM only.",
+                "Optical disk."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "HBM is closest to GPU compute and highest bandwidth.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Stream2LLM designed to reduce?",
+              "choices": [
+                "Disk seek time in NTFS.",
+                "Password cracking cost.",
+                "Time-to-First-Token by overlapping context streaming and prefill.",
+                "Kernel boot time only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Stream2LLM targets long-context I/O latency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What role do GPU drivers play?",
+              "choices": [
+                "Only store user documents.",
+                "Only manage DNS names.",
+                "Only draw desktop icons.",
+                "Translate high-level APIs into hardware commands and manage queues, memory, scheduling, and interrupts."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Drivers bridge CUDA/Vulkan/DirectX APIs and GPU hardware.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are GPU device queues often ring buffers?",
+              "choices": [
+                "CPU and GPU can share command queues through DMA-accessible memory.",
+                "They store passwords in circular form.",
+                "They replace all synchronization.",
+                "They are only file-system directories."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Ring buffers support asynchronous producer-consumer command flow.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the split between user-space and kernel-space GPU drivers?",
+              "choices": [
+                "User-space handles interrupts; kernel-space draws only windows.",
+                "User-space translates API calls; kernel-space manages memory, scheduling, interrupts, and hardware communication.",
+                "Both parts do exactly the same work.",
+                "There is no kernel component."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Modern drivers split high-level translation from privileged hardware control.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does DCGM provide in GPU clusters?",
+              "choices": [
+                "KV-cache token clustering.",
+                "Java bytecode execution.",
+                "Health tracking, telemetry, and thermal reporting.",
+                "Disk journaling."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "NVIDIA DCGM is a management suite over the driver stack.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is GPU direct pass-through?",
+              "choices": [
+                "Splitting GPU silicon into many isolated MIG instances.",
+                "Forwarding CUDA API calls only.",
+                "Sharing one GPU through time slices only.",
+                "Assigning a full physical GPU exclusively to one VM for near-native performance."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Pass-through is fast but not flexible because the GPU is not shared.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is API remoting?",
+              "choices": [
+                "Capturing API calls such as CUDA in a container and forwarding them to a host GPU.",
+                "Giving the VM an entire physical GPU.",
+                "Slicing GPU hardware at silicon level.",
+                "Replacing APIs with disk images."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "API remoting is lightweight but may lack native feature coverage.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is mediated pass-through or vGPU?",
+              "choices": [
+                "A full GPU is dedicated to one VM only.",
+                "A hypervisor abstracts a physical GPU into virtual instances using a split driver model.",
+                "Every CUDA call is sent by email.",
+                "The CPU performs all graphics work."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "vGPU shares a physical GPU among VMs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does MIG differ from time-slicing?",
+              "choices": [
+                "MIG only forwards API calls.",
+                "Time-slicing gives permanent silicon partitions.",
+                "MIG slices GPU hardware into isolated compute and memory partitions, while time-slicing rapidly switches contexts.",
+                "They are identical methods."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "MIG provides stronger hardware-level partitioning.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are MMIO and BARs used for?",
+              "choices": [
+                "They store KV-cache tokens by semantic class only.",
+                "They run Kubernetes jobs.",
+                "They create model checkpoints.",
+                "They let the CPU access GPU control registers through mapped memory windows."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "BARs expose device memory/control regions to the CPU.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does DMA allow the GPU to do?",
+              "choices": [
+                "Read data directly from system RAM without the CPU manually copying every byte.",
+                "Disable all synchronization.",
+                "Convert tensors into files only.",
+                "Create VMs."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "DMA improves high-speed data movement.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are command buffers?",
+              "choices": [
+                "User passwords for GPU access.",
+                "Packaged instructions that the GPU reads asynchronously through DMA.",
+                "Disk journal records.",
+                "OpenStack VM images."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "CPU drivers submit GPU work through command buffers.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are semaphores, fences, and barriers needed in GPU systems?",
+              "choices": [
+                "They replace all memory allocation.",
+                "They compress model weights.",
+                "They coordinate asynchronous CPU-GPU actions and prevent data races.",
+                "They route network packets."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Synchronization primitives order work across devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is distributed AI?",
+              "choices": [
+                "Running every model on one isolated laptop only.",
+                "Removing all collaboration between devices.",
+                "Using only a single GPU with no network.",
+                "Spreading AI training or inference across multiple interconnected nodes or devices."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Distributed AI lets devices collaborate and process data locally or jointly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What metrics measure distributed training success?",
+              "choices": [
+                "Model FLOPs Utilization and training throughput.",
+                "Only disk seek time.",
+                "Only password length.",
+                "Only number of files."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "MFU and throughput reflect training efficiency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is data parallelism?",
+              "choices": [
+                "Splitting a single matrix multiplication across devices.",
+                "Replicating the model while each device processes a different data batch.",
+                "Placing different layers on different devices.",
+                "Partitioning sequence length only."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "DP distributes batches across model replicas.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does ZeRO shard?",
+              "choices": [
+                "Only input tokens by sequence.",
+                "Only CUDA API calls.",
+                "Optimizer states, gradients, and parameters depending on stage.",
+                "Only GPU command buffers."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "ZeRO reduces redundant memory across devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is tensor parallelism?",
+              "choices": [
+                "Replicating the full model per data batch.",
+                "Moving KV cache to SSD.",
+                "Running different microservices on demand.",
+                "Sharding individual layers or operators such as matrix multiplications across GPUs."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "TP splits compute inside layers.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does tensor parallelism need high-bandwidth links?",
+              "choices": [
+                "It is communication-intensive between GPUs working on the same operator.",
+                "It performs no communication.",
+                "It runs only on CPUs.",
+                "It never shares tensors."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "NVLink-like intranode bandwidth is important for TP.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is pipeline parallelism?",
+              "choices": [
+                "Replicating all layers on every device.",
+                "Splitting model layers vertically across devices.",
+                "Partitioning only the sequence dimension.",
+                "Running only optimizer states remotely."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "PP assigns different stages of the model to different devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What problem does pipeline parallelism introduce?",
+              "choices": [
+                "No communication at all.",
+                "Instant perfect utilization.",
+                "Pipeline bubbles where devices wait for micro-batches.",
+                "Elimination of all memory use."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Bubbles occur when stages are idle.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is context parallelism?",
+              "choices": [
+                "Splitting GPU silicon into MIG instances.",
+                "Replicating the whole model for each batch.",
+                "Forwarding API calls to a host GPU.",
+                "Partitioning the sequence dimension to support ultra-long contexts."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "CP distributes activation memory for long contexts.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does 4D hybrid parallelism combine?",
+              "choices": [
+                "Data, pipeline, tensor, and context parallelism.",
+                "SaaS, PaaS, IaaS, and NAS.",
+                "FCFS, SSTF, SCAN, and C-SCAN.",
+                "UID, GID, PID, and SID."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Modern training uses multiple parallelism dimensions together.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which collective aggregates slices from all ranks?",
+              "choices": [
+                "ReduceScatter.",
+                "AllGather.",
+                "All-to-All.",
+                "Broadcast-only."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "AllGather collects pieces so all ranks receive the full result.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which collective reduces data and scatters results?",
+              "choices": [
+                "AllGather.",
+                "All-to-All.",
+                "ReduceScatter.",
+                "Barrier only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "ReduceScatter combines reduction with distribution.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which collective is essential for Mixture-of-Experts routing?",
+              "choices": [
+                "AllGather only.",
+                "ReduceScatter only.",
+                "Semaphore wait.",
+                "All-to-All."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "MoE often routes tokens between many ranks.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the role of Ray in AI orchestration?",
+              "choices": [
+                "Scaling workloads and coordinating distributed processes.",
+                "Providing a GPU hardware BAR.",
+                "Replacing all containers with VMs.",
+                "Running only disk scheduling."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Ray is a framework for distributed AI workload coordination.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a sparing strategy in fault tolerance?",
+              "choices": [
+                "Deleting all checkpoints.",
+                "Pre-allocating spare compute blocks to replace failed nodes quickly.",
+                "Waiting for manual hardware repair before continuing.",
+                "Avoiding health monitoring."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Spares reduce downtime in large training runs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does NodeSweep help with?",
+              "choices": [
+                "Password salting.",
+                "GPU silicon slicing.",
+                "Straggler detection and node health management.",
+                "File compression."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "NodeSweep monitors bad or slow nodes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why do containers matter for AI?",
+              "choices": [
+                "They always provide stronger hardware isolation than VMs.",
+                "They remove dependency management.",
+                "They cannot run on cloud infrastructure.",
+                "They provide reproducible, portable, lightweight environments with packaged frameworks and drivers."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Containers solve environment consistency and deployment portability.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the NVIDIA Container Toolkit enable?",
+              "choices": [
+                "Docker containers can access host GPU resources through the driver.",
+                "Guests get exclusive firmware partitions.",
+                "Java bytecode becomes native code.",
+                "KV cache is stored only on SSD."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The toolkit connects containers to NVIDIA GPUs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Edge AI?",
+              "choices": [
+                "Running all AI only in far cloud datacenters.",
+                "Running AI models near the data source instead of only in centralized cloud servers.",
+                "Disabling real-time decisions.",
+                "Using no local hardware."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Edge AI reduces latency and can improve privacy.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are TinyML and Small Language Models useful at the edge?",
+              "choices": [
+                "They require the largest possible cloud GPUs.",
+                "They prevent model compression.",
+                "They reduce latency and improve privacy on constrained devices.",
+                "They require floating-point-only attention."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Small models fit local hardware better.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does TinyML require according to the lecture?",
+              "choices": [
+                "Uncompressed trillion-parameter models.",
+                "No energy constraints.",
+                "Only centralized cloud serving.",
+                "Aggressive model compression and integer-only attention pipelines."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "TinyML targets very constrained devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is OrinFlight designed for?",
+              "choices": [
+                "Real-time embedded AI on NVIDIA Jetson Orin for autonomous aviation.",
+                "Disk scheduling for multimedia streams.",
+                "Windows NTFS recovery.",
+                "Java garbage collection only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "OrinFlight targets strict real-time embedded AI.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which scheduling/security features does OrinFlight include?",
+              "choices": [
+                "Only FCFS disk scheduling.",
+                "Synchronized distributed processing, priority-based CPU/GPU scheduling, and SELinux.",
+                "Only SMB networking.",
+                "Only password salts."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The lecture lists these as OrinFlight features.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is CognitiveOS?",
+              "choices": [
+                "A disk file system for Linux.",
+                "A Type 0 hypervisor.",
+                "An LMM-based robotic system that integrates multimodal generative AI into the control loop.",
+                "A password authentication module."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "CognitiveOS connects generative AI with robotic control.",
               "fullExplanation": null,
               "points": 1
             }
@@ -10319,7 +12911,7 @@ window.UNIFIED_EXAM_DATA = {
           ]
         }
       ],
-      "questionCount": 425,
+      "questionCount": 587,
       "examCount": 21
     }
   ]
