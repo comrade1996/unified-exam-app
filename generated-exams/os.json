@@ -2475,62 +2475,1037 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "Which security property keeps secret data from unauthorized disclosure?",
+          "prompt": "In this lecture, what is the difference between security and protection?",
           "choices": [
+            "Security is the overall goal of preventing unauthorized reading or tampering; protection defines allowed operations on objects.",
+            "Security only means encrypting passwords; protection only means antivirus software.",
+            "Security is about CPU scheduling; protection is about file compression.",
+            "Security and protection are exactly the same concept with no distinction."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Security is the broad problem; protection domains specify concrete rights.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which CIA property keeps secret data from unauthorized disclosure?",
+          "choices": [
+            "Integrity",
+            "Confidentiality",
+            "Availability",
+            "Complete mediation"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Confidentiality is about keeping information secret.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which CIA property prevents unauthorized modification, addition, or removal of data?",
+          "choices": [
+            "Confidentiality",
+            "Availability",
+            "Integrity",
+            "Open design"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Integrity means data remains correct and is changed only by authorized actions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which CIA property is threatened by denial-of-service attacks?",
+          "choices": [
+            "Confidentiality",
+            "Least privilege",
+            "Separation of privilege",
+            "Availability"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Availability means authorized users can use the system when needed.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does economy of mechanism require?",
+          "choices": [
+            "Keep the security design simple and small to reduce the attack surface.",
+            "Hide the design so no one can inspect it.",
+            "Give every user the same full access rights.",
+            "Skip checks after the first successful access."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Simple mechanisms are easier to analyze and less likely to contain security flaws.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does fail-safe defaults mean?",
+          "choices": [
+            "Allow all access until an attack is detected.",
+            "Deny access by default unless explicit permission grants it.",
+            "Permit users to choose their own security policy for every object.",
+            "Trust any process that has run before."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Fail-safe defaults make the safe decision be denial, not permission.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does complete mediation require?",
+          "choices": [
+            "Only the first access to a file needs to be checked.",
+            "Only network access needs checking.",
+            "Every access to every resource must be checked against the security policy.",
+            "Checks are needed only for administrator users."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Complete mediation prevents bypassing protection by reusing old unchecked access.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the meaning of open design?",
+          "choices": [
+            "All private keys must be published.",
+            "Every user should be able to change the kernel.",
+            "Access should be open to all users by default.",
+            "Security should not depend on keeping the design secret."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Open design follows Kerckhoffs principle: the mechanism can be known while keys remain secret.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which principle is shown by requiring two separate keys before opening a protected object?",
+          "choices": [
+            "Separation of privilege",
+            "Least common mechanism",
+            "Measured service",
+            "Stack canaries"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Separation of privilege reduces risk by requiring more than one condition for access.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does least privilege require?",
+          "choices": [
+            "Every program should run as administrator.",
+            "Users and programs should run with only the rights needed for their task.",
+            "Permissions should be inherited forever.",
+            "Users should share one common account."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Least privilege limits damage if a program or account is compromised.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does least common mechanism try to minimize?",
+          "choices": [
+            "The number of cryptographic keys in the system.",
+            "The size of every user file.",
+            "Shared mechanisms depended on by multiple users.",
+            "The number of page faults during execution."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Shared mechanisms can become channels for interference or leakage.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is psychological acceptability important?",
+          "choices": [
+            "Users should never know security rules exist.",
+            "Security should be difficult so only experts can log in.",
+            "Passwords should be impossible to remember.",
+            "Security mechanisms must be understandable and usable so people actually follow them."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "If security is too hard to use, users work around it.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the trusted computing base?",
+          "choices": [
+            "All hardware and software essential for enforcing the system security rules.",
+            "Only the user interface theme.",
+            "Only the network cable and router.",
+            "Every application installed by users."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The TCB is the part that must be trusted for security enforcement.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the reference monitor?",
+          "choices": [
+            "A performance graph for CPU usage.",
+            "A TCB component that mediates security-related system calls and cannot be bypassed.",
+            "A password guessing tool.",
+            "A user-mode text editor."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The reference monitor checks access requests against security policy.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why can a microkernel reduce security risk compared with a monolithic kernel?",
+          "choices": [
+            "It removes all need for access checks.",
+            "It makes every driver run with full kernel privileges.",
+            "It can make the trusted computing base smaller.",
+            "It disables process isolation."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "A smaller TCB gives less privileged code that must be trusted.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a protection domain?",
+          "choices": [
+            "A disk partition used only for swap space.",
+            "A list of CPU scheduling priorities.",
+            "A network broadcast address.",
+            "A set of object-rights pairs describing what a process may do."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "A domain maps objects to allowed rights such as read, write, or execute.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In UNIX-like systems, what commonly helps determine a process protection domain?",
+          "choices": [
+            "UID and GID values",
+            "Monitor refresh rate",
+            "Disk block size only",
+            "Keyboard layout"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "User and group identities affect permissions and access rights.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In a protection matrix, what do rows and columns represent?",
+          "choices": [
+            "Rows are files and columns are CPU registers.",
+            "Rows are domains and columns are objects.",
+            "Rows are network packets and columns are passwords.",
+            "Rows are cache lines and columns are interrupts."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Each cell lists the rights a domain has over an object.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is a protection matrix usually implemented using ACLs or capabilities?",
+          "choices": [
+            "The matrix has no rows or columns.",
+            "ACLs and capabilities remove all need for rights.",
+            "The matrix is usually sparse, so a full table wastes space.",
+            "The matrix can only store encrypted data."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Sparse matrices are better represented by per-object or per-domain lists.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is an access control list?",
+          "choices": [
+            "A list attached to a process containing all CPU cores.",
+            "A table that stores only encrypted passwords.",
+            "A scheduler queue for real-time tasks.",
+            "An ordered list attached to an object that names authorized domains and rights."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "ACLs store who can access an object and what operations are allowed.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What happens in an ACL system when a user is not listed and no wildcard rule grants access?",
+          "choices": [
+            "Access is forbidden by default.",
+            "Access is always granted read-only.",
+            "The object is deleted.",
+            "The user becomes the owner automatically."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "This follows fail-safe defaults.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are groups and roles useful with ACLs?",
+          "choices": [
+            "They remove the need to authenticate users.",
+            "They simplify permission management for users with similar responsibilities.",
+            "They make every object public.",
+            "They are used only for CPU scheduling."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Groups and roles avoid repeating identical permissions for many users.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a capability?",
+          "choices": [
+            "A password hash stored only in an ACL.",
+            "A page-replacement algorithm.",
+            "A ticket held by a process that grants rights to a specific object.",
+            "A network firewall rule only."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Capabilities are associated with domains and allow efficient access checks.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are capabilities efficient for access checks?",
+          "choices": [
+            "They require scanning every file on disk.",
+            "They always use public-key cryptography.",
+            "They disable all object naming.",
+            "The process refers to objects through its capability list, so searching an ACL may be avoided."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "A capability directly carries the authority needed for the object.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How do cryptographically protected capabilities prevent fabrication?",
+          "choices": [
+            "They include a value derived from a secret check field and a one-way function.",
+            "They store the password in plaintext inside the capability.",
+            "They let users choose their own check field.",
+            "They depend only on hiding the object name."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Attackers cannot forge the protected field without the secret check value.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is discretionary access control?",
+          "choices": [
+            "The system enforces fixed organization-wide rules that users cannot change.",
+            "The owner or user can decide who may access their files.",
+            "Only cryptographic keys decide process scheduling.",
+            "All access is permanently denied."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "DAC lets users delegate access at their discretion.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is mandatory access control?",
+          "choices": [
+            "Each file owner freely chooses all access rules.",
+            "Only password length determines access.",
+            "The system enforces organization-wide information-flow rules that users cannot change.",
+            "Access is based only on file extensions."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "MAC is needed where information flow must follow central policy.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Bell-LaPadula model mainly designed to protect?",
+          "choices": [
+            "Integrity",
             "Availability only",
-            "Fragmentation",
-            "Round-Robin",
+            "CPU fairness",
             "Confidentiality"
           ],
           "answer": [
             3
           ],
-          "explanation": "Confidentiality ensures secret information remains secret.",
+          "explanation": "Bell-LaPadula prevents secret information from leaking downward.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Which security property protects data from unauthorized modification?",
+          "prompt": "Which Bell-LaPadula rule is called simple security?",
           "choices": [
-            "Thrashing",
-            "Spooling",
-            "Integrity",
-            "Deadlock"
-          ],
-          "answer": [
-            2
-          ],
-          "explanation": "Integrity means data remains correct and unaltered except by authorized changes.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "What is the principle of least privilege?",
-          "choices": [
-            "Make every file public",
-            "Give each subject only the permissions needed to do its job",
-            "Give every process all permissions",
-            "Remove all access control"
-          ],
-          "answer": [
-            1
-          ],
-          "explanation": "Least privilege limits damage and misuse.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "What does an access control matrix represent?",
-          "choices": [
-            "Subjects, objects, and the rights subjects have over objects",
-            "Only CPU registers",
-            "Only page frame numbers",
-            "Only process priorities"
+            "No read up",
+            "No write up",
+            "No read down",
+            "No execute down"
           ],
           "answer": [
             0
           ],
-          "explanation": "The matrix models who can do what to which object.",
+          "explanation": "A subject cannot read data above its clearance.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which Bell-LaPadula star property prevents leaking secrets to lower levels?",
+          "choices": [
+            "No read up",
+            "No write down",
+            "No write up",
+            "No read down"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "No write down stops high-level information from being written to lower-level objects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Biba model mainly designed to protect?",
+          "choices": [
+            "Confidentiality only",
+            "Availability only",
+            "Integrity",
+            "Network routing"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Biba prevents low-integrity information from corrupting high-integrity data.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which Biba rule prevents a low-integrity process from corrupting high-integrity data?",
+          "choices": [
+            "No read up",
+            "No write down",
+            "No execute up",
+            "No write up"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "No write up protects higher-integrity objects from lower-integrity subjects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In symmetric cryptography, how are encryption and decryption keys related?",
+          "choices": [
+            "The same shared secret key is used for both.",
+            "The public key encrypts and the private key decrypts.",
+            "No key is used.",
+            "A new hardware interrupt is required for every byte."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Secret-key cryptography uses one shared key.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In public-key cryptography, which key is normally used to encrypt for one receiver?",
+          "choices": [
+            "The sender private key only",
+            "The receiver public key",
+            "The receiver password hash",
+            "A shared one-time pad stored in the kernel"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Only the matching private key should decrypt data encrypted with the receiver public key.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is public-key cryptography not usually used for all bulk data encryption?",
+          "choices": [
+            "It cannot provide authentication.",
+            "It requires no mathematics.",
+            "It is much slower than symmetric cryptography.",
+            "It works only on plaintext shorter than one byte."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Public-key methods are powerful but expensive.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How is a digital signature created in the lecture description?",
+          "choices": [
+            "Encrypt the whole document with the receiver public key only.",
+            "Store the password beside the document.",
+            "Copy the document into an ACL.",
+            "Hash the document and encrypt the hash with the owner private key."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The signature binds the document hash to the signer private key.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does a receiver verify a digital signature?",
+          "choices": [
+            "Decrypt the signature with the signer public key and compare the hash with the document hash.",
+            "Ask the signer for their password.",
+            "Run a scheduler fairness calculation.",
+            "Check whether the file is compressed."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Matching hashes show integrity and signer authenticity.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why should login systems avoid saying whether the username was valid before checking the password?",
+          "choices": [
+            "It makes passwords shorter.",
+            "It prevents user enumeration.",
+            "It disables authentication.",
+            "It turns passwords into one-time passwords."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Different error messages can reveal valid account names.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the purpose of salt in password hashing?",
+          "choices": [
+            "Encrypt the user name with the public key.",
+            "Allow all users to share one password hash.",
+            "Make precomputed password-hash tables ineffective by adding a per-password random value.",
+            "Store passwords in plaintext but hidden format."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Salt forces attackers to redo work for each salt value.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is Lamport one-time password scheme based on?",
+          "choices": [
+            "A reusable password sent every time.",
+            "A public ACL entry for each login.",
+            "A stack canary placed beside the password.",
+            "A chain of values generated by a one-way hash function and used in reverse order."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Knowing one used password should not let the attacker compute the next required one.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a stack canary?",
+          "choices": [
+            "A secret value placed before the return address and checked before returning.",
+            "A public key stored in the file system.",
+            "A page table entry for a swapped page.",
+            "A cache line used by Flush and Reload."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "If a buffer overflow overwrites the return address, it likely changes the canary.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Data Execution Prevention or NX/WX enforce?",
+          "choices": [
+            "All stack pages must be executable.",
+            "Writable data pages should not be executable, and executable code pages should not be writable.",
+            "All code pages must be writable by user input.",
+            "Every file must be encrypted before execution."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "NX/WX blocks direct execution of injected shellcode on the stack or heap.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does return-oriented programming bypass NX protections?",
+          "choices": [
+            "It makes the stack executable again by default.",
+            "It guesses the password hash directly.",
+            "It chains existing code gadgets ending in return instructions.",
+            "It disables all cache side channels."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "ROP reuses executable code already present in memory.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the goal of ASLR?",
+          "choices": [
+            "Make every password one-time only.",
+            "Force all code to run in kernel mode.",
+            "Remove all dynamic libraries from memory.",
+            "Randomize memory locations so attackers cannot reliably know addresses of buffers or gadgets."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "ASLR makes address-dependent exploits harder.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What can weaken ASLR?",
+          "choices": [
+            "A memory disclosure vulnerability that leaks addresses.",
+            "Using longer variable names.",
+            "Turning on file journaling.",
+            "Using a smaller keyboard layout."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "If addresses leak, randomization can be calculated or bypassed.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "When does a format string vulnerability occur?",
+          "choices": [
+            "When a process has too many file descriptors.",
+            "When user-controlled input is passed directly as the printf format string.",
+            "When a disk block is allocated twice.",
+            "When the kernel uses a page cache."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Attackers can use format specifiers to read or write memory.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which format specifier can be abused to write a value in a format string attack?",
+          "choices": [
+            "%s only",
+            "%d only",
+            "%n",
+            "%08x only"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "%n writes the number of printed characters to a supplied address.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a use-after-free vulnerability?",
+          "choices": [
+            "Freeing memory only after the program exits.",
+            "Reading a file after closing the terminal.",
+            "Using a process after it has been scheduled.",
+            "Using a pointer after the memory it references has been freed."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Freed memory may be reallocated with attacker-controlled content.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is type confusion?",
+          "choices": [
+            "Treating an object as the wrong type, such as casting a parent object to the wrong child class.",
+            "Using the wrong password salt length.",
+            "Confusing TCP with UDP in a routing table.",
+            "Changing a file extension after encryption."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Type confusion can call methods or access fields not valid for the real object.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why can a null pointer dereference become dangerous in some kernels?",
+          "choices": [
+            "A null pointer always encrypts memory automatically.",
+            "If user and kernel share an address space, attacker code mapped at address zero may run with kernel privileges.",
+            "It prevents all system calls from returning.",
+            "It only causes slower disk access."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Dereferencing NULL in privileged code can jump into attacker-controlled memory in vulnerable designs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why can integer overflow lead to buffer overflow?",
+          "choices": [
+            "Integers are stored only in the file system.",
+            "Overflow always increases available RAM.",
+            "A wrapped integer may cause too-small allocation for a large amount of data.",
+            "Overflow disables access-control lists."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Silent wraparound can make size calculations wrong.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is command injection?",
+          "choices": [
+            "Injecting a cache line into RAM.",
+            "Adding a user to an ACL group.",
+            "Compiling commands into a static library.",
+            "Tricking a program into executing shell commands through crafted input."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Special characters can change the command a program sends to the shell.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does TOCTOU mean?",
+          "choices": [
+            "The object checked for permission may be changed before it is used.",
+            "The password is checked twice before login.",
+            "Two CPUs execute the same instruction at once.",
+            "A file is encrypted before hashing."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Time Of Check To Time Of Use attacks exploit a race between checking and acting.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How is a covert channel different from normal authorized communication?",
+          "choices": [
+            "It is a faster version of TCP.",
+            "It is sneaky communication between processes not authorized to talk.",
+            "It is any public API call.",
+            "It is only used to compress files."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Covert channels bypass intended communication restrictions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How is a side channel different from a covert channel?",
+          "choices": [
+            "A side channel requires both processes to intentionally communicate.",
+            "A side channel is just an ACL entry.",
+            "A side channel leaks information without the victim cooperating.",
+            "A side channel is a password salt."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Side channels exploit observable effects such as cache timing.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main idea of Flush and Reload?",
+          "choices": [
+            "Encrypt every cache line with RSA.",
+            "Disable all shared libraries forever.",
+            "Write shell commands into printf.",
+            "Flush shared cache lines, wait for victim execution, reload and time access to infer use."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Fast reload indicates the victim accessed that cache line.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are transient instructions?",
+          "choices": [
+            "Instructions executed speculatively or out of order but later squashed architecturally.",
+            "Instructions stored permanently in the file system journal.",
+            "Instructions that never reach the CPU pipeline.",
+            "Instructions used only by boot loaders."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Transient execution can leave microarchitectural traces even when results are undone.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Meltdown exploit?",
+          "choices": [
+            "A branch predictor trained to skip bounds checks only.",
+            "Transient access to kernel memory by unprivileged code before a fault is raised.",
+            "A malicious hard-coded login account.",
+            "A password hash without salt only."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Meltdown leaks privileged data through cache side effects after transient execution.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Spectre exploit?",
+          "choices": [
+            "A missing stack canary in a boot loader only.",
+            "The lack of file-system journaling.",
+            "Mistraining branch prediction so speculative execution accesses data that should be blocked.",
+            "A failed DNS lookup."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Spectre tricks speculation past security checks and leaks through side channels.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which mitigation separates kernel and user address spaces to stop Meltdown?",
+          "choices": [
+            "PAM",
+            "CFS",
+            "JFFS2",
+            "KPTI"
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Kernel Page Table Isolation reduces the mapped kernel data visible during user execution.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the cost of fences and other transient-execution mitigations?",
+          "choices": [
+            "They can significantly reduce performance.",
+            "They make public-key encryption impossible.",
+            "They remove all need for passwords.",
+            "They prevent programs from using files."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Stopping speculation across sensitive points can slow execution.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a logic bomb?",
+          "choices": [
+            "A random page replacement event.",
+            "Malicious code that triggers under specific conditions.",
+            "A public-key certificate.",
+            "A file-system directory entry."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "A logic bomb may activate when a condition such as an employee ID missing from payroll occurs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a back door?",
+          "choices": [
+            "A normal ACL rule visible to all users.",
+            "A scheduler queue for background jobs.",
+            "A secret entry point that bypasses normal authentication.",
+            "A compressed read-only file system."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Back doors allow hidden access outside regular controls.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is login spoofing?",
+          "choices": [
+            "A legitimate password reset process.",
+            "A page fault during program loading.",
+            "An Open Design principle.",
+            "A fake login screen collects credentials and then exits to the real login screen."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Login spoofing tricks users into giving credentials to an attacker.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is fine-grained randomization stronger than coarse KASLR?",
+          "choices": [
+            "It randomizes smaller items such as functions, heap objects, and stack variables.",
+            "It moves the whole kernel as one fixed segment only.",
+            "It disables all randomization after boot.",
+            "It stores addresses in plaintext logs."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "If one pointer leaks, coarse randomization may be easier to bypass.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does control-flow integrity enforce?",
+          "choices": [
+            "Every file must be signed before reading.",
+            "Indirect jumps and returns must land on legitimate labeled targets.",
+            "All pages must be writable and executable.",
+            "Passwords must be changed every minute."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "CFI restricts control transfers to valid program paths.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does secure boot verify?",
+          "choices": [
+            "Only the desktop wallpaper before login.",
+            "Only the user password after the kernel starts.",
+            "Each boot stage verifies the digital signature of the next stage before running it.",
+            "Only network packets after boot completes."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Secure boot builds a chain of trust from firmware to bootloader to kernel.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a TPM record for remote attestation?",
+          "choices": [
+            "Every keystroke typed by the user.",
+            "Only file names in the current directory.",
+            "The scheduling quantum of each process.",
+            "Hashes of loaded code and data in platform configuration registers."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Signed PCR values can prove to a remote party how the system booted.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the goal of sandboxing untrusted code?",
+          "choices": [
+            "Restrict code and data references to assigned memory ranges or allowed resources.",
+            "Give foreign code full kernel privileges.",
+            "Disable all bounds checks.",
+            "Turn JavaScript into kernel modules."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Sandboxing limits damage from untrusted code.",
           "points": 1
         }
       ]
@@ -2543,62 +3518,1172 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is Linux historically based on?",
+          "prompt": "What was a major original design goal of Linux?",
           "choices": [
-            "Only Windows NT internals",
-            "Only cloud service models",
-            "Only multimedia playback",
-            "UNIX-like design principles"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "Linux follows many UNIX design ideas while being an independent kernel.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "In Linux, what are loadable kernel modules used for?",
-          "choices": [
-            "Deleting all file systems",
-            "Disabling system calls",
-            "Adding kernel functionality such as drivers without rebuilding the whole kernel",
-            "Replacing every user process"
-          ],
-          "answer": [
-            2
-          ],
-          "explanation": "Modules extend the kernel dynamically.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "How does Linux internally treat processes and threads?",
-          "choices": [
-            "Tasks are always hardware devices",
-            "Both are represented as tasks, with threads sharing parts of context",
-            "Threads cannot exist in Linux",
-            "Processes are only files"
-          ],
-          "answer": [
-            1
-          ],
-          "explanation": "Linux uses task structures and clone options to share resources between threads.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "What is CFS designed to allocate?",
-          "choices": [
-            "CPU time fairly among runnable tasks",
-            "Disk blocks to file names",
-            "Network addresses to routers",
-            "Encryption keys to users"
+            "UNIX compatibility in a free, open-source kernel.",
+            "Exclusive compatibility with MS-DOS only.",
+            "Running only on cloud hypervisors.",
+            "Replacing all system libraries with firmware."
           ],
           "answer": [
             0
           ],
-          "explanation": "The Completely Fair Scheduler tries to divide CPU time fairly.",
+          "explanation": "Linux was developed by Linus Torvalds with UNIX compatibility as a central goal.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What limitation did Linux version 0.01 have?",
+          "choices": [
+            "It supported all modern architectures and SMP.",
+            "It had no networking and ran only on 80386-compatible PC hardware.",
+            "It included full journaling and CFS.",
+            "It ran only as an Android app."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The earliest kernel was small and had very limited driver and file-system support.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which feature was added in Linux 1.0?",
+          "choices": [
+            "The Windows registry.",
+            "NTFS compression.",
+            "Standard TCP/IP networking support.",
+            "Hyper-V virtual secure mode."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Linux 1.0 added important networking and hardware support.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What two major capabilities did Linux 2.0 add?",
+          "choices": [
+            "Only a new desktop theme and browser.",
+            "Mandatory cloud deployment and object storage.",
+            "Removal of all networking protocols.",
+            "Multiple architectures and multiprocessor support."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Linux 2.0 expanded portability and SMP support.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What did later Linux 2.4 and 2.6 kernels improve?",
+          "choices": [
+            "SMP support, journaling file systems, preemptive kernel behavior, and 64-bit memory support.",
+            "Only Minix file-system compatibility.",
+            "Only password hashing.",
+            "Only the boot splash screen."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The lecture lists these as important later Linux kernel improvements.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which projects contributed many tools and libraries to the Linux system?",
+          "choices": [
+            "Only OpenStack Nova and Swift.",
+            "BSD, MIT X Window System, and GNU.",
+            "Only Windows NT and OS/2.",
+            "Only TinyOS and RIOT."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Linux combines its original kernel with many UNIX-compatible tools.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the File System Hierarchy Standard specify?",
+          "choices": [
+            "How CPU priorities are calculated.",
+            "Which cryptographic key length to use.",
+            "Where configuration files, libraries, binaries, and run-time data should be stored.",
+            "Which packet should be routed first."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "FHS helps distributions remain compatible in file-system layout.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a Linux distribution?",
+          "choices": [
+            "Only a single kernel object file.",
+            "Only a hardware interrupt table.",
+            "Only a process scheduling policy.",
+            "A precompiled set of packages including the kernel, utilities, management tools, and applications."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Distributions package Linux into installable systems.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is RPM important across Linux distributions?",
+          "choices": [
+            "It provides a package file format that can permit compatibility among distributions.",
+            "It is a CPU scheduling algorithm.",
+            "It replaces all file systems.",
+            "It is a network device driver."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "RPM is a package format used for software distribution.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the GNU GPL require for Linux derivatives?",
+          "choices": [
+            "All Linux systems must be sold for free with no services.",
+            "They cannot be made proprietary as binary-only products without source availability.",
+            "Source code must be hidden from users.",
+            "Only Microsoft can redistribute the kernel."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "GPL allows selling distributions but requires source-code rights.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which design goals are emphasized for Linux?",
+          "choices": [
+            "Only graphical animation and game performance.",
+            "No networking and no multiuser support.",
+            "Speed, efficiency, standardization, and UNIX-compatible behavior.",
+            "No POSIX compatibility."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Linux aims to be a multiuser, multitasking UNIX-compatible system.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which three bodies of code form a typical Linux system?",
+          "choices": [
+            "BIOS, registry, and MFT.",
+            "Hypervisor, VTL, and trustlets.",
+            "Only shell, editor, and browser.",
+            "Kernel, system libraries, and system utilities."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The kernel is privileged; libraries and utilities provide user-level OS functionality.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Linux kernel maintain?",
+          "choices": [
+            "The key operating-system abstractions and privileged access to hardware resources.",
+            "Only user passwords in plaintext.",
+            "Only package-management metadata.",
+            "Only graphical display themes."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Kernel code runs in kernel mode and manages resources.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are Linux kernel modules?",
+          "choices": [
+            "User shell aliases only.",
+            "Kernel code sections that can be loaded and unloaded independently.",
+            "Static HTML pages for documentation.",
+            "Password entries in /etc/passwd only."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Modules commonly implement drivers, file systems, or network protocols.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are kernel modules useful?",
+          "choices": [
+            "They require every driver to be compiled into the kernel permanently.",
+            "They prevent third parties from writing drivers.",
+            "They allow a minimal standard kernel with extra drivers or file systems loaded as needed.",
+            "They remove the need for device registration."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Modules make the kernel more flexible and configurable.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does module management handle?",
+          "choices": [
+            "Only user-login passwords.",
+            "Only virtual address translation.",
+            "Only terminal line discipline.",
+            "Loading modules into memory and resolving symbols they may reference."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Module management connects loaded modules with kernel symbols and memory.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the module requestor responsible for?",
+          "choices": [
+            "Loading requested but currently unloaded modules and unloading unused dynamic modules.",
+            "Choosing user passwords.",
+            "Allocating NTFS clusters.",
+            "Running cloud brokers."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The requestor automates module loading and cleanup.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does driver registration allow?",
+          "choices": [
+            "Users can register file names as passwords.",
+            "Modules can tell the kernel that a new driver, file system, protocol, or binary format is available.",
+            "Processes can skip access checks.",
+            "A scheduler can remove all priorities."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Registration updates dynamic kernel tables.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the purpose of Linux conflict resolution for drivers?",
+          "choices": [
+            "Force all drivers to use the same interrupt at once.",
+            "Disable device probing forever.",
+            "Prevent drivers from clashing over hardware resources or interfering with existing drivers.",
+            "Convert block devices into network protocols."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The kernel tracks allocated hardware resources.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does UNIX process management separate process creation and program execution?",
+          "choices": [
+            "exec creates a process, and fork deletes it.",
+            "clone always replaces both fork and exec with one operation.",
+            "Signals create all new programs.",
+            "fork creates a process, and exec runs a new program in it."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "UNIX separates creating a process from loading a new program.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a PID?",
+          "choices": [
+            "A unique process identifier used by the OS to refer to a process.",
+            "A page-table entry for a disk block.",
+            "A network packet priority field.",
+            "A Linux distribution format."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "System calls use PIDs to signal, wait for, or modify processes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What do process credentials determine?",
+          "choices": [
+            "The page size used by the processor.",
+            "The process rights to access system resources and files.",
+            "The CPU temperature limit.",
+            "The terminal color scheme."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "User IDs and group IDs are used in access control.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a Linux process personality?",
+          "choices": [
+            "A text label shown in the desktop taskbar only.",
+            "A cryptographic password salt.",
+            "An identifier that can slightly modify system-call semantics for compatibility.",
+            "A CPU register saved during interrupts only."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Personality helps emulation libraries mimic different UNIX variants.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a process namespace provide?",
+          "choices": [
+            "A list of all CPU time slices.",
+            "A table of all TCP ports.",
+            "A cache of password hashes.",
+            "A specific view of the file-system hierarchy, possibly with its own root and mounts."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Namespaces can isolate file-system views.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is contained in a process environment?",
+          "choices": [
+            "Argument and environment vectors inherited from the parent.",
+            "Only the open file table.",
+            "Only the page-cache contents.",
+            "Only the scheduler run queue."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Environment variables customize behavior per process.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the scheduling context of a Linux process?",
+          "choices": [
+            "The list of all mounted file systems.",
+            "Information the scheduler needs to suspend and restart the process.",
+            "The file-system journal log only.",
+            "The network firewall chain."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Scheduling context is the most important part of the changing process context.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does a process refer to open files in Linux?",
+          "choices": [
+            "By physical disk-sector numbers only.",
+            "By kernel module names only.",
+            "By indexes into its file table called file descriptors.",
+            "By TCP sequence numbers."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "A file descriptor is an index into the process open-file table.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is stored in a process file-system context?",
+          "choices": [
+            "Only executable code pages.",
+            "Only pending signal handlers.",
+            "Only the CPU affinity mask.",
+            "The current root and default directories used for opening new files."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The file-system context affects path resolution for new opens.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the virtual-memory context describe?",
+          "choices": [
+            "The contents of the process private address space.",
+            "Only process credentials.",
+            "Only driver registration tables.",
+            "Only module symbols."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Virtual-memory context tracks the address space.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does Linux internally represent threads?",
+          "choices": [
+            "Threads are not represented in the kernel at all.",
+            "A thread is a task that may share address-space structures with its parent.",
+            "Threads are always separate physical CPUs.",
+            "Threads are only entries in the file system."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Linux uses tasks for both processes and threads.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the difference between fork and clone in Linux?",
+          "choices": [
+            "fork shares everything and clone shares nothing.",
+            "clone only loads kernel modules.",
+            "fork creates a task with a new context; clone can share selected parent data structures.",
+            "fork is used only for device drivers."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "clone gives fine-grained control over sharing between threads.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Linux scheduling allocate?",
+          "choices": [
+            "Only disk blocks to files.",
+            "Only network addresses to sockets.",
+            "Only page-cache entries.",
+            "CPU time to user tasks and kernel tasks."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Linux scheduling includes processes and kernel work.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What problem did the old O(1) scheduler have?",
+          "choices": [
+            "It had challenges with interactive performance.",
+            "It could not schedule real-time priorities at all.",
+            "It removed all nice values.",
+            "It supported only one process."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The lecture notes that O(1) was preemptive and priority-based but had interactive issues.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a key idea of the Completely Fair Scheduler?",
+          "choices": [
+            "It always runs the newest process first.",
+            "It allocates each task a fair portion of processor time instead of using a fixed traditional time slice.",
+            "It gives every task exactly one second regardless of load.",
+            "It schedules only kernel modules."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "CFS models fair sharing of CPU time.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does a smaller nice value affect CFS?",
+          "choices": [
+            "It removes the task from scheduling.",
+            "It makes the task use only disk I/O.",
+            "It gives the task a higher weight and priority.",
+            "It disables the task address space."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "CFS weights runnable tasks using nice values.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is target latency in CFS?",
+          "choices": [
+            "The maximum time to load a kernel module.",
+            "The disk-journal commit interval only.",
+            "The time needed for password hashing.",
+            "The desired interval during which each runnable task should run at least once."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Target latency influences how CFS divides CPU time among runnable tasks.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does CFS use minimum granularity?",
+          "choices": [
+            "To ensure each run has a reasonable amount of CPU time.",
+            "To make every task run for zero time.",
+            "To disable fairness completely.",
+            "To replace all process priorities with file permissions."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Minimum granularity avoids impractically tiny slices.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are the two main ways execution enters kernel mode?",
+          "choices": [
+            "Only opening a terminal window.",
+            "A system service request or a hardware interrupt.",
+            "Only loading a shared library.",
+            "Only creating a file descriptor."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Kernel code runs for system calls, faults, and device interrupts.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does kernel synchronization matter?",
+          "choices": [
+            "All kernel code should run without locks on SMP.",
+            "It is only about formatting file names.",
+            "Kernel critical sections must be protected from concurrent access by other critical sections.",
+            "It prevents users from reading documentation."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Shared kernel data structures need mutual exclusion.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How did normal Linux kernel code traditionally avoid preemption in critical sections?",
+          "choices": [
+            "It disabled all processes forever.",
+            "It used only user-mode spinlocks.",
+            "It ran every driver in a browser.",
+            "Kernel code was nonpreemptible until returning toward user mode."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Nonpreemptibility helped protect kernel critical sections.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How are interrupt-service critical sections protected?",
+          "choices": [
+            "By using interrupt control hardware to disable interrupts during critical sections.",
+            "By changing file ownership.",
+            "By recompiling user programs.",
+            "By flushing the page cache."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Disabling interrupts prevents interrupt handlers from entering conflicting sections.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does Linux split interrupt work into top halves and bottom halves?",
+          "choices": [
+            "To remove all device drivers.",
+            "To keep urgent interrupt handling short while deferring longer work with interrupts enabled.",
+            "To force every process to wait for disk I/O.",
+            "To replace threads with virtual memory regions."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Top halves handle immediate interrupt work; bottom halves do deferred work.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is an interrupt protection level?",
+          "choices": [
+            "A user password complexity score.",
+            "A file-system block group.",
+            "A level that can be interrupted only by code running at a higher level.",
+            "A Linux distribution release number."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Lower or equal levels cannot interrupt the current level.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What did early Linux SMP use to protect nonpreemptible kernel execution?",
+          "choices": [
+            "One page table per device driver.",
+            "A separate disk partition for each CPU.",
+            "No synchronization at all.",
+            "A single kernel spinlock allowing only one CPU in kernel mode at a time."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The single spinlock was simple but limited scalability.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How did later Linux versions improve SMP scalability?",
+          "choices": [
+            "By splitting the single spinlock into finer-grained locks and adding affinity and load balancing.",
+            "By disabling all but one processor.",
+            "By removing kernel-mode execution.",
+            "By using only user-space file locks."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Fine-grained locking allows more parallel kernel execution.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Linux physical memory management allocate and free?",
+          "choices": [
+            "Only user names and passwords.",
+            "Pages, groups of pages, and small blocks of memory.",
+            "Only TCP port numbers.",
+            "Only executable file names."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The physical memory system manages page-level and small kernel allocations.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does the buddy allocator work?",
+          "choices": [
+            "It stores every page in a linked list sorted by file name.",
+            "It allocates only one-byte regions.",
+            "It splits larger free regions into partners and recombines free partners into larger regions.",
+            "It never combines freed memory."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Buddy allocation manages contiguous physical pages.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the slab allocator used for?",
+          "choices": [
+            "Network name resolution only.",
+            "Password salting only.",
+            "Boot firmware validation only.",
+            "Kernel memory allocations of small objects."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The slab allocator is used for efficient kernel object allocation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Linux page cache?",
+          "choices": [
+            "The kernel main cache for files and block-device I/O, storing pages of file contents.",
+            "A list of process credentials.",
+            "A table of loaded password salts.",
+            "A CPU scheduling priority class."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The page cache connects file I/O and virtual memory.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What two views of a process address space does the VM manager maintain?",
+          "choices": [
+            "A network view and a password view.",
+            "A logical region view and a physical page-table view.",
+            "A bootloader view and a BIOS view.",
+            "A package view and a distribution view."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Linux tracks address-space layout separately from hardware mappings.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What can back a Linux virtual-memory region?",
+          "choices": [
+            "Only a keyboard input queue.",
+            "Only a network route.",
+            "A file or demand-zero memory.",
+            "Only a kernel module name."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Backing store describes where pages come from.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What happens to address spaces after fork in Linux?",
+          "choices": [
+            "The child receives no address space.",
+            "All pages are immediately copied byte by byte.",
+            "The parent is deleted before the child runs.",
+            "Parent and child initially share physical pages with updated reference counts."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Linux uses sharing and copy-on-write style behavior after fork.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the pageout-policy algorithm decide?",
+          "choices": [
+            "Which pages to write to disk and when.",
+            "Which user may open a file.",
+            "Which driver registers first.",
+            "Which shell prompt to display."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Pageout policy is part of the paging system.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Linux kernel virtual-memory area?",
+          "choices": [
+            "A user folder under /home.",
+            "A reserved region in every process address space used by the kernel.",
+            "A package repository mirror.",
+            "A swap-device bitmap only."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The kernel reserves part of virtual address space for internal use.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does Linux support multiple executable formats?",
+          "choices": [
+            "It stores every program as text only.",
+            "It requires all binaries to be ELF only with no loader table.",
+            "It keeps a table of loader functions tried during exec.",
+            "It runs all binaries through the shell."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Loader registration lets Linux support formats such as ELF and a.out.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is dynamic linking more efficient than static linking?",
+          "choices": [
+            "Every executable contains all library code.",
+            "It prevents programs from using shared libraries.",
+            "It disables position-independent code.",
+            "Common libraries can be loaded once and shared, saving memory and disk space."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Dynamic linking avoids duplicate copies of common library routines.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is position-independent code used for in shared libraries?",
+          "choices": [
+            "It lets shared libraries be loaded at different virtual-memory locations.",
+            "It prevents programs from using virtual memory.",
+            "It converts libraries into kernel modules.",
+            "It disables symbol resolution."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "PIC supports flexible library placement.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Linux VFS provide?",
+          "choices": [
+            "A single physical disk layout required by all file systems.",
+            "An abstraction layer hiding details of different file-system implementations.",
+            "A network-only protocol stack.",
+            "A CPU scheduler for kernel threads."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "VFS lets Linux support many file systems through common objects and operations.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which objects are central in the Linux VFS?",
+          "choices": [
+            "PID, UID, GID, and nice objects only.",
+            "TCP, UDP, ICMP, and IP objects only.",
+            "inode, file, superblock, and dentry objects.",
+            "Stack, heap, code, and data objects only."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "These VFS objects model files, open files, file systems, and directory entries.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is ext3?",
+          "choices": [
+            "A cloud orchestration service.",
+            "A terminal line discipline.",
+            "A password authentication module.",
+            "A standard on-disk Linux file system that superseded ext2 and supports journaling."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "ext3 was a common Linux disk file system.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does ext3 improve allocation locality?",
+          "choices": [
+            "It uses cluster allocation policies to place logically adjacent blocks physically close together.",
+            "It scatters every block randomly across the disk.",
+            "It stores all files only in one block.",
+            "It avoids block groups completely."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Adjacent physical placement can improve I/O performance.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does ext3 journaling do?",
+          "choices": [
+            "Encrypts every file with a public key.",
+            "Writes file-system updates to a log as transactions before applying them to the file system.",
+            "Copies all user data to the network.",
+            "Disables crash recovery."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Journaling speeds recovery after crashes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the proc file system store on disk?",
+          "choices": [
+            "It stores all user documents permanently.",
+            "It stores only kernel modules.",
+            "It stores no real data; contents are computed on demand.",
+            "It stores swap pages only."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "proc presents kernel and process information as generated files.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which two caches does Linux use for disk-oriented I/O?",
+          "choices": [
+            "Password cache and ACL cache.",
+            "DNS cache and ARP cache only.",
+            "Keyboard cache and screen cache.",
+            "Page cache for data and buffer cache for metadata."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Linux caches file data and disk metadata separately in this description.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a block device?",
+          "choices": [
+            "A device allowing random access to independent fixed-size blocks.",
+            "A device that never supports random access.",
+            "A network protocol driver only.",
+            "A terminal line discipline only."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Disks are typical block devices.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a character device?",
+          "choices": [
+            "A disk scheduler queue.",
+            "A device driver that does not offer random access to fixed-size blocks.",
+            "An ext3 block group.",
+            "A package-management database."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Character devices pass reads and writes mostly directly to the driver.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does terminal line discipline do?",
+          "choices": [
+            "It allocates physical pages.",
+            "It registers file systems.",
+            "It interprets terminal data and connects it to process standard input and output.",
+            "It resolves TCP names."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The tty line discipline manages terminal interaction with processes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does Linux inform processes that an event occurred?",
+          "choices": [
+            "Using only ext3 journal records.",
+            "Using only page-table entries.",
+            "Using only package scripts.",
+            "Using signals."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Signals notify processes of events but carry limited information.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why can System V semaphores be useful for IPC?",
+          "choices": [
+            "They can scale better and support atomic operations on multiple semaphores.",
+            "They can carry large files directly.",
+            "They replace all pipes and shared memory.",
+            "They are only device drivers."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Semaphores coordinate processes and can support atomic multi-semaphore operations.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a pipe provide?",
+          "choices": [
+            "A shared virtual address space for all processes.",
+            "A communication channel where data written to one end can be read from the other.",
+            "A disk journaling transaction.",
+            "A module symbol table."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Pipes pass streams of data between related processes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why must shared memory be combined with another IPC mechanism?",
+          "choices": [
+            "It cannot be read by more than one process.",
+            "It is slower than all other IPC methods.",
+            "It needs synchronization so processes do not race on shared data.",
+            "It stores only signal numbers."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Shared memory is fast but does not automatically coordinate access.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are the three internal Linux networking layers listed in the lecture?",
+          "choices": [
+            "VFS, ext3, and proc.",
+            "CFS, O(1), and nice values.",
+            "PID, UID, and GID.",
+            "Socket interface, protocol drivers, and network device drivers."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Linux networking is layered from sockets to protocols to devices.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which protocols sit above IP routing in the Internet protocol suite?",
+          "choices": [
+            "UDP, TCP, and ICMP.",
+            "ELF, a.out, and PIC.",
+            "PAM, UID, and GID.",
+            "ext2, ext3, and ext4."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The lecture lists UDP, TCP, and ICMP above routing.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is PAM in Linux?",
+          "choices": [
+            "A physical memory allocator.",
+            "A pluggable authentication system based on a shared library.",
+            "A file-system journal.",
+            "A TCP/IP routing protocol."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "PAM lets system components use common authentication modules.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does traditional UNIX access control identify users and groups?",
+          "choices": [
+            "With NTFS file references.",
+            "With OpenStack tokens.",
+            "With numeric uid and gid values.",
+            "With BIOS firmware hashes."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Linux uses uid and gid for ownership and permission checks.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a UNIX protection mask specify?",
+          "choices": [
+            "Only CPU priority and target latency.",
+            "Only page-table states.",
+            "Only network adapter type.",
+            "Read, write, and execute permissions for owner, group, and world."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Protection masks define standard UNIX file access modes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does saved user ID allow?",
+          "choices": [
+            "A process can drop and later reacquire its effective uid.",
+            "A process can bypass all permissions permanently.",
+            "A process can become a kernel module.",
+            "A file system can ignore owners."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Saved uid supports safer privilege changes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the purpose of Linux capabilities as a process characteristic?",
+          "choices": [
+            "Give every process all root rights.",
+            "Grant only a subset of traditional effective-uid privileges.",
+            "Replace file descriptors with passwords.",
+            "Disable authentication modules."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Capabilities split root-like privilege into smaller rights.",
           "points": 1
         }
       ]
@@ -2611,62 +4696,1337 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What does the Windows HAL help provide?",
+          "prompt": "Why did Microsoft start developing Windows NT?",
           "choices": [
-            "A user password list",
-            "A cloud billing meter",
-            "A deadlock resource graph",
-            "Hardware abstraction for portability across processor architectures"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "The HAL hides hardware details from higher layers.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "What is the Windows executive object manager responsible for?",
-          "choices": [
-            "Deleting all process objects",
-            "Providing only a command prompt",
-            "Supervising named objects and object handles",
-            "Replacing the scheduler with FIFO"
-          ],
-          "answer": [
-            2
-          ],
-          "explanation": "Windows uses objects for many services and entities, managed by the object manager.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "What does the Windows dispatcher schedule?",
-          "choices": [
-            "Only network packets",
-            "Threads",
-            "Only files",
-            "Only folders"
-          ],
-          "answer": [
-            1
-          ],
-          "explanation": "Threads are the execution units scheduled by the kernel dispatcher.",
-          "points": 1
-        },
-        {
-          "type": "Single Choice",
-          "prompt": "What is Secure Boot intended to verify?",
-          "choices": [
-            "The integrity of firmware and boot-time components using digital signatures",
-            "The color of the login screen",
-            "The size of a text file",
-            "The order of Round-Robin jobs"
+            "To build a portable new technology OS supporting OS/2 and POSIX APIs.",
+            "To create a small embedded sensor OS only.",
+            "To replace all APIs with MS-DOS interrupts only.",
+            "To make a Linux distribution."
           ],
           "answer": [
             0
           ],
-          "explanation": "Secure Boot checks trusted boot components before loading them.",
+          "explanation": "NT began as a portable OS project and later adopted Win32 as native.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why did NT switch toward the Win32 API as native?",
+          "choices": [
+            "Because POSIX was removed from computing entirely.",
+            "Because Windows 3.0 made Win32-style Windows applications important.",
+            "Because OS/2 became the only Windows API.",
+            "Because NT ran only on smartphones."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The lecture notes NT changed direction during development.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which description fits Windows 10 in the lecture?",
+          "choices": [
+            "A single-tasking 16-bit OS only.",
+            "A microcontroller firmware with no GUI.",
+            "A 32-bit and 64-bit preemptive multitasking OS for Intel microprocessors.",
+            "A cloud-only operating system with no local processes."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Windows 10 supports preemptive multitasking and both 32-bit and 64-bit execution.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which list contains major Windows 10 goals?",
+          "choices": [
+            "Only file compression and wallpaper management.",
+            "Only cloud object storage and service brokerage.",
+            "Only wireless sensor scheduling.",
+            "Portability, security, POSIX compliance, multiprocessor support, extensibility, international support, and compatibility."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The lecture lists these as Windows 10 goals.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What architectural style does the lecture associate with Windows 10?",
+          "choices": [
+            "Micro-kernel architecture with layered modules.",
+            "A single user-mode shell with no kernel.",
+            "TinyOS component wiring only.",
+            "A pure boot-loader design."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Windows is described as layered and micro-kernel based.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which Windows 10 feature supports older binaries through a bridge?",
+          "choices": [
+            "Keystone.",
+            "Windows Desktop Bridge.",
+            "mClibc.",
+            "JFFS2."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The lecture mentions Windows Desktop Bridge for older binaries.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which security mechanisms are part of Windows 10 design principles?",
+          "choices": [
+            "Only username/password with no exploit mitigations.",
+            "Only UNIX file mode bits.",
+            "ACLs, integrity levels, encryption, ASLR, DEP, CFG, ACG, and digital signatures.",
+            "Only TinyOS arbiters."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The lecture lists these Windows security mechanisms.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What do Device Guard policies help control?",
+          "choices": [
+            "Which process gets a shorter time slice.",
+            "Which file uses a smaller cluster size.",
+            "Which DNS server resolves a name.",
+            "Which signed code is allowed to run on the system."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Device Guard can restrict allowed signers.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What extensibility mechanisms are listed for Windows 10?",
+          "choices": [
+            "RPC and ALPC.",
+            "JFFS2 and UBIFS.",
+            "Commands and events.",
+            "fork and exec only."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Windows uses remote and advanced local procedure calls.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does Windows 10 support portability?",
+          "choices": [
+            "All code is written in assembly for one CPU.",
+            "Most code is C/C++, processor-specific code is small, and HAL isolates platform-dependent code.",
+            "It removes the HAL and embeds hardware assumptions everywhere.",
+            "It runs only on one exact motherboard."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The HAL DLL hides platform differences.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which design principle uses hardware protection for virtual memory and software protection for OS resources?",
+          "choices": [
+            "Service aggregation.",
+            "Object storage.",
+            "Reliability.",
+            "Buddy allocation."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The lecture ties reliability to hardware and software protection mechanisms.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does Windows 10 support international use?",
+          "choices": [
+            "Through only ASCII file names.",
+            "Through disabling locales.",
+            "Through DNS only.",
+            "Through the national language support API."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "NLS supports different locales.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which feature helps Windows energy efficiency on portable devices?",
+          "choices": [
+            "Dynamic tick, process lifetime management, desktop activity moderator, and connected standby.",
+            "Forcing all CPUs to run at maximum speed.",
+            "Disabling sleep and hibernation.",
+            "Removing power management."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The lecture lists these energy-saving features.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which components run in protected mode in Windows architecture?",
+          "choices": [
+            "Only user applications.",
+            "HAL, kernel, and executive.",
+            "Only Win32 subsystem windows.",
+            "Only MS-DOS programs."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Protected mode contains the privileged OS layers.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What runs in user mode in the Windows architecture?",
+          "choices": [
+            "Only the HAL.",
+            "Only interrupt handlers.",
+            "A collection of subsystems, including environmental and protection subsystems.",
+            "Only the hypervisor."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "User-mode subsystems provide operating environments and services.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What do Virtual Trust Levels provide?",
+          "choices": [
+            "A replacement for all process priorities.",
+            "A new file compression unit.",
+            "A network name-resolution cache.",
+            "A normal world and secure world boundary implemented with Hyper-V virtualization."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "VTL 0 and VTL 1 separate normal and secure execution worlds.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is in the secure world of VSM?",
+          "choices": [
+            "A secure kernel, secure executive, and trustlets.",
+            "Only user desktop applications.",
+            "Only file-system clusters.",
+            "Only DNS records."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "VSM uses isolated secure components.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are four main Windows kernel responsibilities?",
+          "choices": [
+            "Only registry editing and file compression.",
+            "Thread scheduling, interrupt and exception handling, low-level processor synchronization, and power-failure recovery.",
+            "Only DNS, WINS, and DHCP.",
+            "Only application-store downloads."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The kernel is the foundation for executive and subsystems.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which Windows kernel objects control dispatching and synchronization?",
+          "choices": [
+            "MFT records only.",
+            "Object-storage buckets.",
+            "Dispatcher objects such as events, mutexes, semaphores, threads, and timers.",
+            "Linux dentries."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Dispatcher objects support scheduling and synchronization.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are Windows control objects?",
+          "choices": [
+            "Only NTFS clusters.",
+            "Only TCP sockets.",
+            "Only environmental variables.",
+            "Objects such as APCs, interrupts, power notify, power status, process, and profile objects."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Control objects represent lower-level kernel control structures.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the unit of execution scheduled by the Windows kernel dispatcher?",
+          "choices": [
+            "Thread.",
+            "Volume.",
+            "Registry hive.",
+            "Domain."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Processes own resources, but threads are scheduled.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a Windows process contain?",
+          "choices": [
+            "Only one disk cluster.",
+            "A virtual address space, base-priority information, and processor affinity.",
+            "Only a network adapter driver.",
+            "Only a page-file offset."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "A process is a container for resources and execution context.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which pair of execution modes and stacks can a Windows thread have?",
+          "choices": [
+            "Only user mode with no kernel stack.",
+            "Only secure mode with no user stack.",
+            "User mode and kernel mode, with one stack for each.",
+            "Only BIOS mode and POST mode."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Trap handling switches mode and stack when needed.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which Windows priority ranges are real-time and variable?",
+          "choices": [
+            "Real-time 0 to 15, variable 16 to 31.",
+            "Real-time 1 to 4, variable 5 to 8.",
+            "All threads have priority 0 only.",
+            "Real-time 16 to 31, variable 0 to 15."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Windows uses a 32-level priority scheme.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What kind of threads does Windows priority strategy favor for good response?",
+          "choices": [
+            "Interactive and I/O-bound threads.",
+            "Only background CPU-bound threads.",
+            "Only suspended threads.",
+            "Only terminated threads."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The strategy keeps the GUI responsive and I/O devices busy.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "When can Windows scheduling occur?",
+          "choices": [
+            "Only when the computer boots.",
+            "When a thread becomes ready or waiting, terminates, or when priority or affinity changes.",
+            "Only when a file is compressed.",
+            "Only after DNS resolution."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "These events can cause dispatcher decisions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is Windows real-time scheduling described as soft real-time?",
+          "choices": [
+            "Real-time threads are never prioritized.",
+            "All threads are guaranteed to start within one nanosecond.",
+            "Real-time threads get preference, but no exact start-time guarantee is made.",
+            "Real-time scheduling applies only to files."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Windows gives preferential CPU access but not hard deadlines.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Windows trap handler handle?",
+          "choices": [
+            "Only file-system compression units.",
+            "Only user account creation.",
+            "Only cloud service aggregation.",
+            "Exceptions and interrupts generated by hardware or software."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Trap handling dispatches exceptions and interrupts.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does Windows achieve multiprocessor mutual exclusion in the kernel?",
+          "choices": [
+            "Using spin locks in global memory.",
+            "Using NTFS compression.",
+            "Using WINS name resolution.",
+            "Using application-store signatures only."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Spin locks protect shared kernel data on multiprocessors.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Windows object manager do?",
+          "choices": [
+            "Allocates disk clusters only.",
+            "Generates handles, checks security, and tracks which processes use objects.",
+            "Schedules all threads directly.",
+            "Compresses sparse files."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The object manager supervises OS objects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How can a process get a handle to a Windows object?",
+          "choices": [
+            "Only by editing the registry manually.",
+            "Only through DNS name resolution.",
+            "By creating it, opening it, inheriting it, or receiving a duplicated handle.",
+            "Only by loading a device driver."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Handles are per-process references to objects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How are Windows executive object names structured?",
+          "choices": [
+            "Like raw physical memory addresses only.",
+            "Like CPU register numbers only.",
+            "Like password salts only.",
+            "Like file path names, with symbolic links for aliases."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Named objects form a namespace similar to paths.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What two steps does the Windows virtual memory manager use to allocate memory?",
+          "choices": [
+            "Reserve address space, then commit backing space in the paging file.",
+            "Compress, then encrypt every page.",
+            "Create a process, then create a thread.",
+            "Resolve DNS, then open a socket."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Reservation and commitment are distinct VM allocation steps.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which page sizes can Windows use according to hardware support in the lecture?",
+          "choices": [
+            "Only 512 bytes.",
+            "4 KB, 2 MB, and 1 GB.",
+            "Only 8 KB clusters.",
+            "Only 16 contiguous clusters."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Windows VM uses hardware-supported page sizes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which states can a Windows page be in?",
+          "choices": [
+            "Ready, running, waiting, and terminated only.",
+            "Open, closed, parsed, and deleted only.",
+            "Valid, zeroed, free, standby, modified, or bad.",
+            "Public, private, hybrid, and community."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The lecture lists six page states.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a page file page-table entry contain?",
+          "choices": [
+            "Only the process name.",
+            "Only DNS server addresses.",
+            "Only a file reference number.",
+            "Protection bits, page-file offset, paging-file selector, and bookkeeping bits."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "A page-file PTE identifies where a paged-out page is stored.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Windows process manager provide?",
+          "choices": [
+            "Services for creating, deleting, and using processes and threads.",
+            "Only network packet filtering.",
+            "Only NTFS compression.",
+            "Only keyboard layout support."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The executive process manager handles process/thread services.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How are Docker containers supported in Windows according to the lecture?",
+          "choices": [
+            "Through NTFS sparse files only.",
+            "Through job objects called silos.",
+            "Through NetBIOS names only.",
+            "Through VDMs only."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Silos are job-object based container support.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does LPC handle small messages?",
+          "choices": [
+            "By always using shared memory for every byte.",
+            "By sending all requests through DNS.",
+            "By using a port message queue and copying messages between processes.",
+            "By writing them to the registry."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Small LPC messages up to about 256 bytes use queues and copying.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does LPC avoid copying large messages?",
+          "choices": [
+            "By compressing the MFT.",
+            "By converting them to SMB printer messages.",
+            "By changing thread priority.",
+            "By using a shared memory section object for the channel."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Large LPC transfers can share memory instead of copying.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Windows I/O manager responsible for?",
+          "choices": [
+            "File systems, cache management, device drivers, and network drivers.",
+            "Only scheduling foreground processes.",
+            "Only internationalization.",
+            "Only remote attestation."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The I/O manager coordinates much of the Windows I/O system.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the I/O manager do with the VM manager?",
+          "choices": [
+            "Creates the registry hives.",
+            "Provides memory-mapped file I/O.",
+            "Chooses DNS names.",
+            "Signs boot firmware."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Memory-mapped files connect I/O and virtual memory.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the security reference monitor check when a process opens an object handle?",
+          "choices": [
+            "The file cluster number against the CPU priority.",
+            "The DNS record against the registry hive.",
+            "The process security token against the object access control list.",
+            "The bootloader signature against a pipe."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "This gives uniform runtime access validation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Plug-and-Play manager do?",
+          "choices": [
+            "Schedules foreground threads.",
+            "Stores file metadata in the MFT.",
+            "Resolves computer names to IP addresses.",
+            "Recognizes hardware changes, loads appropriate drivers, and tracks device resources."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "PnP adapts to added devices such as PCI or USB.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Windows power manager control?",
+          "choices": [
+            "Sleep, hibernation, processor power behavior, and device power states.",
+            "Only TCP/IP routing.",
+            "Only POSIX subsystem loading.",
+            "Only file references."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Power management handles system and device power conditions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Windows registry?",
+          "choices": [
+            "A file-system journal for user data only.",
+            "Configuration repositories called hives managed by the configuration manager.",
+            "A TCP/IP transport protocol.",
+            "A thread scheduling queue."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The registry stores system, user, software, security, and boot configuration.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does UEFI Secure Boot verify during boot?",
+          "choices": [
+            "Only the foreground quantum.",
+            "Only SMB message types.",
+            "Digital signatures of firmware and boot-time components.",
+            "Only NTFS cluster sizes."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Secure Boot helps ensure trusted boot components.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What happens if Windows is resuming from hibernation?",
+          "choices": [
+            "The registry is deleted.",
+            "All users are forced into POSIX subsystem.",
+            "The MFT is reformatted.",
+            "State is restored using winresume.efi."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "winresume.efi restores hibernated state.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which process is started during kernel initialization along with idle and system processes?",
+          "choices": [
+            "Session Manager Subsystem (SMSS).",
+            "OpenStack Horizon.",
+            "TinyOS scheduler.",
+            "Linux module requestor."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "SMSS is one of the early Windows processes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main Windows operating environment subsystem?",
+          "choices": [
+            "OS/2 subsystem only.",
+            "Win32 subsystem.",
+            "POSIX subsystem only.",
+            "MS-DOS VDM only."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Win32 starts processes and provides keyboard, mouse, and graphical display capabilities.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What provides the MS-DOS environment in Windows?",
+          "choices": [
+            "The NTFS Master File Table.",
+            "The kernel page-table entry.",
+            "A virtual DOS machine (VDM) user-mode process.",
+            "The secure kernel only."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "VDM emulates MS-DOS behavior in user mode.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the POSIX subsystem support?",
+          "choices": [
+            "Only SMB printer messages.",
+            "Only BIOS firmware code.",
+            "Only NTFS compression.",
+            "Applications following the POSIX.1 UNIX model."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The POSIX subsystem lets POSIX-style applications run.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the logon and security subsystem do?",
+          "choices": [
+            "Authenticates users and works with authentication packages such as Kerberos.",
+            "Allocates disk clusters.",
+            "Schedules CPU-bound threads only.",
+            "Compresses sparse file gaps."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Windows uses account names, passwords, and Kerberos for network authentication.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the fundamental NTFS structure?",
+          "choices": [
+            "A Linux inode table.",
+            "A volume based on a logical disk partition.",
+            "A network socket.",
+            "A process priority class."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "NTFS organizes storage into volumes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the NTFS allocation unit?",
+          "choices": [
+            "A TCP segment.",
+            "A registry hive.",
+            "A cluster made from a power-of-two number of disk sectors.",
+            "A thread stack."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Clusters are the basic disk allocation units in NTFS.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Master File Table?",
+          "choices": [
+            "A routing table for TCP/IP.",
+            "A scheduling table for real-time priorities.",
+            "A list of loaded dynamic libraries.",
+            "A special file containing records that describe every file on an NTFS volume."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "NTFS metadata is stored in regular files, including the MFT.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is an NTFS file reference?",
+          "choices": [
+            "A 64-bit value with a 48-bit file number and 16-bit sequence number.",
+            "A 32-bit IP address only.",
+            "A CPU affinity mask.",
+            "A Win32 priority class."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "File references uniquely identify files and support consistency checks.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does NTFS log for recovery?",
+          "choices": [
+            "Only user passwords.",
+            "Redo and undo records for transactions plus a commit record.",
+            "Only DNS name bindings.",
+            "Only thread state names."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Logged transactions let NTFS restore metadata consistency.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does NTFS recovery guarantee after a crash?",
+          "choices": [
+            "Every byte of every user file is always recovered.",
+            "The registry is always rolled back.",
+            "File-system metadata structures can be made consistent, but all user file data is not guaranteed.",
+            "All network connections are restored."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "NTFS recovery protects file-system structures more than arbitrary user data.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Where does NTFS store file security information?",
+          "choices": [
+            "Only in DNS.",
+            "Only in the page file.",
+            "Only in the boot firmware.",
+            "In a security descriptor attribute in the MFT record."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The descriptor includes owner token information and ACLs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does NTFS compress files?",
+          "choices": [
+            "It divides file data into compression units of 16 contiguous clusters.",
+            "It compresses only file names.",
+            "It stores every file as one CPU register.",
+            "It sends files through SMB before storing them."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Compression units are the NTFS compression granularity.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does NTFS represent sparse zero-filled regions?",
+          "choices": [
+            "It stores every zero cluster physically.",
+            "It leaves gaps in virtual cluster numbers and zero-fills on reads.",
+            "It converts zeros into DNS names.",
+            "It prevents the file from being opened."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Sparse files save disk space for all-zero regions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does NDIS separate?",
+          "choices": [
+            "User accounts from passwords.",
+            "Files from directories.",
+            "Network adapters from transport protocols.",
+            "Threads from processes."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "NDIS lets adapters and protocols change independently.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does TDI enable?",
+          "choices": [
+            "Disk clusters can be compressed.",
+            "Objects can be named like paths.",
+            "Threads can switch stacks.",
+            "Session layer components can use available transport mechanisms."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The Transport Driver Interface abstracts transport use.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What protocol sends I/O requests over the network in Windows file sharing?",
+          "choices": [
+            "SMB.",
+            "PAM.",
+            "ELF.",
+            "CFS."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Server Message Block is used for network I/O requests.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which SMB message types are listed?",
+          "choices": [
+            "Ready, standby, running, and waiting.",
+            "Session control, file, printer, and message.",
+            "Valid, zeroed, free, and bad.",
+            "Open, close, delete, and parse only."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The lecture lists four SMB message categories.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is NetBIOS used for?",
+          "choices": [
+            "Virtual address translation only.",
+            "Kernel power management only.",
+            "Logical names, sessions between names, and reliable data transfer for sessions.",
+            "NTFS redo and undo logging only."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "NetBIOS abstracts network naming and sessions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which protocols connect Windows to many operating systems and hardware platforms?",
+          "choices": [
+            "Only DLC.",
+            "Only PPTP.",
+            "Only NetDDE.",
+            "TCP/IP IPv4 and IPv6."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "TCP/IP provides broad interoperability.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is PPTP used for?",
+          "choices": [
+            "Communication between Remote Access Server modules over the Internet.",
+            "Local NTFS compression.",
+            "Kernel exception dispatching.",
+            "MFT consistency checks."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Point-to-Point Tunneling Protocol supports remote access connectivity.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are named pipes in Windows networking?",
+          "choices": [
+            "Connectionless broadcast mailboxes.",
+            "Connection-oriented messaging mechanisms named by UNC.",
+            "Kernel spin locks.",
+            "NTFS sparse clusters."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Named pipes support interprocess and network communication.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are mailslots used for?",
+          "choices": [
+            "Persistent block storage volumes.",
+            "Thread priority boosts.",
+            "Connectionless broadcast applications such as finding network components.",
+            "Digital signature verification."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Mailslots are suitable for broadcast-style messages.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does Winsock provide?",
+          "choices": [
+            "A registry hive for users.",
+            "A disk recovery log.",
+            "A hardware abstraction layer.",
+            "A standardized session-layer API over many transport protocols."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Winsock hides differences among transport protocols.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What standard does Windows RPC follow?",
+          "choices": [
+            "Distributed Computing Environment RPC.",
+            "POSIX file mode bits only.",
+            "TinyOS nesC wiring.",
+            "Linux buddy allocation."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Following DCE helps portability of RPC programs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a redirector?",
+          "choices": [
+            "A file compression algorithm.",
+            "A client-side kernel component that forwards I/O requests to remote files.",
+            "A scheduler priority class.",
+            "A page state in memory."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Redirectors make remote files appear local through the Windows I/O API.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the role of MUP in remote file access?",
+          "choices": [
+            "It stores every file in the MFT.",
+            "It authenticates Kerberos users directly.",
+            "It sends the I/O request asynchronously to registered redirectors and caches which one handles the file.",
+            "It compresses sparse file gaps."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The Multiple UNC Provider chooses the appropriate redirector.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In remote file access, what happens after the server driver receives a request?",
+          "choices": [
+            "It changes the client priority class.",
+            "It creates a new registry hive.",
+            "It disables SMB.",
+            "It passes the request to the proper local file system driver and device driver."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "The server side satisfies the file request locally and sends results back.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a Windows domain?",
+          "choices": [
+            "A group of Windows machines sharing a common security policy and user database.",
+            "A single NTFS compression unit.",
+            "A page-file selector.",
+            "A thread state."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Domains manage global access rights.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a two-way transitive trust relationship?",
+          "choices": [
+            "Only A trusts B and nobody else is affected.",
+            "If A trusts B and B trusts C, A, B, and C can trust each other through the chain.",
+            "All machines reject authentication.",
+            "Trust is limited to one local file."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Transitive trust passes through the hierarchy.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is crosslink trust used for?",
+          "choices": [
+            "To compress sparse files.",
+            "To reserve virtual memory.",
+            "To bypass hierarchy and reduce authentication traffic.",
+            "To schedule real-time threads."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Crosslinks shorten trust paths.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is name resolution on an IP network?",
+          "choices": [
+            "Converting a thread to a process.",
+            "Converting a file record to a cluster.",
+            "Converting a password to a salt.",
+            "Converting a computer name to an IP address."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Name resolution maps names such as hostnames to IP addresses.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which Windows name-resolution methods are listed?",
+          "choices": [
+            "WINS, broadcast name resolution, DNS, host file, and LMHOSTS file.",
+            "Only SMB and NetBIOS.",
+            "Only NTFS and MFT.",
+            "Only CreateProcess and CreateThread."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Windows can use several name-resolution sources.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does WINS maintain?",
+          "choices": [
+            "A table of page states.",
+            "A dynamic database of name-to-IP address bindings.",
+            "A list of NTFS compression units.",
+            "A set of kernel traps."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "WINS servers and clients provide dynamic name resolution.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How can Windows processes share kernel objects?",
+          "choices": [
+            "Only by copying the whole object file.",
+            "Only by using DNS.",
+            "Handle inheritance, opening a named object, or DuplicateHandle.",
+            "Only by rebooting into secure world."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The Win32 API provides several handle-sharing mechanisms.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does CreateProcess do?",
+          "choices": [
+            "Only creates a registry hive.",
+            "Only opens a remote SMB file.",
+            "Only compresses an NTFS file.",
+            "Loads dynamic link libraries used by the process and creates a primary thread."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "CreateProcess starts a process and its first thread.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does CreateThread do?",
+          "choices": [
+            "Creates additional threads in a process.",
+            "Creates NTFS volumes.",
+            "Creates DNS records.",
+            "Creates SMB message types."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "CreateThread adds execution units.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which Win32 priority class is typical for most processes?",
+          "choices": [
+            "REALTIME_PRIORITY_CLASS at level 1.",
+            "NORMAL_PRIORITY_CLASS at level 8.",
+            "IDLE_PRIORITY_CLASS at level 24.",
+            "HIGH_PRIORITY_CLASS at level 0."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The lecture lists NORMAL as the typical class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What happens when a NORMAL_PRIORITY_CLASS process moves to the foreground?",
+          "choices": [
+            "It is immediately terminated.",
+            "It loses all priority.",
+            "Its scheduling quantum is increased, often by a factor such as 3.",
+            "It becomes a registry hive."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Foreground boosting improves interactive response.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does Windows dynamically adjust thread priority?",
+          "choices": [
+            "It never changes priority after creation.",
+            "It only uses file extension length.",
+            "It assigns all threads priority 31.",
+            "It adjusts based on whether a thread is I/O-bound or CPU-bound."
+          ],
+          "answer": [
+            3
+          ],
+          "explanation": "Dynamic boosts help balance responsiveness and CPU use.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which synchronization objects does the Windows kernel provide?",
+          "choices": [
+            "Semaphores and mutexes, plus wait functions and critical sections in Win32.",
+            "Only NTFS clusters.",
+            "Only DNS records.",
+            "Only registry hives."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Windows provides several synchronization mechanisms for shared objects.",
           "points": 1
         }
       ]
