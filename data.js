@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-21T13:51:02.570Z",
+  "generatedAt": "2026-06-21T14:35:46.279Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -3288,7 +3288,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "The OS hides hardware complexity and coordinates its use.",
+              "explanation": "The OS (Operating System) hides hardware complexity and coordinates its use.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3298,19 +3298,19 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A single user application for editing text.",
                 "Software that manages hardware resources and provides services/abstractions to programs.",
-                "A physical CPU register.",
+                "A physical CPU (Central Processing Unit) register.",
                 "A file extension used by programs."
               ],
               "answer": [
                 1
               ],
-              "explanation": "An OS is both a resource manager and an extended machine.",
+              "explanation": "An OS (Operating System) is both a resource manager and an extended machine.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does it mean that the OS is an extended machine?",
+              "prompt": "What does it mean that the OS (Operating System) is an extended machine?",
               "choices": [
                 "It makes hardware visible in its most complicated form.",
                 "It removes all system calls.",
@@ -3320,23 +3320,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "The OS hides messy hardware details behind usable abstractions.",
+              "explanation": "The OS (Operating System) hides messy hardware details behind usable abstractions.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does it mean that the OS is a resource manager?",
+              "prompt": "What does it mean that the OS (Operating System) is a resource manager?",
               "choices": [
                 "It stores only file extensions.",
                 "It prevents any program from using hardware.",
                 "It replaces every device driver with an application.",
-                "It allocates CPU, memory, I/O devices, and storage among competing programs."
+                "It allocates CPU (Central Processing Unit), memory, I/O devices, and storage among competing programs."
               ],
               "answer": [
                 3
               ],
-              "explanation": "The OS decides who gets resources and when.",
+              "explanation": "The OS (Operating System) decides who gets resources and when.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3352,7 +3352,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "The OS prevents conflicts and unfair use.",
+              "explanation": "The OS (Operating System) prevents conflicts and unfair use.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3368,7 +3368,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "CPU sharing is a classic time-multiplexed resource.",
+              "explanation": "CPU (Central Processing Unit) sharing is a classic time-multiplexed resource.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3376,7 +3376,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is space multiplexing?",
               "choices": [
-                "One process gets the whole CPU forever.",
+                "One process gets the whole CPU (Central Processing Unit) forever.",
                 "Every program waits for a single turn.",
                 "A resource is divided into portions used by multiple consumers at once.",
                 "A printer is shared by alternating pages only."
@@ -3425,14 +3425,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is multiprogramming?",
               "choices": [
                 "Running one job at a time until all I/O finishes.",
-                "Keeping multiple jobs in memory so the CPU can run another when one waits for I/O.",
-                "Removing the OS from memory.",
+                "Keeping multiple jobs in memory so the CPU (Central Processing Unit) can run another when one waits for I/O.",
+                "Removing the OS (Operating System) from memory.",
                 "Using only one fixed program forever."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Multiprogramming increases CPU utilization.",
+              "explanation": "Multiprogramming increases CPU (Central Processing Unit) utilization.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3440,7 +3440,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is spooling?",
               "choices": [
-                "Moving all memory to CPU registers.",
+                "Moving all memory to CPU (Central Processing Unit) registers.",
                 "Scheduling only real-time tasks.",
                 "Using disk as a buffer between slow devices and programs, such as queued printer output.",
                 "Deleting completed jobs immediately."
@@ -3457,9 +3457,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What was the idea of timesharing?",
               "choices": [
                 "A single user runs one batch job with no interaction.",
-                "The CPU is divided physically into disks.",
+                "The CPU (Central Processing Unit) is divided physically into disks.",
                 "Only system operators may type commands.",
-                "Many users interact with the computer by receiving short CPU time slices."
+                "Many users interact with the computer by receiving short CPU (Central Processing Unit) time slices."
               ],
               "answer": [
                 3
@@ -3470,7 +3470,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is MULTICS important historically?",
+              "prompt": "Why is MULTICS (Multiplexed Information and Computing Service) important historically?",
               "choices": [
                 "It influenced timesharing and later operating-system ideas, including UNIX.",
                 "It was the first spreadsheet.",
@@ -3480,13 +3480,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "MULTICS introduced influential OS concepts.",
+              "explanation": "MULTICS (Multiplexed Information and Computing Service) introduced influential OS (Operating System) concepts.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What was UNIX known for?",
+              "prompt": "What was UNIX (Uniplexed Information and Computing Service) known for?",
               "choices": [
                 "A purely graphical mobile system.",
                 "A portable, influential operating system written largely in C.",
@@ -3502,7 +3502,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why was writing UNIX in C significant?",
+              "prompt": "Why was writing UNIX (Uniplexed Information and Computing Service) in C significant?",
               "choices": [
                 "It prevented system calls.",
                 "It required one exact processor forever.",
@@ -3518,7 +3518,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What did the GUI revolution change?",
+              "prompt": "What did the GUI (Graphical User Interface) revolution change?",
               "choices": [
                 "All systems returned to punched cards.",
                 "The kernel stopped managing resources.",
@@ -3528,13 +3528,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "GUIs changed the user interface model.",
+              "explanation": "GUIs (Graphical User Interfaces) changed the user interface model.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the CPU’s role?",
+              "prompt": "What is the CPU (Central Processing Unit)’s role?",
               "choices": [
                 "Fetch, decode, and execute instructions.",
                 "Store permanent files without disks.",
@@ -3544,7 +3544,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "The CPU executes program instructions.",
+              "explanation": "The CPU (Central Processing Unit) executes program instructions.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3560,7 +3560,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "The PC controls instruction sequencing.",
+              "explanation": "The PC (Program Counter) controls instruction sequencing.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3582,23 +3582,23 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the PSW or status register used for?",
+              "prompt": "What is the PSW (Program Status Word) or status register used for?",
               "choices": [
                 "It stores all user files.",
                 "It is the main memory bus.",
                 "It names system directories.",
-                "It stores condition codes and CPU control/status information."
+                "It stores condition codes and CPU (Central Processing Unit) control/status information."
               ],
               "answer": [
                 3
               ],
-              "explanation": "The status register tracks CPU execution state.",
+              "explanation": "The status register tracks CPU (Central Processing Unit) execution state.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the purpose of a CPU pipeline?",
+              "prompt": "What is the purpose of a CPU (Central Processing Unit) pipeline?",
               "choices": [
                 "Overlap instruction stages to improve throughput.",
                 "Run only one instruction stage at a time deliberately.",
@@ -3619,7 +3619,7 @@ window.UNIFIED_EXAM_DATA = {
                 "A file name conflict.",
                 "A situation that prevents the next instruction from safely executing in the pipeline.",
                 "A disk quota warning.",
-                "A GUI menu item."
+                "A GUI (Graphical User Interface) menu item."
               ],
               "answer": [
                 1
@@ -3630,11 +3630,11 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a superscalar CPU?",
+              "prompt": "What is a superscalar CPU (Central Processing Unit)?",
               "choices": [
-                "A CPU with no pipeline.",
+                "A CPU (Central Processing Unit) with no pipeline.",
                 "A disk controller with many files.",
-                "A CPU that can issue multiple instructions per cycle using multiple execution units.",
+                "A CPU (Central Processing Unit) that can issue multiple instructions per cycle using multiple execution units.",
                 "A single-purpose I/O device."
               ],
               "answer": [
@@ -3651,7 +3651,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Separating text files from binary files.",
                 "Separating old files from new files.",
                 "Separating monitors from keyboards.",
-                "Separating privileged OS code from ordinary application code."
+                "Separating privileged OS (Operating System) code from ordinary application code."
               ],
               "answer": [
                 3
@@ -3672,7 +3672,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Privileged operations require OS control.",
+              "explanation": "Privileged operations require OS (Operating System) control.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3681,14 +3681,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a system call?",
               "choices": [
                 "A direct jump into any kernel address.",
-                "A controlled entry from user mode into the OS service interface.",
+                "A controlled entry from user mode into the OS (Operating System) service interface.",
                 "A file stored on disk.",
                 "A keyboard shortcut only."
               ],
               "answer": [
                 1
               ],
-              "explanation": "System calls let programs request OS services safely.",
+              "explanation": "System calls let programs request OS (Operating System) services safely.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3697,7 +3697,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is multithreading on a chip?",
               "choices": [
                 "A disk stores multiple file names.",
-                "The OS has no processes.",
+                "The OS (Operating System) has no processes.",
                 "Hardware holds multiple thread states so a core can switch quickly.",
                 "Only one thread exists in hardware."
               ],
@@ -3715,7 +3715,7 @@ window.UNIFIED_EXAM_DATA = {
                 "A chip containing only one register.",
                 "A disk with multiple partitions.",
                 "A single program with multiple files.",
-                "A processor chip containing multiple CPU cores."
+                "A processor chip containing multiple CPU (Central Processing Unit) cores."
               ],
               "answer": [
                 3
@@ -3730,13 +3730,13 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Registers.",
                 "Magnetic disk.",
-                "SSD.",
+                "SSD (Solid State Drive).",
                 "Main memory."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Registers are closest to the CPU.",
+              "explanation": "Registers are closest to the CPU (Central Processing Unit).",
               "fullExplanation": null,
               "points": 1
             },
@@ -3745,7 +3745,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why is cache memory used?",
               "choices": [
                 "To replace all permanent storage.",
-                "To keep recently or frequently used data near the CPU.",
+                "To keep recently or frequently used data near the CPU (Central Processing Unit).",
                 "To slow down memory access.",
                 "To store only device drivers."
               ],
@@ -3758,12 +3758,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the difference between L1 and L2 cache generally?",
+              "prompt": "What is the difference between L1 (Level 1) and L2 (Level 2) cache generally?",
               "choices": [
-                "L2 is always inside a disk.",
-                "L1 is nonvolatile storage.",
-                "L1 is usually smaller and faster; L2 is larger and slower.",
-                "They are unrelated to CPU memory."
+                "L2 (Level 2 cache) is always inside a disk.",
+                "L1 (Level 1 cache) is nonvolatile storage.",
+                "L1 (Level 1 cache) is usually smaller and faster; L2 (Level 2 cache) is larger and slower.",
+                "They are unrelated to CPU (Central Processing Unit) memory."
               ],
               "answer": [
                 2
@@ -3777,14 +3777,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is nonvolatile memory?",
               "choices": [
                 "Memory that loses data immediately without power.",
-                "Only CPU pipeline registers.",
+                "Only CPU (Central Processing Unit) pipeline registers.",
                 "Only a process address space.",
                 "Memory that retains data when power is off."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Flash and SSD storage are nonvolatile.",
+              "explanation": "Flash and SSD (Solid State Drive) storage are nonvolatile.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3792,21 +3792,21 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does virtual memory provide?",
               "choices": [
-                "An address-space abstraction that can exceed physical RAM.",
-                "Only a faster CPU pipeline.",
+                "An address-space abstraction that can exceed physical RAM (Random Access Memory).",
+                "Only a faster CPU (Central Processing Unit) pipeline.",
                 "A printer queue.",
                 "A graphical desktop."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Virtual memory decouples program addresses from RAM.",
+              "explanation": "Virtual memory decouples program addresses from RAM (Random Access Memory).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the MMU?",
+              "prompt": "What is the MMU (Memory Management Unit)?",
               "choices": [
                 "A file-system backup tool.",
                 "Hardware that translates virtual addresses to physical addresses.",
@@ -3816,7 +3816,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "The MMU performs address translation.",
+              "explanation": "The MMU (Memory Management Unit) performs address translation.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3824,8 +3824,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a magnetic disk?",
               "choices": [
-                "A CPU cache level.",
-                "A register inside the CPU.",
+                "A CPU (Central Processing Unit) cache level.",
+                "A register inside the CPU (Central Processing Unit).",
                 "A storage device using rotating platters and moving heads.",
                 "A program counter."
               ],
@@ -3838,17 +3838,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is an SSD?",
+              "prompt": "What is an SSD (Solid State Drive)?",
               "choices": [
                 "A rotating magnetic platter.",
-                "A CPU execution unit.",
+                "A CPU (Central Processing Unit) execution unit.",
                 "A process state.",
                 "A nonvolatile storage device based on flash memory with no moving parts."
               ],
               "answer": [
                 3
               ],
-              "explanation": "SSDs avoid mechanical seek delay.",
+              "explanation": "SSDs (Solid State Drives) avoid mechanical seek delay.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3856,7 +3856,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does an I/O device controller do?",
               "choices": [
-                "Controls a device and presents registers/buffers for the OS to use.",
+                "Controls a device and presents registers/buffers for the OS (Operating System) to use.",
                 "Runs user shell scripts only.",
                 "Stores the whole file system hierarchy.",
                 "Replaces all drivers."
@@ -3864,7 +3864,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Controllers mediate between CPU and devices.",
+              "explanation": "Controllers mediate between CPU (Central Processing Unit) and devices.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3873,8 +3873,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a device driver?",
               "choices": [
                 "A user document.",
-                "OS software that knows how to control a specific device controller.",
-                "A CPU arithmetic unit.",
+                "OS (Operating System) software that knows how to control a specific device controller.",
+                "A CPU (Central Processing Unit) arithmetic unit.",
                 "A file extension."
               ],
               "answer": [
@@ -3886,7 +3886,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why are device drivers often part of the OS or trusted code?",
+              "prompt": "Why are device drivers often part of the OS (Operating System) or trusted code?",
               "choices": [
                 "They are just user photos.",
                 "They never access memory.",
@@ -3907,7 +3907,7 @@ window.UNIFIED_EXAM_DATA = {
                 "A directory entry.",
                 "A process hierarchy.",
                 "A file extension convention.",
-                "A communication pathway connecting CPU, memory, and devices."
+                "A communication pathway connecting CPU (Central Processing Unit), memory, and devices."
               ],
               "answer": [
                 3
@@ -3921,14 +3921,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What happens during booting?",
               "choices": [
                 "Firmware initializes hardware and loads the operating system.",
-                "The OS deletes all processes.",
+                "The OS (Operating System) deletes all processes.",
                 "Applications bypass the kernel permanently.",
-                "The CPU stops executing instructions."
+                "The CPU (Central Processing Unit) stops executing instructions."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Booting starts the machine and OS.",
+              "explanation": "Booting starts the machine and OS (Operating System).",
               "fullExplanation": null,
               "points": 1
             },
@@ -3937,14 +3937,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is the bootstrap program?",
               "choices": [
                 "A user word processor.",
-                "Small startup code that loads the OS or bootloader.",
+                "Small startup code that loads the OS (Operating System) or bootloader.",
                 "A page replacement policy.",
                 "A file permission bit."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Bootstrap code begins the OS loading process.",
+              "explanation": "Bootstrap code begins the OS (Operating System) loading process.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3953,14 +3953,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is the operating-system zoo?",
               "choices": [
                 "A directory containing animal pictures.",
-                "Only one universal OS design.",
-                "The variety of OS types for different environments and devices.",
-                "A CPU scheduling queue."
+                "Only one universal OS (Operating System) design.",
+                "The variety of OS (Operating System) types for different environments and devices.",
+                "A CPU (Central Processing Unit) scheduling queue."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Different systems need different OS designs.",
+              "explanation": "Different systems need different OS (Operating System) designs.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3968,10 +3968,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a real-time operating system?",
               "choices": [
-                "An OS that ignores deadlines.",
+                "An OS (Operating System) that ignores deadlines.",
                 "A batch-only mainframe system.",
                 "A file extension manager.",
-                "An OS designed to meet timing constraints."
+                "An OS (Operating System) designed to meet timing constraints."
               ],
               "answer": [
                 3
@@ -3984,8 +3984,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is an embedded operating system?",
               "choices": [
-                "An OS for dedicated devices with limited resources and specific functions.",
-                "A general desktop OS only.",
+                "An OS (Operating System) for dedicated devices with limited resources and specific functions.",
+                "A general desktop OS (Operating System) only.",
                 "A cloud datacenter only.",
                 "A shell script."
               ],
@@ -4017,7 +4017,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a process hierarchy?",
               "choices": [
                 "A file extension list.",
-                "A CPU cache ordering.",
+                "A CPU (Central Processing Unit) cache ordering.",
                 "Parent-child relationships between processes.",
                 "A disk block chain."
               ],
@@ -4030,7 +4030,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which state means a process is able to run but is not currently on the CPU?",
+              "prompt": "Which state means a process is able to run but is not currently on the CPU (Central Processing Unit)?",
               "choices": [
                 "Running.",
                 "Blocked.",
@@ -4040,7 +4040,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Ready processes wait for CPU scheduling.",
+              "explanation": "Ready processes wait for CPU (Central Processing Unit) scheduling.",
               "fullExplanation": null,
               "points": 1
             },
@@ -4080,7 +4080,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a file?",
               "choices": [
-                "A CPU register.",
+                "A CPU (Central Processing Unit) register.",
                 "A process state.",
                 "A named persistent object used to store data.",
                 "A bus signal."
@@ -4096,7 +4096,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a directory?",
               "choices": [
-                "A CPU mode.",
+                "A CPU (Central Processing Unit) mode.",
                 "A device interrupt.",
                 "A page table entry.",
                 "A file-system object that maps names to files or subdirectories."
@@ -4113,7 +4113,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is mounting?",
               "choices": [
                 "Attaching one file system into another file-system tree.",
-                "Starting a CPU pipeline.",
+                "Starting a CPU (Central Processing Unit) pipeline.",
                 "Creating a user-mode thread.",
                 "Caching a disk block only."
               ],
@@ -4129,8 +4129,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a pipe?",
               "choices": [
                 "A disk platter.",
-                "An IPC channel connecting output of one process to input of another.",
-                "A CPU register.",
+                "An IPC (Interprocess Communication) channel connecting output of one process to input of another.",
+                "A CPU (Central Processing Unit) register.",
                 "A boot firmware stage."
               ],
               "answer": [
@@ -4146,7 +4146,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Only text documents.",
                 "Only images.",
-                "File-system entries representing devices or special OS objects.",
+                "File-system entries representing devices or special OS (Operating System) objects.",
                 "Only shell commands."
               ],
               "answer": [
@@ -4163,7 +4163,7 @@ window.UNIFIED_EXAM_DATA = {
                 "The kernel memory manager.",
                 "A page table.",
                 "A device controller.",
-                "A command interpreter that starts programs and connects user commands to OS services."
+                "A command interpreter that starts programs and connects user commands to OS (Operating System) services."
               ],
               "answer": [
                 3
@@ -4174,7 +4174,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is fork used for in UNIX-like systems?",
+              "prompt": "What is fork used for in UNIX (Uniplexed Information and Computing Service)-like systems?",
               "choices": [
                 "Creating a new process.",
                 "Deleting a directory.",
@@ -4211,7 +4211,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Opening a file for reading.",
                 "Translating an address.",
                 "Letting a parent process wait for a child to finish.",
-                "Changing CPU mode."
+                "Changing CPU (Central Processing Unit) mode."
               ],
               "answer": [
                 2
@@ -4224,7 +4224,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What are file management system calls used for?",
               "choices": [
-                "Only scheduling CPUs.",
+                "Only scheduling CPUs (Central Processing Units).",
                 "Only handling page faults.",
                 "Only drawing windows.",
                 "Opening, reading, writing, closing, and managing files."
@@ -4256,8 +4256,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is Win32?",
               "choices": [
-                "A CPU cache design.",
-                "The Windows API used by applications to request OS services.",
+                "A CPU (Central Processing Unit) cache design.",
+                "The Windows API (Application Programming Interface) used by applications to request OS (Operating System) services.",
                 "A UNIX file system only.",
                 "A disk scheduling algorithm."
               ],
@@ -4273,25 +4273,25 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why does Win32 differ from direct system calls?",
               "choices": [
                 "It is physical hardware.",
-                "It cannot call the OS.",
-                "It is a higher-level API layer that may wrap native OS services.",
+                "It cannot call the OS (Operating System).",
+                "It is a higher-level API (Application Programming Interface) layer that may wrap native OS (Operating System) services.",
                 "It is only a magnetic disk."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Applications commonly use API libraries rather than raw syscall numbers.",
+              "explanation": "Applications commonly use API (Application Programming Interface) libraries rather than raw syscall numbers.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a monolithic OS structure?",
+              "prompt": "What is a monolithic OS (Operating System) structure?",
               "choices": [
                 "Only a tiny kernel with all services in user mode.",
                 "A set of strict layers only.",
                 "An application container only.",
-                "Most OS services run together as one large kernel-mode program."
+                "Most OS (Operating System) services run together as one large kernel-mode program."
               ],
               "answer": [
                 3
@@ -4302,17 +4302,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a layered OS structure?",
+              "prompt": "What is a layered OS (Operating System) structure?",
               "choices": [
-                "The OS is organized into levels where each layer uses lower layers.",
+                "The OS (Operating System) is organized into levels where each layer uses lower layers.",
                 "Everything runs in one unstructured block.",
                 "All services run as remote servers only.",
-                "The OS has no kernel."
+                "The OS (Operating System) has no kernel."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Layering organizes OS complexity.",
+              "explanation": "Layering organizes OS (Operating System) complexity.",
               "fullExplanation": null,
               "points": 1
             },
@@ -4322,7 +4322,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A kernel with every service compiled into one huge block.",
                 "A minimal kernel with services such as drivers and file systems moved to user mode.",
-                "A CPU cache.",
+                "A CPU (Central Processing Unit) cache.",
                 "A disk block allocator."
               ],
               "answer": [
@@ -4334,7 +4334,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the client-server OS structure?",
+              "prompt": "What is the client-server OS (Operating System) structure?",
               "choices": [
                 "All services execute in one monolithic function.",
                 "No processes communicate.",
@@ -4352,15 +4352,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a virtual machine?",
               "choices": [
-                "A physical-only CPU with no software.",
+                "A physical-only CPU (Central Processing Unit) with no software.",
                 "A file extension.",
                 "A shell pipeline only.",
-                "A software-created machine abstraction capable of running an OS or application environment."
+                "A software-created machine abstraction capable of running an OS (Operating System) or application environment."
               ],
               "answer": [
                 3
               ],
-              "explanation": "VMs virtualize machine resources.",
+              "explanation": "VMs (Virtual Machines) virtualize machine resources.",
               "fullExplanation": null,
               "points": 1
             },
@@ -4369,9 +4369,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a container?",
               "choices": [
                 "An isolated application environment sharing the host kernel.",
-                "A full hardware VM with its own kernel always.",
+                "A full hardware VM (Virtual Machine) with its own kernel always.",
                 "A disk platter.",
-                "A CPU status register."
+                "A CPU (Central Processing Unit) status register."
               ],
               "answer": [
                 0
@@ -4384,9 +4384,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is an exokernel idea?",
               "choices": [
-                "Hide all hardware behind one fixed high-level API only.",
+                "Hide all hardware behind one fixed high-level API (Application Programming Interface) only.",
                 "Expose hardware resources securely so applications can build their own abstractions.",
-                "Run all services in a GUI shell.",
+                "Run all services in a GUI (Graphical User Interface) shell.",
                 "Use no protection at all."
               ],
               "answer": [
@@ -4420,7 +4420,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "The process model abstracts CPU execution for programs.",
+              "explanation": "The process model abstracts CPU (Central Processing Unit) execution for programs.",
               "fullExplanation": null,
               "points": 1
             },
@@ -4452,7 +4452,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Processes begin for several OS-level reasons.",
+              "explanation": "Processes begin for several OS (Operating System)-level reasons.",
               "fullExplanation": null,
               "points": 1
             },
@@ -4477,7 +4477,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does process termination by normal exit mean?",
               "choices": [
                 "The process voluntarily finishes successfully.",
-                "The OS kills it after a fatal hardware error only.",
+                "The OS (Operating System) kills it after a fatal hardware error only.",
                 "Another process forcibly stops it.",
                 "It is blocked on I/O."
               ],
@@ -4495,7 +4495,7 @@ window.UNIFIED_EXAM_DATA = {
                 "The process completes successfully.",
                 "A voluntary termination because the process detects it cannot continue correctly.",
                 "Another process kills it externally.",
-                "The CPU changes cache lines."
+                "The CPU (Central Processing Unit) changes cache lines."
               ],
               "answer": [
                 1
@@ -4538,7 +4538,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which process state means currently executing on the CPU?",
+              "prompt": "Which process state means currently executing on the CPU (Central Processing Unit)?",
               "choices": [
                 "Running.",
                 "Ready.",
@@ -4548,7 +4548,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Running means the process has the CPU.",
+              "explanation": "Running means the process has the CPU (Central Processing Unit).",
               "fullExplanation": null,
               "points": 1
             },
@@ -4596,7 +4596,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "The OS tracks each process in tables.",
+              "explanation": "The OS (Operating System) tracks each process in tables.",
               "fullExplanation": null,
               "points": 1
             },
@@ -4612,7 +4612,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "A PCB stores execution context and resources.",
+              "explanation": "A PCB (Process Control Block) stores execution context and resources.",
               "fullExplanation": null,
               "points": 1
             },
@@ -4701,7 +4701,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is the classical thread model?",
               "choices": [
                 "Threads own all resources and processes do nothing.",
-                "The OS cannot schedule threads.",
+                "The OS (Operating System) cannot schedule threads.",
                 "A process contains resources while threads are scheduled execution entities.",
                 "Threads are always separate machines."
               ],
@@ -4714,12 +4714,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What are POSIX threads?",
+              "prompt": "What are POSIX (Portable Operating System Interface) threads?",
               "choices": [
                 "A disk file allocation method.",
                 "A Windows-only registry format.",
                 "A page replacement algorithm.",
-                "A standard thread API for creating, joining, and synchronizing threads."
+                "A standard thread API (Application Programming Interface) for creating, joining, and synchronizing threads."
               ],
               "answer": [
                 3
@@ -4735,7 +4735,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Starts a new thread.",
                 "Deletes a file.",
                 "Allocates a disk partition.",
-                "Terminates the whole OS."
+                "Terminates the whole OS (Operating System)."
               ],
               "answer": [
                 0
@@ -4780,7 +4780,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a disadvantage of user-space threads?",
               "choices": [
-                "They always run on all CPUs automatically.",
+                "They always run on all CPUs (Central Processing Units) automatically.",
                 "They cannot share memory.",
                 "They are slower than processes always.",
                 "A blocking system call can block the whole process."
@@ -4796,7 +4796,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is an advantage of kernel-space threads?",
               "choices": [
-                "The kernel can schedule threads independently and use multiple CPUs.",
+                "The kernel can schedule threads independently and use multiple CPUs (Central Processing Units).",
                 "They require no kernel involvement.",
                 "A blocking call stops every process.",
                 "They cannot be preempted."
@@ -4804,7 +4804,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Kernel threads are visible to the OS scheduler.",
+              "explanation": "Kernel threads are visible to the OS (Operating System) scheduler.",
               "fullExplanation": null,
               "points": 1
             },
@@ -4814,7 +4814,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "They cannot block independently.",
                 "Thread operations require kernel involvement and can be more expensive.",
-                "They cannot run on multiple CPUs.",
+                "They cannot run on multiple CPUs (Central Processing Units).",
                 "They are invisible to the scheduler."
               ],
               "answer": [
@@ -4874,11 +4874,11 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is IPC?",
+              "prompt": "What is IPC (Interprocess Communication)?",
               "choices": [
                 "A disk formatting method.",
                 "Mechanisms that let processes communicate and coordinate.",
-                "A CPU cache replacement method.",
+                "A CPU (Central Processing Unit) cache replacement method.",
                 "A file extension."
               ],
               "answer": [
@@ -4892,8 +4892,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a race condition?",
               "choices": [
-                "The CPU clock speed alone determines correctness.",
-                "The amount of RAM decides all outputs.",
+                "The CPU (Central Processing Unit) clock speed alone determines correctness.",
+                "The amount of RAM (Random Access Memory) decides all outputs.",
                 "Program results depend on the exact timing of concurrent execution.",
                 "The number of users is the only factor."
               ],
@@ -4942,7 +4942,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Processes outside critical regions may block everyone forever.",
                 "No two processes may be simultaneously inside their critical regions.",
-                "Only CPU speed decides entry.",
+                "Only CPU (Central Processing Unit) speed decides entry.",
                 "A process can never enter its critical region."
               ],
               "answer": [
@@ -4957,7 +4957,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does progress mean in critical-region solutions?",
               "choices": [
                 "Processes should wait forever even when free.",
-                "Only the OS bootloader may enter.",
+                "Only the OS (Operating System) bootloader may enter.",
                 "If no one is inside, eligible processes should be able to choose one to enter.",
                 "Critical regions must be deleted."
               ],
@@ -4989,7 +4989,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is Peterson’s solution?",
               "choices": [
                 "A software mutual exclusion algorithm for two processes using turn and interested flags.",
-                "A hardware DMA controller.",
+                "A hardware DMA (Direct Memory Access) controller.",
                 "A disk scheduling algorithm.",
                 "A page replacement policy."
               ],
@@ -5005,20 +5005,20 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is busy waiting?",
               "choices": [
                 "Sleeping until explicitly awakened.",
-                "Repeatedly checking a condition while consuming CPU time.",
+                "Repeatedly checking a condition while consuming CPU (Central Processing Unit) time.",
                 "Sending a network message once.",
                 "Writing data to disk."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Busy waiting wastes CPU while waiting.",
+              "explanation": "Busy waiting wastes CPU (Central Processing Unit) while waiting.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the TSL instruction do?",
+              "prompt": "What does the TSL (Test and Set Lock) instruction do?",
               "choices": [
                 "Puts a process to sleep always.",
                 "Sends a message between machines.",
@@ -5028,23 +5028,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "TSL provides hardware support for mutual exclusion.",
+              "explanation": "TSL (Test and Set Lock) provides hardware support for mutual exclusion.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is TSL atomic?",
+              "prompt": "Why is TSL (Test and Set Lock) atomic?",
               "choices": [
                 "It consists of many interruptible user instructions.",
                 "It never touches memory.",
                 "It is executed only by the shell.",
-                "No other CPU can access the memory word until the instruction finishes."
+                "No other CPU (Central Processing Unit) can access the memory word until the instruction finishes."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Atomicity prevents two CPUs acquiring the lock together.",
+              "explanation": "Atomicity prevents two CPUs (Central Processing Units) acquiring the lock together.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5052,9 +5052,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What problem do sleep and wakeup primitives try to avoid?",
               "choices": [
-                "Wasting CPU time by spinning.",
+                "Wasting CPU (Central Processing Unit) time by spinning.",
                 "All process blocking.",
-                "All IPC.",
+                "All IPC (Interprocess Communication).",
                 "Any use of semaphores."
               ],
               "answer": [
@@ -5070,7 +5070,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A process wakes too many times after a semaphore.",
                 "A wakeup signal is sent before the target process is actually asleep.",
-                "A CPU cache line is lost.",
+                "A CPU (Central Processing Unit) cache line is lost.",
                 "A file is deleted."
               ],
               "answer": [
@@ -5117,7 +5117,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a semaphore?",
               "choices": [
                 "An integer synchronization object used to count wakeups or available resources.",
-                "A CPU register only.",
+                "A CPU (Central Processing Unit) register only.",
                 "A file extension.",
                 "A disk block pointer."
               ],
@@ -5165,7 +5165,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How is a mutex semaphore initialized for one critical region?",
               "choices": [
                 "To -1.",
-                "To the number of CPUs squared.",
+                "To the number of CPUs (Central Processing Units) squared.",
                 "To the disk block size.",
                 "To 1."
               ],
@@ -5213,7 +5213,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a futex?",
               "choices": [
                 "A file-system type.",
-                "A CPU pipeline stage.",
+                "A CPU (Central Processing Unit) pipeline stage.",
                 "A Linux fast user-space mutex that uses the kernel only when contention occurs.",
                 "A disk scheduler."
               ],
@@ -5263,7 +5263,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Every method always runs without locks.",
                 "A synchronized method allows one thread at a time for that object.",
                 "Only static variables are protected.",
-                "The OS disables all interrupts."
+                "The OS (Operating System) disables all interrupts."
               ],
               "answer": [
                 1
@@ -5295,7 +5295,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Sharing every variable directly.",
                 "A hardware cache policy.",
                 "A disk compaction algorithm.",
-                "IPC using send and receive operations."
+                "IPC (Interprocess Communication) using send and receive operations."
               ],
               "answer": [
                 3
@@ -5309,8 +5309,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why is message passing useful in distributed systems?",
               "choices": [
                 "Processes may be on different machines with no shared address space.",
-                "All distributed processes share physical RAM.",
-                "It requires a single CPU.",
+                "All distributed processes share physical RAM (Random Access Memory).",
+                "It requires a single CPU (Central Processing Unit).",
                 "It prevents client-server design."
               ],
               "answer": [
@@ -5358,7 +5358,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Low-priority work always runs last with no issue.",
                 "A disk block changes priority.",
-                "A process changes its PID.",
+                "A process changes its PID (Process Identifier).",
                 "A high-priority process is blocked by a lower-priority one, while medium-priority work may delay release."
               ],
               "answer": [
@@ -5396,13 +5396,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "RCU improves read-heavy concurrency.",
+              "explanation": "RCU (Read-Copy-Update) improves read-heavy concurrency.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does RCU publish an update?",
+              "prompt": "How does RCU (Read-Copy-Update) publish an update?",
               "choices": [
                 "Modify the old data destructively before readers finish.",
                 "Stop all readers permanently.",
@@ -5412,13 +5412,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "RCU separates update preparation from publication.",
+              "explanation": "RCU (Read-Copy-Update) separates update preparation from publication.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is RCU useful in the Linux kernel?",
+              "prompt": "Why is RCU (Read-Copy-Update) useful in the Linux kernel?",
               "choices": [
                 "It makes all writes impossible.",
                 "It replaces the scheduler.",
@@ -5428,7 +5428,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Linux uses RCU for high-performance reading.",
+              "explanation": "Linux uses RCU (Read-Copy-Update) for high-performance reading.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5444,7 +5444,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Scheduling allocates CPU time.",
+              "explanation": "Scheduling allocates CPU (Central Processing Unit) time.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5453,8 +5453,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why is context switching expensive?",
               "choices": [
                 "It only changes a file name.",
-                "The OS must save one execution state and load another, disrupting caches/TLBs.",
-                "It needs no CPU work.",
+                "The OS (Operating System) must save one execution state and load another, disrupting caches/TLBs (Translation Lookaside Buffers).",
+                "It needs no CPU (Central Processing Unit) work.",
                 "It always improves cache locality."
               ],
               "answer": [
@@ -5468,10 +5468,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a compute-bound process?",
               "choices": [
-                "A process with only short CPU bursts and frequent I/O.",
+                "A process with only short CPU (Central Processing Unit) bursts and frequent I/O.",
                 "A process waiting for user typing most of the time.",
-                "A process with long CPU bursts and infrequent I/O.",
-                "A process that never uses the CPU."
+                "A process with long CPU (Central Processing Unit) bursts and infrequent I/O.",
+                "A process that never uses the CPU (Central Processing Unit)."
               ],
               "answer": [
                 2
@@ -5485,9 +5485,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is an I/O-bound process?",
               "choices": [
                 "A process that never blocks for I/O.",
-                "A process with only long CPU bursts.",
+                "A process with only long CPU (Central Processing Unit) bursts.",
                 "A process stored on disk only.",
-                "A process with short CPU bursts and frequent I/O waits."
+                "A process with short CPU (Central Processing Unit) bursts and frequent I/O waits."
               ],
               "answer": [
                 3
@@ -5517,8 +5517,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is preemptive scheduling?",
               "choices": [
                 "A process runs until it voluntarily blocks always.",
-                "The OS can forcibly suspend a running process after a time interval or event.",
-                "The OS never interrupts running processes.",
+                "The OS (Operating System) can forcibly suspend a running process after a time interval or event.",
+                "The OS (Operating System) never interrupts running processes.",
                 "Only batch jobs use it."
               ],
               "answer": [
@@ -5532,9 +5532,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is nonpreemptive scheduling?",
               "choices": [
-                "The OS interrupts every instruction.",
+                "The OS (Operating System) interrupts every instruction.",
                 "The process never runs.",
-                "A process runs until it blocks or voluntarily releases the CPU.",
+                "A process runs until it blocks or voluntarily releases the CPU (Central Processing Unit).",
                 "Only real-time systems use it."
               ],
               "answer": [
@@ -5567,7 +5567,7 @@ window.UNIFIED_EXAM_DATA = {
                 "High throughput and low turnaround time.",
                 "Mouse responsiveness only.",
                 "Hard deadline guarantees only.",
-                "GUI animation quality only."
+                "GUI (Graphical User Interface) animation quality only."
               ],
               "answer": [
                 0
@@ -5610,7 +5610,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is FCFS scheduling?",
+              "prompt": "What is FCFS (First-Come, First-Served) scheduling?",
               "choices": [
                 "Always run the shortest job first.",
                 "Always give fixed quanta.",
@@ -5626,17 +5626,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the convoy effect in FCFS?",
+              "prompt": "What is the convoy effect in FCFS (First-Come, First-Served)?",
               "choices": [
                 "Short jobs wait behind a long job, increasing average wait.",
                 "All short jobs run first.",
                 "No process waits.",
-                "CPU is divided into tickets."
+                "CPU (Central Processing Unit) is divided into tickets."
               ],
               "answer": [
                 0
               ],
-              "explanation": "FCFS can perform poorly when a long job arrives first.",
+              "explanation": "FCFS (First-Come, First-Served) can perform poorly when a long job arrives first.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5652,23 +5652,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "SJF minimizes average turnaround when estimates are known.",
+              "explanation": "SJF (Shortest Job First) minimizes average turnaround when estimates are known.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is SJF hard in practice?",
+              "prompt": "Why is SJF (Shortest Job First) hard in practice?",
               "choices": [
                 "It requires no estimates.",
                 "It cannot run batch jobs.",
-                "The scheduler may not know future CPU burst lengths.",
+                "The scheduler may not know future CPU (Central Processing Unit) burst lengths.",
                 "It ignores job length."
               ],
               "answer": [
                 2
               ],
-              "explanation": "SJF needs burst predictions.",
+              "explanation": "SJF (Shortest Job First) needs burst predictions.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5676,7 +5676,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is Shortest Remaining Time Next?",
               "choices": [
-                "A nonpreemptive FCFS variant.",
+                "A nonpreemptive FCFS (First-Come, First-Served) variant.",
                 "A lottery algorithm.",
                 "A real-time static scheduler only.",
                 "A preemptive variant that chooses the process with least remaining time."
@@ -5684,7 +5684,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "SRTN can preempt for newly arrived short jobs.",
+              "explanation": "SRTN (Shortest Remaining Time Next) can preempt for newly arrived short jobs.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5700,7 +5700,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "RR is common for interactive time sharing.",
+              "explanation": "RR (Round Robin) is common for interactive time sharing.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5722,7 +5722,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What range is mentioned as a typical RR quantum compromise?",
+              "prompt": "What range is mentioned as a typical RR (Round Robin) quantum compromise?",
               "choices": [
                 "About 20 to 50 seconds.",
                 "Exactly one hour.",
@@ -5748,7 +5748,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Priorities influence CPU selection.",
+              "explanation": "Priorities influence CPU (Central Processing Unit) selection.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5759,7 +5759,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Starvation of low-priority processes.",
                 "All jobs finish instantly.",
                 "No process can block.",
-                "The CPU never switches."
+                "The CPU (Central Processing Unit) never switches."
               ],
               "answer": [
                 0
@@ -5772,9 +5772,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is multilevel queue scheduling in this lecture?",
               "choices": [
-                "All jobs share one FIFO queue only.",
+                "All jobs share one FIFO (First-In, First-Out) queue only.",
                 "Processes are placed in priority classes and may move down after using allocated quanta.",
-                "Each process receives one permanent CPU.",
+                "Each process receives one permanent CPU (Central Processing Unit).",
                 "Only real-time tasks exist."
               ],
               "answer": [
@@ -5796,7 +5796,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "SPN predicts burst length.",
+              "explanation": "SPN (Shortest Process Next) predicts burst length.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5804,10 +5804,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is guaranteed scheduling?",
               "choices": [
-                "One user gets all CPU forever.",
+                "One user gets all CPU (Central Processing Unit) forever.",
                 "Only the first process ever runs.",
-                "CPU allocation is random without accounting.",
-                "With n users, each should receive about 1/n of CPU power."
+                "CPU (Central Processing Unit) allocation is random without accounting.",
+                "With n users, each should receive about 1/n of CPU (Central Processing Unit) power."
               ],
               "answer": [
                 3
@@ -5823,7 +5823,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Processes hold tickets and a random draw chooses who runs.",
                 "The shortest job always wins.",
                 "The oldest job always wins.",
-                "The OS runs no random choices."
+                "The OS (Operating System) runs no random choices."
               ],
               "answer": [
                 0
@@ -5836,10 +5836,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "In lottery scheduling, what does giving one process 20 tickets and another 10 tickets mean?",
               "choices": [
-                "Both receive exactly equal CPU share.",
-                "The first should receive about twice the CPU share of the second.",
+                "Both receive exactly equal CPU (Central Processing Unit) share.",
+                "The first should receive about twice the CPU (Central Processing Unit) share of the second.",
                 "The second always runs first.",
-                "Tickets are unrelated to CPU share."
+                "Tickets are unrelated to CPU (Central Processing Unit) share."
               ],
               "answer": [
                 1
@@ -5853,7 +5853,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is static real-time scheduling?",
               "choices": [
                 "Decisions are made only after every event occurs.",
-                "The OS ignores deadlines.",
+                "The OS (Operating System) ignores deadlines.",
                 "Scheduling decisions are made before execution using complete knowledge.",
                 "The scheduler uses random tickets only."
               ],
@@ -5870,7 +5870,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "All decisions are fixed before boot.",
                 "No deadlines are considered.",
-                "Only FCFS is allowed.",
+                "Only FCFS (First-Come, First-Served) is allowed.",
                 "Scheduling decisions are made at run time after execution starts."
               ],
               "answer": [
@@ -5928,7 +5928,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why did computer systems move toward multiprocessor and distributed designs?",
               "choices": [
-                "Single faster CPUs hit heat and physical limits while demand for computing cycles kept growing.",
+                "Single faster CPUs (Central Processing Units) hit heat and physical limits while demand for computing cycles kept growing.",
                 "Users wanted fewer computing cycles for scientific workloads.",
                 "Cooling constraints disappeared on high-end systems.",
                 "All applications became single-threaded and smaller."
@@ -5936,13 +5936,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Parallelism lets systems solve large problems when one CPU is not enough.",
+              "explanation": "Parallelism lets systems solve large problems when one CPU (Central Processing Unit) is not enough.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which workload is a typical reason to use many CPUs at the same time?",
+              "prompt": "Which workload is a typical reason to use many CPUs (Central Processing Units) at the same time?",
               "choices": [
                 "Typing a short text file.",
                 "Weather prediction or drug-receptor modeling.",
@@ -5952,7 +5952,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "Long scientific computations benefit from many CPUs.",
+              "explanation": "Long scientific computations benefit from many CPUs (Central Processing Units).",
               "fullExplanation": null,
               "points": 1
             },
@@ -5960,15 +5960,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a shared-memory multiprocessor?",
               "choices": [
-                "A system where every CPU has only private RAM and sends messages.",
+                "A system where every CPU (Central Processing Unit) has only private RAM (Random Access Memory) and sends messages.",
                 "A wide-area web service with no shared hardware.",
-                "A system where all CPUs share access to common RAM.",
-                "A single CPU with no cache."
+                "A system where all CPUs (Central Processing Units) share access to common RAM (Random Access Memory).",
+                "A single CPU (Central Processing Unit) with no cache."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Shared-memory systems let CPUs address the same memory.",
+              "explanation": "Shared-memory systems let CPUs (Central Processing Units) address the same memory.",
               "fullExplanation": null,
               "points": 1
             },
@@ -5976,10 +5976,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a message-passing multicomputer?",
               "choices": [
-                "All CPUs read one common RAM at uniform speed.",
+                "All CPUs (Central Processing Units) read one common RAM (Random Access Memory) at uniform speed.",
                 "A single processor runs all processes sequentially.",
                 "A file system stores every process message on disk only.",
-                "CPUs have local memory and communicate through high-speed interconnects."
+                "CPUs (Central Processing Units) have local memory and communicate through high-speed interconnects."
               ],
               "answer": [
                 3
@@ -5994,8 +5994,8 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Complete computers connected over a wide-area network such as the Internet.",
                 "Many cores on a single chip only.",
-                "One CPU with multiple hardware threads.",
-                "A single bus-based UMA machine."
+                "One CPU (Central Processing Unit) with multiple hardware threads.",
+                "A single bus-based UMA (Uniform Memory Access) machine."
               ],
               "answer": [
                 0
@@ -6016,33 +6016,33 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "UMA gives equal memory access time to all memory locations.",
+              "explanation": "UMA (Uniform Memory Access) gives equal memory access time to all memory locations.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why does a bus-based UMA design stop scaling well?",
+              "prompt": "Why does a bus-based UMA (Uniform Memory Access) design stop scaling well?",
               "choices": [
-                "It requires no communication between CPUs.",
-                "Each CPU has private RAM only.",
-                "Many CPUs contend for the same bus.",
+                "It requires no communication between CPUs (Central Processing Units).",
+                "Each CPU (Central Processing Unit) has private RAM (Random Access Memory) only.",
+                "Many CPUs (Central Processing Units) contend for the same bus.",
                 "It has no shared memory."
               ],
               "answer": [
                 2
               ],
-              "explanation": "A single bus becomes a bottleneck as CPU count grows.",
+              "explanation": "A single bus becomes a bottleneck as CPU (Central Processing Unit) count grows.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How do CPU caches improve UMA systems?",
+              "prompt": "How do CPU (Central Processing Unit) caches improve UMA (Uniform Memory Access) systems?",
               "choices": [
                 "They force every read to use the bus twice.",
                 "They remove all memory consistency concerns.",
-                "They make RAM slower than disk.",
+                "They make RAM (Random Access Memory) slower than disk.",
                 "They satisfy many reads locally without using the shared bus."
               ],
               "answer": [
@@ -6070,12 +6070,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the advantage of a crossbar switch in UMA hardware?",
+              "prompt": "What is the advantage of a crossbar switch in UMA (Uniform Memory Access) hardware?",
               "choices": [
                 "It uses one shared bus for all traffic.",
-                "It allows multiple simultaneous CPU-memory connections without blocking.",
+                "It allows multiple simultaneous CPU (Central Processing Unit)-memory connections without blocking.",
                 "It eliminates the need for memory modules.",
-                "It works only for one CPU."
+                "It works only for one CPU (Central Processing Unit)."
               ],
               "answer": [
                 1
@@ -6088,9 +6088,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are crossbar switches impractical for very large systems?",
               "choices": [
-                "They cannot connect CPUs to memory.",
+                "They cannot connect CPUs (Central Processing Units) to memory.",
                 "They always use fewer switches than multistage networks.",
-                "The number of crosspoints grows rapidly with CPU and memory count.",
+                "The number of crosspoints grows rapidly with CPU (Central Processing Unit) and memory count.",
                 "They require no hardware."
               ],
               "answer": [
@@ -6118,33 +6118,33 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What distinguishes NUMA from UMA?",
+              "prompt": "What distinguishes NUMA (Non-Uniform Memory Access) from UMA (Uniform Memory Access)?",
               "choices": [
                 "Local memory is faster than remote memory.",
                 "All memory is always equally fast.",
                 "There is no address space.",
-                "CPUs communicate only through files."
+                "CPUs (Central Processing Units) communicate only through files."
               ],
               "answer": [
                 0
               ],
-              "explanation": "NUMA memory is physically distributed.",
+              "explanation": "NUMA (Non-Uniform Memory Access) memory is physically distributed.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How is NUMA memory commonly allocated in the lecture example?",
+              "prompt": "How is NUMA (Non-Uniform Memory Access) memory commonly allocated in the lecture example?",
               "choices": [
                 "Every byte is randomly moved every instruction.",
                 "Address ranges are statically assigned to nodes.",
-                "No CPU owns any local memory.",
+                "No CPU (Central Processing Unit) owns any local memory.",
                 "All memory lives in one cache line."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Static address ranges can map to different NUMA nodes.",
+              "explanation": "Static address ranges can map to different NUMA (Non-Uniform Memory Access) nodes.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6153,14 +6153,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a multicore chip?",
               "choices": [
                 "A cluster of complete computers over the Internet.",
-                "A disk controller with no CPU cores.",
+                "A disk controller with no CPU (Central Processing Unit) cores.",
                 "A small multiprocessor on one chip, often with shared cache.",
                 "A software-only thread library."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Multicore puts multiple CPU cores on one chip.",
+              "explanation": "Multicore puts multiple CPU (Central Processing Unit) cores on one chip.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6168,8 +6168,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a manycore chip?",
               "choices": [
-                "A single-core CPU with a larger fan.",
-                "A bus that connects two CPUs.",
+                "A single-core CPU (Central Processing Unit) with a larger fan.",
+                "A bus that connects two CPUs (Central Processing Units).",
                 "A file system with many directories.",
                 "A chip with hundreds or thousands of cores."
               ],
@@ -6182,9 +6182,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the GPU execution model described in the lecture?",
+              "prompt": "What is the GPU (Graphics Processing Unit) execution model described in the lecture?",
               "choices": [
-                "SIMD-style execution using thousands of small cores for data-intensive tasks.",
+                "SIMD (Single Instruction, Multiple Data)-style execution using thousands of small cores for data-intensive tasks.",
                 "One large core executing one instruction stream only.",
                 "A disk scheduler for file systems.",
                 "A distributed shared memory protocol."
@@ -6192,7 +6192,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "GPUs run the same operation over lots of data.",
+              "explanation": "GPUs (Graphics Processing Units) run the same operation over lots of data.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6208,23 +6208,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "Simultaneous multithreading exposes hardware threads as CPUs to the OS.",
+              "explanation": "Simultaneous multithreading exposes hardware threads as CPUs (Central Processing Units) to the OS (Operating System).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What was the “each CPU has its own OS” multiprocessor approach?",
+              "prompt": "What was the “each CPU (Central Processing Unit) has its own OS (Operating System)” multiprocessor approach?",
               "choices": [
-                "One leader CPU handled every system call.",
-                "All CPUs executed one kernel with fine-grained locks.",
-                "Each CPU had private OS data structures while sharing code.",
-                "CPUs communicated only with RPC."
+                "One leader CPU (Central Processing Unit) handled every system call.",
+                "All CPUs (Central Processing Units) executed one kernel with fine-grained locks.",
+                "Each CPU (Central Processing Unit) had private OS (Operating System) data structures while sharing code.",
+                "CPUs (Central Processing Units) communicated only with RPC (Remote Procedure Call)."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Early ports used separate OS state per CPU for simplicity.",
+              "explanation": "Early ports used separate OS (Operating System) state per CPU (Central Processing Unit) for simplicity.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6232,15 +6232,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the leader-follower multiprocessor model?",
               "choices": [
-                "Every CPU independently runs a full unrelated OS.",
-                "All CPUs share the kernel equally with no leader.",
-                "Only the GPU handles system calls.",
-                "One leader handles OS tasks while follower CPUs run user processes."
+                "Every CPU (Central Processing Unit) independently runs a full unrelated OS (Operating System).",
+                "All CPUs (Central Processing Units) share the kernel equally with no leader.",
+                "Only the GPU (Graphics Processing Unit) handles system calls.",
+                "One leader handles OS (Operating System) tasks while follower CPUs (Central Processing Units) run user processes."
               ],
               "answer": [
                 3
               ],
-              "explanation": "The leader coordinates OS work and process assignment.",
+              "explanation": "The leader coordinates OS (Operating System) work and process assignment.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6248,15 +6248,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why does leader-follower become a bottleneck?",
               "choices": [
-                "The leader CPU must handle all OS tasks as CPU count grows.",
+                "The leader CPU (Central Processing Unit) must handle all OS (Operating System) tasks as CPU (Central Processing Unit) count grows.",
                 "Followers handle too many system calls independently.",
                 "There is no shared memory.",
-                "All CPUs stop running user processes."
+                "All CPUs (Central Processing Units) stop running user processes."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Centralizing OS work limits scalability.",
+              "explanation": "Centralizing OS (Operating System) work limits scalability.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6264,15 +6264,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the key idea of symmetric multiprocessing?",
               "choices": [
-                "Each CPU has a separate OS copy only.",
-                "One OS copy is in memory and any CPU can run kernel code.",
-                "One CPU is permanently the only kernel CPU.",
+                "Each CPU (Central Processing Unit) has a separate OS (Operating System) copy only.",
+                "One OS (Operating System) copy is in memory and any CPU (Central Processing Unit) can run kernel code.",
+                "One CPU (Central Processing Unit) is permanently the only kernel CPU (Central Processing Unit).",
                 "All communication uses wide-area messages."
               ],
               "answer": [
                 1
               ],
-              "explanation": "SMP treats CPUs more equally.",
+              "explanation": "SMP (Symmetric Multiprocessing) treats CPUs (Central Processing Units) more equally.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6281,7 +6281,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What was the big kernel lock?",
               "choices": [
                 "A hardware crossbar switch.",
-                "A GPU cache line.",
+                "A GPU (Graphics Processing Unit) cache line.",
                 "A single mutex protecting the whole kernel as one critical region.",
                 "A distributed file lock only."
               ],
@@ -6296,25 +6296,25 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why is disabling interrupts insufficient for multiprocessor synchronization?",
               "choices": [
-                "It disables every CPU in the system automatically.",
+                "It disables every CPU (Central Processing Unit) in the system automatically.",
                 "It prevents all cache coherence issues forever.",
                 "It replaces atomic instructions.",
-                "It affects only the local CPU; other CPUs can still access shared data."
+                "It affects only the local CPU (Central Processing Unit); other CPUs (Central Processing Units) can still access shared data."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Multiprocessors need inter-CPU synchronization.",
+              "explanation": "Multiprocessors need inter-CPU (Central Processing Unit) synchronization.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why are atomic instructions such as TSL needed?",
+              "prompt": "Why are atomic instructions such as TSL (Test and Set Lock) needed?",
               "choices": [
-                "They lock or atomically update shared state so multiple CPUs cannot acquire the same lock.",
+                "They lock or atomically update shared state so multiple CPUs (Central Processing Units) cannot acquire the same lock.",
                 "They make all memory access uniform.",
-                "They send RPC parameters.",
+                "They send RPC (Remote Procedure Call) parameters.",
                 "They allocate disk blocks."
               ],
               "answer": [
@@ -6326,12 +6326,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why can TSL cause cache thrashing?",
+              "prompt": "Why can TSL (Test and Set Lock) cause cache thrashing?",
               "choices": [
                 "It never touches caches.",
-                "Lock cache lines may bounce between CPUs due to snooping and repeated writes.",
+                "Lock cache lines may bounce between CPUs (Central Processing Units) due to snooping and repeated writes.",
                 "It stores all data on disk.",
-                "It disables all CPU caches permanently."
+                "It disables all CPU (Central Processing Unit) caches permanently."
               ],
               "answer": [
                 1
@@ -6347,12 +6347,12 @@ window.UNIFIED_EXAM_DATA = {
                 "Saving and restoring a full process context.",
                 "Sending a network packet through every switch.",
                 "Polling a lock repeatedly while waiting.",
-                "Moving a page to remote RAM."
+                "Moving a page to remote RAM (Random Access Memory)."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Spinning wastes CPU cycles if the lock is not soon released.",
+              "explanation": "Spinning wastes CPU (Central Processing Unit) cycles if the lock is not soon released.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6360,7 +6360,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "When can switching be more wasteful than spinning?",
               "choices": [
-                "When the blocked thread never needs CPU again.",
+                "When the blocked thread never needs CPU (Central Processing Unit) again.",
                 "When there are no ready processes.",
                 "When all locks are remote files.",
                 "When the lock will be released very soon and context switching clears state and caches."
@@ -6376,15 +6376,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What problem occurs if a thread holding a spin lock loses its quantum?",
               "choices": [
-                "Other CPUs may waste their time slices spinning for that lock.",
+                "Other CPUs (Central Processing Units) may waste their time slices spinning for that lock.",
                 "The lock is automatically released by hardware.",
-                "Every CPU gains more cache locality.",
+                "Every CPU (Central Processing Unit) gains more cache locality.",
                 "The system stops needing synchronization."
               ],
               "answer": [
                 0
               ],
-              "explanation": "A preempted lock holder can stall other CPUs.",
+              "explanation": "A preempted lock holder can stall other CPUs (Central Processing Units).",
               "fullExplanation": null,
               "points": 1
             },
@@ -6392,10 +6392,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is centralized time-sharing scheduling on multiprocessors?",
               "choices": [
-                "Each process gets a fixed group of CPUs forever.",
-                "One system-wide ready queue is shared by all CPUs.",
+                "Each process gets a fixed group of CPUs (Central Processing Units) forever.",
+                "One system-wide ready queue is shared by all CPUs (Central Processing Units).",
                 "All related threads run simultaneously as a gang.",
-                "Each CPU has no scheduler."
+                "Each CPU (Central Processing Unit) has no scheduler."
               ],
               "answer": [
                 1
@@ -6408,15 +6408,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is space sharing?",
               "choices": [
-                "Using one central ready queue for every CPU.",
+                "Using one central ready queue for every CPU (Central Processing Unit).",
                 "Moving memory pages over a network.",
-                "Partitioning CPUs into groups dedicated to a process’s threads.",
+                "Partitioning CPUs (Central Processing Units) into groups dedicated to a process’s threads.",
                 "Storing files contiguously."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Space sharing gives a job a set of CPUs at once.",
+              "explanation": "Space sharing gives a job a set of CPUs (Central Processing Units) at once.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6424,15 +6424,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the benefit of space sharing?",
               "choices": [
-                "It always maximizes CPU sharing between unrelated jobs.",
-                "It removes the need for multiple CPUs.",
+                "It always maximizes CPU (Central Processing Unit) sharing between unrelated jobs.",
+                "It removes the need for multiple CPUs (Central Processing Units).",
                 "It replaces synchronization with disk I/O.",
                 "It reduces context switching and multiprogramming overhead for parallel jobs."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Dedicated CPU groups can improve parallel job execution.",
+              "explanation": "Dedicated CPU (Central Processing Unit) groups can improve parallel job execution.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6456,9 +6456,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a multicomputer?",
               "choices": [
-                "A UMA system with one common RAM.",
-                "Tightly coupled CPUs that do not share memory.",
-                "One CPU with hyper-threading only.",
+                "A UMA (Uniform Memory Access) system with one common RAM (Random Access Memory).",
+                "Tightly coupled CPUs (Central Processing Units) that do not share memory.",
+                "One CPU (Central Processing Unit) with hyper-threading only.",
                 "A single disk with many files."
               ],
               "answer": [
@@ -6472,10 +6472,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which topologies are named for multicomputer interconnects?",
               "choices": [
-                "Only bus and FAT.",
+                "Only bus and FAT (File Allocation Table).",
                 "Only inode and dentry.",
                 "Star, ring, grid, double torus, cube, and hypercube.",
-                "Only FIFO and LRU."
+                "Only FIFO (First-In, First-Out) and LRU (Least Recently Used)."
               ],
               "answer": [
                 2
@@ -6490,7 +6490,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A complete circuit is reserved before transmission.",
                 "The receiver steals work from overloaded nodes.",
-                "The CPU directly reads remote RAM.",
+                "The CPU (Central Processing Unit) directly reads remote RAM (Random Access Memory).",
                 "Each switch buffers a packet before forwarding, so latency grows with hops."
               ],
               "answer": [
@@ -6520,7 +6520,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why is data copying a network-interface bottleneck?",
               "choices": [
-                "Network cards cannot use RAM.",
+                "Network cards cannot use RAM (Random Access Memory).",
                 "Packets may be copied many times between user space, kernel, and interface hardware.",
                 "Every packet is already in the right user buffer.",
                 "Copying always improves latency."
@@ -6550,9 +6550,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does RDMA allow?",
+              "prompt": "What does RDMA (Remote Direct Memory Access) allow?",
               "choices": [
-                "A CPU disables interrupts on all other CPUs.",
+                "A CPU (Central Processing Unit) disables interrupts on all other CPUs (Central Processing Units).",
                 "A file system journals metadata.",
                 "A process reads only local disk.",
                 "One computer directly accesses application memory on another computer."
@@ -6560,7 +6560,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "RDMA reduces latency by bypassing OS involvement.",
+              "explanation": "RDMA (Remote Direct Memory Access) reduces latency by bypassing OS (Operating System) involvement.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6571,7 +6571,7 @@ window.UNIFIED_EXAM_DATA = {
                 "The sender waits until the message is physically sent.",
                 "The sender returns immediately no matter what.",
                 "The receiver must poll a spin lock.",
-                "The OS fetches a remote page."
+                "The OS (Operating System) fetches a remote page."
               ],
               "answer": [
                 0
@@ -6598,7 +6598,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the goal of RPC?",
+              "prompt": "What is the goal of RPC (Remote Procedure Call)?",
               "choices": [
                 "Expose all network packets to the programmer.",
                 "Force every call to use shared memory.",
@@ -6608,17 +6608,17 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "RPC hides message passing behind call syntax.",
+              "explanation": "RPC (Remote Procedure Call) hides message passing behind call syntax.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What do RPC stubs do?",
+              "prompt": "What do RPC (Remote Procedure Call) stubs do?",
               "choices": [
-                "Allocate CPUs to overloaded nodes.",
-                "Move DSM pages between machines only.",
-                "Manage cache lines in SMP locks.",
+                "Allocate CPUs (Central Processing Units) to overloaded nodes.",
+                "Move DSM (Distributed Shared Memory) pages between machines only.",
+                "Manage cache lines in SMP (Symmetric Multiprocessing) locks.",
                 "Marshal and unmarshal parameters into messages."
               ],
               "answer": [
@@ -6630,12 +6630,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why are pointers difficult in RPC?",
+              "prompt": "Why are pointers difficult in RPC (Remote Procedure Call)?",
               "choices": [
                 "Client and server have different address spaces, so a pointer value is meaningless remotely.",
                 "Pointers are always serializable by default.",
-                "RPC does not use parameters.",
-                "The server shares the exact same RAM."
+                "RPC (Remote Procedure Call) does not use parameters.",
+                "The server shares the exact same RAM (Random Access Memory)."
               ],
               "answer": [
                 0
@@ -6649,41 +6649,41 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is distributed shared memory?",
               "choices": [
                 "A file system where all files are contiguous.",
-                "A system where remote RAM is used to satisfy memory faults as if memory were shared.",
-                "A GPU SIMD execution model.",
+                "A system where remote RAM (Random Access Memory) is used to satisfy memory faults as if memory were shared.",
+                "A GPU (Graphics Processing Unit) SIMD (Single Instruction, Multiple Data) execution model.",
                 "A single shared bus."
               ],
               "answer": [
                 1
               ],
-              "explanation": "DSM simulates shared memory over a network.",
+              "explanation": "DSM (Distributed Shared Memory) simulates shared memory over a network.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What happens when a DSM CPU touches a remote page?",
+              "prompt": "What happens when a DSM (Distributed Shared Memory) CPU (Central Processing Unit) touches a remote page?",
               "choices": [
-                "It reads the page from local cache with no OS action.",
+                "It reads the page from local cache with no OS (Operating System) action.",
                 "The page is deleted permanently.",
-                "It traps to the OS, which fetches the page over the network.",
-                "The CPU becomes the leader CPU."
+                "It traps to the OS (Operating System), which fetches the page over the network.",
+                "The CPU (Central Processing Unit) becomes the leader CPU (Central Processing Unit)."
               ],
               "answer": [
                 2
               ],
-              "explanation": "DSM uses page faults to move data.",
+              "explanation": "DSM (Distributed Shared Memory) uses page faults to move data.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is false sharing in DSM?",
+              "prompt": "What is false sharing in DSM (Distributed Shared Memory)?",
               "choices": [
                 "Two processes intentionally share one variable.",
                 "All pages are read-only.",
                 "The network interface avoids copying.",
-                "Unrelated variables on the same page cause the page to bounce between CPUs."
+                "Unrelated variables on the same page cause the page to bounce between CPUs (Central Processing Units)."
               ],
               "answer": [
                 3
@@ -6731,7 +6731,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Idle nodes probe others to steal work.",
                 "All nodes stop sending probes under overload.",
                 "Overloaded nodes probe others to find lightly loaded nodes and migrate work.",
-                "Only one central leader assigns CPUs."
+                "Only one central leader assigns CPUs (Central Processing Units)."
               ],
               "answer": [
                 2
@@ -6762,8 +6762,8 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Idle or underloaded nodes probe others to steal work.",
                 "Overloaded nodes search for idle nodes.",
-                "The leader CPU handles every system call.",
-                "The VMM schedules VCPUs."
+                "The leader CPU (Central Processing Unit) handles every system call.",
+                "The VMM (Virtual Machine Monitor) schedules VCPUs (Virtual Central Processing Units)."
               ],
               "answer": [
                 0
@@ -6779,7 +6779,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Every overloaded node probes continuously.",
                 "Few idle nodes exist, so probe traffic stays low when everyone is busy.",
                 "It disables work migration.",
-                "It requires all nodes to share RAM."
+                "It requires all nodes to share RAM (Random Access Memory)."
               ],
               "answer": [
                 1
@@ -6806,8 +6806,8 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Memory that is huge, fast, nonvolatile, and inexpensive.",
                 "Memory that is tiny, slow, volatile, and costly.",
-                "Only magnetic disk with no RAM.",
-                "Only CPU registers with no storage."
+                "Only magnetic disk with no RAM (Random Access Memory).",
+                "Only CPU (Central Processing Unit) registers with no storage."
               ],
               "answer": [
                 0
@@ -6820,15 +6820,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which order correctly follows the memory hierarchy from fastest to slowest?",
               "choices": [
-                "Disk, RAM, cache, registers.",
-                "Registers, cache, RAM, SSD or disk.",
-                "RAM, disk, registers, cache.",
-                "Cache, disk, registers, RAM."
+                "Disk, RAM (Random Access Memory), cache, registers.",
+                "Registers, cache, RAM (Random Access Memory), SSD (Solid State Drive) or disk.",
+                "RAM (Random Access Memory), disk, registers, cache.",
+                "Cache, disk, registers, RAM (Random Access Memory)."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Registers are fastest and disks/SSDs are slower but cheaper.",
+              "explanation": "Registers are fastest and disks/SSDs (Solid State Drives) are slower but cheaper.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6852,9 +6852,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does the memory manager allocate and deallocate?",
               "choices": [
-                "Only CPU priorities.",
+                "Only CPU (Central Processing Unit) priorities.",
                 "Only directory entries.",
-                "Only RPC stubs.",
+                "Only RPC (Remote Procedure Call) stubs.",
                 "Memory for processes as needed and when they finish."
               ],
               "answer": [
@@ -6870,8 +6870,8 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Programs address physical memory directly.",
                 "Every process has a private virtual address space.",
-                "The MMU maps all addresses through pages.",
-                "The OS can always swap pages transparently."
+                "The MMU (Memory Management Unit) maps all addresses through pages.",
+                "The OS (Operating System) can always swap pages transparently."
               ],
               "answer": [
                 0
@@ -6885,7 +6885,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why is running multiple programs hard without memory abstraction?",
               "choices": [
                 "Address conflicts are impossible.",
-                "One program can overwrite another program or the OS.",
+                "One program can overwrite another program or the OS (Operating System).",
                 "Every program is automatically isolated.",
                 "No program can access memory."
               ],
@@ -6908,7 +6908,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "IBM 360 used keys to protect memory blocks.",
+              "explanation": "IBM (International Business Machines) 360 used keys to protect memory blocks.",
               "fullExplanation": null,
               "points": 1
             },
@@ -6916,9 +6916,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is static relocation?",
               "choices": [
-                "Moving pages between RAM and disk on demand.",
-                "Scanning RAM for identical pages.",
-                "Pinning DMA pages.",
+                "Moving pages between RAM (Random Access Memory) and disk on demand.",
+                "Scanning RAM (Random Access Memory) for identical pages.",
+                "Pinning DMA (Direct Memory Access) pages.",
                 "Changing a program’s addresses as it is loaded into memory."
               ],
               "answer": [
@@ -6935,7 +6935,7 @@ window.UNIFIED_EXAM_DATA = {
                 "The loader may not distinguish constants from actual addresses.",
                 "Programs have no addresses.",
                 "All constants must be page aligned.",
-                "The MMU handles all relocation automatically."
+                "The MMU (Memory Management Unit) handles all relocation automatically."
               ],
               "answer": [
                 0
@@ -6949,9 +6949,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is an address space?",
               "choices": [
                 "A list of file extensions.",
-                "The set of addresses a process can use, separated from physical RAM.",
+                "The set of addresses a process can use, separated from physical RAM (Random Access Memory).",
                 "A disk block bitmap.",
-                "A CPU scheduling queue."
+                "A CPU (Central Processing Unit) scheduling queue."
               ],
               "answer": [
                 1
@@ -6967,7 +6967,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Store file metadata.",
                 "Choose disk cylinders.",
                 "Translate and check process addresses dynamically.",
-                "Marshal RPC parameters."
+                "Marshal RPC (Remote Procedure Call) parameters."
               ],
               "answer": [
                 2
@@ -6998,7 +6998,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "The length or maximum valid range of the process.",
                 "The first disk sector of a file.",
-                "The current TLB mapping.",
+                "The current TLB (Translation Lookaside Buffer) mapping.",
                 "The number of free blocks."
               ],
               "answer": [
@@ -7012,15 +7012,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is swapping?",
               "choices": [
-                "Moving one cache line between CPUs.",
-                "Moving an entire process between RAM and disk/SSD.",
+                "Moving one cache line between CPUs (Central Processing Units).",
+                "Moving an entire process between RAM (Random Access Memory) and disk/SSD (Solid State Drive).",
                 "Renaming a file without copying data.",
-                "Sending an RPC message."
+                "Sending an RPC (Remote Procedure Call) message."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Swapping frees RAM when total process demand exceeds capacity.",
+              "explanation": "Swapping frees RAM (Random Access Memory) when total process demand exceeds capacity.",
               "fullExplanation": null,
               "points": 1
             },
@@ -7044,7 +7044,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is memory compaction?",
               "choices": [
-                "Pinning pages during DMA.",
+                "Pinning pages during DMA (Direct Memory Access).",
                 "Hashing an inverted page table.",
                 "Copying a file system journal.",
                 "Moving processes to combine many small holes into one large hole."
@@ -7093,7 +7093,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How does a linked list track free memory?",
               "choices": [
                 "It uses one bit per block only.",
-                "It stores all memory inside the TLB.",
+                "It stores all memory inside the TLB (Translation Lookaside Buffer).",
                 "It stores segments labeled hole or process with start, length, and next pointer.",
                 "It maps virtual pages to frames."
               ],
@@ -7110,7 +7110,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "All holes are deleted.",
                 "The process becomes a page table.",
-                "The TLB is flushed forever.",
+                "The TLB (Translation Lookaside Buffer) is flushed forever.",
                 "Adjacent holes may be merged."
               ],
               "answer": [
@@ -7188,7 +7188,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What problem does virtual memory solve?",
               "choices": [
-                "Programs larger than physical memory can run by keeping only needed parts in RAM.",
+                "Programs larger than physical memory can run by keeping only needed parts in RAM (Random Access Memory).",
                 "Programs must fit entirely in registers.",
                 "All processes must be swapped as wholes only.",
                 "No program can use disk."
@@ -7196,7 +7196,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Virtual memory overlays address space parts between RAM and storage.",
+              "explanation": "Virtual memory overlays address space parts between RAM (Random Access Memory) and storage.",
               "fullExplanation": null,
               "points": 1
             },
@@ -7207,7 +7207,7 @@ window.UNIFIED_EXAM_DATA = {
                 "A variable-length segment only.",
                 "A fixed-size unit of virtual address space.",
                 "A directory entry.",
-                "A CPU core."
+                "A CPU (Central Processing Unit) core."
               ],
               "answer": [
                 1
@@ -7228,32 +7228,32 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Physical RAM is divided into frames.",
+              "explanation": "Physical RAM (Random Access Memory) is divided into frames.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the MMU do?",
+              "prompt": "What does the MMU (Memory Management Unit) do?",
               "choices": [
                 "Stores file-system backups.",
                 "Chooses disk quotas.",
-                "Marshals RPC arguments.",
+                "Marshals RPC (Remote Procedure Call) arguments.",
                 "Maps virtual addresses to physical addresses on the fly."
               ],
               "answer": [
                 3
               ],
-              "explanation": "The MMU performs hardware address translation.",
+              "explanation": "The MMU (Memory Management Unit) performs hardware address translation.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What happens if a referenced page is absent from RAM?",
+              "prompt": "What happens if a referenced page is absent from RAM (Random Access Memory)?",
               "choices": [
-                "The MMU causes a page fault so the OS can fetch the page.",
-                "The CPU ignores the access.",
+                "The MMU (Memory Management Unit) causes a page fault so the OS (Operating System) can fetch the page.",
+                "The CPU (Central Processing Unit) ignores the access.",
                 "The file is renamed.",
                 "The process always continues without delay."
               ],
@@ -7268,7 +7268,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "How is a virtual address split in paging?",
               "choices": [
-                "UID plus GID.",
+                "UID (User Identifier) plus GID (Group Identifier).",
                 "Page number plus offset within the page.",
                 "Directory plus extension.",
                 "Seek time plus latency."
@@ -7284,10 +7284,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which page-fault step happens if the victim frame is dirty?",
               "choices": [
-                "The OS deletes it without saving.",
-                "The MMU changes the file name.",
-                "The OS writes the evicted page back to disk.",
-                "The TLB becomes a file system."
+                "The OS (Operating System) deletes it without saving.",
+                "The MMU (Memory Management Unit) changes the file name.",
+                "The OS (Operating System) writes the evicted page back to disk.",
+                "The TLB (Translation Lookaside Buffer) becomes a file system."
               ],
               "answer": [
                 2
@@ -7298,7 +7298,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which control bit says whether a page is in RAM?",
+              "prompt": "Which control bit says whether a page is in RAM (Random Access Memory)?",
               "choices": [
                 "Archive bit.",
                 "Setuid bit.",
@@ -7346,28 +7346,28 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the TLB?",
+              "prompt": "What is the TLB (Translation Lookaside Buffer)?",
               "choices": [
                 "A file-system journal.",
                 "A memory compaction tool.",
-                "A small fast MMU cache for recent virtual-to-physical translations.",
+                "A small fast MMU (Memory Management Unit) cache for recent virtual-to-physical translations.",
                 "A disk quota table."
               ],
               "answer": [
                 2
               ],
-              "explanation": "TLB hits avoid page-table memory access.",
+              "explanation": "TLB (Translation Lookaside Buffer) hits avoid page-table memory access.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a soft TLB miss?",
+              "prompt": "What is a soft TLB (Translation Lookaside Buffer) miss?",
               "choices": [
-                "The page is absent from RAM and must be fetched from disk.",
+                "The page is absent from RAM (Random Access Memory) and must be fetched from disk.",
                 "The process has no address space.",
                 "The disk is out of free blocks.",
-                "The mapping is not in the TLB but the page is in memory."
+                "The mapping is not in the TLB (Translation Lookaside Buffer) but the page is in memory."
               ],
               "answer": [
                 3
@@ -7380,8 +7380,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a hard miss?",
               "choices": [
-                "The referenced page itself is not in RAM.",
-                "Only the TLB entry is missing while page is present.",
+                "The referenced page itself is not in RAM (Random Access Memory).",
+                "Only the TLB (Translation Lookaside Buffer) entry is missing while page is present.",
                 "The file name is too long.",
                 "The directory is not hierarchical."
               ],
@@ -7396,7 +7396,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are multilevel page tables used?",
               "choices": [
-                "To make every page table one flat array in RAM.",
+                "To make every page table one flat array in RAM (Random Access Memory).",
                 "To avoid keeping huge contiguous page tables for massive address spaces.",
                 "To eliminate virtual memory.",
                 "To store disk quotas."
@@ -7461,7 +7461,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why is the optimal algorithm not implementable?",
               "choices": [
                 "It uses too little memory.",
-                "The OS cannot predict future references exactly.",
+                "The OS (Operating System) cannot predict future references exactly.",
                 "It requires no page table.",
                 "It always causes thrashing."
               ],
@@ -7474,7 +7474,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which NRU class is best to evict first?",
+              "prompt": "Which NRU (Not Recently Used) class is best to evict first?",
               "choices": [
                 "Class 3: referenced and modified.",
                 "Class 2: referenced and not modified.",
@@ -7484,13 +7484,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "NRU chooses from the lowest-numbered nonempty class.",
+              "explanation": "NRU (Not Recently Used) chooses from the lowest-numbered nonempty class.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is FIFO page replacement?",
+              "prompt": "What is FIFO (First-In, First-Out) page replacement?",
               "choices": [
                 "Evict the page with nearest future use.",
                 "Evict the page with the highest counter.",
@@ -7500,13 +7500,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "FIFO is simple but can remove heavily used pages.",
+              "explanation": "FIFO (First-In, First-Out) is simple but can remove heavily used pages.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does Second Chance improve FIFO?",
+              "prompt": "How does Second Chance improve FIFO (First-In, First-Out)?",
               "choices": [
                 "It checks the R bit and gives recently used old pages another chance.",
                 "It always evicts dirty pages first.",
@@ -7538,7 +7538,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does LRU evict?",
+              "prompt": "What does LRU (Least Recently Used) evict?",
               "choices": [
                 "The page loaded most recently.",
                 "The page with the largest frame number.",
@@ -7548,13 +7548,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "LRU relies on locality.",
+              "explanation": "LRU (Least Recently Used) relies on locality.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is exact LRU expensive?",
+              "prompt": "Why is exact LRU (Least Recently Used) expensive?",
               "choices": [
                 "It needs no reference data.",
                 "It only uses one bit per process.",
@@ -7570,7 +7570,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How does NFU simulate page usage?",
+              "prompt": "How does NFU (Not Frequently Used) simulate page usage?",
               "choices": [
                 "It adds the R bit to a software counter at each clock interrupt.",
                 "It shifts counters right and inserts R at the left.",
@@ -7580,23 +7580,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "NFU counts frequency, not true recentness.",
+              "explanation": "NFU (Not Frequently Used) counts frequency, not true recentness.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does Aging improve on NFU?",
+              "prompt": "How does Aging improve on NFU (Not Frequently Used)?",
               "choices": [
                 "It ignores all R bits.",
                 "It shifts counters and inserts the R bit to preserve recency information.",
                 "It always evicts modified pages.",
-                "It uses only FIFO order."
+                "It uses only FIFO (First-In, First-Out) order."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Aging approximates LRU better than plain NFU.",
+              "explanation": "Aging approximates LRU (Least Recently Used) better than plain NFU (Not Frequently Used).",
               "fullExplanation": null,
               "points": 1
             },
@@ -7607,7 +7607,7 @@ window.UNIFIED_EXAM_DATA = {
                 "All disk blocks in a file system.",
                 "All processes in a ready queue.",
                 "The set of pages a process is currently using.",
-                "All users in an ACL."
+                "All users in an ACL (Access Control List)."
               ],
               "answer": [
                 2
@@ -7623,7 +7623,7 @@ window.UNIFIED_EXAM_DATA = {
                 "The disk head moves in one direction only.",
                 "A process shares a library page.",
                 "A file is securely deleted.",
-                "The system spends most time handling page faults because working sets do not fit in RAM."
+                "The system spends most time handling page faults because working sets do not fit in RAM (Random Access Memory)."
               ],
               "answer": [
                 3
@@ -7652,10 +7652,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does WSClock combine?",
               "choices": [
-                "FIFO with disk quotas.",
+                "FIFO (First-In, First-Out) with disk quotas.",
                 "Clock replacement with working-set information.",
                 "Base-limit relocation with file names.",
-                "Segmentation with RPC."
+                "Segmentation with RPC (Remote Procedure Call)."
               ],
               "answer": [
                 1
@@ -7671,7 +7671,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Any page in memory may be evicted.",
                 "All processes share one fixed frame.",
                 "A faulting process may evict only its own pages.",
-                "The OS swaps all processes on every fault."
+                "The OS (Operating System) swaps all processes on every fault."
               ],
               "answer": [
                 2
@@ -7703,12 +7703,12 @@ window.UNIFIED_EXAM_DATA = {
                 "The number of frames assigned to a process based on its fault rate.",
                 "The number of file names in a directory.",
                 "The size of each disk block.",
-                "The CPU clock speed."
+                "The CPU (Central Processing Unit) clock speed."
               ],
               "answer": [
                 0
               ],
-              "explanation": "PFF expands or shrinks allocations dynamically.",
+              "explanation": "PFF (Page Fault Frequency) expands or shrinks allocations dynamically.",
               "fullExplanation": null,
               "points": 1
             },
@@ -7717,7 +7717,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How can load control stop thrashing?",
               "choices": [
                 "Add more page faults.",
-                "Swap some processes out entirely so remaining working sets fit in RAM.",
+                "Swap some processes out entirely so remaining working sets fit in RAM (Random Access Memory).",
                 "Pin every page forever.",
                 "Disable all virtual memory."
               ],
@@ -7740,7 +7740,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Same page merging saves RAM.",
+              "explanation": "Same page merging saves RAM (Random Access Memory).",
               "fullExplanation": null,
               "points": 1
             },
@@ -7750,13 +7750,13 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "All pages are copied immediately.",
                 "Pages can never be written.",
-                "The TLB writes every page to disk.",
+                "The TLB (Translation Lookaside Buffer) writes every page to disk.",
                 "A shared page is copied only when a process tries to modify it."
               ],
               "answer": [
                 3
               ],
-              "explanation": "COW keeps sharing safe until modification.",
+              "explanation": "COW (Copy-On-Write) keeps sharing safe until modification.",
               "fullExplanation": null,
               "points": 1
             },
@@ -7766,7 +7766,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Less internal fragmentation.",
                 "Smaller page tables always.",
-                "Better TLB coverage always.",
+                "Better TLB (Translation Lookaside Buffer) coverage always.",
                 "Faster disk transfers always."
               ],
               "answer": [
@@ -7781,7 +7781,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is an advantage of large pages?",
               "choices": [
                 "More precise fitting with no waste.",
-                "Smaller page tables and better TLB coverage.",
+                "Smaller page tables and better TLB (Translation Lookaside Buffer) coverage.",
                 "No internal fragmentation.",
                 "No need for disk transfers."
               ],
@@ -7815,7 +7815,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Every process stores a private duplicate of all libraries.",
                 "Libraries cannot be updated.",
                 "They remove virtual memory.",
-                "Processes share one copy of library code in RAM."
+                "Processes share one copy of library code in RAM (Random Access Memory)."
               ],
               "answer": [
                 3
@@ -7826,7 +7826,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why does shared library code need PIC?",
+              "prompt": "Why does shared library code need PIC (Position-Independent Code)?",
               "choices": [
                 "It may be loaded at different virtual addresses in different processes.",
                 "It must use absolute addresses only.",
@@ -7852,7 +7852,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "DMA pages must stay resident to avoid corruption.",
+              "explanation": "DMA (Direct Memory Access) pages must stay resident to avoid corruption.",
               "fullExplanation": null,
               "points": 1
             },
@@ -7860,7 +7860,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a swap partition?",
               "choices": [
-                "A memory cache inside the MMU.",
+                "A memory cache inside the MMU (Memory Management Unit).",
                 "A process address-space segment.",
                 "A dedicated disk area without a normal file system used for paging.",
                 "A directory entry for shared libraries."
@@ -7980,7 +7980,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "Systems such as MULTICS and x86 combine concepts.",
+              "explanation": "Systems such as MULTICS (Multiplexed Information and Computing Service) and x86 combine concepts.",
               "fullExplanation": null,
               "points": 1
             }
@@ -8002,7 +8002,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Physical storage details such as disk blocks and device behavior.",
                 "Process scheduling priorities only.",
-                "CPU register contents.",
+                "CPU (Central Processing Unit) register contents.",
                 "Network route costs only."
               ],
               "answer": [
@@ -8014,10 +8014,10 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How do UNIX and Windows differ in filename case sensitivity?",
+              "prompt": "How do UNIX (Uniplexed Information and Computing Service) and Windows differ in filename case sensitivity?",
               "choices": [
                 "Windows is always case-sensitive and UNIX never is.",
-                "UNIX is generally case-sensitive; MS-DOS/Windows are generally not.",
+                "UNIX is generally case-sensitive; Microsoft Disk Operating System (MS-DOS)/Windows are generally not.",
                 "Both always ignore case.",
                 "Neither system names files."
               ],
@@ -8030,7 +8030,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How are file extensions treated differently by Windows and UNIX?",
+              "prompt": "How are file extensions treated differently by Windows and UNIX (Uniplexed Information and Computing Service)?",
               "choices": [
                 "UNIX requires extensions for every executable.",
                 "Windows ignores extensions completely.",
@@ -8051,7 +8051,7 @@ window.UNIFIED_EXAM_DATA = {
                 "A tree of records sorted by key.",
                 "A sequence of fixed-length records only.",
                 "A directory with no data.",
-                "An unstructured stream of bytes where the OS does not care about content."
+                "An unstructured stream of bytes where the OS (Operating System) does not care about content."
               ],
               "answer": [
                 3
@@ -8098,7 +8098,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A system file used only for directory hierarchy.",
                 "A special file representing a device.",
-                "A file containing user information such as ASCII text or binary data.",
+                "A file containing user information such as ASCII (American Standard Code for Information Interchange) text or binary data.",
                 "A block allocation bitmap."
               ],
               "answer": [
@@ -8113,7 +8113,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What do directories do?",
               "choices": [
                 "Contain only raw video frames.",
-                "Execute CPU instructions directly.",
+                "Execute CPU (Central Processing Unit) instructions directly.",
                 "Replace all file attributes.",
                 "Maintain the hierarchy and names of the file system."
               ],
@@ -8130,7 +8130,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Making I/O devices appear like files.",
                 "Storing only user text.",
-                "Scheduling CPU time.",
+                "Scheduling CPU (Central Processing Unit) time.",
                 "Allocating virtual pages."
               ],
               "answer": [
@@ -8146,7 +8146,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Block special file.",
                 "Character special file.",
-                "Regular ASCII file.",
+                "Regular ASCII (American Standard Code for Information Interchange) file.",
                 "Tree file."
               ],
               "answer": [
@@ -8174,7 +8174,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What distinguishes ASCII files?",
+              "prompt": "What distinguishes ASCII (American Standard Code for Information Interchange) files?",
               "choices": [
                 "They contain only executable headers.",
                 "They have no readable characters.",
@@ -8184,7 +8184,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "ASCII files are human-readable text.",
+              "explanation": "ASCII (American Standard Code for Information Interchange) files are human-readable text.",
               "fullExplanation": null,
               "points": 1
             },
@@ -8242,7 +8242,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Only file contents.",
                 "Only disk head movement.",
-                "Only CPU scheduling state.",
+                "Only CPU (Central Processing Unit) scheduling state.",
                 "Metadata such as owner, size, creation time, and protection bits."
               ],
               "answer": [
@@ -8392,13 +8392,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Directory structure must be updated safely by the OS.",
+              "explanation": "Directory structure must be updated safely by the OS (Operating System).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the MBR used for on older BIOS systems?",
+              "prompt": "What is the MBR (Master Boot Record) used for on older BIOS (Basic Input/Output System) systems?",
               "choices": [
                 "It stores every file attribute.",
                 "It contains the partition table and boot code for the active partition.",
@@ -8408,23 +8408,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "MBR is part of older disk boot layout.",
+              "explanation": "MBR (Master Boot Record) is part of older disk boot layout.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What modern layout replaced MBR for large disks?",
+              "prompt": "What modern layout replaced MBR (Master Boot Record) for large disks?",
               "choices": [
-                "FAT with linked lists only.",
+                "FAT (File Allocation Table) with linked lists only.",
                 "A single-level directory.",
-                "UEFI with GPT.",
-                "DSM pages."
+                "UEFI (Unified Extensible Firmware Interface) with GPT (GUID Partition Table).",
+                "DSM (Distributed Shared Memory) pages."
               ],
               "answer": [
                 2
               ],
-              "explanation": "GPT supports very large disks and modern booting.",
+              "explanation": "GPT (GUID Partition Table) supports very large disks and modern booting.",
               "fullExplanation": null,
               "points": 1
             },
@@ -8494,7 +8494,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does FAT improve over simple linked-list allocation?",
+              "prompt": "What does FAT (File Allocation Table) improve over simple linked-list allocation?",
               "choices": [
                 "It removes all memory use.",
                 "It stores pointers inside each data block only.",
@@ -8504,13 +8504,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "FAT centralizes block chain pointers.",
+              "explanation": "FAT (File Allocation Table) centralizes block chain pointers.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a FAT scalability problem?",
+              "prompt": "What is a FAT (File Allocation Table) scalability problem?",
               "choices": [
                 "The entire table must be kept in memory for large disks.",
                 "It cannot support sequential access.",
@@ -8520,7 +8520,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Large disks make FAT tables large.",
+              "explanation": "Large disks make FAT (File Allocation Table) tables large.",
               "fullExplanation": null,
               "points": 1
             },
@@ -8542,9 +8542,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why do i-nodes scale better than FAT?",
+              "prompt": "Why do i-nodes scale better than FAT (File Allocation Table)?",
               "choices": [
-                "The entire disk table must always be in RAM.",
+                "The entire disk table must always be in RAM (Random Access Memory).",
                 "They require every block to be contiguous.",
                 "Only the i-node for an open file needs to be in memory.",
                 "They store no addresses."
@@ -8578,7 +8578,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "File names to information needed to locate file data, such as i-node numbers.",
                 "Page numbers to physical frames only.",
-                "CPU IDs to process IDs.",
+                "CPU (Central Processing Unit) IDs (Identifiers) to process IDs (Identifiers).",
                 "Network switches to packets."
               ],
               "answer": [
@@ -8624,15 +8624,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What problem are log-structured file systems designed to reduce?",
               "choices": [
-                "CPU scheduling latency only.",
+                "CPU (Central Processing Unit) scheduling latency only.",
                 "Password reuse.",
-                "TLB misses.",
+                "TLB (Translation Lookaside Buffer) misses.",
                 "Disk seek bottlenecks by writing large contiguous segments."
               ],
               "answer": [
                 3
               ],
-              "explanation": "LFS treats the disk like a log for efficient writes.",
+              "explanation": "LFS (Log-Structured File System) treats the disk like a log for efficient writes.",
               "fullExplanation": null,
               "points": 1
             },
@@ -8642,7 +8642,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Planned file-system operations so crash recovery can finish or undo them.",
                 "Only user passwords.",
-                "Only CPU cache lines.",
+                "Only CPU (Central Processing Unit) cache lines.",
                 "Only network topology."
               ],
               "answer": [
@@ -8654,23 +8654,23 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why do SSD file systems need special handling?",
+              "prompt": "Why do SSD (Solid State Drive) file systems need special handling?",
               "choices": [
-                "SSDs have large moving heads.",
-                "NAND flash has erase/write behavior and needs logical-to-physical mapping and cleaning.",
-                "SSDs can only read sequentially.",
-                "SSDs use no blocks."
+                "SSDs (Solid State Drives) have large moving heads.",
+                "NAND (Not-AND flash) flash has erase/write behavior and needs logical-to-physical mapping and cleaning.",
+                "SSDs (Solid State Drives) can only read sequentially.",
+                "SSDs (Solid State Drives) use no blocks."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Flash translation and TRIM-like support matter.",
+              "explanation": "Flash translation and TRIM (SSD cleanup command)-like support matter.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does VFS provide?",
+              "prompt": "What does VFS (Virtual File System) provide?",
               "choices": [
                 "A single physical disk format only.",
                 "A process scheduler.",
@@ -8680,7 +8680,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "VFS hides file-system differences.",
+              "explanation": "VFS (Virtual File System) hides file-system differences.",
               "fullExplanation": null,
               "points": 1
             },
@@ -8707,7 +8707,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Linked lists of free block numbers or bitmaps.",
                 "Only file extensions.",
                 "Only process credentials.",
-                "Only RPC stubs."
+                "Only RPC (Remote Procedure Call) stubs."
               ],
               "answer": [
                 0
@@ -8816,9 +8816,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What can file-system consistency tools detect?",
               "choices": [
-                "CPU overheating.",
+                "CPU (Central Processing Unit) overheating.",
                 "Branch prediction errors.",
-                "GPU memory fragmentation.",
+                "GPU (Graphics Processing Unit) memory fragmentation.",
                 "Blocks marked both free and in use or directory inconsistencies."
               ],
               "answer": [
@@ -8832,9 +8832,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the buffer cache?",
               "choices": [
-                "RAM cache for heavily used disk blocks.",
+                "RAM (Random Access Memory) cache for heavily used disk blocks.",
                 "A list of user passwords.",
-                "A CPU ready queue.",
+                "A CPU (Central Processing Unit) ready queue.",
                 "A distributed tuple space."
               ],
               "answer": [
@@ -8880,7 +8880,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why is defragmentation useful for magnetic disks?",
               "choices": [
-                "It improves SSDs without wear cost.",
+                "It improves SSDs (Solid State Drives) without wear cost.",
                 "It encrypts data.",
                 "It replaces journaling.",
                 "It makes files more contiguous and groups free space."
@@ -8894,17 +8894,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is defragmentation less appropriate for SSDs?",
+              "prompt": "Why is defragmentation less appropriate for SSDs (Solid State Drives)?",
               "choices": [
                 "It increases wear without similar seek-time benefit.",
-                "SSDs have larger disk arms.",
-                "SSDs cannot do random access.",
-                "SSDs require contiguous files."
+                "SSDs (Solid State Drives) have larger disk arms.",
+                "SSDs (Solid State Drives) cannot do random access.",
+                "SSDs (Solid State Drives) require contiguous files."
               ],
               "answer": [
                 0
               ],
-              "explanation": "SSDs have no mechanical seek delay.",
+              "explanation": "SSDs (Solid State Drives) have no mechanical seek delay.",
               "fullExplanation": null,
               "points": 1
             },
@@ -8974,7 +8974,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What file allocation structure does MS-DOS rely on?",
+              "prompt": "What file allocation structure does Microsoft Disk Operating System (MS-DOS) rely on?",
               "choices": [
                 "UNIX i-nodes only.",
                 "A File Allocation Table in memory.",
@@ -8984,15 +8984,15 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "MS-DOS FAT tracks block chains.",
+              "explanation": "Microsoft Disk Operating System (MS-DOS) FAT (File Allocation Table) tracks block chains.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does UNIX V7 use for file block addressing?",
+              "prompt": "What does UNIX (Uniplexed Information and Computing Service) Version 7 use for file block addressing?",
               "choices": [
-                "A global FAT only.",
+                "A global FAT (File Allocation Table) only.",
                 "Only contiguous allocation.",
                 "I-nodes with direct and multiple indirect block pointers.",
                 "Only symbolic links."
@@ -9000,7 +9000,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "UNIX V7 uses i-node addressing.",
+              "explanation": "UNIX V7 (Version 7) uses i-node addressing.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9009,7 +9009,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is middleware in a distributed system?",
               "choices": [
                 "A physical disk sector.",
-                "A CPU cache line.",
+                "A CPU (Central Processing Unit) cache line.",
                 "A single-level directory.",
                 "Software that provides a uniform paradigm across heterogeneous platforms."
               ],
@@ -9026,13 +9026,13 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A directed graph of documents connected by hyperlinks.",
                 "A single global disk block table.",
-                "A central CPU ready queue.",
+                "A central CPU (Central Processing Unit) ready queue.",
                 "A bitmap of free memory."
               ],
               "answer": [
                 0
               ],
-              "explanation": "The web connects documents by URLs and links.",
+              "explanation": "The web connects documents by URLs (Uniform Resource Locators) and links.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9043,7 +9043,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Only local disk blocks with no networking.",
                 "A single global file-system view for distributed users.",
                 "Only message queues with no files.",
-                "Only CPU scheduling."
+                "Only CPU (Central Processing Unit) scheduling."
               ],
               "answer": [
                 1
@@ -9054,10 +9054,10 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How does NFS-style middleware commonly communicate?",
+              "prompt": "How does NFS (Network File System)-style middleware commonly communicate?",
               "choices": [
-                "Every process shares physical RAM.",
-                "All communication is via CPU interrupts only.",
+                "Every process shares physical RAM (Random Access Memory).",
+                "All communication is via CPU (Central Processing Unit) interrupts only.",
                 "Processes write data into files and others read it back through a remote file interface.",
                 "No authorization is possible."
               ],
@@ -9073,8 +9073,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is Linda tuple space?",
               "choices": [
                 "A disk partition table.",
-                "A FAT directory entry.",
-                "A CPU cache hierarchy.",
+                "A FAT (File Allocation Table) directory entry.",
+                "A CPU (Central Processing Unit) cache hierarchy.",
                 "A global abstract memory of tuples accessed with out, in, and read operations."
               ],
               "answer": [
@@ -9194,7 +9194,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In virtualization terminology, what does the VMM or hypervisor do?",
+              "prompt": "In virtualization terminology, what does the VMM (Virtual Machine Monitor) or hypervisor do?",
               "choices": [
                 "Stores only user documents.",
                 "Creates and runs virtual machines by providing a virtual hardware interface.",
@@ -9204,16 +9204,16 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "The VMM controls the real machine and presents virtual machines to guests.",
+              "explanation": "The VMM (Virtual Machine Monitor) controls the real machine and presents virtual machines to guests.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is usually running inside a VM as the guest?",
+              "prompt": "What is usually running inside a VM (Virtual Machine) as the guest?",
               "choices": [
-                "Only a physical CPU register.",
-                "Only a BIOS firmware password.",
+                "Only a physical CPU (Central Processing Unit) register.",
+                "Only a BIOS (Basic Input/Output System) firmware password.",
                 "An operating system or application environment.",
                 "Only a disk sector."
               ],
@@ -9228,8 +9228,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a Type 0 hypervisor?",
               "choices": [
-                "An application running on top of a normal host OS.",
-                "A guest OS modified to call the hypervisor.",
+                "An application running on top of a normal host OS (Operating System).",
+                "A guest OS (Operating System) modified to call the hypervisor.",
                 "A Java bytecode interpreter.",
                 "A hardware or firmware-based virtualization solution."
               ],
@@ -9244,15 +9244,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which examples match Type 0 hypervisors from the lecture?",
               "choices": [
-                "IBM LPARs and Oracle LDOMs.",
+                "IBM (International Business Machines) LPARs (Logical Partitions) and Oracle LDOMs (Logical Domains).",
                 "VMware Workstation and VirtualBox.",
-                "JVM and .NET CLR.",
-                "BSD jails and Solaris zones only."
+                "JVM (Java Virtual Machine) and .NET (Microsoft .NET Framework) CLR (Common Language Runtime).",
+                "BSD (Berkeley Software Distribution) jails and Solaris zones only."
               ],
               "answer": [
                 0
               ],
-              "explanation": "LPARs and LDOMs are firmware/hardware-style partitioning systems.",
+              "explanation": "LPARs (Logical Partitions) and LDOMs (Logical Domains) are firmware/hardware-style partitioning systems.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9260,7 +9260,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a Type 1 hypervisor?",
               "choices": [
-                "A normal desktop application that runs guests inside a host OS.",
+                "A normal desktop application that runs guests inside a host OS (Operating System).",
                 "Operating-system-like software that runs directly on hardware to manage guests.",
                 "A programming language virtual machine only.",
                 "A file compression tool."
@@ -9276,15 +9276,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which examples are Type 1 hypervisors or Type 1-style systems?",
               "choices": [
-                "Only Java and .NET.",
-                "Only MS-DOS and FAT.",
-                "VMware ESX, XenServer, Hyper-V, and KVM-based systems.",
-                "Only NTFS and ext3."
+                "Only Java and .NET (Microsoft .NET Framework).",
+                "Only Microsoft Disk Operating System (MS-DOS) and FAT (File Allocation Table).",
+                "VMware ESX (Elastic Sky X), XenServer, Hyper-V, and KVM (Kernel-based Virtual Machine)-based systems.",
+                "Only NTFS (New Technology File System) and ext3."
               ],
               "answer": [
                 2
               ],
-              "explanation": "The lecture lists dedicated and general-purpose OS variants as Type 1.",
+              "explanation": "The lecture lists dedicated and general-purpose OS (Operating System) variants as Type 1.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9293,9 +9293,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a Type 2 hypervisor?",
               "choices": [
                 "Firmware that dedicates all hardware to partitions.",
-                "A CPU instruction used for binary translation.",
+                "A CPU (Central Processing Unit) instruction used for binary translation.",
                 "A disk scheduling algorithm.",
-                "A VMM application running on a standard host operating system."
+                "A VMM (Virtual Machine Monitor) application running on a standard host operating system."
               ],
               "answer": [
                 3
@@ -9308,10 +9308,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are Type 2 hypervisors convenient for students or personal machines?",
               "choices": [
-                "They require no host OS changes and can run guests on Windows, Linux, or macOS.",
+                "They require no host OS (Operating System) changes and can run guests on Windows, Linux, or macOS.",
                 "They require replacing all hardware firmware.",
                 "They cannot run multiple guests.",
-                "They only work on IBM mainframes."
+                "They only work on IBM (International Business Machines) mainframes."
               ],
               "answer": [
                 0
@@ -9325,8 +9325,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is paravirtualization?",
               "choices": [
                 "Exact hardware duplication with no guest changes ever.",
-                "A technique where the guest OS is modified to cooperate with the VMM for better performance.",
-                "Running a Java class file in a JVM.",
+                "A technique where the guest OS (Operating System) is modified to cooperate with the VMM (Virtual Machine Monitor) for better performance.",
+                "Running a Java class file in a JVM (Java Virtual Machine).",
                 "A disk block allocation method."
               ],
               "answer": [
@@ -9338,9 +9338,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is paravirtualization less needed on modern CPUs?",
+              "prompt": "Why is paravirtualization less needed on modern CPUs (Central Processing Units)?",
               "choices": [
-                "Modern CPUs removed all privilege levels.",
+                "Modern CPUs (Central Processing Units) removed all privilege levels.",
                 "Guests no longer need I/O.",
                 "Hardware virtualization support reduced the need to modify guests.",
                 "Virtual machines can no longer use memory."
@@ -9356,10 +9356,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is programming-environment virtualization?",
               "choices": [
-                "Dedicating a physical GPU to one VM.",
+                "Dedicating a physical GPU (Graphics Processing Unit) to one VM (Virtual Machine).",
                 "Partitioning firmware into hardware domains.",
                 "Using only trap-and-emulate for kernel code.",
-                "Providing a virtual execution environment and APIs for programs, such as JVM or .NET."
+                "Providing a virtual execution environment and APIs (Application Programming Interfaces) for programs, such as JVM (Java Virtual Machine) or .NET (Microsoft .NET Framework)."
               ],
               "answer": [
                 3
@@ -9372,10 +9372,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is emulation?",
               "choices": [
-                "Translating guest instructions so software for one CPU can run on a different CPU.",
-                "Running a guest only on identical underlying CPU hardware.",
+                "Translating guest instructions so software for one CPU (Central Processing Unit) can run on a different CPU (Central Processing Unit).",
+                "Running a guest only on identical underlying CPU (Central Processing Unit) hardware.",
                 "Sharing one file-system volume between guests.",
-                "Moving a VM live between hosts."
+                "Moving a VM (Virtual Machine) live between hosts."
               ],
               "answer": [
                 0
@@ -9388,8 +9388,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why is emulation usually slower than virtualization?",
               "choices": [
-                "It always has more physical CPUs than needed.",
-                "It must translate all guest CPU instructions to native CPU instructions.",
+                "It always has more physical CPUs (Central Processing Units) than needed.",
+                "It must translate all guest CPU (Central Processing Unit) instructions to native CPU (Central Processing Unit) instructions.",
                 "It avoids every privileged instruction.",
                 "It never touches memory."
               ],
@@ -9406,7 +9406,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Running a full guest kernel for every app.",
                 "Replacing every app with a hypervisor.",
-                "Segregating applications from the OS to provide virtualization-like isolation without full hardware virtualization.",
+                "Segregating applications from the OS (Operating System) to provide virtualization-like isolation without full hardware virtualization.",
                 "Using only firmware partitions."
               ],
               "answer": [
@@ -9418,28 +9418,28 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How do containers or zones differ from full VMs?",
+              "prompt": "How do containers or zones differ from full VMs (Virtual Machines)?",
               "choices": [
                 "They always run a separate guest kernel per app.",
-                "They require a different CPU architecture.",
+                "They require a different CPU (Central Processing Unit) architecture.",
                 "They cannot isolate networking.",
                 "They share one host kernel while giving applications isolated resources and namespaces."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Application containment virtualizes OS views rather than full hardware.",
+              "explanation": "Application containment virtualizes OS (Operating System) views rather than full hardware.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What formal condition says the VMM must control resources?",
+              "prompt": "What formal condition says the VMM (Virtual Machine Monitor) must control resources?",
               "choices": [
-                "The VMM is in complete control of system resources.",
-                "The guest can bypass the VMM for all devices.",
-                "The VMM should never trap privileged operations.",
-                "The host OS must be unaware of all guests."
+                "The VMM (Virtual Machine Monitor) is in complete control of system resources.",
+                "The guest can bypass the VMM (Virtual Machine Monitor) for all devices.",
+                "The VMM (Virtual Machine Monitor) should never trap privileged operations.",
+                "The host OS (Operating System) must be unaware of all guests."
               ],
               "answer": [
                 0
@@ -9450,33 +9450,33 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a VCPU?",
+              "prompt": "What is a VCPU (Virtual Central Processing Unit)?",
               "choices": [
-                "A physical CPU dedicated only to firmware.",
-                "A virtual representation of a guest CPU state.",
+                "A physical CPU (Central Processing Unit) dedicated only to firmware.",
+                "A virtual representation of a guest CPU (Central Processing Unit) state.",
                 "A network packet priority class.",
                 "A page-file entry."
               ],
               "answer": [
                 1
               ],
-              "explanation": "The VMM saves and restores VCPU state when scheduling guests.",
+              "explanation": "The VMM (Virtual Machine Monitor) saves and restores VCPU (Virtual Central Processing Unit) state when scheduling guests.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is virtualization difficult on a simple dual-mode CPU?",
+              "prompt": "Why is virtualization difficult on a simple dual-mode CPU (Central Processing Unit)?",
               "choices": [
                 "User code cannot run natively.",
                 "There are too many privilege levels already.",
                 "A guest kernel cannot safely run in real kernel mode, so virtual kernel behavior must be simulated.",
-                "The CPU has no user mode."
+                "The CPU (Central Processing Unit) has no user mode."
               ],
               "answer": [
                 2
               ],
-              "explanation": "The VMM must protect itself while letting guest kernels believe they are privileged.",
+              "explanation": "The VMM (Virtual Machine Monitor) must protect itself while letting guest kernels believe they are privileged.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9484,10 +9484,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is trap-and-emulate?",
               "choices": [
-                "The VMM translates every user instruction even when not privileged.",
+                "The VMM (Virtual Machine Monitor) translates every user instruction even when not privileged.",
                 "The guest directly controls all physical devices.",
-                "The host OS ignores all guest errors.",
-                "Privileged guest operations trap to the VMM, which performs or simulates them and returns control."
+                "The host OS (Operating System) ignores all guest errors.",
+                "Privileged guest operations trap to the VMM (Virtual Machine Monitor), which performs or simulates them and returns control."
               ],
               "answer": [
                 3
@@ -9500,21 +9500,21 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why does guest kernel code run slower with trap-and-emulate?",
               "choices": [
-                "Privileged operations cause traps and VMM handling overhead.",
+                "Privileged operations cause traps and VMM (Virtual Machine Monitor) handling overhead.",
                 "User-mode code is always interpreted.",
-                "The guest has no virtual CPU.",
-                "The VMM never receives control."
+                "The guest has no virtual CPU (Central Processing Unit).",
+                "The VMM (Virtual Machine Monitor) never receives control."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Kernel-like guest operations need VMM intervention.",
+              "explanation": "Kernel-like guest operations need VMM (Virtual Machine Monitor) intervention.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why was binary translation needed on older x86 CPUs?",
+              "prompt": "Why was binary translation needed on older x86 CPUs (Central Processing Units)?",
               "choices": [
                 "x86 had no instructions at all.",
                 "Some sensitive instructions behaved differently without trapping in user mode.",
@@ -9534,7 +9534,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "It lets all instructions run in real kernel mode.",
                 "It stops all user-mode execution.",
-                "The VMM examines instructions and replaces problematic ones with safe sequences.",
+                "The VMM (Virtual Machine Monitor) examines instructions and replaces problematic ones with safe sequences.",
                 "It disables the guest page tables."
               ],
               "answer": [
@@ -9550,13 +9550,13 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Store Java class files.",
                 "Schedule disk requests by deadline.",
-                "Hold ACL entries for files.",
-                "Represent guest page-table state while the VMM keeps control of real address translation."
+                "Hold ACL (Access Control List) entries for files.",
+                "Represent guest page-table state while the VMM (Virtual Machine Monitor) keeps control of real address translation."
               ],
               "answer": [
                 3
               ],
-              "explanation": "NPTs separate guest-visible physical memory from machine memory.",
+              "explanation": "NPTs (Nested Page Tables) separate guest-visible physical memory from machine memory.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9564,7 +9564,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What performance cost can nested page tables cause?",
               "choices": [
-                "More TLB misses and slower memory translation.",
+                "More TLB (Translation Lookaside Buffer) misses and slower memory translation.",
                 "No memory translation at all.",
                 "Only faster disk access.",
                 "No guest isolation."
@@ -9572,13 +9572,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Extra translation layers can increase TLB pressure.",
+              "explanation": "Extra translation layers can increase TLB (Translation Lookaside Buffer) pressure.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What did Intel VT-x and AMD-V add?",
+              "prompt": "What did Intel Virtualization Technology for x86 (VT-x) and AMD Virtualization (AMD-V) add?",
               "choices": [
                 "A new file system for guest disks.",
                 "Hardware support with host and guest modes for virtualization.",
@@ -9594,33 +9594,33 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In hardware-assisted virtualization, what causes traps to the VMM?",
+              "prompt": "In hardware-assisted virtualization, what causes traps to the VMM (Virtual Machine Monitor)?",
               "choices": [
                 "Every user-level arithmetic instruction.",
                 "Only opening a text file.",
                 "Access to virtualized devices or privileged instructions configured to exit guest mode.",
-                "Only rendering a GUI window."
+                "Only rendering a GUI (Graphical User Interface) window."
               ],
               "answer": [
                 2
               ],
-              "explanation": "The CPU can run guests while trapping selected sensitive events.",
+              "explanation": "The CPU (Central Processing Unit) can run guests while trapping selected sensitive events.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the typical VM lifecycle?",
+              "prompt": "What is the typical VM (Virtual Machine) lifecycle?",
               "choices": [
-                "Encrypt VM, print it, then archive the keyboard.",
-                "Boot firmware, format disk, remove CPU.",
-                "Only create a VM with no resource assignment.",
-                "Create VM, assign resources, run it, then delete it when no longer needed."
+                "Encrypt VM (Virtual Machine), print it, then archive the keyboard.",
+                "Boot firmware, format disk, remove CPU (Central Processing Unit).",
+                "Only create a VM (Virtual Machine) with no resource assignment.",
+                "Create VM (Virtual Machine), assign resources, run it, then delete it when no longer needed."
               ],
               "answer": [
                 3
               ],
-              "explanation": "VMs are managed objects with configurable CPU, memory, network, and storage.",
+              "explanation": "VMs (Virtual Machines) are managed objects with configurable CPU (Central Processing Unit), memory, network, and storage.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9628,15 +9628,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is virtual machine sprawl?",
               "choices": [
-                "Too many VMs are created, making history and state difficult to track.",
-                "A VM uses too few resources.",
-                "A hypervisor cannot create any VM.",
-                "All VMs are deleted automatically."
+                "Too many VMs (Virtual Machines) are created, making history and state difficult to track.",
+                "A VM (Virtual Machine) uses too few resources.",
+                "A hypervisor cannot create any VM (Virtual Machine).",
+                "All VMs (Virtual Machines) are deleted automatically."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Easy VM creation can lead to uncontrolled growth.",
+              "explanation": "Easy VM (Virtual Machine) creation can lead to uncontrolled growth.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9644,7 +9644,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why is I/O challenging for Type 0 hypervisors?",
               "choices": [
-                "Type 0 guests cannot use CPUs.",
+                "Type 0 guests cannot use CPUs (Central Processing Units).",
                 "It is hard to dedicate enough physical devices and controllers to every guest.",
                 "Firmware cannot create partitions.",
                 "Every guest has unlimited devices."
@@ -9663,7 +9663,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Translate Java bytecode into native code.",
                 "Store guest source code only.",
                 "Run daemons that other guests communicate with for shared I/O.",
-                "Replace all VCPUs."
+                "Replace all VCPUs (Virtual Central Processing Units)."
               ],
               "answer": [
                 2
@@ -9679,7 +9679,7 @@ window.UNIFIED_EXAM_DATA = {
                 "They run only as browser tabs.",
                 "They cannot manage memory.",
                 "They require one physical server per guest.",
-                "They consolidate many OSs and apps, support snapshots, cloning, and movement between hosts."
+                "They consolidate many OSs (Operating Systems) and apps, support snapshots, cloning, and movement between hosts."
               ],
               "answer": [
                 3
@@ -9693,8 +9693,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is direct pass-through I/O?",
               "choices": [
                 "Giving a guest direct access to a physical device to reduce hypervisor involvement.",
-                "Copying every I/O byte through the VMM twice.",
-                "Running a VM without storage.",
+                "Copying every I/O byte through the VMM (Virtual Machine Monitor) twice.",
+                "Running a VM (Virtual Machine) without storage.",
                 "Translating Java bytecode."
               ],
               "answer": [
@@ -9706,49 +9706,49 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does NAT provide for guest networking?",
+              "prompt": "What does NAT (Network Address Translation) provide for guest networking?",
               "choices": [
-                "It gives every guest a dedicated physical NIC.",
-                "It hides the guest local address by translating traffic through the VMM or host.",
+                "It gives every guest a dedicated physical NIC (Network Interface Card).",
+                "It hides the guest local address by translating traffic through the VMM (Virtual Machine Monitor) or host.",
                 "It disables network access.",
                 "It moves memory pages to disk."
               ],
               "answer": [
                 1
               ],
-              "explanation": "NAT lets guests communicate using translated addresses.",
+              "explanation": "NAT (Network Address Translation) lets guests communicate using translated addresses.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is CPU overcommitment in virtualization?",
+              "prompt": "What is CPU (Central Processing Unit) overcommitment in virtualization?",
               "choices": [
-                "Every guest receives a dedicated physical CPU forever.",
-                "The VMM disables CPU scheduling.",
-                "Configured VCPUs exceed available physical CPUs, so the VMM schedules them over time.",
-                "Only one VM can ever run."
+                "Every guest receives a dedicated physical CPU (Central Processing Unit) forever.",
+                "The VMM (Virtual Machine Monitor) disables CPU (Central Processing Unit) scheduling.",
+                "Configured VCPUs (Virtual Central Processing Units) exceed available physical CPUs (Central Processing Units), so the VMM (Virtual Machine Monitor) schedules them over time.",
+                "Only one VM (Virtual Machine) can ever run."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Overcommitment is common when not enough CPUs exist for all VCPUs.",
+              "explanation": "Overcommitment is common when not enough CPUs (Central Processing Units) exist for all VCPUs (Virtual Central Processing Units).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why can CPU oversubscription break a guest time-sharing assumption?",
+              "prompt": "Why can CPU (Central Processing Unit) oversubscription break a guest time-sharing assumption?",
               "choices": [
                 "The guest scheduler always sees physical time exactly.",
-                "VCPUs cannot be context switched.",
+                "VCPUs (Virtual Central Processing Units) cannot be context switched.",
                 "Guests cannot run time-sharing schedulers.",
-                "A guest 100 ms slice may take much longer in real time because the VMM steals cycles."
+                "A guest 100 ms slice may take much longer in real time because the VMM (Virtual Machine Monitor) steals cycles."
               ],
               "answer": [
                 3
               ],
-              "explanation": "VMM scheduling affects guest-visible timing.",
+              "explanation": "VMM (Virtual Machine Monitor) scheduling affects guest-visible timing.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9756,15 +9756,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is double paging?",
               "choices": [
-                "The guest thinks a page is in memory while the VMM has moved it to backing store.",
-                "Two guests share a CPU core.",
+                "The guest thinks a page is in memory while the VMM (Virtual Machine Monitor) has moved it to backing store.",
+                "Two guests share a CPU (Central Processing Unit) core.",
                 "A disk scheduler moves the head twice.",
                 "A Java object has two class files."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Double paging can occur when both guest and VMM manage memory.",
+              "explanation": "Double paging can occur when both guest and VMM (Virtual Machine Monitor) manage memory.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9773,25 +9773,25 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a balloon memory manager?",
               "choices": [
                 "A disk image format.",
-                "A pseudo-device driver inside the guest that allocates or releases memory under VMM direction.",
-                "A CPU trap handler.",
+                "A pseudo-device driver inside the guest that allocates or releases memory under VMM (Virtual Machine Monitor) direction.",
+                "A CPU (Central Processing Unit) trap handler.",
                 "A Java bytecode verifier."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Ballooning helps the VMM reclaim or return guest memory.",
+              "explanation": "Ballooning helps the VMM (Virtual Machine Monitor) reclaim or return guest memory.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How can VMM page deduplication save memory?",
+              "prompt": "How can VMM (Virtual Machine Monitor) page deduplication save memory?",
               "choices": [
                 "Every guest receives duplicated pages only.",
                 "All memory is encrypted and hidden.",
                 "Identical pages loaded in multiple guests can be mapped to the same physical page.",
-                "The VMM deletes guest page tables."
+                "The VMM (Virtual Machine Monitor) deletes guest page tables."
               ],
               "answer": [
                 2
@@ -9802,12 +9802,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is storage for VMs usually represented as disk images?",
+              "prompt": "Why is storage for VMs (Virtual Machines) usually represented as disk images?",
               "choices": [
-                "It prevents VMs from booting.",
+                "It prevents VMs (Virtual Machines) from booting.",
                 "It requires one physical disk partition per guest always.",
                 "It eliminates backups.",
-                "It allows guest disks and configuration to be stored as files or VMM-managed objects."
+                "It allows guest disks and configuration to be stored as files or VMM (Virtual Machine Monitor)-managed objects."
               ],
               "answer": [
                 3
@@ -9820,15 +9820,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is P-to-V conversion?",
               "choices": [
-                "Converting native physical disk blocks into a VMM virtual disk format.",
+                "Converting native physical disk blocks into a VMM (Virtual Machine Monitor) virtual disk format.",
                 "Converting a Java class into bytecode.",
                 "Changing a Type 2 hypervisor into firmware.",
-                "Moving CPU time from guest to host."
+                "Moving CPU (Central Processing Unit) time from guest to host."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Physical-to-virtual conversion migrates existing systems into VM format.",
+              "explanation": "Physical-to-virtual conversion migrates existing systems into VM (Virtual Machine) format.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9836,15 +9836,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is live migration?",
               "choices": [
-                "Deleting a VM and reinstalling it later.",
+                "Deleting a VM (Virtual Machine) and reinstalling it later.",
                 "Moving a running guest from one host to another without interrupting user access.",
-                "Running an emulator on a different CPU.",
+                "Running an emulator on a different CPU (Central Processing Unit).",
                 "Creating a Java object at runtime."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Live migration is a major VMM feature for maintenance and load balancing.",
+              "explanation": "Live migration is a major VMM (Virtual Machine Monitor) feature for maintenance and load balancing.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9854,7 +9854,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "The guest is shut down for a full reinstall.",
                 "The target ignores memory state.",
-                "The source freezes the guest, sends final VCPU state and dirty pages, then the target starts it.",
+                "The source freezes the guest, sends final VCPU (Virtual Central Processing Unit) state and dirty pages, then the target starts it.",
                 "All pages are sent only after deleting the source."
               ],
               "answer": [
@@ -9870,19 +9870,19 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Type 0 firmware partitioning.",
                 "A paravirtualized guest only.",
-                "A programming language VM only.",
-                "Type 2 hypervisor running as an application on a host OS."
+                "A programming language VM (Virtual Machine) only.",
+                "Type 2 hypervisor running as an application on a host OS (Operating System)."
               ],
               "answer": [
                 3
               ],
-              "explanation": "VMware Workstation runs on top of a native host OS.",
+              "explanation": "VMware Workstation runs on top of a native host OS (Operating System).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the JVM an example of?",
+              "prompt": "What is the JVM (Java Virtual Machine) an example of?",
               "choices": [
                 "Programming-environment virtualization.",
                 "Type 0 hardware partitioning.",
@@ -9892,7 +9892,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "The JVM provides a virtual execution environment for Java bytecode.",
+              "explanation": "The JVM (Java Virtual Machine) provides a virtual execution environment for Java bytecode.",
               "fullExplanation": null,
               "points": 1
             },
@@ -9900,8 +9900,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does Java bytecode provide?",
               "choices": [
-                "Direct execution only on one CPU model.",
-                "Architecture-neutral code loaded and executed by a JVM built for the host architecture.",
+                "Direct execution only on one CPU (Central Processing Unit) model.",
+                "Architecture-neutral code loaded and executed by a JVM (Java Virtual Machine) built for the host architecture.",
                 "A physical disk format.",
                 "A hypervisor control partition."
               ],
@@ -9914,17 +9914,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why does the JVM use JIT compilation?",
+              "prompt": "Why does the JVM (Java Virtual Machine) use JIT (Just-In-Time) compilation?",
               "choices": [
                 "To slow every program deliberately.",
                 "To create nested page tables.",
                 "To translate bytecode into native code and cache it for speed.",
-                "To dedicate a GPU to a VM."
+                "To dedicate a GPU (Graphics Processing Unit) to a VM (Virtual Machine)."
               ],
               "answer": [
                 2
               ],
-              "explanation": "JIT improves runtime performance over pure interpretation.",
+              "explanation": "JIT (Just-In-Time) improves runtime performance over pure interpretation.",
               "fullExplanation": null,
               "points": 1
             }
@@ -9942,7 +9942,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "Which data type does a multimedia OS handle in addition to conventional files?",
+              "prompt": "Which data type does a multimedia OS (Operating System) handle in addition to conventional files?",
               "choices": [
                 "Continuous media such as audio and video.",
                 "Only process credentials.",
@@ -9958,7 +9958,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is multimedia data difficult for an OS?",
+              "prompt": "Why is multimedia data difficult for an OS (Operating System)?",
               "choices": [
                 "It is always tiny and delay-insensitive.",
                 "It is large, high-rate, and sensitive to playback timing.",
@@ -9974,10 +9974,10 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the primary OS challenge with continuous media?",
+              "prompt": "What is the primary OS (Operating System) challenge with continuous media?",
               "choices": [
                 "Only encrypting every file name.",
-                "Only changing process UIDs.",
+                "Only changing process UIDs (User Identifiers).",
                 "Real-time processing and delivery under timing constraints.",
                 "Only compiling source code."
               ],
@@ -10022,7 +10022,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which OS areas are key for multimedia support?",
+              "prompt": "Which OS (Operating System) areas are key for multimedia support?",
               "choices": [
                 "Only user authentication.",
                 "Process management, file systems, synchronization, and memory management.",
@@ -10106,7 +10106,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A passive storage capacity such as file-system space only.",
                 "A user password.",
-                "A resource that provides a service, such as CPU or a network adapter.",
+                "A resource that provides a service, such as CPU (Central Processing Unit) or a network adapter.",
                 "A completed disk request."
               ],
               "answer": [
@@ -10120,7 +10120,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a passive resource?",
               "choices": [
-                "Only a CPU core.",
+                "Only a CPU (Central Processing Unit) core.",
                 "Only a network adapter.",
                 "Only an interrupt handler.",
                 "A required system capability such as memory or a file system."
@@ -10155,7 +10155,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Total transmission from source to destination.",
                 "The maximum time a specific resource may take to complete a task.",
                 "The number of media files in storage.",
-                "The amount of RAM in a PC."
+                "The amount of RAM (Random Access Memory) in a PC (Program Counter)."
               ],
               "answer": [
                 1
@@ -10169,7 +10169,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does end-to-end delay measure?",
               "choices": [
                 "Only disk head movement.",
-                "Only CPU context switch time.",
+                "Only CPU (Central Processing Unit) context switch time.",
                 "Total time from source to destination.",
                 "Only memory allocation time."
               ],
@@ -10208,7 +10208,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "FEC avoids waiting for retransmission during playback.",
+              "explanation": "FEC (Forward Error Correction) avoids waiting for retransmission during playback.",
               "fullExplanation": null,
               "points": 1
             },
@@ -10216,7 +10216,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What happens during resource negotiation?",
               "choices": [
-                "The OS immediately accepts all streams.",
+                "The OS (Operating System) immediately accepts all streams.",
                 "The client gives QoS needs and the resource manager tests whether capacity exists.",
                 "The file system deletes old streams.",
                 "The scheduler ignores timing."
@@ -10280,7 +10280,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does the continuous media resource model use as stream units?",
               "choices": [
-                "Process IDs.",
+                "Process IDs (Identifiers).",
                 "Logical Data Units.",
                 "Page table entries.",
                 "Access tokens."
@@ -10288,15 +10288,15 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "LDUs model media stream units along an end-to-end path.",
+              "explanation": "LDUs (Logical Domain Units) model media stream units along an end-to-end path.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which parameters define LBAP?",
+              "prompt": "Which parameters define LBAP (Linear Bounded Arrival Process)?",
               "choices": [
-                "PID, UID, and GID.",
+                "PID (Process Identifier), UID (User Identifier), and GID (Group Identifier).",
                 "Seek, latency, and transfer only.",
                 "Maximum Burstiness, Maximum Message Rate, and Maximum Message Size.",
                 "Read, write, and execute bits."
@@ -10304,13 +10304,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "LBAP uses B, R, and M.",
+              "explanation": "LBAP (Linear Bounded Arrival Process) uses B, R, and M.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the LBAP buffer-size formula?",
+              "prompt": "What is the LBAP (Linear Bounded Arrival Process) buffer-size formula?",
               "choices": [
                 "S = B / M.",
                 "S = R - M.",
@@ -10331,7 +10331,7 @@ window.UNIFIED_EXAM_DATA = {
                 "The number of messages ahead of schedule when a message arrives.",
                 "The number of failed login attempts.",
                 "The number of mounted file systems.",
-                "The number of CPU cores."
+                "The number of CPU (Central Processing Unit) cores."
               ],
               "answer": [
                 0
@@ -10393,14 +10393,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which two basic real-time scheduling algorithms are named?",
               "choices": [
                 "Earliest Deadline First and Rate Monotonic Scheduling.",
-                "FIFO and LRU only.",
-                "SCAN and C-SCAN only.",
-                "PAM and ACL only."
+                "FIFO (First-In, First-Out) and LRU (Least Recently Used) only.",
+                "SCAN (Elevator disk scheduling) and C-SCAN (Circular SCAN disk scheduling) only.",
+                "PAM (Pluggable Authentication Modules) and ACL (Access Control List) only."
               ],
               "answer": [
                 0
               ],
-              "explanation": "EDF and RM are the lecture basic algorithms.",
+              "explanation": "EDF (Earliest Deadline First) and RM (Rate Monotonic) are the lecture basic algorithms.",
               "fullExplanation": null,
               "points": 1
             },
@@ -10408,7 +10408,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What parameters define a scheduling task in the system model?",
               "choices": [
-                "PID, UID, GID, and namespace.",
+                "PID (Process Identifier), UID (User Identifier), GID (Group Identifier), and namespace.",
                 "Start time, processing time, deadline, and period.",
                 "Cylinder, sector, track, and cluster.",
                 "Salt, hash, key, and signature."
@@ -10432,13 +10432,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Utilization measures CPU demand relative to available period.",
+              "explanation": "Utilization measures CPU (Central Processing Unit) demand relative to available period.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does EDF choose priority?",
+              "prompt": "How does EDF (Earliest Deadline First) choose priority?",
               "choices": [
                 "The task with the largest file name runs first.",
                 "The task with the lowest data rate runs first always.",
@@ -10448,13 +10448,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "EDF is dynamic and deadline-driven.",
+              "explanation": "EDF (Earliest Deadline First) is dynamic and deadline-driven.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why can EDF behave poorly during overload?",
+              "prompt": "Why can EDF (Earliest Deadline First) behave poorly during overload?",
               "choices": [
                 "It has no absolute guarantee when total demand exceeds capacity.",
                 "It cannot schedule periodic tasks.",
@@ -10464,13 +10464,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "EDF is optimal under feasible loads but not magic under overload.",
+              "explanation": "EDF (Earliest Deadline First) is optimal under feasible loads but not magic under overload.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does the TDS extension help EDF overload?",
+              "prompt": "How does the TDS (Time-Driven Scheduler) extension help EDF (Earliest Deadline First) overload?",
               "choices": [
                 "It doubles every deadline.",
                 "It terminates jobs that can no longer finish before deadline.",
@@ -10480,7 +10480,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "TDS avoids wasting time on impossible jobs.",
+              "explanation": "TDS (Time-Driven Scheduler) avoids wasting time on impossible jobs.",
               "fullExplanation": null,
               "points": 1
             },
@@ -10489,7 +10489,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why are mandatory and optional task parts useful?",
               "choices": [
                 "Mandatory parts are always cancelled first.",
-                "They eliminate all CPU demand.",
+                "They eliminate all CPU (Central Processing Unit) demand.",
                 "Optional parts can be cancelled during overload, preserving essential output.",
                 "They are used only for disk formatting."
               ],
@@ -10512,7 +10512,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "RM is static and rate-based.",
+              "explanation": "RM (Rate Monotonic) is static and rate-based.",
               "fullExplanation": null,
               "points": 1
             },
@@ -10528,17 +10528,17 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "RM works for periodic independent task sets.",
+              "explanation": "RM (Rate Monotonic) works for periodic independent task sets.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the RM utilization bound indicate?",
+              "prompt": "What does the RM (Rate Monotonic) utilization bound indicate?",
               "choices": [
                 "If disk seek time is zero, all files are contiguous.",
                 "If total ei/pi is below the bound, all deadlines are guaranteed.",
-                "If passwords are salted, CPU is fair.",
+                "If passwords are salted, CPU (Central Processing Unit) is fair.",
                 "If jitter is high, all streams succeed."
               ],
               "answer": [
@@ -10555,18 +10555,18 @@ window.UNIFIED_EXAM_DATA = {
                 "Shortest disk seek time only.",
                 "Largest message size only.",
                 "Slack time: deadline minus current time minus remaining processing time.",
-                "Process ID order."
+                "Process ID (Identifier) order."
               ],
               "answer": [
                 2
               ],
-              "explanation": "LLF dynamically prioritizes the least slack.",
+              "explanation": "LLF (Least Laxity First) dynamically prioritizes the least slack.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is LLF difficult to implement?",
+              "prompt": "Why is LLF (Least Laxity First) difficult to implement?",
               "choices": [
                 "It never uses deadlines.",
                 "It only works for file compression.",
@@ -10650,7 +10650,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Seek time.",
                 "Data transfer time only.",
-                "CPU scheduling time.",
+                "CPU (Central Processing Unit) scheduling time.",
                 "Password hashing time."
               ],
               "answer": [
@@ -10662,7 +10662,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does SSTF disk scheduling choose?",
+              "prompt": "What does SSTF (Shortest Seek Time First) disk scheduling choose?",
               "choices": [
                 "The oldest request always.",
                 "The request with the shortest seek time from the current head position.",
@@ -10672,29 +10672,29 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "SSTF reduces seek time but may starve edge requests.",
+              "explanation": "SSTF (Shortest Seek Time First) reduces seek time but may starve edge requests.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does C-SCAN differ from SCAN?",
+              "prompt": "How does C-SCAN (Circular SCAN (Elevator disk scheduling) disk scheduling) differ from SCAN (Elevator disk scheduling)?",
               "choices": [
-                "C-SCAN never moves the disk head.",
-                "C-SCAN is only CPU scheduling.",
-                "C-SCAN serves in one direction then returns to the start for fairer service.",
-                "C-SCAN always chooses shortest seek."
+                "C-SCAN (Circular SCAN disk scheduling) never moves the disk head.",
+                "C-SCAN (Circular SCAN disk scheduling) is only CPU (Central Processing Unit) scheduling.",
+                "C-SCAN (Circular SCAN disk scheduling) serves in one direction then returns to the start for fairer service.",
+                "C-SCAN (Circular SCAN disk scheduling) always chooses shortest seek."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Circular SCAN makes wait times more uniform.",
+              "explanation": "Circular SCAN (Elevator disk scheduling) makes wait times more uniform.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why can plain disk EDF perform poorly for multimedia?",
+              "prompt": "Why can plain disk EDF (Earliest Deadline First) perform poorly for multimedia?",
               "choices": [
                 "It always minimizes seek time.",
                 "It cannot use deadlines.",
@@ -10710,17 +10710,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does SCAN-EDF combine?",
+              "prompt": "What does SCAN (Elevator disk scheduling)-EDF (Earliest Deadline First) combine?",
               "choices": [
-                "Earliest deadline ordering with SCAN direction for equal-deadline requests.",
-                "Only FCFS with password hashing.",
-                "Only CFS with page replacement.",
-                "Only FEC with encryption."
+                "Earliest deadline ordering with SCAN (Elevator disk scheduling) direction for equal-deadline requests.",
+                "Only FCFS (First-Come, First-Served) with password hashing.",
+                "Only CFS (Completely Fair Scheduler) with page replacement.",
+                "Only FEC (Forward Error Correction) with encryption."
               ],
               "answer": [
                 0
               ],
-              "explanation": "SCAN-EDF balances timing and disk movement efficiency.",
+              "explanation": "SCAN (Elevator disk scheduling) plus Earliest Deadline First (SCAN-EDF) balances timing and disk movement efficiency.",
               "fullExplanation": null,
               "points": 1
             },
@@ -10729,14 +10729,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How does Group Sweeping Scheduling work?",
               "choices": [
                 "All requests are served strictly by shortest seek.",
-                "Streams are grouped by similar deadlines; groups are served in order and requests inside a group use SCAN.",
+                "Streams are grouped by similar deadlines; groups are served in order and requests inside a group use SCAN (Elevator disk scheduling).",
                 "Every stream gets a separate disk.",
                 "Only one group exists forever."
               ],
               "answer": [
                 1
               ],
-              "explanation": "GSS reduces seek overhead while respecting deadline groups.",
+              "explanation": "GSS (Global Scheduling System) reduces seek overhead while respecting deadline groups.",
               "fullExplanation": null,
               "points": 1
             },
@@ -10744,10 +10744,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the mixed disk scheduling strategy based on?",
               "choices": [
-                "Only FCFS and no buffering.",
+                "Only FCFS (First-Come, First-Served) and no buffering.",
                 "Only password authentication.",
                 "A balance strategy and shortest seek.",
-                "Only static priority CPU scheduling."
+                "Only static priority CPU (Central Processing Unit) scheduling."
               ],
               "answer": [
                 2
@@ -10823,7 +10823,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Only registers and cache lines",
                 "Sensors as input and actuators as output",
                 "User accounts and passwords",
-                "Hypervisors and guest VMs"
+                "Hypervisors and guest VMs (Virtual Machines)"
               ],
               "answer": [
                 1
@@ -10852,7 +10852,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which set of requirements is most typical for embedded systems?",
               "choices": [
-                "Maximum graphics quality, unlimited RAM, and no time constraints",
+                "Maximum graphics quality, unlimited RAM (Random Access Memory), and no time constraints",
                 "Only database throughput and user account management",
                 "Large desktop applications and frequent manual maintenance",
                 "Energy efficiency, small code size, limited memory, and high reliability"
@@ -10868,7 +10868,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the key difference between an application processor and a dedicated processor?",
               "choices": [
-                "An application processor can run complex OSs, while a dedicated processor is specialized for a specific task",
+                "An application processor can run complex OSs (Operating Systems), while a dedicated processor is specialized for a specific task",
                 "A dedicated processor always runs a full desktop operating system",
                 "An application processor has no memory access",
                 "A dedicated processor is used only for cloud storage"
@@ -10884,7 +10884,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which statement correctly distinguishes a microprocessor from a microcontroller?",
               "choices": [
-                "A microprocessor always includes all RAM, ROM, and I/O on the same chip",
+                "A microprocessor always includes all RAM (Random Access Memory), ROM (Read-Only Memory), and I/O on the same chip",
                 "A microcontroller integrates processor, memory, and I/O logic in one package",
                 "A microcontroller cannot execute software",
                 "A microprocessor is used only inside wireless sensors"
@@ -10900,7 +10900,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are microcontrollers produced in extremely large numbers?",
               "choices": [
-                "They are useful only for laptop CPUs",
+                "They are useful only for laptop CPUs (Central Processing Units)",
                 "They replace every network protocol",
                 "They provide low-cost, low-area, energy-efficient control for many products",
                 "They require a full human interface in every device"
@@ -10932,9 +10932,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which constraint is common in deeply embedded systems?",
               "choices": [
-                "Limited RAM and strict power management needs",
+                "Limited RAM (Random Access Memory) and strict power management needs",
                 "Unlimited battery capacity",
-                "A required desktop GUI",
+                "A required desktop GUI (Graphical User Interface)",
                 "Mandatory large hard-disk storage"
               ],
               "answer": [
@@ -10946,23 +10946,23 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which feature belongs to an embedded OS more than a general desktop OS?",
+              "prompt": "Which feature belongs to an embedded OS (Operating System) more than a general desktop OS (Operating System)?",
               "choices": [
                 "Only support for unlimited user-installed applications",
                 "Direct use of interrupts and high configurability for a specific device",
-                "Mandatory paging even when hardware has no MMU",
+                "Mandatory paging even when hardware has no MMU (Memory Management Unit)",
                 "Ignoring external I/O timing"
               ],
               "answer": [
                 1
               ],
-              "explanation": "Embedded OSs are often configurable, reactive, interrupt-driven, and tailored to device hardware.",
+              "explanation": "Embedded OSs (Operating Systems) are often configurable, reactive, interrupt-driven, and tailored to device hardware.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why might a complex embedded product need an embedded OS instead of a simple loop?",
+              "prompt": "Why might a complex embedded product need an embedded OS (Operating System) instead of a simple loop?",
               "choices": [
                 "To remove all task management",
                 "To make the device behave like a word processor",
@@ -10972,7 +10972,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "As embedded software becomes complex, an OS helps coordinate tasks and hardware events.",
+              "explanation": "As embedded software becomes complex, an OS (Operating System) helps coordinate tasks and hardware events.",
               "fullExplanation": null,
               "points": 1
             },
@@ -10980,7 +10980,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "In embedded development, what are the host and target environments?",
               "choices": [
-                "The host is the final embedded device, and the target is the developer PC",
+                "The host is the final embedded device, and the target is the developer PC (Program Counter)",
                 "Both host and target are always the same microcontroller",
                 "The host is a network switch, and the target is always a printer",
                 "The host is the development machine, and the target is the embedded device that runs the code"
@@ -10997,7 +10997,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is the role of a cross-compiler in embedded systems?",
               "choices": [
                 "It produces executable code for the target architecture while running on the host",
-                "It schedules cloud VMs across datacenters",
+                "It schedules cloud VMs (Virtual Machines) across datacenters",
                 "It replaces the boot loader after every interrupt",
                 "It converts sensors into actuators"
               ],
@@ -11013,14 +11013,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does a boot loader usually do in an embedded system?",
               "choices": [
                 "Provide all user applications in the cloud",
-                "Initialize hardware and load the kernel into RAM",
+                "Initialize hardware and load the kernel into RAM (Random Access Memory)",
                 "Replace every device driver with a database",
                 "Disable startup from flash memory"
               ],
               "answer": [
                 1
               ],
-              "explanation": "The boot loader is the early startup program that prepares hardware and loads the OS kernel.",
+              "explanation": "The boot loader is the early startup program that prepares hardware and loads the OS (Operating System) kernel.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11036,13 +11036,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Unneeded modules such as paging on non-MMU hardware waste space and may not work.",
+              "explanation": "Unneeded modules such as paging on non-MMU (Memory Management Unit) hardware waste space and may not work.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a disadvantage of adapting a commercial OS for embedded use?",
+              "prompt": "What is a disadvantage of adapting a commercial OS (Operating System) for embedded use?",
               "choices": [
                 "It can never provide familiar interfaces",
                 "It removes all portability",
@@ -11052,13 +11052,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Stripped-down commercial OSs can be familiar but may still carry size and timing costs.",
+              "explanation": "Stripped-down commercial OSs (Operating Systems) can be familiar but may still carry size and timing costs.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which property is typical of a purpose-built embedded OS?",
+              "prompt": "Which property is typical of a purpose-built embedded OS (Operating System)?",
               "choices": [
                 "Fast thread switching, small size, and deterministic interrupt response",
                 "Slow thread switching and unpredictable interrupt response",
@@ -11068,7 +11068,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Purpose-built embedded OSs are designed for small size and predictable timing.",
+              "explanation": "Purpose-built embedded OSs (Operating Systems) are designed for small size and predictable timing.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11092,7 +11092,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is embedded Linux?",
               "choices": [
-                "A Linux system that always requires a desktop GPU",
+                "A Linux system that always requires a desktop GPU (Graphics Processing Unit)",
                 "A version of Linux that cannot use device drivers",
                 "A Linux system tailored for embedded devices, often using a custom kernel configuration",
                 "A Linux system used only as a web browser"
@@ -11154,17 +11154,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which file system is log-based and designed for NOR and NAND flash with wear leveling?",
+              "prompt": "Which file system is log-based and designed for NOR (Not-OR) flash and NAND (Not-AND) flash with wear leveling?",
               "choices": [
                 "cramfs",
                 "squashfs",
-                "JFFS2",
-                "NTFS"
+                "JFFS2 (Journaling Flash File System version 2)",
+                "NTFS (New Technology File System)"
               ],
               "answer": [
                 2
               ],
-              "explanation": "JFFS2 is the journaling flash file system used for flash devices and wear leveling.",
+              "explanation": "JFFS2 (Journaling Flash File System version 2) is the journaling flash file system used for flash devices and wear leveling.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11172,9 +11172,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which file-system pair is mainly used for compressed read-only embedded file systems?",
               "choices": [
-                "JFFS2 and UBIFS only",
-                "FAT and NTFS only",
-                "SAN and NAS",
+                "JFFS2 (Journaling Flash File System version 2) and UBIFS (Unsorted Block Image File System) only",
+                "FAT (File Allocation Table) and NTFS (New Technology File System) only",
+                "SAN (Storage Area Network) and NAS (Network-Attached Storage)",
                 "cramfs and squashfs"
               ],
               "answer": [
@@ -11212,7 +11212,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "mClinux is a Linux variation for microcontrollers and systems without an MMU.",
+              "explanation": "mClinux is a Linux variation for microcontrollers and systems without an MMU (Memory Management Unit).",
               "fullExplanation": null,
               "points": 1
             },
@@ -11221,14 +11221,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What memory-management limitation exists in mClinux compared with full Linux?",
               "choices": [
                 "Each process gets a protected virtual address space",
-                "mClinux requires more than 32 GB RAM",
+                "mClinux requires more than 32 GB (Gigabyte) RAM (Random Access Memory)",
                 "All processes share a single address space and applications may need absolute linking",
                 "mClinux cannot run on microcontrollers"
               ],
               "answer": [
                 2
               ],
-              "explanation": "Without an MMU, mClinux lacks full virtual address spaces and process isolation.",
+              "explanation": "Without an MMU (Memory Management Unit), mClinux lacks full virtual address spaces and process isolation.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11238,8 +11238,8 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Because vfork() is a networking protocol",
                 "Because fork() only works in TinyOS",
-                "Because vfork() always creates a cloud VM",
-                "Because fork() depends on separate address-space support not available without an MMU"
+                "Because vfork() always creates a cloud VM (Virtual Machine)",
+                "Because fork() depends on separate address-space support not available without an MMU (Memory Management Unit)"
               ],
               "answer": [
                 3
@@ -11266,17 +11266,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What kind of protection can newer mClinux versions provide with an MPU?",
+              "prompt": "What kind of protection can newer mClinux versions provide with an MPU (Memory Protection Unit)?",
               "choices": [
-                "Full virtual memory identical to a desktop MMU",
-                "Basic process-to-kernel protection with less hardware overhead than a full MMU",
+                "Full virtual memory identical to a desktop MMU (Memory Management Unit)",
+                "Basic process-to-kernel protection with less hardware overhead than a full MMU (Memory Management Unit)",
                 "No protection of any kind",
                 "Only network encryption"
               ],
               "answer": [
                 1
               ],
-              "explanation": "An MPU gives simpler protection than a full MMU but can still separate process and kernel access.",
+              "explanation": "An MPU (Memory Protection Unit) gives simpler protection than a full MMU (Memory Management Unit) but can still separate process and kernel access.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11300,10 +11300,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which statement about TinyOS is correct?",
               "choices": [
-                "It requires gigabytes of RAM to boot",
+                "It requires gigabytes of RAM (Random Access Memory) to boot",
                 "It is designed only for graphical smartphones",
                 "It cannot be used with wireless sensor networks",
-                "It is a very minimal OS focused on power efficiency and simplicity rather than being a full real-time OS"
+                "It is a very minimal OS (Operating System) focused on power efficiency and simplicity rather than being a full real-time OS (Operating System)"
               ],
               "answer": [
                 3
@@ -11332,10 +11332,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which list matches TinyOS component abstractions?",
               "choices": [
-                "VMs, hypervisors, and volumes",
+                "VMs (Virtual Machines), hypervisors, and volumes",
                 "Commands, events, and tasks",
                 "Processes, page tables, and swap partitions",
-                "Packets, routers, and VLANs only"
+                "Packets, routers, and VLANs (Virtual Local Area Networks) only"
               ],
               "answer": [
                 1
@@ -11365,7 +11365,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How do TinyOS tasks execute?",
               "choices": [
                 "They always preempt hardware interrupts",
-                "They require one kernel stack per task like a full desktop OS",
+                "They require one kernel stack per task like a full desktop OS (Operating System)",
                 "They are cloud services launched by Nova",
                 "They are atomic, run to completion, and do not preempt each other"
               ],
@@ -11412,15 +11412,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "How does the TinyOS scheduler behave when the task queue is empty?",
               "choices": [
-                "It starts a cloud VM",
-                "It creates a new MMU",
+                "It starts a cloud VM (Virtual Machine)",
+                "It creates a new MMU (Memory Management Unit)",
                 "It enters a low-power sleep mode",
                 "It runs all tasks in parallel"
               ],
               "answer": [
                 2
               ],
-              "explanation": "The scheduler is a simple FIFO queue and saves energy by sleeping when there is no work.",
+              "explanation": "The scheduler is a simple FIFO (First-In, First-Out) queue and saves energy by sleeping when there is no work.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11492,7 +11492,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the purpose of the Resource Configure interface in TinyOS?",
               "choices": [
-                "Store VM images for OpenStack",
+                "Store VM (Virtual Machine) images for OpenStack",
                 "Compress the Linux kernel",
                 "Disable all interrupts permanently",
                 "Automatically configure the resource just before a client is granted access"
@@ -11523,7 +11523,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Ubiquitous, on-demand network access to a shared pool of configurable resources",
                 "A fixed local machine with no network services",
                 "A storage device used only inside one embedded sensor",
-                "A scheduling algorithm for one CPU core"
+                "A scheduling algorithm for one CPU (Central Processing Unit) core"
               ],
               "answer": [
                 0
@@ -11619,7 +11619,7 @@ window.UNIFIED_EXAM_DATA = {
                 "IaaS",
                 "PaaS",
                 "SaaS",
-                "MANO"
+                "MANO (Management and Orchestration)"
               ],
               "answer": [
                 2
@@ -11656,7 +11656,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "IaaS provides fundamental resources while consumers manage their OSs and applications.",
+              "explanation": "IaaS provides fundamental resources while consumers manage their OSs (Operating Systems) and applications.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11710,17 +11710,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which list matches the five major NIST cloud actors?",
+              "prompt": "Which list matches the five major NIST (National Institute of Standards and Technology) cloud actors?",
               "choices": [
                 "Consumer, provider, broker, auditor, carrier",
                 "Scheduler, kernel, driver, process, thread",
-                "Sensor, actuator, timer, GPIO, UART",
+                "Sensor, actuator, timer, GPIO (General-Purpose Input/Output), UART (Universal Asynchronous Receiver-Transmitter)",
                 "Nova, Glance, Neutron, Swift, Cinder"
               ],
               "answer": [
                 0
               ],
-              "explanation": "NIST identifies cloud consumer, provider, broker, auditor, and carrier.",
+              "explanation": "NIST (National Institute of Standards and Technology) identifies cloud consumer, provider, broker, auditor, and carrier.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11779,7 +11779,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Connectivity and transport of cloud services between providers and consumers",
                 "Application source code written by the consumer",
                 "Only object storage metadata",
-                "VM disk images for Nova"
+                "VM (Virtual Machine) disk images for Nova"
               ],
               "answer": [
                 0
@@ -11826,7 +11826,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Forcing all consumers onto one fixed provider",
                 "Measuring processor usage for billing only",
-                "Configuring a UART interface",
+                "Configuring a UART (Universal Asynchronous Receiver-Transmitter) interface",
                 "Using multiple possible providers and choosing among them flexibly"
               ],
               "answer": [
@@ -11857,9 +11857,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What concern is central to cloud carriers in networking?",
               "choices": [
                 "Replacing all virtual machines with physical desktops",
-                "Creating virtual networks with suitable SLA and security guarantees",
-                "Providing only GPIO interfaces",
-                "Running the TinyOS FIFO scheduler"
+                "Creating virtual networks with suitable SLA (Service Level Agreement) and security guarantees",
+                "Providing only GPIO (General-Purpose Input/Output) interfaces",
+                "Running the TinyOS FIFO (First-In, First-Out) scheduler"
               ],
               "answer": [
                 1
@@ -11872,21 +11872,21 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a Cloud Operating System?",
               "choices": [
-                "A mobile phone OS used only for local apps",
+                "A mobile phone OS (Operating System) used only for local apps",
                 "A file system for flash memory only",
-                "A distributed OS in a provider datacenter that manages servers, network, and storage",
-                "A CPU scheduling policy for one desktop"
+                "A distributed OS (Operating System) in a provider datacenter that manages servers, network, and storage",
+                "A CPU (Central Processing Unit) scheduling policy for one desktop"
               ],
               "answer": [
                 2
               ],
-              "explanation": "A Cloud OS manages physical and virtualized datacenter resources and implements IaaS.",
+              "explanation": "A Cloud OS (Operating System) manages physical and virtualized datacenter resources and implements IaaS.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is a Cloud OS distinct from PaaS?",
+              "prompt": "Why is a Cloud OS (Operating System) distinct from PaaS?",
               "choices": [
                 "It only supplies programming libraries to application developers",
                 "It is never used in datacenters",
@@ -11896,7 +11896,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Cloud OS is the infrastructure management layer, while PaaS is an application platform layer.",
+              "explanation": "Cloud OS (Operating System) is the infrastructure management layer, while PaaS is an application platform layer.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11904,7 +11904,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which operation belongs to the computing service requirement for IaaS?",
               "choices": [
-                "Creating, deleting, starting, shutting down, suspending, or migrating VMs",
+                "Creating, deleting, starting, shutting down, suspending, or migrating VMs (Virtual Machines)",
                 "Only compiling embedded C code",
                 "Only compressing read-only file systems",
                 "Only measuring sensor temperature"
@@ -11912,7 +11912,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "IaaS computing services manage VM lifecycle operations.",
+              "explanation": "IaaS computing services manage VM (Virtual Machine) lifecycle operations.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11922,8 +11922,8 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Only removable optical storage",
                 "Block-level, file-level, and object-based storage",
-                "Only CPU registers",
-                "Only UART buffers"
+                "Only CPU (Central Processing Unit) registers",
+                "Only UART (Universal Asynchronous Receiver-Transmitter) buffers"
               ],
               "answer": [
                 1
@@ -11938,8 +11938,8 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Only keyboard interrupts",
                 "Only boot-loader execution",
-                "IP addresses, VLANs, virtual switches, load balancers, and firewalls",
-                "Only local LED control"
+                "IP (Internet Protocol) addresses, VLANs (Virtual Local Area Networks), virtual switches, load balancers, and firewalls",
+                "Only local LED (Light-Emitting Diode) control"
               ],
               "answer": [
                 2
@@ -11950,9 +11950,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does virtualization enable in the general architecture of a Cloud OS?",
+              "prompt": "What does virtualization enable in the general architecture of a Cloud OS (Operating System)?",
               "choices": [
-                "Preventing any VM movement",
+                "Preventing any VM (Virtual Machine) movement",
                 "Forcing every server to run one fixed application",
                 "Removing all storage pools",
                 "Decoupling software from hardware so capacity can scale with virtual resources"
@@ -11960,23 +11960,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Virtualization lets providers move from dedicated servers to flexible COTS hardware and virtual capacity.",
+              "explanation": "Virtualization lets providers move from dedicated servers to flexible COTS (Commercial Off-The-Shelf) hardware and virtual capacity.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "In cloud infrastructure, what does SAN provide?",
+              "prompt": "In cloud infrastructure, what does SAN (Storage Area Network) provide?",
               "choices": [
                 "Block-level access to storage over a high-speed network",
                 "File sharing only through a network appliance",
-                "Object metadata with unique IDs only",
+                "Object metadata with unique IDs (Identifiers) only",
                 "Wireless access for IoT sensors"
               ],
               "answer": [
                 0
               ],
-              "explanation": "A SAN provides block-level storage access through a high-speed network.",
+              "explanation": "A SAN (Storage Area Network) provides block-level storage access through a high-speed network.",
               "fullExplanation": null,
               "points": 1
             },
@@ -11984,23 +11984,23 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "How does object storage organize data?",
               "choices": [
-                "As fixed-size CPU registers only",
+                "As fixed-size CPU (Central Processing Unit) registers only",
                 "As objects containing data, metadata, and a unique identifier",
                 "As one local directory tree with no metadata",
-                "As volatile RAM pages only"
+                "As volatile RAM (Random Access Memory) pages only"
               ],
               "answer": [
                 1
               ],
-              "explanation": "Object storage stores data with metadata and unique IDs, supporting massive scalability.",
+              "explanation": "Object storage stores data with metadata and unique IDs (Identifiers), supporting massive scalability.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is MANO responsible for?",
+              "prompt": "What is MANO (Management and Orchestration) responsible for?",
               "choices": [
-                "Handling only GPIO pins",
+                "Handling only GPIO (General-Purpose Input/Output) pins",
                 "Replacing all cloud storage with flash memory",
                 "Composing and coordinating system components and managing lifecycle operations",
                 "Running only a user dashboard"
@@ -12014,17 +12014,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the VM Manager do in MANO?",
+              "prompt": "What does the VM (Virtual Machine) Manager do in MANO (Management and Orchestration)?",
               "choices": [
-                "Stores RFID tags",
+                "Stores RFID (Radio-Frequency Identification) tags",
                 "Implements TinyOS wiring",
                 "Provides a compressed read-only file system",
-                "Oversees the creation and management of VM instances"
+                "Oversees the creation and management of VM (Virtual Machine) instances"
               ],
               "answer": [
                 3
               ],
-              "explanation": "The VM Manager handles virtual-machine instance management.",
+              "explanation": "The VM (Virtual Machine) Manager handles virtual-machine instance management.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12032,7 +12032,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is OpenStack in this lecture?",
               "choices": [
-                "A modular open-source project for building a Cloud OS",
+                "A modular open-source project for building a Cloud OS (Operating System)",
                 "A microcontroller C library",
                 "A wireless sensor operating system",
                 "A compressed embedded Linux file system"
@@ -12040,7 +12040,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "OpenStack is presented as a case study for an open-source Cloud OS.",
+              "explanation": "OpenStack is presented as a case study for an open-source Cloud OS (Operating System).",
               "fullExplanation": null,
               "points": 1
             },
@@ -12078,9 +12078,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which Nova component decides where a requested VM instance should run?",
+              "prompt": "Which Nova component decides where a requested VM (Virtual Machine) instance should run?",
               "choices": [
-                "API Server",
+                "API (Application Programming Interface) Server",
                 "Message Queue",
                 "Database",
                 "Scheduler"
@@ -12088,7 +12088,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "The Nova Scheduler places VM instance requests.",
+              "explanation": "The Nova Scheduler places VM (Virtual Machine) instance requests.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12097,7 +12097,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does Glance provide in OpenStack?",
               "choices": [
                 "A library of virtual disk images that users can discover, register, and retrieve",
-                "Persistent block volumes attached to guest VMs",
+                "Persistent block volumes attached to guest VMs (Virtual Machines)",
                 "A web dashboard for users",
                 "A common authentication directory"
               ],
@@ -12128,15 +12128,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which pairing is correct for Swift and Cinder?",
               "choices": [
-                "Swift provides identity; Cinder provides dashboard UI",
-                "Swift schedules VMs; Cinder stores VM images",
+                "Swift provides identity; Cinder provides dashboard UI (User Interface)",
+                "Swift schedules VMs (Virtual Machines); Cinder stores VM (Virtual Machine) images",
                 "Swift provides object storage; Cinder provides persistent block storage volumes",
                 "Swift manages interrupts; Cinder manages TinyOS tasks"
               ],
               "answer": [
                 2
               ],
-              "explanation": "Swift is object storage, while Cinder provides block volumes for guest VMs.",
+              "explanation": "Swift is object storage, while Cinder provides block volumes for guest VMs (Virtual Machines).",
               "fullExplanation": null,
               "points": 1
             },
@@ -12144,8 +12144,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does Keystone provide?",
               "choices": [
-                "A web UI for launching instances only",
-                "A VM disk image library",
+                "A web UI (User Interface) for launching instances only",
+                "A VM (Virtual Machine) disk image library",
                 "A network plugin system",
                 "A central directory of users and common authentication for OpenStack services"
               ],
@@ -12158,17 +12158,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which services coordinate when launching a VM according to the slides?",
+              "prompt": "Which services coordinate when launching a VM (Virtual Machine) according to the slides?",
               "choices": [
                 "Keystone for credentials, Nova Scheduler for placement, and Glance for the disk image",
-                "TinyOS, mClinux, and JFFS2",
-                "GPIO, UART, and SPI only",
+                "TinyOS, mClinux, and JFFS2 (Journaling Flash File System version 2)",
+                "GPIO (General-Purpose Input/Output), UART (Universal Asynchronous Receiver-Transmitter), and SPI (Serial Peripheral Interface) only",
                 "Trove, Zaqar, and Barbican only"
               ],
               "answer": [
                 0
               ],
-              "explanation": "Launching a VM requires identity, placement, and image services, with storage if needed.",
+              "explanation": "Launching a VM (Virtual Machine) requires identity, placement, and image services, with storage if needed.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12176,7 +12176,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does Horizon provide?",
               "choices": [
-                "Persistent block storage for VMs",
+                "Persistent block storage for VMs (Virtual Machines)",
                 "A web-based interface for managing cloud infrastructure",
                 "A central authentication system",
                 "A network switch inside a rack only"
@@ -12200,7 +12200,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Ceilometer collects metering data such as CPU, storage, and network usage.",
+              "explanation": "Ceilometer collects metering data such as CPU (Central Processing Unit), storage, and network usage.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12272,10 +12272,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which components are typical in an IoT-enabled device?",
               "choices": [
-                "Only hypervisors and VM schedulers",
+                "Only hypervisors and VM (Virtual Machine) schedulers",
                 "Only desktop monitors and keyboards",
                 "Only object-storage buckets",
-                "Sensors, actuators, microcontrollers, transceivers, and sometimes RFID"
+                "Sensors, actuators, microcontrollers, transceivers, and sometimes RFID (Radio-Frequency Identification)"
               ],
               "answer": [
                 3
@@ -12289,8 +12289,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What are the four enterprise IoT context layers in the slides?",
               "choices": [
                 "Edge, Fog, Core, and Cloud",
-                "Sensor, Kernel, Disk, and UI",
-                "SaaS, PaaS, IaaS, and NAS",
+                "Sensor, Kernel, Disk, and UI (User Interface)",
+                "SaaS, PaaS, IaaS, and NAS (Network-Attached Storage)",
                 "Nova, Glance, Swift, and Cinder"
               ],
               "answer": [
@@ -12338,7 +12338,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Directly opens physical valves",
                 "Runs only battery-powered sensors",
-                "Stores only RFID tags",
+                "Stores only RFID (Radio-Frequency Identification) tags",
                 "Provides the high-performance backbone connecting fog to cloud"
               ],
               "answer": [
@@ -12366,17 +12366,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why do many IoT devices need a specialized OS?",
+              "prompt": "Why do many IoT devices need a specialized OS (Operating System)?",
               "choices": [
                 "They always have unlimited datacenter resources",
-                "They have tighter RAM, ROM, and power constraints than smartphones",
+                "They have tighter RAM (Random Access Memory), ROM (Read-Only Memory), and power constraints than smartphones",
                 "They never need networking",
                 "They only run desktop applications"
               ],
               "answer": [
                 1
               ],
-              "explanation": "IoT OSs must fit constrained hardware and conserve power.",
+              "explanation": "IoT OSs (Operating Systems) must fit constrained hardware and conserve power.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12398,7 +12398,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which key IoT OS characteristic supports many different 8-bit, 16-bit, and 32-bit microcontrollers?",
+              "prompt": "Which key IoT OS (Operating System) characteristic supports many different 8-bit, 16-bit, and 32-bit microcontrollers?",
               "choices": [
                 "Measured cloud service",
                 "Public deployment",
@@ -12417,7 +12417,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which characteristic is critical for battery-powered IoT devices expected to last for years?",
               "choices": [
                 "Energy efficiency",
-                "Large desktop UI",
+                "Large desktop UI (User Interface)",
                 "Maximum disk throughput only",
                 "Manual provisioning"
               ],
@@ -12430,10 +12430,10 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which layers/components are in a typical IoT OS architecture?",
+              "prompt": "Which layers/components are in a typical IoT OS (Operating System) architecture?",
               "choices": [
                 "Only SaaS, PaaS, and IaaS",
-                "HAL, kernel, system libraries, device drivers/logical file system, and network stack",
+                "HAL (Hardware Abstraction Layer), kernel, system libraries, device drivers/logical file system, and network stack",
                 "Only Nova, Glance, and Horizon",
                 "Only sensors and actuators with no software layers"
               ],
@@ -12448,15 +12448,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does the Hardware Abstraction Layer do?",
               "choices": [
-                "Stores cloud VM images",
+                "Stores cloud VM (Virtual Machine) images",
                 "Meters OpenStack network traffic",
-                "Presents a consistent API to upper layers while mapping operations to specific hardware",
+                "Presents a consistent API (Application Programming Interface) to upper layers while mapping operations to specific hardware",
                 "Runs service arbitrage"
               ],
               "answer": [
                 2
               ],
-              "explanation": "The HAL hides hardware differences behind common interfaces.",
+              "explanation": "The HAL (Hardware Abstraction Layer) hides hardware differences behind common interfaces.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12464,47 +12464,47 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which interface is a generic pin that can be set as input or output at run time?",
               "choices": [
-                "UART",
-                "SPI",
-                "I2C",
-                "GPIO"
+                "UART (Universal Asynchronous Receiver-Transmitter)",
+                "SPI (Serial Peripheral Interface)",
+                "I2C (Inter-Integrated Circuit)",
+                "GPIO (General-Purpose Input/Output)"
               ],
               "answer": [
                 3
               ],
-              "explanation": "GPIO means General Purpose Input/Output.",
+              "explanation": "GPIO (General-Purpose Input/Output) means General Purpose Input/Output.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which HAL interface is an asynchronous serial digital data link?",
+              "prompt": "Which HAL (Hardware Abstraction Layer) interface is an asynchronous serial digital data link?",
               "choices": [
-                "UART",
-                "SPI",
-                "GPIO",
-                "I2C"
+                "UART (Universal Asynchronous Receiver-Transmitter)",
+                "SPI (Serial Peripheral Interface)",
+                "GPIO (General-Purpose Input/Output)",
+                "I2C (Inter-Integrated Circuit)"
               ],
               "answer": [
                 0
               ],
-              "explanation": "UART is the Universal Asynchronous Receiver/Transmitter interface.",
+              "explanation": "UART (Universal Asynchronous Receiver-Transmitter) is the Universal Asynchronous Receiver/Transmitter interface.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which HAL interface is a synchronous serial digital data link?",
+              "prompt": "Which HAL (Hardware Abstraction Layer) interface is a synchronous serial digital data link?",
               "choices": [
-                "UART",
-                "SPI",
-                "GPIO",
-                "RFID"
+                "UART (Universal Asynchronous Receiver-Transmitter)",
+                "SPI (Serial Peripheral Interface)",
+                "GPIO (General-Purpose Input/Output)",
+                "RFID (Radio-Frequency Identification)"
               ],
               "answer": [
                 1
               ],
-              "explanation": "SPI is the Serial Peripheral Interface.",
+              "explanation": "SPI (Serial Peripheral Interface) is the Serial Peripheral Interface.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12515,12 +12515,12 @@ window.UNIFIED_EXAM_DATA = {
                 "Only object-storage metadata",
                 "Only user dashboards",
                 "Scheduler, task management, mutual exclusion, and timers",
-                "Only RFID tag reading"
+                "Only RFID (Radio-Frequency Identification) tag reading"
               ],
               "answer": [
                 2
               ],
-              "explanation": "The IoT kernel provides minimal core OS services.",
+              "explanation": "The IoT kernel provides minimal core OS (Operating System) services.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12536,7 +12536,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Modularity lets an IoT OS include only what the device needs.",
+              "explanation": "Modularity lets an IoT OS (Operating System) include only what the device needs.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12558,7 +12558,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What are examples of other main IoT OS components besides the kernel and network stack?",
+              "prompt": "What are examples of other main IoT OS (Operating System) components besides the kernel and network stack?",
               "choices": [
                 "Only billing meters and dashboards",
                 "Streamlined support libraries, device drivers, and a logical file system",
@@ -12568,15 +12568,15 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "IoT OSs include minimal libraries, drivers, and file-system support configured for the application.",
+              "explanation": "IoT OSs (Operating Systems) include minimal libraries, drivers, and file-system support configured for the application.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is RIOT designed for?",
+              "prompt": "What is RIOT (Real-time Internet of Things Operating System) designed for?",
               "choices": [
-                "Only full Linux servers with more than 32 GB RAM",
+                "Only full Linux servers with more than 32 GB (Gigabyte) RAM (Random Access Memory)",
                 "Only public cloud deployment models",
                 "Constrained IoT devices",
                 "Only OpenStack dashboards"
@@ -12584,13 +12584,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "RIOT is an open-source OS specifically designed for constrained IoT devices.",
+              "explanation": "RIOT (Real-time Internet of Things Operating System) is an open-source OS (Operating System) specifically designed for constrained IoT devices.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which architecture does RIOT follow?",
+              "prompt": "Which architecture does RIOT (Real-time Internet of Things Operating System) follow?",
               "choices": [
                 "Large monolithic desktop-only kernel with no drivers",
                 "Cloud-only hypervisor architecture",
@@ -12600,7 +12600,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "RIOT keeps essential features in the core and runs drivers/libraries separately.",
+              "explanation": "RIOT (Real-time Internet of Things Operating System) keeps essential features in the core and runs drivers/libraries separately.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12608,21 +12608,21 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which comparison is correct?",
               "choices": [
-                "RIOT supports C/C++, multithreading, and real-time features with a small footprint",
+                "RIOT (Real-time Internet of Things Operating System) supports C/C++, multithreading, and real-time features with a small footprint",
                 "TinyOS has full standard C support and full multithreading like Linux",
-                "mClinux uses less memory than RIOT and TinyOS",
-                "RIOT requires more than 32 MB RAM in the lecture comparison"
+                "mClinux uses less memory than RIOT (Real-time Internet of Things Operating System) and TinyOS",
+                "RIOT (Real-time Internet of Things Operating System) requires more than 32 MB (Megabyte) RAM (Random Access Memory) in the lecture comparison"
               ],
               "answer": [
                 0
               ],
-              "explanation": "The lecture contrasts RIOT with TinyOS and mClinux by footprint and features.",
+              "explanation": "The lecture contrasts RIOT (Real-time Internet of Things Operating System) with TinyOS and mClinux by footprint and features.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How is RIOT structured?",
+              "prompt": "How is RIOT (Real-time Internet of Things Operating System) structured?",
               "choices": [
                 "Only cloud brokers and carriers",
                 "Core kernel, drivers, packages, and system libraries",
@@ -12632,45 +12632,45 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "RIOT is organized into core, drivers, pkg, and sys.",
+              "explanation": "RIOT (Real-time Internet of Things Operating System) is organized into core, drivers, pkg, and sys.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which modules are included in the RIOT kernel core?",
+              "prompt": "Which modules are included in the RIOT (Real-time Internet of Things Operating System) kernel core?",
               "choices": [
                 "SaaS, PaaS, IaaS, and public cloud",
-                "JFFS2, UBIFS, cramfs, and squashfs",
-                "IRQ handling, IPC, scheduling, synchronization, and threads",
-                "Sensors, actuators, RFID, and fog only"
+                "JFFS2 (Journaling Flash File System version 2), UBIFS (Unsorted Block Image File System), cramfs, and squashfs",
+                "IRQ (Interrupt Request) handling, IPC (Interprocess Communication), scheduling, synchronization, and threads",
+                "Sensors, actuators, RFID (Radio-Frequency Identification), and fog only"
               ],
               "answer": [
                 2
               ],
-              "explanation": "The RIOT kernel core includes the OS mechanisms needed for concurrent IoT programs.",
+              "explanation": "The RIOT (Real-time Internet of Things Operating System) kernel core includes the OS (Operating System) mechanisms needed for concurrent IoT programs.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does RIOT IPC provide?",
+              "prompt": "What does RIOT (Real-time Internet of Things Operating System) IPC (Interprocess Communication) provide?",
               "choices": [
                 "Only object storage metadata",
-                "Only VM image registration",
-                "Only GPIO pin direction control",
+                "Only VM (Virtual Machine) image registration",
+                "Only GPIO (General-Purpose Input/Output) pin direction control",
                 "A safe, synchronized way for threads to communicate with defined priorities"
               ],
               "answer": [
                 3
               ],
-              "explanation": "RIOT IPC is for synchronized communication between threads.",
+              "explanation": "RIOT (Real-time Internet of Things Operating System) IPC (Interprocess Communication) is for synchronized communication between threads.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does RIOT power management handle?",
+              "prompt": "What does RIOT (Real-time Internet of Things Operating System) power management handle?",
               "choices": [
                 "The kernel power-management interface",
                 "Cloud billing records",
@@ -12680,13 +12680,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "RIOT includes a kernel power-management module for low-power devices.",
+              "explanation": "RIOT (Real-time Internet of Things Operating System) includes a kernel power-management module for low-power devices.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the RIOT hardware abstraction relationship mean?",
+              "prompt": "What does the RIOT (Real-time Internet of Things Operating System) hardware abstraction relationship mean?",
               "choices": [
                 "Every processor belongs to only one board design forever",
                 "A board has exactly one processor, while a processor can be part of many boards",
@@ -12696,23 +12696,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "RIOT separates processor and board support to improve portability.",
+              "explanation": "RIOT (Real-time Internet of Things Operating System) separates processor and board support to improve portability.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does scheduling in RIOT support?",
+              "prompt": "What does scheduling in RIOT (Real-time Internet of Things Operating System) support?",
               "choices": [
                 "Only one nonpreemptive task for the entire system",
-                "Cloud VM placement by Nova Scheduler",
+                "Cloud VM (Virtual Machine) placement by Nova Scheduler",
                 "Multithreading and context switching for concurrent application execution",
                 "Only service aggregation by brokers"
               ],
               "answer": [
                 2
               ],
-              "explanation": "RIOT scheduling enables concurrent threads on constrained IoT devices.",
+              "explanation": "RIOT (Real-time Internet of Things Operating System) scheduling enables concurrent threads on constrained IoT devices.",
               "fullExplanation": null,
               "points": 1
             }
@@ -12734,7 +12734,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Security is the overall goal of preventing unauthorized reading or tampering; protection defines allowed operations on objects.",
                 "Security only means encrypting passwords; protection only means antivirus software.",
-                "Security is about CPU scheduling; protection is about file compression.",
+                "Security is about CPU (Central Processing Unit) scheduling; protection is about file compression.",
                 "Security and protection are exactly the same concept with no distinction."
               ],
               "answer": [
@@ -12746,7 +12746,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which CIA property keeps secret data from unauthorized disclosure?",
+              "prompt": "Which CIA (Confidentiality, Integrity, Availability) property keeps secret data from unauthorized disclosure?",
               "choices": [
                 "Integrity",
                 "Confidentiality",
@@ -12762,7 +12762,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which CIA property prevents unauthorized modification, addition, or removal of data?",
+              "prompt": "Which CIA (Confidentiality, Integrity, Availability) property prevents unauthorized modification, addition, or removal of data?",
               "choices": [
                 "Confidentiality",
                 "Availability",
@@ -12778,7 +12778,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which CIA property is threatened by denial-of-service attacks?",
+              "prompt": "Which CIA (Confidentiality, Integrity, Availability) property is threatened by denial-of-service attacks?",
               "choices": [
                 "Confidentiality",
                 "Least privilege",
@@ -12932,7 +12932,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "The TCB is the part that must be trusted for security enforcement.",
+              "explanation": "The TCB (Trusted Computing Base) is the part that must be trusted for security enforcement.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12940,8 +12940,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the reference monitor?",
               "choices": [
-                "A performance graph for CPU usage.",
-                "A TCB component that mediates security-related system calls and cannot be bypassed.",
+                "A performance graph for CPU (Central Processing Unit) usage.",
+                "A TCB (Trusted Computing Base) component that mediates security-related system calls and cannot be bypassed.",
                 "A password guessing tool.",
                 "A user-mode text editor."
               ],
@@ -12964,7 +12964,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "A smaller TCB gives less privileged code that must be trusted.",
+              "explanation": "A smaller TCB (Trusted Computing Base) gives less privileged code that must be trusted.",
               "fullExplanation": null,
               "points": 1
             },
@@ -12973,7 +12973,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a protection domain?",
               "choices": [
                 "A disk partition used only for swap space.",
-                "A list of CPU scheduling priorities.",
+                "A list of CPU (Central Processing Unit) scheduling priorities.",
                 "A network broadcast address.",
                 "A set of object-rights pairs describing what a process may do."
               ],
@@ -12986,9 +12986,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In UNIX-like systems, what commonly helps determine a process protection domain?",
+              "prompt": "In UNIX (Uniplexed Information and Computing Service)-like systems, what commonly helps determine a process protection domain?",
               "choices": [
-                "UID and GID values",
+                "UID (User Identifier) and GID (Group Identifier) values",
                 "Monitor refresh rate",
                 "Disk block size only",
                 "Keyboard layout"
@@ -13004,7 +13004,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "In a protection matrix, what do rows and columns represent?",
               "choices": [
-                "Rows are files and columns are CPU registers.",
+                "Rows are files and columns are CPU (Central Processing Unit) registers.",
                 "Rows are domains and columns are objects.",
                 "Rows are network packets and columns are passwords.",
                 "Rows are cache lines and columns are interrupts."
@@ -13018,10 +13018,10 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is a protection matrix usually implemented using ACLs or capabilities?",
+              "prompt": "Why is a protection matrix usually implemented using ACLs (Access Control Lists) or capabilities?",
               "choices": [
                 "The matrix has no rows or columns.",
-                "ACLs and capabilities remove all need for rights.",
+                "ACLs (Access Control Lists) and capabilities remove all need for rights.",
                 "The matrix is usually sparse, so a full table wastes space.",
                 "The matrix can only store encrypted data."
               ],
@@ -13036,7 +13036,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is an access control list?",
               "choices": [
-                "A list attached to a process containing all CPU cores.",
+                "A list attached to a process containing all CPU (Central Processing Unit) cores.",
                 "A table that stores only encrypted passwords.",
                 "A scheduler queue for real-time tasks.",
                 "An ordered list attached to an object that names authorized domains and rights."
@@ -13044,13 +13044,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "ACLs store who can access an object and what operations are allowed.",
+              "explanation": "ACLs (Access Control Lists) store who can access an object and what operations are allowed.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What happens in an ACL system when a user is not listed and no wildcard rule grants access?",
+              "prompt": "What happens in an ACL (Access Control List) system when a user is not listed and no wildcard rule grants access?",
               "choices": [
                 "Access is forbidden by default.",
                 "Access is always granted read-only.",
@@ -13066,12 +13066,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why are groups and roles useful with ACLs?",
+              "prompt": "Why are groups and roles useful with ACLs (Access Control Lists)?",
               "choices": [
                 "They remove the need to authenticate users.",
                 "They simplify permission management for users with similar responsibilities.",
                 "They make every object public.",
-                "They are used only for CPU scheduling."
+                "They are used only for CPU (Central Processing Unit) scheduling."
               ],
               "answer": [
                 1
@@ -13084,7 +13084,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a capability?",
               "choices": [
-                "A password hash stored only in an ACL.",
+                "A password hash stored only in an ACL (Access Control List).",
                 "A page-replacement algorithm.",
                 "A ticket held by a process that grants rights to a specific object.",
                 "A network firewall rule only."
@@ -13103,7 +13103,7 @@ window.UNIFIED_EXAM_DATA = {
                 "They require scanning every file on disk.",
                 "They always use public-key cryptography.",
                 "They disable all object naming.",
-                "The process refers to objects through its capability list, so searching an ACL may be avoided."
+                "The process refers to objects through its capability list, so searching an ACL (Access Control List) may be avoided."
               ],
               "answer": [
                 3
@@ -13140,7 +13140,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "DAC lets users delegate access at their discretion.",
+              "explanation": "DAC (Discretionary Access Control) lets users delegate access at their discretion.",
               "fullExplanation": null,
               "points": 1
             },
@@ -13156,7 +13156,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "MAC is needed where information flow must follow central policy.",
+              "explanation": "MAC (Mandatory Access Control) is needed where information flow must follow central policy.",
               "fullExplanation": null,
               "points": 1
             },
@@ -13166,7 +13166,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Integrity",
                 "Availability only",
-                "CPU fairness",
+                "CPU (Central Processing Unit) fairness",
                 "Confidentiality"
               ],
               "answer": [
@@ -13294,7 +13294,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Encrypt the whole document with the receiver public key only.",
                 "Store the password beside the document.",
-                "Copy the document into an ACL.",
+                "Copy the document into an ACL (Access Control List).",
                 "Hash the document and encrypt the hash with the owner private key."
               ],
               "answer": [
@@ -13357,7 +13357,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is Lamport one-time password scheme based on?",
               "choices": [
                 "A reusable password sent every time.",
-                "A public ACL entry for each login.",
+                "A public ACL (Access Control List) entry for each login.",
                 "A stack canary placed beside the password.",
                 "A chain of values generated by a one-way hash function and used in reverse order."
               ],
@@ -13386,7 +13386,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does Data Execution Prevention or NX/WX enforce?",
+              "prompt": "What does Data Execution Prevention or NX (No-eXecute) / WX (Write-or-Execute protection) enforce?",
               "choices": [
                 "All stack pages must be executable.",
                 "Writable data pages should not be executable, and executable code pages should not be writable.",
@@ -13396,13 +13396,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "NX/WX blocks direct execution of injected shellcode on the stack or heap.",
+              "explanation": "NX (No-eXecute)/WX (Write XOR Execute) blocks direct execution of injected shellcode on the stack or heap.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does return-oriented programming bypass NX protections?",
+              "prompt": "How does return-oriented programming bypass NX (No-eXecute) protections?",
               "choices": [
                 "It makes the stack executable again by default.",
                 "It guesses the password hash directly.",
@@ -13412,13 +13412,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "ROP reuses executable code already present in memory.",
+              "explanation": "ROP (Return-Oriented Programming) reuses executable code already present in memory.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the goal of ASLR?",
+              "prompt": "What is the goal of ASLR (Address Space Layout Randomization)?",
               "choices": [
                 "Make every password one-time only.",
                 "Force all code to run in kernel mode.",
@@ -13428,13 +13428,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "ASLR makes address-dependent exploits harder.",
+              "explanation": "ASLR (Address Space Layout Randomization) makes address-dependent exploits harder.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What can weaken ASLR?",
+              "prompt": "What can weaken ASLR (Address Space Layout Randomization)?",
               "choices": [
                 "A memory disclosure vulnerability that leaks addresses.",
                 "Using longer variable names.",
@@ -13502,7 +13502,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Treating an object as the wrong type, such as casting a parent object to the wrong child class.",
                 "Using the wrong password salt length.",
-                "Confusing TCP with UDP in a routing table.",
+                "Confusing TCP (Transmission Control Protocol) with UDP (User Datagram Protocol) in a routing table.",
                 "Changing a file extension after encryption."
               ],
               "answer": [
@@ -13524,7 +13524,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "Dereferencing NULL in privileged code can jump into attacker-controlled memory in vulnerable designs.",
+              "explanation": "Dereferencing NULL (Null Pointer) in privileged code can jump into attacker-controlled memory in vulnerable designs.",
               "fullExplanation": null,
               "points": 1
             },
@@ -13533,7 +13533,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Why can integer overflow lead to buffer overflow?",
               "choices": [
                 "Integers are stored only in the file system.",
-                "Overflow always increases available RAM.",
+                "Overflow always increases available RAM (Random Access Memory).",
                 "A wrapped integer may cause too-small allocation for a large amount of data.",
                 "Overflow disables access-control lists."
               ],
@@ -13548,8 +13548,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is command injection?",
               "choices": [
-                "Injecting a cache line into RAM.",
-                "Adding a user to an ACL group.",
+                "Injecting a cache line into RAM (Random Access Memory).",
+                "Adding a user to an ACL (Access Control List) group.",
                 "Compiling commands into a static library.",
                 "Tricking a program into executing shell commands through crafted input."
               ],
@@ -13562,11 +13562,11 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does TOCTOU mean?",
+              "prompt": "What does TOCTOU (Time Of Check To Time Of Use) mean?",
               "choices": [
                 "The object checked for permission may be changed before it is used.",
                 "The password is checked twice before login.",
-                "Two CPUs execute the same instruction at once.",
+                "Two CPUs (Central Processing Units) execute the same instruction at once.",
                 "A file is encrypted before hashing."
               ],
               "answer": [
@@ -13580,9 +13580,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "How is a covert channel different from normal authorized communication?",
               "choices": [
-                "It is a faster version of TCP.",
+                "It is a faster version of TCP (Transmission Control Protocol).",
                 "It is sneaky communication between processes not authorized to talk.",
-                "It is any public API call.",
+                "It is any public API (Application Programming Interface) call.",
                 "It is only used to compress files."
               ],
               "answer": [
@@ -13597,7 +13597,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How is a side channel different from a covert channel?",
               "choices": [
                 "A side channel requires both processes to intentionally communicate.",
-                "A side channel is just an ACL entry.",
+                "A side channel is just an ACL (Access Control List) entry.",
                 "A side channel leaks information without the victim cooperating.",
                 "A side channel is a password salt."
               ],
@@ -13612,7 +13612,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the main idea of Flush and Reload?",
               "choices": [
-                "Encrypt every cache line with RSA.",
+                "Encrypt every cache line with RSA (Rivest-Shamir-Adleman).",
                 "Disable all shared libraries forever.",
                 "Write shell commands into printf.",
                 "Flush shared cache lines, wait for victim execution, reload and time access to infer use."
@@ -13630,7 +13630,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Instructions executed speculatively or out of order but later squashed architecturally.",
                 "Instructions stored permanently in the file system journal.",
-                "Instructions that never reach the CPU pipeline.",
+                "Instructions that never reach the CPU (Central Processing Unit) pipeline.",
                 "Instructions used only by boot loaders."
               ],
               "answer": [
@@ -13663,7 +13663,7 @@ window.UNIFIED_EXAM_DATA = {
                 "A missing stack canary in a boot loader only.",
                 "The lack of file-system journaling.",
                 "Mistraining branch prediction so speculative execution accesses data that should be blocked.",
-                "A failed DNS lookup."
+                "A failed DNS (Domain Name System) lookup."
               ],
               "answer": [
                 2
@@ -13676,10 +13676,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which mitigation separates kernel and user address spaces to stop Meltdown?",
               "choices": [
-                "PAM",
-                "CFS",
-                "JFFS2",
-                "KPTI"
+                "PAM (Pluggable Authentication Modules)",
+                "CFS (Completely Fair Scheduler)",
+                "JFFS2 (Journaling Flash File System version 2)",
+                "KPTI (Kernel Page-Table Isolation)"
               ],
               "answer": [
                 3
@@ -13716,7 +13716,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "A logic bomb may activate when a condition such as an employee ID missing from payroll occurs.",
+              "explanation": "A logic bomb may activate when a condition such as an employee ID (Identifier) missing from payroll occurs.",
               "fullExplanation": null,
               "points": 1
             },
@@ -13724,7 +13724,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a back door?",
               "choices": [
-                "A normal ACL rule visible to all users.",
+                "A normal ACL (Access Control List) rule visible to all users.",
                 "A scheduler queue for background jobs.",
                 "A secret entry point that bypasses normal authentication.",
                 "A compressed read-only file system."
@@ -13754,7 +13754,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is fine-grained randomization stronger than coarse KASLR?",
+              "prompt": "Why is fine-grained randomization stronger than coarse KASLR (Kernel Address Space Layout Randomization)?",
               "choices": [
                 "It randomizes smaller items such as functions, heap objects, and stack variables.",
                 "It moves the whole kernel as one fixed segment only.",
@@ -13780,7 +13780,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "CFI restricts control transfers to valid program paths.",
+              "explanation": "CFI (Control-Flow Integrity) restricts control transfers to valid program paths.",
               "fullExplanation": null,
               "points": 1
             },
@@ -13802,7 +13802,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does a TPM record for remote attestation?",
+              "prompt": "What does a TPM (Trusted Platform Module) record for remote attestation?",
               "choices": [
                 "Every keystroke typed by the user.",
                 "Only file names in the current directory.",
@@ -13812,7 +13812,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Signed PCR values can prove to a remote party how the system booted.",
+              "explanation": "Signed PCR (Platform Configuration Register) values can prove to a remote party how the system booted.",
               "fullExplanation": null,
               "points": 1
             },
@@ -13849,7 +13849,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What was a major original design goal of Linux?",
               "choices": [
                 "UNIX compatibility in a free, open-source kernel.",
-                "Exclusive compatibility with MS-DOS only.",
+                "Exclusive compatibility with Microsoft Disk Operating System (MS-DOS) only.",
                 "Running only on cloud hypervisors.",
                 "Replacing all system libraries with firmware."
               ],
@@ -13864,9 +13864,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What limitation did Linux version 0.01 have?",
               "choices": [
-                "It supported all modern architectures and SMP.",
-                "It had no networking and ran only on 80386-compatible PC hardware.",
-                "It included full journaling and CFS.",
+                "It supported all modern architectures and SMP (Symmetric Multiprocessing).",
+                "It had no networking and ran only on 80386-compatible PC (Program Counter) hardware.",
+                "It included full journaling and CFS (Completely Fair Scheduler).",
                 "It ran only as an Android app."
               ],
               "answer": [
@@ -13881,8 +13881,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which feature was added in Linux 1.0?",
               "choices": [
                 "The Windows registry.",
-                "NTFS compression.",
-                "Standard TCP/IP networking support.",
+                "NTFS (New Technology File System) compression.",
+                "Standard TCP (Transmission Control Protocol)/IP (Internet Protocol) networking support.",
                 "Hyper-V virtual secure mode."
               ],
               "answer": [
@@ -13904,7 +13904,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Linux 2.0 expanded portability and SMP support.",
+              "explanation": "Linux 2.0 expanded portability and SMP (Symmetric Multiprocessing) support.",
               "fullExplanation": null,
               "points": 1
             },
@@ -13912,7 +13912,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What did later Linux 2.4 and 2.6 kernels improve?",
               "choices": [
-                "SMP support, journaling file systems, preemptive kernel behavior, and 64-bit memory support.",
+                "SMP (Symmetric Multiprocessing) support, journaling file systems, preemptive kernel behavior, and 64-bit memory support.",
                 "Only Minix file-system compatibility.",
                 "Only password hashing.",
                 "Only the boot splash screen."
@@ -13929,9 +13929,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which projects contributed many tools and libraries to the Linux system?",
               "choices": [
                 "Only OpenStack Nova and Swift.",
-                "BSD, MIT X Window System, and GNU.",
-                "Only Windows NT and OS/2.",
-                "Only TinyOS and RIOT."
+                "BSD (Berkeley Software Distribution), MIT (Massachusetts Institute of Technology) X Window System, and GNU (GNU Project).",
+                "Only Windows NT (New Technology) and OS (Operating System)/2.",
+                "Only TinyOS and RIOT (Real-time Internet of Things Operating System)."
               ],
               "answer": [
                 1
@@ -13944,7 +13944,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does the File System Hierarchy Standard specify?",
               "choices": [
-                "How CPU priorities are calculated.",
+                "How CPU (Central Processing Unit) priorities are calculated.",
                 "Which cryptographic key length to use.",
                 "Where configuration files, libraries, binaries, and run-time data should be stored.",
                 "Which packet should be routed first."
@@ -13952,7 +13952,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "FHS helps distributions remain compatible in file-system layout.",
+              "explanation": "FHS (Filesystem Hierarchy Standard) helps distributions remain compatible in file-system layout.",
               "fullExplanation": null,
               "points": 1
             },
@@ -13974,23 +13974,23 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is RPM important across Linux distributions?",
+              "prompt": "Why is RPM (Red Hat Package Manager) important across Linux distributions?",
               "choices": [
                 "It provides a package file format that can permit compatibility among distributions.",
-                "It is a CPU scheduling algorithm.",
+                "It is a CPU (Central Processing Unit) scheduling algorithm.",
                 "It replaces all file systems.",
                 "It is a network device driver."
               ],
               "answer": [
                 0
               ],
-              "explanation": "RPM is a package format used for software distribution.",
+              "explanation": "RPM (Red Hat Package Manager) is a package format used for software distribution.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the GNU GPL require for Linux derivatives?",
+              "prompt": "What does the GNU (GNU Project) GPL (General Public License) require for Linux derivatives?",
               "choices": [
                 "All Linux systems must be sold for free with no services.",
                 "They cannot be made proprietary as binary-only products without source availability.",
@@ -14000,7 +14000,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "GPL allows selling distributions but requires source-code rights.",
+              "explanation": "GPL (General Public License) allows selling distributions but requires source-code rights.",
               "fullExplanation": null,
               "points": 1
             },
@@ -14011,7 +14011,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Only graphical animation and game performance.",
                 "No networking and no multiuser support.",
                 "Speed, efficiency, standardization, and UNIX-compatible behavior.",
-                "No POSIX compatibility."
+                "No POSIX (Portable Operating System Interface) compatibility."
               ],
               "answer": [
                 2
@@ -14024,15 +14024,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which three bodies of code form a typical Linux system?",
               "choices": [
-                "BIOS, registry, and MFT.",
-                "Hypervisor, VTL, and trustlets.",
+                "BIOS (Basic Input/Output System), registry, and MFT (Master File Table).",
+                "Hypervisor, VTL (Virtual Trust Level), and trustlets.",
                 "Only shell, editor, and browser.",
                 "Kernel, system libraries, and system utilities."
               ],
               "answer": [
                 3
               ],
-              "explanation": "The kernel is privileged; libraries and utilities provide user-level OS functionality.",
+              "explanation": "The kernel is privileged; libraries and utilities provide user-level OS (Operating System) functionality.",
               "fullExplanation": null,
               "points": 1
             },
@@ -14058,7 +14058,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "User shell aliases only.",
                 "Kernel code sections that can be loaded and unloaded independently.",
-                "Static HTML pages for documentation.",
+                "Static HTML (Hypertext Markup Language) pages for documentation.",
                 "Password entries in /etc/passwd only."
               ],
               "answer": [
@@ -14106,7 +14106,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Loading requested but currently unloaded modules and unloading unused dynamic modules.",
                 "Choosing user passwords.",
-                "Allocating NTFS clusters.",
+                "Allocating NTFS (New Technology File System) clusters.",
                 "Running cloud brokers."
               ],
               "answer": [
@@ -14150,7 +14150,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How does UNIX process management separate process creation and program execution?",
+              "prompt": "How does UNIX (Uniplexed Information and Computing Service) process management separate process creation and program execution?",
               "choices": [
                 "exec creates a process, and fork deletes it.",
                 "clone always replaces both fork and exec with one operation.",
@@ -14166,9 +14166,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is a PID?",
+              "prompt": "What is a PID (Process Identifier)?",
               "choices": [
-                "A unique process identifier used by the OS to refer to a process.",
+                "A unique process identifier used by the OS (Operating System) to refer to a process.",
                 "A page-table entry for a disk block.",
                 "A network packet priority field.",
                 "A Linux distribution format."
@@ -14176,7 +14176,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "System calls use PIDs to signal, wait for, or modify processes.",
+              "explanation": "System calls use PIDs (Process Identifiers) to signal, wait for, or modify processes.",
               "fullExplanation": null,
               "points": 1
             },
@@ -14186,13 +14186,13 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "The page size used by the processor.",
                 "The process rights to access system resources and files.",
-                "The CPU temperature limit.",
+                "The CPU (Central Processing Unit) temperature limit.",
                 "The terminal color scheme."
               ],
               "answer": [
                 1
               ],
-              "explanation": "User IDs and group IDs are used in access control.",
+              "explanation": "User IDs (Identifiers) and group IDs (Identifiers) are used in access control.",
               "fullExplanation": null,
               "points": 1
             },
@@ -14203,7 +14203,7 @@ window.UNIFIED_EXAM_DATA = {
                 "A text label shown in the desktop taskbar only.",
                 "A cryptographic password salt.",
                 "An identifier that can slightly modify system-call semantics for compatibility.",
-                "A CPU register saved during interrupts only."
+                "A CPU (Central Processing Unit) register saved during interrupts only."
               ],
               "answer": [
                 2
@@ -14216,8 +14216,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does a process namespace provide?",
               "choices": [
-                "A list of all CPU time slices.",
-                "A table of all TCP ports.",
+                "A list of all CPU (Central Processing Unit) time slices.",
+                "A table of all TCP (Transmission Control Protocol) ports.",
                 "A cache of password hashes.",
                 "A specific view of the file-system hierarchy, possibly with its own root and mounts."
               ],
@@ -14267,7 +14267,7 @@ window.UNIFIED_EXAM_DATA = {
                 "By physical disk-sector numbers only.",
                 "By kernel module names only.",
                 "By indexes into its file table called file descriptors.",
-                "By TCP sequence numbers."
+                "By TCP (Transmission Control Protocol) sequence numbers."
               ],
               "answer": [
                 2
@@ -14282,7 +14282,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Only executable code pages.",
                 "Only pending signal handlers.",
-                "Only the CPU affinity mask.",
+                "Only the CPU (Central Processing Unit) affinity mask.",
                 "The current root and default directories used for opening new files."
               ],
               "answer": [
@@ -14314,7 +14314,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Threads are not represented in the kernel at all.",
                 "A thread is a task that may share address-space structures with its parent.",
-                "Threads are always separate physical CPUs.",
+                "Threads are always separate physical CPUs (Central Processing Units).",
                 "Threads are only entries in the file system."
               ],
               "answer": [
@@ -14347,7 +14347,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Only disk blocks to files.",
                 "Only network addresses to sockets.",
                 "Only page-cache entries.",
-                "CPU time to user tasks and kernel tasks."
+                "CPU (Central Processing Unit) time to user tasks and kernel tasks."
               ],
               "answer": [
                 3
@@ -14384,13 +14384,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "CFS models fair sharing of CPU time.",
+              "explanation": "CFS (Completely Fair Scheduler) models fair sharing of CPU (Central Processing Unit) time.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does a smaller nice value affect CFS?",
+              "prompt": "How does a smaller nice value affect CFS (Completely Fair Scheduler)?",
               "choices": [
                 "It removes the task from scheduling.",
                 "It makes the task use only disk I/O.",
@@ -14400,13 +14400,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "CFS weights runnable tasks using nice values.",
+              "explanation": "CFS (Completely Fair Scheduler) weights runnable tasks using nice values.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is target latency in CFS?",
+              "prompt": "What is target latency in CFS (Completely Fair Scheduler)?",
               "choices": [
                 "The maximum time to load a kernel module.",
                 "The disk-journal commit interval only.",
@@ -14416,15 +14416,15 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Target latency influences how CFS divides CPU time among runnable tasks.",
+              "explanation": "Target latency influences how CFS (Completely Fair Scheduler) divides CPU (Central Processing Unit) time among runnable tasks.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why does CFS use minimum granularity?",
+              "prompt": "Why does CFS (Completely Fair Scheduler) use minimum granularity?",
               "choices": [
-                "To ensure each run has a reasonable amount of CPU time.",
+                "To ensure each run has a reasonable amount of CPU (Central Processing Unit) time.",
                 "To make every task run for zero time.",
                 "To disable fairness completely.",
                 "To replace all process priorities with file permissions."
@@ -14456,7 +14456,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why does kernel synchronization matter?",
               "choices": [
-                "All kernel code should run without locks on SMP.",
+                "All kernel code should run without locks on SMP (Symmetric Multiprocessing).",
                 "It is only about formatting file names.",
                 "Kernel critical sections must be protected from concurrent access by other critical sections.",
                 "It prevents users from reading documentation."
@@ -14534,12 +14534,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What did early Linux SMP use to protect nonpreemptible kernel execution?",
+              "prompt": "What did early Linux SMP (Symmetric Multiprocessing) use to protect nonpreemptible kernel execution?",
               "choices": [
                 "One page table per device driver.",
-                "A separate disk partition for each CPU.",
+                "A separate disk partition for each CPU (Central Processing Unit).",
                 "No synchronization at all.",
-                "A single kernel spinlock allowing only one CPU in kernel mode at a time."
+                "A single kernel spinlock allowing only one CPU (Central Processing Unit) in kernel mode at a time."
               ],
               "answer": [
                 3
@@ -14550,7 +14550,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How did later Linux versions improve SMP scalability?",
+              "prompt": "How did later Linux versions improve SMP (Symmetric Multiprocessing) scalability?",
               "choices": [
                 "By splitting the single spinlock into finer-grained locks and adding affinity and load balancing.",
                 "By disabling all but one processor.",
@@ -14570,7 +14570,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Only user names and passwords.",
                 "Pages, groups of pages, and small blocks of memory.",
-                "Only TCP port numbers.",
+                "Only TCP (Transmission Control Protocol) port numbers.",
                 "Only executable file names."
               ],
               "answer": [
@@ -14619,7 +14619,7 @@ window.UNIFIED_EXAM_DATA = {
                 "The kernel main cache for files and block-device I/O, storing pages of file contents.",
                 "A list of process credentials.",
                 "A table of loaded password salts.",
-                "A CPU scheduling priority class."
+                "A CPU (Central Processing Unit) scheduling priority class."
               ],
               "answer": [
                 0
@@ -14630,11 +14630,11 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What two views of a process address space does the VM manager maintain?",
+              "prompt": "What two views of a process address space does the VM (Virtual Machine) manager maintain?",
               "choices": [
                 "A network view and a password view.",
                 "A logical region view and a physical page-table view.",
-                "A bootloader view and a BIOS view.",
+                "A bootloader view and a BIOS (Basic Input/Output System) view.",
                 "A package view and a distribution view."
               ],
               "answer": [
@@ -14713,14 +14713,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How does Linux support multiple executable formats?",
               "choices": [
                 "It stores every program as text only.",
-                "It requires all binaries to be ELF only with no loader table.",
+                "It requires all binaries to be ELF (Executable and Linkable Format) only with no loader table.",
                 "It keeps a table of loader functions tried during exec.",
                 "It runs all binaries through the shell."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Loader registration lets Linux support formats such as ELF and a.out.",
+              "explanation": "Loader registration lets Linux support formats such as ELF (Executable and Linkable Format) and a.out.",
               "fullExplanation": null,
               "points": 1
             },
@@ -14752,39 +14752,39 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "PIC supports flexible library placement.",
+              "explanation": "PIC (Position-Independent Code) supports flexible library placement.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the Linux VFS provide?",
+              "prompt": "What does the Linux VFS (Virtual File System) provide?",
               "choices": [
                 "A single physical disk layout required by all file systems.",
                 "An abstraction layer hiding details of different file-system implementations.",
                 "A network-only protocol stack.",
-                "A CPU scheduler for kernel threads."
+                "A CPU (Central Processing Unit) scheduler for kernel threads."
               ],
               "answer": [
                 1
               ],
-              "explanation": "VFS lets Linux support many file systems through common objects and operations.",
+              "explanation": "VFS (Virtual File System) lets Linux support many file systems through common objects and operations.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which objects are central in the Linux VFS?",
+              "prompt": "Which objects are central in the Linux VFS (Virtual File System)?",
               "choices": [
-                "PID, UID, GID, and nice objects only.",
-                "TCP, UDP, ICMP, and IP objects only.",
+                "PID (Process Identifier), UID (User Identifier), GID (Group Identifier), and nice objects only.",
+                "TCP (Transmission Control Protocol), UDP (User Datagram Protocol), ICMP (Internet Control Message Protocol), and IP (Internet Protocol) objects only.",
                 "inode, file, superblock, and dentry objects.",
                 "Stack, heap, code, and data objects only."
               ],
               "answer": [
                 2
               ],
-              "explanation": "These VFS objects model files, open files, file systems, and directory entries.",
+              "explanation": "These VFS (Virtual File System) objects model files, open files, file systems, and directory entries.",
               "fullExplanation": null,
               "points": 1
             },
@@ -14856,8 +14856,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which two caches does Linux use for disk-oriented I/O?",
               "choices": [
-                "Password cache and ACL cache.",
-                "DNS cache and ARP cache only.",
+                "Password cache and ACL (Access Control List) cache.",
+                "DNS (Domain Name System) cache and ARP (Address Resolution Protocol) cache only.",
                 "Keyboard cache and screen cache.",
                 "Page cache for data and buffer cache for metadata."
               ],
@@ -14907,7 +14907,7 @@ window.UNIFIED_EXAM_DATA = {
                 "It allocates physical pages.",
                 "It registers file systems.",
                 "It interprets terminal data and connects it to process standard input and output.",
-                "It resolves TCP names."
+                "It resolves TCP (Transmission Control Protocol) names."
               ],
               "answer": [
                 2
@@ -14934,7 +14934,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why can System V semaphores be useful for IPC?",
+              "prompt": "Why can System V semaphores be useful for IPC (Interprocess Communication)?",
               "choices": [
                 "They can scale better and support atomic operations on multiple semaphores.",
                 "They can carry large files directly.",
@@ -14966,10 +14966,10 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why must shared memory be combined with another IPC mechanism?",
+              "prompt": "Why must shared memory be combined with another IPC (Interprocess Communication) mechanism?",
               "choices": [
                 "It cannot be read by more than one process.",
-                "It is slower than all other IPC methods.",
+                "It is slower than all other IPC (Interprocess Communication) methods.",
                 "It needs synchronization so processes do not race on shared data.",
                 "It stores only signal numbers."
               ],
@@ -14984,9 +14984,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What are the three internal Linux networking layers listed in the lecture?",
               "choices": [
-                "VFS, ext3, and proc.",
-                "CFS, O(1), and nice values.",
-                "PID, UID, and GID.",
+                "VFS (Virtual File System), ext3, and proc.",
+                "CFS (Completely Fair Scheduler), O(1), and nice values.",
+                "PID (Process Identifier), UID (User Identifier), and GID (Group Identifier).",
                 "Socket interface, protocol drivers, and network device drivers."
               ],
               "answer": [
@@ -14998,44 +14998,44 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which protocols sit above IP routing in the Internet protocol suite?",
+              "prompt": "Which protocols sit above IP (Internet Protocol) routing in the Internet protocol suite?",
               "choices": [
-                "UDP, TCP, and ICMP.",
-                "ELF, a.out, and PIC.",
-                "PAM, UID, and GID.",
+                "UDP (User Datagram Protocol), TCP (Transmission Control Protocol), and ICMP (Internet Control Message Protocol).",
+                "ELF (Executable and Linkable Format), a.out, and PIC (Position-Independent Code).",
+                "PAM (Pluggable Authentication Modules), UID (User Identifier), and GID (Group Identifier).",
                 "ext2, ext3, and ext4."
               ],
               "answer": [
                 0
               ],
-              "explanation": "The lecture lists UDP, TCP, and ICMP above routing.",
+              "explanation": "The lecture lists UDP (User Datagram Protocol), TCP (Transmission Control Protocol), and ICMP (Internet Control Message Protocol) above routing.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is PAM in Linux?",
+              "prompt": "What is PAM (Pluggable Authentication Modules) in Linux?",
               "choices": [
                 "A physical memory allocator.",
                 "A pluggable authentication system based on a shared library.",
                 "A file-system journal.",
-                "A TCP/IP routing protocol."
+                "A TCP (Transmission Control Protocol)/IP (Internet Protocol) routing protocol."
               ],
               "answer": [
                 1
               ],
-              "explanation": "PAM lets system components use common authentication modules.",
+              "explanation": "PAM (Pluggable Authentication Modules) lets system components use common authentication modules.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does traditional UNIX access control identify users and groups?",
+              "prompt": "How does traditional UNIX (Uniplexed Information and Computing Service) access control identify users and groups?",
               "choices": [
-                "With NTFS file references.",
+                "With NTFS (New Technology File System) file references.",
                 "With OpenStack tokens.",
                 "With numeric uid and gid values.",
-                "With BIOS firmware hashes."
+                "With BIOS (Basic Input/Output System) firmware hashes."
               ],
               "answer": [
                 2
@@ -15046,9 +15046,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does a UNIX protection mask specify?",
+              "prompt": "What does a UNIX (Uniplexed Information and Computing Service) protection mask specify?",
               "choices": [
-                "Only CPU priority and target latency.",
+                "Only CPU (Central Processing Unit) priority and target latency.",
                 "Only page-table states.",
                 "Only network adapter type.",
                 "Read, write, and execute permissions for owner, group, and world."
@@ -15062,7 +15062,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does saved user ID allow?",
+              "prompt": "What does saved user ID (Identifier) allow?",
               "choices": [
                 "A process can drop and later reacquire its effective uid.",
                 "A process can bypass all permissions permanently.",
@@ -15106,33 +15106,33 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "Why did Microsoft start developing Windows NT?",
+              "prompt": "Why did Microsoft start developing Windows NT (New Technology)?",
               "choices": [
-                "To build a portable new technology OS supporting OS/2 and POSIX APIs.",
-                "To create a small embedded sensor OS only.",
-                "To replace all APIs with MS-DOS interrupts only.",
+                "To build a portable new technology OS (Operating System) supporting OS (Operating System)/2 and POSIX (Portable Operating System Interface) APIs (Application Programming Interfaces).",
+                "To create a small embedded sensor OS (Operating System) only.",
+                "To replace all APIs (Application Programming Interfaces) with Microsoft Disk Operating System (MS-DOS) interrupts only.",
                 "To make a Linux distribution."
               ],
               "answer": [
                 0
               ],
-              "explanation": "NT began as a portable OS project and later adopted Win32 as native.",
+              "explanation": "NT (New Technology) began as a portable OS (Operating System) project and later adopted Win32 as native.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why did NT switch toward the Win32 API as native?",
+              "prompt": "Why did NT (New Technology) switch toward the Win32 API (Application Programming Interface) as native?",
               "choices": [
-                "Because POSIX was removed from computing entirely.",
+                "Because POSIX (Portable Operating System Interface) was removed from computing entirely.",
                 "Because Windows 3.0 made Win32-style Windows applications important.",
-                "Because OS/2 became the only Windows API.",
-                "Because NT ran only on smartphones."
+                "Because OS (Operating System)/2 became the only Windows API (Application Programming Interface).",
+                "Because NT (New Technology) ran only on smartphones."
               ],
               "answer": [
                 1
               ],
-              "explanation": "The lecture notes NT changed direction during development.",
+              "explanation": "The lecture notes NT (New Technology) changed direction during development.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15140,9 +15140,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which description fits Windows 10 in the lecture?",
               "choices": [
-                "A single-tasking 16-bit OS only.",
-                "A microcontroller firmware with no GUI.",
-                "A 32-bit and 64-bit preemptive multitasking OS for Intel microprocessors.",
+                "A single-tasking 16-bit OS (Operating System) only.",
+                "A microcontroller firmware with no GUI (Graphical User Interface).",
+                "A 32-bit and 64-bit preemptive multitasking OS (Operating System) for Intel microprocessors.",
                 "A cloud-only operating system with no local processes."
               ],
               "answer": [
@@ -15159,7 +15159,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Only file compression and wallpaper management.",
                 "Only cloud object storage and service brokerage.",
                 "Only wireless sensor scheduling.",
-                "Portability, security, POSIX compliance, multiprocessor support, extensibility, international support, and compatibility."
+                "Portability, security, POSIX (Portable Operating System Interface) compliance, multiprocessor support, extensibility, international support, and compatibility."
               ],
               "answer": [
                 3
@@ -15191,7 +15191,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Keystone.",
                 "Windows Desktop Bridge.",
                 "mClibc.",
-                "JFFS2."
+                "JFFS2 (Journaling Flash File System version 2)."
               ],
               "answer": [
                 1
@@ -15206,7 +15206,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Only username/password with no exploit mitigations.",
                 "Only UNIX file mode bits.",
-                "ACLs, integrity levels, encryption, ASLR, DEP, CFG, ACG, and digital signatures.",
+                "ACLs (Access Control Lists), integrity levels, encryption, ASLR (Address Space Layout Randomization), DEP (Data Execution Prevention), CFG (Control Flow Guard), ACG (Arbitrary Code Guard), and digital signatures.",
                 "Only TinyOS arbiters."
               ],
               "answer": [
@@ -15222,7 +15222,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Which process gets a shorter time slice.",
                 "Which file uses a smaller cluster size.",
-                "Which DNS server resolves a name.",
+                "Which DNS (Domain Name System) server resolves a name.",
                 "Which signed code is allowed to run on the system."
               ],
               "answer": [
@@ -15236,8 +15236,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What extensibility mechanisms are listed for Windows 10?",
               "choices": [
-                "RPC and ALPC.",
-                "JFFS2 and UBIFS.",
+                "RPC (Remote Procedure Call) and ALPC (Advanced Local Procedure Call).",
+                "JFFS2 (Journaling Flash File System version 2) and UBIFS (Unsorted Block Image File System).",
                 "Commands and events.",
                 "fork and exec only."
               ],
@@ -15252,21 +15252,21 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "How does Windows 10 support portability?",
               "choices": [
-                "All code is written in assembly for one CPU.",
-                "Most code is C/C++, processor-specific code is small, and HAL isolates platform-dependent code.",
-                "It removes the HAL and embeds hardware assumptions everywhere.",
+                "All code is written in assembly for one CPU (Central Processing Unit).",
+                "Most code is C/C++, processor-specific code is small, and HAL (Hardware Abstraction Layer) isolates platform-dependent code.",
+                "It removes the HAL (Hardware Abstraction Layer) and embeds hardware assumptions everywhere.",
                 "It runs only on one exact motherboard."
               ],
               "answer": [
                 1
               ],
-              "explanation": "The HAL DLL hides platform differences.",
+              "explanation": "The HAL (Hardware Abstraction Layer) DLL (Dynamic Link Library) hides platform differences.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which design principle uses hardware protection for virtual memory and software protection for OS resources?",
+              "prompt": "Which design principle uses hardware protection for virtual memory and software protection for OS (Operating System) resources?",
               "choices": [
                 "Service aggregation.",
                 "Object storage.",
@@ -15284,15 +15284,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "How does Windows 10 support international use?",
               "choices": [
-                "Through only ASCII file names.",
+                "Through only ASCII (American Standard Code for Information Interchange) file names.",
                 "Through disabling locales.",
-                "Through DNS only.",
-                "Through the national language support API."
+                "Through DNS (Domain Name System) only.",
+                "Through the national language support API (Application Programming Interface)."
               ],
               "answer": [
                 3
               ],
-              "explanation": "NLS supports different locales.",
+              "explanation": "NLS (National Language Support) supports different locales.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15301,7 +15301,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which feature helps Windows energy efficiency on portable devices?",
               "choices": [
                 "Dynamic tick, process lifetime management, desktop activity moderator, and connected standby.",
-                "Forcing all CPUs to run at maximum speed.",
+                "Forcing all CPUs (Central Processing Units) to run at maximum speed.",
                 "Disabling sleep and hibernation.",
                 "Removing power management."
               ],
@@ -15317,14 +15317,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which components run in protected mode in Windows architecture?",
               "choices": [
                 "Only user applications.",
-                "HAL, kernel, and executive.",
+                "HAL (Hardware Abstraction Layer), kernel, and executive.",
                 "Only Win32 subsystem windows.",
-                "Only MS-DOS programs."
+                "Only Microsoft Disk Operating System (MS-DOS) programs."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Protected mode contains the privileged OS layers.",
+              "explanation": "Protected mode contains the privileged OS (Operating System) layers.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15332,7 +15332,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What runs in user mode in the Windows architecture?",
               "choices": [
-                "Only the HAL.",
+                "Only the HAL (Hardware Abstraction Layer).",
                 "Only interrupt handlers.",
                 "A collection of subsystems, including environmental and protection subsystems.",
                 "Only the hypervisor."
@@ -15356,23 +15356,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "VTL 0 and VTL 1 separate normal and secure execution worlds.",
+              "explanation": "VTL (Virtual Trust Level) 0 and VTL (Virtual Trust Level) 1 separate normal and secure execution worlds.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is in the secure world of VSM?",
+              "prompt": "What is in the secure world of VSM (Virtual Secure Mode)?",
               "choices": [
                 "A secure kernel, secure executive, and trustlets.",
                 "Only user desktop applications.",
                 "Only file-system clusters.",
-                "Only DNS records."
+                "Only DNS (Domain Name System) records."
               ],
               "answer": [
                 0
               ],
-              "explanation": "VSM uses isolated secure components.",
+              "explanation": "VSM (Virtual Secure Mode) uses isolated secure components.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15382,7 +15382,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Only registry editing and file compression.",
                 "Thread scheduling, interrupt and exception handling, low-level processor synchronization, and power-failure recovery.",
-                "Only DNS, WINS, and DHCP.",
+                "Only DNS (Domain Name System), WINS (Windows Internet Name Service), and DHCP (Dynamic Host Configuration Protocol).",
                 "Only application-store downloads."
               ],
               "answer": [
@@ -15396,7 +15396,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which Windows kernel objects control dispatching and synchronization?",
               "choices": [
-                "MFT records only.",
+                "MFT (Master File Table) records only.",
                 "Object-storage buckets.",
                 "Dispatcher objects such as events, mutexes, semaphores, threads, and timers.",
                 "Linux dentries."
@@ -15412,10 +15412,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What are Windows control objects?",
               "choices": [
-                "Only NTFS clusters.",
-                "Only TCP sockets.",
+                "Only NTFS (New Technology File System) clusters.",
+                "Only TCP (Transmission Control Protocol) sockets.",
                 "Only environmental variables.",
-                "Objects such as APCs, interrupts, power notify, power status, process, and profile objects."
+                "Objects such as APCs (Asynchronous Procedure Calls), interrupts, power notify, power status, process, and profile objects."
               ],
               "answer": [
                 3
@@ -15463,7 +15463,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Only user mode with no kernel stack.",
                 "Only secure mode with no user stack.",
                 "User mode and kernel mode, with one stack for each.",
-                "Only BIOS mode and POST mode."
+                "Only BIOS (Basic Input/Output System) mode and POST (Power-On Self-Test) mode."
               ],
               "answer": [
                 2
@@ -15493,14 +15493,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What kind of threads does Windows priority strategy favor for good response?",
               "choices": [
                 "Interactive and I/O-bound threads.",
-                "Only background CPU-bound threads.",
+                "Only background CPU (Central Processing Unit)-bound threads.",
                 "Only suspended threads.",
                 "Only terminated threads."
               ],
               "answer": [
                 0
               ],
-              "explanation": "The strategy keeps the GUI responsive and I/O devices busy.",
+              "explanation": "The strategy keeps the GUI (Graphical User Interface) responsive and I/O devices busy.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15511,7 +15511,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Only when the computer boots.",
                 "When a thread becomes ready or waiting, terminates, or when priority or affinity changes.",
                 "Only when a file is compressed.",
-                "Only after DNS resolution."
+                "Only after DNS (Domain Name System) resolution."
               ],
               "answer": [
                 1
@@ -15532,7 +15532,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Windows gives preferential CPU access but not hard deadlines.",
+              "explanation": "Windows gives preferential CPU (Central Processing Unit) access but not hard deadlines.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15557,8 +15557,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How does Windows achieve multiprocessor mutual exclusion in the kernel?",
               "choices": [
                 "Using spin locks in global memory.",
-                "Using NTFS compression.",
-                "Using WINS name resolution.",
+                "Using NTFS (New Technology File System) compression.",
+                "Using WINS (Windows Internet Name Service) name resolution.",
                 "Using application-store signatures only."
               ],
               "answer": [
@@ -15580,7 +15580,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "The object manager supervises OS objects.",
+              "explanation": "The object manager supervises OS (Operating System) objects.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15589,7 +15589,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How can a process get a handle to a Windows object?",
               "choices": [
                 "Only by editing the registry manually.",
-                "Only through DNS name resolution.",
+                "Only through DNS (Domain Name System) name resolution.",
                 "By creating it, opening it, inheriting it, or receiving a duplicated handle.",
                 "Only by loading a device driver."
               ],
@@ -15605,7 +15605,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How are Windows executive object names structured?",
               "choices": [
                 "Like raw physical memory addresses only.",
-                "Like CPU register numbers only.",
+                "Like CPU (Central Processing Unit) register numbers only.",
                 "Like password salts only.",
                 "Like file path names, with symbolic links for aliases."
               ],
@@ -15623,12 +15623,12 @@ window.UNIFIED_EXAM_DATA = {
                 "Reserve address space, then commit backing space in the paging file.",
                 "Compress, then encrypt every page.",
                 "Create a process, then create a thread.",
-                "Resolve DNS, then open a socket."
+                "Resolve DNS (Domain Name System), then open a socket."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Reservation and commitment are distinct VM allocation steps.",
+              "explanation": "Reservation and commitment are distinct VM (Virtual Machine) allocation steps.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15637,14 +15637,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which page sizes can Windows use according to hardware support in the lecture?",
               "choices": [
                 "Only 512 bytes.",
-                "4 KB, 2 MB, and 1 GB.",
-                "Only 8 KB clusters.",
+                "4 KB (Kilobyte), 2 MB (Megabyte), and 1 GB (Gigabyte).",
+                "Only 8 KB (Kilobyte) clusters.",
                 "Only 16 contiguous clusters."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Windows VM uses hardware-supported page sizes.",
+              "explanation": "Windows VM (Virtual Machine) uses hardware-supported page sizes.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15669,14 +15669,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does a page file page-table entry contain?",
               "choices": [
                 "Only the process name.",
-                "Only DNS server addresses.",
+                "Only DNS (Domain Name System) server addresses.",
                 "Only a file reference number.",
                 "Protection bits, page-file offset, paging-file selector, and bookkeeping bits."
               ],
               "answer": [
                 3
               ],
-              "explanation": "A page-file PTE identifies where a paged-out page is stored.",
+              "explanation": "A page-file PTE (Page Table Entry) identifies where a paged-out page is stored.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15686,7 +15686,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Services for creating, deleting, and using processes and threads.",
                 "Only network packet filtering.",
-                "Only NTFS compression.",
+                "Only NTFS (New Technology File System) compression.",
                 "Only keyboard layout support."
               ],
               "answer": [
@@ -15700,10 +15700,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "How are Docker containers supported in Windows according to the lecture?",
               "choices": [
-                "Through NTFS sparse files only.",
+                "Through NTFS (New Technology File System) sparse files only.",
                 "Through job objects called silos.",
                 "Through NetBIOS names only.",
-                "Through VDMs only."
+                "Through VDMs (Virtual DOS Machines) only."
               ],
               "answer": [
                 1
@@ -15714,33 +15714,33 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How does LPC handle small messages?",
+              "prompt": "How does LPC (Local Procedure Call) handle small messages?",
               "choices": [
                 "By always using shared memory for every byte.",
-                "By sending all requests through DNS.",
+                "By sending all requests through DNS (Domain Name System).",
                 "By using a port message queue and copying messages between processes.",
                 "By writing them to the registry."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Small LPC messages up to about 256 bytes use queues and copying.",
+              "explanation": "Small LPC (Local Procedure Call) messages up to about 256 bytes use queues and copying.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does LPC avoid copying large messages?",
+              "prompt": "How does LPC (Local Procedure Call) avoid copying large messages?",
               "choices": [
-                "By compressing the MFT.",
-                "By converting them to SMB printer messages.",
+                "By compressing the MFT (Master File Table).",
+                "By converting them to SMB (Server Message Block) printer messages.",
                 "By changing thread priority.",
                 "By using a shared memory section object for the channel."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Large LPC transfers can share memory instead of copying.",
+              "explanation": "Large LPC (Local Procedure Call) transfers can share memory instead of copying.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15762,11 +15762,11 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the I/O manager do with the VM manager?",
+              "prompt": "What does the I/O manager do with the VM (Virtual Machine) manager?",
               "choices": [
                 "Creates the registry hives.",
                 "Provides memory-mapped file I/O.",
-                "Chooses DNS names.",
+                "Chooses DNS (Domain Name System) names.",
                 "Signs boot firmware."
               ],
               "answer": [
@@ -15780,8 +15780,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does the security reference monitor check when a process opens an object handle?",
               "choices": [
-                "The file cluster number against the CPU priority.",
-                "The DNS record against the registry hive.",
+                "The file cluster number against the CPU (Central Processing Unit) priority.",
+                "The DNS (Domain Name System) record against the registry hive.",
                 "The process security token against the object access control list.",
                 "The bootloader signature against a pipe."
               ],
@@ -15797,14 +15797,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does the Plug-and-Play manager do?",
               "choices": [
                 "Schedules foreground threads.",
-                "Stores file metadata in the MFT.",
-                "Resolves computer names to IP addresses.",
+                "Stores file metadata in the MFT (Master File Table).",
+                "Resolves computer names to IP (Internet Protocol) addresses.",
                 "Recognizes hardware changes, loads appropriate drivers, and tracks device resources."
               ],
               "answer": [
                 3
               ],
-              "explanation": "PnP adapts to added devices such as PCI or USB.",
+              "explanation": "PnP adapts to added devices such as PCI (Peripheral Component Interconnect) or USB (Universal Serial Bus).",
               "fullExplanation": null,
               "points": 1
             },
@@ -15813,8 +15813,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does the Windows power manager control?",
               "choices": [
                 "Sleep, hibernation, processor power behavior, and device power states.",
-                "Only TCP/IP routing.",
-                "Only POSIX subsystem loading.",
+                "Only TCP (Transmission Control Protocol)/IP (Internet Protocol) routing.",
+                "Only POSIX (Portable Operating System Interface) subsystem loading.",
                 "Only file references."
               ],
               "answer": [
@@ -15830,7 +15830,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A file-system journal for user data only.",
                 "Configuration repositories called hives managed by the configuration manager.",
-                "A TCP/IP transport protocol.",
+                "A TCP (Transmission Control Protocol)/IP (Internet Protocol) transport protocol.",
                 "A thread scheduling queue."
               ],
               "answer": [
@@ -15842,12 +15842,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does UEFI Secure Boot verify during boot?",
+              "prompt": "What does UEFI (Unified Extensible Firmware Interface) Secure Boot verify during boot?",
               "choices": [
                 "Only the foreground quantum.",
-                "Only SMB message types.",
+                "Only SMB (Server Message Block) message types.",
                 "Digital signatures of firmware and boot-time components.",
-                "Only NTFS cluster sizes."
+                "Only NTFS (New Technology File System) cluster sizes."
               ],
               "answer": [
                 2
@@ -15861,8 +15861,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What happens if Windows is resuming from hibernation?",
               "choices": [
                 "The registry is deleted.",
-                "All users are forced into POSIX subsystem.",
-                "The MFT is reformatted.",
+                "All users are forced into POSIX (Portable Operating System Interface) subsystem.",
+                "The MFT (Master File Table) is reformatted.",
                 "State is restored using winresume.efi."
               ],
               "answer": [
@@ -15884,7 +15884,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "SMSS is one of the early Windows processes.",
+              "explanation": "SMSS (Session Manager Subsystem) is one of the early Windows processes.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15892,10 +15892,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the main Windows operating environment subsystem?",
               "choices": [
-                "OS/2 subsystem only.",
+                "OS (Operating System)/2 subsystem only.",
                 "Win32 subsystem.",
-                "POSIX subsystem only.",
-                "MS-DOS VDM only."
+                "POSIX (Portable Operating System Interface) subsystem only.",
+                "Microsoft Disk Operating System (MS-DOS) VDM (Virtual DOS Machine) only."
               ],
               "answer": [
                 1
@@ -15906,33 +15906,33 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What provides the MS-DOS environment in Windows?",
+              "prompt": "What provides the Microsoft Disk Operating System (MS-DOS) environment in Windows?",
               "choices": [
-                "The NTFS Master File Table.",
+                "The NTFS (New Technology File System) Master File Table.",
                 "The kernel page-table entry.",
-                "A virtual DOS machine (VDM) user-mode process.",
+                "A virtual DOS (Disk Operating System) machine (VDM) user-mode process.",
                 "The secure kernel only."
               ],
               "answer": [
                 2
               ],
-              "explanation": "VDM emulates MS-DOS behavior in user mode.",
+              "explanation": "VDM (Virtual DOS Machine) emulates Microsoft Disk Operating System (MS-DOS) behavior in user mode.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the POSIX subsystem support?",
+              "prompt": "What does the POSIX (Portable Operating System Interface) subsystem support?",
               "choices": [
-                "Only SMB printer messages.",
-                "Only BIOS firmware code.",
-                "Only NTFS compression.",
-                "Applications following the POSIX.1 UNIX model."
+                "Only SMB (Server Message Block) printer messages.",
+                "Only BIOS (Basic Input/Output System) firmware code.",
+                "Only NTFS (New Technology File System) compression.",
+                "Applications following the POSIX (Portable Operating System Interface).1 UNIX model."
               ],
               "answer": [
                 3
               ],
-              "explanation": "The POSIX subsystem lets POSIX-style applications run.",
+              "explanation": "The POSIX (Portable Operating System Interface) subsystem lets POSIX (Portable Operating System Interface)-style applications run.",
               "fullExplanation": null,
               "points": 1
             },
@@ -15942,7 +15942,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "Authenticates users and works with authentication packages such as Kerberos.",
                 "Allocates disk clusters.",
-                "Schedules CPU-bound threads only.",
+                "Schedules CPU (Central Processing Unit)-bound threads only.",
                 "Compresses sparse file gaps."
               ],
               "answer": [
@@ -15954,7 +15954,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the fundamental NTFS structure?",
+              "prompt": "What is the fundamental NTFS (New Technology File System) structure?",
               "choices": [
                 "A Linux inode table.",
                 "A volume based on a logical disk partition.",
@@ -15964,15 +15964,15 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "NTFS organizes storage into volumes.",
+              "explanation": "NTFS (New Technology File System) organizes storage into volumes.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the NTFS allocation unit?",
+              "prompt": "What is the NTFS (New Technology File System) allocation unit?",
               "choices": [
-                "A TCP segment.",
+                "A TCP (Transmission Control Protocol) segment.",
                 "A registry hive.",
                 "A cluster made from a power-of-two number of disk sectors.",
                 "A thread stack."
@@ -15980,7 +15980,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Clusters are the basic disk allocation units in NTFS.",
+              "explanation": "Clusters are the basic disk allocation units in NTFS (New Technology File System).",
               "fullExplanation": null,
               "points": 1
             },
@@ -15988,25 +15988,25 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the Master File Table?",
               "choices": [
-                "A routing table for TCP/IP.",
+                "A routing table for TCP (Transmission Control Protocol)/IP (Internet Protocol).",
                 "A scheduling table for real-time priorities.",
                 "A list of loaded dynamic libraries.",
-                "A special file containing records that describe every file on an NTFS volume."
+                "A special file containing records that describe every file on an NTFS (New Technology File System) volume."
               ],
               "answer": [
                 3
               ],
-              "explanation": "NTFS metadata is stored in regular files, including the MFT.",
+              "explanation": "NTFS (New Technology File System) metadata is stored in regular files, including the MFT (Master File Table).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is an NTFS file reference?",
+              "prompt": "What is an NTFS (New Technology File System) file reference?",
               "choices": [
                 "A 64-bit value with a 48-bit file number and 16-bit sequence number.",
-                "A 32-bit IP address only.",
-                "A CPU affinity mask.",
+                "A 32-bit IP (Internet Protocol) address only.",
+                "A CPU (Central Processing Unit) affinity mask.",
                 "A Win32 priority class."
               ],
               "answer": [
@@ -16018,23 +16018,23 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does NTFS log for recovery?",
+              "prompt": "What does NTFS (New Technology File System) log for recovery?",
               "choices": [
                 "Only user passwords.",
                 "Redo and undo records for transactions plus a commit record.",
-                "Only DNS name bindings.",
+                "Only DNS (Domain Name System) name bindings.",
                 "Only thread state names."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Logged transactions let NTFS restore metadata consistency.",
+              "explanation": "Logged transactions let NTFS (New Technology File System) restore metadata consistency.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does NTFS recovery guarantee after a crash?",
+              "prompt": "What does NTFS (New Technology File System) recovery guarantee after a crash?",
               "choices": [
                 "Every byte of every user file is always recovered.",
                 "The registry is always rolled back.",
@@ -16044,49 +16044,49 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "NTFS recovery protects file-system structures more than arbitrary user data.",
+              "explanation": "NTFS (New Technology File System) recovery protects file-system structures more than arbitrary user data.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Where does NTFS store file security information?",
+              "prompt": "Where does NTFS (New Technology File System) store file security information?",
               "choices": [
-                "Only in DNS.",
+                "Only in DNS (Domain Name System).",
                 "Only in the page file.",
                 "Only in the boot firmware.",
-                "In a security descriptor attribute in the MFT record."
+                "In a security descriptor attribute in the MFT (Master File Table) record."
               ],
               "answer": [
                 3
               ],
-              "explanation": "The descriptor includes owner token information and ACLs.",
+              "explanation": "The descriptor includes owner token information and ACLs (Access Control Lists).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does NTFS compress files?",
+              "prompt": "How does NTFS (New Technology File System) compress files?",
               "choices": [
                 "It divides file data into compression units of 16 contiguous clusters.",
                 "It compresses only file names.",
-                "It stores every file as one CPU register.",
-                "It sends files through SMB before storing them."
+                "It stores every file as one CPU (Central Processing Unit) register.",
+                "It sends files through SMB (Server Message Block) before storing them."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Compression units are the NTFS compression granularity.",
+              "explanation": "Compression units are the NTFS (New Technology File System) compression granularity.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does NTFS represent sparse zero-filled regions?",
+              "prompt": "How does NTFS (New Technology File System) represent sparse zero-filled regions?",
               "choices": [
                 "It stores every zero cluster physically.",
                 "It leaves gaps in virtual cluster numbers and zero-fills on reads.",
-                "It converts zeros into DNS names.",
+                "It converts zeros into DNS (Domain Name System) names.",
                 "It prevents the file from being opened."
               ],
               "answer": [
@@ -16098,7 +16098,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does NDIS separate?",
+              "prompt": "What does NDIS (Network Device Interface Specification) separate?",
               "choices": [
                 "User accounts from passwords.",
                 "Files from directories.",
@@ -16108,13 +16108,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "NDIS lets adapters and protocols change independently.",
+              "explanation": "NDIS (Network Driver Interface Specification) lets adapters and protocols change independently.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does TDI enable?",
+              "prompt": "What does TDI (Transport Driver Interface) enable?",
               "choices": [
                 "Disk clusters can be compressed.",
                 "Objects can be named like paths.",
@@ -16132,10 +16132,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What protocol sends I/O requests over the network in Windows file sharing?",
               "choices": [
-                "SMB.",
-                "PAM.",
-                "ELF.",
-                "CFS."
+                "SMB (Server Message Block).",
+                "PAM (Pluggable Authentication Modules).",
+                "ELF (Executable and Linkable Format).",
+                "CFS (Completely Fair Scheduler)."
               ],
               "answer": [
                 0
@@ -16146,7 +16146,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which SMB message types are listed?",
+              "prompt": "Which SMB (Server Message Block) message types are listed?",
               "choices": [
                 "Ready, standby, running, and waiting.",
                 "Session control, file, printer, and message.",
@@ -16156,7 +16156,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "The lecture lists four SMB message categories.",
+              "explanation": "The lecture lists four SMB (Server Message Block) message categories.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16167,7 +16167,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Virtual address translation only.",
                 "Kernel power management only.",
                 "Logical names, sessions between names, and reliable data transfer for sessions.",
-                "NTFS redo and undo logging only."
+                "NTFS (New Technology File System) redo and undo logging only."
               ],
               "answer": [
                 2
@@ -16180,26 +16180,26 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which protocols connect Windows to many operating systems and hardware platforms?",
               "choices": [
-                "Only DLC.",
-                "Only PPTP.",
+                "Only DLC (Data Link Control).",
+                "Only PPTP (Point-to-Point Tunneling Protocol).",
                 "Only NetDDE.",
-                "TCP/IP IPv4 and IPv6."
+                "TCP (Transmission Control Protocol)/IP (Internet Protocol) IPv4 and IPv6."
               ],
               "answer": [
                 3
               ],
-              "explanation": "TCP/IP provides broad interoperability.",
+              "explanation": "TCP (Transmission Control Protocol)/IP (Internet Protocol) provides broad interoperability.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is PPTP used for?",
+              "prompt": "What is PPTP (Point-to-Point Tunneling Protocol) used for?",
               "choices": [
                 "Communication between Remote Access Server modules over the Internet.",
-                "Local NTFS compression.",
+                "Local NTFS (New Technology File System) compression.",
                 "Kernel exception dispatching.",
-                "MFT consistency checks."
+                "MFT (Master File Table) consistency checks."
               ],
               "answer": [
                 0
@@ -16213,9 +16213,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What are named pipes in Windows networking?",
               "choices": [
                 "Connectionless broadcast mailboxes.",
-                "Connection-oriented messaging mechanisms named by UNC.",
+                "Connection-oriented messaging mechanisms named by UNC (Universal Naming Convention).",
                 "Kernel spin locks.",
-                "NTFS sparse clusters."
+                "NTFS (New Technology File System) sparse clusters."
               ],
               "answer": [
                 1
@@ -16247,7 +16247,7 @@ window.UNIFIED_EXAM_DATA = {
                 "A registry hive for users.",
                 "A disk recovery log.",
                 "A hardware abstraction layer.",
-                "A standardized session-layer API over many transport protocols."
+                "A standardized session-layer API (Application Programming Interface) over many transport protocols."
               ],
               "answer": [
                 3
@@ -16258,17 +16258,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What standard does Windows RPC follow?",
+              "prompt": "What standard does Windows RPC (Remote Procedure Call) follow?",
               "choices": [
-                "Distributed Computing Environment RPC.",
-                "POSIX file mode bits only.",
+                "Distributed Computing Environment RPC (Remote Procedure Call).",
+                "POSIX (Portable Operating System Interface) file mode bits only.",
                 "TinyOS nesC wiring.",
                 "Linux buddy allocation."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Following DCE helps portability of RPC programs.",
+              "explanation": "Following DCE (Distributed Computing Environment) helps portability of RPC (Remote Procedure Call) programs.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16284,15 +16284,15 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "Redirectors make remote files appear local through the Windows I/O API.",
+              "explanation": "Redirectors make remote files appear local through the Windows I/O API (Application Programming Interface).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the role of MUP in remote file access?",
+              "prompt": "What is the role of MUP (Multiple Universal Naming Convention Provider) in remote file access?",
               "choices": [
-                "It stores every file in the MFT.",
+                "It stores every file in the MFT (Master File Table).",
                 "It authenticates Kerberos users directly.",
                 "It sends the I/O request asynchronously to registered redirectors and caches which one handles the file.",
                 "It compresses sparse file gaps."
@@ -16300,7 +16300,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "The Multiple UNC Provider chooses the appropriate redirector.",
+              "explanation": "The Multiple UNC (Universal Naming Convention) Provider chooses the appropriate redirector.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16310,7 +16310,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "It changes the client priority class.",
                 "It creates a new registry hive.",
-                "It disables SMB.",
+                "It disables SMB (Server Message Block).",
                 "It passes the request to the proper local file system driver and device driver."
               ],
               "answer": [
@@ -16325,7 +16325,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is a Windows domain?",
               "choices": [
                 "A group of Windows machines sharing a common security policy and user database.",
-                "A single NTFS compression unit.",
+                "A single NTFS (New Technology File System) compression unit.",
                 "A page-file selector.",
                 "A thread state."
               ],
@@ -16370,17 +16370,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is name resolution on an IP network?",
+              "prompt": "What is name resolution on an IP (Internet Protocol) network?",
               "choices": [
                 "Converting a thread to a process.",
                 "Converting a file record to a cluster.",
                 "Converting a password to a salt.",
-                "Converting a computer name to an IP address."
+                "Converting a computer name to an IP (Internet Protocol) address."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Name resolution maps names such as hostnames to IP addresses.",
+              "explanation": "Name resolution maps names such as hostnames to IP (Internet Protocol) addresses.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16388,9 +16388,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which Windows name-resolution methods are listed?",
               "choices": [
-                "WINS, broadcast name resolution, DNS, host file, and LMHOSTS file.",
-                "Only SMB and NetBIOS.",
-                "Only NTFS and MFT.",
+                "WINS (Windows Internet Name Service), broadcast name resolution, DNS (Domain Name System), host file, and LMHOSTS (LAN Manager Hosts) file.",
+                "Only SMB (Server Message Block) and NetBIOS.",
+                "Only NTFS (New Technology File System) and MFT (Master File Table).",
                 "Only CreateProcess and CreateThread."
               ],
               "answer": [
@@ -16402,17 +16402,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does WINS maintain?",
+              "prompt": "What does WINS (Windows Internet Name Service) maintain?",
               "choices": [
                 "A table of page states.",
-                "A dynamic database of name-to-IP address bindings.",
-                "A list of NTFS compression units.",
+                "A dynamic database of name-to-IP (Internet Protocol) address bindings.",
+                "A list of NTFS (New Technology File System) compression units.",
                 "A set of kernel traps."
               ],
               "answer": [
                 1
               ],
-              "explanation": "WINS servers and clients provide dynamic name resolution.",
+              "explanation": "WINS (Windows Internet Name Service) servers and clients provide dynamic name resolution.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16421,14 +16421,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "How can Windows processes share kernel objects?",
               "choices": [
                 "Only by copying the whole object file.",
-                "Only by using DNS.",
+                "Only by using DNS (Domain Name System).",
                 "Handle inheritance, opening a named object, or DuplicateHandle.",
                 "Only by rebooting into secure world."
               ],
               "answer": [
                 2
               ],
-              "explanation": "The Win32 API provides several handle-sharing mechanisms.",
+              "explanation": "The Win32 API (Application Programming Interface) provides several handle-sharing mechanisms.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16437,8 +16437,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does CreateProcess do?",
               "choices": [
                 "Only creates a registry hive.",
-                "Only opens a remote SMB file.",
-                "Only compresses an NTFS file.",
+                "Only opens a remote SMB (Server Message Block) file.",
+                "Only compresses an NTFS (New Technology File System) file.",
                 "Loads dynamic link libraries used by the process and creates a primary thread."
               ],
               "answer": [
@@ -16453,9 +16453,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does CreateThread do?",
               "choices": [
                 "Creates additional threads in a process.",
-                "Creates NTFS volumes.",
-                "Creates DNS records.",
-                "Creates SMB message types."
+                "Creates NTFS (New Technology File System) volumes.",
+                "Creates DNS (Domain Name System) records.",
+                "Creates SMB (Server Message Block) message types."
               ],
               "answer": [
                 0
@@ -16476,7 +16476,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "The lecture lists NORMAL as the typical class.",
+              "explanation": "The lecture lists NORMAL (Normal priority class) as the typical class.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16503,12 +16503,12 @@ window.UNIFIED_EXAM_DATA = {
                 "It never changes priority after creation.",
                 "It only uses file extension length.",
                 "It assigns all threads priority 31.",
-                "It adjusts based on whether a thread is I/O-bound or CPU-bound."
+                "It adjusts based on whether a thread is I/O-bound or CPU (Central Processing Unit)-bound."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Dynamic boosts help balance responsiveness and CPU use.",
+              "explanation": "Dynamic boosts help balance responsiveness and CPU (Central Processing Unit) use.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16517,8 +16517,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which synchronization objects does the Windows kernel provide?",
               "choices": [
                 "Semaphores and mutexes, plus wait functions and critical sections in Win32.",
-                "Only NTFS clusters.",
-                "Only DNS records.",
+                "Only NTFS (New Technology File System) clusters.",
+                "Only DNS (Domain Name System) records.",
                 "Only registry hives."
               ],
               "answer": [
@@ -16542,39 +16542,39 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "Why do AI and ML workloads need special OS support?",
+              "prompt": "Why do AI (Artificial Intelligence) and ML (Machine Learning) workloads need special OS (Operating System) support?",
               "choices": [
                 "They rely on massive parallelism, accelerators, extreme memory use, and high-throughput I/O.",
                 "They run only small sequential programs.",
-                "They never use GPUs or memory sharing.",
+                "They never use GPUs (Graphics Processing Units) or memory sharing.",
                 "They avoid all scheduling and drivers."
               ],
               "answer": [
                 0
               ],
-              "explanation": "AI workloads stress GPU scheduling, memory, and I/O differently from normal CPU-centric apps.",
+              "explanation": "AI (Artificial Intelligence) workloads stress GPU (Graphics Processing Unit) scheduling, memory, and I/O differently from normal CPU (Central Processing Unit)-centric apps.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why are specialized drivers such as CUDA or ROCm important?",
+              "prompt": "Why are specialized drivers such as CUDA (Compute Unified Device Architecture) or ROCm important?",
               "choices": [
                 "They replace all file systems.",
-                "They let AI software use GPU hardware efficiently for linear algebra operations.",
+                "They let AI (Artificial Intelligence) software use GPU (Graphics Processing Unit) hardware efficiently for linear algebra operations.",
                 "They prevent matrix multiplication.",
                 "They are only used for password hashing."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Drivers bridge AI frameworks and accelerator hardware.",
+              "explanation": "Drivers bridge AI (Artificial Intelligence) frameworks and accelerator hardware.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which workload must an AI-optimized OS coordinate across multi-GPU clusters?",
+              "prompt": "Which workload must an AI (Artificial Intelligence)-optimized OS (Operating System) coordinate across multi-GPU (Graphics Processing Unit) clusters?",
               "choices": [
                 "Only one foreground text editor.",
                 "Only disk seek requests.",
@@ -16584,29 +16584,29 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "Large GPU clusters need careful scheduling and communication placement.",
+              "explanation": "Large GPU (Graphics Processing Unit) clusters need careful scheduling and communication placement.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is unified memory useful for AI workloads?",
+              "prompt": "Why is unified memory useful for AI (Artificial Intelligence) workloads?",
               "choices": [
                 "It makes all memory read-only.",
-                "It prevents GPUs from accessing data.",
+                "It prevents GPUs (Graphics Processing Units) from accessing data.",
                 "It replaces accelerators with disks.",
-                "It allows CPUs and GPUs to share memory/pooling and reduce copies or crashes."
+                "It allows CPUs (Central Processing Units) and GPUs (Graphics Processing Units) to share memory/pooling and reduce copies or crashes."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Unified memory helps high-throughput CPU-GPU data movement.",
+              "explanation": "Unified memory helps high-throughput CPU (Central Processing Unit)-GPU (Graphics Processing Unit) data movement.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What do agentic AI workflows require from OS-level infrastructure?",
+              "prompt": "What do agentic AI (Artificial Intelligence) workflows require from OS (Operating System)-level infrastructure?",
               "choices": [
                 "Shared context, permissions, budgets, governance, auditing, and traceability.",
                 "Only a local printer queue.",
@@ -16632,103 +16632,103 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "AI workloads benefit from prediction instead of static heuristics.",
+              "explanation": "AI (Artificial Intelligence) workloads benefit from prediction instead of static heuristics.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the architectural shift caused by LLMs and foundation models?",
+              "prompt": "What is the architectural shift caused by LLMs (Large Language Models) and foundation models?",
               "choices": [
-                "From GPUs to floppy-only systems.",
+                "From GPUs (Graphics Processing Units) to floppy-only systems.",
                 "From dynamic optimization to fixed single-task systems.",
-                "From CPU-centric static OS designs toward accelerator-centric self-optimizing platforms.",
-                "From resource management to no OS at all."
+                "From CPU (Central Processing Unit)-centric static OS (Operating System) designs toward accelerator-centric self-optimizing platforms.",
+                "From resource management to no OS (Operating System) at all."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Modern AI makes GPU/NPU the primary compute unit.",
+              "explanation": "Modern AI (Artificial Intelligence) makes GPU (Graphics Processing Unit)/NPU (Neural Processing Unit) the primary compute unit.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How do traditional apps differ from AI workloads?",
+              "prompt": "How do traditional apps differ from AI (Artificial Intelligence) workloads?",
               "choices": [
-                "Traditional apps always require more GPUs than AI.",
-                "AI workloads are always purely sequential.",
-                "AI workloads have predictable tiny memory access only.",
-                "Traditional apps are often control-flow or I/O bound; AI workloads are compute-bound and massively parallel."
+                "Traditional apps always require more GPUs (Graphics Processing Units) than AI (Artificial Intelligence).",
+                "AI (Artificial Intelligence) workloads are always purely sequential.",
+                "AI (Artificial Intelligence) workloads have predictable tiny memory access only.",
+                "Traditional apps are often control-flow or I/O bound; AI (Artificial Intelligence) workloads are compute-bound and massively parallel."
               ],
               "answer": [
                 3
               ],
-              "explanation": "AI commonly uses GEMM and stochastic massive parallelism.",
+              "explanation": "AI (Artificial Intelligence) commonly uses GEMM (General Matrix Multiply) and stochastic massive parallelism.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What operation consumes much GPU time in ML workloads?",
+              "prompt": "What operation consumes much GPU (Graphics Processing Unit) time in ML (Machine Learning) workloads?",
               "choices": [
-                "Dense matrix multiplication such as GEMM.",
+                "Dense matrix multiplication such as GEMM (General Matrix Multiply).",
                 "Opening registry keys.",
                 "Disk formatting.",
-                "DNS resolution."
+                "DNS (Domain Name System) resolution."
               ],
               "answer": [
                 0
               ],
-              "explanation": "GEMM can consume 60 to 80 percent of GPU time.",
+              "explanation": "GEMM (General Matrix Multiply) can consume 60 to 80 percent of GPU (Graphics Processing Unit) time.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the memory wall in LLM systems?",
+              "prompt": "What is the memory wall in LLM (Large Language Model) systems?",
               "choices": [
                 "A firewall that blocks all network traffic.",
                 "A bottleneck where memory bandwidth and capacity limit latency and model serving.",
                 "A disk partition used for swap.",
-                "A CPU-only scheduling queue."
+                "A CPU (Central Processing Unit)-only scheduling queue."
               ],
               "answer": [
                 1
               ],
-              "explanation": "LLMs can be limited by moving and storing KV/cache data more than raw compute.",
+              "explanation": "LLMs (Large Language Models) can be limited by moving and storing KV (Key-Value)/cache data more than raw compute.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does a KV cache store?",
+              "prompt": "What does a KV (Key-Value) cache store?",
               "choices": [
                 "Only encrypted passwords.",
-                "Only GPU temperature logs.",
+                "Only GPU (Graphics Processing Unit) temperature logs.",
                 "Intermediate key and value vectors used to avoid recomputing attention over previous tokens.",
                 "Only disk block addresses."
               ],
               "answer": [
                 2
               ],
-              "explanation": "KV cache speeds autoregressive generation.",
+              "explanation": "KV (Key-Value) cache speeds autoregressive generation.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does KV cache memory usage scale?",
+              "prompt": "How does KV (Key-Value) cache memory usage scale?",
               "choices": [
                 "Always stays constant regardless of input.",
-                "Only with number of CPU cores.",
+                "Only with number of CPU (Central Processing Unit) cores.",
                 "Only with disk seek time.",
                 "Linearly with sequence length and batch size."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Longer contexts and larger batches require more KV memory.",
+              "explanation": "Longer contexts and larger batches require more KV (Key-Value) memory.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16736,10 +16736,10 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is accelerator-centric scheduling concerned with?",
               "choices": [
-                "Interconnect bandwidth, HBM saturation, and training vs inference priorities.",
+                "Interconnect bandwidth, HBM (High Bandwidth Memory) saturation, and training vs inference priorities.",
                 "Only keyboard input timing.",
                 "Only printer queues.",
-                "Only NTFS compression."
+                "Only NTFS (New Technology File System) compression."
               ],
               "answer": [
                 0
@@ -16750,7 +16750,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the main priority for AI training workloads?",
+              "prompt": "What is the main priority for AI (Artificial Intelligence) training workloads?",
               "choices": [
                 "Lowest Time to First Token only.",
                 "High throughput such as tokens per second.",
@@ -16782,12 +16782,12 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which frameworks are examples of large-scale AI training infrastructure?",
+              "prompt": "Which frameworks are examples of large-scale AI (Artificial Intelligence) training infrastructure?",
               "choices": [
-                "NTFS and FAT.",
+                "NTFS (New Technology File System) and FAT (File Allocation Table).",
                 "TinyOS and nesC only.",
-                "SMB and NetBIOS.",
-                "Megatron-LM and DeepSpeed."
+                "SMB (Server Message Block) and NetBIOS.",
+                "Megatron-LM (Language Model) and DeepSpeed."
               ],
               "answer": [
                 3
@@ -16801,9 +16801,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which inference engines are named for optimizing responsiveness?",
               "choices": [
                 "vLLM and SGLang.",
-                "JFFS2 and UBIFS.",
+                "JFFS2 (Journaling Flash File System version 2) and UBIFS (Unsorted Block Image File System).",
                 "VMware and VirtualBox.",
-                "PAM and ACL."
+                "PAM (Pluggable Authentication Modules) and ACL (Access Control List)."
               ],
               "answer": [
                 0
@@ -16814,7 +16814,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does resource management in AI systems optimize?",
+              "prompt": "What does resource management in AI (Artificial Intelligence) systems optimize?",
               "choices": [
                 "Only desktop wallpaper.",
                 "Compute hardware, data, human capital, cost, performance, and energy.",
@@ -16824,23 +16824,23 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "AI resource management balances complex infrastructure demands.",
+              "explanation": "AI (Artificial Intelligence) resource management balances complex infrastructure demands.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which hardware types are common in AI compute management?",
+              "prompt": "Which hardware types are common in AI (Artificial Intelligence) compute management?",
               "choices": [
                 "Only keyboard controllers.",
                 "Only magnetic tape drives.",
-                "GPUs, TPUs, and specialized ASICs.",
-                "Only VGA text adapters."
+                "GPUs (Graphics Processing Units), TPUs (Tensor Processing Units), and specialized ASICs (Application-Specific Integrated Circuits).",
+                "Only VGA (Video Graphics Array) text adapters."
               ],
               "answer": [
                 2
               ],
-              "explanation": "AI systems rely on heterogeneous accelerators.",
+              "explanation": "AI (Artificial Intelligence) systems rely on heterogeneous accelerators.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16849,7 +16849,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is green scheduling?",
               "choices": [
                 "Scheduling only green-colored processes.",
-                "Disabling all GPUs.",
+                "Disabling all GPUs (Graphics Processing Units).",
                 "Always using the nearest deadline first.",
                 "Routing workloads to lower-carbon times or data centers and power-gating idle nodes."
               ],
@@ -16862,27 +16862,27 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is data pipelining important for AI?",
+              "prompt": "Why is data pipelining important for AI (Artificial Intelligence)?",
               "choices": [
-                "It prevents GPUs from being starved while streaming data and model updates.",
-                "It blocks all GPU execution.",
+                "It prevents GPUs (Graphics Processing Units) from being starved while streaming data and model updates.",
+                "It blocks all GPU (Graphics Processing Unit) execution.",
                 "It replaces tensors with passwords.",
-                "It forces CPU-only inference."
+                "It forces CPU (Central Processing Unit)-only inference."
               ],
               "answer": [
                 0
               ],
-              "explanation": "AI accelerators need steady data feeds.",
+              "explanation": "AI (Artificial Intelligence) accelerators need steady data feeds.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does Kubernetes provide in AI orchestration?",
+              "prompt": "What does Kubernetes provide in AI (Artificial Intelligence) orchestration?",
               "choices": [
-                "GPU matrix multiplication kernels only.",
+                "GPU (Graphics Processing Unit) matrix multiplication kernels only.",
                 "Container orchestration, job management, fault tolerance, and scaling support.",
-                "KV cache compression only.",
+                "KV (Key-Value) cache compression only.",
                 "Disk head movement scheduling only."
               ],
               "answer": [
@@ -16898,13 +16898,13 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "It permanently disables telemetry.",
                 "It only compresses model weights.",
-                "An RL agent observes system state and learns sequential allocation decisions.",
+                "An RL (Reinforcement Learning) agent observes system state and learns sequential allocation decisions.",
                 "It creates page tables manually."
               ],
               "answer": [
                 2
               ],
-              "explanation": "RL can outperform fixed heuristics for changing workloads.",
+              "explanation": "RL (Reinforcement Learning) can outperform fixed heuristics for changing workloads.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16913,7 +16913,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does predictive analytics do in data centers?",
               "choices": [
                 "Delete all historical data.",
-                "Run every model on one CPU.",
+                "Run every model on one CPU (Central Processing Unit).",
                 "Prevent serverless scaling.",
                 "Forecast future resource demand from historical patterns to pre-provision hardware."
               ],
@@ -16928,9 +16928,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is serverless computing in this context?",
               "choices": [
-                "Breaking AI functions into microservices that scale on demand and to zero when idle.",
-                "Keeping every GPU allocated forever.",
-                "Installing one monolithic VM per user.",
+                "Breaking AI (Artificial Intelligence) functions into microservices that scale on demand and to zero when idle.",
+                "Keeping every GPU (Graphics Processing Unit) allocated forever.",
+                "Installing one monolithic VM (Virtual Machine) per user.",
                 "Running only firmware partitions."
               ],
               "answer": [
@@ -16945,7 +16945,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What challenge does heterogeneity create?",
               "choices": [
                 "All devices become identical.",
-                "Mixed GPU/TPU/NPU generations have different performance and power profiles.",
+                "Mixed GPU (Graphics Processing Unit)/TPU (Tensor Processing Unit)/NPU (Neural Processing Unit) generations have different performance and power profiles.",
                 "Scheduling no longer matters.",
                 "Every model fits on one device."
               ],
@@ -16958,9 +16958,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the scalability challenge in distributed AI training?",
+              "prompt": "What is the scalability challenge in distributed AI (Artificial Intelligence) training?",
               "choices": [
-                "Keeping all training on one CPU core.",
+                "Keeping all training on one CPU (Central Processing Unit) core.",
                 "Avoiding any interconnect use.",
                 "Balancing large-scale training with communication overhead and network bandwidth limits.",
                 "Replacing models with text files."
@@ -16968,7 +16968,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "More GPUs can add communication cost.",
+              "explanation": "More GPUs (Graphics Processing Units) can add communication cost.",
               "fullExplanation": null,
               "points": 1
             },
@@ -16976,7 +16976,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is the cold start problem?",
               "choices": [
-                "A GPU overheating problem.",
+                "A GPU (Graphics Processing Unit) overheating problem.",
                 "A disk seek problem.",
                 "A password reset problem.",
                 "Predicting resources for new models or sudden traffic with little or no history."
@@ -16992,7 +16992,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What are compute bubbles?",
               "choices": [
-                "Idle periods during inter-GPU communication or memory synchronization.",
+                "Idle periods during inter-GPU (Graphics Processing Unit) communication or memory synchronization.",
                 "Encrypted model weights.",
                 "Disk blocks that cannot be read.",
                 "User interface windows."
@@ -17000,7 +17000,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Bubbles waste GPU time during distributed training.",
+              "explanation": "Bubbles waste GPU (Graphics Processing Unit) time during distributed training.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17009,7 +17009,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does Hummingbird exploit?",
               "choices": [
                 "Only unused disk sectors.",
-                "Small compute bubbles to run low-priority tasks without violating high-priority SLOs.",
+                "Small compute bubbles to run low-priority tasks without violating high-priority SLOs (Service Level Objectives).",
                 "Only password hash tables.",
                 "Only bootloader stages."
               ],
@@ -17025,7 +17025,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does Bless do?",
               "choices": [
                 "Deletes all low-priority jobs.",
-                "Forces every GPU to run one tenant only.",
+                "Forces every GPU (Graphics Processing Unit) to run one tenant only.",
                 "Groups kernels from different applications to fill resource gaps and guarantee tenant quotas.",
                 "Replaces Kubernetes."
               ],
@@ -17038,23 +17038,23 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why must AI scheduling be NUMA-aware?",
+              "prompt": "Why must AI (Artificial Intelligence) scheduling be NUMA (Non-Uniform Memory Access)-aware?",
               "choices": [
                 "To make all memory local by definition.",
-                "To avoid using GPUs.",
+                "To avoid using GPUs (Graphics Processing Units).",
                 "To replace tensor parallelism.",
                 "To reduce latency for cross-device transfers in complex hardware topologies."
               ],
               "answer": [
                 3
               ],
-              "explanation": "NUMA placement affects data-transfer cost.",
+              "explanation": "NUMA (Non-Uniform Memory Access) placement affects data-transfer cost.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is naive KV-cache memory allocation wasteful?",
+              "prompt": "Why is naive KV (Key-Value)-cache memory allocation wasteful?",
               "choices": [
                 "Internal fragmentation can waste 60 to 80 percent of memory.",
                 "It always reduces waste below 1 percent.",
@@ -17073,8 +17073,8 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is PagedAttention?",
               "choices": [
                 "A disk elevator algorithm.",
-                "A virtual-memory-inspired method that partitions KV cache into fixed-size non-contiguous blocks.",
-                "A GPU side-channel attack.",
+                "A virtual-memory-inspired method that partitions KV (Key-Value) cache into fixed-size non-contiguous blocks.",
+                "A GPU (Graphics Processing Unit) side-channel attack.",
                 "A bootloader verification method."
               ],
               "answer": [
@@ -17089,14 +17089,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What benefit does PagedAttention provide?",
               "choices": [
                 "It prevents all batching.",
-                "It removes the KV cache completely.",
-                "It can reduce KV-cache fragmentation to under 4 percent and share common prefixes.",
+                "It removes the KV (Key-Value) cache completely.",
+                "It can reduce KV (Key-Value)-cache fragmentation to under 4 percent and share common prefixes.",
                 "It requires contiguous memory only."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Paged KV blocks improve memory efficiency.",
+              "explanation": "Paged KV (Key-Value) blocks improve memory efficiency.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17104,8 +17104,8 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What does IceCache do?",
               "choices": [
-                "Runs Docker containers on GPUs.",
-                "Partitions CPUs into VMs.",
+                "Runs Docker containers on GPUs (Graphics Processing Units).",
+                "Partitions CPUs (Central Processing Units) into VMs (Virtual Machines).",
                 "Encrypts all model weights.",
                 "Groups semantically related tokens into the same memory pages to improve retrieval and bandwidth use."
               ],
@@ -17118,33 +17118,33 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does KV-cache offloading with NVIDIA Dynamo or LMCache enable?",
+              "prompt": "What does KV (Key-Value)-cache offloading with NVIDIA (graphics processing platform) Dynamo or LMCache enable?",
               "choices": [
-                "Moving KV cache to CPU RAM or SSD so very long contexts can be served with fewer GPUs.",
+                "Moving KV (Key-Value) cache to CPU (Central Processing Unit) RAM (Random Access Memory) or SSD (Solid State Drive) so very long contexts can be served with fewer GPUs (Graphics Processing Units).",
                 "Running all inference without storage.",
                 "Making every token recompute from scratch.",
-                "Disabling CPU-GPU transfer."
+                "Disabling CPU (Central Processing Unit)-GPU (Graphics Processing Unit) transfer."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Offloading extends context capacity beyond GPU memory.",
+              "explanation": "Offloading extends context capacity beyond GPU (Graphics Processing Unit) memory.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which tier is primary for active AI computation in tiered memory?",
+              "prompt": "Which tier is primary for active AI (Artificial Intelligence) computation in tiered memory?",
               "choices": [
                 "Remote storage.",
-                "GPU HBM.",
-                "CPU DRAM only.",
+                "GPU (Graphics Processing Unit) HBM (High Bandwidth Memory).",
+                "CPU (Central Processing Unit) DRAM (Dynamic Random Access Memory) only.",
                 "Optical disk."
               ],
               "answer": [
                 1
               ],
-              "explanation": "HBM is closest to GPU compute and highest bandwidth.",
+              "explanation": "HBM (High Bandwidth Memory) is closest to GPU (Graphics Processing Unit) compute and highest bandwidth.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17152,7 +17152,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is Stream2LLM designed to reduce?",
               "choices": [
-                "Disk seek time in NTFS.",
+                "Disk seek time in NTFS (New Technology File System).",
                 "Password cracking cost.",
                 "Time-to-First-Token by overlapping context streaming and prefill.",
                 "Kernel boot time only."
@@ -17166,25 +17166,25 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What role do GPU drivers play?",
+              "prompt": "What role do GPU (Graphics Processing Unit) drivers play?",
               "choices": [
                 "Only store user documents.",
-                "Only manage DNS names.",
+                "Only manage DNS (Domain Name System) names.",
                 "Only draw desktop icons.",
-                "Translate high-level APIs into hardware commands and manage queues, memory, scheduling, and interrupts."
+                "Translate high-level APIs (Application Programming Interfaces) into hardware commands and manage queues, memory, scheduling, and interrupts."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Drivers bridge CUDA/Vulkan/DirectX APIs and GPU hardware.",
+              "explanation": "Drivers bridge CUDA/Vulkan/DirectX APIs (Application Programming Interfaces) and GPU (Graphics Processing Unit) hardware.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why are GPU device queues often ring buffers?",
+              "prompt": "Why are GPU (Graphics Processing Unit) device queues often ring buffers?",
               "choices": [
-                "CPU and GPU can share command queues through DMA-accessible memory.",
+                "CPU (Central Processing Unit) and GPU (Graphics Processing Unit) can share command queues through DMA (Direct Memory Access)-accessible memory.",
                 "They store passwords in circular form.",
                 "They replace all synchronization.",
                 "They are only file-system directories."
@@ -17198,10 +17198,10 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the split between user-space and kernel-space GPU drivers?",
+              "prompt": "What is the split between user-space and kernel-space GPU (Graphics Processing Unit) drivers?",
               "choices": [
                 "User-space handles interrupts; kernel-space draws only windows.",
-                "User-space translates API calls; kernel-space manages memory, scheduling, interrupts, and hardware communication.",
+                "User-space translates API (Application Programming Interface) calls; kernel-space manages memory, scheduling, interrupts, and hardware communication.",
                 "Both parts do exactly the same work.",
                 "There is no kernel component."
               ],
@@ -17214,9 +17214,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does DCGM provide in GPU clusters?",
+              "prompt": "What does DCGM (Data Center GPU (Graphics Processing Unit) Manager) provide in GPU (Graphics Processing Unit) clusters?",
               "choices": [
-                "KV-cache token clustering.",
+                "KV (Key-Value)-cache token clustering.",
                 "Java bytecode execution.",
                 "Health tracking, telemetry, and thermal reporting.",
                 "Disk journaling."
@@ -17224,39 +17224,39 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "NVIDIA DCGM is a management suite over the driver stack.",
+              "explanation": "NVIDIA DCGM (Data Center GPU Manager) is a management suite over the driver stack.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is GPU direct pass-through?",
+              "prompt": "What is GPU (Graphics Processing Unit) direct pass-through?",
               "choices": [
-                "Splitting GPU silicon into many isolated MIG instances.",
-                "Forwarding CUDA API calls only.",
-                "Sharing one GPU through time slices only.",
-                "Assigning a full physical GPU exclusively to one VM for near-native performance."
+                "Splitting GPU (Graphics Processing Unit) silicon into many isolated MIG (Multi-Instance GPU) instances.",
+                "Forwarding CUDA API (Application Programming Interface) calls only.",
+                "Sharing one GPU (Graphics Processing Unit) through time slices only.",
+                "Assigning a full physical GPU (Graphics Processing Unit) exclusively to one VM (Virtual Machine) for near-native performance."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Pass-through is fast but not flexible because the GPU is not shared.",
+              "explanation": "Pass-through is fast but not flexible because the GPU (Graphics Processing Unit) is not shared.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is API remoting?",
+              "prompt": "What is API (Application Programming Interface) remoting?",
               "choices": [
-                "Capturing API calls such as CUDA in a container and forwarding them to a host GPU.",
-                "Giving the VM an entire physical GPU.",
-                "Slicing GPU hardware at silicon level.",
-                "Replacing APIs with disk images."
+                "Capturing API (Application Programming Interface) calls such as CUDA in a container and forwarding them to a host GPU (Graphics Processing Unit).",
+                "Giving the VM (Virtual Machine) an entire physical GPU (Graphics Processing Unit).",
+                "Slicing GPU (Graphics Processing Unit) hardware at silicon level.",
+                "Replacing APIs (Application Programming Interfaces) with disk images."
               ],
               "answer": [
                 0
               ],
-              "explanation": "API remoting is lightweight but may lack native feature coverage.",
+              "explanation": "API (Application Programming Interface) remoting is lightweight but may lack native feature coverage.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17264,63 +17264,63 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is mediated pass-through or vGPU?",
               "choices": [
-                "A full GPU is dedicated to one VM only.",
-                "A hypervisor abstracts a physical GPU into virtual instances using a split driver model.",
+                "A full GPU (Graphics Processing Unit) is dedicated to one VM (Virtual Machine) only.",
+                "A hypervisor abstracts a physical GPU (Graphics Processing Unit) into virtual instances using a split driver model.",
                 "Every CUDA call is sent by email.",
-                "The CPU performs all graphics work."
+                "The CPU (Central Processing Unit) performs all graphics work."
               ],
               "answer": [
                 1
               ],
-              "explanation": "vGPU shares a physical GPU among VMs.",
+              "explanation": "vGPU shares a physical GPU (Graphics Processing Unit) among VMs (Virtual Machines).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "How does MIG differ from time-slicing?",
+              "prompt": "How does MIG (Multi-Instance GPU (Graphics Processing Unit)) differ from time-slicing?",
               "choices": [
-                "MIG only forwards API calls.",
+                "MIG (Multi-Instance GPU) only forwards API (Application Programming Interface) calls.",
                 "Time-slicing gives permanent silicon partitions.",
-                "MIG slices GPU hardware into isolated compute and memory partitions, while time-slicing rapidly switches contexts.",
+                "MIG (Multi-Instance GPU) slices GPU (Graphics Processing Unit) hardware into isolated compute and memory partitions, while time-slicing rapidly switches contexts.",
                 "They are identical methods."
               ],
               "answer": [
                 2
               ],
-              "explanation": "MIG provides stronger hardware-level partitioning.",
+              "explanation": "MIG (Multi-Instance GPU) provides stronger hardware-level partitioning.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What are MMIO and BARs used for?",
+              "prompt": "What are MMIO (Memory-Mapped I/O) and BARs (Base Address Registers) used for?",
               "choices": [
-                "They store KV-cache tokens by semantic class only.",
+                "They store KV (Key-Value)-cache tokens by semantic class only.",
                 "They run Kubernetes jobs.",
                 "They create model checkpoints.",
-                "They let the CPU access GPU control registers through mapped memory windows."
+                "They let the CPU (Central Processing Unit) access GPU (Graphics Processing Unit) control registers through mapped memory windows."
               ],
               "answer": [
                 3
               ],
-              "explanation": "BARs expose device memory/control regions to the CPU.",
+              "explanation": "BARs (Base Address Registers) expose device memory/control regions to the CPU (Central Processing Unit).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does DMA allow the GPU to do?",
+              "prompt": "What does DMA (Direct Memory Access) allow the GPU (Graphics Processing Unit) to do?",
               "choices": [
-                "Read data directly from system RAM without the CPU manually copying every byte.",
+                "Read data directly from system RAM (Random Access Memory) without the CPU (Central Processing Unit) manually copying every byte.",
                 "Disable all synchronization.",
                 "Convert tensors into files only.",
-                "Create VMs."
+                "Create VMs (Virtual Machines)."
               ],
               "answer": [
                 0
               ],
-              "explanation": "DMA improves high-speed data movement.",
+              "explanation": "DMA (Direct Memory Access) improves high-speed data movement.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17328,25 +17328,25 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What are command buffers?",
               "choices": [
-                "User passwords for GPU access.",
-                "Packaged instructions that the GPU reads asynchronously through DMA.",
+                "User passwords for GPU (Graphics Processing Unit) access.",
+                "Packaged instructions that the GPU (Graphics Processing Unit) reads asynchronously through DMA (Direct Memory Access).",
                 "Disk journal records.",
-                "OpenStack VM images."
+                "OpenStack VM (Virtual Machine) images."
               ],
               "answer": [
                 1
               ],
-              "explanation": "CPU drivers submit GPU work through command buffers.",
+              "explanation": "CPU (Central Processing Unit) drivers submit GPU (Graphics Processing Unit) work through command buffers.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why are semaphores, fences, and barriers needed in GPU systems?",
+              "prompt": "Why are semaphores, fences, and barriers needed in GPU (Graphics Processing Unit) systems?",
               "choices": [
                 "They replace all memory allocation.",
                 "They compress model weights.",
-                "They coordinate asynchronous CPU-GPU actions and prevent data races.",
+                "They coordinate asynchronous CPU (Central Processing Unit)-GPU (Graphics Processing Unit) actions and prevent data races.",
                 "They route network packets."
               ],
               "answer": [
@@ -17358,17 +17358,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is distributed AI?",
+              "prompt": "What is distributed AI (Artificial Intelligence)?",
               "choices": [
                 "Running every model on one isolated laptop only.",
                 "Removing all collaboration between devices.",
-                "Using only a single GPU with no network.",
-                "Spreading AI training or inference across multiple interconnected nodes or devices."
+                "Using only a single GPU (Graphics Processing Unit) with no network.",
+                "Spreading AI (Artificial Intelligence) training or inference across multiple interconnected nodes or devices."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Distributed AI lets devices collaborate and process data locally or jointly.",
+              "explanation": "Distributed AI (Artificial Intelligence) lets devices collaborate and process data locally or jointly.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17376,7 +17376,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What metrics measure distributed training success?",
               "choices": [
-                "Model FLOPs Utilization and training throughput.",
+                "Model FLOPs (Floating-Point Operations) Utilization and training throughput.",
                 "Only disk seek time.",
                 "Only password length.",
                 "Only number of files."
@@ -17384,7 +17384,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "MFU and throughput reflect training efficiency.",
+              "explanation": "MFU (Model FLOPs Utilization) and throughput reflect training efficiency.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17400,7 +17400,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "DP distributes batches across model replicas.",
+              "explanation": "DP (Data Parallelism) distributes batches across model replicas.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17409,9 +17409,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does ZeRO shard?",
               "choices": [
                 "Only input tokens by sequence.",
-                "Only CUDA API calls.",
+                "Only CUDA API (Application Programming Interface) calls.",
                 "Optimizer states, gradients, and parameters depending on stage.",
-                "Only GPU command buffers."
+                "Only GPU (Graphics Processing Unit) command buffers."
               ],
               "answer": [
                 2
@@ -17425,14 +17425,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What is tensor parallelism?",
               "choices": [
                 "Replicating the full model per data batch.",
-                "Moving KV cache to SSD.",
+                "Moving KV (Key-Value) cache to SSD (Solid State Drive).",
                 "Running different microservices on demand.",
-                "Sharding individual layers or operators such as matrix multiplications across GPUs."
+                "Sharding individual layers or operators such as matrix multiplications across GPUs (Graphics Processing Units)."
               ],
               "answer": [
                 3
               ],
-              "explanation": "TP splits compute inside layers.",
+              "explanation": "TP (Tensor Parallelism) splits compute inside layers.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17440,15 +17440,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why does tensor parallelism need high-bandwidth links?",
               "choices": [
-                "It is communication-intensive between GPUs working on the same operator.",
+                "It is communication-intensive between GPUs (Graphics Processing Units) working on the same operator.",
                 "It performs no communication.",
-                "It runs only on CPUs.",
+                "It runs only on CPUs (Central Processing Units).",
                 "It never shares tensors."
               ],
               "answer": [
                 0
               ],
-              "explanation": "NVLink-like intranode bandwidth is important for TP.",
+              "explanation": "NVLink-like intranode bandwidth is important for TP (Tensor Parallelism).",
               "fullExplanation": null,
               "points": 1
             },
@@ -17464,7 +17464,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "PP assigns different stages of the model to different devices.",
+              "explanation": "PP (Pipeline Parallelism) assigns different stages of the model to different devices.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17488,15 +17488,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is context parallelism?",
               "choices": [
-                "Splitting GPU silicon into MIG instances.",
+                "Splitting GPU (Graphics Processing Unit) silicon into MIG (Multi-Instance GPU) instances.",
                 "Replicating the whole model for each batch.",
-                "Forwarding API calls to a host GPU.",
+                "Forwarding API (Application Programming Interface) calls to a host GPU (Graphics Processing Unit).",
                 "Partitioning the sequence dimension to support ultra-long contexts."
               ],
               "answer": [
                 3
               ],
-              "explanation": "CP distributes activation memory for long contexts.",
+              "explanation": "CP (Context Parallelism) distributes activation memory for long contexts.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17505,9 +17505,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does 4D hybrid parallelism combine?",
               "choices": [
                 "Data, pipeline, tensor, and context parallelism.",
-                "SaaS, PaaS, IaaS, and NAS.",
-                "FCFS, SSTF, SCAN, and C-SCAN.",
-                "UID, GID, PID, and SID."
+                "SaaS, PaaS, IaaS, and NAS (Network-Attached Storage).",
+                "FCFS (First-Come, First-Served), SSTF (Shortest Seek Time First), SCAN (Elevator disk scheduling), and C-SCAN (Circular SCAN disk scheduling).",
+                "UID (User Identifier), GID (Group Identifier), PID (Process Identifier), and SID (Security Identifier)."
               ],
               "answer": [
                 0
@@ -17566,17 +17566,17 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the role of Ray in AI orchestration?",
+              "prompt": "What is the role of Ray in AI (Artificial Intelligence) orchestration?",
               "choices": [
                 "Scaling workloads and coordinating distributed processes.",
-                "Providing a GPU hardware BAR.",
-                "Replacing all containers with VMs.",
+                "Providing a GPU (Graphics Processing Unit) hardware BAR (Base Address Register).",
+                "Replacing all containers with VMs (Virtual Machines).",
                 "Running only disk scheduling."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Ray is a framework for distributed AI workload coordination.",
+              "explanation": "Ray is a framework for distributed AI (Artificial Intelligence) workload coordination.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17601,7 +17601,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does NodeSweep help with?",
               "choices": [
                 "Password salting.",
-                "GPU silicon slicing.",
+                "GPU (Graphics Processing Unit) silicon slicing.",
                 "Straggler detection and node health management.",
                 "File compression."
               ],
@@ -17614,9 +17614,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why do containers matter for AI?",
+              "prompt": "Why do containers matter for AI (Artificial Intelligence)?",
               "choices": [
-                "They always provide stronger hardware isolation than VMs.",
+                "They always provide stronger hardware isolation than VMs (Virtual Machines).",
                 "They remove dependency management.",
                 "They cannot run on cloud infrastructure.",
                 "They provide reproducible, portable, lightweight environments with packaged frameworks and drivers."
@@ -17630,33 +17630,33 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the NVIDIA Container Toolkit enable?",
+              "prompt": "What does the NVIDIA (graphics processing platform) Container Toolkit enable?",
               "choices": [
-                "Docker containers can access host GPU resources through the driver.",
+                "Docker containers can access host GPU (Graphics Processing Unit) resources through the driver.",
                 "Guests get exclusive firmware partitions.",
                 "Java bytecode becomes native code.",
-                "KV cache is stored only on SSD."
+                "KV (Key-Value) cache is stored only on SSD (Solid State Drive)."
               ],
               "answer": [
                 0
               ],
-              "explanation": "The toolkit connects containers to NVIDIA GPUs.",
+              "explanation": "The toolkit connects containers to NVIDIA GPUs (Graphics Processing Units).",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is Edge AI?",
+              "prompt": "What is Edge AI (Artificial Intelligence)?",
               "choices": [
-                "Running all AI only in far cloud datacenters.",
-                "Running AI models near the data source instead of only in centralized cloud servers.",
+                "Running all AI (Artificial Intelligence) only in far cloud datacenters.",
+                "Running AI (Artificial Intelligence) models near the data source instead of only in centralized cloud servers.",
                 "Disabling real-time decisions.",
                 "Using no local hardware."
               ],
               "answer": [
                 1
               ],
-              "explanation": "Edge AI reduces latency and can improve privacy.",
+              "explanation": "Edge AI (Artificial Intelligence) reduces latency and can improve privacy.",
               "fullExplanation": null,
               "points": 1
             },
@@ -17664,7 +17664,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Why are TinyML and Small Language Models useful at the edge?",
               "choices": [
-                "They require the largest possible cloud GPUs.",
+                "They require the largest possible cloud GPUs (Graphics Processing Units).",
                 "They prevent model compression.",
                 "They reduce latency and improve privacy on constrained devices.",
                 "They require floating-point-only attention."
@@ -17696,15 +17696,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is OrinFlight designed for?",
               "choices": [
-                "Real-time embedded AI on NVIDIA Jetson Orin for autonomous aviation.",
+                "Real-time embedded AI (Artificial Intelligence) on NVIDIA Jetson Orin for autonomous aviation.",
                 "Disk scheduling for multimedia streams.",
-                "Windows NTFS recovery.",
+                "Windows NTFS (New Technology File System) recovery.",
                 "Java garbage collection only."
               ],
               "answer": [
                 0
               ],
-              "explanation": "OrinFlight targets strict real-time embedded AI.",
+              "explanation": "OrinFlight targets strict real-time embedded AI (Artificial Intelligence).",
               "fullExplanation": null,
               "points": 1
             },
@@ -17712,9 +17712,9 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which scheduling/security features does OrinFlight include?",
               "choices": [
-                "Only FCFS disk scheduling.",
-                "Synchronized distributed processing, priority-based CPU/GPU scheduling, and SELinux.",
-                "Only SMB networking.",
+                "Only FCFS (First-Come, First-Served) disk scheduling.",
+                "Synchronized distributed processing, priority-based CPU (Central Processing Unit)/GPU (Graphics Processing Unit) scheduling, and SELinux.",
+                "Only SMB (Server Message Block) networking.",
                 "Only password salts."
               ],
               "answer": [
@@ -17730,13 +17730,13 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "A disk file system for Linux.",
                 "A Type 0 hypervisor.",
-                "An LMM-based robotic system that integrates multimodal generative AI into the control loop.",
+                "An LMM (Large Memory Model)-based robotic system that integrates multimodal generative AI (Artificial Intelligence) into the control loop.",
                 "A password authentication module."
               ],
               "answer": [
                 2
               ],
-              "explanation": "CognitiveOS connects generative AI with robotic control.",
+              "explanation": "CognitiveOS connects generative AI (Artificial Intelligence) with robotic control.",
               "fullExplanation": null,
               "points": 1
             }
@@ -17764,7 +17764,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "Preemptable resources such as CPU time or swapped memory can be reclaimed safely.",
+              "explanation": "Preemptable resources such as CPU (Central Processing Unit) time or swapped memory can be reclaimed safely.",
               "fullExplanation": "Preemptable resources such as CPU time or swapped memory can be reclaimed safely.",
               "points": 1
             },
@@ -17821,7 +17821,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which definition matches deadlock?",
               "choices": [
                 "Each process in a set waits for an event only another process in the same set can cause",
-                "A process uses the CPU for a long time",
+                "A process uses the CPU (Central Processing Unit) for a long time",
                 "A process finishes normally",
                 "A process has a high priority"
               ],
@@ -17981,14 +17981,14 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "Which algorithm can check a resource graph for cycles?",
               "choices": [
                 "Round Robin",
-                "FIFO page replacement",
+                "FIFO (First-In, First-Out) page replacement",
                 "Depth-first search",
                 "Shortest Job First"
               ],
               "answer": [
                 2
               ],
-              "explanation": "DFS can detect cycles in a directed graph.",
+              "explanation": "DFS (Distributed File System) can detect cycles in a directed graph.",
               "fullExplanation": "DFS can detect cycles in a directed graph.",
               "points": 1
             },
@@ -18141,9 +18141,9 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What must processes declare for Banker’s algorithm to work?",
               "choices": [
                 "Maximum resource needs in advance",
-                "Only their process IDs",
+                "Only their process IDs (Identifiers)",
                 "Only their arrival times",
-                "Only their CPU burst time"
+                "Only their CPU (Central Processing Unit) burst time"
               ],
               "answer": [
                 0
@@ -18254,7 +18254,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "It cannot detect unsafe states",
                 "It requires no information from processes",
-                "It works only for CPU scheduling",
+                "It works only for CPU (Central Processing Unit) scheduling",
                 "Maximum needs and resource sets are often unknown or dynamic"
               ],
               "answer": [
@@ -18280,7 +18280,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "ما هو المورد القابل للاسترداد؟",
               "choices": [
-                "مورد يمكن أخذه من العملية بدون ضرر مثل CPU أو الذاكرة",
+                "مورد يمكن أخذه من العملية بدون ضرر مثل CPU (Central Processing Unit) أو الذاكرة",
                 "مورد لا يمكن أخذه مثل الطابعة أثناء الطباعة",
                 "مورد لا يحتاج إلى طلب",
                 "مورد لا يسبب انتظار أبدا"
@@ -18530,7 +18530,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "In FIFO page replacement, which page is removed on a fault when frames are full?",
+              "prompt": "In FIFO (First-In, First-Out) page replacement, which page is removed on a fault when frames are full?",
               "choices": [
                 "The oldest loaded page",
                 "The least recently used page",
@@ -18540,13 +18540,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "FIFO removes pages in arrival order.",
+              "explanation": "FIFO (First-In, First-Out) removes pages in arrival order.",
               "fullExplanation": "FIFO removes pages in arrival order.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "In LRU page replacement, which page is removed?",
+              "prompt": "In LRU (Least Recently Used) page replacement, which page is removed?",
               "choices": [
                 "The oldest loaded page regardless of use",
                 "The page not used for the longest time in the past",
@@ -18556,7 +18556,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "LRU chooses by past recency.",
+              "explanation": "LRU (Least Recently Used) chooses by past recency.",
               "fullExplanation": "LRU chooses by past recency.",
               "points": 1
             },
@@ -18594,7 +18594,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "For frames [7,0,1] using FIFO, next reference is 2. Which page is replaced?",
+              "prompt": "For frames [7,0,1] using FIFO (First-In, First-Out), next reference is 2. Which page is replaced?",
               "choices": [
                 "7",
                 "0",
@@ -18604,13 +18604,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "7 entered first, so FIFO evicts 7.",
+              "explanation": "7 entered first, so FIFO (First-In, First-Out) evicts 7.",
               "fullExplanation": "7 entered first, so FIFO evicts 7.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "For frames [7,0,1] with recent use order 7 oldest, then 0, then 1 newest. LRU sees reference 2. Which page is replaced?",
+              "prompt": "For frames [7,0,1] with recent use order 7 oldest, then 0, then 1 newest. LRU (Least Recently Used) sees reference 2. Which page is replaced?",
               "choices": [
                 "0",
                 "7",
@@ -18620,7 +18620,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "LRU removes the least recently used page, 7.",
+              "explanation": "LRU (Least Recently Used) removes the least recently used page, 7.",
               "fullExplanation": "LRU removes the least recently used page, 7.",
               "points": 1
             },
@@ -18642,7 +18642,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Using FIFO with 3 frames on 7,0,1,2,0,3,0,4,2,3,0,3,2, how many faults occur?",
+              "prompt": "Using FIFO (First-In, First-Out) with 3 frames on 7,0,1,2,0,3,0,4,2,3,0,3,2, how many faults occur?",
               "choices": [
                 "7",
                 "9",
@@ -18652,13 +18652,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Step through FIFO: faults on 7,0,1,2,3,0,4,2,3,0 = 10.",
+              "explanation": "Step through FIFO (First-In, First-Out): faults on 7,0,1,2,3,0,4,2,3,0 = 10.",
               "fullExplanation": "Step through FIFO: faults on 7,0,1,2,3,0,4,2,3,0 = 10.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Using LRU with 3 frames on 7,0,1,2,0,3,0,4,2,3,0,3,2, how many faults occur?",
+              "prompt": "Using LRU (Least Recently Used) with 3 frames on 7,0,1,2,0,3,0,4,2,3,0,3,2, how many faults occur?",
               "choices": [
                 "9",
                 "10",
@@ -18668,7 +18668,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "LRU faults 9 times for this classic reference string.",
+              "explanation": "LRU (Least Recently Used) faults 9 times for this classic reference string.",
               "fullExplanation": "LRU faults 9 times for this classic reference string.",
               "points": 1
             },
@@ -18692,15 +18692,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which algorithm can show Belady’s anomaly?",
               "choices": [
-                "LRU",
+                "LRU (Least Recently Used)",
                 "Optimal",
-                "FIFO",
+                "FIFO (First-In, First-Out)",
                 "Aging only"
               ],
               "answer": [
                 2
               ],
-              "explanation": "FIFO may have more faults with more frames.",
+              "explanation": "FIFO (First-In, First-Out) may have more faults with more frames.",
               "fullExplanation": "FIFO may have more faults with more frames.",
               "points": 1
             },
@@ -18716,7 +18716,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "Real OSs do not know future page references exactly.",
+              "explanation": "Real OSs (Operating Systems) do not know future page references exactly.",
               "fullExplanation": "Real OSs do not know future page references exactly.",
               "points": 1
             },
@@ -18724,21 +18724,21 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which algorithm updates recency when a page hit occurs?",
               "choices": [
-                "LRU",
-                "FIFO only",
+                "LRU (Least Recently Used)",
+                "FIFO (First-In, First-Out) only",
                 "Optimal only",
-                "FCFS scheduling"
+                "FCFS (First-Come, First-Served) scheduling"
               ],
               "answer": [
                 0
               ],
-              "explanation": "LRU must update last-use order on hits.",
+              "explanation": "LRU (Least Recently Used) must update last-use order on hits.",
               "fullExplanation": "LRU must update last-use order on hits.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "In FIFO code, what does the pointer track?",
+              "prompt": "In FIFO (First-In, First-Out) code, what does the pointer track?",
               "choices": [
                 "The most recently used page",
                 "The frame to replace next",
@@ -18748,7 +18748,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "The pointer cycles through frames in FIFO order.",
+              "explanation": "The pointer cycles through frames in FIFO (First-In, First-Out) order.",
               "fullExplanation": "The pointer cycles through frames in FIFO order.",
               "points": 1
             },
@@ -18770,7 +18770,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "For 3 empty frames and references 1,2,1, how many FIFO faults?",
+              "prompt": "For 3 empty frames and references 1,2,1, how many FIFO (First-In, First-Out) faults?",
               "choices": [
                 "1",
                 "3",
@@ -18786,7 +18786,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "For 2 frames using FIFO and references 1,2,3, which pages remain?",
+              "prompt": "For 2 frames using FIFO (First-In, First-Out) and references 1,2,3, which pages remain?",
               "choices": [
                 "3 and 2",
                 "1 and 2",
@@ -18802,7 +18802,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "For 2 frames using LRU and references 1,2,1,3, which page is replaced by 3?",
+              "prompt": "For 2 frames using LRU (Least Recently Used) and references 1,2,1,3, which page is replaced by 3?",
               "choices": [
                 "1",
                 "2",
@@ -18820,7 +18820,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "Which page replacement algorithm gives the best possible fault count for a fixed reference string?",
               "choices": [
-                "FIFO",
+                "FIFO (First-In, First-Out)",
                 "Random",
                 "Optimal",
                 "Second Chance always"
@@ -18837,7 +18837,7 @@ window.UNIFIED_EXAM_DATA = {
               "prompt": "What does a page fault mean in these algorithms?",
               "choices": [
                 "The page is already in memory",
-                "The CPU completed a process",
+                "The CPU (Central Processing Unit) completed a process",
                 "A disk quota was exceeded",
                 "The requested page is not currently in a frame"
               ],
@@ -18862,7 +18862,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "In FCFS scheduling, which process runs first?",
+              "prompt": "In FCFS (First-Come, First-Served) scheduling, which process runs first?",
               "choices": [
                 "The process with the earliest arrival time",
                 "The process with shortest burst",
@@ -18872,13 +18872,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "FCFS orders processes by arrival time.",
+              "explanation": "FCFS (First-Come, First-Served) orders processes by arrival time.",
               "fullExplanation": "FCFS orders processes by arrival time.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "FCFS example P1(AT=0,BT=5), P2(AT=1,BT=3), P3(AT=2,BT=2). What is the Gantt chart?",
+              "prompt": "FCFS (First-Come, First-Served) example P1(AT=0,BT=5), P2(AT=1,BT=3), P3(AT=2,BT=2). What is the Gantt chart?",
               "choices": [
                 "P1 0-2, P2 2-5, P3 5-10",
                 "P1 0-5, P2 5-8, P3 8-10",
@@ -18888,13 +18888,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "FCFS runs by arrival: P1 then P2 then P3.",
+              "explanation": "FCFS (First-Come, First-Served) runs by arrival: P1 then P2 then P3.",
               "fullExplanation": "FCFS runs by arrival: P1 then P2 then P3.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "In that FCFS example, what is P2 waiting time?",
+              "prompt": "In that FCFS (First-Come, First-Served) example, what is P2 waiting time?",
               "choices": [
                 "0",
                 "3",
@@ -18910,7 +18910,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that FCFS example, what is P3 waiting time?",
+              "prompt": "In that FCFS (First-Come, First-Served) example, what is P3 waiting time?",
               "choices": [
                 "2",
                 "8",
@@ -18926,7 +18926,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that FCFS example, what is P1 turnaround time?",
+              "prompt": "In that FCFS (First-Come, First-Served) example, what is P1 turnaround time?",
               "choices": [
                 "5",
                 "0",
@@ -18942,7 +18942,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that FCFS example, what is P2 turnaround time?",
+              "prompt": "In that FCFS (First-Come, First-Served) example, what is P2 turnaround time?",
               "choices": [
                 "4",
                 "7",
@@ -18958,7 +18958,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that FCFS example, what is P3 turnaround time?",
+              "prompt": "In that FCFS (First-Come, First-Served) example, what is P3 turnaround time?",
               "choices": [
                 "6",
                 "2",
@@ -18974,7 +18974,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that FCFS example, what is average waiting time?",
+              "prompt": "In that FCFS (First-Come, First-Served) example, what is average waiting time?",
               "choices": [
                 "4.00",
                 "6.67",
@@ -18990,7 +18990,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that FCFS example, what is average turnaround time?",
+              "prompt": "In that FCFS (First-Come, First-Served) example, what is average turnaround time?",
               "choices": [
                 "6.67",
                 "3.33",
@@ -19006,7 +19006,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What happens in FCFS if CPU is idle and the next process arrives later?",
+              "prompt": "What happens in FCFS (First-Come, First-Served) if CPU (Central Processing Unit) is idle and the next process arrives later?",
               "choices": [
                 "Waiting time becomes negative",
                 "Current time jumps to that process arrival time",
@@ -19022,7 +19022,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which formula gives waiting time in nonpreemptive FCFS?",
+              "prompt": "Which formula gives waiting time in nonpreemptive FCFS (First-Come, First-Served)?",
               "choices": [
                 "Finish time - burst time only",
                 "Arrival time + burst time",
@@ -19068,7 +19068,7 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "In Round Robin, what is the time quantum?",
               "choices": [
-                "Maximum CPU time a process gets before being rotated if not finished",
+                "Maximum CPU (Central Processing Unit) time a process gets before being rotated if not finished",
                 "Total burst time of all processes",
                 "The waiting time of the first process",
                 "The number of frames in memory"
@@ -19082,7 +19082,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "RR example P1(AT=0,BT=5), P2(AT=1,BT=3), P3(AT=2,BT=2), quantum=2. What is the Gantt chart?",
+              "prompt": "RR (Round Robin) example P1(AT=0,BT=5), P2(AT=1,BT=3), P3(AT=2,BT=2), quantum=2. What is the Gantt chart?",
               "choices": [
                 "P1 0-5, P2 5-8, P3 8-10",
                 "P1 0-2, P2 2-4, P3 4-6, P1 6-8, P2 8-9, P1 9-10",
@@ -19098,7 +19098,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that RR example, when does P3 finish?",
+              "prompt": "In that RR (Round Robin) example, when does P3 finish?",
               "choices": [
                 "4",
                 "8",
@@ -19114,7 +19114,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that RR example, when does P2 finish?",
+              "prompt": "In that RR (Round Robin) example, when does P2 finish?",
               "choices": [
                 "8",
                 "6",
@@ -19130,7 +19130,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that RR example, when does P1 finish?",
+              "prompt": "In that RR (Round Robin) example, when does P1 finish?",
               "choices": [
                 "10",
                 "5",
@@ -19146,7 +19146,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that RR example, what is P1 waiting time?",
+              "prompt": "In that RR (Round Robin) example, what is P1 waiting time?",
               "choices": [
                 "0",
                 "5",
@@ -19162,7 +19162,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that RR example, what is P2 waiting time?",
+              "prompt": "In that RR (Round Robin) example, what is P2 waiting time?",
               "choices": [
                 "4",
                 "6",
@@ -19178,7 +19178,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that RR example, what is P3 waiting time?",
+              "prompt": "In that RR (Round Robin) example, what is P3 waiting time?",
               "choices": [
                 "4",
                 "6",
@@ -19194,7 +19194,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that RR example, what is average waiting time?",
+              "prompt": "In that RR (Round Robin) example, what is average waiting time?",
               "choices": [
                 "4.00",
                 "3.33",
@@ -19210,7 +19210,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "In that RR example, what is average turnaround time?",
+              "prompt": "In that RR (Round Robin) example, what is average turnaround time?",
               "choices": [
                 "4.00",
                 "7.33",
@@ -19242,7 +19242,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "What happens when no process is ready in the provided RR code?",
+              "prompt": "What happens when no process is ready in the provided RR (Round Robin) code?",
               "choices": [
                 "The program crashes immediately",
                 "A random process is created",
@@ -19270,7 +19270,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "In the MPI master-worker code, which rank is the master?",
+              "prompt": "In the MPI (Message Passing Interface) master-worker code, which rank is the master?",
               "choices": [
                 "Rank 0",
                 "Rank 1",
@@ -19291,12 +19291,12 @@ window.UNIFIED_EXAM_DATA = {
                 "The total number of tasks",
                 "The process rank inside MPI_COMM_WORLD",
                 "The square of the task",
-                "The TCP port"
+                "The TCP (Transmission Control Protocol) port"
               ],
               "answer": [
                 1
               ],
-              "explanation": "Rank identifies each MPI process.",
+              "explanation": "Rank identifies each MPI (Message Passing Interface) process.",
               "fullExplanation": "Rank identifies each MPI process.",
               "points": 1
             },
@@ -19306,7 +19306,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "The current worker task",
                 "The result buffer size only",
-                "The number of MPI processes",
+                "The number of MPI (Message Passing Interface) processes",
                 "The number of sockets"
               ],
               "answer": [
@@ -19318,7 +19318,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "If tasks=[1,2,3,4,5] and there are 3 MPI processes total, how many workers receive initial tasks?",
+              "prompt": "If tasks=[1,2,3,4,5] and there are 3 MPI (Message Passing Interface) processes total, how many workers receive initial tasks?",
               "choices": [
                 "3",
                 "5",
@@ -19366,9 +19366,9 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why might the MPI sample leave some tasks unused when workers are fewer than tasks?",
+              "prompt": "Why might the MPI (Message Passing Interface) sample leave some tasks unused when workers are fewer than tasks?",
               "choices": [
-                "MPI cannot send integers",
+                "MPI (Message Passing Interface) cannot send integers",
                 "rank 0 is also a worker",
                 "It sends only one initial task to each worker and does not loop until all tasks are assigned",
                 "comm.recv deletes all tasks"
@@ -19382,11 +19382,11 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which MPI call sends a task to a specific worker?",
+              "prompt": "Which MPI (Message Passing Interface) call sends a task to a specific worker?",
               "choices": [
                 "comm.recv(source=i)",
                 "comm.Get_rank()",
-                "MPI.COMM_WORLD()",
+                "MPI (Message Passing Interface).COMM_WORLD()",
                 "comm.send(task, dest=i)"
               ],
               "answer": [
@@ -19398,7 +19398,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Which MPI call receives a result from a worker?",
+              "prompt": "Which MPI (Message Passing Interface) call receives a result from a worker?",
               "choices": [
                 "comm.recv(source=i)",
                 "comm.send(result, dest=0)",
@@ -19463,7 +19463,7 @@ window.UNIFIED_EXAM_DATA = {
                 "Connects as a worker to the master",
                 "Associates the server socket with an address and port",
                 "Squares a task",
-                "Creates an MPI communicator"
+                "Creates an MPI (Message Passing Interface) communicator"
               ],
               "answer": [
                 1
@@ -19494,7 +19494,7 @@ window.UNIFIED_EXAM_DATA = {
               "choices": [
                 "To avoid any network communication",
                 "To sort tasks numerically",
-                "To replace sockets with MPI",
+                "To replace sockets with MPI (Message Passing Interface)",
                 "To handle multiple worker connections concurrently"
               ],
               "answer": [
@@ -19614,7 +19614,7 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "في FIFO، أي صفحة يتم استبدالها عند امتلاء الإطارات؟",
+              "prompt": "في FIFO (First-In, First-Out)، أي صفحة يتم استبدالها عند امتلاء الإطارات؟",
               "choices": [
                 "أقدم صفحة دخلت الذاكرة",
                 "آخر صفحة استخدمت",
@@ -19624,13 +19624,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 0
               ],
-              "explanation": "FIFO تعني الداخل أولا يخرج أولا.",
+              "explanation": "FIFO (First-In, First-Out) تعني الداخل أولا يخرج أولا.",
               "fullExplanation": "FIFO تعني الداخل أولا يخرج أولا.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "في LRU، أي صفحة يتم استبدالها؟",
+              "prompt": "في LRU (Least Recently Used)، أي صفحة يتم استبدالها؟",
               "choices": [
                 "أقدم صفحة دخلت فقط",
                 "الصفحة الأقل استخداما مؤخرا",
@@ -19640,7 +19640,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "LRU يعتمد على الماضي: من لم تستخدم منذ أطول وقت.",
+              "explanation": "LRU (Least Recently Used) يعتمد على الماضي: من لم تستخدم منذ أطول وقت.",
               "fullExplanation": "LRU يعتمد على الماضي: من لم تستخدم منذ أطول وقت.",
               "points": 1
             },
@@ -19678,7 +19678,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "في FIFO، إذا كانت الإطارات [7,0,1] وجاءت الصفحة 2، من يخرج؟",
+              "prompt": "في FIFO (First-In, First-Out)، إذا كانت الإطارات [7,0,1] وجاءت الصفحة 2، من يخرج؟",
               "choices": [
                 "7",
                 "0",
@@ -19694,7 +19694,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "في LRU، إذا كان ترتيب الاستخدام: 7 أقدم، ثم 0، ثم 1 أحدث، وجاءت 2، من يخرج؟",
+              "prompt": "في LRU (Least Recently Used)، إذا كان ترتيب الاستخدام: 7 أقدم، ثم 0، ثم 1 أحدث، وجاءت 2، من يخرج؟",
               "choices": [
                 "0",
                 "7",
@@ -19704,13 +19704,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 1
               ],
-              "explanation": "LRU يخرج الأقل استخداما مؤخرا.",
+              "explanation": "LRU (Least Recently Used) يخرج الأقل استخداما مؤخرا.",
               "fullExplanation": "LRU يخرج الأقل استخداما مؤخرا.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "في السلسلة 7,0,1,2,0,3,0,4,2,3,0,3,2 مع 3 إطارات، عدد FIFO faults؟",
+              "prompt": "في السلسلة 7,0,1,2,0,3,0,4,2,3,0,3,2 مع 3 إطارات، عدد FIFO (First-In, First-Out) faults؟",
               "choices": [
                 "9",
                 "7",
@@ -19720,13 +19720,13 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 2
               ],
-              "explanation": "بالتتبع خطوة خطوة تكون أخطاء FIFO = 10.",
+              "explanation": "بالتتبع خطوة خطوة تكون أخطاء FIFO (First-In, First-Out) = 10.",
               "fullExplanation": "بالتتبع خطوة خطوة تكون أخطاء FIFO = 10.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "لنفس السلسلة مع LRU و3 إطارات، كم fault؟",
+              "prompt": "لنفس السلسلة مع LRU (Least Recently Used) و3 إطارات، كم fault؟",
               "choices": [
                 "10",
                 "7",
@@ -19736,7 +19736,7 @@ window.UNIFIED_EXAM_DATA = {
               "answer": [
                 3
               ],
-              "explanation": "LRU يحسن على FIFO هنا ويعطي 9.",
+              "explanation": "LRU (Least Recently Used) يحسن على FIFO (First-In, First-Out) هنا ويعطي 9.",
               "fullExplanation": "LRU يحسن على FIFO هنا ويعطي 9.",
               "points": 1
             },
@@ -19760,15 +19760,15 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "أي خوارزمية قد يظهر فيها Belady anomaly؟",
               "choices": [
-                "LRU",
-                "FIFO",
+                "LRU (Least Recently Used)",
+                "FIFO (First-In, First-Out)",
                 "Optimal",
                 "Clock دائما"
               ],
               "answer": [
                 1
               ],
-              "explanation": "زيادة عدد الإطارات قد تزيد الأخطاء في FIFO.",
+              "explanation": "زيادة عدد الإطارات قد تزيد الأخطاء في FIFO (First-In, First-Out).",
               "fullExplanation": "زيادة عدد الإطارات قد تزيد الأخطاء في FIFO.",
               "points": 1
             },
