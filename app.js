@@ -1,6 +1,38 @@
 const data = window.UNIFIED_EXAM_DATA;
 const storageKey = "unified-exam-progress-v1";
 
+if (!data || !Array.isArray(data.subjects) || data.subjects.length === 0) {
+  const showDataError = () => {
+    const subjectTitle = document.getElementById("subjectTitle");
+    const subjectDescription = document.getElementById("subjectDescription");
+    const examTotal = document.getElementById("examTotal");
+    const questionTotal = document.getElementById("questionTotal");
+    const welcome = document.getElementById("welcome");
+
+    if (subjectTitle) subjectTitle.textContent = "Data did not load";
+    if (subjectDescription) {
+      subjectDescription.textContent = "Refresh the page once. If this stays empty, the data.js file is blocked or cached incorrectly.";
+    }
+    if (examTotal) examTotal.textContent = "0 exams";
+    if (questionTotal) questionTotal.textContent = "0 questions";
+    if (welcome) {
+      welcome.innerHTML = `
+        <p class="eyebrow">Data error</p>
+        <h2>Question data is missing</h2>
+        <p>The app loaded, but the question bank file did not. Refresh the page or clear this site's cache.</p>
+      `;
+    }
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", showDataError);
+  } else {
+    showDataError();
+  }
+
+  throw new Error("Unified exam data did not load.");
+}
+
 const state = {
   subjectId: data.subjects[0]?.id || "",
   search: "",
