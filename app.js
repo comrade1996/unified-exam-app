@@ -119,10 +119,12 @@ function renderExamList() {
   els.examList.innerHTML = exams.map(exam => {
     const progress = state.progress[exam.id];
     const active = exam.id === state.examId ? " active" : "";
+    const submitted = progress?.submitted ? " submitted-exam" : "";
     const score = progress ? `Score ${progress.score}/${progress.total}` : "Not attempted";
+    const statusBadge = progress?.submitted ? `<em>Submitted</em>` : "";
     return `
-      <button class="exam-item${active}" type="button" data-exam-id="${escapeAttr(exam.id)}">
-        <strong>${escapeHtml(exam.title)}</strong>
+      <button class="exam-item${active}${submitted}" type="button" data-exam-id="${escapeAttr(exam.id)}">
+        <strong>${escapeHtml(exam.title)}${statusBadge}</strong>
         <span>${escapeHtml(exam.kind)} · ${escapeHtml(exam.bankTitle)} · ${exam.questions.length} questions · ${score}</span>
       </button>
     `;
