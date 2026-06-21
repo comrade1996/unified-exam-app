@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-21T11:41:48.341Z",
+  "generatedAt": "2026-06-21T11:48:39.215Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -25501,14 +25501,1298 @@ window.UNIFIED_EXAM_DATA = {
       "description": "AI lecture exams. This subject is ready now and will automatically include future JSON files with an exams array from the Downloads/AI folder.",
       "banks": [
         {
-          "id": "future-ai-exams",
-          "title": "Future AI Exams",
-          "examCount": 0
+          "id": "ai-base-exams",
+          "title": "AI PDF Lecture Exams",
+          "examCount": 6
         }
       ],
-      "exams": [],
-      "questionCount": 0,
-      "examCount": 0
+      "exams": [
+        {
+          "id": "ai__ai-base-exams__ai-neural-networks",
+          "sourceId": "ai-neural-networks",
+          "subjectId": "ai",
+          "bankId": "ai-base-exams",
+          "bankTitle": "AI PDF Lecture Exams",
+          "kind": "AI Lecture Exam",
+          "title": "AI - Neural Networks",
+          "description": "Questions from the neural networks PDF: perceptron, MLP, activation functions, XOR, and neural-network structure.",
+          "questions": [
+            {
+              "type": "Single Choice",
+              "prompt": "A neural network is best described as:",
+              "choices": [
+                "a model inspired by the brain and used to learn patterns",
+                "a database table only",
+                "a fixed rule that never learns",
+                "a file compression method"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Neural networks are machine-learning models inspired by neurons and used for pattern recognition and decision making.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Multiple Select",
+              "prompt": "Which components belong to a basic neural network?",
+              "choices": [
+                "Inputs",
+                "Weights",
+                "Activation function",
+                "Boot sector"
+              ],
+              "answer": [
+                0,
+                1,
+                2
+              ],
+              "explanation": "The PDF lists inputs, neurons, weights, activation function, and outputs as neural-network components.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "A perceptron is mainly used for:",
+              "choices": [
+                "binary classification",
+                "disk scheduling",
+                "image storage only",
+                "database indexing only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The perceptron is the simplest neural-network model and is used for binary classification such as 0/1 or yes/no.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "A perceptron computes its decision from:",
+              "choices": [
+                "weighted inputs plus bias passed through an activation function",
+                "random labels only",
+                "file names only",
+                "the size of the dataset only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A perceptron computes z from inputs, weights, and bias, then applies an activation function.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can a single perceptron fail on XOR?",
+              "choices": [
+                "XOR is not linearly separable",
+                "XOR has no inputs",
+                "XOR is always regression",
+                "XOR needs no model"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF highlights XOR as a non-linear problem that cannot be solved by a single linear perceptron.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "A multilayer neural network usually contains:",
+              "choices": [
+                "input layer, hidden layer, and output layer",
+                "only one input value",
+                "only one decision tree",
+                "only a confusion matrix"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "MLPs extend perceptrons by adding hidden layers between input and output.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Hidden layers are useful because they:",
+              "choices": [
+                "help learn complex non-linear relationships",
+                "remove all weights",
+                "make the model a database",
+                "prevent activation functions"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hidden layers allow neural networks to model complex relationships such as image, text, and medical prediction patterns.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Activation functions are important because they add:",
+              "choices": [
+                "nonlinearity",
+                "file storage",
+                "random forest voting",
+                "train/test splitting"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Without nonlinearity, stacked layers collapse into a linear model and cannot solve problems like XOR.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "The output range of Sigmoid is:",
+              "choices": [
+                "0 to 1",
+                "-1 to 1",
+                "0 to infinity only",
+                "-infinity to infinity"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Sigmoid maps values into the 0 to 1 range, so it is often used for probabilities.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "ReLU is defined as:",
+              "choices": [
+                "max(0, x)",
+                "1 / (1 + e^-x)",
+                "x squared",
+                "x plus bias only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "ReLU outputs x for positive values and 0 for negative or zero values.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "A common weakness of ReLU is:",
+              "choices": [
+                "dead neurons",
+                "it always outputs probabilities",
+                "it cannot output zero",
+                "it has no use in neural networks"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "ReLU can create dead neurons when negative inputs produce zero repeatedly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "The output range of Tanh is:",
+              "choices": [
+                "-1 to 1",
+                "0 to 1",
+                "0 to 100",
+                "only positive integers"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Tanh is centered around zero and ranges from -1 to 1.",
+              "fullExplanation": null,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai__ai-base-exams__ai-forward-propagation",
+          "sourceId": "ai-forward-propagation",
+          "subjectId": "ai",
+          "bankId": "ai-base-exams",
+          "bankTitle": "AI PDF Lecture Exams",
+          "kind": "AI Lecture Exam",
+          "title": "AI - Forward Propagation",
+          "description": "Questions from the forward propagation PDF, including z = wx + b and ReLU examples.",
+          "questions": [
+            {
+              "type": "Single Choice",
+              "prompt": "Forward propagation means:",
+              "choices": [
+                "passing data from inputs through layers to produce an output",
+                "updating weights backward from the loss",
+                "splitting data into folds",
+                "counting false positives"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Forward propagation is the journey of data through the network from inputs to prediction.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In each layer, the linear part is commonly computed as:",
+              "choices": [
+                "z = wx + b",
+                "z = TP + FP",
+                "z = MAE / RMSE",
+                "z = k-fold"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF shows the layer calculation as weighted input plus bias.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "After computing z in a neural-network layer, the next step is usually to:",
+              "choices": [
+                "apply an activation function",
+                "delete the input",
+                "calculate a confusion matrix",
+                "perform majority voting"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The activation function converts z into the activation value a.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If x=2, w=3, and b=1, what is z?",
+              "choices": [
+                "7",
+                "6",
+                "5",
+                "2"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "z = wx + b = 3*2 + 1 = 7.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If z=7 and the activation is ReLU, what is a?",
+              "choices": [
+                "7",
+                "0",
+                "-7",
+                "1"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "ReLU(7)=max(0,7)=7.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If z=-4 and the activation is ReLU, what is a?",
+              "choices": [
+                "0",
+                "-4",
+                "4",
+                "1"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "ReLU(-4)=max(0,-4)=0.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "The output of forward propagation is used to calculate:",
+              "choices": [
+                "loss/error",
+                "the number of folds only",
+                "feature importance only",
+                "the boot sector"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "After prediction is produced, it is compared with the true value to compute the loss.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Forward propagation differs from backpropagation because forward propagation:",
+              "choices": [
+                "calculates prediction without updating weights",
+                "always updates weights first",
+                "only evaluates classification",
+                "only performs cross validation"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Forward propagation computes the output. Backpropagation computes gradients and updates weights.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the PDF code, `np.dot(X, W1) + b1` represents:",
+              "choices": [
+                "the hidden layer linear calculation",
+                "the confusion matrix",
+                "the random forest vote",
+                "the MAE formula"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The code computes Z1 for the hidden layer using inputs, weights, and bias.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If X=[[1,2]], W1 has shape 2x2, and b1 has shape 1x2, then Z1 has shape:",
+              "choices": [
+                "1x2",
+                "2x1",
+                "2x2",
+                "1x1"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A 1x2 input multiplied by a 2x2 weight matrix gives 1x2, then b1 is added.",
+              "fullExplanation": null,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai__ai-base-exams__ai-backpropagation",
+          "sourceId": "ai-backpropagation",
+          "subjectId": "ai",
+          "bankId": "ai-base-exams",
+          "bankTitle": "AI PDF Lecture Exams",
+          "kind": "AI Lecture Exam",
+          "title": "AI - Backpropagation",
+          "description": "Questions from the backpropagation PDF: loss, gradients, chain rule, and weight updates.",
+          "questions": [
+            {
+              "type": "Single Choice",
+              "prompt": "Backpropagation is used mainly to:",
+              "choices": [
+                "update weights to reduce error",
+                "create a confusion matrix",
+                "split data into train and test only",
+                "choose random forest trees"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Backpropagation computes how each weight contributes to error and updates weights.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "The general training order in the PDF is:",
+              "choices": [
+                "forward pass, loss calculation, backward pass, weight update",
+                "weight update, loss, input deletion, testing",
+                "confusion matrix, ROC, AUC, voting",
+                "bootstrap, voting, pruning, scaling"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF lists forward pass, loss, backward pass, and weight update as the core sequence.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Backpropagation relies heavily on:",
+              "choices": [
+                "the chain rule",
+                "majority voting",
+                "K-fold splitting only",
+                "feature scaling only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The chain rule lets the model compute how each earlier weight affects the final loss.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If prediction y=0.29 and true value is 1, what is squared error loss?",
+              "choices": [
+                "0.5041",
+                "0.29",
+                "1.29",
+                "0.71"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "L=(0.29-1)^2=(-0.71)^2=0.5041.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In backpropagation, gradients tell us:",
+              "choices": [
+                "how changing a weight changes the loss",
+                "how many folds exist",
+                "how many trees are in a forest",
+                "how many false positives exist only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A gradient measures the effect of a weight on the error.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If a model prediction is too low compared with the true value, an update may:",
+              "choices": [
+                "increase a useful positive weight",
+                "always delete the model",
+                "always reduce all weights to zero",
+                "skip the loss function"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF example shows a weight increasing from 0.5 to 0.6 because the model was underestimating.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In a multilayer network, backpropagation moves:",
+              "choices": [
+                "from output layer backward through hidden layers",
+                "only from input to output",
+                "only through the dataset folds",
+                "only through decision trees"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Backpropagation distributes error backward layer by layer.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For a network with x1=1, x2=0, h1 weights w1=0.2 and w2=0.4, what is h1 linear input before bias if no bias is added?",
+              "choices": [
+                "0.2",
+                "0.4",
+                "0.6",
+                "0"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "h1 input = x1*w1 + x2*w2 = 1*0.2 + 0*0.4 = 0.2.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "A loss function is needed because it:",
+              "choices": [
+                "measures how far prediction is from the true value",
+                "randomly chooses trees",
+                "normalizes every feature",
+                "replaces the training set"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The loss quantifies model error, which backpropagation tries to reduce.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "The golden summary of backpropagation is:",
+              "choices": [
+                "Forward: prediction, Loss: error, Backprop: gradients, Update: weights",
+                "Forward: folds, Loss: accuracy, Backprop: voting, Update: confusion",
+                "Forward: bootstrap, Loss: forest, Backprop: pruning, Update: AUC",
+                "Forward: scaling, Loss: KNN, Backprop: SVM, Update: ROC"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "This sequence matches the summary in the PDF.",
+              "fullExplanation": null,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai__ai-base-exams__ai-random-forest-overfitting",
+          "sourceId": "ai-random-forest-overfitting",
+          "subjectId": "ai",
+          "bankId": "ai-base-exams",
+          "bankTitle": "AI PDF Lecture Exams",
+          "kind": "AI Lecture Exam",
+          "title": "AI - Random Forest and Overfitting",
+          "description": "Questions from the random forest PDFs and examples: ensemble learning, bootstrap, voting, overfitting, and feature importance.",
+          "questions": [
+            {
+              "type": "Single Choice",
+              "prompt": "Random Forest is based on:",
+              "choices": [
+                "ensemble learning with many decision trees",
+                "one perceptron only",
+                "one linear regression equation only",
+                "one confusion matrix only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Random Forest builds many decision trees and combines their outputs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In Random Forest classification, final prediction is usually made by:",
+              "choices": [
+                "majority voting",
+                "taking the smallest feature",
+                "computing MAE",
+                "using only the first tree"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "For classification, Random Forest uses the most common class predicted by the trees.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In Random Forest regression, final prediction is usually:",
+              "choices": [
+                "the average of tree predictions",
+                "the majority class",
+                "the confusion matrix",
+                "the recall score"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "For regression, Random Forest averages predictions from individual trees.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Bootstrap sampling means:",
+              "choices": [
+                "training trees on random samples of the data",
+                "using all data in exactly the same order for every tree",
+                "removing all features",
+                "using no training data"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Random Forest trains each tree on a random sample, which helps make trees different.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Random feature selection at each split helps:",
+              "choices": [
+                "reduce correlation between trees",
+                "make all trees identical",
+                "remove all randomness",
+                "force overfitting"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Randomness in samples and features improves generalization by diversifying trees.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Overfitting means the model:",
+              "choices": [
+                "memorizes training data and performs poorly on new data",
+                "always performs poorly on training data",
+                "has no parameters",
+                "cannot make predictions"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Overfitting gives excellent training performance but weak test/generalization performance.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Multiple Select",
+              "prompt": "Which factors can cause overfitting?",
+              "choices": [
+                "very complex model",
+                "too little training data",
+                "noise in data",
+                "balanced accuracy only"
+              ],
+              "answer": [
+                0,
+                1,
+                2
+              ],
+              "explanation": "The PDF lists high complexity, many features, little training data, and noise as causes of overfitting.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Multiple Select",
+              "prompt": "Which methods can reduce overfitting?",
+              "choices": [
+                "reduce model complexity",
+                "increase data size",
+                "use cross validation",
+                "memorize noise"
+              ],
+              "answer": [
+                0,
+                1,
+                2
+              ],
+              "explanation": "Reducing complexity, adding data, Random Forest, and cross validation can reduce overfitting.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Feature importance in Random Forest is based on:",
+              "choices": [
+                "how much a feature helps reduce impurity/error across trees",
+                "alphabetical feature order",
+                "the number of classes only",
+                "the file size"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Important features are those that frequently improve splits and reduce impurity such as Gini or MSE.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "`n_estimators=100` in RandomForestClassifier means:",
+              "choices": [
+                "the forest contains 100 trees",
+                "the maximum depth is 100 always",
+                "the model has 100 classes",
+                "the accuracy is 100%"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "n_estimators controls the number of decision trees in the forest.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Random Forest usually does not require normalization because:",
+              "choices": [
+                "tree-based splits are not distance-based",
+                "it cannot use numeric data",
+                "it uses only neural-network weights",
+                "it uses only probabilities"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Decision-tree models are not as sensitive to feature scale as KNN, SVM, or logistic regression.",
+              "fullExplanation": null,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai__ai-base-exams__ai-model-evaluation",
+          "sourceId": "ai-model-evaluation",
+          "subjectId": "ai",
+          "bankId": "ai-base-exams",
+          "bankTitle": "AI PDF Lecture Exams",
+          "kind": "AI Lecture Exam",
+          "title": "AI - Model Evaluation",
+          "description": "Questions from classification and regression evaluation PDFs: confusion matrix, precision, recall, F1, ROC/AUC, MAE, MSE, RMSE, and R2.",
+          "questions": [
+            {
+              "type": "Single Choice",
+              "prompt": "A confusion matrix is used to evaluate:",
+              "choices": [
+                "classification predictions",
+                "only regression error units",
+                "only data scaling",
+                "only neural-network weights"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A confusion matrix summarizes predicted vs actual classes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "TP means:",
+              "choices": [
+                "true positive",
+                "test prediction",
+                "total parameter",
+                "tree pruning"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "TP is a positive case correctly predicted as positive.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "FP means:",
+              "choices": [
+                "predicted positive but actually negative",
+                "predicted negative but actually positive",
+                "correct negative prediction",
+                "correct positive prediction"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A false positive is an incorrect positive prediction.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "FN means:",
+              "choices": [
+                "predicted negative but actually positive",
+                "predicted positive but actually negative",
+                "correct negative prediction",
+                "correct positive prediction"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A false negative is a missed positive case.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Accuracy is most suitable when:",
+              "choices": [
+                "classes are balanced",
+                "classes are extremely imbalanced",
+                "false negatives are always deadly",
+                "probabilities are unavailable"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF says accuracy is appropriate mainly when data is balanced.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Recall is especially important when:",
+              "choices": [
+                "missing positive cases is dangerous",
+                "false positives are the only concern",
+                "all classes are balanced",
+                "we evaluate regression"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Recall measures how many actual positives were found, important in sensitive cases like disease detection.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Precision is especially important when:",
+              "choices": [
+                "false positives are costly",
+                "false negatives are the only concern",
+                "the task is regression",
+                "features need scaling"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Precision measures how many predicted positives were actually correct.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "F1-score combines:",
+              "choices": [
+                "precision and recall",
+                "MAE and RMSE",
+                "AUC and R2",
+                "weights and bias"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "F1-score balances precision and recall, especially useful for imbalanced data.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the PDF example, accuracy for y_true=[0,1,1,0,1] and y_pred=[0,1,0,0,1] is:",
+              "choices": [
+                "0.8",
+                "1.0",
+                "0.67",
+                "0.5"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Four out of five predictions are correct, so accuracy is 4/5 = 0.8.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the same classification example, precision is 1.0 because:",
+              "choices": [
+                "there are no false positives",
+                "there are no false negatives",
+                "all predictions are wrong",
+                "there are no true positives"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The confusion matrix has FP=0, so every predicted positive is correct.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "MAE measures:",
+              "choices": [
+                "average absolute error",
+                "average squared error",
+                "classification recall",
+                "area under ROC"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Mean Absolute Error averages the absolute differences between true and predicted values.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "MSE is sensitive to outliers because it:",
+              "choices": [
+                "squares the errors",
+                "ignores large errors",
+                "uses class labels only",
+                "always equals accuracy"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Squaring errors punishes large errors strongly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "RMSE is useful because it:",
+              "choices": [
+                "has the same unit as the target data",
+                "is always a classification metric",
+                "ignores all errors",
+                "cannot detect outliers"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "RMSE is the square root of MSE, returning the metric to the target unit.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "R2 score near 1 means:",
+              "choices": [
+                "the model explains most variance well",
+                "the model is worse than the mean",
+                "the model has no prediction ability",
+                "the model is a classifier only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF states R2=1 is excellent, R2=0 is like using the mean, and R2<0 is very poor.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For y_true=[3,-0.5,2,7] and y_pred=[2.5,0,2,8], the PDF gives MAE as:",
+              "choices": [
+                "0.5",
+                "0.375",
+                "0.612",
+                "0.948"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The regression evaluation PDF output lists MAE: 0.5.",
+              "fullExplanation": null,
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai__ai-base-exams__ai-model-improvement",
+          "sourceId": "ai-model-improvement",
+          "subjectId": "ai",
+          "bankId": "ai-base-exams",
+          "bankTitle": "AI PDF Lecture Exams",
+          "kind": "AI Lecture Exam",
+          "title": "AI - Model Improvement",
+          "description": "Questions from model improvement PDFs: data quality, scaling, leakage, hyperparameter tuning, cross validation, regularization, and ensembles.",
+          "questions": [
+            {
+              "type": "Single Choice",
+              "prompt": "Model improvement aims to:",
+              "choices": [
+                "increase accuracy/efficiency and reduce errors such as overfitting and underfitting",
+                "delete all data",
+                "avoid evaluation",
+                "make every model more complex"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF defines model optimization as improving accuracy, efficiency, and reducing errors.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Multiple Select",
+              "prompt": "Which actions improve data quality?",
+              "choices": [
+                "handling missing values",
+                "handling outliers",
+                "normalization or standardization",
+                "ignoring all features"
+              ],
+              "answer": [
+                0,
+                1,
+                2
+              ],
+              "explanation": "The PDF lists data cleaning, scaling, and feature selection as data-quality improvements.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Standardization transforms data so that:",
+              "choices": [
+                "mean is 0 and standard deviation is 1",
+                "all values become 1",
+                "all values become labels",
+                "all rows are deleted"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "StandardScaler standardizes each feature by mean and standard deviation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "`fit_transform(X)` does:",
+              "choices": [
+                "learn scaling parameters and apply transformation",
+                "only predict classes",
+                "only calculate recall",
+                "only build trees"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "fit learns mean/std and transform applies the scaling.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "To avoid data leakage when scaling, you should:",
+              "choices": [
+                "fit scaler on X_train, then transform X_train and X_test",
+                "fit scaler on X_test first",
+                "fit scaler on all data before splitting",
+                "never transform test data"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF says fit only on training data so test information does not leak into training.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Multiple Select",
+              "prompt": "Which algorithms commonly benefit from scaling?",
+              "choices": [
+                "KNN",
+                "SVM",
+                "Logistic Regression",
+                "K-Means"
+              ],
+              "answer": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "explanation": "The PDF lists KNN, SVM, Logistic Regression, and K-Means as scaling-sensitive algorithms.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "GridSearchCV is used to:",
+              "choices": [
+                "search for the best hyperparameters using cross validation",
+                "create a confusion matrix only",
+                "perform forward propagation only",
+                "replace all missing values automatically"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "GridSearchCV tests parameter combinations and evaluates them with cross validation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In a decision tree, increasing max_depth usually:",
+              "choices": [
+                "makes the model more complex and can increase overfitting",
+                "always reduces overfitting",
+                "removes all splits",
+                "turns the tree into logistic regression"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF notes deeper trees are more complex and may overfit.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "With 5-fold cross validation, the model is trained each time on:",
+              "choices": [
+                "4 folds and tested on 1 fold",
+                "5 folds and tested on 5 folds",
+                "1 fold and tested on 4 folds always",
+                "no folds"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "In each run, four parts are used for training and one part for testing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "`cross_val_score(model, X, y, cv=5)` returns:",
+              "choices": [
+                "an array of scores, one for each fold",
+                "one confusion matrix only",
+                "only model weights",
+                "only feature names"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF explains each score represents model performance in one fold.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Regularization is used to:",
+              "choices": [
+                "reduce overfitting by penalizing large weights",
+                "increase all weights without limit",
+                "remove the loss function",
+                "skip model evaluation"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "L1/L2 regularization discourages overly complex models.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In Logistic Regression, smaller C means:",
+              "choices": [
+                "stronger regularization",
+                "weaker regularization",
+                "more trees",
+                "higher recall automatically"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF states C is the inverse of regularization strength.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Underfitting occurs when:",
+              "choices": [
+                "the model is too simple to represent the relationship",
+                "the model memorizes noise",
+                "the model has too many trees",
+                "precision equals recall"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Underfitting means the model cannot capture the input-output relationship.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Ensemble learning means:",
+              "choices": [
+                "combining multiple models to make one stronger model",
+                "using only one feature",
+                "using no training data",
+                "evaluating only with MAE"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The PDF defines ensemble learning as combining multiple models for better accuracy and stability.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Bagging trains models:",
+              "choices": [
+                "on different samples and combines predictions by averaging or voting",
+                "sequentially to fix previous errors only",
+                "without data",
+                "only with logistic regression as meta-model"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Bagging trains several models on different samples; Random Forest is a bagging example.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Boosting trains models:",
+              "choices": [
+                "sequentially so each model tries to correct previous mistakes",
+                "all identically with no sequence",
+                "only by averaging targets",
+                "without labels"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Boosting methods such as AdaBoost, XGBoost, and Gradient Boosting correct prior errors.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Stacking combines models by:",
+              "choices": [
+                "using another model as a meta-model to combine outputs",
+                "using only one decision tree",
+                "using no training process",
+                "taking only the first prediction"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Stacking trains a meta-model, such as logistic regression, to combine base model predictions.",
+              "fullExplanation": null,
+              "points": 1
+            }
+          ]
+        }
+      ],
+      "questionCount": 75,
+      "examCount": 6
     },
     {
       "id": "os",

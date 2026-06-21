@@ -11,6 +11,13 @@ Static exam app for:
 
 The app stores each user's progress in browser `localStorage`, so every user has separate progress on their own browser/device.
 
+Current merged bank:
+
+- 6 subjects
+- 151 exams
+- 2399 questions
+- AI includes 6 exams generated from the PDFs in `Downloads\AI`
+
 ## Run Locally
 
 From the parent `OS` folder:
@@ -33,7 +40,7 @@ If the source exam JSON or OS exam bank changes:
 node unified-exam-app\build-unified-data.js
 ```
 
-## Add AI Questions Later
+## Add More AI Questions Later
 
 Put any JSON file anywhere under:
 

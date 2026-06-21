@@ -103,7 +103,10 @@ function loadAutoJsonSubject(config) {
     exams: []
   };
 
-  const jsonFiles = findJsonFiles(config.rootDir);
+  const jsonFiles = [
+    ...(config.seedFiles || []),
+    ...findJsonFiles(config.rootDir)
+  ];
   for (const filePath of jsonFiles) {
     let json;
     try {
@@ -117,7 +120,8 @@ function loadAutoJsonSubject(config) {
     }
 
     const relative = path.relative(config.rootDir, filePath);
-    const bankId = relative
+    const baseName = relative.startsWith("..") ? path.basename(filePath) : relative;
+    const bankId = baseName
       .replace(/\\/g, "/")
       .replace(/\.json$/i, "")
       .toLowerCase()
@@ -190,7 +194,8 @@ const subjects = [
     id: "ai",
     title: "Artificial Intelligence",
     description: "AI lecture exams. This subject is ready now and will automatically include future JSON files with an exams array from the Downloads/AI folder.",
-    rootDir: path.join(downloads, "AI")
+    rootDir: path.join(downloads, "AI"),
+    seedFiles: [path.join(outDir, "ai-base-exams.json")]
   }),
   loadOsSubject()
 ];
