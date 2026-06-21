@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-21T13:37:38.087Z",
+  "generatedAt": "2026-06-21T13:51:02.570Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -3278,65 +3278,401 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What is the main role of an operating system?",
+              "prompt": "Why does the hardware complexity motivate operating systems?",
               "choices": [
-                "Compile every application into machine code",
-                "Manage hardware resources and provide services to programs",
-                "Replace all user applications",
-                "Store only multimedia files"
+                "Hardware exposes many details that are difficult for ordinary programs to manage directly.",
+                "Hardware is always simpler than software and needs no control.",
+                "Only one program can ever use a computer.",
+                "Operating systems remove all need for hardware."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The OS hides hardware complexity and coordinates its use.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which statement best defines an operating system?",
+              "choices": [
+                "A single user application for editing text.",
+                "Software that manages hardware resources and provides services/abstractions to programs.",
+                "A physical CPU register.",
+                "A file extension used by programs."
               ],
               "answer": [
                 1
               ],
-              "explanation": "An OS is the control program that manages hardware and offers services to application programs.",
+              "explanation": "An OS is both a resource manager and an extended machine.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which OS goal focuses on making the computer easy for users and programs to use?",
+              "prompt": "What does it mean that the OS is an extended machine?",
               "choices": [
-                "Deadlock",
-                "Fragmentation",
-                "Encryption",
-                "Convenience"
-              ],
-              "answer": [
-                3
-              ],
-              "explanation": "Convenience means the OS hides hardware complexity and provides a usable environment.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Which OS goal focuses on good use of CPU, memory, I/O devices, and storage?",
-              "choices": [
-                "Keyboard layout",
-                "Screen resolution",
-                "Source-code formatting",
-                "Resource utilization"
-              ],
-              "answer": [
-                3
-              ],
-              "explanation": "Resource utilization is about using hardware efficiently.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Why does the OS use protection mechanisms?",
-              "choices": [
-                "To force all programs to run as kernel code",
-                "To make every process share the same memory without limits",
-                "To prevent programs from interfering with each other or the system",
-                "To remove all system calls"
+                "It makes hardware visible in its most complicated form.",
+                "It removes all system calls.",
+                "It presents easier abstractions than raw hardware, such as files instead of disk sectors.",
+                "It allows only firmware to run applications."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Protection prevents accidental or malicious misuse of resources.",
+              "explanation": "The OS hides messy hardware details behind usable abstractions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does it mean that the OS is a resource manager?",
+              "choices": [
+                "It stores only file extensions.",
+                "It prevents any program from using hardware.",
+                "It replaces every device driver with an application.",
+                "It allocates CPU, memory, I/O devices, and storage among competing programs."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The OS decides who gets resources and when.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What problem is meant by managing resource chaos?",
+              "choices": [
+                "Many processes may compete for limited resources at the same time.",
+                "All resources are infinite.",
+                "Only one process exists in a system.",
+                "Devices never need coordination."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The OS prevents conflicts and unfair use.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is time multiplexing?",
+              "choices": [
+                "Dividing memory into fixed permanent owners.",
+                "Several users or programs take turns using a resource over time.",
+                "Making a resource physically larger.",
+                "Encrypting a resource before use."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "CPU sharing is a classic time-multiplexed resource.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is space multiplexing?",
+              "choices": [
+                "One process gets the whole CPU forever.",
+                "Every program waits for a single turn.",
+                "A resource is divided into portions used by multiple consumers at once.",
+                "A printer is shared by alternating pages only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Memory is commonly space-multiplexed.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What was the main purpose of early batch systems?",
+              "choices": [
+                "Provide interactive graphical desktops.",
+                "Run only networked games.",
+                "Eliminate job sequencing.",
+                "Run jobs automatically in batches to reduce manual operator time."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Batch systems grouped jobs and used control instructions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What did control cards do in batch jobs?",
+              "choices": [
+                "Gave instructions to the system about compiling, loading, or running jobs.",
+                "Stored user photos.",
+                "Replaced all program code.",
+                "Implemented virtual memory."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Control cards told the batch monitor what to do.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is multiprogramming?",
+              "choices": [
+                "Running one job at a time until all I/O finishes.",
+                "Keeping multiple jobs in memory so the CPU can run another when one waits for I/O.",
+                "Removing the OS from memory.",
+                "Using only one fixed program forever."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Multiprogramming increases CPU utilization.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is spooling?",
+              "choices": [
+                "Moving all memory to CPU registers.",
+                "Scheduling only real-time tasks.",
+                "Using disk as a buffer between slow devices and programs, such as queued printer output.",
+                "Deleting completed jobs immediately."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Spooling decouples programs from slow I/O devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What was the idea of timesharing?",
+              "choices": [
+                "A single user runs one batch job with no interaction.",
+                "The CPU is divided physically into disks.",
+                "Only system operators may type commands.",
+                "Many users interact with the computer by receiving short CPU time slices."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Timesharing made computers interactive.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is MULTICS important historically?",
+              "choices": [
+                "It influenced timesharing and later operating-system ideas, including UNIX.",
+                "It was the first spreadsheet.",
+                "It removed all protection mechanisms.",
+                "It was a disk scheduling algorithm."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "MULTICS introduced influential OS concepts.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What was UNIX known for?",
+              "choices": [
+                "A purely graphical mobile system.",
+                "A portable, influential operating system written largely in C.",
+                "A hardware bus standard.",
+                "A page replacement algorithm."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "UNIX became widely influential because of portability and simplicity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why was writing UNIX in C significant?",
+              "choices": [
+                "It prevented system calls.",
+                "It required one exact processor forever.",
+                "It made UNIX easier to port to different hardware.",
+                "It made UNIX a spreadsheet."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "High-level language implementation improved portability.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What did the GUI revolution change?",
+              "choices": [
+                "All systems returned to punched cards.",
+                "The kernel stopped managing resources.",
+                "Files disappeared from computers.",
+                "Users interacted through windows, icons, menus, and pointing devices."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "GUIs changed the user interface model.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the CPU’s role?",
+              "choices": [
+                "Fetch, decode, and execute instructions.",
+                "Store permanent files without disks.",
+                "Route Internet packets only.",
+                "Display only graphics."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The CPU executes program instructions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the program counter?",
+              "choices": [
+                "A disk block counter.",
+                "A register holding the address of the next instruction to execute.",
+                "A file permission mask.",
+                "A keyboard buffer."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The PC controls instruction sequencing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the stack pointer used for?",
+              "choices": [
+                "Choosing disk sectors.",
+                "Naming files.",
+                "Tracking the current top of the call stack.",
+                "Selecting the boot device only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The stack pointer supports calls, returns, and local state.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the PSW or status register used for?",
+              "choices": [
+                "It stores all user files.",
+                "It is the main memory bus.",
+                "It names system directories.",
+                "It stores condition codes and CPU control/status information."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The status register tracks CPU execution state.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the purpose of a CPU pipeline?",
+              "choices": [
+                "Overlap instruction stages to improve throughput.",
+                "Run only one instruction stage at a time deliberately.",
+                "Store files contiguously.",
+                "Replace cache memory."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Pipelines increase instruction throughput.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a pipeline hazard?",
+              "choices": [
+                "A file name conflict.",
+                "A situation that prevents the next instruction from safely executing in the pipeline.",
+                "A disk quota warning.",
+                "A GUI menu item."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Branches and dependencies can disrupt pipelines.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a superscalar CPU?",
+              "choices": [
+                "A CPU with no pipeline.",
+                "A disk controller with many files.",
+                "A CPU that can issue multiple instructions per cycle using multiple execution units.",
+                "A single-purpose I/O device."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Superscalar designs exploit instruction-level parallelism.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are kernel mode and user mode for?",
+              "choices": [
+                "Separating text files from binary files.",
+                "Separating old files from new files.",
+                "Separating monitors from keyboards.",
+                "Separating privileged OS code from ordinary application code."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Modes protect the system from applications.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are privileged instructions restricted to kernel mode?",
+              "choices": [
+                "They can control hardware or affect system-wide state.",
+                "They only print text.",
+                "They are never dangerous.",
+                "They are file extensions."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Privileged operations require OS control.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3344,31 +3680,719 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is a system call?",
               "choices": [
-                "A controlled request from a program to the operating system",
-                "A direct edit to CPU hardware",
-                "A type of deadlock",
-                "A replacement for main memory"
+                "A direct jump into any kernel address.",
+                "A controlled entry from user mode into the OS service interface.",
+                "A file stored on disk.",
+                "A keyboard shortcut only."
               ],
               "answer": [
-                0
+                1
               ],
-              "explanation": "System calls are the interface used by programs to request OS services.",
+              "explanation": "System calls let programs request OS services safely.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Which mode should execute privileged OS kernel instructions?",
+              "prompt": "What is multithreading on a chip?",
               "choices": [
-                "Kernel mode",
-                "Browser mode",
-                "Application text mode",
-                "User mode"
+                "A disk stores multiple file names.",
+                "The OS has no processes.",
+                "Hardware holds multiple thread states so a core can switch quickly.",
+                "Only one thread exists in hardware."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Hardware threads help keep execution units busy.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a multicore chip?",
+              "choices": [
+                "A chip containing only one register.",
+                "A disk with multiple partitions.",
+                "A single program with multiple files.",
+                "A processor chip containing multiple CPU cores."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Multicore provides parallel execution units.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which memory hierarchy level is fastest and most expensive?",
+              "choices": [
+                "Registers.",
+                "Magnetic disk.",
+                "SSD.",
+                "Main memory."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Privileged instructions run in kernel mode to protect the system.",
+              "explanation": "Registers are closest to the CPU.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is cache memory used?",
+              "choices": [
+                "To replace all permanent storage.",
+                "To keep recently or frequently used data near the CPU.",
+                "To slow down memory access.",
+                "To store only device drivers."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Caches exploit locality.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the difference between L1 and L2 cache generally?",
+              "choices": [
+                "L2 is always inside a disk.",
+                "L1 is nonvolatile storage.",
+                "L1 is usually smaller and faster; L2 is larger and slower.",
+                "They are unrelated to CPU memory."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Cache levels trade speed for capacity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is nonvolatile memory?",
+              "choices": [
+                "Memory that loses data immediately without power.",
+                "Only CPU pipeline registers.",
+                "Only a process address space.",
+                "Memory that retains data when power is off."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Flash and SSD storage are nonvolatile.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does virtual memory provide?",
+              "choices": [
+                "An address-space abstraction that can exceed physical RAM.",
+                "Only a faster CPU pipeline.",
+                "A printer queue.",
+                "A graphical desktop."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Virtual memory decouples program addresses from RAM.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the MMU?",
+              "choices": [
+                "A file-system backup tool.",
+                "Hardware that translates virtual addresses to physical addresses.",
+                "A user account database.",
+                "A shell command language."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The MMU performs address translation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a magnetic disk?",
+              "choices": [
+                "A CPU cache level.",
+                "A register inside the CPU.",
+                "A storage device using rotating platters and moving heads.",
+                "A program counter."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Magnetic disks have mechanical seek and rotational latency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an SSD?",
+              "choices": [
+                "A rotating magnetic platter.",
+                "A CPU execution unit.",
+                "A process state.",
+                "A nonvolatile storage device based on flash memory with no moving parts."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "SSDs avoid mechanical seek delay.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does an I/O device controller do?",
+              "choices": [
+                "Controls a device and presents registers/buffers for the OS to use.",
+                "Runs user shell scripts only.",
+                "Stores the whole file system hierarchy.",
+                "Replaces all drivers."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Controllers mediate between CPU and devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a device driver?",
+              "choices": [
+                "A user document.",
+                "OS software that knows how to control a specific device controller.",
+                "A CPU arithmetic unit.",
+                "A file extension."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Drivers hide device-specific details.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are device drivers often part of the OS or trusted code?",
+              "choices": [
+                "They are just user photos.",
+                "They never access memory.",
+                "They directly manipulate hardware and can affect system stability.",
+                "They are always simple text files."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Faulty drivers can crash or compromise systems.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a system bus?",
+              "choices": [
+                "A directory entry.",
+                "A process hierarchy.",
+                "A file extension convention.",
+                "A communication pathway connecting CPU, memory, and devices."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Buses move data and control signals.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens during booting?",
+              "choices": [
+                "Firmware initializes hardware and loads the operating system.",
+                "The OS deletes all processes.",
+                "Applications bypass the kernel permanently.",
+                "The CPU stops executing instructions."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Booting starts the machine and OS.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the bootstrap program?",
+              "choices": [
+                "A user word processor.",
+                "Small startup code that loads the OS or bootloader.",
+                "A page replacement policy.",
+                "A file permission bit."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Bootstrap code begins the OS loading process.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the operating-system zoo?",
+              "choices": [
+                "A directory containing animal pictures.",
+                "Only one universal OS design.",
+                "The variety of OS types for different environments and devices.",
+                "A CPU scheduling queue."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Different systems need different OS designs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a real-time operating system?",
+              "choices": [
+                "An OS that ignores deadlines.",
+                "A batch-only mainframe system.",
+                "A file extension manager.",
+                "An OS designed to meet timing constraints."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Real-time systems care about predictable response.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an embedded operating system?",
+              "choices": [
+                "An OS for dedicated devices with limited resources and specific functions.",
+                "A general desktop OS only.",
+                "A cloud datacenter only.",
+                "A shell script."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Embedded systems are specialized devices.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a process?",
+              "choices": [
+                "A passive file on disk only.",
+                "A running program plus its execution context and resources.",
+                "A disk sector.",
+                "A keyboard key."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Processes are active program executions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a process hierarchy?",
+              "choices": [
+                "A file extension list.",
+                "A CPU cache ordering.",
+                "Parent-child relationships between processes.",
+                "A disk block chain."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Processes can create other processes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which state means a process is able to run but is not currently on the CPU?",
+              "choices": [
+                "Running.",
+                "Blocked.",
+                "Terminated only.",
+                "Ready."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Ready processes wait for CPU scheduling.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which state means a process is waiting for an event such as I/O?",
+              "choices": [
+                "Blocked.",
+                "Ready.",
+                "Running.",
+                "New only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Blocked processes cannot run until the event occurs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an address space?",
+              "choices": [
+                "A list of directory names only.",
+                "The memory addresses a process can use.",
+                "A disk quota table.",
+                "A shell pipeline."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Address spaces isolate process memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a file?",
+              "choices": [
+                "A CPU register.",
+                "A process state.",
+                "A named persistent object used to store data.",
+                "A bus signal."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Files abstract persistent storage.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a directory?",
+              "choices": [
+                "A CPU mode.",
+                "A device interrupt.",
+                "A page table entry.",
+                "A file-system object that maps names to files or subdirectories."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Directories organize files.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is mounting?",
+              "choices": [
+                "Attaching one file system into another file-system tree.",
+                "Starting a CPU pipeline.",
+                "Creating a user-mode thread.",
+                "Caching a disk block only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Mounting integrates storage into a namespace.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a pipe?",
+              "choices": [
+                "A disk platter.",
+                "An IPC channel connecting output of one process to input of another.",
+                "A CPU register.",
+                "A boot firmware stage."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Pipes pass data streams between processes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are special files?",
+              "choices": [
+                "Only text documents.",
+                "Only images.",
+                "File-system entries representing devices or special OS objects.",
+                "Only shell commands."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Special files let device I/O look file-like.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a shell?",
+              "choices": [
+                "The kernel memory manager.",
+                "A page table.",
+                "A device controller.",
+                "A command interpreter that starts programs and connects user commands to OS services."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Shells provide a user interface to system calls and programs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is fork used for in UNIX-like systems?",
+              "choices": [
+                "Creating a new process.",
+                "Deleting a directory.",
+                "Changing a file extension.",
+                "Translating virtual addresses."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "fork duplicates process execution.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is exec used for?",
+              "choices": [
+                "Creating a pipe only.",
+                "Replacing a process image with a new program.",
+                "Changing current directory only.",
+                "Allocating disk sectors."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "exec loads a different program into a process.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is wait used for?",
+              "choices": [
+                "Opening a file for reading.",
+                "Translating an address.",
+                "Letting a parent process wait for a child to finish.",
+                "Changing CPU mode."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "wait synchronizes parent and child processes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are file management system calls used for?",
+              "choices": [
+                "Only scheduling CPUs.",
+                "Only handling page faults.",
+                "Only drawing windows.",
+                "Opening, reading, writing, closing, and managing files."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "File calls expose persistent storage operations.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are directory system calls used for?",
+              "choices": [
+                "Creating, deleting, and navigating directories.",
+                "Executing arithmetic instructions.",
+                "Handling interrupts only.",
+                "Replacing cache lines."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Directory calls manage namespaces.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Win32?",
+              "choices": [
+                "A CPU cache design.",
+                "The Windows API used by applications to request OS services.",
+                "A UNIX file system only.",
+                "A disk scheduling algorithm."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Win32 is an application programming interface.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does Win32 differ from direct system calls?",
+              "choices": [
+                "It is physical hardware.",
+                "It cannot call the OS.",
+                "It is a higher-level API layer that may wrap native OS services.",
+                "It is only a magnetic disk."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Applications commonly use API libraries rather than raw syscall numbers.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a monolithic OS structure?",
+              "choices": [
+                "Only a tiny kernel with all services in user mode.",
+                "A set of strict layers only.",
+                "An application container only.",
+                "Most OS services run together as one large kernel-mode program."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Monolithic kernels place many services in kernel mode.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a layered OS structure?",
+              "choices": [
+                "The OS is organized into levels where each layer uses lower layers.",
+                "Everything runs in one unstructured block.",
+                "All services run as remote servers only.",
+                "The OS has no kernel."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Layering organizes OS complexity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a microkernel?",
+              "choices": [
+                "A kernel with every service compiled into one huge block.",
+                "A minimal kernel with services such as drivers and file systems moved to user mode.",
+                "A CPU cache.",
+                "A disk block allocator."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Microkernels aim for reliability and modularity.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the client-server OS structure?",
+              "choices": [
+                "All services execute in one monolithic function.",
+                "No processes communicate.",
+                "User processes request services from server processes, often through message passing.",
+                "Only hardware handles services."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Client-server design separates service providers.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a virtual machine?",
+              "choices": [
+                "A physical-only CPU with no software.",
+                "A file extension.",
+                "A shell pipeline only.",
+                "A software-created machine abstraction capable of running an OS or application environment."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "VMs virtualize machine resources.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a container?",
+              "choices": [
+                "An isolated application environment sharing the host kernel.",
+                "A full hardware VM with its own kernel always.",
+                "A disk platter.",
+                "A CPU status register."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Containers isolate processes without full hardware virtualization.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an exokernel idea?",
+              "choices": [
+                "Hide all hardware behind one fixed high-level API only.",
+                "Expose hardware resources securely so applications can build their own abstractions.",
+                "Run all services in a GUI shell.",
+                "Use no protection at all."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Exokernels separate protection from abstraction.",
               "fullExplanation": null,
               "points": 1
             }
@@ -3386,129 +4410,945 @@ window.UNIFIED_EXAM_DATA = {
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What is the best definition of a process?",
+              "prompt": "What is the process model?",
               "choices": [
-                "A keyboard shortcut",
-                "A fixed hardware circuit",
-                "A program stored on disk but not running",
-                "A program in execution with its own state and resources"
-              ],
-              "answer": [
-                3
-              ],
-              "explanation": "A process is an executing program, including registers, memory, open files, and scheduling state.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "A process terminates because of normal exit, error exit, fatal error, or being killed. Which pairing is correct?",
-              "choices": [
-                "A process can terminate only during shutdown",
-                "Normal exit and error exit are voluntary; fatal error and killed are involuntary",
-                "All four are always voluntary",
-                "Only fatal error can terminate a process"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "Normal/error exits are voluntary, while fatal errors and being killed are involuntary.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "A race condition occurs when the result depends on what?",
-              "choices": [
-                "The exact timing or interleaving of execution",
-                "The size of the monitor screen",
-                "The number of files in a folder",
-                "The name of the compiler"
+                "A way to view running programs as independent sequential processes.",
+                "A file-extension naming rule.",
+                "A disk block allocation policy.",
+                "A hardware cache hierarchy."
               ],
               "answer": [
                 0
               ],
-              "explanation": "Race conditions happen when shared data is accessed concurrently and timing changes the result.",
+              "explanation": "The process model abstracts CPU execution for programs.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is mutual exclusion designed to protect?",
+              "prompt": "How is a process different from a program?",
               "choices": [
-                "Only the desktop wallpaper",
-                "A completed process after exit",
-                "A file name extension",
-                "A critical region that accesses shared data"
+                "A process is always stored only on disk.",
+                "A program is passive code; a process is a running instance with state.",
+                "A program has registers and a stack while not running.",
+                "They are exactly the same in every context."
               ],
               "answer": [
-                3
+                1
               ],
-              "explanation": "Mutual exclusion allows only one process/thread at a time in a critical region.",
+              "explanation": "A process includes execution context.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the key problem with pure busy waiting?",
+              "prompt": "Which event can create a process?",
               "choices": [
-                "It deletes the shared variable",
-                "It disables interrupts permanently",
-                "It may waste CPU time while repeatedly checking a lock",
-                "It always prevents all race conditions automatically"
+                "Only file deletion.",
+                "Only disk compaction.",
+                "System initialization, a process creation call, user request, or batch job initiation.",
+                "Only changing a password."
               ],
               "answer": [
                 2
               ],
-              "explanation": "Spin waiting burns CPU while waiting for a condition to change.",
+              "explanation": "Processes begin for several OS-level reasons.",
               "fullExplanation": null,
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does the Test-and-Set Lock instruction guarantee?",
+              "prompt": "What does fork normally create?",
               "choices": [
-                "It converts a semaphore into a file",
-                "It performs the lock read/write atomically",
-                "It removes every process from memory",
-                "It always schedules shortest jobs first"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "TSL atomically reads a lock variable and stores a nonzero value so two CPUs cannot acquire it at the same time.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What problem can occur with sleep and wakeup primitives?",
-              "choices": [
-                "Lost wakeup",
-                "Disk fragmentation",
-                "Page coloring",
-                "CPU overclocking"
-              ],
-              "answer": [
-                0
-              ],
-              "explanation": "A wakeup signal can be lost if sent before the process is actually asleep.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What does down(P) on a semaphore do when the value is zero?",
-              "choices": [
-                "The semaphore becomes a file",
-                "The CPU clock is doubled",
-                "The process exits normally",
-                "The process sleeps"
+                "A new file extension.",
+                "A new page frame only.",
+                "A new disk partition.",
+                "A new child process."
               ],
               "answer": [
                 3
               ],
-              "explanation": "Down decrements a positive semaphore; if it is zero, the process blocks.",
+              "explanation": "fork creates a process.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does process termination by normal exit mean?",
+              "choices": [
+                "The process voluntarily finishes successfully.",
+                "The OS kills it after a fatal hardware error only.",
+                "Another process forcibly stops it.",
+                "It is blocked on I/O."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Normal exit is voluntary completion.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is error exit?",
+              "choices": [
+                "The process completes successfully.",
+                "A voluntary termination because the process detects it cannot continue correctly.",
+                "Another process kills it externally.",
+                "The CPU changes cache lines."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Error exit is voluntary but abnormal.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is fatal error termination?",
+              "choices": [
+                "A clean user-requested finish.",
+                "A normal return from main only.",
+                "An involuntary termination caused by an unrecoverable error.",
+                "A process waiting for input."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Fatal errors crash the process.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does killed by another process mean?",
+              "choices": [
+                "The process exits by itself normally.",
+                "The process changes from ready to running.",
+                "The process opens a file.",
+                "An external process or user causes involuntary termination."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Signals or kill operations can terminate processes.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which process state means currently executing on the CPU?",
+              "choices": [
+                "Running.",
+                "Ready.",
+                "Blocked.",
+                "Terminated."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Running means the process has the CPU.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which transition occurs when a running process waits for I/O?",
+              "choices": [
+                "Blocked to running directly always.",
+                "Running to blocked.",
+                "Ready to terminated.",
+                "New to ready only."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Waiting for I/O blocks the process.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which transition occurs when the scheduler chooses a ready process?",
+              "choices": [
+                "Running to blocked.",
+                "Blocked to terminated.",
+                "Ready to running.",
+                "Ready to blocked without running."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Dispatching moves a process to running.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a process table?",
+              "choices": [
+                "A table of disk file extensions.",
+                "A list of cache lines only.",
+                "A bootloader menu.",
+                "A kernel table containing process control information."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The OS tracks each process in tables.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is stored in a process control block?",
+              "choices": [
+                "Registers, program counter, process state, memory info, open files, and scheduling info.",
+                "Only the file name of the executable.",
+                "Only the user password.",
+                "Only the disk block size."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A PCB stores execution context and resources.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are threads used?",
+              "choices": [
+                "To replace all processes with files.",
+                "To allow multiple execution flows within one process sharing resources.",
+                "To prevent concurrency.",
+                "To eliminate memory sharing."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Threads are lighter-weight execution units.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What do threads in the same process share?",
+              "choices": [
+                "Their stack and registers only.",
+                "Nothing at all.",
+                "Address space and process resources such as open files.",
+                "Separate physical machines."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Threads share process-level resources.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is private to each thread?",
+              "choices": [
+                "The whole address space.",
+                "All process files.",
+                "The user account database.",
+                "Program counter, registers, and stack."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Each thread needs its own execution state.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is a word processor a good thread example?",
+              "choices": [
+                "Different threads can handle typing, formatting, and background saving.",
+                "It never needs concurrency.",
+                "It only runs in kernel mode.",
+                "It cannot use I/O."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Threads improve responsiveness.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is a web server a good thread example?",
+              "choices": [
+                "Only one client can ever connect.",
+                "Separate threads can handle multiple client requests concurrently.",
+                "Requests never block.",
+                "It runs without network I/O."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Threads allow overlapping I/O and request handling.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the classical thread model?",
+              "choices": [
+                "Threads own all resources and processes do nothing.",
+                "The OS cannot schedule threads.",
+                "A process contains resources while threads are scheduled execution entities.",
+                "Threads are always separate machines."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The model separates resource ownership from execution.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are POSIX threads?",
+              "choices": [
+                "A disk file allocation method.",
+                "A Windows-only registry format.",
+                "A page replacement algorithm.",
+                "A standard thread API for creating, joining, and synchronizing threads."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Pthreads are a common threading interface.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does pthread_create do?",
+              "choices": [
+                "Starts a new thread.",
+                "Deletes a file.",
+                "Allocates a disk partition.",
+                "Terminates the whole OS."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "pthread_create creates a thread.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does pthread_join do?",
+              "choices": [
+                "Starts all threads at once.",
+                "Waits for another thread to finish.",
+                "Changes file ownership.",
+                "Maps virtual memory."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "join synchronizes with thread completion.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an advantage of user-space threads?",
+              "choices": [
+                "The kernel can schedule each user thread independently.",
+                "Blocking system calls never affect them.",
+                "Thread operations can be fast without kernel calls.",
+                "They require one kernel object per thread."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "User-level thread packages can switch quickly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a disadvantage of user-space threads?",
+              "choices": [
+                "They always run on all CPUs automatically.",
+                "They cannot share memory.",
+                "They are slower than processes always.",
+                "A blocking system call can block the whole process."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The kernel may not know individual user threads.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an advantage of kernel-space threads?",
+              "choices": [
+                "The kernel can schedule threads independently and use multiple CPUs.",
+                "They require no kernel involvement.",
+                "A blocking call stops every process.",
+                "They cannot be preempted."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Kernel threads are visible to the OS scheduler.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a disadvantage of kernel-space threads?",
+              "choices": [
+                "They cannot block independently.",
+                "Thread operations require kernel involvement and can be more expensive.",
+                "They cannot run on multiple CPUs.",
+                "They are invisible to the scheduler."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Kernel crossings add overhead.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a hybrid thread implementation?",
+              "choices": [
+                "A system with no threads.",
+                "A disk cache and file system combined.",
+                "A system combining user-level thread management with kernel-supported scheduling entities.",
+                "A page table with two levels only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Hybrid models try to get both speed and kernel awareness.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is converting single-threaded code to multithreaded code difficult?",
+              "choices": [
+                "Threads cannot share data.",
+                "All code becomes automatically correct.",
+                "Only comments need changing.",
+                "Global variables, library calls, signals, and stack assumptions may become unsafe."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Concurrency introduces races and reentrancy issues.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an event-driven server?",
+              "choices": [
+                "A server using events and nonblocking operations instead of many blocking threads.",
+                "A server that handles no I/O.",
+                "A server that creates one process per disk block.",
+                "A server that runs only batch jobs."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Event-driven designs multiplex work using events.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is IPC?",
+              "choices": [
+                "A disk formatting method.",
+                "Mechanisms that let processes communicate and coordinate.",
+                "A CPU cache replacement method.",
+                "A file extension."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Interprocess communication supports cooperation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a race condition?",
+              "choices": [
+                "The CPU clock speed alone determines correctness.",
+                "The amount of RAM decides all outputs.",
+                "Program results depend on the exact timing of concurrent execution.",
+                "The number of users is the only factor."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Races happen when shared data is accessed without proper coordination.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a critical region?",
+              "choices": [
+                "A disk partition used for swap.",
+                "A directory path.",
+                "A thread stack frame only.",
+                "A code section that accesses shared data and must not be executed concurrently by conflicting processes."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Critical regions require mutual exclusion.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is mutual exclusion?",
+              "choices": [
+                "Ensuring only one process/thread enters a critical region at a time.",
+                "Forcing every process to share the same variable.",
+                "Allowing all threads into the critical region.",
+                "Preventing any process from running."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Mutual exclusion protects shared state.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which condition is required for a good critical-region solution?",
+              "choices": [
+                "Processes outside critical regions may block everyone forever.",
+                "No two processes may be simultaneously inside their critical regions.",
+                "Only CPU speed decides entry.",
+                "A process can never enter its critical region."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Mutual exclusion is the first requirement.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does progress mean in critical-region solutions?",
+              "choices": [
+                "Processes should wait forever even when free.",
+                "Only the OS bootloader may enter.",
+                "If no one is inside, eligible processes should be able to choose one to enter.",
+                "Critical regions must be deleted."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Progress prevents unnecessary blocking.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does bounded waiting mean?",
+              "choices": [
+                "A process can be starved indefinitely.",
+                "Only one process can ever enter.",
+                "Waiting time must be exactly zero always.",
+                "A process should not wait forever to enter its critical region."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Bounded waiting prevents starvation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Peterson’s solution?",
+              "choices": [
+                "A software mutual exclusion algorithm for two processes using turn and interested flags.",
+                "A hardware DMA controller.",
+                "A disk scheduling algorithm.",
+                "A page replacement policy."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Peterson uses shared variables to coordinate entry.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is busy waiting?",
+              "choices": [
+                "Sleeping until explicitly awakened.",
+                "Repeatedly checking a condition while consuming CPU time.",
+                "Sending a network message once.",
+                "Writing data to disk."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Busy waiting wastes CPU while waiting.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the TSL instruction do?",
+              "choices": [
+                "Puts a process to sleep always.",
+                "Sends a message between machines.",
+                "Atomically reads a lock value and stores a nonzero value while locking the memory bus.",
+                "Allocates a page frame."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "TSL provides hardware support for mutual exclusion.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is TSL atomic?",
+              "choices": [
+                "It consists of many interruptible user instructions.",
+                "It never touches memory.",
+                "It is executed only by the shell.",
+                "No other CPU can access the memory word until the instruction finishes."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Atomicity prevents two CPUs acquiring the lock together.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What problem do sleep and wakeup primitives try to avoid?",
+              "choices": [
+                "Wasting CPU time by spinning.",
+                "All process blocking.",
+                "All IPC.",
+                "Any use of semaphores."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Sleeping blocks the process instead of busy waiting.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a lost wakeup?",
+              "choices": [
+                "A process wakes too many times after a semaphore.",
+                "A wakeup signal is sent before the target process is actually asleep.",
+                "A CPU cache line is lost.",
+                "A file is deleted."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Lost wakeups can leave a process sleeping forever.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When does a producer sleep in the producer-consumer example?",
+              "choices": [
+                "When the buffer is empty.",
+                "Whenever the consumer removes an item.",
+                "When the buffer is full.",
+                "Only at system boot."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "A full buffer means the producer cannot add more.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When does a consumer sleep in the producer-consumer example?",
+              "choices": [
+                "When the buffer is full.",
+                "When it has too many items.",
+                "When the producer is ready.",
+                "When the buffer is empty."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "An empty buffer means no item is available.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a semaphore?",
+              "choices": [
+                "An integer synchronization object used to count wakeups or available resources.",
+                "A CPU register only.",
+                "A file extension.",
+                "A disk block pointer."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Semaphores generalize sleep/wakeup with counting.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does down or P do on a semaphore?",
+              "choices": [
+                "Always increment and wake a process.",
+                "Decrement if positive; otherwise block the process.",
+                "Delete the semaphore.",
+                "Bypass mutual exclusion."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "down acquires or waits.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does up or V do on a semaphore?",
+              "choices": [
+                "Always block the caller.",
+                "Set the semaphore to zero forever.",
+                "Increment and wake one waiting process if present.",
+                "Delete a process."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "up releases or signals.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How is a mutex semaphore initialized for one critical region?",
+              "choices": [
+                "To -1.",
+                "To the number of CPUs squared.",
+                "To the disk block size.",
+                "To 1."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "One available permit allows one entrant.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a mutex?",
+              "choices": [
+                "A simplified lock for mutual exclusion when counting is not needed.",
+                "A page replacement counter.",
+                "A file-system journal.",
+                "A network protocol."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Mutexes protect critical sections.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can user-level mutexes be efficient?",
+              "choices": [
+                "They always require disk access.",
+                "The uncontended path may avoid kernel calls.",
+                "They cannot be acquired.",
+                "They force every thread to sleep."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Fast user-level checks reduce overhead.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a futex?",
+              "choices": [
+                "A file-system type.",
+                "A CPU pipeline stage.",
+                "A Linux fast user-space mutex that uses the kernel only when contention occurs.",
+                "A disk scheduler."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Futexes combine user-space fast path with kernel wait queues.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens in futex contention?",
+              "choices": [
+                "The thread always spins forever.",
+                "The lock disappears.",
+                "The process terminates.",
+                "The thread makes a system call to sleep on a kernel wait queue."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Kernel help is needed only for waiting/wakeup.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a monitor?",
+              "choices": [
+                "A higher-level synchronization construct where mutual exclusion is handled around shared procedures/data.",
+                "A display screen only.",
+                "A disk controller.",
+                "A process table."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Monitors package data and synchronization.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does Java support monitor-like mutual exclusion?",
+              "choices": [
+                "Every method always runs without locks.",
+                "A synchronized method allows one thread at a time for that object.",
+                "Only static variables are protected.",
+                "The OS disables all interrupts."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Java synchronized uses monitor locking.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What are condition variables used for in monitors?",
+              "choices": [
+                "Allocating disk blocks.",
+                "Choosing process priorities.",
+                "Waiting and signaling when a condition becomes true.",
+                "Renaming files."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Condition variables coordinate blocking inside monitors.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is message passing?",
+              "choices": [
+                "Sharing every variable directly.",
+                "A hardware cache policy.",
+                "A disk compaction algorithm.",
+                "IPC using send and receive operations."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Message passing exchanges data without shared memory.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is message passing useful in distributed systems?",
+              "choices": [
+                "Processes may be on different machines with no shared address space.",
+                "All distributed processes share physical RAM.",
+                "It requires a single CPU.",
+                "It prevents client-server design."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Messages naturally cross machine boundaries.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a barrier?",
+              "choices": [
+                "A file permission bit.",
+                "A synchronization point where all processes must arrive before any continue.",
+                "A cache line.",
+                "A disk block."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Barriers coordinate phases of parallel computation.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In a physics simulation, why use a barrier?",
+              "choices": [
+                "Processes must never synchronize.",
+                "Only one process can compute all iterations.",
+                "No process should start iteration n+1 until all finish iteration n.",
+                "It replaces all scheduling."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Barriers keep iterations aligned.",
               "fullExplanation": null,
               "points": 1
             },
@@ -3516,63 +5356,559 @@ window.UNIFIED_EXAM_DATA = {
               "type": "Single Choice",
               "prompt": "What is priority inversion?",
               "choices": [
-                "A process changes from user mode to kernel mode",
-                "A scheduler ignores all priorities",
-                "A high-priority task is blocked by a lower-priority task holding a needed resource",
-                "A low-priority task always finishes first by design"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "Priority inversion happens when a lower-priority holder delays a higher-priority waiter.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Which scheduling algorithm gives each ready process a time quantum?",
-              "choices": [
-                "FIFO page replacement",
-                "Round-Robin",
-                "Shortest Job First",
-                "Banker's algorithm"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "Round-Robin cycles through ready processes and gives each a quantum.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Which process type has short CPU bursts and frequent I/O waits?",
-              "choices": [
-                "I/O-bound",
-                "Compute-bound",
-                "Deadlocked",
-                "Zombie-only"
-              ],
-              "answer": [
-                0
-              ],
-              "explanation": "I/O-bound processes often block for I/O and need quick response when ready.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Which batch scheduling algorithm is optimal for minimizing average turnaround time when job lengths are known?",
-              "choices": [
-                "Lottery scheduling",
-                "Round-Robin with huge quantum",
-                "Priority inheritance",
-                "Shortest Job First"
+                "Low-priority work always runs last with no issue.",
+                "A disk block changes priority.",
+                "A process changes its PID.",
+                "A high-priority process is blocked by a lower-priority one, while medium-priority work may delay release."
               ],
               "answer": [
                 3
               ],
-              "explanation": "SJF minimizes average turnaround time under the standard known-job-length assumption.",
+              "explanation": "Priority inversion can break responsiveness.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is priority inheritance?",
+              "choices": [
+                "The low-priority lock holder temporarily inherits the waiting high-priority process priority.",
+                "The high-priority process becomes low forever.",
+                "All priorities are deleted.",
+                "The medium process owns the lock."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Inheritance helps the lock holder run and release quickly.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Read-Copy-Update?",
+              "choices": [
+                "A disk backup method.",
+                "A lock-avoidance technique allowing readers to continue while updates prepare new data.",
+                "A page fault handler only.",
+                "A system call table."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "RCU improves read-heavy concurrency.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does RCU publish an update?",
+              "choices": [
+                "Modify the old data destructively before readers finish.",
+                "Stop all readers permanently.",
+                "Initialize new data, then atomically make it visible.",
+                "Delete the pointer first."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "RCU separates update preparation from publication.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is RCU useful in the Linux kernel?",
+              "choices": [
+                "It makes all writes impossible.",
+                "It replaces the scheduler.",
+                "It requires every reader to take a heavy lock.",
+                "It gives efficient concurrent reads in read-mostly data structures."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Linux uses RCU for high-performance reading.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the scheduler choose?",
+              "choices": [
+                "Which ready process or thread runs next.",
+                "Which file extension to use.",
+                "Which disk blocks are free.",
+                "Which password salt is valid."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Scheduling allocates CPU time.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is context switching expensive?",
+              "choices": [
+                "It only changes a file name.",
+                "The OS must save one execution state and load another, disrupting caches/TLBs.",
+                "It needs no CPU work.",
+                "It always improves cache locality."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Switching has direct and indirect overhead.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a compute-bound process?",
+              "choices": [
+                "A process with only short CPU bursts and frequent I/O.",
+                "A process waiting for user typing most of the time.",
+                "A process with long CPU bursts and infrequent I/O.",
+                "A process that never uses the CPU."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Compute-bound jobs mostly calculate.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an I/O-bound process?",
+              "choices": [
+                "A process that never blocks for I/O.",
+                "A process with only long CPU bursts.",
+                "A process stored on disk only.",
+                "A process with short CPU bursts and frequent I/O waits."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "I/O-bound jobs often wait for devices/users.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When should scheduling decisions be made?",
+              "choices": [
+                "At events such as creation, termination, blocking, I/O interrupt, or time-slice expiration.",
+                "Only once at boot.",
+                "Only when a file is renamed.",
+                "Never after a process starts."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Schedulers run at state-changing events.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is preemptive scheduling?",
+              "choices": [
+                "A process runs until it voluntarily blocks always.",
+                "The OS can forcibly suspend a running process after a time interval or event.",
+                "The OS never interrupts running processes.",
+                "Only batch jobs use it."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Preemption improves responsiveness.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is nonpreemptive scheduling?",
+              "choices": [
+                "The OS interrupts every instruction.",
+                "The process never runs.",
+                "A process runs until it blocks or voluntarily releases the CPU.",
+                "Only real-time systems use it."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Nonpreemptive scheduling relies on voluntary release.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which environment usually requires preemptive scheduling?",
+              "choices": [
+                "Only offline batch systems.",
+                "Systems with no users.",
+                "A single-process bootloader.",
+                "Interactive systems."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Interactive systems need quick response.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a batch scheduling goal?",
+              "choices": [
+                "High throughput and low turnaround time.",
+                "Mouse responsiveness only.",
+                "Hard deadline guarantees only.",
+                "GUI animation quality only."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Batch systems focus on completing jobs efficiently.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an interactive scheduling goal?",
+              "choices": [
+                "Only maximum throughput regardless of response.",
+                "Fast response time and fairness to users.",
+                "No preemption.",
+                "Ignoring I/O-bound jobs."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Interactive systems must feel responsive.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a real-time scheduling goal?",
+              "choices": [
+                "Maximize average waiting time.",
+                "Ignore timing.",
+                "Meet deadlines predictably.",
+                "Run jobs in arrival order only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Real-time systems are deadline-oriented.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is FCFS scheduling?",
+              "choices": [
+                "Always run the shortest job first.",
+                "Always give fixed quanta.",
+                "Choose a random ticket.",
+                "Run processes in the order they arrive."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "First-Come, First-Served is simple and fair by arrival order.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the convoy effect in FCFS?",
+              "choices": [
+                "Short jobs wait behind a long job, increasing average wait.",
+                "All short jobs run first.",
+                "No process waits.",
+                "CPU is divided into tickets."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "FCFS can perform poorly when a long job arrives first.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Shortest Job First?",
+              "choices": [
+                "Run jobs by arrival time only.",
+                "Run the job with the smallest estimated running time first.",
+                "Run highest ticket count first.",
+                "Run each job for a quantum."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "SJF minimizes average turnaround when estimates are known.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is SJF hard in practice?",
+              "choices": [
+                "It requires no estimates.",
+                "It cannot run batch jobs.",
+                "The scheduler may not know future CPU burst lengths.",
+                "It ignores job length."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "SJF needs burst predictions.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Shortest Remaining Time Next?",
+              "choices": [
+                "A nonpreemptive FCFS variant.",
+                "A lottery algorithm.",
+                "A real-time static scheduler only.",
+                "A preemptive variant that chooses the process with least remaining time."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "SRTN can preempt for newly arrived short jobs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Round-Robin scheduling?",
+              "choices": [
+                "Each ready process gets a fixed time quantum in cyclic order.",
+                "The shortest process always runs to completion.",
+                "The highest priority process runs forever.",
+                "Only batch jobs can run."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "RR is common for interactive time sharing.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why must the Round-Robin quantum be chosen carefully?",
+              "choices": [
+                "Any quantum gives identical behavior.",
+                "Too small causes context-switch overhead; too large hurts response time.",
+                "A quantum of zero is best.",
+                "The quantum affects only disk I/O."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Quantum size trades responsiveness and overhead.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What range is mentioned as a typical RR quantum compromise?",
+              "choices": [
+                "About 20 to 50 seconds.",
+                "Exactly one hour.",
+                "About 20 to 50 milliseconds.",
+                "Zero milliseconds."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The lecture gives 20-50 ms as a common compromise.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is priority scheduling?",
+              "choices": [
+                "Run the oldest job always.",
+                "Run only I/O-bound processes.",
+                "Run no process until all arrive.",
+                "Run the highest-priority ready process first."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Priorities influence CPU selection.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What problem can priority scheduling cause?",
+              "choices": [
+                "Starvation of low-priority processes.",
+                "All jobs finish instantly.",
+                "No process can block.",
+                "The CPU never switches."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Low-priority jobs may wait too long.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is multilevel queue scheduling in this lecture?",
+              "choices": [
+                "All jobs share one FIFO queue only.",
+                "Processes are placed in priority classes and may move down after using allocated quanta.",
+                "Each process receives one permanent CPU.",
+                "Only real-time tasks exist."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Multiple queues favor interactive behavior.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Shortest Process Next?",
+              "choices": [
+                "Run by fixed priority only.",
+                "Run the process with most tickets.",
+                "Estimate future running time from past behavior and choose the shortest estimated job.",
+                "Run every process to completion in arrival order."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "SPN predicts burst length.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is guaranteed scheduling?",
+              "choices": [
+                "One user gets all CPU forever.",
+                "Only the first process ever runs.",
+                "CPU allocation is random without accounting.",
+                "With n users, each should receive about 1/n of CPU power."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Guaranteed scheduling tries to deliver promised shares.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is lottery scheduling?",
+              "choices": [
+                "Processes hold tickets and a random draw chooses who runs.",
+                "The shortest job always wins.",
+                "The oldest job always wins.",
+                "The OS runs no random choices."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Ticket counts represent resource share probability.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In lottery scheduling, what does giving one process 20 tickets and another 10 tickets mean?",
+              "choices": [
+                "Both receive exactly equal CPU share.",
+                "The first should receive about twice the CPU share of the second.",
+                "The second always runs first.",
+                "Tickets are unrelated to CPU share."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Lottery shares are proportional to tickets over time.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is static real-time scheduling?",
+              "choices": [
+                "Decisions are made only after every event occurs.",
+                "The OS ignores deadlines.",
+                "Scheduling decisions are made before execution using complete knowledge.",
+                "The scheduler uses random tickets only."
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Static scheduling requires known work and deadlines.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is dynamic real-time scheduling?",
+              "choices": [
+                "All decisions are fixed before boot.",
+                "No deadlines are considered.",
+                "Only FCFS is allowed.",
+                "Scheduling decisions are made at run time after execution starts."
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Dynamic scheduling adapts during execution.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the difference between policy and mechanism in scheduling?",
+              "choices": [
+                "Mechanism provides tools such as priority queues; policy decides how to use them.",
+                "Policy is hardware and mechanism is user preference only.",
+                "They are identical.",
+                "Mechanism means no scheduler."
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Separating them gives flexibility.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How can a parent process use policy with scheduler mechanisms?",
+              "choices": [
+                "It rewrites the kernel clock.",
+                "It can set priorities of child processes according to importance.",
+                "It directly chooses disk sectors.",
+                "It disables all system calls."
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "User-level policy can guide kernel mechanisms.",
               "fullExplanation": null,
               "points": 1
             }
@@ -15414,86 +17750,518 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Algorithm - Deadlock",
-          "description": "Manual questions from DEADLOCK.md.",
+          "description": "Manual closed questions from DEADLOCK.md, including detection and Banker examples.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "Which resource type can be taken away without causing failure?",
+              "prompt": "Which resource type can be taken away from a process without causing failure?",
               "choices": [
-                "Deadlocked resource",
-                "Circular resource",
                 "Preemptable resource",
-                "Nonpreemptable resource"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "Preemptable resources, such as CPU or memory frames, can be reclaimed safely.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Which deadlock condition means a process keeps allocated resources while requesting more?",
-              "choices": [
-                "Circular wait",
-                "Hold and wait",
-                "Mutual exclusion",
-                "No preemption"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "Hold and wait is when a process already holds resources and waits for additional ones.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "In a resource-allocation graph, what does a cycle indicate when each resource type has one instance?",
-              "choices": [
-                "Deadlock exists",
-                "The state is always safe",
-                "All requests can be ignored",
-                "No process is waiting"
+                "Nonpreemptable resource",
+                "Circular resource",
+                "Exclusive-only resource"
               ],
               "answer": [
                 0
               ],
-              "explanation": "With one instance per resource type, a cycle is sufficient to show deadlock.",
-              "fullExplanation": null,
+              "explanation": "Preemptable resources such as CPU time or swapped memory can be reclaimed safely.",
+              "fullExplanation": "Preemptable resources such as CPU time or swapped memory can be reclaimed safely.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the purpose of the Banker's algorithm?",
+              "prompt": "Which resource type is directly involved in classic resource deadlocks?",
               "choices": [
-                "Always grant every request immediately",
-                "Detect page faults",
-                "Schedule Round-Robin quanta",
-                "Grant a request only if the resulting state remains safe"
+                "Preemptable resource only",
+                "Nonpreemptable resource",
+                "Read-only cache line",
+                "Time quantum"
               ],
               "answer": [
-                3
+                1
               ],
-              "explanation": "Banker's algorithm avoids unsafe allocations by checking for a safe sequence.",
-              "fullExplanation": null,
+              "explanation": "Deadlocks involve resources that cannot be forcibly taken away without failure.",
+              "fullExplanation": "Deadlocks involve resources that cannot be forcibly taken away without failure.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does an unsafe state mean?",
+              "prompt": "Which sequence describes normal resource use?",
               "choices": [
-                "No resource is allocated",
-                "All processes have completed",
-                "There is no guarantee that all processes can finish without deadlock",
-                "Deadlock has already happened in every case"
+                "Use, release, request",
+                "Release, request, use",
+                "Request, use, release",
+                "Detect, avoid, prevent"
               ],
               "answer": [
                 2
               ],
-              "explanation": "Unsafe does not always mean deadlocked now, but it means deadlock cannot be ruled out.",
-              "fullExplanation": null,
+              "explanation": "Processes normally request a resource, use it, then release it.",
+              "fullExplanation": "Processes normally request a resource, use it, then release it.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Two processes are stuck: P1 holds R1 and waits for R2; P2 holds R2 and waits for R1. What is this?",
+              "choices": [
+                "Starvation only",
+                "Normal preemption",
+                "Safe state",
+                "Deadlock"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Each process waits for an event only the other can cause, so neither can continue.",
+              "fullExplanation": "Each process waits for an event only the other can cause, so neither can continue.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which definition matches deadlock?",
+              "choices": [
+                "Each process in a set waits for an event only another process in the same set can cause",
+                "A process uses the CPU for a long time",
+                "A process finishes normally",
+                "A process has a high priority"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The circular dependence among processes prevents progress.",
+              "fullExplanation": "The circular dependence among processes prevents progress.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which condition says a resource cannot be shared by multiple processes at the same time?",
+              "choices": [
+                "Hold and wait",
+                "Mutual exclusion",
+                "No preemption",
+                "Circular wait"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Mutual exclusion means only one process can use the resource at a time.",
+              "fullExplanation": "Mutual exclusion means only one process can use the resource at a time.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which condition says a process keeps resources while requesting more?",
+              "choices": [
+                "Mutual exclusion",
+                "No preemption",
+                "Hold and wait",
+                "Circular wait"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Hold and wait creates partial ownership while waiting for additional resources.",
+              "fullExplanation": "Hold and wait creates partial ownership while waiting for additional resources.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which condition says resources cannot be forcibly taken?",
+              "choices": [
+                "Mutual exclusion",
+                "Hold and wait",
+                "Ostrich policy",
+                "No preemption"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "No preemption means resources are released voluntarily.",
+              "fullExplanation": "No preemption means resources are released voluntarily.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which condition says processes form a closed chain of waiting?",
+              "choices": [
+                "Circular wait",
+                "Mutual exclusion",
+                "Safe sequence",
+                "Resource pooling"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Circular wait is a cycle of processes waiting for resources held by the next process.",
+              "fullExplanation": "Circular wait is a cycle of processes waiting for resources held by the next process.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How many Coffman conditions must hold for resource deadlock to occur?",
+              "choices": [
+                "Only one",
+                "All four",
+                "Exactly two",
+                "Any three are enough"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Deadlock requires mutual exclusion, hold and wait, no preemption, and circular wait.",
+              "fullExplanation": "Deadlock requires mutual exclusion, hold and wait, no preemption, and circular wait.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which deadlock handling strategy pretends the problem is rare and does nothing?",
+              "choices": [
+                "Banker strategy",
+                "Detection matrix",
+                "Ignore/Ostrich strategy",
+                "Resource ordering prevention"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The ostrich strategy ignores deadlocks when they are rare or cheaper to tolerate.",
+              "fullExplanation": "The ostrich strategy ignores deadlocks when they are rare or cheaper to tolerate.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In a resource graph, what does an arc from a process to a resource mean?",
+              "choices": [
+                "The process is holding the resource",
+                "The resource is executing the process",
+                "The resource has been deleted",
+                "The process is requesting or waiting for the resource"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Process -> resource means request/waiting edge.",
+              "fullExplanation": "Process -> resource means request/waiting edge.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In a resource graph, what does an arc from a resource to a process mean?",
+              "choices": [
+                "The resource is allocated to that process",
+                "The process is waiting for that resource",
+                "The process has terminated",
+                "The graph is unsafe but not deadlocked"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Resource -> process means assignment/holding edge.",
+              "fullExplanation": "Resource -> process means assignment/holding edge.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "With one instance of each resource type, what does a cycle in the resource graph mean?",
+              "choices": [
+                "The system is definitely safe",
+                "A deadlock exists",
+                "Only starvation exists",
+                "The graph must be ignored"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "For single-instance resources, a cycle is sufficient for deadlock.",
+              "fullExplanation": "For single-instance resources, a cycle is sufficient for deadlock.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which algorithm can check a resource graph for cycles?",
+              "choices": [
+                "Round Robin",
+                "FIFO page replacement",
+                "Depth-first search",
+                "Shortest Job First"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "DFS can detect cycles in a directed graph.",
+              "fullExplanation": "DFS can detect cycles in a directed graph.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the multiple-resource detection algorithm, what is E?",
+              "choices": [
+                "Available free resources only",
+                "Current allocation matrix",
+                "Request matrix",
+                "Existing total resources of each type"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "E is the total resource vector in the system.",
+              "fullExplanation": "E is the total resource vector in the system.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the multiple-resource detection algorithm, what is A?",
+              "choices": [
+                "Available resources currently free",
+                "All resources that exist",
+                "Resources currently allocated to each process",
+                "Maximum possible claims"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A is the vector of free resource instances.",
+              "fullExplanation": "A is the vector of free resource instances.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In deadlock detection, what does matrix C store?",
+              "choices": [
+                "Remaining requests for each process",
+                "Current allocation held by each process",
+                "Total existing resources",
+                "Safe sequence order"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "C is the allocation matrix.",
+              "fullExplanation": "C is the allocation matrix.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In deadlock detection, what does matrix R store?",
+              "choices": [
+                "Already released resources",
+                "Total resources in system",
+                "Current outstanding requests needed by each process",
+                "Completed process order"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "R is the request matrix.",
+              "fullExplanation": "R is the request matrix.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Detection example: A=(1,0). P1 request=(1,0), allocation=(0,1). Can P1 be marked complete?",
+              "choices": [
+                "No, because it holds one resource",
+                "No, because all values must be strictly less than A",
+                "Yes, only if A=(0,0)",
+                "Yes, because its request is <= A"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Request (1,0) can be satisfied by available (1,0), so P1 can finish and return allocation.",
+              "fullExplanation": "Request (1,0) can be satisfied by available (1,0), so P1 can finish and return allocation.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Detection example: A=(0,1). P2 request=(1,0), allocation=(2,0). Can P2 run immediately?",
+              "choices": [
+                "No, because it needs one unit of the first resource and A has zero",
+                "Yes, because it has allocation already",
+                "Yes, because second resource is available",
+                "No process can ever run in detection"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A request row must be <= A component by component.",
+              "fullExplanation": "A request row must be <= A component by component.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In detection, what happens when an unmarked process can finish?",
+              "choices": [
+                "Subtract its allocation from E and stop",
+                "Add its allocation back to A and mark it complete",
+                "Delete its request row only",
+                "Declare it deadlocked immediately"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The algorithm simulates completion and resource release.",
+              "fullExplanation": "The algorithm simulates completion and resource release.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "At the end of the detection algorithm, what do unmarked processes represent?",
+              "choices": [
+                "Completed processes",
+                "Safe processes",
+                "Deadlocked processes",
+                "Preemptable resources"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "If a process cannot be marked, it is part of the deadlocked set.",
+              "fullExplanation": "If a process cannot be marked, it is part of the deadlocked set.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the purpose of the Banker’s algorithm?",
+              "choices": [
+                "Detect deadlock only after it occurs",
+                "Always grant every request immediately",
+                "Replace all nonpreemptable resources",
+                "Avoid deadlock by refusing requests that lead to unsafe states"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Banker’s algorithm checks safety before granting a request.",
+              "fullExplanation": "Banker’s algorithm checks safety before granting a request.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What must processes declare for Banker’s algorithm to work?",
+              "choices": [
+                "Maximum resource needs in advance",
+                "Only their process IDs",
+                "Only their arrival times",
+                "Only their CPU burst time"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The algorithm needs maximum claims to compute remaining needs.",
+              "fullExplanation": "The algorithm needs maximum claims to compute remaining needs.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a safe state?",
+              "choices": [
+                "A state where all resources are unused",
+                "A state with at least one sequence allowing all processes to finish",
+                "A state with no running processes",
+                "A state where every request is denied"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Safe means there is a safe completion order.",
+              "fullExplanation": "Safe means there is a safe completion order.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is an unsafe state?",
+              "choices": [
+                "A state that is always already deadlocked",
+                "A state where all processes finished",
+                "A state with no guaranteed completion sequence, though deadlock may not have happened yet",
+                "A state with no resource requests"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Unsafe is risky but not necessarily deadlocked yet.",
+              "fullExplanation": "Unsafe is risky but not necessarily deadlocked yet.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Single-resource Banker example: total=10, allocated P1=3 P2=4 P3=2. Available?",
+              "choices": [
+                "2",
+                "3",
+                "9",
+                "1"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Available = total - allocated = 10 - (3+4+2) = 1.",
+              "fullExplanation": "Available = total - allocated = 10 - (3+4+2) = 1.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Banker safety check: A=3. P1 needs 4 and holds 2; P2 needs 2 and holds 1. Which process can finish first?",
+              "choices": [
+                "P2",
+                "P1",
+                "Both impossible",
+                "Neither because A must be zero"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "P2 need 2 <= available 3, so it can finish first and release 1.",
+              "fullExplanation": "P2 need 2 <= available 3, so it can finish first and release 1.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Banker multiple-resource check: A=(1,2). P1 need=(1,1), allocation=(2,0). Can P1 finish?",
+              "choices": [
+                "No, first resource is too small",
+                "Yes",
+                "No, second resource is too small",
+                "Only if allocation is zero"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "(1,1) <= (1,2), so P1 can complete and release (2,0).",
+              "fullExplanation": "(1,1) <= (1,2), so P1 can complete and release (2,0).",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Banker multiple-resource check: A=(2,1). P2 need=(3,0). Can P2 finish now?",
+              "choices": [
+                "Yes",
+                "Only if P2 has no allocation",
+                "No",
+                "Only in a safe state"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The first component need 3 is greater than available 2.",
+              "fullExplanation": "The first component need 3 is greater than available 2.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is Banker’s algorithm rarely used in practice?",
+              "choices": [
+                "It cannot detect unsafe states",
+                "It requires no information from processes",
+                "It works only for CPU scheduling",
+                "Maximum needs and resource sets are often unknown or dynamic"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Real systems change processes/resources, and maximum needs may be unknown.",
+              "fullExplanation": "Real systems change processes/resources, and maximum needs may be unknown.",
               "points": 1
             }
           ]
@@ -15506,54 +18274,246 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Algorithm - Deadlock Arabic Explanation",
-          "description": "Manual questions from DEADLOCKشرح.md.",
+          "description": "أسئلة مغلقة بالعربية من شرح DEADLOCK مع أمثلة كشف وخوارزمية المصرفي.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "ما المقصود بالاستبعاد المتبادل في شروط الجمود؟",
+              "prompt": "ما هو المورد القابل للاسترداد؟",
               "choices": [
-                "كل الموارد قابلة للاسترداد دائما",
-                "مورد لا يمكن أن يستخدمه أكثر من process في نفس الوقت",
-                "كل process يمتلك كل الموارد دائما",
-                "النظام لا يحتوي أي مورد"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "الاستبعاد المتبادل يعني أن المورد غير قابل للمشاركة في اللحظة نفسها.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "ما معنى الانتظار الدائري؟",
-              "choices": [
-                "كل process في سلسلة ينتظر موردا تمسكه العملية التالية",
-                "كل process يعمل وحده ولا ينتظر",
-                "كل الموارد متاحة دائما",
-                "كل العمليات انتهت بنجاح"
+                "مورد يمكن أخذه من العملية بدون ضرر مثل CPU أو الذاكرة",
+                "مورد لا يمكن أخذه مثل الطابعة أثناء الطباعة",
+                "مورد لا يحتاج إلى طلب",
+                "مورد لا يسبب انتظار أبدا"
               ],
               "answer": [
                 0
               ],
-              "explanation": "الانتظار الدائري هو أحد الشروط الأربعة اللازمة للجمود.",
-              "fullExplanation": null,
+              "explanation": "المورد القابل للاسترداد يمكن للنظام سحبه بأمان نسبيا.",
+              "fullExplanation": "المورد القابل للاسترداد يمكن للنظام سحبه بأمان نسبيا.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "في خوارزمية المصرفي، متى يتم قبول الطلب؟",
+              "prompt": "أي نوع من الموارد يدخل عادة في الجمود؟",
               "choices": [
-                "إذا جعل الحالة غير آمنة",
-                "إذا لم يعلن process احتياجه الأقصى",
-                "إذا كانت كل الموارد محجوزة",
-                "إذا بقيت الحالة آمنة بعد منحه"
+                "الموارد القابلة للاسترداد فقط",
+                "الموارد غير القابلة للاسترداد",
+                "الذاكرة المؤقتة فقط",
+                "زمن المعالج فقط"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "الجمود يحدث عندما لا يمكن أخذ المورد بالقوة من العملية.",
+              "fullExplanation": "الجمود يحدث عندما لا يمكن أخذ المورد بالقوة من العملية.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "ما الترتيب الصحيح لاستخدام المورد؟",
+              "choices": [
+                "تحرير المورد ثم طلبه ثم استخدامه",
+                "استخدام المورد ثم طلبه",
+                "طلب المورد ثم استخدامه ثم تحريره",
+                "طلب المورد فقط"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "هذا هو نمط اكتساب الموارد في المحاضرة.",
+              "fullExplanation": "هذا هو نمط اكتساب الموارد في المحاضرة.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "إذا كانت P1 تمسك R1 وتنتظر R2، و P2 تمسك R2 وتنتظر R1، فما الحالة؟",
+              "choices": [
+                "حالة آمنة",
+                "خروج طبيعي",
+                "جدولة عادلة",
+                "جمود"
               ],
               "answer": [
                 3
               ],
-              "explanation": "المصرفي يمنح الطلب فقط إذا بقي ترتيب آمن لإكمال العمليات.",
-              "fullExplanation": null,
+              "explanation": "كل عملية تنتظر الأخرى، لذلك لا أحد يستطيع التقدم.",
+              "fullExplanation": "كل عملية تنتظر الأخرى، لذلك لا أحد يستطيع التقدم.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "كم شرطا من شروط كوفمان يجب أن يتحقق لحدوث الجمود؟",
+              "choices": [
+                "الأربعة كلها",
+                "شرط واحد فقط",
+                "شرطان فقط",
+                "أي ثلاثة فقط"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "الاستبعاد المتبادل، الاحتفاظ والانتظار، عدم الاسترداد، والانتظار الدائري كلها ضرورية.",
+              "fullExplanation": "الاستبعاد المتبادل، الاحتفاظ والانتظار، عدم الاسترداد، والانتظار الدائري كلها ضرورية.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في رسم الموارد، السهم من العملية إلى المورد يعني ماذا؟",
+              "choices": [
+                "المورد مخصص للعملية",
+                "العملية تطلب المورد أو تنتظره",
+                "العملية انتهت",
+                "المورد غير موجود"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Process -> Resource يعني request/wait.",
+              "fullExplanation": "Process -> Resource يعني request/wait.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في رسم الموارد، السهم من المورد إلى العملية يعني ماذا؟",
+              "choices": [
+                "العملية تنتظر المورد",
+                "المورد حر",
+                "المورد مخصص لهذه العملية",
+                "العملية محذوفة"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Resource -> Process يعني allocation.",
+              "fullExplanation": "Resource -> Process يعني allocation.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في حالة مورد واحد من كل نوع، وجود دورة في الرسم البياني يعني ماذا؟",
+              "choices": [
+                "النظام آمن دائما",
+                "لا توجد مشكلة",
+                "الخوارزمية لا تعمل",
+                "يوجد جمود"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "الدورة في single-instance graph تعني deadlock.",
+              "fullExplanation": "الدورة في single-instance graph تعني deadlock.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في خوارزمية الكشف بالمصفوفات، ماذا تعني A؟",
+              "choices": [
+                "الموارد المتاحة حاليا",
+                "إجمالي الموارد الموجودة",
+                "مصفوفة التخصيص",
+                "مصفوفة الطلب"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A هي available vector.",
+              "fullExplanation": "A هي available vector.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في خوارزمية الكشف، إذا كان طلب عملية أقل أو يساوي A، ماذا نفترض؟",
+              "choices": [
+                "أنها في جمود مباشرة",
+                "أنها تستطيع الإكمال ونضيف مواردها إلى A",
+                "أنها يجب أن تنتظر دائما",
+                "أننا نحذف كل الموارد"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "نحاكي إكمال العملية ثم تحرير مواردها.",
+              "fullExplanation": "نحاكي إكمال العملية ثم تحرير مواردها.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في نهاية خوارزمية الكشف، العمليات غير المعلمة تعتبر ماذا؟",
+              "choices": [
+                "عمليات اكتملت",
+                "عمليات جديدة",
+                "عمليات في حالة جمود",
+                "موارد متاحة"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "غير المعلمة لم تستطع الإكمال في المحاكاة.",
+              "fullExplanation": "غير المعلمة لم تستطع الإكمال في المحاكاة.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "ما هدف خوارزمية المصرفي؟",
+              "choices": [
+                "اكتشاف الجمود بعد حدوثه فقط",
+                "منح كل الطلبات مباشرة",
+                "حذف الموارد غير القابلة للاسترداد",
+                "منع الجمود بتجنب الحالة غير الآمنة"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Banker يختبر الأمان قبل منح الطلب.",
+              "fullExplanation": "Banker يختبر الأمان قبل منح الطلب.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "ما هي الحالة الآمنة؟",
+              "choices": [
+                "يوجد ترتيب يسمح لكل العمليات بالإكمال",
+                "لا توجد موارد في النظام",
+                "كل العمليات محذوفة",
+                "كل الطلبات مرفوضة"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "safe sequence يعني يمكن للجميع الانتهاء.",
+              "fullExplanation": "safe sequence يعني يمكن للجميع الانتهاء.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "مثال: الموارد الكلية 10 والمخصصة 3 و4 و2. المتاح كم؟",
+              "choices": [
+                "2",
+                "1",
+                "3",
+                "10"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "المتاح = 10 - 3 - 4 - 2 = 1.",
+              "fullExplanation": "المتاح = 10 - 3 - 4 - 2 = 1.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "مثال Banker: A=(2,1), واحتياج P=(1,1). هل يمكن أن تكمل؟",
+              "choices": [
+                "لا بسبب المورد الأول",
+                "لا بسبب المورد الثاني",
+                "نعم",
+                "لا إلا إذا كان A=(0,0)"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "(1,1) <= (2,1)، لذلك يمكن تلبية احتياجها.",
+              "fullExplanation": "(1,1) <= (2,1)، لذلك يمكن تلبية احتياجها.",
               "points": 1
             }
           ]
@@ -15566,70 +18526,326 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Algorithm - Page Replacement",
-          "description": "Manual questions from page-replacement.txt and page-replacement Markdown explanations.",
+          "description": "Manual closed questions from page replacement algorithms with calculation examples.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "Which page replacement algorithm removes the page that will not be used for the longest future time?",
+              "prompt": "In FIFO page replacement, which page is removed on a fault when frames are full?",
               "choices": [
-                "Second Chance",
-                "NRU",
-                "Optimal",
-                "FIFO"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "Optimal replacement chooses the page whose next use is farthest in the future.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "Which algorithm may suffer from Belady's anomaly?",
-              "choices": [
-                "Banker's algorithm",
-                "FIFO",
-                "Optimal",
-                "LRU stack algorithm"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "FIFO can produce more page faults when more frames are added in some reference strings.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What is the main idea of LRU?",
-              "choices": [
-                "Replace the page that has not been used for the longest time",
-                "Replace the newest page",
-                "Replace a random process",
-                "Grant only safe resource requests"
+                "The oldest loaded page",
+                "The least recently used page",
+                "The page used farthest in the future",
+                "A random clean page only"
               ],
               "answer": [
                 0
               ],
-              "explanation": "LRU uses past recent use as a prediction of future use.",
-              "fullExplanation": null,
+              "explanation": "FIFO removes pages in arrival order.",
+              "fullExplanation": "FIFO removes pages in arrival order.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What does Second Chance add to FIFO?",
+              "prompt": "In LRU page replacement, which page is removed?",
               "choices": [
-                "A maximum claim matrix",
-                "A CPU time quantum",
-                "A cloud elasticity meter",
-                "A reference bit check before replacing the oldest page"
+                "The oldest loaded page regardless of use",
+                "The page not used for the longest time in the past",
+                "The page used farthest in the future",
+                "The newest loaded page"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "LRU chooses by past recency.",
+              "fullExplanation": "LRU chooses by past recency.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In Optimal page replacement, which page is removed?",
+              "choices": [
+                "The oldest page in memory",
+                "The page with smallest number",
+                "The page whose next use is farthest in the future or never occurs",
+                "The most recently used page"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Optimal uses future knowledge and is mainly a benchmark.",
+              "fullExplanation": "Optimal uses future knowledge and is mainly a benchmark.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For reference string 7,0,1 with 3 empty frames, how many page faults occur?",
+              "choices": [
+                "1",
+                "2",
+                "0",
+                "3"
               ],
               "answer": [
                 3
               ],
-              "explanation": "Second Chance skips recently referenced pages by clearing their reference bit.",
-              "fullExplanation": null,
+              "explanation": "Each first reference is absent and fills a free frame.",
+              "fullExplanation": "Each first reference is absent and fills a free frame.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For frames [7,0,1] using FIFO, next reference is 2. Which page is replaced?",
+              "choices": [
+                "7",
+                "0",
+                "1",
+                "2"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "7 entered first, so FIFO evicts 7.",
+              "fullExplanation": "7 entered first, so FIFO evicts 7.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For frames [7,0,1] with recent use order 7 oldest, then 0, then 1 newest. LRU sees reference 2. Which page is replaced?",
+              "choices": [
+                "0",
+                "7",
+                "1",
+                "2"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "LRU removes the least recently used page, 7.",
+              "fullExplanation": "LRU removes the least recently used page, 7.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For frames [2,0,3] and future references 0,4,2,3, which page does Optimal replace if 4 is requested now?",
+              "choices": [
+                "2",
+                "0",
+                "3",
+                "4"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Future: 0 soon, 2 later, 3 later than 2, so 3 is farthest.",
+              "fullExplanation": "Future: 0 soon, 2 later, 3 later than 2, so 3 is farthest.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Using FIFO with 3 frames on 7,0,1,2,0,3,0,4,2,3,0,3,2, how many faults occur?",
+              "choices": [
+                "7",
+                "9",
+                "13",
+                "10"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Step through FIFO: faults on 7,0,1,2,3,0,4,2,3,0 = 10.",
+              "fullExplanation": "Step through FIFO: faults on 7,0,1,2,3,0,4,2,3,0 = 10.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Using LRU with 3 frames on 7,0,1,2,0,3,0,4,2,3,0,3,2, how many faults occur?",
+              "choices": [
+                "9",
+                "10",
+                "7",
+                "13"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "LRU faults 9 times for this classic reference string.",
+              "fullExplanation": "LRU faults 9 times for this classic reference string.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Using Optimal with 3 frames on 7,0,1,2,0,3,0,4,2,3,0,3,2, how many faults occur?",
+              "choices": [
+                "9",
+                "7",
+                "10",
+                "13"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Optimal gives the minimum here: 7 faults.",
+              "fullExplanation": "Optimal gives the minimum here: 7 faults.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which algorithm can show Belady’s anomaly?",
+              "choices": [
+                "LRU",
+                "Optimal",
+                "FIFO",
+                "Aging only"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "FIFO may have more faults with more frames.",
+              "fullExplanation": "FIFO may have more faults with more frames.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is pure Optimal not implementable?",
+              "choices": [
+                "It cannot count page faults",
+                "It removes no pages",
+                "It requires no memory",
+                "It requires knowing future references"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Real OSs do not know future page references exactly.",
+              "fullExplanation": "Real OSs do not know future page references exactly.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which algorithm updates recency when a page hit occurs?",
+              "choices": [
+                "LRU",
+                "FIFO only",
+                "Optimal only",
+                "FCFS scheduling"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "LRU must update last-use order on hits.",
+              "fullExplanation": "LRU must update last-use order on hits.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In FIFO code, what does the pointer track?",
+              "choices": [
+                "The most recently used page",
+                "The frame to replace next",
+                "The future use distance",
+                "The number of processes"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The pointer cycles through frames in FIFO order.",
+              "fullExplanation": "The pointer cycles through frames in FIFO order.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If a referenced page is already in memory, what happens to page fault count?",
+              "choices": [
+                "It always increases",
+                "It resets to zero",
+                "It does not increase",
+                "It becomes negative"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "A hit is not a fault.",
+              "fullExplanation": "A hit is not a fault.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For 3 empty frames and references 1,2,1, how many FIFO faults?",
+              "choices": [
+                "1",
+                "3",
+                "0",
+                "2"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "1 faults, 2 faults, second 1 is a hit.",
+              "fullExplanation": "1 faults, 2 faults, second 1 is a hit.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For 2 frames using FIFO and references 1,2,3, which pages remain?",
+              "choices": [
+                "3 and 2",
+                "1 and 2",
+                "1 and 3",
+                "Only 3"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "1 and 2 load; 3 replaces oldest 1, leaving 3 and 2.",
+              "fullExplanation": "1 and 2 load; 3 replaces oldest 1, leaving 3 and 2.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "For 2 frames using LRU and references 1,2,1,3, which page is replaced by 3?",
+              "choices": [
+                "1",
+                "2",
+                "3",
+                "None"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "After hit on 1, page 2 is least recently used.",
+              "fullExplanation": "After hit on 1, page 2 is least recently used.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which page replacement algorithm gives the best possible fault count for a fixed reference string?",
+              "choices": [
+                "FIFO",
+                "Random",
+                "Optimal",
+                "Second Chance always"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Optimal is the theoretical lower bound.",
+              "fullExplanation": "Optimal is the theoretical lower bound.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does a page fault mean in these algorithms?",
+              "choices": [
+                "The page is already in memory",
+                "The CPU completed a process",
+                "A disk quota was exceeded",
+                "The requested page is not currently in a frame"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Faults occur on misses.",
+              "fullExplanation": "Faults occur on misses.",
               "points": 1
             }
           ]
@@ -15642,54 +18858,198 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Algorithm - FCFS Scheduling",
-          "description": "Manual questions from FCFS.txt.",
+          "description": "Manual closed questions from FCFS scheduling with calculation examples.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "How does FCFS choose the next process?",
+              "prompt": "In FCFS scheduling, which process runs first?",
               "choices": [
-                "A random lottery ticket is drawn",
-                "The process with the largest memory use always runs first",
-                "The process that arrived first runs first",
-                "The process with the shortest remaining time always runs first"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "First-Come, First-Served follows arrival order.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What is a common disadvantage of FCFS?",
-              "choices": [
-                "It always gives the best response time",
-                "A long job can make shorter jobs wait behind it",
-                "It requires future knowledge of all jobs",
-                "It cannot be implemented with a queue"
-              ],
-              "answer": [
-                1
-              ],
-              "explanation": "This is the convoy effect.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "For FCFS, waiting time for a process depends mainly on what?",
-              "choices": [
-                "The burst times of processes scheduled before it",
-                "The number of page faults only",
-                "The number of GPUs",
-                "The size of the file name"
+                "The process with the earliest arrival time",
+                "The process with shortest burst",
+                "The process with highest remaining time",
+                "The process with most I/O"
               ],
               "answer": [
                 0
               ],
-              "explanation": "A process waits until all earlier arrivals finish.",
-              "fullExplanation": null,
+              "explanation": "FCFS orders processes by arrival time.",
+              "fullExplanation": "FCFS orders processes by arrival time.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "FCFS example P1(AT=0,BT=5), P2(AT=1,BT=3), P3(AT=2,BT=2). What is the Gantt chart?",
+              "choices": [
+                "P1 0-2, P2 2-5, P3 5-10",
+                "P1 0-5, P2 5-8, P3 8-10",
+                "P3 0-2, P2 2-5, P1 5-10",
+                "P2 0-3, P3 3-5, P1 5-10"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "FCFS runs by arrival: P1 then P2 then P3.",
+              "fullExplanation": "FCFS runs by arrival: P1 then P2 then P3.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that FCFS example, what is P2 waiting time?",
+              "choices": [
+                "0",
+                "3",
+                "4",
+                "7"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "P2 starts at 5 and arrived at 1, so waiting = 5 - 1 = 4.",
+              "fullExplanation": "P2 starts at 5 and arrived at 1, so waiting = 5 - 1 = 4.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that FCFS example, what is P3 waiting time?",
+              "choices": [
+                "2",
+                "8",
+                "4",
+                "6"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "P3 starts at 8 and arrived at 2, so waiting = 6.",
+              "fullExplanation": "P3 starts at 8 and arrived at 2, so waiting = 6.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that FCFS example, what is P1 turnaround time?",
+              "choices": [
+                "5",
+                "0",
+                "10",
+                "3"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "P1 finishes at 5 and arrived at 0, so turnaround = 5.",
+              "fullExplanation": "P1 finishes at 5 and arrived at 0, so turnaround = 5.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that FCFS example, what is P2 turnaround time?",
+              "choices": [
+                "4",
+                "7",
+                "3",
+                "8"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "P2 finishes at 8 and arrived at 1, so turnaround = 7.",
+              "fullExplanation": "P2 finishes at 8 and arrived at 1, so turnaround = 7.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that FCFS example, what is P3 turnaround time?",
+              "choices": [
+                "6",
+                "2",
+                "8",
+                "10"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "P3 finishes at 10 and arrived at 2, so turnaround = 8.",
+              "fullExplanation": "P3 finishes at 10 and arrived at 2, so turnaround = 8.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that FCFS example, what is average waiting time?",
+              "choices": [
+                "4.00",
+                "6.67",
+                "2.00",
+                "3.33"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Average waiting = (0+4+6)/3 = 3.33.",
+              "fullExplanation": "Average waiting = (0+4+6)/3 = 3.33.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that FCFS example, what is average turnaround time?",
+              "choices": [
+                "6.67",
+                "3.33",
+                "5.00",
+                "8.00"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Average turnaround = (5+7+8)/3 = 6.67.",
+              "fullExplanation": "Average turnaround = (5+7+8)/3 = 6.67.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens in FCFS if CPU is idle and the next process arrives later?",
+              "choices": [
+                "Waiting time becomes negative",
+                "Current time jumps to that process arrival time",
+                "The process is ignored",
+                "Burst time becomes zero"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The scheduler waits until a process is available.",
+              "fullExplanation": "The scheduler waits until a process is available.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which formula gives waiting time in nonpreemptive FCFS?",
+              "choices": [
+                "Finish time - burst time only",
+                "Arrival time + burst time",
+                "Start time - arrival time",
+                "Burst time - finish time"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Waiting is the time spent before first running.",
+              "fullExplanation": "Waiting is the time spent before first running.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which formula gives turnaround time?",
+              "choices": [
+                "Start time - arrival time only",
+                "Burst time - waiting time",
+                "Arrival time - finish time",
+                "Finish time - arrival time"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Turnaround covers the whole time in system.",
+              "fullExplanation": "Turnaround covers the whole time in system.",
               "points": 1
             }
           ]
@@ -15702,54 +19062,198 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Algorithm - Round-Robin Scheduling",
-          "description": "Manual questions from RR.txt.",
+          "description": "Manual closed questions from Round-Robin scheduling with quantum calculation examples.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What is the time quantum in Round-Robin scheduling?",
+              "prompt": "In Round Robin, what is the time quantum?",
               "choices": [
-                "The total RAM size",
-                "The number of files in a directory",
-                "The maximum number of semaphores",
-                "The maximum CPU time a process gets before possible preemption"
+                "Maximum CPU time a process gets before being rotated if not finished",
+                "Total burst time of all processes",
+                "The waiting time of the first process",
+                "The number of frames in memory"
               ],
               "answer": [
-                3
+                0
               ],
-              "explanation": "Round-Robin uses a fixed time slice called a quantum.",
-              "fullExplanation": null,
+              "explanation": "The quantum controls each turn length.",
+              "fullExplanation": "The quantum controls each turn length.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What happens if a process does not finish within its quantum?",
+              "prompt": "RR example P1(AT=0,BT=5), P2(AT=1,BT=3), P3(AT=2,BT=2), quantum=2. What is the Gantt chart?",
               "choices": [
-                "It gets all remaining CPU time",
-                "It becomes a page table",
-                "It is preempted and placed back in the ready queue",
-                "It is always deleted"
-              ],
-              "answer": [
-                2
-              ],
-              "explanation": "The scheduler cycles to the next ready process.",
-              "fullExplanation": null,
-              "points": 1
-            },
-            {
-              "type": "Single Choice",
-              "prompt": "What is the tradeoff in choosing a Round-Robin quantum?",
-              "choices": [
-                "Quantum size has no effect",
-                "Small quantum improves response but increases context-switch overhead",
-                "Small quantum removes all context switches",
-                "Large quantum guarantees fairness for interactive tasks"
+                "P1 0-5, P2 5-8, P3 8-10",
+                "P1 0-2, P2 2-4, P3 4-6, P1 6-8, P2 8-9, P1 9-10",
+                "P3 0-2, P2 2-5, P1 5-10",
+                "P1 0-2, P1 2-4, P1 4-5, P2 5-8, P3 8-10"
               ],
               "answer": [
                 1
               ],
-              "explanation": "Quantum size balances responsiveness and overhead.",
-              "fullExplanation": null,
+              "explanation": "Processes rotate through the ready queue with quantum 2.",
+              "fullExplanation": "Processes rotate through the ready queue with quantum 2.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that RR example, when does P3 finish?",
+              "choices": [
+                "4",
+                "8",
+                "6",
+                "10"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "P3 runs from 4 to 6 and finishes.",
+              "fullExplanation": "P3 runs from 4 to 6 and finishes.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that RR example, when does P2 finish?",
+              "choices": [
+                "8",
+                "6",
+                "10",
+                "9"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "P2 runs 2-4, then 8-9 and finishes.",
+              "fullExplanation": "P2 runs 2-4, then 8-9 and finishes.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that RR example, when does P1 finish?",
+              "choices": [
+                "10",
+                "5",
+                "8",
+                "9"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "P1 runs 0-2, 6-8, 9-10.",
+              "fullExplanation": "P1 runs 0-2, 6-8, 9-10.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that RR example, what is P1 waiting time?",
+              "choices": [
+                "0",
+                "5",
+                "4",
+                "10"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Waiting = finish - arrival - burst = 10 - 0 - 5 = 5.",
+              "fullExplanation": "Waiting = finish - arrival - burst = 10 - 0 - 5 = 5.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that RR example, what is P2 waiting time?",
+              "choices": [
+                "4",
+                "6",
+                "5",
+                "8"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Waiting = 9 - 1 - 3 = 5.",
+              "fullExplanation": "Waiting = 9 - 1 - 3 = 5.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that RR example, what is P3 waiting time?",
+              "choices": [
+                "4",
+                "6",
+                "0",
+                "2"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Waiting = 6 - 2 - 2 = 2.",
+              "fullExplanation": "Waiting = 6 - 2 - 2 = 2.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that RR example, what is average waiting time?",
+              "choices": [
+                "4.00",
+                "3.33",
+                "5.00",
+                "7.33"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Average waiting = (5+5+2)/3 = 4.",
+              "fullExplanation": "Average waiting = (5+5+2)/3 = 4.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In that RR example, what is average turnaround time?",
+              "choices": [
+                "4.00",
+                "7.33",
+                "6.67",
+                "10.00"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Turnaround values are 10,8,4; average = 7.33.",
+              "fullExplanation": "Turnaround values are 10,8,4; average = 7.33.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens when a process uses less than the full quantum and finishes?",
+              "choices": [
+                "It is always re-added with zero remaining time",
+                "The quantum doubles",
+                "It leaves the queue and is not re-added",
+                "All other processes stop"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Completed processes go to the completed list.",
+              "fullExplanation": "Completed processes go to the completed list.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens when no process is ready in the provided RR code?",
+              "choices": [
+                "The program crashes immediately",
+                "A random process is created",
+                "The quantum becomes zero",
+                "Time increases until a process arrives"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "The code increments time during idle periods.",
+              "fullExplanation": "The code increments time during idle periods.",
               "points": 1
             }
           ]
@@ -15762,38 +19266,166 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Algorithm - Master Worker with MPI",
-          "description": "Manual questions from Master_Worker(MPI4).txt.",
+          "description": "Manual closed questions from the MPI master-worker code.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What is the role of the master in a master-worker MPI design?",
+              "prompt": "In the MPI master-worker code, which rank is the master?",
               "choices": [
-                "Distribute tasks to workers and collect results",
-                "Execute no coordination at all",
-                "Replace every worker with a page frame",
-                "Handle only keyboard interrupts"
+                "Rank 0",
+                "Rank 1",
+                "The last rank only",
+                "Every rank"
               ],
               "answer": [
                 0
               ],
-              "explanation": "The master coordinates work distribution and result collection.",
-              "fullExplanation": null,
+              "explanation": "The code checks if rank == 0 for master behavior.",
+              "fullExplanation": "The code checks if rank == 0 for master behavior.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "What is the role of a worker in a master-worker design?",
+              "prompt": "What does comm.Get_rank() return?",
               "choices": [
-                "Schedule all operating-system processes",
-                "Control every resource allocation graph",
-                "Replace the master permanently",
-                "Receive assigned work, process it, and return the result"
+                "The total number of tasks",
+                "The process rank inside MPI_COMM_WORLD",
+                "The square of the task",
+                "The TCP port"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Rank identifies each MPI process.",
+              "fullExplanation": "Rank identifies each MPI process.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does comm.Get_size() return?",
+              "choices": [
+                "The current worker task",
+                "The result buffer size only",
+                "The number of MPI processes",
+                "The number of sockets"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "Size is the communicator process count.",
+              "fullExplanation": "Size is the communicator process count.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If tasks=[1,2,3,4,5] and there are 3 MPI processes total, how many workers receive initial tasks?",
+              "choices": [
+                "3",
+                "5",
+                "1",
+                "2"
               ],
               "answer": [
                 3
               ],
-              "explanation": "Workers perform the assigned computation.",
-              "fullExplanation": null,
+              "explanation": "Workers are ranks 1 and 2, because rank 0 is master.",
+              "fullExplanation": "Workers are ranks 1 and 2, because rank 0 is master.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "With tasks=[1,2,3,4,5], what task is sent first if the master uses tasks.pop()?",
+              "choices": [
+                "5",
+                "1",
+                "2",
+                "0"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Python list pop() without index removes the last element.",
+              "fullExplanation": "Python list pop() without index removes the last element.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If a worker receives task 4, what result does it send?",
+              "choices": [
+                "4",
+                "16",
+                "8",
+                "0"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The worker computes task * task.",
+              "fullExplanation": "The worker computes task * task.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why might the MPI sample leave some tasks unused when workers are fewer than tasks?",
+              "choices": [
+                "MPI cannot send integers",
+                "rank 0 is also a worker",
+                "It sends only one initial task to each worker and does not loop until all tasks are assigned",
+                "comm.recv deletes all tasks"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "The code sends to ranks 1..size-1 once, then receives once from each.",
+              "fullExplanation": "The code sends to ranks 1..size-1 once, then receives once from each.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which MPI call sends a task to a specific worker?",
+              "choices": [
+                "comm.recv(source=i)",
+                "comm.Get_rank()",
+                "MPI.COMM_WORLD()",
+                "comm.send(task, dest=i)"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "comm.send sends data to the destination rank.",
+              "fullExplanation": "comm.send sends data to the destination rank.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which MPI call receives a result from a worker?",
+              "choices": [
+                "comm.recv(source=i)",
+                "comm.send(result, dest=0)",
+                "comm.Get_size()",
+                "tasks.pop()"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The master uses recv to collect worker results.",
+              "fullExplanation": "The master uses recv to collect worker results.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the main role of the master in master-worker scheduling?",
+              "choices": [
+                "Compute every task alone",
+                "Distribute tasks and collect results",
+                "Only open a socket",
+                "Terminate all workers before work"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The master coordinates work distribution.",
+              "fullExplanation": "The master coordinates work distribution.",
               "points": 1
             }
           ]
@@ -15806,38 +19438,166 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Algorithm - Master Worker with Sockets",
-          "description": "Manual questions from Master-Worker-Sockets.txt.",
+          "description": "Manual closed questions from the socket master-worker code.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "What do sockets provide in a distributed master-worker program?",
+              "prompt": "In the socket master-worker code, what is the master process?",
               "choices": [
-                "A page replacement policy",
-                "A local-only mutex with no messages",
-                "A communication endpoint for sending and receiving data over a network",
-                "A replacement for all CPU scheduling"
+                "The server",
+                "The client",
+                "The task integer",
+                "The thread result"
               ],
               "answer": [
-                2
+                0
               ],
-              "explanation": "Sockets are used for network communication between processes.",
-              "fullExplanation": null,
+              "explanation": "The server accepts workers and sends tasks.",
+              "fullExplanation": "The server accepts workers and sends tasks.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "Why is message format important in socket-based coordination?",
+              "prompt": "What does server.bind((HOST, PORT)) do?",
               "choices": [
-                "The master cannot send results",
-                "Both sides must interpret tasks and results consistently",
-                "Messages cannot contain data",
-                "The worker never receives anything"
+                "Connects as a worker to the master",
+                "Associates the server socket with an address and port",
+                "Squares a task",
+                "Creates an MPI communicator"
               ],
               "answer": [
                 1
               ],
-              "explanation": "A clear protocol prevents misunderstanding between master and worker.",
-              "fullExplanation": null,
+              "explanation": "bind attaches the listening socket to host/port.",
+              "fullExplanation": "bind attaches the listening socket to host/port.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does server.listen() do?",
+              "choices": [
+                "Sends all tasks immediately",
+                "Closes every connection",
+                "Puts the socket into listening mode for incoming workers",
+                "Receives a squared result"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "listen prepares the server to accept connections.",
+              "fullExplanation": "listen prepares the server to accept connections.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does the server use threading.Thread for each worker?",
+              "choices": [
+                "To avoid any network communication",
+                "To sort tasks numerically",
+                "To replace sockets with MPI",
+                "To handle multiple worker connections concurrently"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "Each accepted connection gets its own handler thread.",
+              "fullExplanation": "Each accepted connection gets its own handler thread.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does tasks.pop() return first for tasks=[1,2,3,4,5]?",
+              "choices": [
+                "5",
+                "1",
+                "2",
+                "0"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Python pop removes the last list element.",
+              "fullExplanation": "Python pop removes the last list element.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If the client receives task 3, what does it send back?",
+              "choices": [
+                "3",
+                "9",
+                "6",
+                "0"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "The client computes task * task.",
+              "fullExplanation": "The client computes task * task.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does conn.recv(1024).decode() do on the server side?",
+              "choices": [
+                "Sends a task to the worker",
+                "Starts listening for clients",
+                "Receives result bytes and converts them to text",
+                "Creates a new thread"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "recv reads bytes; decode converts them to a string.",
+              "fullExplanation": "recv reads bytes; decode converts them to a string.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When does the client loop stop?",
+              "choices": [
+                "After exactly one task always",
+                "When HOST changes",
+                "When result is odd",
+                "When recv returns no data"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "No data means the server closed the connection.",
+              "fullExplanation": "No data means the server closed the connection.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a race risk in the socket sample?",
+              "choices": [
+                "Multiple threads access the shared tasks list without a lock",
+                "The client never connects",
+                "The server never sends strings",
+                "The task cannot be squared"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Shared mutable state should be protected when multiple threads use it.",
+              "fullExplanation": "Shared mutable state should be protected when multiple threads use it.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the purpose of encode() before sending data?",
+              "choices": [
+                "Square the task",
+                "Convert a string to bytes for socket transmission",
+                "Start a worker thread",
+                "Bind a port"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "Sockets send bytes, not Python strings directly.",
+              "fullExplanation": "Sockets send bytes, not Python strings directly.",
               "points": 1
             }
           ]
@@ -15850,60 +19610,204 @@ window.UNIFIED_EXAM_DATA = {
           "bankTitle": "Manual Markdown Exams",
           "kind": "Closed Exam",
           "title": "Algorithm - شرح خوارزميات الاستبدال",
-          "description": "Manual questions from خوازميات المحاضرة الرابعة.md and related Arabic algorithm explanations.",
+          "description": "أسئلة عربية مغلقة عن خوارزميات استبدال الصفحات مع أمثلة حسابية.",
           "questions": [
             {
               "type": "Single Choice",
-              "prompt": "في خوارزمية الاستبدال المثالية، أي صفحة يتم اختيارها للإزالة؟",
+              "prompt": "في FIFO، أي صفحة يتم استبدالها عند امتلاء الإطارات؟",
               "choices": [
-                "الصفحة التي لن تستخدم لأطول فترة في المستقبل",
-                "أحدث صفحة دخلت الذاكرة دائما",
-                "الصفحة ذات الاسم الأقصر",
-                "أي process يحمل موردا"
+                "أقدم صفحة دخلت الذاكرة",
+                "آخر صفحة استخدمت",
+                "الصفحة التي ستستخدم بعد أطول زمن مستقبلا",
+                "صفحة عشوائية دائما"
               ],
               "answer": [
                 0
               ],
-              "explanation": "الخوارزمية المثالية تعتمد على معرفة الاستخدام المستقبلي.",
-              "fullExplanation": null,
+              "explanation": "FIFO تعني الداخل أولا يخرج أولا.",
+              "fullExplanation": "FIFO تعني الداخل أولا يخرج أولا.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "في FIFO، ما الصفحة التي تزال عند حدوث page fault؟",
+              "prompt": "في LRU، أي صفحة يتم استبدالها؟",
               "choices": [
-                "الصفحة التي ستستخدم قريبا",
-                "الصفحة ذات أكبر حجم ملف",
-                "الصفحة التي لم تدخل الذاكرة بعد",
-                "أقدم صفحة موجودة في الذاكرة"
+                "أقدم صفحة دخلت فقط",
+                "الصفحة الأقل استخداما مؤخرا",
+                "أحدث صفحة دخلت",
+                "الصفحة الأكبر رقما"
               ],
               "answer": [
-                3
+                1
               ],
-              "explanation": "FIFO يتبع ترتيب دخول الصفحات إلى الذاكرة.",
-              "fullExplanation": null,
+              "explanation": "LRU يعتمد على الماضي: من لم تستخدم منذ أطول وقت.",
+              "fullExplanation": "LRU يعتمد على الماضي: من لم تستخدم منذ أطول وقت.",
               "points": 1
             },
             {
               "type": "Single Choice",
-              "prompt": "ما الفكرة الأساسية في NRU؟",
+              "prompt": "في Optimal، أي صفحة يتم استبدالها؟",
               "choices": [
-                "إعطاء كل process quantum ثابت",
-                "إرسال المهام من master إلى worker",
-                "تصنيف الصفحات حسب بتات الاستخدام والتعديل واختيار فئة منخفضة",
-                "منح الموارد فقط في الحالة الآمنة"
+                "أول صفحة دخلت",
+                "آخر صفحة استخدمت",
+                "الصفحة التي سيكون استخدامها القادم أبعد في المستقبل",
+                "أي صفحة معدلة"
               ],
               "answer": [
                 2
               ],
-              "explanation": "NRU يستخدم معلومات R وM لاختيار صفحة مناسبة للاستبدال.",
-              "fullExplanation": null,
+              "explanation": "Optimal ينظر للمستقبل لذلك يستخدم للمقارنة فقط.",
+              "fullExplanation": "Optimal ينظر للمستقبل لذلك يستخدم للمقارنة فقط.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "مع 3 إطارات فارغة والمراجع 7,0,1، كم Page Fault؟",
+              "choices": [
+                "2",
+                "1",
+                "0",
+                "3"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "كل صفحة غير موجودة فتسبب fault وتملأ إطارا.",
+              "fullExplanation": "كل صفحة غير موجودة فتسبب fault وتملأ إطارا.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في FIFO، إذا كانت الإطارات [7,0,1] وجاءت الصفحة 2، من يخرج؟",
+              "choices": [
+                "7",
+                "0",
+                "1",
+                "2"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "7 هي الأقدم دخولا.",
+              "fullExplanation": "7 هي الأقدم دخولا.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في LRU، إذا كان ترتيب الاستخدام: 7 أقدم، ثم 0، ثم 1 أحدث، وجاءت 2، من يخرج؟",
+              "choices": [
+                "0",
+                "7",
+                "1",
+                "2"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "LRU يخرج الأقل استخداما مؤخرا.",
+              "fullExplanation": "LRU يخرج الأقل استخداما مؤخرا.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "في السلسلة 7,0,1,2,0,3,0,4,2,3,0,3,2 مع 3 إطارات، عدد FIFO faults؟",
+              "choices": [
+                "9",
+                "7",
+                "10",
+                "13"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "بالتتبع خطوة خطوة تكون أخطاء FIFO = 10.",
+              "fullExplanation": "بالتتبع خطوة خطوة تكون أخطاء FIFO = 10.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "لنفس السلسلة مع LRU و3 إطارات، كم fault؟",
+              "choices": [
+                "10",
+                "7",
+                "13",
+                "9"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "LRU يحسن على FIFO هنا ويعطي 9.",
+              "fullExplanation": "LRU يحسن على FIFO هنا ويعطي 9.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "لنفس السلسلة مع Optimal و3 إطارات، كم fault؟",
+              "choices": [
+                "7",
+                "9",
+                "10",
+                "13"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Optimal أقل عدد لأنه يعرف المستقبل.",
+              "fullExplanation": "Optimal أقل عدد لأنه يعرف المستقبل.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "أي خوارزمية قد يظهر فيها Belady anomaly؟",
+              "choices": [
+                "LRU",
+                "FIFO",
+                "Optimal",
+                "Clock دائما"
+              ],
+              "answer": [
+                1
+              ],
+              "explanation": "زيادة عدد الإطارات قد تزيد الأخطاء في FIFO.",
+              "fullExplanation": "زيادة عدد الإطارات قد تزيد الأخطاء في FIFO.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "لماذا Optimal غير عملي؟",
+              "choices": [
+                "لأنه لا يحسب الأخطاء",
+                "لأنه لا يستبدل صفحات",
+                "لأنه يحتاج معرفة المراجع المستقبلية",
+                "لأنه لا يستخدم ذاكرة"
+              ],
+              "answer": [
+                2
+              ],
+              "explanation": "النظام لا يعرف المستقبل الحقيقي.",
+              "fullExplanation": "النظام لا يعرف المستقبل الحقيقي.",
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "إذا كانت الصفحة موجودة في الذاكرة، ماذا يحدث لعداد Page Fault؟",
+              "choices": [
+                "يزيد دائما",
+                "يصبح صفرا",
+                "ينقص دائما",
+                "لا يزيد"
+              ],
+              "answer": [
+                3
+              ],
+              "explanation": "وجود الصفحة يعني hit وليس fault.",
+              "fullExplanation": "وجود الصفحة يعني hit وليس fault.",
               "points": 1
             }
           ]
         }
       ],
-      "questionCount": 774,
+      "questionCount": 1018,
       "examCount": 21
     }
   ]
