@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unified Exam Study App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <p class="eyebrow">Unified study app</p>
+      <h1>Exam Practice</h1>
+    </div>
+    <div class="controls">
+      <label>
+        <span>Subject</span>
+        <select id="subjectSelect"></select>
+      </label>
+      <label>
+        <span>Bank</span>
+        <select id="bankSelect"></select>
+      </label>
+      <button id="resetBtn" class="ghost" type="button">Reset Progress</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section class="subject-card">
+        <h2 id="subjectTitle"></h2>
+        <p id="subjectDescription"></p>
+        <div class="stats">
+          <span id="examTotal"></span>
+          <span id="questionTotal"></span>
+        </div>
+      </section>
+      <input id="searchBox" class="search" type="search" placeholder="Search exams">
+      <div id="examList" class="exam-list"></div>
+    </aside>
+
+    <section class="workspace">
+      <section id="welcome" class="welcome">
+        <p class="eyebrow">Ready</p>
+        <h2>Choose a subject and exam</h2>
+        <p>Your answers and scores are saved in this browser only. Each user who opens the deployed site gets their own local progress.</p>
+      </section>
+
+      <form id="examForm" class="exam-form hidden">
+        <div class="exam-head">
+          <div>
+            <p id="examKind" class="eyebrow"></p>
+            <h2 id="examTitle"></h2>
+            <p id="examDescription"></p>
+          </div>
+          <div class="score-box">
+            <span id="examQuestionCount"></span>
+          </div>
+        </div>
+        <div id="questions"></div>
+        <div class="actions">
+          <button type="submit">Submit</button>
+          <button id="retryBtn" class="ghost hidden" type="button">Retry</button>
+        </div>
+      </form>
+
+      <section id="results" class="results hidden"></section>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
