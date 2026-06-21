@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-21T11:39:02.274Z",
+  "generatedAt": "2026-06-21T11:41:48.341Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -25494,6 +25494,21 @@ window.UNIFIED_EXAM_DATA = {
       ],
       "questionCount": 120,
       "examCount": 10
+    },
+    {
+      "id": "ai",
+      "title": "Artificial Intelligence",
+      "description": "AI lecture exams. This subject is ready now and will automatically include future JSON files with an exams array from the Downloads/AI folder.",
+      "banks": [
+        {
+          "id": "future-ai-exams",
+          "title": "Future AI Exams",
+          "examCount": 0
+        }
+      ],
+      "exams": [],
+      "questionCount": 0,
+      "examCount": 0
     },
     {
       "id": "os",

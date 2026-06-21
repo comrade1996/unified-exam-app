@@ -77,6 +77,66 @@ function loadManifestSubject(config) {
   });
 }
 
+function findJsonFiles(dir) {
+  if (!fs.existsSync(dir)) {
+    return [];
+  }
+
+  const found = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      found.push(...findJsonFiles(fullPath));
+    } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".json")) {
+      found.push(fullPath);
+    }
+  }
+  return found;
+}
+
+function loadAutoJsonSubject(config) {
+  const subject = {
+    id: config.id,
+    title: config.title,
+    description: config.description,
+    banks: [],
+    exams: []
+  };
+
+  const jsonFiles = findJsonFiles(config.rootDir);
+  for (const filePath of jsonFiles) {
+    let json;
+    try {
+      json = readJson(filePath);
+    } catch {
+      continue;
+    }
+
+    if (!Array.isArray(json.exams)) {
+      continue;
+    }
+
+    const relative = path.relative(config.rootDir, filePath);
+    const bankId = relative
+      .replace(/\\/g, "/")
+      .replace(/\.json$/i, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+    const bankTitle = json.title || path.basename(filePath, path.extname(filePath));
+    subject.banks.push({ id: bankId, title: bankTitle, examCount: json.exams.length });
+    subject.exams.push(...json.exams.map(exam => normalizeExam(config.id, bankId, bankTitle, exam)));
+  }
+
+  if (subject.banks.length === 0) {
+    subject.banks.push({ id: "future-ai-exams", title: "Future AI Exams", examCount: 0 });
+  }
+
+  subject.questionCount = subject.exams.reduce((sum, exam) => sum + exam.questions.length, 0);
+  subject.examCount = subject.exams.length;
+  return subject;
+}
+
 function loadOsSubject() {
   const filePath = path.join(downloads, "OS", "exam-bank.js");
   const code = fs.readFileSync(filePath, "utf8");
@@ -125,6 +185,12 @@ const subjects = [
     files: [
       { path: "ai-ethics-exams.json", bankId: "chapters", title: "AI Ethics Chapter Exams" }
     ]
+  }),
+  loadAutoJsonSubject({
+    id: "ai",
+    title: "Artificial Intelligence",
+    description: "AI lecture exams. This subject is ready now and will automatically include future JSON files with an exams array from the Downloads/AI folder.",
+    rootDir: path.join(downloads, "AI")
   }),
   loadOsSubject()
 ];
