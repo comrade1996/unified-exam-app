@@ -1,12 +1,12 @@
 {
   "id": "oop",
   "title": "Object-Oriented Programming",
-  "description": "Hand-written closed questions made file by file from the OOP Markdown sources.",
+  "description": "Hand-written closed questions reviewed file by file from the OOP Markdown lecture sources.",
   "banks": [
     {
       "id": "manual-md",
       "title": "Manual Markdown Exams",
-      "examCount": 18
+      "examCount": 13
     }
   ],
   "exams": [
@@ -18,17 +18,106 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "Which topic belongs to an advanced OOP syllabus?",
+          "prompt": "What is the course name listed in the syllabus?",
           "choices": [
-            "A style or model for designing and organizing programs",
-            "Because project scale, risk, and structure can differ",
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block"
+            "Advanced Object Oriented Programming",
+            "Operating Systems Internals",
+            "Introduction to Databases",
+            "Computer Networks"
           ],
-          "answer": [
-            2
+          "answer": [0],
+          "explanation": "The syllabus names the course Advanced Object Oriented Programming.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which textbook is listed for the OOP course?",
+          "choices": [
+            "Operating System Concepts",
+            "Object-Oriented Programming in C++ by Robert Lafore",
+            "Computer Networking: A Top-Down Approach",
+            "Artificial Intelligence: A Modern Approach"
           ],
-          "explanation": "The syllabus lists constructors and destructors among OOP topics.",
+          "answer": [1],
+          "explanation": "The syllabus lists Object-Oriented Programming in C++ by Robert Lafore as a textbook.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which pair appears as an early syllabus comparison?",
+          "choices": [
+            "Waterfall vs Scrum",
+            "Structural/Procedural Programming vs Object Oriented Programming",
+            "TCP vs UDP",
+            "Linux vs Windows"
+          ],
+          "answer": [1],
+          "explanation": "The first syllabus topic compares structural/procedural programming with OOP.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which topic is grouped with encapsulation in the syllabus?",
+          "choices": [
+            "Data hiding",
+            "Disk scheduling",
+            "Packet routing",
+            "Cache replacement"
+          ],
+          "answer": [0],
+          "explanation": "The syllabus writes encapsulation together with data hiding.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which class-related topic is listed after access levels?",
+          "choices": [
+            "Scope Resolution Operator",
+            "SQL joins",
+            "IP addressing",
+            "Process scheduling"
+          ],
+          "answer": [0],
+          "explanation": "The syllabus lists the scope resolution operator after class/object/access-level topics.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which polymorphism topic is explicitly named in the syllabus?",
+          "choices": [
+            "Operator overloading",
+            "Page replacement",
+            "Packet filtering",
+            "Database indexing"
+          ],
+          "answer": [0],
+          "explanation": "The syllabus includes polymorphism through operator overloading, including unary and binary overloading.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which inheritance detail is included in the syllabus?",
+          "choices": [
+            "Modes of inheritance",
+            "Routing protocols",
+            "Thread pools",
+            "Public-key certificates"
+          ],
+          "answer": [0],
+          "explanation": "The inheritance section lists terms, types, modes, single inheritance, and multiple inheritance.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which later syllabus topic follows virtual base classes?",
+          "choices": [
+            "Template",
+            "Interrupt handling",
+            "Deadlock detection",
+            "Image segmentation"
+          ],
+          "answer": [0],
+          "explanation": "The syllabus lists Template and Standard Template Library after virtual base classes.",
           "points": 1
         }
       ]
@@ -41,17 +130,106 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "Why use a user-defined function such as display()?",
+          "prompt": "In the pointer example, after `p = a`, what does `*p` print first?",
           "choices": [
-            "To organize repeated output logic into a reusable block",
-            "Constructors and destructors",
-            "A style or model for designing and organizing programs",
-            "Because project scale, risk, and structure can differ"
+            "The first array value",
+            "The array size",
+            "The last array value",
+            "The address of `p` itself"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "Assigning the array name to the pointer makes the pointer refer to the first element.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What operation is used in the notes to move the pointer to the next array element?",
+          "choices": [
+            "p++",
+            "delete p",
+            "p = 0",
+            "sizeof(p)"
           ],
-          "explanation": "Functions let code be reused and organized.",
+          "answer": [0],
+          "explanation": "The hint uses `p++` before printing the second value.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which two function categories are reviewed in lecture 1?",
+          "choices": [
+            "Standard library functions and user-defined functions",
+            "Kernel functions and driver functions",
+            "SQL functions and aggregate functions",
+            "Hash functions and encryption functions"
+          ],
+          "answer": [0],
+          "explanation": "The lecture explicitly contrasts standard library functions with user-defined functions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does the `display(num, nam, addr)` function receive parameters?",
+          "choices": [
+            "To print saved student details passed from `main`",
+            "To allocate dynamic memory for an array",
+            "To sort student records automatically",
+            "To overload the `cin` operator"
+          ],
+          "answer": [0],
+          "explanation": "The display function receives the number, name, and address then prints them.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a function called when it calls itself?",
+          "choices": [
+            "Recursive function",
+            "Static function",
+            "Virtual function",
+            "Friend function"
+          ],
+          "answer": [0],
+          "explanation": "The notes ask whether a function can call itself and name that a recursive function.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does the `po(int *p)` example receive an array?",
+          "choices": [
+            "Through a pointer to its first element",
+            "Through a copy of the whole array object",
+            "Through a template parameter",
+            "Through inheritance"
+          ],
+          "answer": [0],
+          "explanation": "The array is passed as `po(a)`, where `a` decays to a pointer to the first element.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does `cout << *p++` do inside the array-printing loop?",
+          "choices": [
+            "Prints the current pointed value, then advances the pointer",
+            "Prints the pointer address only",
+            "Deletes the current element",
+            "Moves the pointer backward"
+          ],
+          "answer": [0],
+          "explanation": "The example prints each pointed value and increments the pointer through the array.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "When an array of `struct st` is passed to `po(struct st *s2)`, what can the function do?",
+          "choices": [
+            "Modify the original student records through the pointer",
+            "Only read a temporary copy",
+            "Create a derived class",
+            "Call a virtual destructor"
+          ],
+          "answer": [0],
+          "explanation": "The function writes new values through `s2[i]`, so the original array in `main` is changed.",
           "points": 1
         }
       ]
@@ -66,30 +244,130 @@
           "type": "Single Choice",
           "prompt": "What is a programming paradigm?",
           "choices": [
-            "To organize repeated output logic into a reusable block",
-            "A style or model for designing and organizing programs",
-            "Because project scale, risk, and structure can differ",
-            "Constructors and destructors"
+            "A style for organizing and thinking about programs",
+            "A single mandatory programming language",
+            "A compiler error message",
+            "A database table"
           ],
-          "answer": [
-            1
-          ],
-          "explanation": "The lecture compares different ways to plan and build software.",
+          "answer": [0],
+          "explanation": "The lecture defines paradigms as styles or ways of organizing programs.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why can different projects need different paradigms?",
+          "prompt": "According to the lecture, what is a programming paradigm NOT?",
           "choices": [
-            "Because project scale, risk, and structure can differ",
-            "A style or model for designing and organizing programs",
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block"
+            "A language or tool by itself",
+            "A set of ideas and guidelines",
+            "A way to structure a program",
+            "A design style"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "The notes say paradigms are not languages or tools and cannot build anything alone.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are there many paradigms?",
+          "choices": [
+            "Different problems and projects need different structures",
+            "Every program must use only one fixed roadmap",
+            "All languages have exactly the same features",
+            "Paradigms replace compilers"
           ],
-          "explanation": "A small app and a safety-critical system need different design thinking.",
+          "answer": [0],
+          "explanation": "The lecture compares small apps with safety-critical systems to show different needs.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does imperative programming emphasize?",
+          "choices": [
+            "Detailed step-by-step instructions describing how to do the task",
+            "Only declaring the final result",
+            "Only classes and inheritance",
+            "Only database queries"
+          ],
+          "answer": [0],
+          "explanation": "Imperative code tells the computer exactly what to execute and in what order.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What feature does procedural programming add to imperative programming?",
+          "choices": [
+            "Functions or procedures to improve modularity",
+            "Virtual base classes",
+            "Private inheritance only",
+            "Operator overloading only"
+          ],
+          "answer": [0],
+          "explanation": "Procedural programming subdivides execution into functions, procedures, or subroutines.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a pure function in the functional programming section?",
+          "choices": [
+            "A function that relies only on inputs and produces no side effects",
+            "A function that always prints to the screen",
+            "A function that changes global data every time",
+            "A function that can only be used inside a class"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says pure functions use only inputs and do not change outside state.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does declarative programming differ from imperative programming?",
+          "choices": [
+            "It describes what result is needed while hiding many execution details",
+            "It requires every loop to be written manually",
+            "It prohibits functions",
+            "It requires all data to be public"
+          ],
+          "answer": [0],
+          "explanation": "The lecture uses filter/map/reduce-style examples to show saying what is wanted, not coding every step.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the core idea of object orientation in this lecture?",
+          "choices": [
+            "Separating concerns into objects with properties and methods",
+            "Putting all data and all logic in one global procedure",
+            "Avoiding classes completely",
+            "Using only static variables"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says object orientation separates concerns into entities coded as objects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are objects created from a class called?",
+          "choices": [
+            "Instances",
+            "Procedures",
+            "Headers",
+            "Pointers only"
+          ],
+          "answer": [0],
+          "explanation": "The lecture states that objects created from a class are called instances.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which concept does the lecture connect with packing data and functionality together?",
+          "choices": [
+            "Encapsulation",
+            "Packet routing",
+            "Scheduling",
+            "Normalization"
+          ],
+          "answer": [0],
+          "explanation": "The lecture notes that an object or class encapsulates data and functionality.",
           "points": 1
         }
       ]
@@ -102,32 +380,106 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "Why pass data through a member function instead of directly changing member data?",
+          "prompt": "In the class syntax shown, where are member functions usually exposed?",
           "choices": [
-            "Defining data and functions that describe a type of object",
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "To validate or filter data before storing it"
+            "In the public section",
+            "Only before the class keyword",
+            "Only in `main`",
+            "Only in a namespace declaration"
           ],
-          "answer": [
-            3
-          ],
-          "explanation": "The notes say member functions allow filtering before using member data.",
+          "answer": [0],
+          "explanation": "The general syntax lists private attributes and public member functions.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "What is a class used for in OOP?",
+          "prompt": "Why does the student example use `setdata` before storing values?",
           "choices": [
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "Defining data and functions that describe a type of object",
-            "To validate or filter data before storing it"
+            "To allow validation or filtering before member data is changed",
+            "To make all data global",
+            "To delete the object",
+            "To convert the class into a struct"
           ],
-          "answer": [
-            2
+          "answer": [0],
+          "explanation": "The lecture says passing data to a member function first lets you filter it before use.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the elevator constructor do in the first constructor example?",
+          "choices": [
+            "Initializes the floor to zero automatically",
+            "Deletes the elevator object immediately",
+            "Makes the floor public",
+            "Overloads the plus operator"
           ],
-          "explanation": "A class groups state and behavior.",
+          "answer": [0],
+          "explanation": "The constructor sets `flr = 0` so the elevator starts at floor zero.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which operator is used in `void elevator::display()`?",
+          "choices": [
+            "Scope resolution operator",
+            "Ternary operator",
+            "Address-of operator",
+            "Stream extraction operator"
+          ],
+          "answer": [0],
+          "explanation": "`::` defines the member function outside the class body.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is constructor overloading?",
+          "choices": [
+            "Defining constructors with different parameter lists",
+            "Defining no constructor at all",
+            "Calling a destructor manually",
+            "Using a class without objects"
+          ],
+          "answer": [0],
+          "explanation": "The lecture shows both `elevator()` and `elevator(int fl)`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does `~elevator()` represent?",
+          "choices": [
+            "A destructor",
+            "A constructor with one argument",
+            "A static data member",
+            "A friend function"
+          ],
+          "answer": [0],
+          "explanation": "A tilde before the class name declares the destructor.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "When is a constructor called?",
+          "choices": [
+            "When an object of the class is created",
+            "Only when `delete` is called",
+            "Only when the object is printed",
+            "Only after the program exits"
+          ],
+          "answer": [0],
+          "explanation": "The elevator examples rely on the constructor running when `elevator elv` is created.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which homework topic is tied to copying objects?",
+          "choices": [
+            "Default copy constructor",
+            "Virtual base class",
+            "Friend class",
+            "STL iterator"
+          ],
+          "answer": [0],
+          "explanation": "The lecture asks what the default copy constructor is.",
           "points": 1
         }
       ]
@@ -140,32 +492,132 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What does a constructor do in a Counter class example?",
+          "prompt": "What does `Counter() : count(0)` do?",
           "choices": [
-            "Defining functions with the same name but different parameter lists",
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "Initializes the object state such as count"
+            "Initializes `count` to zero using an initializer list",
+            "Declares `count` as static",
+            "Deletes the counter",
+            "Returns a counter object"
           ],
-          "answer": [
-            3
-          ],
-          "explanation": "The example uses Counter() : count(0) to initialize count.",
+          "answer": [0],
+          "explanation": "The constructor initializer list sets the counter value to zero.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "What is function overloading?",
+          "prompt": "What is true about object data and member functions according to the memory section?",
           "choices": [
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "Defining functions with the same name but different parameter lists",
-            "Initializes the object state such as count"
+            "Each object has its own data, but objects of the same class use the same member functions",
+            "Every object has a separate copy of every function in memory",
+            "Static data is copied into every object",
+            "Objects cannot contain data"
           ],
-          "answer": [
-            2
+          "answer": [0],
+          "explanation": "The lecture corrects the first impression by saying member functions are shared by objects of a class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does static class data provide?",
+          "choices": [
+            "One shared data item for the whole class",
+            "One separate copy for every function call",
+            "A replacement for all constructors",
+            "A hidden local variable inside `main`"
           ],
-          "explanation": "Overloading lets one name handle related operations with different inputs.",
+          "answer": [0],
+          "explanation": "Static class member data is created once for the class and shared among its objects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does the static member example include `int increment::count = 0;` outside the class?",
+          "choices": [
+            "To define the static data member",
+            "To overload a constructor",
+            "To declare a friend function",
+            "To call a destructor"
+          ],
+          "answer": [0],
+          "explanation": "The class contains the declaration, while the outside line provides the definition.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is demonstrated by `calculateAverage(Student s1, Student s2)`?",
+          "choices": [
+            "Objects as function arguments",
+            "Virtual base classes",
+            "Template specialization",
+            "Private inheritance"
+          ],
+          "answer": [0],
+          "explanation": "The function takes Student objects as parameters and reads their marks.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In the Distance example, why does `add_dist` check whether inches are at least 12.0?",
+          "choices": [
+            "To carry extra inches into feet",
+            "To delete invalid objects",
+            "To reset all distances to zero",
+            "To select a constructor overload"
+          ],
+          "answer": [0],
+          "explanation": "When inches exceed 12, the example subtracts 12 inches and increments feet.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does returning objects from functions allow in the Distance section?",
+          "choices": [
+            "Assigning the result of object operations, such as `dist3 = dist1.add_dist(dist2)`",
+            "Preventing all object copies",
+            "Making every member public",
+            "Removing constructors"
+          ],
+          "answer": [0],
+          "explanation": "The lecture moves from a void-style add function to assigning a returned Distance object.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Function overloading means functions share a name but differ by what?",
+          "choices": [
+            "Type, number, or order of parameters",
+            "Only comment text",
+            "Only return statement indentation",
+            "Only file name"
+          ],
+          "answer": [0],
+          "explanation": "The notes list type, number, and ordering as the differences.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is constructor overloading in the elevator example?",
+          "choices": [
+            "Providing both a no-argument constructor and a constructor with an initial floor",
+            "Using only a destructor",
+            "Declaring a variable as static",
+            "Passing objects to `cout`"
+          ],
+          "answer": [0],
+          "explanation": "The elevator class has `elevator()` and `elevator(int fl)`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What constructor is created if you define no constructor in a class?",
+          "choices": [
+            "A default no-argument constructor",
+            "A virtual constructor",
+            "A friend constructor",
+            "A binary constructor"
+          ],
+          "answer": [0],
+          "explanation": "The note says a no-argument default constructor is created when no constructor is defined.",
           "points": 1
         }
       ]
@@ -178,32 +630,119 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "Why overload an operator for a user-defined type?",
+          "prompt": "What is an operator?",
           "choices": [
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "To define what an operator means for objects of that class",
-            "<< and >>"
+            "A symbol used in an operation, such as arithmetic or logical work",
+            "A class data member only",
+            "A loop variable only",
+            "A constructor argument only"
           ],
-          "answer": [
-            2
-          ],
-          "explanation": "The compiler needs a definition for operators used with custom objects.",
+          "answer": [0],
+          "explanation": "The lecture defines operators as symbols used in arithmetic, logical, relational, and other operations.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Which operator pair is associated with stream insertion and extraction?",
+          "prompt": "Why overload an operator for objects?",
           "choices": [
-            "To validate or filter data before storing it",
-            "<< and >>",
-            "To define what an operator means for objects of that class",
-            "To organize repeated output logic into a reusable block"
+            "To tell the compiler what that operator means for a user-defined type",
+            "To make every data member public",
+            "To remove the need for classes",
+            "To prevent assignment between objects"
           ],
-          "answer": [
-            1
+          "answer": [0],
+          "explanation": "The lecture explains that the compiler needs a special member function to understand operators on objects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which operators are unary operators?",
+          "choices": [
+            "Operators that act on one operand, such as `++` and `--`",
+            "Operators that must act on two classes",
+            "Operators that cannot be overloaded",
+            "Operators that only print strings"
           ],
-          "explanation": "The notes mention inserter and extractor operators.",
+          "answer": [0],
+          "explanation": "Unary operators act on one operand; the lecture uses increment and decrement as examples.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What declaration overloads prefix increment for `Counter` in the lecture?",
+          "choices": [
+            "void operator ++ ()",
+            "void ++ operator ()",
+            "operator void ++",
+            "Counter::++ void"
+          ],
+          "answer": [0],
+          "explanation": "The lecture shows `void operator ++ ()` as the member function called for `++c1`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does the compiler decide between built-in `++x` and user-written `operator++()`?",
+          "choices": [
+            "By the operand's data type",
+            "By the variable's name length",
+            "By the comment before the statement",
+            "By the output stream used"
+          ],
+          "answer": [0],
+          "explanation": "If the operand is an integer the built-in version is used; if it is a Counter object the overloaded operator is used.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why can't `c1 = ++c2` work when `operator++()` returns `void`?",
+          "choices": [
+            "The assignment needs a returned Counter object",
+            "The prefix form can never be overloaded",
+            "Objects cannot be assigned in C++",
+            "Constructors cannot initialize data"
+          ],
+          "answer": [0],
+          "explanation": "The expression needs the result of `++c2` to be assigned to `c1`; `void` provides no value.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which return approach creates a named object, copies the count into it, then returns it?",
+          "choices": [
+            "Temporary object",
+            "Default constructor only",
+            "Pure virtual function",
+            "Private inheritance"
+          ],
+          "answer": [0],
+          "explanation": "The lecture's temporary-object method creates `Counter temp`, sets `temp.count`, and returns it.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does the nameless temporary object example need `Counter(int c)`?",
+          "choices": [
+            "Because `return Counter(count)` constructs an unnamed Counter with one argument",
+            "Because all constructors must have exactly one argument",
+            "Because destructors return integers",
+            "Because `++` is a binary operator"
+          ],
+          "answer": [0],
+          "explanation": "The returned unnamed object is built with the current count, so a one-argument constructor is required.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which benefit of operator overloading is listed in the lecture?",
+          "choices": [
+            "Readability and extendibility",
+            "Removing all constructors",
+            "Disabling class objects",
+            "Forcing all data to be global"
+          ],
+          "answer": [0],
+          "explanation": "The lecture explicitly lists readability and extendibility as support from operator overloading.",
           "points": 1
         }
       ]
@@ -216,32 +755,106 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "ما المقصود بتحميل المؤثرات في C++؟",
+          "prompt": "In the pharmacy review example, what does `++Panadol` represent conceptually?",
           "choices": [
-            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
-            "لتمثيل بيع عنصر وزيادة عداد المبيعات",
-            "التحقق من صحة القيم المدخلة وأنها رقمية",
-            "إدارة بيانات الحسابات وعملياتها الأساسية"
+            "Selling one item and increasing its item count",
+            "Deleting the Panadol object",
+            "Comparing two items",
+            "Creating a base class"
           ],
-          "answer": [
-            0
-          ],
-          "explanation": "المحاضرة تشرح أن المؤثر يستدعي دالة عند تطبيقه على كائن.",
+          "answer": [0],
+          "explanation": "The lecture describes a barcode-reader situation where selling one item increments its count.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "في مثال Pharmacy، لماذا يمكن استخدام ++item؟",
+          "prompt": "What does the temporary-object version of unary `++` return?",
           "choices": [
-            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
-            "التحقق من صحة القيم المدخلة وأنها رقمية",
-            "إدارة بيانات الحسابات وعملياتها الأساسية",
-            "لتمثيل بيع عنصر وزيادة عداد المبيعات"
+            "An Items object containing the updated count",
+            "A raw pointer to the class name",
+            "A Boolean value only",
+            "The original source code text"
           ],
-          "answer": [
-            3
+          "answer": [0],
+          "explanation": "The function increments `item_count`, stores it in a temporary Items object, and returns that object.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does the nameless object example include `Items(int c)`?",
+          "choices": [
+            "To allow `return Items(item_count)`",
+            "To prevent all object assignment",
+            "To overload `main`",
+            "To make the class abstract"
           ],
-          "explanation": "المثال يستخدم زيادة العداد عند بيع عنصر.",
+          "answer": [0],
+          "explanation": "The unnamed return object is created with one argument, so the constructor must accept one argument.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are binary operators?",
+          "choices": [
+            "Operators that act on two operands",
+            "Operators that act on one operand only",
+            "Operators that cannot return values",
+            "Operators used only in comments"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines binary operators as operators acting on two operands, such as `+`, `-`, and `*`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In `Sedative = Panadol + Aspirin`, which object is the left operand and member-object for `operator+`?",
+          "choices": [
+            "Panadol",
+            "Aspirin",
+            "Sedative",
+            "Items"
+          ],
+          "answer": [0],
+          "explanation": "For a member operator, the object on the left side is the object whose member function is called.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In the same `operator+` example, how is the right operand supplied?",
+          "choices": [
+            "As the function argument `Items A`",
+            "As the class constructor name",
+            "As a global variable only",
+            "As a virtual base class"
+          ],
+          "answer": [0],
+          "explanation": "The lecture notes that the right-side object, Aspirin, is passed as the argument to the operator function.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the binary `operator+` return in the Items example?",
+          "choices": [
+            "An Items object whose count is the sum of the two counts",
+            "A pointer to the first item only",
+            "A string containing the class name",
+            "Nothing, because binary operators must be void"
+          ],
+          "answer": [0],
+          "explanation": "The example adds the item counts and returns an Items object with the total.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is `Sedative = 15 + Panadol` a problem for the shown member `operator+`?",
+          "choices": [
+            "The left operand is an integer, so there is no Items member operator to call",
+            "The right operand must always be an integer",
+            "Constructors cannot have one argument",
+            "The assignment operator is disabled"
+          ],
+          "answer": [0],
+          "explanation": "A member operator is selected from the left operand; an integer does not have the Items `operator+` member.",
           "points": 1
         }
       ]
@@ -254,32 +867,106 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is inheritance in OOP?",
+          "prompt": "How does lecture 7 summarize encapsulation?",
           "choices": [
-            "To organize repeated output logic into a reusable block",
-            "A subclass acquires properties of a parent class",
-            "It supports reusability and can improve reliability",
-            "Constructors and destructors"
+            "Packing data and functions into a single component",
+            "Calling a base pointer at runtime",
+            "Sorting values by type",
+            "Declaring a template argument"
           ],
-          "answer": [
-            1
-          ],
-          "explanation": "The notes define inheritance as acquiring parent class properties.",
+          "answer": [0],
+          "explanation": "The lecture reviews encapsulation as data hiding and packing data with functions.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why is inheritance useful?",
+          "prompt": "How does lecture 7 summarize inheritance?",
           "choices": [
-            "It supports reusability and can improve reliability",
-            "A subclass acquires properties of a parent class",
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block"
+            "Acquiring properties of a parent class in a subclass object",
+            "Giving one function many parameter lists",
+            "Making all data static",
+            "Converting arrays to pointers"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "The lecture defines inheritance as acquiring properties from parent class to subclass object.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which major benefit of inheritance is emphasized first?",
+          "choices": [
+            "Reusing existing classes",
+            "Avoiding all member functions",
+            "Making every class private",
+            "Deleting inherited data"
           ],
-          "explanation": "Inheritance helps reuse existing classes instead of recreating them.",
+          "answer": [0],
+          "explanation": "The lecture says inheritance supports reusability instead of recreating the same classes repeatedly.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which list matches benefits of inheritance from the lecture?",
+          "choices": [
+            "Shared code, lower complexity, flexibility, extendibility, overriding",
+            "Packet routing, encryption, scheduling, paging, caching",
+            "Only slower code and more duplication",
+            "Only private access and no reuse"
+          ],
+          "answer": [0],
+          "explanation": "The lecture lists shared code, reducing complexity, flexibility, extendibility, and overriding.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a subclass?",
+          "choices": [
+            "The class that inherits properties from another class",
+            "The class whose properties are inherited",
+            "A function outside every class",
+            "A variable with no type"
+          ],
+          "answer": [0],
+          "explanation": "The notes identify subclass and derived class as the inheriting class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a superclass?",
+          "choices": [
+            "The base class whose properties are inherited",
+            "The object created from `main` only",
+            "A function template",
+            "A static local variable"
+          ],
+          "answer": [0],
+          "explanation": "The superclass is also called the base class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which inheritance type is described as a child inheriting through father and grandfather?",
+          "choices": [
+            "Multilevel inheritance",
+            "Single inheritance",
+            "Hierarchical inheritance",
+            "No inheritance"
+          ],
+          "answer": [0],
+          "explanation": "The lecture explains multilevel inheritance with father and grandfather.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is hybrid inheritance?",
+          "choices": [
+            "A combination of two or more inheritance types",
+            "Inheritance from exactly one class only",
+            "A constructor without arguments",
+            "A function that calls itself"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says hybrid inheritance combines two or more types and may be called multipath inheritance.",
           "points": 1
         }
       ]
@@ -292,32 +979,106 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "In public inheritance, what happens to public members of the base class?",
+          "prompt": "Which syntax form matches single inheritance from the lecture?",
           "choices": [
-            "To organize repeated output logic into a reusable block",
+            "class Derived : access_specifier Base { ... };",
+            "class Derived = Base;",
+            "Base inherits Derived;",
+            "template Derived(Base);"
+          ],
+          "answer": [0],
+          "explanation": "The lecture shows `class derived_class_name : access_specifier base_class_name`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In public inheritance, what happens to public base members?",
+          "choices": [
             "They remain public in the derived class",
-            "They become private in the derived class",
-            "Constructors and destructors"
+            "They become private automatically",
+            "They are deleted",
+            "They become constructors"
           ],
-          "answer": [
-            1
+          "answer": [0],
+          "explanation": "The public mode keeps public base members public in the derived class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In protected inheritance, what happens to public and protected base members?",
+          "choices": [
+            "Both become protected in the derived class",
+            "Both become public in the derived class",
+            "Both are removed",
+            "Both become static"
           ],
-          "explanation": "The notes state public base members remain public under public inheritance.",
+          "answer": [0],
+          "explanation": "The lecture says protected mode makes both public and protected base members protected in the derived class.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "In private inheritance, what happens to public and protected base members?",
           "choices": [
-            "They become private in the derived class",
-            "They remain public in the derived class",
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block"
+            "Both become private in the derived class",
+            "Both become public",
+            "Both become global",
+            "Both become virtual constructors"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "The private mode makes inherited public and protected base members private in the derived class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why must the base class be written before the derived class in the example?",
+          "choices": [
+            "The compiler must know the base class before deriving from it",
+            "Derived classes can never use public data",
+            "Only destructors can be inherited",
+            "It is required only for comments"
           ],
-          "explanation": "Private inheritance hides inherited interface from outside users.",
+          "answer": [0],
+          "explanation": "The lecture notes the Base class must be written before Derived.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In the example where `Base` has private `property` and public `show`, how can `Derived` use it?",
+          "choices": [
+            "By calling the inherited public `show` member",
+            "By directly accessing `property` from `main`",
+            "By making `property` global",
+            "By deleting the base class"
+          ],
+          "answer": [0],
+          "explanation": "The derived object calls `d.show(19)` even though the actual data member is private inside Base.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which syntax is shown for multiple inheritance?",
+          "choices": [
+            "class Graduate: public Person, public student",
+            "class Graduate = Person + student",
+            "class Graduate(public Person)(public student)",
+            "Graduate inherits only Person"
+          ],
+          "answer": [0],
+          "explanation": "The lecture shows multiple base classes separated by a comma.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does the Bat example demonstrate?",
+          "choices": [
+            "A class deriving from both Mammal and Winged_Animal",
+            "A template class with two type parameters",
+            "A friend function between two classes",
+            "A pointer to an array"
+          ],
+          "answer": [0],
+          "explanation": "The class `Bat` inherits from both `Mammal` and `Winged_Animal`.",
           "points": 1
         }
       ]
@@ -330,32 +1091,132 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What does polymorphism mean?",
+          "prompt": "What does polymorphism mean in the lecture?",
           "choices": [
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "Many forms",
-            "Calling the derived class version through a base pointer or reference"
+            "Having many forms",
+            "Having only one class",
+            "Having no functions",
+            "Having only static data"
           ],
-          "answer": [
-            2
-          ],
-          "explanation": "The lecture states polymorphism means many forms.",
+          "answer": [0],
+          "explanation": "The lecture begins by defining polymorphism as many forms.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "What does a virtual function allow?",
+          "prompt": "What is a virtual function?",
           "choices": [
-            "To organize repeated output logic into a reusable block",
-            "Calling the derived class version through a base pointer or reference",
-            "Many forms",
-            "Constructors and destructors"
+            "A base-class member function that can be overridden by a derived class and called dynamically",
+            "A constructor with no body",
+            "A variable that stores an address",
+            "A function that cannot be inherited"
           ],
-          "answer": [
-            1
+          "answer": [0],
+          "explanation": "The lecture says a virtual function is declared in a base class and redefined by a derived class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What do virtual functions mainly achieve?",
+          "choices": [
+            "Runtime polymorphism",
+            "Compile-time array sizing only",
+            "Static data sharing only",
+            "File input only"
           ],
-          "explanation": "Virtual functions enable runtime dispatch to the correct overridden function.",
+          "answer": [0],
+          "explanation": "The lecture says virtual functions are mainly used to achieve runtime polymorphism.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How should virtual functions be accessed to achieve runtime polymorphism?",
+          "choices": [
+            "Using a pointer or reference of base class type",
+            "Only by copying source files",
+            "Only by global variables",
+            "Only by macros"
+          ],
+          "answer": [0],
+          "explanation": "The rules say virtual functions should be accessed using base-class pointers or references.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which rule about virtual functions is stated in the lecture?",
+          "choices": [
+            "Virtual functions cannot be static",
+            "Virtual constructors are required",
+            "Virtual functions must always be private",
+            "Virtual functions cannot be overridden"
+          ],
+          "answer": [0],
+          "explanation": "The lecture lists that virtual functions cannot be static.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In the shape example, why is `ptrarr[j]->draw()` powerful?",
+          "choices": [
+            "The same call can execute different draw functions depending on the actual object",
+            "It forces every shape to be a triangle",
+            "It disables inheritance",
+            "It copies every object into the array"
+          ],
+          "answer": [0],
+          "explanation": "A ball pointer calls the ball draw function, while a triangle pointer calls the triangle draw function.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Without `virtual`, what does `Base* b = &d; b->print();` call in the lecture example?",
+          "choices": [
+            "The Base class `print` function",
+            "The Derived class `print` function",
+            "Both functions automatically",
+            "No function"
+          ],
+          "answer": [0],
+          "explanation": "The lecture shows the output is the Base class message when `print` is not virtual.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What problem do virtual base classes solve?",
+          "choices": [
+            "Duplicate base-class subobjects in multiple-inheritance hierarchies",
+            "Missing semicolons after loops",
+            "Lack of integer arithmetic",
+            "Too many overloaded constructors"
+          ],
+          "answer": [0],
+          "explanation": "Virtual base classes prevent multiple instances of the same base from appearing through multiple inheritance paths.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is `basedata` ambiguous in the non-virtual diamond example?",
+          "choices": [
+            "Grandchild inherits two separate Parent subobjects through Child1 and Child2",
+            "The variable is declared as public",
+            "The class has no constructor",
+            "The compiler cannot add integers"
+          ],
+          "answer": [0],
+          "explanation": "Each intermediate child has its own Parent copy, so Grandchild has two possible `basedata` members.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does `class Child1 : virtual public Parent` cause in the virtual-base example?",
+          "choices": [
+            "Child1 and Child2 share one common Parent subobject in Grandchild",
+            "Parent becomes a constructor",
+            "Child1 stops inheriting anything",
+            "All members become static"
+          ],
+          "answer": [0],
+          "explanation": "The `virtual` keyword makes the two paths share a single Parent copy, removing ambiguity.",
           "points": 1
         }
       ]
@@ -368,32 +1229,132 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is a friend function allowed to do?",
+          "prompt": "What is a friend function?",
           "choices": [
-            "To organize repeated output logic into a reusable block",
-            "Access private or protected members of a class that declares it as friend",
-            "To compute a value from the object's axes or coordinates",
-            "Constructors and destructors"
+            "A non-member function granted access to private and protected class data",
+            "A constructor that copies objects",
+            "A virtual function that must be static",
+            "A function that belongs to every class automatically"
           ],
-          "answer": [
-            1
-          ],
-          "explanation": "Friend functions are external functions granted special access.",
+          "answer": [0],
+          "explanation": "The lecture says a friend function does not belong to the class but can access its data members.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why might a Point class use a sum() member function?",
+          "prompt": "Where is the `friend` keyword placed?",
           "choices": [
-            "To compute a value from the object's axes or coordinates",
-            "Access private or protected members of a class that declares it as friend",
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block"
+            "In the function declaration inside the class",
+            "In every function call",
+            "Only in `main`",
+            "Only after the function definition"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "The lecture says `friend` is placed in the declaration, not in the function definition.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How is the friend `sum(point)` function called in the example?",
+          "choices": [
+            "As `sum(p1)` without object name and dot operator",
+            "As `p1.sum()` only",
+            "As `point::sum()` only",
+            "As `friend.sum(p1)`"
           ],
-          "explanation": "The lecture examples show summing point axes.",
+          "answer": [0],
+          "explanation": "The lecture notes that friend functions are called without an object name or dot operator.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In which class section can a friend function be declared?",
+          "choices": [
+            "Public, private, or protected",
+            "Only public",
+            "Only private",
+            "Only outside every class"
+          ],
+          "answer": [0],
+          "explanation": "The notes say a friend function can be declared in any section of the class.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are friend functions described as bridges?",
+          "choices": [
+            "They can operate on private data from two different classes",
+            "They force all classes to inherit from one base",
+            "They replace all constructors",
+            "They prevent operator overloading"
+          ],
+          "answer": [0],
+          "explanation": "The bridge example adds private members from pointA and pointB.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is `class pointB;` used before defining `pointA`?",
+          "choices": [
+            "It forward-declares pointB so the friend function can mention it",
+            "It creates a pointB object",
+            "It defines all pointB members",
+            "It makes pointB inherit pointA"
+          ],
+          "answer": [0],
+          "explanation": "The two-class friend example needs pointB known before pointA declares `friend int add(pointA, pointB)`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which advantage of friend functions is listed?",
+          "choices": [
+            "They can access members without inheriting the class",
+            "They guarantee runtime polymorphism",
+            "They make private data impossible",
+            "They remove the need for objects"
+          ],
+          "answer": [0],
+          "explanation": "The advantages section says friend functions access members without needing inheritance.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which disadvantage of friend functions is listed?",
+          "choices": [
+            "They can violate data hiding by accessing private members from outside",
+            "They cannot read any private data",
+            "They force every member to be static",
+            "They make inheritance impossible"
+          ],
+          "answer": [0],
+          "explanation": "The lecture warns that friend functions violate the law of data hiding.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What happens when a class is declared as a friend class?",
+          "choices": [
+            "All member functions of the friend class become friend functions",
+            "Only its constructor becomes public",
+            "It becomes the base class automatically",
+            "It loses access to all data"
+          ],
+          "answer": [0],
+          "explanation": "The friend-class section states that all member functions of the friend class become friend functions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Is friendship in C++ automatically mutual?",
+          "choices": [
+            "No, friendship is granted, not taken",
+            "Yes, both classes always access each other",
+            "Yes, but only for constructors",
+            "No, friend classes cannot access private data"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says ClassB can access ClassA if granted friendship, but ClassA cannot automatically access ClassB.",
           "points": 1
         }
       ]
@@ -406,162 +1367,132 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What problem do templates solve?",
+          "prompt": "Why is function overloading introduced before templates?",
           "choices": [
-            "One generic definition can serve multiple types",
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "Writing generic code that works with different data types"
+            "To show the problem of writing similar functions for different data types",
+            "To remove all function parameters",
+            "To show that templates cannot use functions",
+            "To replace classes with structs"
           ],
-          "answer": [
-            3
-          ],
-          "explanation": "Templates avoid duplicating similar functions for each type.",
+          "answer": [0],
+          "explanation": "The lecture asks what happens when doubles are passed to an int sum function, then shows overloading as one solution.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why is a template better than writing many sum functions for int, float, and double?",
+          "prompt": "What do templates provide in C++?",
           "choices": [
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "One generic definition can serve multiple types",
-            "Writing generic code that works with different data types"
+            "Code that is independent of a specific data type",
+            "Only integer arithmetic",
+            "Only private constructors",
+            "A way to delete objects automatically"
           ],
-          "answer": [
-            2
-          ],
-          "explanation": "Templates parameterize the type.",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": "reference-c-for-every-one",
-      "kind": "Closed Exam",
-      "title": "Reference - C++ for Everyone",
-      "description": "Manual questions from c-for-every-one.md.",
-      "questions": [
-        {
-          "type": "Single Choice",
-          "prompt": "Which concept is fundamental when learning C++ for OOP?",
-          "choices": [
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "A style or model for designing and organizing programs",
-            "Classes and objects"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "C++ OOP relies on classes and objects as core building blocks.",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": "reference-c-in-one-hour-a-day",
-      "kind": "Closed Exam",
-      "title": "Reference - C++ in One Hour a Day",
-      "description": "Manual questions from c-in-one-hour-a-day.md.",
-      "questions": [
-        {
-          "type": "Single Choice",
-          "prompt": "Why are constructors important in C++ classes?",
-          "choices": [
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "A style or model for designing and organizing programs",
-            "They initialize objects when they are created"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "Constructors prepare object state.",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": "reference-objectorientedprogramming-c",
-      "kind": "Closed Exam",
-      "title": "Reference - Object-Oriented Programming in C++",
-      "description": "Manual questions from objectorientedprogramming-c.md.",
-      "questions": [
-        {
-          "type": "Single Choice",
-          "prompt": "Which group contains core OOP ideas?",
-          "choices": [
-            "Constructors and destructors",
-            "To organize repeated output logic into a reusable block",
-            "A style or model for designing and organizing programs",
-            "Encapsulation, inheritance, and polymorphism"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "These are standard OOP pillars used throughout C++ OOP references.",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": "reference-project-names",
-      "kind": "Closed Exam",
-      "title": "Reference - أسماء المشاريع ومحتواها",
-      "description": "Manual questions from اسماء-المشاريع-ومحتواها.md.",
-      "questions": [
-        {
-          "type": "Single Choice",
-          "prompt": "في مشروع محول العملات، ما التحقق المطلوب؟",
-          "choices": [
-            "لتمثيل بيع عنصر وزيادة عداد المبيعات",
-            "التحقق من صحة القيم المدخلة وأنها رقمية",
-            "إدارة بيانات الحسابات وعملياتها الأساسية",
-            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف"
-          ],
-          "answer": [
-            1
-          ],
-          "explanation": "وصف المشروع يطلب التأكد من صحة البيانات المدخلة.",
+          "answer": [0],
+          "explanation": "The lecture defines templates as generic code that works on any data type passed as a parameter.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "ما المطلوب من نظام إدارة سجلات بنكية؟",
+          "prompt": "What is another name for the template data-type parameter?",
           "choices": [
-            "إدارة بيانات الحسابات وعملياتها الأساسية",
-            "التحقق من صحة القيم المدخلة وأنها رقمية",
-            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
-            "لتمثيل بيع عنصر وزيادة عداد المبيعات"
+            "Type name",
+            "Object name",
+            "Base data",
+            "Scope operator"
           ],
-          "answer": [
-            0
-          ],
-          "explanation": "مشاريع OOP تتطلب تمثيل كيانات وعمليات مناسبة.",
+          "answer": [0],
+          "explanation": "The notes say the parameter that passes the data type is also called a type name.",
           "points": 1
-        }
-      ]
-    },
-    {
-      "id": "reference-arabic-oop",
-      "kind": "Closed Exam",
-      "title": "Reference - البرمجة الشيئية",
-      "description": "Manual questions from البرمجة-الشيئية-أ-حذيفة.md.",
-      "questions": [
+        },
         {
           "type": "Single Choice",
-          "prompt": "ما الفكرة الأساسية في البرمجة الشيئية؟",
+          "prompt": "What are the two template forms listed?",
           "choices": [
-            "تنظيم البرنامج حول كائنات تجمع البيانات والعمليات",
-            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
-            "لتمثيل بيع عنصر وزيادة عداد المبيعات",
-            "التحقق من صحة القيم المدخلة وأنها رقمية"
+            "Function template and class template",
+            "Virtual template and friend template",
+            "Pointer template and array template",
+            "Public template and private template"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "The lecture says templates can be implemented as function templates or class templates.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which syntax matches the function template example?",
+          "choices": [
+            "template <class T> T sum(T a1, T b1)",
+            "class template T sum;",
+            "virtual template sum(T)",
+            "friend template sum;"
           ],
-          "explanation": "البرمجة الشيئية تقوم على الكائنات والأصناف وتجميع البيانات مع السلوك.",
+          "answer": [0],
+          "explanation": "The lecture shows a generic sum function with `template <class T>`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why use multiple template parameters such as `<class T1, class T2>`?",
+          "choices": [
+            "To support arguments of different data types",
+            "To force all arguments to be integers",
+            "To disable return values",
+            "To create a virtual constructor"
+          ],
+          "answer": [0],
+          "explanation": "The lecture uses an int and a double to motivate separate template parameters.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does `func_swap(T &arg1, T &arg2)` demonstrate?",
+          "choices": [
+            "A function template using references to swap values of several types",
+            "A friend class accessing private data",
+            "A binary operator overload",
+            "A destructor returning a value"
+          ],
+          "answer": [0],
+          "explanation": "The example swaps ints, doubles, and chars using one template function.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the purpose of a class template?",
+          "choices": [
+            "To define a class whose member data/functions can work with different data types",
+            "To make all members private forever",
+            "To remove the need for objects",
+            "To prevent constructors from receiving arguments"
+          ],
+          "answer": [0],
+          "explanation": "The lecture explains that template classes avoid writing separate classes for each data type.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which object declaration matches the template class syntax?",
+          "choices": [
+            "className<int> classObject1;",
+            "className classObject1<int>;",
+            "template classObject1 = int;",
+            "int<className> classObject1;"
+          ],
+          "answer": [0],
+          "explanation": "The lecture shows objects such as `className<int>`, `className<float>`, and `className<char>`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does the lecture compare `typename` and `class` in template declarations?",
+          "choices": [
+            "They are semantically equivalent in common template declarations",
+            "They can never be interchanged",
+            "`typename` is only for destructors",
+            "`class` is only for arrays"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says `typename` and `class` are semantically equivalent for declaring template type parameters, with special cases noted.",
           "points": 1
         }
       ]
@@ -569,22 +1500,137 @@
     {
       "id": "projects",
       "kind": "Closed Exam",
-      "title": "المشاريع",
-      "description": "Manual questions from المشاريع.md.",
+      "title": "OOP Projects",
+      "description": "Manual questions from the projects Markdown source.",
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "لماذا تصلح مشاريع مثل ATM أو Bank Account لتطبيق OOP؟",
+          "prompt": "What validation is required in the Hard Currency Converter project?",
           "choices": [
-            "لأنها تحتوي كيانات وبيانات وعمليات يمكن تمثيلها بأصناف وكائنات",
-            "ربط مؤثر معين بدالة عضو في صنف حتى يعمل مع كائنات الصنف",
-            "لتمثيل بيع عنصر وزيادة عداد المبيعات",
-            "التحقق من صحة القيم المدخلة وأنها رقمية"
+            "Validate that entered money values are numeric",
+            "Validate that all input is an image",
+            "Validate that no exit option exists",
+            "Validate that every user is an administrator"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "The project description requires checking the entered values so conversion works only on numeric data.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main purpose of the ATM Card project?",
+          "choices": [
+            "Verify card validity before allowing simple financial operations",
+            "Draw polymorphic shapes",
+            "Compile C++ templates",
+            "Generate book records only"
           ],
-          "explanation": "مشاريع OOP الجيدة تحتوي كائنات واضحة مثل حساب أو بطاقة أو طالب.",
+          "answer": [0],
+          "explanation": "The ATM project centers on validating card data before withdrawal, transfer, balance checking, and similar work.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which two calculator modes are requested?",
+          "choices": [
+            "Simple and scientific",
+            "Kernel and user",
+            "Static and dynamic",
+            "Public and protected"
+          ],
+          "answer": [0],
+          "explanation": "The calculator project asks for simple and scientific calculator options.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which operations are required in the Student Management System?",
+          "choices": [
+            "Add, delete, edit, and display student data",
+            "Only draw a rectangle",
+            "Only overload `++`",
+            "Only create a PDF"
+          ],
+          "answer": [0],
+          "explanation": "The student-management project describes adding, deleting, editing, and displaying student records.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What storage restriction is mentioned for the Student Management System?",
+          "choices": [
+            "Do not save the data permanently in a file",
+            "Store every record only in a PDF",
+            "Use no variables",
+            "Use only hard-coded values"
+          ],
+          "answer": [0],
+          "explanation": "The description says data should be modified during execution and not stored permanently in a file.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which action in the Bookshop Management System should request confirmation?",
+          "choices": [
+            "Deleting a book record",
+            "Opening the program",
+            "Declaring a class",
+            "Displaying the title"
+          ],
+          "answer": [0],
+          "explanation": "The bookshop project requires confirmation before deleting a book record.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which operations are named for the Bank Account Management System?",
+          "choices": [
+            "Deposit, withdrawal, display, search, edit, and delete account data",
+            "Only print a welcome message",
+            "Only sort characters",
+            "Only choose a bus seat"
+          ],
+          "answer": [0],
+          "explanation": "The bank account project includes creating accounts plus deposit, withdrawal, display, search, edit, and delete features.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What should the Super Market Billing System display after purchases?",
+          "choices": [
+            "Purchased items, their values/details, and the total",
+            "Only the C++ source filename",
+            "Only a pointer address",
+            "Only one empty bill"
+          ],
+          "answer": [0],
+          "explanation": "The supermarket billing project requires showing all purchased items and the total amount.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which features are required by the Phone Directory project?",
+          "choices": [
+            "Add, display, edit, search, and delete phone data",
+            "Only arithmetic addition",
+            "Only virtual inheritance",
+            "Only static class data"
+          ],
+          "answer": [0],
+          "explanation": "The phone directory project lists adding, displaying, editing, searching, and deleting phone records.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What information is suggested for a bus reservation ticket?",
+          "choices": [
+            "Bus number, bus brand, seat number, booked/free seats, and ticket price",
+            "Only a class template name",
+            "Only a static counter",
+            "Only a pointer to one integer"
+          ],
+          "answer": [0],
+          "explanation": "The bus reservation project lists bus number, brand, seat information, and ticket price among ticket details.",
           "points": 1
         }
       ]
