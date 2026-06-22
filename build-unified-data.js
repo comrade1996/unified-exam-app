@@ -172,10 +172,28 @@ function loadOsSubject() {
   return subject;
 }
 
-function loadGeneratedSubject(subjectId) {
-  const subject = readJson(path.join(outDir, "generated-exams", `${subjectId}.json`));
-  subject.exams = subject.exams.map(exam => normalizeExam(subject.id, "manual-md", "Manual Markdown Exams", exam));
-  subject.banks = [{ id: "manual-md", title: "Manual Markdown Exams", examCount: subject.exams.length }];
+function loadGeneratedSubject(subjectId, files = null) {
+  const fileConfigs = files || [
+    { path: `${subjectId}.json`, bankId: "manual-md", title: "Manual Markdown Exams" }
+  ];
+  const firstSubject = readJson(path.join(outDir, "generated-exams", fileConfigs[0].path));
+  const subject = {
+    id: firstSubject.id,
+    title: firstSubject.title,
+    description: firstSubject.description,
+    banks: [],
+    exams: []
+  };
+
+  for (const file of fileConfigs) {
+    const json = readJson(path.join(outDir, "generated-exams", file.path));
+    const bankId = file.bankId || path.basename(file.path, path.extname(file.path));
+    const bankTitle = file.title || json.banks?.[0]?.title || bankId;
+    const exams = Array.isArray(json.exams) ? json.exams : [];
+    subject.banks.push({ id: bankId, title: bankTitle, examCount: exams.length });
+    subject.exams.push(...exams.map(exam => normalizeExam(subject.id, bankId, bankTitle, exam)));
+  }
+
   subject.questionCount = subject.exams.reduce((sum, exam) => sum + exam.questions.length, 0);
   subject.examCount = subject.exams.length;
   return subject;
@@ -184,7 +202,10 @@ function loadGeneratedSubject(subjectId) {
 const subjects = [
   loadGeneratedSubject("math-ai"),
   loadGeneratedSubject("information-security"),
-  loadGeneratedSubject("oop"),
+  loadGeneratedSubject("oop", [
+    { path: "oop.json", bankId: "manual-md", title: "Manual Markdown Exams" },
+    { path: "oop-references.json", bankId: "references", title: "Reference Exams" }
+  ]),
   loadGeneratedSubject("ai-ethics"),
   loadGeneratedSubject("ai"),
   loadGeneratedSubject("os")

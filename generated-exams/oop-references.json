@@ -1,0 +1,1029 @@
+{
+  "id": "oop-references",
+  "title": "OOP Reference Exams",
+  "description": "Closed exams reviewed from the converted OOP reference Markdown files.",
+  "banks": [
+    {
+      "id": "references",
+      "title": "Reference Exams",
+      "examCount": 5
+    }
+  ],
+  "exams": [
+    {
+      "id": "reference-cpp-for-everyone",
+      "kind": "Reference Exam",
+      "title": "Reference - C++ for Everyone",
+      "description": "Questions from c-for-every-one.md, focusing on classes, pointers, inheritance, and polymorphism.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which route does C++ for Everyone take before class design?",
+          "choices": [
+            "It first builds control structures, procedural decomposition, arrays, and algorithms",
+            "It begins directly with virtual destructors",
+            "It avoids functions and arrays",
+            "It teaches only graphical user interfaces"
+          ],
+          "answer": [0],
+          "explanation": "The reference introduces core procedural programming and arrays before moving to classes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which chapters introduce the object-oriented features in C++ for Everyone?",
+          "choices": [
+            "Classes, then inheritance and polymorphism",
+            "Only input/output streams",
+            "Only sorting and searching",
+            "Only recursion"
+          ],
+          "answer": [0],
+          "explanation": "The table of contents places classes before inheritance and virtual-function polymorphism.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are pointers important before polymorphism in this reference?",
+          "choices": [
+            "Base-class pointers can refer to objects from different derived classes",
+            "Pointers make all data public",
+            "Pointers replace all constructors",
+            "Pointers disable inheritance"
+          ],
+          "answer": [0],
+          "explanation": "The reference connects pointers with later polymorphism through base and derived class objects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What should class data fields usually be according to the class-design guidance?",
+          "choices": [
+            "Private",
+            "Global",
+            "Uninitialized",
+            "Macros"
+          ],
+          "answer": [0],
+          "explanation": "The reference emphasizes encapsulation through private data manipulated by member functions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the role of a constructor in the class chapter?",
+          "choices": [
+            "Initialize an object into a valid state when it is created",
+            "Return a Boolean value from every class",
+            "Delete a base class",
+            "Make inheritance private"
+          ],
+          "answer": [0],
+          "explanation": "Constructors avoid random/uninitialized member values by setting state at object creation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does 'Discovering Classes' ask the programmer to identify?",
+          "choices": [
+            "Objects, responsibilities, state, and behavior in the problem domain",
+            "Only compiler warning numbers",
+            "Only arithmetic operators",
+            "Only file extensions"
+          ],
+          "answer": [0],
+          "explanation": "The problem-solving section focuses on finding useful classes from the domain model.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What relationship does inheritance express in this reference?",
+          "choices": [
+            "An is-a relationship between a general base class and a specialized derived class",
+            "A random memory address relationship",
+            "A file import relationship only",
+            "A stream formatting relationship only"
+          ],
+          "answer": [0],
+          "explanation": "The glossary and inheritance chapter describe inheritance as an is-a relation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is private inheritance described as rarely useful?",
+          "choices": [
+            "It hides inherited public behavior and works against ordinary is-a inheritance",
+            "It makes every base member public",
+            "It is required for all derived classes",
+            "It prevents constructors from running"
+          ],
+          "answer": [0],
+          "explanation": "The reference warns that private inheritance usually violates the spirit of inheritance.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What enables variation in behavior at run time?",
+          "choices": [
+            "Virtual functions",
+            "Integer constants",
+            "Preprocessor comments",
+            "Private data alone"
+          ],
+          "answer": [0],
+          "explanation": "The inheritance chapter uses virtual functions to vary behavior at runtime.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why can an array of base-class pointers be useful?",
+          "choices": [
+            "It can store references to objects from different derived classes through a common base type",
+            "It stores only integers",
+            "It prevents dynamic dispatch",
+            "It deletes every derived object automatically"
+          ],
+          "answer": [0],
+          "explanation": "The reference shows that base pointers allow mixed derived objects in one collection.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the advantage of using virtual functions instead of type tags?",
+          "choices": [
+            "New derived behavior can be added with less change to existing client code",
+            "Every class must expose its data",
+            "The program stops using functions",
+            "Objects cannot be extended"
+          ],
+          "answer": [0],
+          "explanation": "The reference says virtual functions make programs easier to extend without changing the calling code.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does the reference define polymorphism in the glossary area?",
+          "choices": [
+            "Selecting among functions with the same name according to the object being used",
+            "Storing only one value in memory",
+            "Forcing every class to be final",
+            "Replacing every pointer with a macro"
+          ],
+          "answer": [0],
+          "explanation": "The reference connects polymorphism to choosing the appropriate function implementation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a dangling pointer refer to?",
+          "choices": [
+            "A pointer that no longer points to valid memory",
+            "A pointer to a public member only",
+            "A constructor pointer",
+            "A pointer that stores a class name"
+          ],
+          "answer": [0],
+          "explanation": "The pointer chapter lists dangling pointers as a common pointer mistake.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are references useful in function parameters?",
+          "choices": [
+            "They let a function operate on the original object without copying it",
+            "They turn a class into a string",
+            "They make every parameter optional",
+            "They prevent function calls"
+          ],
+          "answer": [0],
+          "explanation": "The pointer/reference chapter covers passing arguments by reference for direct access to the original value.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best fits the reference's class-design style?",
+          "choices": [
+            "Expose a clean public interface while hiding implementation details",
+            "Put all data in global variables",
+            "Avoid member functions",
+            "Use inheritance for every possible relationship"
+          ],
+          "answer": [0],
+          "explanation": "The reference's OOP chapters consistently favor encapsulation and public member functions over exposed data.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "reference-cpp-one-hour-day",
+      "kind": "Reference Exam",
+      "title": "Reference - C++ in One Hour a Day",
+      "description": "Questions from c-in-one-hour-a-day.md, focusing on modern C++ OOP lessons.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which part of a basic C++ program contains the starting point of execution?",
+          "choices": [
+            "main()",
+            "#include only",
+            "A comment",
+            "A namespace alias"
+          ],
+          "answer": [0],
+          "explanation": "The anatomy lesson identifies `main()` as the body where program execution begins.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does `#include` do in a C++ program?",
+          "choices": [
+            "It asks the preprocessor to include declarations from a header",
+            "It creates an object",
+            "It overloads an operator",
+            "It deletes dynamic memory"
+          ],
+          "answer": [0],
+          "explanation": "The reference covers `#include` as a preprocessor directive used before compilation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a function prototype used for?",
+          "choices": [
+            "Declaring a function's interface before its full definition is seen",
+            "Creating a class object",
+            "Allocating a dynamic array",
+            "Making a virtual base class"
+          ],
+          "answer": [0],
+          "explanation": "The functions lesson distinguishes prototypes, definitions, calls, and arguments.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are references useful when passing arguments to functions?",
+          "choices": [
+            "They allow the function to work with the caller's original value",
+            "They always copy the whole array",
+            "They create a default constructor",
+            "They disable overloading"
+          ],
+          "answer": [0],
+          "explanation": "The reference teaches passing arguments by reference as a way to operate on original data.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does dereferencing a pointer mean?",
+          "choices": [
+            "Accessing the data at the address stored in the pointer",
+            "Changing a function name",
+            "Calling a constructor by default",
+            "Declaring an enum"
+          ],
+          "answer": [0],
+          "explanation": "The pointer lesson introduces `*` as the dereference operator for pointed data.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What creates dynamic memory in the pointer lesson?",
+          "choices": [
+            "new",
+            "friend",
+            "virtual",
+            "private"
+          ],
+          "answer": [0],
+          "explanation": "The reference pairs `new` and `delete` for dynamic allocation and release.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "In the classes lesson, what is an object?",
+          "choices": [
+            "An instance of a class",
+            "A header file",
+            "A compiler option",
+            "A macro definition"
+          ],
+          "answer": [0],
+          "explanation": "The lesson identifies objects as instances created from class definitions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which operator accesses members through an object pointer?",
+          "choices": [
+            "->",
+            ". only",
+            ":: only",
+            "?:"
+          ],
+          "answer": [0],
+          "explanation": "The classes lesson contrasts dot access on objects with pointer member access through `->`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the purpose of `private` in a class?",
+          "choices": [
+            "Hide implementation details and restrict direct access",
+            "Make every member global",
+            "Declare a namespace",
+            "Force runtime polymorphism"
+          ],
+          "answer": [0],
+          "explanation": "The reference discusses data abstraction via private members.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What can a friend function or friend class do?",
+          "choices": [
+            "Access private members when explicitly trusted by the class",
+            "Automatically inherit every class",
+            "Override every virtual function",
+            "Become the program entry point"
+          ],
+          "answer": [0],
+          "explanation": "The friend section shows external functions/classes being granted special access.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does inheritance implement in the C++ in One Hour a Day lessons?",
+          "choices": [
+            "A relationship where derived classes reuse and extend base-class behavior",
+            "Only console input formatting",
+            "Only arithmetic precedence",
+            "A replacement for functions"
+          ],
+          "answer": [0],
+          "explanation": "The inheritance lesson follows classes and objects and focuses on derived classes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What lesson follows inheritance and focuses on many forms?",
+          "choices": [
+            "Polymorphism",
+            "Variables",
+            "Macros only",
+            "Arrays only"
+          ],
+          "answer": [0],
+          "explanation": "The table of contents places polymorphism after implementing inheritance.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is operator overloading used for?",
+          "choices": [
+            "Defining meaningful operator behavior for user-defined types",
+            "Making all operators illegal",
+            "Creating preprocessor directives",
+            "Disabling object assignment"
+          ],
+          "answer": [0],
+          "explanation": "The operator lesson covers operator types and operator overloading for classes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why does the reference prefer templates over macros when possible?",
+          "choices": [
+            "Templates are type-safe reusable patterns",
+            "Macros are always object-oriented",
+            "Templates cannot use classes",
+            "Templates run only before preprocessing"
+          ],
+          "answer": [0],
+          "explanation": "The macros/templates lesson notes that templates are reusable and type-safe.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the Standard Template Library mainly introduced as?",
+          "choices": [
+            "A library of reusable template-based containers and algorithms",
+            "A debugger only",
+            "A collection of private constructors",
+            "A replacement for `main()`"
+          ],
+          "answer": [0],
+          "explanation": "The STL lesson introduces reusable standard library components built around templates.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "reference-lafore-object-oriented-cpp",
+      "kind": "Reference Exam",
+      "title": "Reference - Object-Oriented Programming in C++",
+      "description": "Questions from objectorientedprogramming-c.md by Robert Lafore.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Why does the Lafore reference say object-oriented programming is needed?",
+          "choices": [
+            "Large procedural programs become difficult to manage and modify",
+            "Small variables cannot store integers",
+            "C++ cannot use functions",
+            "All programs must avoid classes"
+          ],
+          "answer": [0],
+          "explanation": "The early OOP chapter contrasts procedural growth with the object-oriented approach.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which group is presented as central to object-oriented languages?",
+          "choices": [
+            "Objects, classes, inheritance, reusability, and polymorphism",
+            "Only files and streams",
+            "Only ASCII and keywords",
+            "Only loops and labels"
+          ],
+          "answer": [0],
+          "explanation": "The reference's big-picture chapter lists the core OOP characteristics.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a class provide in the Lafore reference?",
+          "choices": [
+            "A user-defined type that combines data and functions",
+            "Only a comment block",
+            "Only a compiler command",
+            "A mandatory global variable"
+          ],
+          "answer": [0],
+          "explanation": "The objects/classes chapter treats classes as the central way to form objects.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is reusability a payoff of inheritance?",
+          "choices": [
+            "A derived class can extend an existing class instead of rewriting it",
+            "Inheritance deletes the base class",
+            "Every function becomes global",
+            "Every object loses its state"
+          ],
+          "answer": [0],
+          "explanation": "The inheritance chapter says derived classes reuse tested base-class capabilities.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is operator overloading intended to improve?",
+          "choices": [
+            "Natural syntax for operations on user-defined objects",
+            "The number of required header files only",
+            "The spelling of comments",
+            "The size of every pointer"
+          ],
+          "answer": [0],
+          "explanation": "The operator-overloading chapter shows object operations written with familiar operators.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why should operator overloading be used carefully?",
+          "choices": [
+            "Misleading operator meanings can make code harder to understand",
+            "It makes compiling impossible",
+            "It removes all constructors",
+            "It prevents class reuse"
+          ],
+          "answer": [0],
+          "explanation": "The chapter includes pitfalls of operator overloading and conversion.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does public inheritance normally model?",
+          "choices": [
+            "A derived object is a specialized form of the base object",
+            "Two unrelated files share a name",
+            "A function has no return type",
+            "A pointer cannot be dereferenced"
+          ],
+          "answer": [0],
+          "explanation": "The inheritance chapter uses public inheritance for ordinary specialization.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What can create ambiguity in multiple inheritance?",
+          "choices": [
+            "The same base-class member may be inherited through more than one path",
+            "Using `cout` twice",
+            "Declaring a single class",
+            "Returning an integer from `main`"
+          ],
+          "answer": [0],
+          "explanation": "The multiple-inheritance chapter discusses ambiguous member lookup.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What are virtual functions used for in Lafore's reference?",
+          "choices": [
+            "Calling the correct derived-class function through a base pointer or reference",
+            "Creating compile-time constants only",
+            "Replacing all member data",
+            "Preventing inheritance"
+          ],
+          "answer": [0],
+          "explanation": "The virtual-functions chapter explains dynamic dispatch through base-class access.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is an abstract class in the virtual-functions chapter?",
+          "choices": [
+            "A class intended as a base that cannot be instantiated directly when it has pure virtual functions",
+            "A class with only public data",
+            "A class with no functions at all",
+            "A class that replaces every derived class"
+          ],
+          "answer": [0],
+          "explanation": "The reference covers abstract classes and pure virtual functions after virtual dispatch.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are friend functions described as controversial?",
+          "choices": [
+            "They cross class boundaries by accessing private data",
+            "They cannot call any function",
+            "They always break compilation",
+            "They are required for every class"
+          ],
+          "answer": [0],
+          "explanation": "The virtual-functions/friend section says friend functions should be used sparingly because they affect data integrity boundaries.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "When are friend functions especially convenient?",
+          "choices": [
+            "When an operation must work symmetrically with objects from different classes or operands",
+            "When no class data is needed",
+            "When every member is already public",
+            "When there is no operator involved"
+          ],
+          "answer": [0],
+          "explanation": "The reference connects friend functions with bridging classes and some operator-overloading cases.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What problem do function templates solve?",
+          "choices": [
+            "Avoiding duplicate functions that differ mainly by data type",
+            "Deleting dynamic arrays",
+            "Removing inheritance",
+            "Preventing all exceptions"
+          ],
+          "answer": [0],
+          "explanation": "The templates chapter starts with function templates before class templates.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What do class templates allow?",
+          "choices": [
+            "Generic classes whose stored type can vary by instantiation",
+            "Only classes with no data",
+            "Only private inheritance",
+            "Only stream output"
+          ],
+          "answer": [0],
+          "explanation": "The chapter moves from function templates to class templates for reusable generic classes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the STL in the Lafore reference?",
+          "choices": [
+            "The Standard Template Library, a collection of template-based containers and algorithms",
+            "A single virtual function",
+            "A diagramming tool only",
+            "A constructor naming rule"
+          ],
+          "answer": [0],
+          "explanation": "The reference dedicates a chapter to the Standard Template Library after templates and exceptions.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "reference-arabic-oop",
+      "kind": "Reference Exam",
+      "title": "Reference - Arabic OOP Notes",
+      "description": "Questions from البرمجة-الشيئية-أ-حذيفة.md, using the readable OOP/C++ concepts from the converted Markdown.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which feature means showing essential behavior while hiding unnecessary detail?",
+          "choices": [
+            "Abstraction",
+            "Compilation",
+            "Tokenization",
+            "Scheduling"
+          ],
+          "answer": [0],
+          "explanation": "The Arabic OOP reference lists abstraction as a feature of OOP.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which feature combines data and functions inside one class/object unit?",
+          "choices": [
+            "Encapsulation",
+            "Bit shifting",
+            "File compression",
+            "Packet switching"
+          ],
+          "answer": [0],
+          "explanation": "The reference lists encapsulation as grouping data and behavior together.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does data hiding protect?",
+          "choices": [
+            "The internal data of an object from uncontrolled direct access",
+            "The program from using functions",
+            "The compiler from parsing classes",
+            "The source file from comments"
+          ],
+          "answer": [0],
+          "explanation": "The reference treats data hiding as a key benefit of private/protected/public access control.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which access level allows access mainly from inside the class?",
+          "choices": [
+            "private",
+            "public",
+            "extern",
+            "namespace"
+          ],
+          "answer": [0],
+          "explanation": "The access-level section distinguishes private, protected, and public visibility.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which access level supports access from derived classes?",
+          "choices": [
+            "protected",
+            "static only",
+            "goto",
+            "typedef"
+          ],
+          "answer": [0],
+          "explanation": "Protected members are presented as accessible in inheritance contexts.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which C++ operator defines a member function outside its class body?",
+          "choices": [
+            "::",
+            "&&",
+            "->",
+            "%="
+          ],
+          "answer": [0],
+          "explanation": "The reference table of contents includes the scope resolution operator `::`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a constructor responsible for?",
+          "choices": [
+            "Preparing object state when an object is created",
+            "Returning the object as an integer",
+            "Destroying the source file",
+            "Declaring every member public"
+          ],
+          "answer": [0],
+          "explanation": "The reference has constructor and destructor sections as core class-function topics.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a destructor responsible for?",
+          "choices": [
+            "Cleanup when an object is destroyed",
+            "Creating a new base class",
+            "Overloading all arithmetic operators",
+            "Changing a namespace"
+          ],
+          "answer": [0],
+          "explanation": "Constructors and destructors are paired in the reference's class-function sections.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which operators are used for dynamic memory allocation and release?",
+          "choices": [
+            "new and delete",
+            "cin and cout",
+            "if and else",
+            "class and public"
+          ],
+          "answer": [0],
+          "explanation": "The Arabic reference table of contents explicitly includes `new` and `delete`.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does `this` refer to in a member function?",
+          "choices": [
+            "The current object executing the member function",
+            "The parent folder of the source file",
+            "The compiler version",
+            "The next object in an array"
+          ],
+          "answer": [0],
+          "explanation": "The reference includes a section on the `this` pointer/object reference.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What can a friend function do?",
+          "choices": [
+            "Access class data when the class grants it friend access",
+            "Automatically become virtual",
+            "Replace every constructor",
+            "Disable encapsulation for all classes globally"
+          ],
+          "answer": [0],
+          "explanation": "The reference includes friend functions and friend classes as special access mechanisms.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is function overloading?",
+          "choices": [
+            "Using the same function name with different parameter lists",
+            "Using a pointer after delete",
+            "Defining no function body",
+            "Hiding all public members"
+          ],
+          "answer": [0],
+          "explanation": "The reference distinguishes function overloading from operator overloading.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is operator overloading?",
+          "choices": [
+            "Giving an operator a class-specific meaning",
+            "Changing the CPU instruction set",
+            "Removing all operators from C++",
+            "Creating a namespace"
+          ],
+          "answer": [0],
+          "explanation": "The reference contains a major section on operators overloading.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does multiple inheritance allow?",
+          "choices": [
+            "A class to inherit from more than one base class",
+            "A function to return multiple unrelated values automatically",
+            "A variable to have no type",
+            "A constructor to be virtual"
+          ],
+          "answer": [0],
+          "explanation": "The reference's inheritance section includes multiple inheritance.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a virtual base class used for?",
+          "choices": [
+            "Avoiding duplicate base-class copies in certain multiple-inheritance hierarchies",
+            "Forcing every data member to be public",
+            "Replacing templates",
+            "Reading a file stream"
+          ],
+          "answer": [0],
+          "explanation": "The table of contents ends with virtual base class after multiple inheritance.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "reference-project-names-and-content",
+      "kind": "Reference Exam",
+      "title": "Reference - Project Names and Content",
+      "description": "Questions from اسماء-المشاريع-ومحتواها.md.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "What should the Hard Currency Converter validate?",
+          "choices": [
+            "That money values entered by the user are numeric",
+            "That the user enters only letters",
+            "That no exchange amount is entered",
+            "That the program never exits"
+          ],
+          "answer": [0],
+          "explanation": "The project requires validation so conversion works only with numeric input.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What should happen for invalid currency-converter input?",
+          "choices": [
+            "Display an error message",
+            "Silently accept it",
+            "Delete all records",
+            "Start a scientific calculator"
+          ],
+          "answer": [0],
+          "explanation": "The reference says invalid data should produce an error message.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the purpose of the ATM Card project?",
+          "choices": [
+            "Check whether card data is valid before simple financial operations",
+            "Draw inheritance diagrams only",
+            "Convert source files to Markdown",
+            "Implement only string concatenation"
+          ],
+          "answer": [0],
+          "explanation": "The ATM project centers on card validation before operations such as withdrawal, transfer, and balance viewing.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which calculator modes are required by the Calculator project?",
+          "choices": [
+            "Simple and scientific",
+            "Public and private",
+            "Base and derived",
+            "Static and virtual"
+          ],
+          "answer": [0],
+          "explanation": "The project asks for two calculator types: simple and scientific.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What should the Calculator project check before operating?",
+          "choices": [
+            "Input validity and numeric data suitability",
+            "Whether inheritance is public",
+            "Whether a book exists",
+            "Whether a phone number is deleted"
+          ],
+          "answer": [0],
+          "explanation": "The description says calculations should not happen unless entered values are numeric and suitable.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which student data can appear in the Student Management System?",
+          "choices": [
+            "University number, name, address, major, level, subjects, grades, and GPA",
+            "Only bus number",
+            "Only book author",
+            "Only exchange rate"
+          ],
+          "answer": [0],
+          "explanation": "The reference lists these fields as examples for student management.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How should the Student Management System treat stored data?",
+          "choices": [
+            "Modify data during runtime without permanent file storage",
+            "Save everything permanently in a file",
+            "Never allow edits",
+            "Only display one hard-coded student"
+          ],
+          "answer": [0],
+          "explanation": "The project says data is not saved permanently in a file; it is edited and deleted during execution.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which information is requested when adding a book in the Bookshop Management System?",
+          "choices": [
+            "Book name, author name, and number of copies",
+            "Card PIN only",
+            "Bus brand only",
+            "Student GPA only"
+          ],
+          "answer": [0],
+          "explanation": "The bookshop project lists title/name, author, and copy count as book information.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What should happen before deleting a book record?",
+          "choices": [
+            "Ask for confirmation",
+            "Automatically delete without warning",
+            "Run a scientific operation",
+            "Create a bank account"
+          ],
+          "answer": [0],
+          "explanation": "The bookshop project requires confirmation before deleting records.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which operations belong to the Bank Account Management System?",
+          "choices": [
+            "Deposit, withdrawal, display, search, edit, and delete",
+            "Only currency conversion",
+            "Only adding a phone contact",
+            "Only booking bus seats"
+          ],
+          "answer": [0],
+          "explanation": "The bank account project lists account creation plus deposit, withdrawal, display, search, edit, and delete features.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What should the Super Market Billing System show?",
+          "choices": [
+            "At least seven products with prices and purchased-item totals",
+            "Only inheritance access modes",
+            "Only a single student name",
+            "Only a pointer value"
+          ],
+          "answer": [0],
+          "explanation": "The supermarket project asks to display several products, allow purchases, show item values, and calculate a total.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which features belong to the Phone Directory project?",
+          "choices": [
+            "Add, display, edit, search, and delete phone records",
+            "Only overloaded operators",
+            "Only dynamic memory allocation",
+            "Only book confirmation"
+          ],
+          "answer": [0],
+          "explanation": "The phone directory project lists those record-management operations.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which data is suggested for the maintenance-department project?",
+          "choices": [
+            "Department, device type, maintenance date, and condition before/after maintenance",
+            "Only currency rates",
+            "Only class names",
+            "Only abstract functions"
+          ],
+          "answer": [0],
+          "explanation": "The maintenance project mentions reports for devices such as computers/printers and includes maintenance details.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which details are suggested for bus reservation?",
+          "choices": [
+            "Bus number, bus brand, seat number, booked/free seats, and ticket price",
+            "Only calculator mode",
+            "Only account owner name",
+            "Only product price"
+          ],
+          "answer": [0],
+          "explanation": "The bus reservation project lists those ticket and bus details.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What general note is given for the projects?",
+          "choices": [
+            "Simulate the system screens as much as possible while leaving room for project-specific movement",
+            "Avoid screens completely",
+            "Use no validation",
+            "Use only one hard-coded class"
+          ],
+          "answer": [0],
+          "explanation": "The project reference closes by asking students to simulate system screens as much as possible.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
