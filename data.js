@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-22T15:42:48.194Z",
+  "generatedAt": "2026-06-22T15:53:32.831Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -1743,7 +1743,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "Why does the `display(num, nam, addr)` function receive parameters?",
+              "prompt": "Review this function from Lecture 1:\n\nvoid display(int num, string nam, string addr) {\n  cout << \"We save student Data as:\\n\";\n  cout << \"num=no= \" << num << endl;\n  cout << \"nam=name= \" << nam << endl;\n  cout << \"addr=address= \" << addr << endl;\n}\n\nWhy does `display(num, nam, addr)` receive parameters?",
               "choices": [
                 "To print saved student details passed from `main`",
                 "To allocate dynamic memory for an array",
@@ -1775,7 +1775,7 @@ window.UNIFIED_EXAM_DATA = {
             },
             {
               "type": "Single Choice",
-              "prompt": "How does the `po(int *p)` example receive an array?",
+              "prompt": "Review this function from Lecture 1:\n\nvoid po(int *p) {\n  cout << *p << \"\\n\";\n}\n\nint a[] = {1, 3, 5};\npo(a);\n\nHow does the `po(int *p)` example receive an array?",
               "choices": [
                 "Through a pointer to its first element",
                 "Through a copy of the whole array object",

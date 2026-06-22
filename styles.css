@@ -301,6 +301,8 @@ button.ghost:hover {
   margin: 0 0 12px;
   font-size: 16px;
   line-height: 1.45;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
 }
 
 .choice {
@@ -319,6 +321,7 @@ button.ghost:hover {
 
 .choice span {
   line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
 .choice.correct {
