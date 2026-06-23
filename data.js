@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-23T15:15:06.728Z",
+  "generatedAt": "2026-06-23T18:33:20.059Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -1075,6 +1075,54 @@ window.UNIFIED_EXAM_DATA = {
               "explanation": "The maintenance/change phase adapts the information security profile as threats emerge and old threats evolve.",
               "fullExplanation": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which three dimensions are shown in the McCumber Cube security model?",
+              "choices": [
+                "Information states, security goals, and safeguards/countermeasures",
+                "Only hardware, software, and people",
+                "Only risk, cost, and schedule",
+                "Only firewalls, passwords, and encryption"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The NSTISSC/CNSS model organizes security by information states, goals, and safeguards.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are communities of interest important in information security?",
+              "choices": [
+                "They bring management, IT, and security perspectives together",
+                "They replace all policies with software tools",
+                "They remove the need for user involvement",
+                "They are only used for password cracking"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture connects information security work to coordinated communities such as management, IT, and information security.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In SecSDLC, what is the purpose of the investigation phase?",
+              "choices": [
+                "Define the problem, scope, goals, and feasibility of the security project",
+                "Only install antivirus signatures",
+                "Only write the final maintenance report",
+                "Only remove all access controls"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The investigation phase frames the project before detailed analysis, design, and implementation.",
+              "fullExplanation": null,
+              "points": 1
             }
           ]
         },
@@ -1245,6 +1293,54 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "The lecture describes human error/failure as acts performed without malicious intent.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is information extortion?",
+              "choices": [
+                "Stealing or controlling information and demanding payment or concessions",
+                "Accidentally deleting a file",
+                "Replacing old hardware",
+                "Writing a normal backup policy"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Information extortion is a deliberate threat where attackers demand value in exchange for information or access.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which threat is a deviation in quality of service?",
+              "choices": [
+                "Loss or degradation of power, WAN service, ISP service, or other external support",
+                "A user choosing a long password",
+                "An employee attending security training",
+                "A completed risk treatment plan"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture lists deviations in service quality from providers and utilities as threats.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How can organizational policy or planning become a security threat?",
+              "choices": [
+                "Poor policies or planning gaps can create weaknesses that lead to attacks",
+                "Policies always eliminate every threat",
+                "Planning only affects office furniture",
+                "Policies are unrelated to information systems"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lecture 3 identifies bad policy or planning as a source of vulnerabilities and later attacks.",
               "fullExplanation": null,
               "points": 1
             }
@@ -1419,6 +1515,54 @@ window.UNIFIED_EXAM_DATA = {
               "explanation": "UPS power supplies help systems remain online long enough to shut down safely.",
               "fullExplanation": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which two lock types does the lecture distinguish?",
+              "choices": [
+                "Mechanical and electromechanical locks",
+                "Symmetric and asymmetric locks",
+                "Stream and block locks",
+                "Role-based and task-based locks"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The physical-security section separates traditional mechanical locks from electromechanical options.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why must fire suppression be chosen carefully for computer rooms?",
+              "choices": [
+                "The suppression method must protect people and equipment without creating additional damage",
+                "Computer rooms do not need fire controls",
+                "Water is always the only correct choice",
+                "Fire controls replace access control"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture treats fire detection and suppression as a special physical-security concern for equipment areas.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are maintenance and environmental controls part of hardware security?",
+              "choices": [
+                "Equipment failures, HVAC problems, and utilities can interrupt or damage systems",
+                "They only improve screen brightness",
+                "They are unrelated to availability",
+                "They replace logical authentication"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hardware security includes maintaining equipment and stable environmental conditions such as power and cooling.",
+              "fullExplanation": null,
+              "points": 1
             }
           ]
         },
@@ -1589,6 +1733,54 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "The telework section says VPNs are essential to secure data transmission.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the OWASP Top 10 identify?",
+              "choices": [
+                "Critical web application security risks such as injection and cross-site scripting",
+                "The ten fastest CPUs",
+                "The ten safest passwords",
+                "Only physical building controls"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lecture 5 names OWASP Top 10 as a list of major web application security risks.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the NIST approach to securing the SDLC meant to do?",
+              "choices": [
+                "Integrate security activities into each system-development phase",
+                "Delay security until after deployment",
+                "Ignore testing and maintenance",
+                "Use only physical locks"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The NIST SDLC approach emphasizes building security into development, not adding it only at the end.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are trap doors, logic bombs, and back doors software-security concerns?",
+              "choices": [
+                "They can bypass normal controls or trigger harmful behavior inside software",
+                "They are hardware power supplies",
+                "They are firewall architecture diagrams",
+                "They are secure coding certificates"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lecture 5 includes these as software flaws or malicious mechanisms that can undermine normal protection.",
               "fullExplanation": null,
               "points": 1
             }
@@ -1763,6 +1955,70 @@ window.UNIFIED_EXAM_DATA = {
               "explanation": "The lecture states that MITM attackers can read, modify, and redirect data.",
               "fullExplanation": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What makes polymorphic malware harder to detect?",
+              "choices": [
+                "It changes its code or signature while keeping its malicious behavior",
+                "It never executes",
+                "It only affects paper files",
+                "It requires no payload"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Polymorphic threats change form to avoid simple signature matching.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What payload can a Trojan horse release according to the lecture?",
+              "choices": [
+                "A back door",
+                "A UPS battery",
+                "A risk register",
+                "A firewall rulebook"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lecture 6 notes that Trojan horses can release payloads such as back doors.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is IP spoofing?",
+              "choices": [
+                "Using a forged or trusted IP address to deceive systems",
+                "Hashing passwords with salt",
+                "Replacing DES with AES",
+                "Classifying assets by value"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The spoofing section describes attackers obtaining or using trusted IP addresses.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is TCP hijacking?",
+              "choices": [
+                "Taking over or interfering with an existing TCP/IP communication session",
+                "Scanning a host for antivirus signatures",
+                "Creating a screened subnet",
+                "Writing a risk acceptance statement"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "TCP hijacking is presented as a man-in-the-middle variant against TCP/IP communications.",
+              "fullExplanation": null,
+              "points": 1
             }
           ]
         },
@@ -1933,6 +2189,86 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "The lecture says salting makes rainbow tables ineffective by changing hash results for identical passwords.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does a black-hat hacker differ from a white-hat hacker?",
+              "choices": [
+                "A black-hat hacker attacks maliciously, while a white-hat hacker tests security with permission",
+                "A black-hat hacker only repairs keyboards",
+                "A white-hat hacker only sends spam",
+                "They are the same role in every case"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture separates hacker categories by intent and authorization.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is phreaking?",
+              "choices": [
+                "Hacking or abusing telephone systems",
+                "Encrypting a file with AES",
+                "Installing a UPS",
+                "Classifying an asset"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lecture 7 lists phreakers as attackers focused on phone systems.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is hacktivism?",
+              "choices": [
+                "Using hacking techniques to promote political or social causes",
+                "Only testing systems under contract",
+                "Only adding salt to passwords",
+                "Only monitoring power supplies"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hacktivists use attack techniques for ideological, social, or political objectives.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which example is a human password attack rather than a cracking algorithm?",
+              "choices": [
+                "Shoulder surfing",
+                "AES encryption",
+                "Packet filtering",
+                "Risk transference"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Shoulder surfing relies on observing people rather than computing password guesses.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does a dictionary attack guess passwords?",
+              "choices": [
+                "It tries words and common passwords from a prepared list",
+                "It checks every possible character combination",
+                "It changes DNS entries",
+                "It creates a DMZ"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture describes dictionary attacks as using lists of common passwords or likely words.",
               "fullExplanation": null,
               "points": 1
             }
@@ -2107,6 +2443,54 @@ window.UNIFIED_EXAM_DATA = {
               "explanation": "Active responses change the environment or stop activity; passive responses report and wait.",
               "fullExplanation": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which disadvantage of antivirus software is named in the lecture?",
+              "choices": [
+                "It may produce false positives",
+                "It classifies information assets",
+                "It replaces all firewall policies",
+                "It eliminates all user training needs"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The antivirus section lists false positives among antivirus limitations.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When is a NIDPS more suitable than a HIDPS?",
+              "choices": [
+                "When monitoring traffic across a network segment",
+                "When monitoring only one host's internal status",
+                "When hashing passwords",
+                "When classifying risk tolerance"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A network-based IDPS is placed on a network segment and monitors traffic on that segment.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does a passive IDPS response do?",
+              "choices": [
+                "Reports or logs information for administrators instead of directly stopping the attack",
+                "Always terminates the network session",
+                "Always rewrites firewall rules",
+                "Always deletes the affected file"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture classifies passive response as reporting information and waiting for action.",
+              "fullExplanation": null,
+              "points": 1
             }
           ]
         },
@@ -2277,6 +2661,86 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "The comparison table says cryptography makes content unreadable while steganography makes the message invisible.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which algorithm did AES replace as the modern symmetric standard?",
+              "choices": [
+                "DES and 3DES",
+                "RSA only",
+                "Diffie-Hellman only",
+                "PGP only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture says AES was developed to replace DES and 3DES.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is RSA known for in the lecture?",
+              "choices": [
+                "Being the first public-key encryption algorithm",
+                "Being a water detection system",
+                "Being a firewall architecture",
+                "Being a password-salting method"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The asymmetric encryption section identifies RSA as the first public-key encryption algorithm.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why do modern cryptosystems often use hybrid encryption?",
+              "choices": [
+                "They combine public-key methods for key exchange with symmetric encryption for efficient data protection",
+                "They avoid using keys entirely",
+                "They only hide data inside images",
+                "They replace authentication with physical locks"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lecture 9 describes hybrid systems such as Diffie-Hellman and PGP that combine asymmetric and symmetric strengths.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is key management critical?",
+              "choices": [
+                "If a key is compromised, the protected information can be compromised too",
+                "Keys are only decorative labels",
+                "Keys remove the need for encryption algorithms",
+                "Keys are used only for fire alarms"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture emphasizes that cryptographic strength depends heavily on protecting the keys.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In steganography, what is a carrier file?",
+              "choices": [
+                "The innocent-looking file that hides the secret message",
+                "A firewall policy file",
+                "A password dictionary",
+                "A UPS log"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Steganography hides data in the bits of a normal-looking carrier file.",
               "fullExplanation": null,
               "points": 1
             }
@@ -2451,6 +2915,70 @@ window.UNIFIED_EXAM_DATA = {
               "explanation": "ZTA assumes no trust based on location or connectivity and verifies each access.",
               "fullExplanation": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is lattice-based access control (LBAC)?",
+              "choices": [
+                "Access control based on security levels or labels arranged in a lattice",
+                "Access control based only on user preference",
+                "A firewall packet-filtering mode",
+                "A password-cracking technique"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lecture 10 lists LBAC as a label/security-level model within nondiscretionary access control.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is mandatory access control (MAC)?",
+              "choices": [
+                "A model where access is controlled by system-enforced classifications, not by object owners",
+                "A model where every user shares the owner password",
+                "A model for hiding messages in images",
+                "A firewall with no policy"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "MAC is nondiscretionary: permissions are enforced centrally through classifications or labels.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does task-based access control (TBAC) decide access?",
+              "choices": [
+                "By the task or workflow the user is performing",
+                "By packet source IP only",
+                "By antivirus signature age only",
+                "By the number of fire extinguishers"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "TBAC grants permissions according to tasks or workflow needs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does accountability provide in access control?",
+              "choices": [
+                "The ability to track user actions and tie activity to an identity",
+                "The ability to skip logging",
+                "The ability to avoid authentication",
+                "The ability to hide all access decisions"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The lecture summarizes accountability as tracking use of systems and resources.",
+              "fullExplanation": null,
+              "points": 1
             }
           ]
         },
@@ -2621,6 +3149,54 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "The lecture describes screened subnet with DMZ as dominant and safest, using two firewalls and an isolated zone.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a dual-homed bastion host firewall?",
+              "choices": [
+                "A bastion host with two network interfaces separating two networks",
+                "A firewall with no network interfaces",
+                "A password attack using two dictionaries",
+                "A steganography carrier file"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The firewall architecture section distinguishes dual-homed bastion hosts from single-interface designs.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What do firewall policies and rules define?",
+              "choices": [
+                "Which traffic is allowed, blocked, restricted, or logged",
+                "Which passwords are salted",
+                "Which assets are terminated",
+                "Which encryption key is public"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Firewall policies translate security requirements into allowed and denied traffic behavior.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which factor should be considered when selecting a firewall?",
+              "choices": [
+                "The balance between protection, cost, performance, and future growth",
+                "Only the color of the hardware",
+                "Only whether users dislike 2FA",
+                "Only the number of carrier images"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lecture 11 says firewall selection should consider protection, cost, performance, adaptability, and organizational fit.",
               "fullExplanation": null,
               "points": 1
             }
@@ -2811,11 +3387,59 @@ window.UNIFIED_EXAM_DATA = {
               "explanation": "Termination/avoidance removes the asset from operation and may be used when protection costs more than the asset value.",
               "fullExplanation": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does the lecture refer to Sun Tzu in risk management?",
+              "choices": [
+                "To emphasize knowing both the organization and its threats",
+                "To replace risk assessment with military history",
+                "To explain how antivirus signatures work",
+                "To define packet filtering"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The Sun Tzu section frames risk work as understanding both yourself and the threats you face.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens during asset identification and classification?",
+              "choices": [
+                "Information assets are listed, categorized, and prioritized by importance",
+                "All assets are deleted",
+                "Only firewall logs are encrypted",
+                "Only passwords are guessed"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Risk identification begins by identifying, classifying, and prioritizing information assets.",
+              "fullExplanation": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When is risk acceptance appropriate?",
+              "choices": [
+                "When the organization knowingly accepts the remaining risk after considering tolerance and controls",
+                "When no one has identified the asset",
+                "Whenever a risk is above tolerance",
+                "Whenever a threat is unknown"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Risk acceptance means management knowingly accepts residual risk when it is within tolerance or other treatment is not chosen.",
+              "fullExplanation": null,
+              "points": 1
             }
           ]
         }
       ],
-      "questionCount": 111,
+      "questionCount": 150,
       "examCount": 11
     },
     {
