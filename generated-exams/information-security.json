@@ -1,12 +1,12 @@
 {
   "id": "information-security",
   "title": "Information Security",
-  "description": "Hand-written closed questions made file by file from the Information Security Markdown sources.",
+  "description": "Manual closed exams reviewed file by file from the converted Information Security lecture Markdown sources.",
   "banks": [
     {
       "id": "manual-md",
       "title": "Manual Markdown Exams",
-      "examCount": 14
+      "examCount": 11
     }
   ],
   "exams": [
@@ -18,222 +18,822 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is the main purpose of information security?",
+          "prompt": "According to the lecture, what is information security?",
           "choices": [
-            "To understand possible dangers and select suitable controls",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Ensure systems and contents stay protected and useful"
+            "Protection of information and its critical elements, including systems and hardware that use, store, and transmit it",
+            "Only locking computer rooms after work",
+            "Only installing antivirus software",
+            "Replacing all business policies with passwords"
           ],
-          "answer": [
-            1
-          ],
-          "explanation": "Information security protects information assets and the systems that process them.",
+          "answer": [0],
+          "explanation": "The lecture defines information security as protecting information plus critical elements such as systems and hardware.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Which lifecycle is used to develop security controls in an organized way?",
+          "prompt": "Which three elements form the C.I.A. triangle?",
           "choices": [
-            "Security Systems Development Life Cycle",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Ensure systems and contents stay protected and useful",
-            "To understand possible dangers and select suitable controls"
+            "Confidentiality, integrity, and availability",
+            "Control, inspection, and authorization",
+            "Cost, identity, and access",
+            "Cryptography, intrusion, and antivirus"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "The lecture identifies C.I.A. as confidentiality, integrity, and availability.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the NSTISSC/CNSS Security Model also known as?",
+          "choices": [
+            "McCumber Cube",
+            "Waterfall Cube",
+            "Firewall Stack",
+            "ARPANET Grid"
           ],
-          "explanation": "The lecture lists the Security Systems Development Life Cycle as a core topic.",
+          "answer": [0],
+          "explanation": "The lecture says the NSTISSC/CNSS model is also known as the McCumber Cube.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which item is listed as a critical characteristic of information?",
+          "choices": [
+            "Authenticity",
+            "Packet size only",
+            "Screen color",
+            "Keyboard layout"
+          ],
+          "answer": [0],
+          "explanation": "The lecture lists timing, availability, accuracy, authenticity, confidentiality, integrity, utility, and possession.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does an Information System include besides hardware?",
+          "choices": [
+            "Software, data, people, and procedures needed to use information as a resource",
+            "Only passwords and firewalls",
+            "Only routers and switches",
+            "Only backup files"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says an IS is much more than hardware: it includes software, hardware, data, people, and procedures.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What balance must security maintain?",
+          "choices": [
+            "Protection and reasonable access/availability",
+            "Only maximum restriction",
+            "Only user convenience",
+            "Only hardware cost"
+          ],
+          "answer": [0],
+          "explanation": "Perfect security is impossible, so security must balance protection with reasonable access.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which security implementation approach is initiated by upper management?",
+          "choices": [
+            "Top-down approach",
+            "Bottom-up approach",
+            "Zero-day approach",
+            "Packet-filtering approach"
+          ],
+          "answer": [0],
+          "explanation": "The lecture contrasts bottom-up technical administration with top-down management initiation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why use a methodology such as SDLC for information security projects?",
+          "choices": [
+            "To ensure a rigorous process and avoid missing steps",
+            "To eliminate all training",
+            "To avoid analysis and design",
+            "To make security random and unconnected"
+          ],
+          "answer": [0],
+          "explanation": "The lecture states that a methodology ensures rigor and avoids missing important steps.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is SecSDLC?",
+          "choices": [
+            "A security-focused adaptation of SDLC phases for security projects",
+            "A malware family",
+            "A firewall architecture",
+            "A password-cracking method"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines SecSDLC as the traditional SDLC adapted to security-project implementation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which SecSDLC phase is described as requiring constant adaptation as threats evolve?",
+          "choices": [
+            "Maintenance and change",
+            "Initial investigation only",
+            "Physical design only",
+            "Cost approval only"
+          ],
+          "answer": [0],
+          "explanation": "The maintenance/change phase adapts the information security profile as threats emerge and old threats evolve.",
           "points": 1
         }
       ]
     },
     {
-      "id": "lec-3-introduction-to-information-security",
+      "id": "lec-3-objectives-and-threats",
       "kind": "Closed Exam",
       "title": "Lecture 3 - Objectives and Threats",
       "description": "Manual questions from lec-3-introduction-to-information-security.md.",
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is a primary mission of information security?",
+          "prompt": "What is the primary mission of information security in Lecture 3?",
           "choices": [
-            "Security Systems Development Life Cycle",
-            "Ensure systems and contents stay protected and useful",
-            "To understand possible dangers and select suitable controls",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
+            "Ensure systems and contents stay the same",
+            "Remove all technology from the organization",
+            "Make every system public",
+            "Replace management decisions with software"
           ],
-          "answer": [
-            1
-          ],
-          "explanation": "The lecture connects information security with protecting systems, content, and operations.",
+          "answer": [0],
+          "explanation": "The introduction says the primary mission is ensuring systems and contents stay the same.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why are threats studied in information security?",
+          "prompt": "Which function of information security protects business operations?",
           "choices": [
-            "To understand possible dangers and select suitable controls",
-            "Ensure systems and contents stay protected and useful",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle"
+            "Protects the organization's ability to function",
+            "Disables all applications",
+            "Removes data from use",
+            "Forbids infrastructure services"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "The lecture lists protecting the ability to function as one of four important functions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is protecting data critical?",
+          "choices": [
+            "Without data, an organization loses records of transactions and ability to deliver value",
+            "Data has no role in business value",
+            "Data must always be public",
+            "Only hardware needs protection"
           ],
-          "explanation": "Threat understanding is necessary before choosing effective protection.",
+          "answer": [0],
+          "explanation": "The lecture emphasizes protecting both data in motion and data at rest.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a threat?",
+          "choices": [
+            "An object, person, or entity that represents constant danger to an asset",
+            "A guaranteed successful attack",
+            "A firewall rule",
+            "A completed backup"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines threat as an entity representing constant danger to an asset.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the most common intellectual property breach named in the lecture?",
+          "choices": [
+            "Software piracy",
+            "Fire damage",
+            "Power failure",
+            "Water pressure"
+          ],
+          "answer": [0],
+          "explanation": "The intellectual-property threat section says common breaches involve software piracy.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which group contains deliberate software attacks?",
+          "choices": [
+            "Viruses, worms, Trojan horses, back doors, polymorphic threats, and hoaxes",
+            "Walls, gates, guards, and badges",
+            "Water, HVAC, and lighting",
+            "Policies, procedures, and training only"
+          ],
+          "answer": [0],
+          "explanation": "The deliberate software attack section lists malware types and related threats.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is espionage or trespass?",
+          "choices": [
+            "Unauthorized access to protected information",
+            "Legal backup management",
+            "Hardware disposal",
+            "A power-conditioning method"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines this threat as unauthorized access to protected information.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What distinguishes electronic theft from physical theft?",
+          "choices": [
+            "Evidence of electronic theft may not be readily apparent",
+            "Electronic theft is always easier to detect",
+            "Physical theft never happens",
+            "Electronic theft only affects paper files"
+          ],
+          "answer": [0],
+          "explanation": "The theft section says electronic theft is more complex because evidence may not be obvious.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is technological obsolescence?",
+          "choices": [
+            "Outdated infrastructure leading to unreliable or untrustworthy systems",
+            "A new antivirus update",
+            "A strong password strategy",
+            "A type of badge control"
+          ],
+          "answer": [0],
+          "explanation": "The lecture warns that antiquated infrastructure can cause unreliable systems.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which threat category involves mistakes without malicious intent?",
+          "choices": [
+            "Human error or failure",
+            "Industrial espionage",
+            "Information extortion",
+            "Cyberterrorism"
+          ],
+          "answer": [0],
+          "explanation": "The lecture describes human error/failure as acts performed without malicious intent.",
           "points": 1
         }
       ]
     },
     {
-      "id": "lec-4-security-fundamentals",
+      "id": "lec-4-hardware-security",
       "kind": "Closed Exam",
-      "title": "Lecture 4 - Security Fundamentals",
+      "title": "Lecture 4 - Hardware Security",
       "description": "Manual questions from lec-4-security-fundamentals.md.",
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "An information system consists of which broad components?",
+          "prompt": "Which six components make up an information system in this lecture?",
           "choices": [
             "Software, hardware, data, people, procedures, and networks",
-            "The physical technology used to process, store, and communicate information",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle"
+            "Only software, hardware, and passwords",
+            "Only people, policies, and firewalls",
+            "Only routers, switches, and servers"
           ],
-          "answer": [
-            0
-          ],
-          "explanation": "The lecture says an information system is more than hardware and software.",
+          "answer": [0],
+          "explanation": "Lecture 4 lists the six major components of an information system.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "What does hardware mean in an information system?",
+          "prompt": "What does hardware security protect?",
           "choices": [
-            "Software, hardware, data, people, procedures, and networks",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "The physical technology used to process, store, and communicate information"
+            "Physical technology that runs software, stores/transports data, and provides interfaces",
+            "Only program source code",
+            "Only employee policies",
+            "Only web browsers"
           ],
-          "answer": [
-            3
+          "answer": [0],
+          "explanation": "Hardware is the physical technology that houses software, stores/transports data, and supports information entry/removal.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is unrestricted physical access dangerous?",
+          "choices": [
+            "The system cannot guarantee information security",
+            "It always improves confidentiality",
+            "It removes the need for backups",
+            "It makes encryption unnecessary"
           ],
-          "explanation": "Hardware is the physical part of the information system.",
+          "answer": [0],
+          "explanation": "The lecture states unrestricted physical access prevents a system from guaranteeing information security.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source of physical loss is listed in Lecture 4?",
+          "choices": [
+            "Energy anomalies",
+            "Strong passwords",
+            "Public-key encryption",
+            "Role-based access"
+          ],
+          "answer": [0],
+          "explanation": "Physical loss sources include extreme temperature, gases, liquids, organisms, projectiles, movement, and energy anomalies.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which item is a physical security control?",
+          "choices": [
+            "Walls, fencing, and gates",
+            "Hash functions",
+            "Rainbow tables",
+            "Spam filters only"
+          ],
+          "answer": [0],
+          "explanation": "The lecture lists walls, fencing, and gates as a layer of physical defense.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is tailgating?",
+          "choices": [
+            "An unauthorized individual following an authorized user through a control",
+            "A firewall architecture with a DMZ",
+            "A form of encryption",
+            "A power-supply backup"
+          ],
+          "answer": [0],
+          "explanation": "The ID card section explains tailgating as following an authorized user through access control.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a mantrap?",
+          "choices": [
+            "A small controlled enclosure with separate entry and exit points",
+            "A malware payload",
+            "A cloud antivirus feature",
+            "A hash lookup table"
+          ],
+          "answer": [0],
+          "explanation": "A mantrap verifies individuals inside a small enclosure before allowing exit into the facility.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a drawback of electronic monitoring?",
+          "choices": [
+            "It is reactive and recordings may not be monitored in real time",
+            "It always prevents access before it happens",
+            "It replaces all alarms",
+            "It disables logs"
+          ],
+          "answer": [0],
+          "explanation": "The lecture notes that electronic monitoring records events but may not prevent activity or be watched live.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why should water detection systems be integrated into alarms?",
+          "choices": [
+            "Surplus water, leaks, and flooding are real threats to systems",
+            "Water improves server reliability",
+            "Water has no effect on hardware",
+            "Water detection replaces all fire controls"
+          ],
+          "answer": [0],
+          "explanation": "The water-problems section highlights flooding and leaks as serious threats.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the purpose of a UPS in supporting utilities?",
+          "choices": [
+            "Keep systems online long enough for safe shutdown",
+            "Detect phishing emails",
+            "Encrypt traffic",
+            "Replace physical locks"
+          ],
+          "answer": [0],
+          "explanation": "UPS power supplies help systems remain online long enough to shut down safely.",
           "points": 1
         }
       ]
     },
     {
-      "id": "lec-5-security-fundamentals",
+      "id": "lec-5-software-and-personal-computer-security",
       "kind": "Closed Exam",
-      "title": "Lecture 5 - Software Security Fundamentals",
+      "title": "Lecture 5 - Software and Personal Computer Security",
       "description": "Manual questions from lec-5-security-fundamentals.md.",
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What does software include in an information system?",
+          "prompt": "What does software include in Lecture 5?",
           "choices": [
             "Applications, operating systems, and command utilities",
-            "Because errors can become threats or vulnerabilities",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle"
+            "Only physical locks",
+            "Only wiring closets",
+            "Only biometric devices"
           ],
-          "answer": [
-            0
-          ],
-          "explanation": "The lecture identifies software as one major component of information systems.",
+          "answer": [0],
+          "explanation": "The lecture defines software broadly as applications, operating systems, and utilities.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why are software failures security-relevant?",
+          "prompt": "Why is software difficult to secure?",
           "choices": [
-            "Applications, operating systems, and command utilities",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Because errors can become threats or vulnerabilities"
+            "Programming errors account for a substantial portion of information attacks",
+            "Software never changes",
+            "Software cannot be attacked",
+            "Only hardware can fail"
           ],
-          "answer": [
-            3
+          "answer": [0],
+          "explanation": "The challenge section says software is perhaps the hardest IS component to secure because of programming errors.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which two categories threaten software?",
+          "choices": [
+            "Software attacks and technical software failures",
+            "Walls and gates",
+            "Fire and water only",
+            "Roles and tasks only"
           ],
-          "explanation": "Technical software failures or errors are a category of threat.",
+          "answer": [0],
+          "explanation": "The lecture divides software threats into attacks and technical failures.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is malware?",
+          "choices": [
+            "Code designed to damage, destroy, or deny service to targeted systems",
+            "A safe backup file",
+            "A physical badge",
+            "A risk acceptance document"
+          ],
+          "answer": [0],
+          "explanation": "Malware is described as programming code intended to damage, destroy, or deny service.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a trap door in software failures?",
+          "choices": [
+            "A purposeful shortcut that can bypass security checks",
+            "A firewall DMZ",
+            "A password salt",
+            "A UPS battery"
+          ],
+          "answer": [0],
+          "explanation": "Trap doors are shortcuts left by programmers that may bypass security controls.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which risk appears in the OWASP Top 10 list in this lecture?",
+          "choices": [
+            "Injection",
+            "Flooding",
+            "Tailgating",
+            "Power conditioning"
+          ],
+          "answer": [0],
+          "explanation": "The OWASP list includes injection, broken authentication, sensitive data exposure, XSS, and more.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is Software Assurance?",
+          "choices": [
+            "Building security into the development life cycle instead of adding it later",
+            "Only buying antivirus",
+            "Only physical protection of laptops",
+            "Removing SDLC planning"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines Software Assurance as integrating security into the development life cycle.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which design principle is listed in Lecture 5?",
+          "choices": [
+            "Keep design simple and small",
+            "Give all users all privileges",
+            "Skip authority checks",
+            "Depend only on hidden source code"
+          ],
+          "answer": [0],
+          "explanation": "The lecture lists simple/small design and permission-based access decisions among software design principles.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are mobile and portable systems risky?",
+          "choices": [
+            "They often store sensitive data and can be lost or stolen",
+            "They cannot store data",
+            "They never connect to networks",
+            "They always use perfect authentication"
+          ],
+          "answer": [0],
+          "explanation": "Mobile devices may contain sensitive organizational data and expose it when lost or stolen.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is essential for securing telework data transmission?",
+          "choices": [
+            "VPNs",
+            "Leaving devices unlocked",
+            "Disabling passwords",
+            "Avoiding backups"
+          ],
+          "answer": [0],
+          "explanation": "The telework section says VPNs are essential to secure data transmission.",
           "points": 1
         }
       ]
     },
     {
-      "id": "lec-6-threats",
+      "id": "lec-6-malicious-software",
       "kind": "Closed Exam",
-      "title": "Lecture 6 - Threats",
+      "title": "Lecture 6 - Malicious Software",
       "description": "Manual questions from lec-6-threats.md.",
       "questions": [
         {
           "type": "Single Choice",
           "prompt": "What is an attack?",
           "choices": [
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "An action that exploits a weakness",
-            "A weakness in a system or control"
+            "An action that exploits a weakness to harm or steal information",
+            "A potential danger that never acts",
+            "A security control checklist",
+            "A normal backup process"
           ],
-          "answer": [
-            2
-          ],
-          "explanation": "The lecture defines attack as exploiting a weakness.",
+          "answer": [0],
+          "explanation": "Lecture 6 defines attack as exploiting a weakness to cause harm or theft.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "What is a vulnerability?",
           "choices": [
-            "Security Systems Development Life Cycle",
-            "A weakness in a system or control",
-            "An action that exploits a weakness",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
+            "A weakness in a system such as missing or weak controls",
+            "A verified user identity",
+            "A successful backup",
+            "A trusted encrypted channel"
           ],
-          "answer": [
-            1
+          "answer": [0],
+          "explanation": "The lecture defines vulnerability as a weakness in a system.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a zero-day attack?",
+          "choices": [
+            "An attack using malware or a weakness not yet known/handled",
+            "A physical badge attack",
+            "A completed maintenance phase",
+            "A firewall rule that blocks all traffic"
           ],
-          "explanation": "A vulnerability is a weakness that can be exploited.",
+          "answer": [0],
+          "explanation": "The malware section says an attack using not-yet-known malware is called zero-day.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does a virus differ from a worm?",
+          "choices": [
+            "A virus needs a host program, while a worm replicates without another host program",
+            "A worm always requires a word-processing macro",
+            "A virus never replicates",
+            "A worm only exists as hardware"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says viruses attach to host software, while worms self-replicate.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What do boot sector viruses target?",
+          "choices": [
+            "Key operating system files in the boot sector",
+            "Cloud databases only",
+            "Only email subject lines",
+            "Firewall logs"
+          ],
+          "answer": [0],
+          "explanation": "Boot sector viruses infect key OS files during startup.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a Trojan horse?",
+          "choices": [
+            "Software that hides its true nature and may release a payload such as a back door",
+            "A self-replicating program that needs no host",
+            "An access-control role",
+            "A cryptographic hash"
+          ],
+          "answer": [0],
+          "explanation": "The lecture describes Trojans as disguised helpful software that reveals malicious behavior when activated.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the difference between DoS and DDoS?",
+          "choices": [
+            "DDoS launches coordinated requests from many locations, often using bots or zombies",
+            "DDoS uses only one computer",
+            "DoS is never about service availability",
+            "DoS is a password-strength method"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines DDoS as coordinated attack traffic from many locations.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is phishing?",
+          "choices": [
+            "Trying to gain personal or financial information by posing as a legitimate entity",
+            "Redirecting DNS traffic only",
+            "Monitoring packet headers only",
+            "Installing a UPS"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines phishing as impersonation to obtain personal or financial information.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is pharming?",
+          "choices": [
+            "Redirecting legitimate web traffic to illegitimate sites to collect personal information",
+            "Sending spam email",
+            "Storing passwords with salt",
+            "Scanning files for signatures"
+          ],
+          "answer": [0],
+          "explanation": "Pharming redirects legitimate web traffic, often through DNS manipulation.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What can a man-in-the-middle attacker do?",
+          "choices": [
+            "Read, modify, or redirect data in intercepted communication",
+            "Only lock a computer room",
+            "Only show advertisements",
+            "Only create a policy document"
+          ],
+          "answer": [0],
+          "explanation": "The lecture states that MITM attackers can read, modify, and redirect data.",
           "points": 1
         }
       ]
     },
     {
-      "id": "lec-7-threats",
+      "id": "lec-7-hackers-passwords",
       "kind": "Closed Exam",
-      "title": "Lecture 7 - Password Vulnerabilities and Cracking",
+      "title": "Lecture 7 - Hackers and Password Vulnerabilities",
       "description": "Manual questions from lec-7-threats.md.",
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "Who is a hacker in the security context used by the lecture?",
+          "prompt": "What is espionage or trespass in Lecture 7?",
           "choices": [
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "A person who accesses systems or information without authorization",
-            "Weak passwords can allow unauthorized access"
+            "Activities that breach confidentiality of information",
+            "A backup strategy",
+            "A risk acceptance policy",
+            "A software update"
           ],
-          "answer": [
-            2
-          ],
-          "explanation": "The lecture describes unauthorized system or information access.",
+          "answer": [0],
+          "explanation": "The lecture defines espionage/trespass as electronic and human activities breaching confidentiality.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why are password vulnerabilities important?",
+          "prompt": "How does the lecture define a hacker?",
           "choices": [
-            "Security Systems Development Life Cycle",
-            "Weak passwords can allow unauthorized access",
-            "A person who accesses systems or information without authorization",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
+            "A person who accesses systems and information without authorization and illegally",
+            "Any authorized system administrator",
+            "Only a software vendor",
+            "Only a firewall appliance"
           ],
-          "answer": [
-            1
+          "answer": [0],
+          "explanation": "The lecture defines hackers as unauthorized illegal system/information accessors.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main goal of a white-hat hacker?",
+          "choices": [
+            "Protection, security, and fixing vulnerabilities with authorization",
+            "Personal malicious gain",
+            "Unauthorized curiosity only",
+            "Telephone fraud only"
           ],
-          "explanation": "Password weaknesses are a common path to breaching confidentiality.",
+          "answer": [0],
+          "explanation": "The table identifies white hats as legal/authorized testers focused on protection and fixes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a script kiddie?",
+          "choices": [
+            "An unskilled hacker using tools written by others without deep understanding",
+            "A developer of encryption standards",
+            "A security manager",
+            "A firewall vendor"
+          ],
+          "answer": [0],
+          "explanation": "The skill-level table describes novice hackers as using expert-written software without understanding systems fully.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is escalation of privileges?",
+          "choices": [
+            "Gaining administrator/root-level access beyond normal permissions",
+            "Backing up a laptop",
+            "Writing a strong password",
+            "Filtering packets by IP address"
+          ],
+          "answer": [0],
+          "explanation": "The lecture describes privilege escalation as gaining admin or root control.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a cracker in this lecture?",
+          "choices": [
+            "Someone who removes software protections or bypasses access controls with criminal intent",
+            "A network card",
+            "A risk assessment spreadsheet",
+            "A password salt"
+          ],
+          "answer": [0],
+          "explanation": "The hacker-variant section defines cracker as bypassing protections and access controls.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is password cracking?",
+          "choices": [
+            "Trying to guess or reverse-calculate a password to bypass access controls",
+            "Creating a firewall DMZ",
+            "Running antivirus updates",
+            "Disabling stolen laptops"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines password cracking as guessing or reverse-calculating passwords.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which attack tries every possible character combination?",
+          "choices": [
+            "Brute force attack",
+            "Dictionary attack",
+            "Rainbow table lookup",
+            "Shoulder surfing"
+          ],
+          "answer": [0],
+          "explanation": "Brute force tries every possible combination until the password is guessed.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why are rainbow tables fast against stolen hashes?",
+          "choices": [
+            "They use precomputed hashes and reverse lookup",
+            "They ask users politely for passwords",
+            "They block all login attempts",
+            "They only work on physical badges"
+          ],
+          "answer": [0],
+          "explanation": "Rainbow tables trade storage for speed by precomputing hashes.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does salting do?",
+          "choices": [
+            "Adds random data before hashing so identical passwords produce different hashes",
+            "Removes password complexity",
+            "Stores passwords in plaintext",
+            "Makes dictionary attacks unnecessary for attackers"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says salting makes rainbow tables ineffective by changing hash results for identical passwords.",
           "points": 1
         }
       ]
@@ -249,37 +849,137 @@
           "prompt": "What is antivirus software designed to do?",
           "choices": [
             "Detect, block, and remove malicious software",
-            "Identify suspicious activity and help stop attacks",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle"
+            "Replace user authentication",
+            "Perform risk acceptance",
+            "Build firewall walls"
           ],
-          "answer": [
-            0
-          ],
-          "explanation": "The lecture names viruses, worms, and trojans as examples of malware.",
+          "answer": [0],
+          "explanation": "The lecture defines antivirus as software for detecting, blocking, and removing malware.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "What is the purpose of intrusion detection and prevention?",
+          "prompt": "What does signature-based antivirus detection require?",
           "choices": [
-            "Detect, block, and remove malicious software",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Identify suspicious activity and help stop attacks"
+            "Frequent updates to compare files against known virus signatures",
+            "No database at all",
+            "Only user passwords",
+            "A DMZ architecture"
           ],
-          "answer": [
-            3
+          "answer": [0],
+          "explanation": "Signature-based detection compares against a virus database and requires updates.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which antivirus technique helps detect new or unknown threats?",
+          "choices": [
+            "Behavioral analysis",
+            "Only static signatures",
+            "Removing logs",
+            "Disabling scanning"
           ],
-          "explanation": "Security software helps detect and respond to malicious behavior.",
+          "answer": [0],
+          "explanation": "Behavioral analysis monitors suspicious activities and can catch unknown threats.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is an intrusion?",
+          "choices": [
+            "An attempt to gain entry into or disrupt normal operations of an information system",
+            "A successful backup",
+            "A planned password change",
+            "A public website visit"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines intrusion as attempted entry or disruption.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does IDPS mean?",
+          "choices": [
+            "A system providing both intrusion detection and prevention capabilities",
+            "A password database only",
+            "A cryptographic key pair",
+            "A physical lock category"
+          ],
+          "answer": [0],
+          "explanation": "IDPS combines detection and prevention capabilities.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Where does a network-based IDPS operate?",
+          "choices": [
+            "On a network segment, monitoring traffic on that segment",
+            "Only inside one application file",
+            "Only on paper procedures",
+            "Only in a user's password manager"
+          ],
+          "answer": [0],
+          "explanation": "NIDPS monitors traffic on a specific network segment.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a host-based IDPS monitor?",
+          "choices": [
+            "Activity and key file changes on a particular computer or server",
+            "All traffic on every network in the world",
+            "Only cloud signatures",
+            "Only physical gates"
+          ],
+          "answer": [0],
+          "explanation": "HIDPS resides on a host and monitors activity and important file status.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does signature-based IDPS search for?",
+          "choices": [
+            "Patterns matching known attack signatures",
+            "Only user job roles",
+            "Only random salts",
+            "Only water leaks"
+          ],
+          "answer": [0],
+          "explanation": "Signature-based IDPS examines traffic for known attack patterns.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a weakness of anomaly-based IDPS?",
+          "choices": [
+            "It may need more processing and produce many false positives",
+            "It cannot detect changes from a baseline",
+            "It never alerts administrators",
+            "It requires no tuning"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says anomaly detection can detect new attacks but has overhead and false positives.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which response is active rather than passive?",
+          "choices": [
+            "Reconfiguring a firewall or terminating a session",
+            "Only reporting and waiting for an administrator",
+            "Only recording logs for later",
+            "Only displaying a dashboard"
+          ],
+          "answer": [0],
+          "explanation": "Active responses change the environment or stop activity; passive responses report and wait.",
           "points": 1
         }
       ]
     },
     {
-      "id": "lec-9-protection-techniques",
+      "id": "lec-9-cryptography-steganography",
       "kind": "Closed Exam",
-      "title": "Lecture 9 - Cryptography",
+      "title": "Lecture 9 - Cryptography and Steganography",
       "description": "Manual questions from lec-9-protection-techniques.md.",
       "questions": [
         {
@@ -287,67 +987,267 @@
           "prompt": "What is cryptography?",
           "choices": [
             "Making and using codes to secure transmission of information",
-            "Trying to obtain the original message from encrypted data without authorized access",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle"
+            "Hiding a laptop in a bag",
+            "Checking role assignments",
+            "Monitoring HVAC systems"
           ],
-          "answer": [
-            0
-          ],
-          "explanation": "Cryptography protects information by transforming it using codes or keys.",
+          "answer": [0],
+          "explanation": "The lecture defines cryptography as making and using codes for secure transmission.",
           "points": 1
         },
         {
           "type": "Single Choice",
           "prompt": "What is cryptanalysis?",
           "choices": [
-            "Making and using codes to secure transmission of information",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Trying to obtain the original message from encrypted data without authorized access"
+            "Obtaining the original message from encrypted text without knowing the keys",
+            "Converting plaintext to ciphertext with a known key",
+            "Hiding data in an image",
+            "Assigning user roles"
           ],
-          "answer": [
-            3
+          "answer": [0],
+          "explanation": "Cryptanalysis attempts to recover the original message without the key.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the difference between a stream cipher and a block cipher?",
+          "choices": [
+            "A stream cipher transforms one bit at a time; a block cipher transforms blocks",
+            "A stream cipher uses no algorithm",
+            "A block cipher can only hide images",
+            "They are both physical access controls"
           ],
-          "explanation": "Cryptanalysis studies breaking or analyzing encrypted messages.",
+          "answer": [0],
+          "explanation": "The lecture contrasts bit-by-bit stream ciphers with block-based encryption.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a substitution cipher?",
+          "choices": [
+            "A cipher that substitutes one value for another",
+            "A cipher that only rearranges values",
+            "A two-factor login method",
+            "A firewall architecture"
+          ],
+          "answer": [0],
+          "explanation": "The lecture says substitution replaces values in ciphertext; examples include Caesar and Vigenere.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a transposition cipher?",
+          "choices": [
+            "A cipher that rearranges values within a block",
+            "A cipher that uses public and private keys",
+            "A password salt",
+            "A network sniffer"
+          ],
+          "answer": [0],
+          "explanation": "Transposition rearranges bits or characters to create ciphertext.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What key relationship does symmetric encryption use?",
+          "choices": [
+            "The same secret key for encryption and decryption",
+            "Two unrelated public keys only",
+            "No keys at all",
+            "Only a password hash"
+          ],
+          "answer": [0],
+          "explanation": "Symmetric encryption uses the same secret key to encipher and decipher messages.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What key relationship does asymmetric encryption use?",
+          "choices": [
+            "Two different but related keys, public and private",
+            "One shared secret key only",
+            "No keys",
+            "Only a firewall rule"
+          ],
+          "answer": [0],
+          "explanation": "Asymmetric/public-key encryption uses a related key pair.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What do hash functions produce?",
+          "choices": [
+            "A fixed-length message digest from variable-length input",
+            "A hidden image file",
+            "A public/private key pair",
+            "A firewall packet rule"
+          ],
+          "answer": [0],
+          "explanation": "Hash functions produce message summaries or digests and do not require keys.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What can prevent a public-key man-in-the-middle attack according to the lecture?",
+          "choices": [
+            "Establishing public keys with digital signatures",
+            "Using shorter keys",
+            "Avoiding all encryption",
+            "Publishing private keys"
+          ],
+          "answer": [0],
+          "explanation": "The lecture notes that digital signatures can prevent interception/substitution of public keys.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "How does steganography differ from cryptography?",
+          "choices": [
+            "Steganography hides the existence of the message; cryptography makes the message unreadable",
+            "Steganography always uses public keys",
+            "Cryptography hides messages only inside images",
+            "They are identical techniques"
+          ],
+          "answer": [0],
+          "explanation": "The comparison table says cryptography makes content unreadable while steganography makes the message invisible.",
           "points": 1
         }
       ]
     },
     {
-      "id": "lec-10-protection-techniques",
+      "id": "lec-10-access-control-2fa",
       "kind": "Closed Exam",
-      "title": "Lecture 10 - Access Control",
+      "title": "Lecture 10 - Access Control and 2FA",
       "description": "Manual questions from lec-10-protection-techniques.md.",
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is access control concerned with?",
+          "prompt": "What is access control?",
           "choices": [
-            "Restricted computer room",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Determining whether and how to admit a user into a trusted area or system"
+            "The method systems use to determine whether and how to admit a user into a trusted area",
+            "A malware-detection signature",
+            "A backup rotation schedule",
+            "A cryptographic hash"
           ],
-          "answer": [
-            3
-          ],
-          "explanation": "Access control manages admission and permissions.",
+          "answer": [0],
+          "explanation": "Lecture 10 defines access control as admitting or denying users to trusted areas.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Which is an example of a trusted area?",
+          "prompt": "In access control, what is a subject?",
           "choices": [
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Restricted computer room",
-            "Determining whether and how to admit a user into a trusted area or system"
+            "A user or system seeking access",
+            "The resource being accessed",
+            "A firewall rule",
+            "A key size"
           ],
-          "answer": [
-            2
+          "answer": [0],
+          "explanation": "The lecture labels the active requester as the subject.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is DAC?",
+          "choices": [
+            "Access controlled at the judgment or option of the data owner/user",
+            "Access controlled only by a lattice",
+            "Access controlled only by two firewalls",
+            "Access controlled by anomaly detection"
           ],
-          "explanation": "The lecture lists information systems and restricted computer rooms as trusted areas.",
+          "answer": [0],
+          "explanation": "Discretionary Access Control lets owners/users decide sharing and restrictions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What distinguishes nondiscretionary access control?",
+          "choices": [
+            "It is managed by a central authority and users cannot override it",
+            "It lets every owner share anything",
+            "It has no policies",
+            "It only applies to antivirus"
+          ],
+          "answer": [0],
+          "explanation": "NDAC centralizes authority and removes user discretion.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is RBAC based on?",
+          "choices": [
+            "Privileges tied to a user's role or job",
+            "Privileges tied only to a temporary chore",
+            "Privileges tied only to key size",
+            "Privileges tied only to packet headers"
+          ],
+          "answer": [0],
+          "explanation": "Role-Based Access Control assigns privileges based on organizational roles.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which function answers 'I can prove I'm a user'?",
+          "choices": [
+            "Authentication",
+            "Identification",
+            "Authorization",
+            "Accountability"
+          ],
+          "answer": [0],
+          "explanation": "The lecture maps authentication to proving identity.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which function answers 'Here is what I am allowed to do'?",
+          "choices": [
+            "Authorization",
+            "Identification",
+            "Authentication",
+            "Availability"
+          ],
+          "answer": [0],
+          "explanation": "Authorization maps authenticated identity to assets and access levels.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which authentication factor is 'something you are'?",
+          "choices": [
+            "Biometrics",
+            "Password",
+            "Card",
+            "Log file"
+          ],
+          "answer": [0],
+          "explanation": "The lecture lists something you know, have, and are; biometrics are something you are.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does standard 2FA usually combine?",
+          "choices": [
+            "Something you know with something you have",
+            "Two passwords only",
+            "Two usernames only",
+            "Two firewall policies only"
+          ],
+          "answer": [0],
+          "explanation": "The lecture gives PIN/password plus card/device as a standard combination.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the core idea of Zero Trust Architecture?",
+          "choices": [
+            "No implicit trust; authentication and authorization are repeated before each access request",
+            "Trust every internal network automatically",
+            "Use only one password forever",
+            "Disable access control logs"
+          ],
+          "answer": [0],
+          "explanation": "ZTA assumes no trust based on location or connectivity and verifies each access.",
           "points": 1
         }
       ]
@@ -360,32 +1260,132 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "Why are firewalls used?",
+          "prompt": "What can a firewall be?",
           "choices": [
-            "Rapid growth in digital communication and network threats",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "To protect networks and sensitive information by controlling traffic"
+            "Hardware, software, or both that monitor traffic and enforce security policies",
+            "Only a password salt",
+            "Only a risk spreadsheet",
+            "Only an antivirus signature"
           ],
-          "answer": [
-            3
-          ],
-          "explanation": "Firewalls are network protection components.",
+          "answer": [0],
+          "explanation": "The lecture defines firewalls as hardware/software combinations protecting networks and enforcing policy.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "What increased the need for network protection?",
+          "prompt": "Which objective is listed for firewalls?",
           "choices": [
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Rapid growth in digital communication and network threats",
-            "To protect networks and sensitive information by controlling traffic"
+            "Blocking cyberattacks before they reach internal systems",
+            "Making all internal systems public",
+            "Replacing all backups",
+            "Removing access control"
           ],
-          "answer": [
-            2
+          "answer": [0],
+          "explanation": "Firewall objectives include network protection, prevention, enforcement, and data security.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which disadvantage is associated with firewalls?",
+          "choices": [
+            "Management overhead and ongoing maintenance",
+            "They remove all cost",
+            "They solve every security problem",
+            "They replace all policies"
           ],
-          "explanation": "More digital communication increases exposure to attacks.",
+          "answer": [0],
+          "explanation": "The lecture lists performance impact, limited scope, overhead, maintenance, and cost as disadvantages.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a packet filtering firewall examine?",
+          "choices": [
+            "Packet header information such as IP addresses, port numbers, and protocols",
+            "Only application source code",
+            "Only user job roles",
+            "Only biometric data"
+          ],
+          "answer": [0],
+          "explanation": "Packet filtering operates at the network layer and examines headers.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is another name for an application layer gateway?",
+          "choices": [
+            "Proxy server",
+            "Rainbow table",
+            "UPS",
+            "Mantrap"
+          ],
+          "answer": [0],
+          "explanation": "The lecture states application layer gateways are also known as proxy servers.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What does a circuit gateway verify?",
+          "choices": [
+            "The legitimacy of the handshake/session",
+            "The content of every file",
+            "The user's password complexity",
+            "The encryption key size only"
+          ],
+          "answer": [0],
+          "explanation": "Circuit gateways operate at the transport level and verify the session handshake rather than packet content.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What layer does a MAC layer firewall operate at?",
+          "choices": [
+            "Data link layer",
+            "Application layer only",
+            "Physical security layer",
+            "Risk management layer"
+          ],
+          "answer": [0],
+          "explanation": "MAC layer firewalls inspect physical network interface addresses at the data link layer.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a hybrid firewall?",
+          "choices": [
+            "A firewall combining two or more processing methods",
+            "A firewall with no rules",
+            "A password-cracking method",
+            "A type of phishing"
+          ],
+          "answer": [0],
+          "explanation": "Hybrid firewalls combine methods, such as verifying session identity then examining content.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Why is a single bastion host described as lacking defense in depth?",
+          "choices": [
+            "All traffic depends on one device between internal and external networks",
+            "It uses two separate firewalls",
+            "It isolates public servers in a DMZ",
+            "It never receives external requests"
+          ],
+          "answer": [0],
+          "explanation": "A single bastion is one public gateway, so it lacks layered protection.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the screened subnet architecture with DMZ?",
+          "choices": [
+            "A safer architecture using an isolated DMZ and outer/internal firewalls",
+            "A single host with no isolation",
+            "Only a host-based antivirus",
+            "Only a password policy"
+          ],
+          "answer": [0],
+          "explanation": "The lecture describes screened subnet with DMZ as dominant and safest, using two firewalls and an isolated zone.",
           "points": 1
         }
       ]
@@ -398,146 +1398,145 @@
       "questions": [
         {
           "type": "Single Choice",
-          "prompt": "What is risk management in information security?",
+          "prompt": "Who is responsible for creating and supporting an effective risk management program?",
           "choices": [
-            "Security Systems Development Life Cycle",
-            "Identifying, assessing, and treating risks to information assets",
-            "It helps prioritize controls according to likelihood and impact",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
+            "Senior management",
+            "Only outside attackers",
+            "Only end users",
+            "Only antivirus vendors"
           ],
-          "answer": [
-            1
-          ],
-          "explanation": "Risk management connects threats, vulnerabilities, likelihood, impact, and controls.",
+          "answer": [0],
+          "explanation": "The overview says senior management must create and support effective risk management.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why is risk assessment important?",
+          "prompt": "What is risk management?",
           "choices": [
-            "It helps prioritize controls according to likelihood and impact",
-            "Identifying, assessing, and treating risks to information assets",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle"
+            "Identifying and assessing threats to assets and taking steps to reduce risk",
+            "Ignoring all vulnerabilities",
+            "Removing all business processes",
+            "Only installing a firewall"
           ],
-          "answer": [
-            0
-          ],
-          "explanation": "Controls should be chosen based on the importance and level of risk.",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": "reference-principles-4th",
-      "kind": "Closed Exam",
-      "title": "Reference - Principles of Information Security 4th",
-      "description": "Manual questions from the 4th edition reference Markdown file.",
-      "questions": [
-        {
-          "type": "Single Choice",
-          "prompt": "Which idea is central in information security references?",
-          "choices": [
-            "Policies define expectations and controls help enforce them",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Protecting confidentiality, integrity, and availability"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "The CIA triad is a core framework in information security.",
+          "answer": [0],
+          "explanation": "The lecture defines risk management as identifying, assessing, and reducing threats to assets.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why do references discuss policies and controls together?",
+          "prompt": "Which set belongs to the risk management process?",
           "choices": [
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Policies define expectations and controls help enforce them",
-            "Protecting confidentiality, integrity, and availability"
+            "Process preparation, risk assessment, and risk treatment",
+            "Only encryption and steganography",
+            "Only antivirus and firewalls",
+            "Only identification and authentication"
           ],
-          "answer": [
-            2
-          ],
-          "explanation": "Security needs both direction and implementation.",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": "reference-principles-7th",
-      "kind": "Closed Exam",
-      "title": "Reference - Principles of Information Security 7th",
-      "description": "Manual questions from the 7th edition reference Markdown file.",
-      "questions": [
-        {
-          "type": "Single Choice",
-          "prompt": "What should an organization protect as information assets?",
-          "choices": [
-            "Threats, vulnerabilities, and business needs change over time",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Data, systems, people, processes, and supporting technology"
-          ],
-          "answer": [
-            3
-          ],
-          "explanation": "Modern security treats information assets broadly, not as software alone.",
+          "answer": [0],
+          "explanation": "The process includes preparation, assessment, and treatment.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "Why do security controls need continuous review?",
+          "prompt": "What is meant by establishing the context?",
           "choices": [
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle",
-            "Threats, vulnerabilities, and business needs change over time",
-            "Data, systems, people, processes, and supporting technology"
+            "Understanding internal and external environments that affect the risk management process",
+            "Starting a DoS attack",
+            "Building a DMZ",
+            "Creating a password hash"
           ],
-          "answer": [
-            2
-          ],
-          "explanation": "Security is an ongoing management process.",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "id": "reference-arabic-easy-information-security",
-      "kind": "Closed Exam",
-      "title": "Reference - أمن المعلومات بلغة ميسرة",
-      "description": "Manual questions from the Arabic reference Markdown file.",
-      "questions": [
-        {
-          "type": "Single Choice",
-          "prompt": "ما الفكرة العامة لأمن المعلومات؟",
-          "choices": [
-            "Security Systems Development Life Cycle",
-            "حماية المعلومات من الوصول أو التعديل أو الإتلاف غير المصرح به",
-            "لأن سلوك المستخدم جزء مهم من الحماية",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction"
-          ],
-          "answer": [
-            1
-          ],
-          "explanation": "أمن المعلومات يركز على حماية السرية والسلامة والتوافر.",
+          "answer": [0],
+          "explanation": "Process preparation requires understanding internal and external context.",
           "points": 1
         },
         {
           "type": "Single Choice",
-          "prompt": "لماذا يجب تبسيط مفاهيم أمن المعلومات للمستخدمين؟",
+          "prompt": "What begins risk identification?",
           "choices": [
-            "لأن سلوك المستخدم جزء مهم من الحماية",
-            "حماية المعلومات من الوصول أو التعديل أو الإتلاف غير المصرح به",
-            "Protect information and systems from unauthorized access, use, disclosure, disruption, modification, or destruction",
-            "Security Systems Development Life Cycle"
+            "Self-examination of information assets",
+            "Deleting all logs",
+            "Publishing all passwords",
+            "Skipping threat assessment"
           ],
-          "answer": [
-            0
+          "answer": [0],
+          "explanation": "Risk identification begins with self-examination and asset identification.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is a TVA worksheet/spreadsheet used for?",
+          "choices": [
+            "Combining vulnerabilities, assets, and threats for assessment",
+            "Encrypting messages",
+            "Displaying antivirus ads",
+            "Creating two-factor login codes"
           ],
-          "explanation": "الفهم الجيد يساعد المستخدم على تجنب الأخطاء والهجمات الاجتماعية.",
+          "answer": [0],
+          "explanation": "The lecture says vulnerability lists can combine with threat lists into a TVA spreadsheet.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the goal of risk analysis?",
+          "choices": [
+            "Balance the cost of controls with the expected benefits of protecting assets",
+            "Always spend unlimited money",
+            "Avoid examining threats",
+            "Skip risk evaluation"
+          ],
+          "answer": [0],
+          "explanation": "Risk analysis examines threats, weaknesses, and gaps while balancing cost and benefit.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What happens if a risk is higher than the tolerance level?",
+          "choices": [
+            "Mitigation strategies should be sought",
+            "The organization ignores it",
+            "The asset must become public",
+            "The risk is automatically accepted"
+          ],
+          "answer": [0],
+          "explanation": "Risk evaluation compares risks with tolerance and seeks mitigation for excessive risk.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which strategy attempts to prevent exploitation of vulnerabilities?",
+          "choices": [
+            "Risk mitigation",
+            "Risk acceptance",
+            "Risk termination",
+            "Risk transfer"
+          ],
+          "answer": [0],
+          "explanation": "Risk mitigation, or defense, tries to prevent exploitation and reduce attack likelihood.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is risk transference?",
+          "choices": [
+            "Passing risk to another party with experience and expertise through agreements such as SLAs",
+            "Doing nothing beyond current protection",
+            "Turning off an asset",
+            "Deploying only internal policies"
+          ],
+          "answer": [0],
+          "explanation": "The lecture defines transfer as moving risk to another party, with effective service-level agreements as key.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "When might risk termination be chosen?",
+          "choices": [
+            "When the cost of protection exceeds the value of the asset",
+            "Whenever a password is strong",
+            "Whenever a firewall exists",
+            "Only when risk is already zero"
+          ],
+          "answer": [0],
+          "explanation": "Termination/avoidance removes the asset from operation and may be used when protection costs more than the asset value.",
           "points": 1
         }
       ]
