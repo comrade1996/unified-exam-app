@@ -81,6 +81,10 @@ function currentExam() {
   return currentSubject()?.exams.find(exam => exam.id === state.examId) || null;
 }
 
+function isOpenQuestion(question) {
+  return question.type === "Open Answer" || !question.choices?.length;
+}
+
 function filteredExams() {
   const subject = currentSubject();
   const search = state.search.trim().toLowerCase();
@@ -152,6 +156,19 @@ function renderExam() {
 
   const savedAnswers = state.progress[exam.id]?.answers || {};
   els.questions.innerHTML = exam.questions.map((question, index) => {
+    if (isOpenQuestion(question)) {
+      const answerText = question.modelAnswer || question.fullExplanation || question.explanation || "No model answer provided.";
+      return `
+      <section class="question-card open-question" data-question-index="${index}">
+        <p class="eyebrow">${escapeHtml(question.type)}</p>
+        <h3 dir="auto">${index + 1}. ${escapeHtml(question.prompt)}</h3>
+        <textarea class="open-answer-input" name="q-${index}" rows="4" dir="auto" placeholder="اكتب إجابتك هنا قبل عرض الإجابة"></textarea>
+        <button class="show-answer-btn ghost" type="button" data-show-answer="${index}">Show answer</button>
+        <div class="feedback model-answer" dir="auto">${escapeHtml(answerText)}</div>
+      </section>
+    `;
+    }
+
     const inputType = question.type === "Multiple Select" ? "checkbox" : "radio";
     const saved = savedAnswers[index] || [];
     const correct = new Set(question.answer);
@@ -191,18 +208,19 @@ function renderResults() {
     els.results.innerHTML = "";
     return;
   }
-  const percent = Math.round((progress.score / progress.total) * 100);
+  const percent = progress.total > 0 ? Math.round((progress.score / progress.total) * 100) : 0;
   const cls = percent >= 70 ? "result-good" : "result-bad";
   els.results.classList.remove("hidden");
   els.results.innerHTML = `
-    <h2 class="${cls}">${progress.score}/${progress.total} · ${percent}%</h2>
+    <h2 class="${cls}">${progress.total > 0 ? `${progress.score}/${progress.total} · ${percent}%` : "Open-answer practice"}</h2>
     <p>Saved locally in this browser on ${new Date(progress.completedAt).toLocaleString()}.</p>
   `;
 }
 
 function getAnswersFromForm(exam) {
   const answers = {};
-  exam.questions.forEach((_, index) => {
+  exam.questions.forEach((question, index) => {
+    if (isOpenQuestion(question)) return;
     const selected = [...els.examForm.querySelectorAll(`[name="q-${index}"]:checked`)].map(input => Number(input.value));
     answers[index] = selected;
   });
@@ -211,10 +229,15 @@ function getAnswersFromForm(exam) {
 
 function scoreExam(exam, answers) {
   return exam.questions.reduce((score, question, index) => {
+    if (isOpenQuestion(question)) return score;
     const selected = [...(answers[index] || [])].sort((a, b) => a - b);
     const correct = [...question.answer].sort((a, b) => a - b);
     return score + (arraysEqual(selected, correct) ? 1 : 0);
   }, 0);
+}
+
+function gradableQuestionCount(exam) {
+  return exam.questions.filter(question => !isOpenQuestion(question)).length;
 }
 
 function arraysEqual(left, right) {
@@ -267,10 +290,11 @@ els.examForm.addEventListener("submit", event => {
   if (!exam) return;
   const answers = getAnswersFromForm(exam);
   const score = scoreExam(exam, answers);
+  const total = gradableQuestionCount(exam);
   state.progress[exam.id] = {
     submitted: true,
     score,
-    total: exam.questions.length,
+    total,
     answers,
     completedAt: new Date().toISOString()
   };
@@ -278,6 +302,14 @@ els.examForm.addEventListener("submit", event => {
   renderExamList();
   renderExam();
   window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+els.questions.addEventListener("click", event => {
+  const button = event.target.closest("[data-show-answer]");
+  if (!button) return;
+  const card = button.closest(".question-card");
+  card?.classList.toggle("answer-visible");
+  button.textContent = card?.classList.contains("answer-visible") ? "Hide answer" : "Show answer";
 });
 
 els.retryBtn.addEventListener("click", () => {

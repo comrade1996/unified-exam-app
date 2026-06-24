@@ -334,6 +334,22 @@ button.ghost:hover {
   background: #fff1f1;
 }
 
+.open-answer-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--text);
+  font: inherit;
+  line-height: 1.5;
+  margin: 4px 0 10px;
+  padding: 10px;
+  resize: vertical;
+}
+
+.show-answer-btn {
+  margin-top: 2px;
+}
+
 .feedback {
   display: none;
   color: var(--muted);
@@ -345,6 +361,10 @@ button.ghost:hover {
 }
 
 .submitted .feedback {
+  display: block;
+}
+
+.answer-visible .model-answer {
   display: block;
 }
 

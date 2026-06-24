@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-23T18:33:20.059Z",
+  "generatedAt": "2026-06-24T19:25:51.210Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -38,6 +38,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Solutions are useful after attempting the work because they show the correct reasoning path.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -66,6 +67,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Active attempt makes the solution more meaningful.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -94,6 +96,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The workbook supports guided practice and feedback.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -122,6 +125,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The workbook is designed around active-learning attempts before hints or answers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -150,6 +154,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Systems of linear equations are a central topic in linear algebra.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -178,6 +183,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A vector stores several components in an ordered form.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -194,6 +200,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A matrix is a rectangular array of values.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -222,6 +229,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The inner dimensions must match for matrix multiplication.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -250,6 +258,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Elimination transforms equations to a simpler form for solving.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -278,6 +287,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Closure under addition and scalar multiplication is essential for subspaces.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -306,6 +316,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Markdown notes connect zero determinant with dimension collapse.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -322,6 +333,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "For a square matrix, full rank means the columns are independent and the matrix is invertible.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -350,6 +362,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes list zero rows below nonzero rows as a REF condition.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -366,6 +379,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The pivots move right as you go down the rows.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -394,6 +408,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Norms quantify vector size.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -422,6 +437,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Orthogonality is expressed by a zero inner product.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -450,6 +466,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Gram-Schmidt turns independent vectors into an orthogonal basis.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -478,6 +495,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Determinants measure scaling and reveal singularity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -506,6 +524,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A diagonal form is easier to work with for powers and transformations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -534,6 +553,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes use study hours and exam scores to show joint variation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -562,6 +582,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Decompositions expose structure and simplify computations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -590,6 +611,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SVD represents a matrix through directions and scaling strengths.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -618,6 +640,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Gradients guide optimization algorithms in AI.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -646,6 +669,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The chain rule is essential for gradients through layered models.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -674,6 +698,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hypothesis testing supports statistical decisions from samples.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -702,6 +727,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Z statistic compares the sample mean to a hypothesized mean using standard error.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -730,6 +756,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Learning usually means optimizing an objective such as loss.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -758,6 +785,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A learning rate that is too large or too small can hurt convergence.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -786,6 +814,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes explain that many AI problems involve discrete structures.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -814,6 +843,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A graph represents objects as vertices and relationships as edges.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -842,6 +872,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Finite precision means real values are approximated.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -870,6 +901,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Overflow happens when a value exceeds the representable range.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -886,6 +918,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Very tiny values may be rounded to zero.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -930,6 +963,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines information security as protecting information plus critical elements such as systems and hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -946,6 +980,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture identifies C.I.A. as confidentiality, integrity, and availability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -962,6 +997,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says the NSTISSC/CNSS model is also known as the McCumber Cube.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -978,6 +1014,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists timing, availability, accuracy, authenticity, confidentiality, integrity, utility, and possession.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -994,6 +1031,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says an IS is much more than hardware: it includes software, hardware, data, people, and procedures.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1010,6 +1048,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Perfect security is impossible, so security must balance protection with reasonable access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1026,6 +1065,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture contrasts bottom-up technical administration with top-down management initiation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1042,6 +1082,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture states that a methodology ensures rigor and avoids missing important steps.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1058,6 +1099,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines SecSDLC as the traditional SDLC adapted to security-project implementation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1074,6 +1116,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The maintenance/change phase adapts the information security profile as threats emerge and old threats evolve.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1090,6 +1133,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The NSTISSC/CNSS model organizes security by information states, goals, and safeguards.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1106,6 +1150,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture connects information security work to coordinated communities such as management, IT, and information security.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1122,6 +1167,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The investigation phase frames the project before detailed analysis, design, and implementation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -1150,6 +1196,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The introduction says the primary mission is ensuring systems and contents stay the same.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1166,6 +1213,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists protecting the ability to function as one of four important functions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1182,6 +1230,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture emphasizes protecting both data in motion and data at rest.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1198,6 +1247,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines threat as an entity representing constant danger to an asset.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1214,6 +1264,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The intellectual-property threat section says common breaches involve software piracy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1230,6 +1281,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The deliberate software attack section lists malware types and related threats.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1246,6 +1298,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines this threat as unauthorized access to protected information.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1262,6 +1315,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The theft section says electronic theft is more complex because evidence may not be obvious.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1278,6 +1332,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture warns that antiquated infrastructure can cause unreliable systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1294,6 +1349,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture describes human error/failure as acts performed without malicious intent.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1310,6 +1366,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Information extortion is a deliberate threat where attackers demand value in exchange for information or access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1326,6 +1383,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists deviations in service quality from providers and utilities as threats.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1342,6 +1400,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 3 identifies bad policy or planning as a source of vulnerabilities and later attacks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -1370,6 +1429,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 4 lists the six major components of an information system.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1386,6 +1446,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hardware is the physical technology that houses software, stores/transports data, and supports information entry/removal.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1402,6 +1463,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture states unrestricted physical access prevents a system from guaranteeing information security.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1418,6 +1480,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Physical loss sources include extreme temperature, gases, liquids, organisms, projectiles, movement, and energy anomalies.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1434,6 +1497,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists walls, fencing, and gates as a layer of physical defense.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1450,6 +1514,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The ID card section explains tailgating as following an authorized user through access control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1466,6 +1531,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A mantrap verifies individuals inside a small enclosure before allowing exit into the facility.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1482,6 +1548,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture notes that electronic monitoring records events but may not prevent activity or be watched live.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1498,6 +1565,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The water-problems section highlights flooding and leaks as serious threats.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1514,6 +1582,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "UPS power supplies help systems remain online long enough to shut down safely.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1530,6 +1599,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The physical-security section separates traditional mechanical locks from electromechanical options.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1546,6 +1616,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture treats fire detection and suppression as a special physical-security concern for equipment areas.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1562,6 +1633,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hardware security includes maintaining equipment and stable environmental conditions such as power and cooling.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -1590,6 +1662,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines software broadly as applications, operating systems, and utilities.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1606,6 +1679,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The challenge section says software is perhaps the hardest IS component to secure because of programming errors.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1622,6 +1696,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture divides software threats into attacks and technical failures.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1638,6 +1713,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Malware is described as programming code intended to damage, destroy, or deny service.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1654,6 +1730,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Trap doors are shortcuts left by programmers that may bypass security controls.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1670,6 +1747,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The OWASP list includes injection, broken authentication, sensitive data exposure, XSS, and more.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1686,6 +1764,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines Software Assurance as integrating security into the development life cycle.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1702,6 +1781,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists simple/small design and permission-based access decisions among software design principles.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1718,6 +1798,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mobile devices may contain sensitive organizational data and expose it when lost or stolen.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1734,6 +1815,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The telework section says VPNs are essential to secure data transmission.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1750,6 +1832,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 5 names OWASP Top 10 as a list of major web application security risks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1766,6 +1849,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The NIST SDLC approach emphasizes building security into development, not adding it only at the end.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1782,6 +1866,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 5 includes these as software flaws or malicious mechanisms that can undermine normal protection.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -1810,6 +1895,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 6 defines attack as exploiting a weakness to cause harm or theft.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1826,6 +1912,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines vulnerability as a weakness in a system.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1842,6 +1929,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The malware section says an attack using not-yet-known malware is called zero-day.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1858,6 +1946,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says viruses attach to host software, while worms self-replicate.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1874,6 +1963,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Boot sector viruses infect key OS files during startup.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1890,6 +1980,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture describes Trojans as disguised helpful software that reveals malicious behavior when activated.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1906,6 +1997,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines DDoS as coordinated attack traffic from many locations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1922,6 +2014,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines phishing as impersonation to obtain personal or financial information.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1938,6 +2031,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pharming redirects legitimate web traffic, often through DNS manipulation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1954,6 +2048,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture states that MITM attackers can read, modify, and redirect data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1970,6 +2065,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Polymorphic threats change form to avoid simple signature matching.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -1986,6 +2082,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 6 notes that Trojan horses can release payloads such as back doors.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2002,6 +2099,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The spoofing section describes attackers obtaining or using trusted IP addresses.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2018,6 +2116,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TCP hijacking is presented as a man-in-the-middle variant against TCP/IP communications.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -2046,6 +2145,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines espionage/trespass as electronic and human activities breaching confidentiality.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2062,6 +2162,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines hackers as unauthorized illegal system/information accessors.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2078,6 +2179,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The table identifies white hats as legal/authorized testers focused on protection and fixes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2094,6 +2196,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The skill-level table describes novice hackers as using expert-written software without understanding systems fully.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2110,6 +2213,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture describes privilege escalation as gaining admin or root control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2126,6 +2230,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The hacker-variant section defines cracker as bypassing protections and access controls.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2142,6 +2247,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines password cracking as guessing or reverse-calculating passwords.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2158,6 +2264,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Brute force tries every possible combination until the password is guessed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2174,6 +2281,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Rainbow tables trade storage for speed by precomputing hashes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2190,6 +2298,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says salting makes rainbow tables ineffective by changing hash results for identical passwords.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2206,6 +2315,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture separates hacker categories by intent and authorization.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2222,6 +2332,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 7 lists phreakers as attackers focused on phone systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2238,6 +2349,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hacktivists use attack techniques for ideological, social, or political objectives.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2254,6 +2366,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shoulder surfing relies on observing people rather than computing password guesses.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2270,6 +2383,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture describes dictionary attacks as using lists of common passwords or likely words.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -2298,6 +2412,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines antivirus as software for detecting, blocking, and removing malware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2314,6 +2429,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Signature-based detection compares against a virus database and requires updates.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2330,6 +2446,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Behavioral analysis monitors suspicious activities and can catch unknown threats.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2346,6 +2463,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines intrusion as attempted entry or disruption.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2362,6 +2480,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IDPS combines detection and prevention capabilities.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2378,6 +2497,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NIDPS monitors traffic on a specific network segment.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2394,6 +2514,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "HIDPS resides on a host and monitors activity and important file status.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2410,6 +2531,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Signature-based IDPS examines traffic for known attack patterns.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2426,6 +2548,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says anomaly detection can detect new attacks but has overhead and false positives.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2442,6 +2565,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Active responses change the environment or stop activity; passive responses report and wait.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2458,6 +2582,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The antivirus section lists false positives among antivirus limitations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2474,6 +2599,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A network-based IDPS is placed on a network segment and monitors traffic on that segment.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2490,6 +2616,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture classifies passive response as reporting information and waiting for action.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -2518,6 +2645,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines cryptography as making and using codes for secure transmission.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2534,6 +2662,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Cryptanalysis attempts to recover the original message without the key.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2550,6 +2679,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture contrasts bit-by-bit stream ciphers with block-based encryption.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2566,6 +2696,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says substitution replaces values in ciphertext; examples include Caesar and Vigenere.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2582,6 +2713,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Transposition rearranges bits or characters to create ciphertext.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2598,6 +2730,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Symmetric encryption uses the same secret key to encipher and decipher messages.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2614,6 +2747,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Asymmetric/public-key encryption uses a related key pair.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2630,6 +2764,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hash functions produce message summaries or digests and do not require keys.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2646,6 +2781,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture notes that digital signatures can prevent interception/substitution of public keys.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2662,6 +2798,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The comparison table says cryptography makes content unreadable while steganography makes the message invisible.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2678,6 +2815,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says AES was developed to replace DES and 3DES.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2694,6 +2832,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The asymmetric encryption section identifies RSA as the first public-key encryption algorithm.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2710,6 +2849,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 9 describes hybrid systems such as Diffie-Hellman and PGP that combine asymmetric and symmetric strengths.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2726,6 +2866,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture emphasizes that cryptographic strength depends heavily on protecting the keys.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2742,6 +2883,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Steganography hides data in the bits of a normal-looking carrier file.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -2770,6 +2912,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 10 defines access control as admitting or denying users to trusted areas.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2786,6 +2929,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture labels the active requester as the subject.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2802,6 +2946,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Discretionary Access Control lets owners/users decide sharing and restrictions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2818,6 +2963,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NDAC centralizes authority and removes user discretion.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2834,6 +2980,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Role-Based Access Control assigns privileges based on organizational roles.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2850,6 +2997,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture maps authentication to proving identity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2866,6 +3014,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Authorization maps authenticated identity to assets and access levels.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2882,6 +3031,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists something you know, have, and are; biometrics are something you are.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2898,6 +3048,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture gives PIN/password plus card/device as a standard combination.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2914,6 +3065,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "ZTA assumes no trust based on location or connectivity and verifies each access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2930,6 +3082,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 10 lists LBAC as a label/security-level model within nondiscretionary access control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2946,6 +3099,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MAC is nondiscretionary: permissions are enforced centrally through classifications or labels.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2962,6 +3116,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TBAC grants permissions according to tasks or workflow needs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -2978,6 +3133,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture summarizes accountability as tracking use of systems and resources.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -3006,6 +3162,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines firewalls as hardware/software combinations protecting networks and enforcing policy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3022,6 +3179,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Firewall objectives include network protection, prevention, enforcement, and data security.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3038,6 +3196,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists performance impact, limited scope, overhead, maintenance, and cost as disadvantages.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3054,6 +3213,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Packet filtering operates at the network layer and examines headers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3070,6 +3230,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture states application layer gateways are also known as proxy servers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3086,6 +3247,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Circuit gateways operate at the transport level and verify the session handshake rather than packet content.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3102,6 +3264,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MAC layer firewalls inspect physical network interface addresses at the data link layer.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3118,6 +3281,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hybrid firewalls combine methods, such as verifying session identity then examining content.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3134,6 +3298,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A single bastion is one public gateway, so it lacks layered protection.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3150,6 +3315,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture describes screened subnet with DMZ as dominant and safest, using two firewalls and an isolated zone.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3166,6 +3332,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The firewall architecture section distinguishes dual-homed bastion hosts from single-interface designs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3182,6 +3349,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Firewall policies translate security requirements into allowed and denied traffic behavior.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3198,6 +3366,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lecture 11 says firewall selection should consider protection, cost, performance, adaptability, and organizational fit.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -3226,6 +3395,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The overview says senior management must create and support effective risk management.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3242,6 +3412,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines risk management as identifying, assessing, and reducing threats to assets.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3258,6 +3429,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The process includes preparation, assessment, and treatment.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3274,6 +3446,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Process preparation requires understanding internal and external context.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3290,6 +3463,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Risk identification begins with self-examination and asset identification.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3306,6 +3480,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says vulnerability lists can combine with threat lists into a TVA spreadsheet.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3322,6 +3497,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Risk analysis examines threats, weaknesses, and gaps while balancing cost and benefit.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3338,6 +3514,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Risk evaluation compares risks with tolerance and seeks mitigation for excessive risk.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3354,6 +3531,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Risk mitigation, or defense, tries to prevent exploitation and reduce attack likelihood.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3370,6 +3548,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines transfer as moving risk to another party, with effective service-level agreements as key.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3386,6 +3565,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Termination/avoidance removes the asset from operation and may be used when protection costs more than the asset value.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3402,6 +3582,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Sun Tzu section frames risk work as understanding both yourself and the threats you face.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3418,6 +3599,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Risk identification begins by identifying, classifying, and prioritizing information assets.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3434,6 +3616,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Risk acceptance means management knowingly accepts residual risk when it is within tolerance or other treatment is not chosen.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -3483,6 +3666,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The syllabus names the course Advanced Object Oriented Programming.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3499,6 +3683,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The syllabus lists Object-Oriented Programming in C++ by Robert Lafore as a textbook.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3515,6 +3700,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The first syllabus topic compares structural/procedural programming with OOP.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3531,6 +3717,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The syllabus writes encapsulation together with data hiding.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3547,6 +3734,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The syllabus lists the scope resolution operator after class/object/access-level topics.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3563,6 +3751,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The syllabus includes polymorphism through operator overloading, including unary and binary overloading.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3579,6 +3768,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The inheritance section lists terms, types, modes, single inheritance, and multiple inheritance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3595,6 +3785,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The syllabus lists Template and Standard Template Library after virtual base classes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -3623,6 +3814,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Assigning the array name to the pointer makes the pointer refer to the first element.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3639,6 +3831,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The hint uses `p++` before printing the second value.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3655,6 +3848,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture explicitly contrasts standard library functions with user-defined functions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3671,6 +3865,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The display function receives the number, name, and address then prints them.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3687,6 +3882,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes ask whether a function can call itself and name that a recursive function.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3703,6 +3899,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The array is passed as `po(a)`, where `a` decays to a pointer to the first element.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3719,6 +3916,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The example prints each pointed value and increments the pointer through the array.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3735,6 +3933,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The function writes new values through `s2[i]`, so the original array in `main` is changed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -3763,6 +3962,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines paradigms as styles or ways of organizing programs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3779,6 +3979,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes say paradigms are not languages or tools and cannot build anything alone.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3795,6 +3996,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture compares small apps with safety-critical systems to show different needs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3811,6 +4013,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Imperative code tells the computer exactly what to execute and in what order.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3827,6 +4030,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Procedural programming subdivides execution into functions, procedures, or subroutines.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3843,6 +4047,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says pure functions use only inputs and do not change outside state.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3859,6 +4064,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture uses filter/map/reduce-style examples to show saying what is wanted, not coding every step.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3875,6 +4081,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says object orientation separates concerns into entities coded as objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3891,6 +4098,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture states that objects created from a class are called instances.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3907,6 +4115,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture notes that an object or class encapsulates data and functionality.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -3935,6 +4144,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The general syntax lists private attributes and public member functions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3951,6 +4161,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says passing data to a member function first lets you filter it before use.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3967,6 +4178,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The constructor sets `flr = 0` so the elevator starts at floor zero.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3983,6 +4195,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "`::` defines the member function outside the class body.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -3999,6 +4212,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture shows both `elevator()` and `elevator(int fl)`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4015,6 +4229,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A tilde before the class name declares the destructor.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4031,6 +4246,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The elevator examples rely on the constructor running when `elevator elv` is created.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4047,6 +4263,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture asks what the default copy constructor is.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -4075,6 +4292,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The constructor initializer list sets the counter value to zero.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4091,6 +4309,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture corrects the first impression by saying member functions are shared by objects of a class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4107,6 +4326,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Static class member data is created once for the class and shared among its objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4123,6 +4343,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The class contains the declaration, while the outside line provides the definition.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4139,6 +4360,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The function takes Student objects as parameters and reads their marks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4155,6 +4377,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "When inches exceed 12, the example subtracts 12 inches and increments feet.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4171,6 +4394,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture moves from a void-style add function to assigning a returned Distance object.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4187,6 +4411,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes list type, number, and ordering as the differences.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4203,6 +4428,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The elevator class has `elevator()` and `elevator(int fl)`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4219,6 +4445,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The note says a no-argument default constructor is created when no constructor is defined.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -4247,6 +4474,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines operators as symbols used in arithmetic, logical, relational, and other operations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4263,6 +4491,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture explains that the compiler needs a special member function to understand operators on objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4279,6 +4508,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Unary operators act on one operand; the lecture uses increment and decrement as examples.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4295,6 +4525,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture shows `void operator ++ ()` as the member function called for `++c1`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4311,6 +4542,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "If the operand is an integer the built-in version is used; if it is a Counter object the overloaded operator is used.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4327,6 +4559,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The expression needs the result of `++c2` to be assigned to `c1`; `void` provides no value.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4343,6 +4576,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture's temporary-object method creates `Counter temp`, sets `temp.count`, and returns it.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4359,6 +4593,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The returned unnamed object is built with the current count, so a one-argument constructor is required.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4375,6 +4610,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture explicitly lists readability and extendibility as support from operator overloading.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -4403,6 +4639,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture describes a barcode-reader situation where selling one item increments its count.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4419,6 +4656,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The function increments `item_count`, stores it in a temporary Items object, and returns that object.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4435,6 +4673,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The unnamed return object is created with one argument, so the constructor must accept one argument.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4451,6 +4690,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines binary operators as operators acting on two operands, such as `+`, `-`, and `*`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4467,6 +4707,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "For a member operator, the object on the left side is the object whose member function is called.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4483,6 +4724,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture notes that the right-side object, Aspirin, is passed as the argument to the operator function.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4499,6 +4741,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The example adds the item counts and returns an Items object with the total.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4515,6 +4758,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A member operator is selected from the left operand; an integer does not have the Items `operator+` member.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -4543,6 +4787,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture reviews encapsulation as data hiding and packing data with functions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4559,6 +4804,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines inheritance as acquiring properties from parent class to subclass object.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4575,6 +4821,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says inheritance supports reusability instead of recreating the same classes repeatedly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4591,6 +4838,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists shared code, reducing complexity, flexibility, extendibility, and overriding.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4607,6 +4855,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes identify subclass and derived class as the inheriting class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4623,6 +4872,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The superclass is also called the base class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4639,6 +4889,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture explains multilevel inheritance with father and grandfather.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4655,6 +4906,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says hybrid inheritance combines two or more types and may be called multipath inheritance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -4683,6 +4935,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture shows `class derived_class_name : access_specifier base_class_name`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4699,6 +4952,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The public mode keeps public base members public in the derived class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4715,6 +4969,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says protected mode makes both public and protected base members protected in the derived class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4731,6 +4986,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The private mode makes inherited public and protected base members private in the derived class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4747,6 +5003,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture notes the Base class must be written before Derived.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4763,6 +5020,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The derived object calls `d.show(19)` even though the actual data member is private inside Base.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4779,6 +5037,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture shows multiple base classes separated by a comma.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4795,6 +5054,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The class `Bat` inherits from both `Mammal` and `Winged_Animal`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -4823,6 +5083,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture begins by defining polymorphism as many forms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4839,6 +5100,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says a virtual function is declared in a base class and redefined by a derived class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4855,6 +5117,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says virtual functions are mainly used to achieve runtime polymorphism.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4871,6 +5134,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The rules say virtual functions should be accessed using base-class pointers or references.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4887,6 +5151,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists that virtual functions cannot be static.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4903,6 +5168,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A ball pointer calls the ball draw function, while a triangle pointer calls the triangle draw function.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4919,6 +5185,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture shows the output is the Base class message when `print` is not virtual.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4935,6 +5202,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Virtual base classes prevent multiple instances of the same base from appearing through multiple inheritance paths.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4951,6 +5219,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Each intermediate child has its own Parent copy, so Grandchild has two possible `basedata` members.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -4967,6 +5236,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The `virtual` keyword makes the two paths share a single Parent copy, removing ambiguity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -4995,6 +5265,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says a friend function does not belong to the class but can access its data members.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5011,6 +5282,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says `friend` is placed in the declaration, not in the function definition.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5027,6 +5299,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture notes that friend functions are called without an object name or dot operator.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5043,6 +5316,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes say a friend function can be declared in any section of the class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5059,6 +5333,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bridge example adds private members from pointA and pointB.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5075,6 +5350,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The two-class friend example needs pointB known before pointA declares `friend int add(pointA, pointB)`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5091,6 +5367,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The advantages section says friend functions access members without needing inheritance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5107,6 +5384,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture warns that friend functions violate the law of data hiding.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5123,6 +5401,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The friend-class section states that all member functions of the friend class become friend functions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5139,6 +5418,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says ClassB can access ClassA if granted friendship, but ClassA cannot automatically access ClassB.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -5167,6 +5447,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture asks what happens when doubles are passed to an int sum function, then shows overloading as one solution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5183,6 +5464,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture defines templates as generic code that works on any data type passed as a parameter.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5199,6 +5481,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The notes say the parameter that passes the data type is also called a type name.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5215,6 +5498,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says templates can be implemented as function templates or class templates.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5231,6 +5515,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture shows a generic sum function with `template <class T>`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5247,6 +5532,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture uses an int and a double to motivate separate template parameters.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5263,6 +5549,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The example swaps ints, doubles, and chars using one template function.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5279,6 +5566,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture explains that template classes avoid writing separate classes for each data type.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5295,6 +5583,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture shows objects such as `className<int>`, `className<float>`, and `className<char>`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5311,6 +5600,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture says `typename` and `class` are semantically equivalent for declaring template type parameters, with special cases noted.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -5339,6 +5629,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The project description requires checking the entered values so conversion works only on numeric data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5355,6 +5646,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The ATM project centers on validating card data before withdrawal, transfer, balance checking, and similar work.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5371,6 +5663,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The calculator project asks for simple and scientific calculator options.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5387,6 +5680,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The student-management project describes adding, deleting, editing, and displaying student records.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5403,6 +5697,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The description says data should be modified during execution and not stored permanently in a file.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5419,6 +5714,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bookshop project requires confirmation before deleting a book record.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5435,6 +5731,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bank account project includes creating accounts plus deposit, withdrawal, display, search, edit, and delete features.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5451,6 +5748,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The supermarket billing project requires showing all purchased items and the total amount.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5467,6 +5765,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The phone directory project lists adding, displaying, editing, searching, and deleting phone records.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5483,6 +5782,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bus reservation project lists bus number, brand, seat information, and ticket price among ticket details.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -5511,6 +5811,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference introduces core procedural programming and arrays before moving to classes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5527,6 +5828,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The table of contents places classes before inheritance and virtual-function polymorphism.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5543,6 +5845,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference connects pointers with later polymorphism through base and derived class objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5559,6 +5862,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference emphasizes encapsulation through private data manipulated by member functions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5575,6 +5879,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Constructors avoid random/uninitialized member values by setting state at object creation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5591,6 +5896,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The problem-solving section focuses on finding useful classes from the domain model.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5607,6 +5913,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The glossary and inheritance chapter describe inheritance as an is-a relation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5623,6 +5930,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference warns that private inheritance usually violates the spirit of inheritance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5639,6 +5947,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The inheritance chapter uses virtual functions to vary behavior at runtime.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5655,6 +5964,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference shows that base pointers allow mixed derived objects in one collection.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5671,6 +5981,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference says virtual functions make programs easier to extend without changing the calling code.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5687,6 +5998,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference connects polymorphism to choosing the appropriate function implementation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5703,6 +6015,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The pointer chapter lists dangling pointers as a common pointer mistake.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5719,6 +6032,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The pointer/reference chapter covers passing arguments by reference for direct access to the original value.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5735,6 +6049,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference's OOP chapters consistently favor encapsulation and public member functions over exposed data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -5763,6 +6078,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The anatomy lesson identifies `main()` as the body where program execution begins.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5779,6 +6095,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference covers `#include` as a preprocessor directive used before compilation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5795,6 +6112,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The functions lesson distinguishes prototypes, definitions, calls, and arguments.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5811,6 +6129,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference teaches passing arguments by reference as a way to operate on original data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5827,6 +6146,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The pointer lesson introduces `*` as the dereference operator for pointed data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5843,6 +6163,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference pairs `new` and `delete` for dynamic allocation and release.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5859,6 +6180,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lesson identifies objects as instances created from class definitions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5875,6 +6197,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The classes lesson contrasts dot access on objects with pointer member access through `->`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5891,6 +6214,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference discusses data abstraction via private members.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5907,6 +6231,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The friend section shows external functions/classes being granted special access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5923,6 +6248,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The inheritance lesson follows classes and objects and focuses on derived classes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5939,6 +6265,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The table of contents places polymorphism after implementing inheritance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5955,6 +6282,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The operator lesson covers operator types and operator overloading for classes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5971,6 +6299,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The macros/templates lesson notes that templates are reusable and type-safe.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -5987,6 +6316,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The STL lesson introduces reusable standard library components built around templates.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -6015,6 +6345,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The early OOP chapter contrasts procedural growth with the object-oriented approach.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6031,6 +6362,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference's big-picture chapter lists the core OOP characteristics.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6047,6 +6379,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The objects/classes chapter treats classes as the central way to form objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6063,6 +6396,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The inheritance chapter says derived classes reuse tested base-class capabilities.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6079,6 +6413,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The operator-overloading chapter shows object operations written with familiar operators.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6095,6 +6430,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The chapter includes pitfalls of operator overloading and conversion.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6111,6 +6447,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The inheritance chapter uses public inheritance for ordinary specialization.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6127,6 +6464,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The multiple-inheritance chapter discusses ambiguous member lookup.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6143,6 +6481,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The virtual-functions chapter explains dynamic dispatch through base-class access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6159,6 +6498,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference covers abstract classes and pure virtual functions after virtual dispatch.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6175,6 +6515,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The virtual-functions/friend section says friend functions should be used sparingly because they affect data integrity boundaries.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6191,6 +6532,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference connects friend functions with bridging classes and some operator-overloading cases.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6207,6 +6549,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The templates chapter starts with function templates before class templates.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6223,6 +6566,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The chapter moves from function templates to class templates for reusable generic classes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6239,6 +6583,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference dedicates a chapter to the Standard Template Library after templates and exceptions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -6267,6 +6612,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Arabic OOP reference lists abstraction as a feature of OOP.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6283,6 +6629,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference lists encapsulation as grouping data and behavior together.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6299,6 +6646,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference treats data hiding as a key benefit of private/protected/public access control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6315,6 +6663,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The access-level section distinguishes private, protected, and public visibility.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6331,6 +6680,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Protected members are presented as accessible in inheritance contexts.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6347,6 +6697,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference table of contents includes the scope resolution operator `::`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6363,6 +6714,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference has constructor and destructor sections as core class-function topics.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6379,6 +6731,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Constructors and destructors are paired in the reference's class-function sections.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6395,6 +6748,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Arabic reference table of contents explicitly includes `new` and `delete`.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6411,6 +6765,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference includes a section on the `this` pointer/object reference.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6427,6 +6782,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference includes friend functions and friend classes as special access mechanisms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6443,6 +6799,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference distinguishes function overloading from operator overloading.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6459,6 +6816,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference contains a major section on operators overloading.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6475,6 +6833,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference's inheritance section includes multiple inheritance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6491,6 +6850,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The table of contents ends with virtual base class after multiple inheritance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -6519,6 +6879,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The project requires validation so conversion works only with numeric input.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6535,6 +6896,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference says invalid data should produce an error message.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6551,6 +6913,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The ATM project centers on card validation before operations such as withdrawal, transfer, and balance viewing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6567,6 +6930,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The project asks for two calculator types: simple and scientific.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6583,6 +6947,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The description says calculations should not happen unless entered values are numeric and suitable.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6599,6 +6964,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference lists these fields as examples for student management.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6615,6 +6981,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The project says data is not saved permanently in a file; it is edited and deleted during execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6631,6 +6998,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bookshop project lists title/name, author, and copy count as book information.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6647,6 +7015,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bookshop project requires confirmation before deleting records.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6663,6 +7032,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bank account project lists account creation plus deposit, withdrawal, display, search, edit, and delete features.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6679,6 +7049,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The supermarket project asks to display several products, allow purchases, show item values, and calculate a total.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6695,6 +7066,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The phone directory project lists those record-management operations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6711,6 +7083,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The maintenance project mentions reports for devices such as computers/printers and includes maintenance details.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6727,6 +7100,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bus reservation project lists those ticket and bus details.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6743,6 +7117,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The project reference closes by asking students to simulate system screens as much as possible.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -6787,6 +7162,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المحاضرة تركز على القرار الأخلاقي وتحليل القضايا التقنية والموازنة مع المصلحة العامة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6803,6 +7179,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الأخلاق ليست مجرد قانون؛ أحيانا تكشف مشكلات تحتاج إلى تنظيم قانوني لاحق.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -6831,6 +7208,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المحاضرة تعرض الخصوصية، أنواع البيانات الشخصية، وقوانين حماية البيانات.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6847,6 +7225,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الأخلاقيات الرقمية تتطلب وضوحا وموافقة وحماية للبيانات.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -6875,6 +7254,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الأمن السيبراني يرتبط بحماية الناس والبنية التحتية والثقة العامة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6891,6 +7271,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الإفصاح المسؤول يحاول إصلاح الخطر قبل أن يصبح ضررا عاما.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -6919,6 +7300,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المحاضرة تتناول حقوق النشر والتراخيص والمصادر المفتوحة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6935,6 +7317,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "استخدام كود مفتوح المصدر يتطلب احترام شروط الرخصة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -6963,6 +7346,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "التحيز قد يؤدي إلى قرارات غير عادلة عند استخدام الأنظمة الذكية.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -6979,6 +7363,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الأنظمة الذكية المؤثرة تحتاج إلى تفسير ومساءلة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7007,6 +7392,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المحاضرة تناقش المعلومات المضللة وحقوق المستخدمين في المنصات الرقمية.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7023,6 +7409,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "التحقق والمقارنة يقللان انتشار التضليل.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7051,6 +7438,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المحاضرة تركز على الصدق والسرية وتضارب المصالح والتنوع.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7067,6 +7455,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "يجب الإفصاح عن تضارب المصالح أو إدارته بطريقة شفافة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7095,6 +7484,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الإطار المنهجي يساعد في فهم الأطراف المتأثرة والمخاطر والبدائل.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7111,6 +7501,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المواقف الأخلاقية المعقدة تحتاج إلى تفكير نقدي وليس رد فعل سريع فقط.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7139,6 +7530,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الفجوة الرقمية قضية اجتماعية لأنها تؤثر في العدالة والفرص.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7155,6 +7547,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "التقنية المسؤولة اجتماعيا يجب أن تراعي تنوع احتياجات المستخدمين.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7183,6 +7576,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المحاضرة تربط المستقبل المهني بالسمعة والتعلم والقيادة الأخلاقية.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7199,12 +7593,1599 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المهني الأخلاقي يطوّر معرفته حتى لا يسبب ضررا بسبب جهل أو قدم معرفة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
         }
       ],
       "questionCount": 20,
+      "examCount": 10
+    },
+    {
+      "id": "ai-ethics-doc-questions",
+      "title": "AI Ethics Solved Questions",
+      "description": "Open-answer AI Ethics questions extracted from the solved chapter DOCX files.",
+      "banks": [
+        {
+          "id": "manual-md",
+          "title": "Manual Markdown Exams",
+          "examCount": 10
+        }
+      ],
+      "exams": [
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-1-solved-questions",
+          "sourceId": "chapter-1-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 1 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر1-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالأخلاقيات المهنية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "مجموعة من القيم والمبادئ التي توجه سلوك الفرد في عمله.",
+              "fullExplanation": null,
+              "modelAnswer": "مجموعة من القيم والمبادئ التي توجه سلوك الفرد في عمله.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما الفرق بين الأخلاق والقانون؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "القانون: ملزم ويُفرض بعقوبات\nالأخلاق: نابعة من الضمير وغير ملزمة قانونيًا",
+              "fullExplanation": null,
+              "modelAnswer": "القانون: ملزم ويُفرض بعقوبات\nالأخلاق: نابعة من الضمير وغير ملزمة قانونيًا",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "هل كل ما هو قانوني يُعد أخلاقيًا؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لا، قد يكون الفعل قانونيًا لكنه غير أخلاقي.",
+              "fullExplanation": null,
+              "modelAnswer": "لا، قد يكون الفعل قانونيًا لكنه غير أخلاقي.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالمسؤولية المهنية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "التزام الفرد بالتصرف بشكل صحيح تجاه عمله والمجتمع.",
+              "fullExplanation": null,
+              "modelAnswer": "التزام الفرد بالتصرف بشكل صحيح تجاه عمله والمجتمع.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا تُعد الأخلاقيات مهمة في الحوسبة؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأن التقنية تؤثر على حياة عدد كبير من الناس.",
+              "fullExplanation": null,
+              "modelAnswer": "لأن التقنية تؤثر على حياة عدد كبير من الناس.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هو ميثاق ACM؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "مجموعة مبادئ توجه سلوك المتخصصين في الحوسبة.",
+              "fullExplanation": null,
+              "modelAnswer": "مجموعة مبادئ توجه سلوك المتخصصين في الحوسبة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "اذكر مبدأين من أخلاقيات الحوسبة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تجنب الضرر + احترام الخصوصية.",
+              "fullExplanation": null,
+              "modelAnswer": "تجنب الضرر + احترام الخصوصية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل العلاقة بين الأخلاق والقانون.",
+              "choices": [],
+              "answer": [],
+              "explanation": "القانون يحدد الحد الأدنى للسلوك\nالأخلاق تسعى للسلوك الأفضل\nقد يكون الفعل قانوني وغير أخلاقي\nالعلاقة تكاملية",
+              "fullExplanation": null,
+              "modelAnswer": "القانون يحدد الحد الأدنى للسلوك\nالأخلاق تسعى للسلوك الأفضل\nقد يكون الفعل قانوني وغير أخلاقي\nالعلاقة تكاملية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا لا تكفي القوانين وحدها لضبط السلوك؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لا تغطي كل الحالات\nبعض المواقف تحتاج حكم أخلاقي\nالقوانين متأخرة أحيانًا عن التقنية\nالأخلاق تكمل القوانين",
+              "fullExplanation": null,
+              "modelAnswer": "لا تغطي كل الحالات\nبعض المواقف تحتاج حكم أخلاقي\nالقوانين متأخرة أحيانًا عن التقنية\nالأخلاق تكمل القوانين",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مسؤولية المبرمج تجاه المجتمع.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تطوير أنظمة آمنة\nحماية المستخدمين\nتجنب الأضرار\nمراعاة تأثير التقنية",
+              "fullExplanation": null,
+              "modelAnswer": "تطوير أنظمة آمنة\nحماية المستخدمين\nتجنب الأضرار\nمراعاة تأثير التقنية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش أهمية الأخلاقيات في بناء الثقة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تعزز مصداقية المتخصصين\nتزيد ثقة المستخدمين\nتقلل المخاطر\nتحسن سمعة المؤسسات",
+              "fullExplanation": null,
+              "modelAnswer": "تعزز مصداقية المتخصصين\nتزيد ثقة المستخدمين\nتقلل المخاطر\nتحسن سمعة المؤسسات",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل موقف استخدام ثغرة لتحقيق مكسب شخصي.",
+              "choices": [],
+              "answer": [],
+              "explanation": "سلوك غير أخلاقي\nيضر بالمستخدمين\nيخرق الثقة\nيجب الإبلاغ بدل الاستغلال",
+              "fullExplanation": null,
+              "modelAnswer": "سلوك غير أخلاقي\nيضر بالمستخدمين\nيخرق الثقة\nيجب الإبلاغ بدل الاستغلال",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش دور مواثيق ACM و IEEE.",
+              "choices": [],
+              "answer": [],
+              "explanation": "توجيه السلوك المهني\nوضع معايير واضحة\nدعم اتخاذ القرار الأخلاقي\nحماية المجتمع",
+              "fullExplanation": null,
+              "modelAnswer": "توجيه السلوك المهني\nوضع معايير واضحة\nدعم اتخاذ القرار الأخلاقي\nحماية المجتمع",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل تأثير غياب الأخلاقيات في الحوسبة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "انتشار الجرائم الرقمية\nفقدان الثقة\nأضرار مالية واجتماعية\nسوء استخدام التقنية",
+              "fullExplanation": null,
+              "modelAnswer": "انتشار الجرائم الرقمية\nفقدان الثقة\nأضرار مالية واجتماعية\nسوء استخدام التقنية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مسؤولية المتخصص عند التعامل مع بيانات حساسة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "حماية البيانات\nعدم إساءة استخدامها\nاحترام الخصوصية\nالالتزام بالقوانين والأخلاق",
+              "fullExplanation": null,
+              "modelAnswer": "حماية البيانات\nعدم إساءة استخدامها\nاحترام الخصوصية\nالالتزام بالقوانين والأخلاق",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-2-solved-questions",
+          "sourceId": "chapter-2-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 2 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر2-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالخصوصية الرقمية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "حق الفرد في التحكم في بياناته وكيفية جمعها واستخدامها.",
+              "fullExplanation": null,
+              "modelAnswer": "حق الفرد في التحكم في بياناته وكيفية جمعها واستخدامها.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما الفرق بين البيانات الشخصية والحساسة؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "الشخصية: تحدد الهوية (الاسم، البريد)\nالحساسة: قد تسبب ضررًا كبيرًا (طبية، مالية)",
+              "fullExplanation": null,
+              "modelAnswer": "الشخصية: تحدد الهوية (الاسم، البريد)\nالحساسة: قد تسبب ضررًا كبيرًا (طبية، مالية)",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالموافقة المُستنيرة؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "موافقة المستخدم بعد معرفة كاملة بكيفية استخدام بياناته.",
+              "fullExplanation": null,
+              "modelAnswer": "موافقة المستخدم بعد معرفة كاملة بكيفية استخدام بياناته.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هو مبدأ تقليل البيانات (Data Minimization)؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "جمع أقل قدر ممكن من البيانات اللازمة فقط.",
+              "fullExplanation": null,
+              "modelAnswer": "جمع أقل قدر ممكن من البيانات اللازمة فقط.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالشفافية في التعامل مع البيانات؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "توضيح طريقة جمع واستخدام البيانات للمستخدم.",
+              "fullExplanation": null,
+              "modelAnswer": "توضيح طريقة جمع واستخدام البيانات للمستخدم.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هو مبدأ الغرض المحدد؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "استخدام البيانات فقط للهدف الذي جُمعت من أجله.",
+              "fullExplanation": null,
+              "modelAnswer": "استخدام البيانات فقط للهدف الذي جُمعت من أجله.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا تُعد البيانات الرقمية أكثر عرضة للانتهاك؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنها سهلة النسخ والنقل وصعبة الحذف.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنها سهلة النسخ والنقل وصعبة الحذف.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية الخصوصية في العصر الرقمي.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تحمي الأفراد من الاستغلال\nتمنع الاحتيال والابتزاز\nتعزز الثقة في الأنظمة\nتدعم حرية التعبير",
+              "fullExplanation": null,
+              "modelAnswer": "تحمي الأفراد من الاستغلال\nتمنع الاحتيال والابتزاز\nتعزز الثقة في الأنظمة\nتدعم حرية التعبير",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مخاطر انتهاك الخصوصية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "سرقة الهوية\nالاحتيال المالي\nفقدان الثقة\nأضرار اجتماعية ونفسية",
+              "fullExplanation": null,
+              "modelAnswer": "سرقة الهوية\nالاحتيال المالي\nفقدان الثقة\nأضرار اجتماعية ونفسية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مبدأ تقليل البيانات وأثره على الأمان.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تقليل كمية البيانات المخزنة\nتقليل فرص التسريب\nحماية المستخدم\nتحسين إدارة البيانات",
+              "fullExplanation": null,
+              "modelAnswer": "تقليل كمية البيانات المخزنة\nتقليل فرص التسريب\nحماية المستخدم\nتحسين إدارة البيانات",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش أهمية الموافقة المُستنيرة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تمنح المستخدم التحكم\nتمنع الاستغلال\nتعزز الشفافية\nتضمن استخدامًا أخلاقيًا",
+              "fullExplanation": null,
+              "modelAnswer": "تمنح المستخدم التحكم\nتمنع الاستغلال\nتعزز الشفافية\nتضمن استخدامًا أخلاقيًا",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل دور الشفافية في حماية البيانات.",
+              "choices": [],
+              "answer": [],
+              "explanation": "توضح كيفية الاستخدام\nتمنع الغموض\nتبني الثقة\nتسهّل المساءلة",
+              "fullExplanation": null,
+              "modelAnswer": "توضح كيفية الاستخدام\nتمنع الغموض\nتبني الثقة\nتسهّل المساءلة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل حالة انتهاك خصوصية (مثل Cambridge Analytica).",
+              "choices": [],
+              "answer": [],
+              "explanation": "جمع بيانات دون موافقة واضحة\nاستخدامها لأغراض غير معلنة\nغياب الشفافية\nأدى لفقدان الثقة\nالدرس: ضرورة حماية الخصوصية",
+              "fullExplanation": null,
+              "modelAnswer": "جمع بيانات دون موافقة واضحة\nاستخدامها لأغراض غير معلنة\nغياب الشفافية\nأدى لفقدان الثقة\nالدرس: ضرورة حماية الخصوصية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مسؤولية المطور في حماية البيانات.",
+              "choices": [],
+              "answer": [],
+              "explanation": "جمع البيانات بشكل قانوني\nتأمينها من الاختراق\nاستخدامها للغرض المحدد\nحذفها عند انتهاء الحاجة",
+              "fullExplanation": null,
+              "modelAnswer": "جمع البيانات بشكل قانوني\nتأمينها من الاختراق\nاستخدامها للغرض المحدد\nحذفها عند انتهاء الحاجة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية Privacy by Design.",
+              "choices": [],
+              "answer": [],
+              "explanation": "حماية البيانات من البداية\nتقليل المخاطر لاحقًا\nتحسين الأمان\nبناء ثقة المستخدم",
+              "fullExplanation": null,
+              "modelAnswer": "حماية البيانات من البداية\nتقليل المخاطر لاحقًا\nتحسين الأمان\nبناء ثقة المستخدم",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-3-solved-questions",
+          "sourceId": "chapter-3-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 3 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر3-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالأمن السيبراني؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "حماية الأنظمة والبيانات من الهجمات والاختراقات.",
+              "fullExplanation": null,
+              "modelAnswer": "حماية الأنظمة والبيانات من الهجمات والاختراقات.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما عناصر نموذج CIA؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "السرية – النزاهة – التوافرية.",
+              "fullExplanation": null,
+              "modelAnswer": "السرية – النزاهة – التوافرية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالسرية (Confidentiality)؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "منع الوصول غير المصرح للبيانات.",
+              "fullExplanation": null,
+              "modelAnswer": "منع الوصول غير المصرح للبيانات.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالنزاهة (Integrity)؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "ضمان صحة البيانات وعدم تعديلها.",
+              "fullExplanation": null,
+              "modelAnswer": "ضمان صحة البيانات وعدم تعديلها.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالتوافرية (Availability)؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "ضمان توفر النظام عند الحاجة.",
+              "fullExplanation": null,
+              "modelAnswer": "ضمان توفر النظام عند الحاجة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هي الهندسة الاجتماعية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "خداع المستخدم للحصول على معلومات حساسة.",
+              "fullExplanation": null,
+              "modelAnswer": "خداع المستخدم للحصول على معلومات حساسة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما الفرق بين White Hat و Black Hat؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "White Hat: أخلاقي يحمي الأنظمة\nBlack Hat: مهاجم يستغل الثغرات",
+              "fullExplanation": null,
+              "modelAnswer": "White Hat: أخلاقي يحمي الأنظمة\nBlack Hat: مهاجم يستغل الثغرات",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل لماذا يُعد الأمن السيبراني مسؤولية أخلاقية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "يحمي حياة الناس ومصالحهم\nيمنع الأضرار والخسائر\nيحافظ على الثقة\nإهماله يؤدي لمخاطر كبيرة",
+              "fullExplanation": null,
+              "modelAnswer": "يحمي حياة الناس ومصالحهم\nيمنع الأضرار والخسائر\nيحافظ على الثقة\nإهماله يؤدي لمخاطر كبيرة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل خطورة هجمات الفدية (Ransomware).",
+              "choices": [],
+              "answer": [],
+              "explanation": "تشفير البيانات\nتعطيل الأنظمة\nخسائر مالية\nتهديد المؤسسات الحيوية",
+              "fullExplanation": null,
+              "modelAnswer": "تشفير البيانات\nتعطيل الأنظمة\nخسائر مالية\nتهديد المؤسسات الحيوية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش أهمية تحديث الأنظمة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "إغلاق الثغرات\nمنع الهجمات\nتحسين الأمان\nالإهمال يؤدي للاختراق",
+              "fullExplanation": null,
+              "modelAnswer": "إغلاق الثغرات\nمنع الهجمات\nتحسين الأمان\nالإهمال يؤدي للاختراق",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل الفرق بين الإفصاح المسؤول والإفصاح الكامل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "المسؤول: إبلاغ الجهة أولًا\nالكامل: نشر الثغرة مباشرة\nالمسؤول يحمي المستخدمين\nالكامل يزيد الخطر",
+              "fullExplanation": null,
+              "modelAnswer": "المسؤول: إبلاغ الجهة أولًا\nالكامل: نشر الثغرة مباشرة\nالمسؤول يحمي المستخدمين\nالكامل يزيد الخطر",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أسباب استهداف البنية التحتية الحيوية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تأثير كبير على المجتمع\nتعقيد الأنظمة\nضعف بعض الحمايات\nتحقيق مكاسب أو فوضى",
+              "fullExplanation": null,
+              "modelAnswer": "تأثير كبير على المجتمع\nتعقيد الأنظمة\nضعف بعض الحمايات\nتحقيق مكاسب أو فوضى",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مسؤولية المطور في الأمن السيبراني.",
+              "choices": [],
+              "answer": [],
+              "explanation": "كتابة كود آمن\nاختبار النظام\nحماية البيانات\nتحديث مستمر",
+              "fullExplanation": null,
+              "modelAnswer": "كتابة كود آمن\nاختبار النظام\nحماية البيانات\nتحديث مستمر",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل هجوم WannaCry.",
+              "choices": [],
+              "answer": [],
+              "explanation": "استغل ثغرة في Windows\nانتشر بسرعة\nعطل خدمات صحية\nالسبب: عدم التحديث",
+              "fullExplanation": null,
+              "modelAnswer": "استغل ثغرة في Windows\nانتشر بسرعة\nعطل خدمات صحية\nالسبب: عدم التحديث",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مشكلة تأجيل إصلاح الثغرات.",
+              "choices": [],
+              "answer": [],
+              "explanation": "يعرض المستخدمين للخطر\nقرار غير أخلاقي\nيسبب خسائر\nيجب الإصلاح فورًا",
+              "fullExplanation": null,
+              "modelAnswer": "يعرض المستخدمين للخطر\nقرار غير أخلاقي\nيسبب خسائر\nيجب الإصلاح فورًا",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-4-solved-questions",
+          "sourceId": "chapter-4-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 4 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر4-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالملكية الفكرية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "حقوق تحمي إبداعات الأفراد مثل البرامج والتصاميم.",
+              "fullExplanation": null,
+              "modelAnswer": "حقوق تحمي إبداعات الأفراد مثل البرامج والتصاميم.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما الذي تحميه حقوق النشر؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تحمي الكود أو العمل المكتوب، وليس الفكرة.",
+              "fullExplanation": null,
+              "modelAnswer": "تحمي الكود أو العمل المكتوب، وليس الفكرة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما الذي تحميه براءة الاختراع؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تحمي الأفكار أو الابتكارات الجديدة.",
+              "fullExplanation": null,
+              "modelAnswer": "تحمي الأفكار أو الابتكارات الجديدة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا لا تحمي حقوق النشر الخوارزميات؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنها أفكار، وحقوق النشر تحمي طريقة التعبير فقط.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنها أفكار، وحقوق النشر تحمي طريقة التعبير فقط.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالاستخدام العادل؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "استخدام محدود للمحتوى لأغراض تعليمية أو نقدية.",
+              "fullExplanation": null,
+              "modelAnswer": "استخدام محدود للمحتوى لأغراض تعليمية أو نقدية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هي البرمجيات المملوكة؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "برامج مغلقة لا يمكن تعديلها أو إعادة توزيعها.",
+              "fullExplanation": null,
+              "modelAnswer": "برامج مغلقة لا يمكن تعديلها أو إعادة توزيعها.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هي البرمجيات مفتوحة المصدر؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "برامج يمكن استخدامها وتعديلها وفق الرخصة.",
+              "fullExplanation": null,
+              "modelAnswer": "برامج يمكن استخدامها وتعديلها وفق الرخصة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية الملكية الفكرية في البرمجيات.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تحمي حقوق المبرمج\nتشجع الابتكار\nتمنع السرقة\nتدعم الاقتصاد الرقمي",
+              "fullExplanation": null,
+              "modelAnswer": "تحمي حقوق المبرمج\nتشجع الابتكار\nتمنع السرقة\nتدعم الاقتصاد الرقمي",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "قارن بين البرمجيات المفتوحة والمملوكة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "المفتوحة: شفافة وقابلة للتعديل\nالمملوكة: مغلقة ومحكومة بشروط\nالمفتوحة تعزز التعاون\nالمملوكة تحافظ على الأرباح",
+              "fullExplanation": null,
+              "modelAnswer": "المفتوحة: شفافة وقابلة للتعديل\nالمملوكة: مغلقة ومحكومة بشروط\nالمفتوحة تعزز التعاون\nالمملوكة تحافظ على الأرباح",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل رخصة MIT.",
+              "choices": [],
+              "answer": [],
+              "explanation": "مرنة جدًا\nتسمح بالاستخدام التجاري\nتتطلب فقط ذكر المؤلف\nلا تفرض فتح الكود",
+              "fullExplanation": null,
+              "modelAnswer": "مرنة جدًا\nتسمح بالاستخدام التجاري\nتتطلب فقط ذكر المؤلف\nلا تفرض فتح الكود",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل رخصة GPL.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تفرض بقاء الكود مفتوحًا\nتمنع تحويله إلى مغلق\nتحمي حرية المستخدم\nأقل مرونة تجاريًا",
+              "fullExplanation": null,
+              "modelAnswer": "تفرض بقاء الكود مفتوحًا\nتمنع تحويله إلى مغلق\nتحمي حرية المستخدم\nأقل مرونة تجاريًا",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل رخصة Apache.",
+              "choices": [],
+              "answer": [],
+              "explanation": "مرنة مثل MIT\nتسمح بالاستخدام التجاري\nتوفر حماية براءات اختراع\nمناسبة للشركات",
+              "fullExplanation": null,
+              "modelAnswer": "مرنة مثل MIT\nتسمح بالاستخدام التجاري\nتوفر حماية براءات اختراع\nمناسبة للشركات",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مشكلة السرقة البرمجية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "انتهاك أخلاقي وقانوني\nيضر بالمطورين\nيؤدي لعقوبات\nيقلل الثقة",
+              "fullExplanation": null,
+              "modelAnswer": "انتهاك أخلاقي وقانوني\nيضر بالمطورين\nيؤدي لعقوبات\nيقلل الثقة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أخلاقيات استخدام الكود من الإنترنت.",
+              "choices": [],
+              "answer": [],
+              "explanation": "الالتزام بالرخصة\nذكر المصدر\nعدم النسخ العشوائي\nاحترام حقوق الآخرين",
+              "fullExplanation": null,
+              "modelAnswer": "الالتزام بالرخصة\nذكر المصدر\nعدم النسخ العشوائي\nاحترام حقوق الآخرين",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "اختَر رخصة مناسبة لمشروع وعلّل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "اختيار Apache أو MIT\nلأنها مرنة\nتسمح بالاستخدام التجاري\nتحمي المشروع قانونيًا",
+              "fullExplanation": null,
+              "modelAnswer": "اختيار Apache أو MIT\nلأنها مرنة\nتسمح بالاستخدام التجاري\nتحمي المشروع قانونيًا",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-5-solved-questions",
+          "sourceId": "chapter-5-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 5 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر5-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "ما هو الذكاء الاصطناعي؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "أنظمة قادرة على أداء مهام تتطلب ذكاءً بشريًا مثل التعلم واتخاذ القرار.",
+              "fullExplanation": null,
+              "modelAnswer": "أنظمة قادرة على أداء مهام تتطلب ذكاءً بشريًا مثل التعلم واتخاذ القرار.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا يُعد AI حساسًا أخلاقيًا؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنه يؤثر على عدد كبير من الناس بسرعة وقد يتخذ قرارات غير مفهومة.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنه يؤثر على عدد كبير من الناس بسرعة وقد يتخذ قرارات غير مفهومة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالتحيز في AI؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "إنتاج قرارات غير عادلة ضد فئات معينة بسبب البيانات أو التصميم.",
+              "fullExplanation": null,
+              "modelAnswer": "إنتاج قرارات غير عادلة ضد فئات معينة بسبب البيانات أو التصميم.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "اذكر مصدرين من مصادر التحيز في AI.",
+              "choices": [],
+              "answer": [],
+              "explanation": "بيانات تدريب متحيزة + تصميم خوارزمي غير عادل.",
+              "fullExplanation": null,
+              "modelAnswer": "بيانات تدريب متحيزة + تصميم خوارزمي غير عادل.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالصندوق الأسود (Black Box)؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "صعوبة فهم كيفية اتخاذ النظام لقراراته.",
+              "fullExplanation": null,
+              "modelAnswer": "صعوبة فهم كيفية اتخاذ النظام لقراراته.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أسباب التحيز في الذكاء الاصطناعي.",
+              "choices": [],
+              "answer": [],
+              "explanation": "بيانات تاريخية غير عادلة\nنقص تمثيل بعض الفئات\nاختيار متغيرات غير مناسبة\nتحيزات المطورين",
+              "fullExplanation": null,
+              "modelAnswer": "بيانات تاريخية غير عادلة\nنقص تمثيل بعض الفئات\nاختيار متغيرات غير مناسبة\nتحيزات المطورين",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش خطورة التحيز في AI على المجتمع.",
+              "choices": [],
+              "answer": [],
+              "explanation": "يؤدي إلى التمييز\nيعزز عدم العدالة\nيضر بثقة المستخدمين\nيؤثر على قرارات مهمة (توظيف، قروض)",
+              "fullExplanation": null,
+              "modelAnswer": "يؤدي إلى التمييز\nيعزز عدم العدالة\nيضر بثقة المستخدمين\nيؤثر على قرارات مهمة (توظيف، قروض)",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية الشفافية والقابلية للتفسير في AI.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تساعد على فهم القرارات\nتمكّن من المساءلة\nضرورية في القرارات الحساسة\nتقلل الأخطاء والتحيز",
+              "fullExplanation": null,
+              "modelAnswer": "تساعد على فهم القرارات\nتمكّن من المساءلة\nضرورية في القرارات الحساسة\nتقلل الأخطاء والتحيز",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مشكلة المساءلة في أنظمة الذكاء الاصطناعي.",
+              "choices": [],
+              "answer": [],
+              "explanation": "صعوبة تحديد المسؤول عند الخطأ\nالمسؤولية موزعة بين المطور والشركة والمستخدم\nلا يمكن لوم النظام وحده\nتحتاج إلى توثيق ومراجعة وإشراف بشري",
+              "fullExplanation": null,
+              "modelAnswer": "صعوبة تحديد المسؤول عند الخطأ\nالمسؤولية موزعة بين المطور والشركة والمستخدم\nلا يمكن لوم النظام وحده\nتحتاج إلى توثيق ومراجعة وإشراف بشري",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل التأثير الاجتماعي للذكاء الاصطناعي.",
+              "choices": [],
+              "answer": [],
+              "explanation": "فقدان بعض الوظائف\nظهور وظائف جديدة\nزيادة عدم المساواة\nالحاجة لمهارات جديدة",
+              "fullExplanation": null,
+              "modelAnswer": "فقدان بعض الوظائف\nظهور وظائف جديدة\nزيادة عدم المساواة\nالحاجة لمهارات جديدة",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-6-solved-questions",
+          "sourceId": "chapter-6-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 6 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر6-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا تُعد وسائل التواصل قوة مؤثرة؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنها تنشر المعلومات بسرعة وتؤثر على عدد كبير من الناس.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنها تنشر المعلومات بسرعة وتؤثر على عدد كبير من الناس.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بـ Misinformation؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "معلومات خاطئة يتم نشرها بدون قصد.",
+              "fullExplanation": null,
+              "modelAnswer": "معلومات خاطئة يتم نشرها بدون قصد.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بـ Disinformation؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "معلومات كاذبة تُنشر بقصد التضليل.",
+              "fullExplanation": null,
+              "modelAnswer": "معلومات كاذبة تُنشر بقصد التضليل.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بـ Malinformation؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "معلومات صحيحة تُستخدم لإلحاق الضرر.",
+              "fullExplanation": null,
+              "modelAnswer": "معلومات صحيحة تُستخدم لإلحاق الضرر.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا يجب التحقق قبل نشر المحتوى؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لتجنب نشر معلومات مضللة قد تضر الآخرين.",
+              "fullExplanation": null,
+              "modelAnswer": "لتجنب نشر معلومات مضللة قد تضر الآخرين.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بـ Dark Patterns؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تصاميم تخدع المستخدم وتؤثر على قراراته.",
+              "fullExplanation": null,
+              "modelAnswer": "تصاميم تخدع المستخدم وتؤثر على قراراته.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما معنى Respectful of User Time؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تصميم يحترم وقت المستخدم ولا يستغله.",
+              "fullExplanation": null,
+              "modelAnswer": "تصميم يحترم وقت المستخدم ولا يستغله.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مسؤولية المستخدم قبل نشر أي محتوى.",
+              "choices": [],
+              "answer": [],
+              "explanation": "التحقق من صحة المعلومات\nالتفكير في التأثير\nتجنب الإضرار بالآخرين\nعدم نشر الشائعات",
+              "fullExplanation": null,
+              "modelAnswer": "التحقق من صحة المعلومات\nالتفكير في التأثير\nتجنب الإضرار بالآخرين\nعدم نشر الشائعات",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش خطورة المعلومات المضللة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تضليل المجتمع\nنشر الخوف\nالتأثير على القرارات\nفقدان الثقة",
+              "fullExplanation": null,
+              "modelAnswer": "تضليل المجتمع\nنشر الخوف\nالتأثير على القرارات\nفقدان الثقة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل دور المستخدم في مكافحة التضليل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "عدم النشر قبل التحقق\nتصحيح الأخطاء\nالإبلاغ عن المحتوى\nنشر الوعي",
+              "fullExplanation": null,
+              "modelAnswer": "عدم النشر قبل التحقق\nتصحيح الأخطاء\nالإبلاغ عن المحتوى\nنشر الوعي",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مخاطر الخصوصية في وسائل التواصل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "جمع بيانات المستخدم\nاستخدامها في الإعلانات\nمشاركة البيانات مع أطراف أخرى\nالتأثير على القرارات",
+              "fullExplanation": null,
+              "modelAnswer": "جمع بيانات المستخدم\nاستخدامها في الإعلانات\nمشاركة البيانات مع أطراف أخرى\nالتأثير على القرارات",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش الأنماط المظلمة (Dark Patterns).",
+              "choices": [],
+              "answer": [],
+              "explanation": "خداع المستخدم\nصعوبة إلغاء الاشتراك\nقرارات غير واعية\nالحل: تصميم شفاف",
+              "fullExplanation": null,
+              "modelAnswer": "خداع المستخدم\nصعوبة إلغاء الاشتراك\nقرارات غير واعية\nالحل: تصميم شفاف",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مفهوم Respectful of User Time.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تقليل الإدمان الرقمي\nإعطاء المستخدم تحكمًا\nتقليل التشتت\nتصميم مسؤول",
+              "fullExplanation": null,
+              "modelAnswer": "تقليل الإدمان الرقمي\nإعطاء المستخدم تحكمًا\nتقليل التشتت\nتصميم مسؤول",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مسؤولية الشركات الرقمية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "حماية المستخدمين\nمنع التضليل\nاحترام الخصوصية\nتصميم أخلاقي",
+              "fullExplanation": null,
+              "modelAnswer": "حماية المستخدمين\nمنع التضليل\nاحترام الخصوصية\nتصميم أخلاقي",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل تأثير وسائل التواصل على المجتمع.",
+              "choices": [],
+              "answer": [],
+              "explanation": "إيجابيات: تواصل، معرفة\nسلبيات: إدمان، تضليل\nتأثير قوي على الرأي العام\nيحتاج استخدام واعٍ",
+              "fullExplanation": null,
+              "modelAnswer": "إيجابيات: تواصل، معرفة\nسلبيات: إدمان، تضليل\nتأثير قوي على الرأي العام\nيحتاج استخدام واعٍ",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-7-solved-questions",
+          "sourceId": "chapter-7-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 7 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر7-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالسلوك المهني (Professionalism)؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "مجموعة صفات وسلوكيات تميز الشخص المحترف، تشمل الأخلاق والتواصل وليس المهارات فقط.",
+              "fullExplanation": null,
+              "modelAnswer": "مجموعة صفات وسلوكيات تميز الشخص المحترف، تشمل الأخلاق والتواصل وليس المهارات فقط.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا يُعد السلوك المهني مهمًا؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنه يبني الثقة، ويحسن السمعة، ويخلق بيئة عمل صحية.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنه يبني الثقة، ويحسن السمعة، ويخلق بيئة عمل صحية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "اذكر مبدأين من مبادئ الاحترافية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "الكفاءة والجودة + النزاهة والأمانة.",
+              "fullExplanation": null,
+              "modelAnswer": "الكفاءة والجودة + النزاهة والأمانة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما أهمية الالتزام بالمواعيد؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "يعكس احترام الآخرين ويبني الثقة.",
+              "fullExplanation": null,
+              "modelAnswer": "يعكس احترام الآخرين ويبني الثقة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا يجب الصدق في عرض المهارات؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأن الكذب يُكشف ويدمر الثقة والسمعة.",
+              "fullExplanation": null,
+              "modelAnswer": "لأن الكذب يُكشف ويدمر الثقة والسمعة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بتضارب المصالح؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تعارض بين المصلحة الشخصية والمسؤولية المهنية.",
+              "fullExplanation": null,
+              "modelAnswer": "تعارض بين المصلحة الشخصية والمسؤولية المهنية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هي السرية المهنية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "الحفاظ على معلومات الشركة والعملاء وعدم إفشائها.",
+              "fullExplanation": null,
+              "modelAnswer": "الحفاظ على معلومات الشركة والعملاء وعدم إفشائها.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية السلوك المهني في بيئة العمل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "بناء الثقة بين الزملاء والعملاء\nتحسين السمعة المهنية\nزيادة فرص النجاح\nخلق بيئة عمل إيجابية",
+              "fullExplanation": null,
+              "modelAnswer": "بناء الثقة بين الزملاء والعملاء\nتحسين السمعة المهنية\nزيادة فرص النجاح\nخلق بيئة عمل إيجابية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مخاطر عدم الصدق في الكفاءات.",
+              "choices": [],
+              "answer": [],
+              "explanation": "فقدان الثقة\nاكتشاف الكذب لاحقًا\nضعف الأداء\nعواقب قانونية",
+              "fullExplanation": null,
+              "modelAnswer": "فقدان الثقة\nاكتشاف الكذب لاحقًا\nضعف الأداء\nعواقب قانونية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل كيفية التعامل مع فجوات المعرفة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "الاعتراف بعدم المعرفة\nالبحث والتعلم\nطلب المساعدة\nتجنب التظاهر بالمعرفة",
+              "fullExplanation": null,
+              "modelAnswer": "الاعتراف بعدم المعرفة\nالبحث والتعلم\nطلب المساعدة\nتجنب التظاهر بالمعرفة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مشكلة تضارب المصالح.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تؤدي لقرارات غير عادلة\nتضر بالثقة\nقد تسبب مشاكل قانونية\nالحل: الإفصاح والانسحاب",
+              "fullExplanation": null,
+              "modelAnswer": "تؤدي لقرارات غير عادلة\nتضر بالثقة\nقد تسبب مشاكل قانونية\nالحل: الإفصاح والانسحاب",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش كيفية التعامل مع تضارب المصالح.",
+              "choices": [],
+              "answer": [],
+              "explanation": "التعرف على الحالة\nالإفصاح المبكر\nالانسحاب من القرار\nتوثيق الحالة",
+              "fullExplanation": null,
+              "modelAnswer": "التعرف على الحالة\nالإفصاح المبكر\nالانسحاب من القرار\nتوثيق الحالة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية السرية المهنية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "حماية معلومات الشركة\nحماية العملاء\nمنع الاستغلال\nالحفاظ على الثقة",
+              "fullExplanation": null,
+              "modelAnswer": "حماية معلومات الشركة\nحماية العملاء\nمنع الاستغلال\nالحفاظ على الثقة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش أهمية التنوع والشمولية في العمل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تعزيز الابتكار\nتحسين القرارات\nبيئة عمل عادلة\nفهم أفضل للعملاء",
+              "fullExplanation": null,
+              "modelAnswer": "تعزيز الابتكار\nتحسين القرارات\nبيئة عمل عادلة\nفهم أفضل للعملاء",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل التعامل مع الضغوط الأخلاقية في العمل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "رفض السلوك غير الأخلاقي\nتوثيق المشكلة\nالإبلاغ للإدارة\nالالتزام بالقيم",
+              "fullExplanation": null,
+              "modelAnswer": "رفض السلوك غير الأخلاقي\nتوثيق المشكلة\nالإبلاغ للإدارة\nالالتزام بالقيم",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-8-solved-questions",
+          "sourceId": "chapter-8-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 8 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر8-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا نحتاج إطار عمل لاتخاذ القرارات الأخلاقية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنه يساعد على التفكير الموضوعي وتجنب التحيز واتخاذ قرارات مدروسة.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنه يساعد على التفكير الموضوعي وتجنب التحيز واتخاذ قرارات مدروسة.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالغموض في القرارات الأخلاقية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "أن بعض المواقف ليست واضحة (صح أو خطأ) بل تحتوي على مناطق رمادية.",
+              "fullExplanation": null,
+              "modelAnswer": "أن بعض المواقف ليست واضحة (صح أو خطأ) بل تحتوي على مناطق رمادية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بتعارض القيم؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تعارض بين قيم مختلفة مثل الخصوصية مقابل الأمن.",
+              "fullExplanation": null,
+              "modelAnswer": "تعارض بين قيم مختلفة مثل الخصوصية مقابل الأمن.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هي الخطوة الأولى في اتخاذ القرار الأخلاقي؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تحديد المشكلة الأخلاقية.",
+              "fullExplanation": null,
+              "modelAnswer": "تحديد المشكلة الأخلاقية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالأطراف المتأثرة (Stakeholders)؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "الأشخاص أو الجهات التي تتأثر بالقرار.",
+              "fullExplanation": null,
+              "modelAnswer": "الأشخاص أو الجهات التي تتأثر بالقرار.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هو مبدأ النفعية (Utilitarianism)؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "اختيار القرار الذي يحقق أكبر فائدة لأكبر عدد.",
+              "fullExplanation": null,
+              "modelAnswer": "اختيار القرار الذي يحقق أكبر فائدة لأكبر عدد.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هو مبدأ أخلاقيات الواجب؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "القيام بالفعل الصحيح بغض النظر عن النتائج.",
+              "fullExplanation": null,
+              "modelAnswer": "القيام بالفعل الصحيح بغض النظر عن النتائج.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية استخدام إطار عمل أخلاقي.",
+              "choices": [],
+              "answer": [],
+              "explanation": "يساعد على اتخاذ قرارات موضوعية\nيقلل التحيز\nيوضح جميع الخيارات\nيبرر القرار منطقيًا",
+              "fullExplanation": null,
+              "modelAnswer": "يساعد على اتخاذ قرارات موضوعية\nيقلل التحيز\nيوضح جميع الخيارات\nيبرر القرار منطقيًا",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل خطوات اتخاذ القرار الأخلاقي.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تحديد المشكلة\nجمع المعلومات\nتحديد الأطراف\nطرح الخيارات\nتقييمها\nاتخاذ القرار\nالتنفيذ\nالتقييم والتعلم",
+              "fullExplanation": null,
+              "modelAnswer": "تحديد المشكلة\nجمع المعلومات\nتحديد الأطراف\nطرح الخيارات\nتقييمها\nاتخاذ القرار\nالتنفيذ\nالتقييم والتعلم",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "قارن بين النفعية وأخلاقيات الواجب.",
+              "choices": [],
+              "answer": [],
+              "explanation": "النفعية: تعتمد على النتائج\nالواجب: تعتمد على القيم والمبادئ\nالنفعية قد تظلم الأقلية\nالواجب يحمي الحقوق",
+              "fullExplanation": null,
+              "modelAnswer": "النفعية: تعتمد على النتائج\nالواجب: تعتمد على القيم والمبادئ\nالنفعية قد تظلم الأقلية\nالواجب يحمي الحقوق",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أخلاقيات الفضيلة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تركز على شخصية الفرد\nتعتمد على القيم مثل الصدق والعدالة\nتهدف لبناء إنسان أخلاقي\nمرنة لكنها أقل وضوحًا",
+              "fullExplanation": null,
+              "modelAnswer": "تركز على شخصية الفرد\nتعتمد على القيم مثل الصدق والعدالة\nتهدف لبناء إنسان أخلاقي\nمرنة لكنها أقل وضوحًا",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش أخلاقيات الرعاية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تركز على العلاقات الإنسانية\nتهتم بالفئات الضعيفة\nتراعي السياق\nقد تؤدي لمحاباة",
+              "fullExplanation": null,
+              "modelAnswer": "تركز على العلاقات الإنسانية\nتهتم بالفئات الضعيفة\nتراعي السياق\nقد تؤدي لمحاباة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل معضلة السيارة ذاتية القيادة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تعارض بين إنقاذ الأكثر أو حماية الفرد\nلا يوجد حل واحد صحيح\nتختلف حسب المنظور الأخلاقي\nتحتاج نقاش مجتمعي",
+              "fullExplanation": null,
+              "modelAnswer": "تعارض بين إنقاذ الأكثر أو حماية الفرد\nلا يوجد حل واحد صحيح\nتختلف حسب المنظور الأخلاقي\nتحتاج نقاش مجتمعي",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مشكلة اكتشاف ثغرة أمنية وتأجيل إصلاحها.",
+              "choices": [],
+              "answer": [],
+              "explanation": "يعرض المستخدمين للخطر\nتضارب بين الربح والأمان\nيجب التصعيد والإبلاغ\nحماية المستخدمين أولًا",
+              "fullExplanation": null,
+              "modelAnswer": "يعرض المستخدمين للخطر\nتضارب بين الربح والأمان\nيجب التصعيد والإبلاغ\nحماية المستخدمين أولًا",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مشكلة التحيز في AI في التوظيف.",
+              "choices": [],
+              "answer": [],
+              "explanation": "يسبب تمييزًا غير عادل\nيعتمد على بيانات متحيزة\nيضر بالمجتمع\nالحل: إعادة تدريب النظام + إشراف بشري",
+              "fullExplanation": null,
+              "modelAnswer": "يسبب تمييزًا غير عادل\nيعتمد على بيانات متحيزة\nيضر بالمجتمع\nالحل: إعادة تدريب النظام + إشراف بشري",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-9-solved-questions",
+          "sourceId": "chapter-9-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 9 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر9-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالمسؤولية الاجتماعية للتقنية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "التزام المطورين باستخدام التقنية بما يخدم المجتمع ويقلل الأضرار.",
+              "fullExplanation": null,
+              "modelAnswer": "التزام المطورين باستخدام التقنية بما يخدم المجتمع ويقلل الأضرار.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا تُعد التقنية سلاحًا ذا حدين؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنها تقدم فوائد كبيرة لكنها قد تسبب أضرارًا مثل الإدمان وفقدان الخصوصية.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنها تقدم فوائد كبيرة لكنها قد تسبب أضرارًا مثل الإدمان وفقدان الخصوصية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هي الفجوة الرقمية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "الفرق بين من يملك الوصول للتقنية ومن لا يملكه.",
+              "fullExplanation": null,
+              "modelAnswer": "الفرق بين من يملك الوصول للتقنية ومن لا يملكه.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما أبعاد الفجوة الرقمية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "الوصول – المهارات – الاستخدام.",
+              "fullExplanation": null,
+              "modelAnswer": "الوصول – المهارات – الاستخدام.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بـ Accessibility؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تصميم أنظمة يمكن للجميع استخدامها بغض النظر عن قدراتهم.",
+              "fullExplanation": null,
+              "modelAnswer": "تصميم أنظمة يمكن للجميع استخدامها بغض النظر عن قدراتهم.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما هي مبادئ WCAG الأساسية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "قابل للإدراك – قابل للتشغيل – مفهوم – متين.",
+              "fullExplanation": null,
+              "modelAnswer": "قابل للإدراك – قابل للتشغيل – مفهوم – متين.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالحوسبة الخضراء؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "استخدام التقنية بطريقة تقلل الأثر البيئي.",
+              "fullExplanation": null,
+              "modelAnswer": "استخدام التقنية بطريقة تقلل الأثر البيئي.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل التأثير الاجتماعي للتكنولوجيا.",
+              "choices": [],
+              "answer": [],
+              "explanation": "إيجابيات: تحسين الحياة، التعليم، الصحة\nسلبيات: الإدمان، التضليل، فقدان الخصوصية\nتزيد الفرص لكنها قد تزيد عدم المساواة",
+              "fullExplanation": null,
+              "modelAnswer": "إيجابيات: تحسين الحياة، التعليم، الصحة\nسلبيات: الإدمان، التضليل، فقدان الخصوصية\nتزيد الفرص لكنها قد تزيد عدم المساواة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أسباب الفجوة الرقمية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "ضعف البنية التحتية\nارتفاع التكلفة\nنقص المهارات\nاختلاف بين الدول والفئات",
+              "fullExplanation": null,
+              "modelAnswer": "ضعف البنية التحتية\nارتفاع التكلفة\nنقص المهارات\nاختلاف بين الدول والفئات",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش آثار الفجوة الرقمية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "حرمان من التعليم\nصعوبة الحصول على وظائف\nاستبعاد من الخدمات\nزيادة عدم المساواة",
+              "fullExplanation": null,
+              "modelAnswer": "حرمان من التعليم\nصعوبة الحصول على وظائف\nاستبعاد من الخدمات\nزيادة عدم المساواة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية إمكانية الوصول (Accessibility).",
+              "choices": [],
+              "answer": [],
+              "explanation": "تضمن العدالة والشمول\nتخدم ذوي الإعاقة وكبار السن\nواجب أخلاقي وقانوني\nتوسع قاعدة المستخدمين",
+              "fullExplanation": null,
+              "modelAnswer": "تضمن العدالة والشمول\nتخدم ذوي الإعاقة وكبار السن\nواجب أخلاقي وقانوني\nتوسع قاعدة المستخدمين",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش معايير WCAG وأهميتها.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تجعل المحتوى قابلًا للإدراك\nتسهّل الاستخدام للجميع\nتحسن تجربة المستخدم\nتدعم التقنيات المساعدة",
+              "fullExplanation": null,
+              "modelAnswer": "تجعل المحتوى قابلًا للإدراك\nتسهّل الاستخدام للجميع\nتحسن تجربة المستخدم\nتدعم التقنيات المساعدة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل التحديات البيئية للتقنية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "استهلاك الطاقة العالي\nالنفايات الإلكترونية\nالتلوث الناتج عن التصنيع\nالبصمة الكربونية",
+              "fullExplanation": null,
+              "modelAnswer": "استهلاك الطاقة العالي\nالنفايات الإلكترونية\nالتلوث الناتج عن التصنيع\nالبصمة الكربونية",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش دور المطور في الاستدامة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "كتابة كود فعال\nتقليل استهلاك الموارد\nاستخدام تقنيات خضراء\nدعم إعادة التدوير",
+              "fullExplanation": null,
+              "modelAnswer": "كتابة كود فعال\nتقليل استهلاك الموارد\nاستخدام تقنيات خضراء\nدعم إعادة التدوير",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل دور التقنية في تحقيق التنمية المستدامة.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تحسين التعليم والصحة\nدعم الاقتصاد\nحل مشاكل بيئية\nتقليل الفقر",
+              "fullExplanation": null,
+              "modelAnswer": "تحسين التعليم والصحة\nدعم الاقتصاد\nحل مشاكل بيئية\nتقليل الفقر",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "ai-ethics-doc-questions__manual-md__chapter-10-solved-questions",
+          "sourceId": "chapter-10-solved-questions",
+          "subjectId": "ai-ethics-doc-questions",
+          "bankId": "manual-md",
+          "bankTitle": "Manual Markdown Exams",
+          "kind": "Open Exam",
+          "title": "Chapter 10 Solved Questions",
+          "description": "Open-answer practice from أخلاقيات-المهنة-جابتر-10-أسئلة-محلولة.md. Press Show answer to reveal the model answer.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالسمعة المهنية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "هي الانطباع الذي يكوّنه الآخرون عنك بناءً على سلوكك وأعمالك.",
+              "fullExplanation": null,
+              "modelAnswer": "هي الانطباع الذي يكوّنه الآخرون عنك بناءً على سلوكك وأعمالك.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا تُعد السمعة أهم من المال؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنها تفتح فرصًا وتحميك وتبقى معك طوال حياتك المهنية.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنها تفتح فرصًا وتحميك وتبقى معك طوال حياتك المهنية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما أهمية الجودة المتسقة في العمل؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "تبني الثقة وتجعل الآخرين يعتمدون عليك.",
+              "fullExplanation": null,
+              "modelAnswer": "تبني الثقة وتجعل الآخرين يعتمدون عليك.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا يُعد الصدق مهمًا في العمل؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأنه أساس الثقة والعلاقات المهنية.",
+              "fullExplanation": null,
+              "modelAnswer": "لأنه أساس الثقة والعلاقات المهنية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالتعلم المستمر؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "الاستمرار في تطوير المهارات لمواكبة التغيرات.",
+              "fullExplanation": null,
+              "modelAnswer": "الاستمرار في تطوير المهارات لمواكبة التغيرات.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "لماذا يجب تطوير الأخلاقيات باستمرار؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "لأن التحديات الأخلاقية تتغير مع تطور التقنية.",
+              "fullExplanation": null,
+              "modelAnswer": "لأن التحديات الأخلاقية تتغير مع تطور التقنية.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ما المقصود بالقيادة الأخلاقية؟",
+              "choices": [],
+              "answer": [],
+              "explanation": "القدرة على توجيه الآخرين ضمن بيئة قائمة على القيم والأخلاق.",
+              "fullExplanation": null,
+              "modelAnswer": "القدرة على توجيه الآخرين ضمن بيئة قائمة على القيم والأخلاق.",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية السمعة المهنية في النجاح.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تفتح فرص عمل\nتبني الثقة\nتحمي في الأزمات\nتستمر على المدى الطويل",
+              "fullExplanation": null,
+              "modelAnswer": "تفتح فرص عمل\nتبني الثقة\nتحمي في الأزمات\nتستمر على المدى الطويل",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش كيفية بناء سمعة مهنية قوية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "جودة العمل\nالصدق والنزاهة\nتحمل المسؤولية\nالتواصل الجيد\nمساعدة الآخرين",
+              "fullExplanation": null,
+              "modelAnswer": "جودة العمل\nالصدق والنزاهة\nتحمل المسؤولية\nالتواصل الجيد\nمساعدة الآخرين",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية التعلم المستمر في مجال التقنية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "مواكبة التطور\nتحسين المهارات\nزيادة التنافسية\nتجنب الركود",
+              "fullExplanation": null,
+              "modelAnswer": "مواكبة التطور\nتحسين المهارات\nزيادة التنافسية\nتجنب الركود",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش استراتيجيات التعلم المستمر.",
+              "choices": [],
+              "answer": [],
+              "explanation": "دورات تدريبية\nقراءة ومتابعة\nمشاريع عملية\nالتعلم من الأخطاء",
+              "fullExplanation": null,
+              "modelAnswer": "دورات تدريبية\nقراءة ومتابعة\nمشاريع عملية\nالتعلم من الأخطاء",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل مفهوم القيادة الأخلاقية.",
+              "choices": [],
+              "answer": [],
+              "explanation": "القدوة الحسنة\nوضع معايير واضحة\nدعم الفريق\nتشجيع الصراحة",
+              "fullExplanation": null,
+              "modelAnswer": "القدوة الحسنة\nوضع معايير واضحة\nدعم الفريق\nتشجيع الصراحة",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش مسؤوليات المحترف تجاه المجتمع.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تطوير تقنيات آمنة\nحماية المستخدمين\nخدمة الصالح العام\nالالتزام بالأخلاق",
+              "fullExplanation": null,
+              "modelAnswer": "تطوير تقنيات آمنة\nحماية المستخدمين\nخدمة الصالح العام\nالالتزام بالأخلاق",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "حلّل أهمية وضع رؤية شخصية للمستقبل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "تحديد الأهداف\nتوجيه القرارات\nوضوح القيم\nتحقيق النجاح",
+              "fullExplanation": null,
+              "modelAnswer": "تحديد الأهداف\nتوجيه القرارات\nوضوح القيم\nتحقيق النجاح",
+              "points": 1
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "ناقش كيفية التعامل مع التحديات الأخلاقية في بداية العمل.",
+              "choices": [],
+              "answer": [],
+              "explanation": "الالتزام بالقيم\nالاستشارة\nالتوثيق\nرفض السلوك غير الأخلاقي",
+              "fullExplanation": null,
+              "modelAnswer": "الالتزام بالقيم\nالاستشارة\nالتوثيق\nرفض السلوك غير الأخلاقي",
+              "points": 1
+            }
+          ]
+        }
+      ],
+      "questionCount": 145,
       "examCount": 10
     },
     {
@@ -7243,6 +9224,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الانتشار العكسي يحسب تأثير الأوزان على الخطأ ثم يحدّثها لتقليل الخطأ.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7259,6 +9241,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المرحلة الخلفية تربط تغير الوزن بتغير الخطأ حتى يمكن تحسين النموذج.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7275,6 +9258,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المثال يذكر أن الناتج الحقيقي هو y_true = 1.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7303,6 +9287,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الأمثلة تعرض كيف تتحول المدخلات والأوزان إلى ناتج.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7319,6 +9304,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "البيرسيبترون يجمع المدخلات مضروبة في الأوزان مع الانحياز ثم يقرر التصنيف.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7347,6 +9333,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الانتشار الأمامي يبدأ من المدخلات ويمر عبر الطبقات حتى ينتج Output.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7363,6 +9350,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "كل طبقة تستخدم ناتج الطبقة السابقة وتطبق أوزانا ودوال تنشيط.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7391,6 +9379,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الشبكات العصبية تستخدم في التعلم الآلي لاكتشاف الأنماط من البيانات.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7407,6 +9396,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "بدون دوال التنشيط تصبح الشبكة أقرب إلى نموذج خطي بسيط.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7423,6 +9413,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المحاضرة تذكر أن Perceptron من أبسط أشكال الشبكات ويستخدم للتصنيف الثنائي.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7451,6 +9442,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الغابة العشوائية تستخدم التعلم التجميعي بتدريب عدد كبير من الأشجار.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7467,6 +9459,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "تنوع العينات والخصائص بين الأشجار يجعل القرار النهائي أكثر استقرارا.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7495,6 +9488,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المثال يستخدم خصائص زهرة السوسن للتنبؤ بتصنيفها.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7511,6 +9505,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "تقسيم البيانات يسمح بتدريب النموذج ثم اختبار أدائه على بيانات منفصلة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7539,6 +9534,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "في الانحدار نقيس الفرق بين قيمة حقيقية وقيمة متوقعة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7555,6 +9551,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MSE يربع الخطأ لذلك يعطي وزنا أكبر للأخطاء الكبيرة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7583,6 +9580,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "R² يوضح مدى تفسير النموذج للتباين في البيانات.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7599,6 +9597,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MAE يعطي متوسط مقدار الخطأ بدون تربيع.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7627,6 +9626,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "التصنيف يقيس قدرة النموذج على اختيار الفئة الصحيحة.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7643,6 +9643,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "مصفوفة الالتباس هي أساس مقاييس مثل Accuracy وPrecision وRecall.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7671,6 +9672,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "تحسين النموذج يركز على الأداء والتعميم وتقليل الأخطاء.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7687,6 +9689,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "جودة البيانات تؤثر مباشرة في جودة النموذج.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7715,6 +9718,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "التحقق المتقاطع يكرر التدريب والاختبار على أجزاء مختلفة من البيانات.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7731,6 +9735,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "تقسم البيانات إلى k أجزاء ويتم التبديل بين التدريب والاختبار.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7759,6 +9764,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "دمج النماذج قد يحسن الدقة والاستقرار مقارنة بنموذج منفرد.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7775,6 +9781,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المحاضرة تميز بين التدريب المتوازي على عينات مختلفة والتدريب المتتابع لتصحيح الأخطاء.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -7819,6 +9826,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The OS (Operating System) hides hardware complexity and coordinates its use.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7835,6 +9843,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "An OS (Operating System) is both a resource manager and an extended machine.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7851,6 +9860,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The OS (Operating System) hides messy hardware details behind usable abstractions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7867,6 +9877,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The OS (Operating System) decides who gets resources and when.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7883,6 +9894,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The OS (Operating System) prevents conflicts and unfair use.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7899,6 +9911,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CPU (Central Processing Unit) sharing is a classic time-multiplexed resource.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7915,6 +9928,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Memory is commonly space-multiplexed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7931,6 +9945,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Batch systems grouped jobs and used control instructions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7947,6 +9962,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Control cards told the batch monitor what to do.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7963,6 +9979,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multiprogramming increases CPU (Central Processing Unit) utilization.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7979,6 +9996,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Spooling decouples programs from slow I/O devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -7995,6 +10013,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Timesharing made computers interactive.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8011,6 +10030,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MULTICS (Multiplexed Information and Computing Service) introduced influential OS (Operating System) concepts.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8027,6 +10047,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "UNIX became widely influential because of portability and simplicity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8043,6 +10064,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "High-level language implementation improved portability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8059,6 +10081,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "GUIs (Graphical User Interfaces) changed the user interface model.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8075,6 +10098,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The CPU (Central Processing Unit) executes program instructions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8091,6 +10115,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The PC (Program Counter) controls instruction sequencing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8107,6 +10132,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The stack pointer supports calls, returns, and local state.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8123,6 +10149,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The status register tracks CPU (Central Processing Unit) execution state.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8139,6 +10166,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pipelines increase instruction throughput.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8155,6 +10183,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Branches and dependencies can disrupt pipelines.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8171,6 +10200,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Superscalar designs exploit instruction-level parallelism.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8187,6 +10217,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Modes protect the system from applications.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8203,6 +10234,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Privileged operations require OS (Operating System) control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8219,6 +10251,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "System calls let programs request OS (Operating System) services safely.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8235,6 +10268,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hardware threads help keep execution units busy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8251,6 +10285,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multicore provides parallel execution units.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8267,6 +10302,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Registers are closest to the CPU (Central Processing Unit).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8283,6 +10319,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Caches exploit locality.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8299,6 +10336,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Cache levels trade speed for capacity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8315,6 +10353,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Flash and SSD (Solid State Drive) storage are nonvolatile.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8331,6 +10370,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Virtual memory decouples program addresses from RAM (Random Access Memory).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8347,6 +10387,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The MMU (Memory Management Unit) performs address translation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8363,6 +10404,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Magnetic disks have mechanical seek and rotational latency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8379,6 +10421,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SSDs (Solid State Drives) avoid mechanical seek delay.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8395,6 +10438,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Controllers mediate between CPU (Central Processing Unit) and devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8411,6 +10455,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Drivers hide device-specific details.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8427,6 +10472,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Faulty drivers can crash or compromise systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8443,6 +10489,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Buses move data and control signals.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8459,6 +10506,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Booting starts the machine and OS (Operating System).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8475,6 +10523,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Bootstrap code begins the OS (Operating System) loading process.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8491,6 +10540,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Different systems need different OS (Operating System) designs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8507,6 +10557,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Real-time systems care about predictable response.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8523,6 +10574,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Embedded systems are specialized devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8539,6 +10591,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Processes are active program executions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8555,6 +10608,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Processes can create other processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8571,6 +10625,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Ready processes wait for CPU (Central Processing Unit) scheduling.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8587,6 +10642,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Blocked processes cannot run until the event occurs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8603,6 +10659,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Address spaces isolate process memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8619,6 +10676,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Files abstract persistent storage.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8635,6 +10693,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Directories organize files.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8651,6 +10710,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mounting integrates storage into a namespace.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8667,6 +10727,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pipes pass data streams between processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8683,6 +10744,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Special files let device I/O look file-like.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8699,6 +10761,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shells provide a user interface to system calls and programs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8715,6 +10778,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "fork duplicates process execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8731,6 +10795,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "exec loads a different program into a process.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8747,6 +10812,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "wait synchronizes parent and child processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8763,6 +10829,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "File calls expose persistent storage operations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8779,6 +10846,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Directory calls manage namespaces.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8795,6 +10863,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Win32 is an application programming interface.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8811,6 +10880,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Applications commonly use API (Application Programming Interface) libraries rather than raw syscall numbers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8827,6 +10897,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Monolithic kernels place many services in kernel mode.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8843,6 +10914,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Layering organizes OS (Operating System) complexity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8859,6 +10931,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Microkernels aim for reliability and modularity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8875,6 +10948,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Client-server design separates service providers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8891,6 +10965,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VMs (Virtual Machines) virtualize machine resources.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8907,6 +10982,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Containers isolate processes without full hardware virtualization.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8923,6 +10999,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Exokernels separate protection from abstraction.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -8951,6 +11028,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The process model abstracts CPU (Central Processing Unit) execution for programs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8967,6 +11045,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A process includes execution context.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8983,6 +11062,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Processes begin for several OS (Operating System)-level reasons.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -8999,6 +11079,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "fork creates a process.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9015,6 +11096,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Normal exit is voluntary completion.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9031,6 +11113,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Error exit is voluntary but abnormal.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9047,6 +11130,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Fatal errors crash the process.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9063,6 +11147,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Signals or kill operations can terminate processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9079,6 +11164,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Running means the process has the CPU (Central Processing Unit).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9095,6 +11181,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Waiting for I/O blocks the process.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9111,6 +11198,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dispatching moves a process to running.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9127,6 +11215,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The OS (Operating System) tracks each process in tables.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9143,6 +11232,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A PCB (Process Control Block) stores execution context and resources.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9159,6 +11249,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Threads are lighter-weight execution units.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9175,6 +11266,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Threads share process-level resources.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9191,6 +11283,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Each thread needs its own execution state.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9207,6 +11300,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Threads improve responsiveness.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9223,6 +11317,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Threads allow overlapping I/O and request handling.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9239,6 +11334,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The model separates resource ownership from execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9255,6 +11351,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pthreads are a common threading interface.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9271,6 +11368,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "pthread_create creates a thread.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9287,6 +11385,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "join synchronizes with thread completion.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9303,6 +11402,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "User-level thread packages can switch quickly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9319,6 +11419,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The kernel may not know individual user threads.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9335,6 +11436,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kernel threads are visible to the OS (Operating System) scheduler.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9351,6 +11453,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kernel crossings add overhead.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9367,6 +11470,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hybrid models try to get both speed and kernel awareness.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9383,6 +11487,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Concurrency introduces races and reentrancy issues.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9399,6 +11504,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Event-driven designs multiplex work using events.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9415,6 +11521,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Interprocess communication supports cooperation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9431,6 +11538,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Races happen when shared data is accessed without proper coordination.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9447,6 +11555,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Critical regions require mutual exclusion.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9463,6 +11572,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mutual exclusion protects shared state.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9479,6 +11589,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mutual exclusion is the first requirement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9495,6 +11606,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Progress prevents unnecessary blocking.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9511,6 +11623,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Bounded waiting prevents starvation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9527,6 +11640,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Peterson uses shared variables to coordinate entry.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9543,6 +11657,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Busy waiting wastes CPU (Central Processing Unit) while waiting.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9559,6 +11674,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TSL (Test and Set Lock) provides hardware support for mutual exclusion.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9575,6 +11691,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Atomicity prevents two CPUs (Central Processing Units) acquiring the lock together.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9591,6 +11708,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Sleeping blocks the process instead of busy waiting.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9607,6 +11725,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lost wakeups can leave a process sleeping forever.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9623,6 +11742,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A full buffer means the producer cannot add more.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9639,6 +11759,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "An empty buffer means no item is available.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9655,6 +11776,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Semaphores generalize sleep/wakeup with counting.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9671,6 +11793,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "down acquires or waits.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9687,6 +11810,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "up releases or signals.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9703,6 +11827,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "One available permit allows one entrant.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9719,6 +11844,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mutexes protect critical sections.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9735,6 +11861,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Fast user-level checks reduce overhead.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9751,6 +11878,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Futexes combine user-space fast path with kernel wait queues.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9767,6 +11895,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kernel help is needed only for waiting/wakeup.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9783,6 +11912,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Monitors package data and synchronization.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9799,6 +11929,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Java synchronized uses monitor locking.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9815,6 +11946,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Condition variables coordinate blocking inside monitors.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9831,6 +11963,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Message passing exchanges data without shared memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9847,6 +11980,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Messages naturally cross machine boundaries.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9863,6 +11997,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Barriers coordinate phases of parallel computation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9879,6 +12014,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Barriers keep iterations aligned.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9895,6 +12031,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Priority inversion can break responsiveness.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9911,6 +12048,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Inheritance helps the lock holder run and release quickly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9927,6 +12065,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RCU (Read-Copy-Update) improves read-heavy concurrency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9943,6 +12082,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RCU (Read-Copy-Update) separates update preparation from publication.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9959,6 +12099,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux uses RCU (Read-Copy-Update) for high-performance reading.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9975,6 +12116,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Scheduling allocates CPU (Central Processing Unit) time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -9991,6 +12133,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Switching has direct and indirect overhead.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10007,6 +12150,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Compute-bound jobs mostly calculate.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10023,6 +12167,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "I/O-bound jobs often wait for devices/users.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10039,6 +12184,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Schedulers run at state-changing events.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10055,6 +12201,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Preemption improves responsiveness.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10071,6 +12218,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Nonpreemptive scheduling relies on voluntary release.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10087,6 +12235,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Interactive systems need quick response.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10103,6 +12252,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Batch systems focus on completing jobs efficiently.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10119,6 +12269,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Interactive systems must feel responsive.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10135,6 +12286,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Real-time systems are deadline-oriented.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10151,6 +12303,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "First-Come, First-Served is simple and fair by arrival order.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10167,6 +12320,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FCFS (First-Come, First-Served) can perform poorly when a long job arrives first.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10183,6 +12337,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SJF (Shortest Job First) minimizes average turnaround when estimates are known.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10199,6 +12354,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SJF (Shortest Job First) needs burst predictions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10215,6 +12371,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SRTN (Shortest Remaining Time Next) can preempt for newly arrived short jobs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10231,6 +12388,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RR (Round Robin) is common for interactive time sharing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10247,6 +12405,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Quantum size trades responsiveness and overhead.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10263,6 +12422,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture gives 20-50 ms as a common compromise.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10279,6 +12439,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Priorities influence CPU (Central Processing Unit) selection.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10295,6 +12456,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Low-priority jobs may wait too long.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10311,6 +12473,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multiple queues favor interactive behavior.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10327,6 +12490,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SPN (Shortest Process Next) predicts burst length.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10343,6 +12507,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Guaranteed scheduling tries to deliver promised shares.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10359,6 +12524,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Ticket counts represent resource share probability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10375,6 +12541,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lottery shares are proportional to tickets over time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10391,6 +12558,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Static scheduling requires known work and deadlines.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10407,6 +12575,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dynamic scheduling adapts during execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10423,6 +12592,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Separating them gives flexibility.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10439,6 +12609,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "User-level policy can guide kernel mechanisms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -10467,6 +12638,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Parallelism lets systems solve large problems when one CPU (Central Processing Unit) is not enough.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10483,6 +12655,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Long scientific computations benefit from many CPUs (Central Processing Units).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10499,6 +12672,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shared-memory systems let CPUs (Central Processing Units) address the same memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10515,6 +12689,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multicomputers do not share physical memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10531,6 +12706,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Wide-area distributed systems are loosely connected complete systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10547,6 +12723,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "UMA (Uniform Memory Access) gives equal memory access time to all memory locations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10563,6 +12740,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A single bus becomes a bottleneck as CPU (Central Processing Unit) count grows.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10579,6 +12757,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Local cache hits reduce bus traffic.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10595,6 +12774,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Caches move data in blocks rather than one byte at a time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10611,6 +12791,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Crossbars increase parallel memory access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10627,6 +12808,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Crossbar cost and complexity grow too fast.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10643,6 +12825,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multistage networks reduce switch complexity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10659,6 +12842,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NUMA (Non-Uniform Memory Access) memory is physically distributed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10675,6 +12859,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Static address ranges can map to different NUMA (Non-Uniform Memory Access) nodes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10691,6 +12876,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multicore puts multiple CPU (Central Processing Unit) cores on one chip.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10707,6 +12893,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Manycore designs provide massive on-chip parallelism.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10723,6 +12910,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "GPUs (Graphics Processing Units) run the same operation over lots of data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10739,6 +12927,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Simultaneous multithreading exposes hardware threads as CPUs (Central Processing Units) to the OS (Operating System).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10755,6 +12944,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Early ports used separate OS (Operating System) state per CPU (Central Processing Unit) for simplicity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10771,6 +12961,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The leader coordinates OS (Operating System) work and process assignment.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10787,6 +12978,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Centralizing OS (Operating System) work limits scalability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10803,6 +12995,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SMP (Symmetric Multiprocessing) treats CPUs (Central Processing Units) more equally.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10819,6 +13012,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The big kernel lock simplified synchronization but limited parallelism.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10835,6 +13029,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multiprocessors need inter-CPU (Central Processing Unit) synchronization.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10851,6 +13046,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Atomic primitives protect shared data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10867,6 +13063,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Busy lock variables can move between caches constantly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10883,6 +13080,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Spinning wastes CPU (Central Processing Unit) cycles if the lock is not soon released.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10899,6 +13097,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Switching has overhead too.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10915,6 +13114,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A preempted lock holder can stall other CPUs (Central Processing Units).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10931,6 +13131,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A central queue balances load but can become contended.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10947,6 +13148,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Space sharing gives a job a set of CPUs (Central Processing Units) at once.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10963,6 +13165,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dedicated CPU (Central Processing Unit) groups can improve parallel job execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10979,6 +13182,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Gang scheduling helps parallel threads interact promptly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -10995,6 +13199,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multicomputers use message passing across nodes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11011,6 +13216,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Topology defines node interconnection structure.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11027,6 +13233,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Store-and-forward adds per-hop delay.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11043,6 +13250,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Circuit switching reserves a communication path.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11059,6 +13267,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Extra memory copies cost time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11075,6 +13284,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "User-level access can reduce data movement overhead.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11091,6 +13301,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RDMA (Remote Direct Memory Access) reduces latency by bypassing OS (Operating System) involvement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11107,6 +13318,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Blocking send delays the sender until transfer progress is made.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11123,6 +13335,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Nonblocking send improves overlap but needs buffering.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11139,6 +13352,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RPC (Remote Procedure Call) hides message passing behind call syntax.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11155,6 +13369,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Client and server stubs package call data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11171,6 +13386,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Addresses do not refer to the same memory on another machine.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11187,6 +13403,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "DSM (Distributed Shared Memory) simulates shared memory over a network.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11203,6 +13420,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "DSM (Distributed Shared Memory) uses page faults to move data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11219,6 +13437,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Page-level sharing can cause unnecessary movement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11235,6 +13454,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Good placement keeps communicating processes near each other.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11251,6 +13471,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Graph weights represent communication intensity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11267,6 +13488,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The sender is the overloaded node.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11283,6 +13505,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "When everyone is overloaded, probes often fail.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11299,6 +13522,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The receiver is the node seeking work.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11315,6 +13539,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Receiver probing is naturally limited when load is high.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -11343,6 +13568,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture contrasts this ideal with real memory hierarchy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11359,6 +13585,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Registers are fastest and disks/SSDs (Solid State Drives) are slower but cheaper.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11375,6 +13602,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Tracking memory usage is a core memory manager function.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11391,6 +13619,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "It manages process memory lifetime.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11407,6 +13636,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Early/simple systems exposed physical memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11423,6 +13653,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Physical addresses allow interference.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11439,6 +13670,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IBM (International Business Machines) 360 used keys to protect memory blocks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11455,6 +13687,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Static relocation adjusts addresses before execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11471,6 +13704,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Relocating values that are not addresses is wrong.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11487,6 +13721,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Address spaces abstract memory names from locations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11503,6 +13738,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Base plus limit gives each process a protected region.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11519,6 +13755,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Generated addresses are added to the base.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11535,6 +13772,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Limit checking protects memory bounds.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11551,6 +13789,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Swapping frees RAM (Random Access Memory) when total process demand exceeds capacity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11567,6 +13806,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Variable process placement creates fragmentation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11583,6 +13823,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Compaction reduces external fragmentation but is expensive.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11599,6 +13840,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Bitmaps compactly track allocation units.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11615,6 +13857,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Unit size affects metadata size and internal fragmentation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11631,6 +13874,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linked lists represent memory as ordered segments.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11647,6 +13891,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Merging reduces fragmentation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11663,6 +13908,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "First Fit is simple and fast.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11679,6 +13925,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Next Fit often performs worse than First Fit.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11695,6 +13942,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Best Fit can leave tiny unusable holes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11711,6 +13959,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Quick Fit speeds allocation but complicates merging.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11727,6 +13976,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Virtual memory overlays address space parts between RAM (Random Access Memory) and storage.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11743,6 +13993,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Paging divides virtual memory into pages.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11759,6 +14010,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Physical RAM (Random Access Memory) is divided into frames.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11775,6 +14027,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The MMU (Memory Management Unit) performs hardware address translation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11791,6 +14044,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Page faults bring missing pages into memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11807,6 +14061,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The page number indexes mapping; offset is copied.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11823,6 +14078,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dirty pages must be saved before replacement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11839,6 +14095,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The present bit controls page-fault behavior.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11855,6 +14112,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dirty pages require write-back before eviction.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11871,6 +14129,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Referenced bits help replacement algorithms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11887,6 +14146,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TLB (Translation Lookaside Buffer) hits avoid page-table memory access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11903,6 +14163,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Soft miss needs translation handling, not disk I/O.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11919,6 +14180,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hard misses involve page faults and disk/storage access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11935,6 +14197,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Only used parts of the hierarchy need memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11951,6 +14214,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Inverted tables help with huge virtual address spaces.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11967,6 +14231,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lookup is no longer direct by virtual page number.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11983,6 +14248,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Optimal is a benchmark because the future is unknowable.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -11999,6 +14265,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "It serves as a theoretical comparison.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12015,6 +14282,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NRU (Not Recently Used) chooses from the lowest-numbered nonempty class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12031,6 +14299,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FIFO (First-In, First-Out) is simple but can remove heavily used pages.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12047,6 +14316,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Second Chance avoids immediately evicting referenced pages.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12063,6 +14333,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Clock efficiently approximates Second Chance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12079,6 +14350,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LRU (Least Recently Used) relies on locality.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12095,6 +14367,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Precise recency tracking is costly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12111,6 +14384,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NFU (Not Frequently Used) counts frequency, not true recentness.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12127,6 +14401,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Aging approximates LRU (Least Recently Used) better than plain NFU (Not Frequently Used).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12143,6 +14418,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Working sets represent active memory needs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12159,6 +14435,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Too little memory causes excessive paging.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12175,6 +14452,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Prepaging reduces immediate page faults.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12191,6 +14469,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "WSClock is practical and widely used.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12207,6 +14486,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Local allocation isolates replacement decisions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12223,6 +14503,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Global allocation adapts to changing process needs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12239,6 +14520,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "PFF (Page Fault Frequency) expands or shrinks allocations dynamically.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12255,6 +14537,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Reducing multiprogramming can restore efficiency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12271,6 +14554,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Same page merging saves RAM (Random Access Memory).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12287,6 +14571,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "COW (Copy-On-Write) keeps sharing safe until modification.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12303,6 +14588,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Small pages waste less space at segment ends.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12319,6 +14605,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Large pages reduce mapping overhead.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12335,6 +14622,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "They can increase usable address space and cache design flexibility.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12351,6 +14639,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Sharing saves memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12367,6 +14656,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Position-independent code avoids hard-coded addresses.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12383,6 +14673,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "DMA (Direct Memory Access) pages must stay resident to avoid corruption.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12399,6 +14690,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Swap partitions provide fast backing store.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12415,6 +14707,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dynamic backing can save disk space.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12431,6 +14724,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Policy decides behavior; mechanism implements primitive actions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12447,6 +14741,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mechanism supplies the low-level capability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12463,6 +14758,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Segmentation is two-dimensional memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12479,6 +14775,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Separate logical units such as stack and symbol table can be managed independently.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12495,6 +14792,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Compaction may be needed to reclaim holes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12511,6 +14809,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Systems such as MULTICS (Multiplexed Information and Computing Service) and x86 combine concepts.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -12539,6 +14838,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Files let processes use persistent data without hardware details.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12555,6 +14855,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture contrasts naming rules across systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12571,6 +14872,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Extensions can imply type or simply be naming conventions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12587,6 +14889,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "UNIX and Windows commonly use byte streams.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12603,6 +14906,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Older mainframe systems often used records.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12619,6 +14923,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Tree files support keyed lookup.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12635,6 +14940,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Regular files store ordinary user data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12651,6 +14957,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Directories map names into file-system objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12667,6 +14974,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "UNIX-like systems expose devices through special files.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12683,6 +14991,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Terminals and printers are character-like devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12699,6 +15008,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Disks are block devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12715,6 +15025,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "ASCII (American Standard Code for Information Interchange) files are human-readable text.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12731,6 +15042,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Binary formats may include headers and relocation data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12747,6 +15059,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Tapes are a classic sequential medium.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12763,6 +15076,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Direct access enables efficient lookup.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12779,6 +15093,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Attributes describe a file beyond its data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12795,6 +15110,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Flags control file properties.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12811,6 +15127,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Seek enables random access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12827,6 +15144,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Rename updates names, not contents.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12843,6 +15161,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "It is simple but poor for many users/files.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12859,6 +15178,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hierarchy organizes files and users.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12875,6 +15195,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Absolute paths start at root.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12891,6 +15212,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Relative paths depend on current location.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12907,6 +15229,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "These special entries help navigate directories.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12923,6 +15246,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Directory structure must be updated safely by the OS (Operating System).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12939,6 +15263,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MBR (Master Boot Record) is part of older disk boot layout.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12955,6 +15280,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "GPT (GUID Partition Table) supports very large disks and modern booting.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12971,6 +15297,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Contiguous allocation is simple and fast for sequential reads.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -12987,6 +15314,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Files need contiguous free runs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13003,6 +15331,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linked allocation avoids external fragmentation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13019,6 +15348,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "To reach block n, previous links must be followed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13035,6 +15365,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FAT (File Allocation Table) centralizes block chain pointers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13051,6 +15382,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Large disks make FAT (File Allocation Table) tables large.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13067,6 +15399,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "I-nodes describe files and locate their blocks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13083,6 +15416,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "I-nodes avoid a huge global in-memory table.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13099,6 +15433,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Indirect pointers extend address capacity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13115,6 +15450,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Directories connect names to file objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13131,6 +15467,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hard links share one underlying file object and reference count.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13147,6 +15484,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Symbolic links can cross file-system boundaries.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13163,6 +15501,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LFS (Log-Structured File System) treats the disk like a log for efficient writes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13179,6 +15518,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Journals avoid slow full consistency checks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13195,6 +15535,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Flash translation and TRIM (SSD cleanup command)-like support matter.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13211,6 +15552,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VFS (Virtual File System) hides file-system differences.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13227,6 +15569,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Block size balances internal fragmentation and I/O efficiency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13243,6 +15586,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Free-space management tracks available disk blocks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13259,6 +15603,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Bitmaps compactly represent free/used blocks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13275,6 +15620,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Quotas control user storage consumption.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13291,6 +15637,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Soft limits warn users.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13307,6 +15654,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hard limits enforce storage caps.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13323,6 +15671,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Physical dumps operate below file structure.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13339,6 +15688,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Logical backups follow file-system structure.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13355,6 +15705,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Crashes can leave inconsistent metadata.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13371,6 +15722,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Caching avoids slow disk accesses.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13387,6 +15739,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Read ahead improves sequential hit rate.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13403,6 +15756,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Physical locality reduces seek time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13419,6 +15773,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Magnetic disks benefit from reduced seeking.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13435,6 +15790,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SSDs (Solid State Drives) have no mechanical seek delay.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13451,6 +15807,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Compression stores less data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13467,6 +15824,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deduplication saves storage or memory for duplicates.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13483,6 +15841,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deleting metadata does not erase old contents.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13499,6 +15858,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Encryption keeps physical media unreadable without keys.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13515,6 +15875,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Microsoft Disk Operating System (MS-DOS) FAT (File Allocation Table) tracks block chains.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13531,6 +15892,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "UNIX V7 (Version 7) uses i-node addressing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13547,6 +15909,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Middleware hides differences between systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13563,6 +15926,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The web connects documents by URLs (Uniform Resource Locators) and links.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13579,6 +15943,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Distributed files can make remote data look local.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13595,6 +15960,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "File-system middleware uses file operations as communication.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13611,6 +15977,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linda coordinates through tuples.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13627,6 +15994,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "out publishes a tuple.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13643,6 +16011,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "in consumes a tuple.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13659,6 +16028,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "read observes tuple data non-destructively.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13675,6 +16045,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pub/sub decouples producers and consumers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13691,6 +16062,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A daemon can implement subscription delivery.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -13719,6 +16091,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Virtualization creates virtual machines or environments on top of physical hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13735,6 +16108,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The VMM (Virtual Machine Monitor) controls the real machine and presents virtual machines to guests.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13751,6 +16125,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Guests normally believe they are running on their own machine.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13767,6 +16142,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Type 0 hypervisors are implemented by hardware/firmware features such as partitions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13783,6 +16159,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LPARs (Logical Partitions) and LDOMs (Logical Domains) are firmware/hardware-style partitioning systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13799,6 +16176,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Type 1 hypervisors provide virtualization directly on physical hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13815,6 +16193,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists dedicated and general-purpose OS (Operating System) variants as Type 1.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13831,6 +16210,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Type 2 hypervisors are hosted applications such as VMware Workstation or VirtualBox.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13847,6 +16227,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hosted hypervisors are easy to install on normal systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13863,6 +16244,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Paravirtualized guests use hypervisor-aware interfaces.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13879,6 +16261,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hardware support can handle operations that once required guest changes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13895,6 +16278,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "This virtualizes a language/runtime environment instead of real hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13911,6 +16295,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Emulation allows cross-architecture execution but is much slower.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13927,6 +16312,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Instruction translation creates major overhead.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13943,6 +16329,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Zones and jails isolate applications while sharing the host kernel.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13959,6 +16346,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Application containment virtualizes OS (Operating System) views rather than full hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13975,6 +16363,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The classical definition includes control, equivalence, and efficiency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -13991,6 +16380,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The VMM (Virtual Machine Monitor) saves and restores VCPU (Virtual Central Processing Unit) state when scheduling guests.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14007,6 +16397,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The VMM (Virtual Machine Monitor) must protect itself while letting guest kernels believe they are privileged.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14023,6 +16414,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Trap-and-emulate is a core virtualization technique.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14039,6 +16431,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kernel-like guest operations need VMM (Virtual Machine Monitor) intervention.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14055,6 +16448,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Problematic instructions such as popf could not be handled by simple trap-and-emulate.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14071,6 +16465,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Binary translation rewrites sensitive code paths before execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14087,6 +16482,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NPTs (Nested Page Tables) separate guest-visible physical memory from machine memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14103,6 +16499,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Extra translation layers can increase TLB (Translation Lookaside Buffer) pressure.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14119,6 +16516,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hardware assistance reduces the need for binary translation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14135,6 +16533,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The CPU (Central Processing Unit) can run guests while trapping selected sensitive events.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14151,6 +16550,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VMs (Virtual Machines) are managed objects with configurable CPU (Central Processing Unit), memory, network, and storage.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14167,6 +16567,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Easy VM (Virtual Machine) creation can lead to uncontrolled growth.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14183,6 +16584,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shared I/O often needs a control partition or special design.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14199,6 +16601,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Control partitions help provide shared services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14215,6 +16618,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Type 1 hypervisors act like datacenter operating systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14231,6 +16635,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Less hypervisor involvement can improve I/O performance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14247,6 +16652,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NAT (Network Address Translation) lets guests communicate using translated addresses.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14263,6 +16669,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Overcommitment is common when not enough CPUs (Central Processing Units) exist for all VCPUs (Virtual Central Processing Units).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14279,6 +16686,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VMM (Virtual Machine Monitor) scheduling affects guest-visible timing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14295,6 +16703,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Double paging can occur when both guest and VMM (Virtual Machine Monitor) manage memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14311,6 +16720,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Ballooning helps the VMM (Virtual Machine Monitor) reclaim or return guest memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14327,6 +16737,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deduplication reduces memory use when guests share identical content.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14343,6 +16754,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Disk images make copying, moving, and creating guests easier.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14359,6 +16771,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Physical-to-virtual conversion migrates existing systems into VM (Virtual Machine) format.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14375,6 +16788,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Live migration is a major VMM (Virtual Machine Monitor) feature for maintenance and load balancing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14391,6 +16805,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The final stop-and-copy phase transfers remaining changed state.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14407,6 +16822,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VMware Workstation runs on top of a native host OS (Operating System).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14423,6 +16839,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The JVM (Java Virtual Machine) provides a virtual execution environment for Java bytecode.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14439,6 +16856,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Java programs compile to bytecode for portability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14455,6 +16873,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "JIT (Just-In-Time) improves runtime performance over pure interpretation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -14483,6 +16902,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multimedia systems deal with ordinary files plus time-sensitive continuous media.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14499,6 +16919,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Audio/video require timely delivery at high data rates.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14515,6 +16936,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Continuous media must arrive and be presented on time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14531,6 +16953,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multimedia often tolerates occasional small deadline misses.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14547,6 +16970,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Continuous media streams often have periodic processing demands.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14563,6 +16987,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multimedia affects scheduling, disk layout, timing sync, and data movement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14579,6 +17004,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deadlines define when media results must be ready.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14595,6 +17021,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Video streaming commonly uses soft deadlines.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14611,6 +17038,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hard deadlines are dictated by physical real-time processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14627,6 +17055,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Resource managers must preserve guarantees for active streams.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14643,6 +17072,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Active resources perform work and are often exclusive.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14659,6 +17089,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Passive resources support active resources and are usually more shareable.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14675,6 +17106,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Throughput describes how much data must be processed or transferred.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14691,6 +17123,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Local delay is per-resource timing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14707,6 +17140,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "End-to-end delay covers the whole path.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14723,6 +17157,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Jitter measures timing variation, important for smooth playback.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14739,6 +17174,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FEC (Forward Error Correction) avoids waiting for retransmission during playback.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14755,6 +17191,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Admission control checks whether guarantees can be met.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14771,6 +17208,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists these three phases.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14787,6 +17225,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pessimistic schemes are conservative.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14803,6 +17242,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Optimistic schemes improve utilization but need overload handling.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14819,6 +17259,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LDUs (Logical Domain Units) model media stream units along an end-to-end path.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14835,6 +17276,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LBAP (Linear Bounded Arrival Process) uses B, R, and M.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14851,6 +17293,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The formula sizes buffers for bursty arrivals.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14867,6 +17310,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Logical backlog tracks work that arrives early.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14883,6 +17327,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Once logical arrival time passes, delay threatens playback.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14899,6 +17344,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The dispatcher is the kernel component that selects what runs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14915,6 +17361,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Both critical and noncritical work must be managed properly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14931,6 +17378,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "EDF (Earliest Deadline First) and RM (Rate Monotonic) are the lecture basic algorithms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14947,6 +17395,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Tasks are described as (s, e, d, p).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14963,6 +17412,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Utilization measures CPU (Central Processing Unit) demand relative to available period.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14979,6 +17429,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "EDF (Earliest Deadline First) is dynamic and deadline-driven.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -14995,6 +17446,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "EDF (Earliest Deadline First) is optimal under feasible loads but not magic under overload.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15011,6 +17463,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TDS (Time-Driven Scheduler) avoids wasting time on impossible jobs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15027,6 +17480,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Scalable media can reduce quality by dropping optional work.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15043,6 +17497,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RM (Rate Monotonic) is static and rate-based.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15059,6 +17514,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RM (Rate Monotonic) works for periodic independent task sets.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15075,6 +17531,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The bound is a schedulability test.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15091,6 +17548,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LLF (Least Laxity First) dynamically prioritizes the least slack.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15107,6 +17565,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Accurate remaining time is hard to know.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15123,6 +17582,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Preemption lets urgent tasks regain the resource.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15139,6 +17599,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Media playback depends on timely disk service.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15155,6 +17616,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Contiguous storage is fast but inflexible.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15171,6 +17633,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Non-contiguous layouts can hurt media streaming.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15187,6 +17650,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Moving the disk head is usually the biggest mechanical delay.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15203,6 +17667,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SSTF (Shortest Seek Time First) reduces seek time but may starve edge requests.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15219,6 +17684,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Circular SCAN (Elevator disk scheduling) makes wait times more uniform.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15235,6 +17701,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deadline order alone may destroy disk throughput.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15251,6 +17718,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SCAN (Elevator disk scheduling) plus Earliest Deadline First (SCAN-EDF) balances timing and disk movement efficiency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15267,6 +17735,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "GSS (Global Scheduling System) reduces seek overhead while respecting deadline groups.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15283,6 +17752,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mixed scheduling changes behavior based on urgency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15299,6 +17769,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "High urgency means streams need data soon.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15315,6 +17786,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Low urgency gives room to optimize disk movement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -15343,6 +17815,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "An embedded system is computing hardware and software built into a product for a dedicated function.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15359,6 +17832,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Sensors detect environmental input, and actuators perform output actions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15375,6 +17849,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Reactive systems respond to outside events such as sensor changes or control signals.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15391,6 +17866,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Embedded systems usually have strict limits on power, memory, size, timing, and reliability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15407,6 +17883,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Application processors are high-end and general within the device, while dedicated processors are optimized for special functions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15423,6 +17900,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Microcontrollers integrate the processor, memory, and I/O logic in one package.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15439,6 +17917,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Microcontrollers are cheap, small, and efficient, so they appear in cars, toys, appliances, and many other products.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15455,6 +17934,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deeply embedded systems are often tiny, single-purpose, networked sensing or control devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15471,6 +17951,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deeply embedded devices often run on batteries with limited memory and processing power.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15487,6 +17968,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Embedded OSs (Operating Systems) are often configurable, reactive, interrupt-driven, and tailored to device hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15503,6 +17985,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "As embedded software becomes complex, an OS (Operating System) helps coordinate tasks and hardware events.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15519,6 +18002,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Code is usually written and built on a powerful host, then run on a smaller target device.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15535,6 +18019,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A cross-compiler is needed when the development host and embedded target use different architectures.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15551,6 +18036,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The boot loader is the early startup program that prepares hardware and loads the OS (Operating System) kernel.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15567,6 +18053,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Unneeded modules such as paging on non-MMU (Memory Management Unit) hardware waste space and may not work.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15583,6 +18070,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Stripped-down commercial OSs (Operating Systems) can be familiar but may still carry size and timing costs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15599,6 +18087,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Purpose-built embedded OSs (Operating Systems) are designed for small size and predictable timing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15615,6 +18104,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Real-time kernels must provide predictable timing and mechanisms for timed control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15631,6 +18121,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Embedded Linux is Linux adapted and configured for device constraints.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15647,6 +18138,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture classifies embedded Linux by size, timing, connectivity, and interface complexity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15663,6 +18155,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kernel growth conflicts with embedded memory and storage limits, so unused features are removed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15679,6 +18172,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Embedded systems commonly use flash, which needs specialized file-system behavior.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15695,6 +18189,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "JFFS2 (Journaling Flash File System version 2) is the journaling flash file system used for flash devices and wear leveling.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15711,6 +18206,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "cramfs and squashfs are compressed read-only file systems used to save space.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15727,6 +18223,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Embedded Linux benefits include low cost, open source, vendor independence, and hardware support.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15743,6 +18240,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "mClinux is a Linux variation for microcontrollers and systems without an MMU (Memory Management Unit).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15759,6 +18257,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Without an MMU (Memory Management Unit), mClinux lacks full virtual address spaces and process isolation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15775,6 +18274,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "vfork() lets the child borrow the parent address space until execve() or exit().",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15791,6 +18291,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "mClibc reduces redundancy and disables features by default to save space.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15807,6 +18308,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "An MPU (Memory Protection Unit) gives simpler protection than a full MMU (Memory Management Unit) but can still separate process and kernel access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15823,6 +18325,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TinyOS targets tiny, power-constrained sensor devices with minimal memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15839,6 +18342,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TinyOS is minimal and power-aware, with very small code and memory needs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15855,6 +18359,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Wireless sensor networks save power by sleeping often and reacting to events.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15871,6 +18376,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TinyOS components are built around commands, events, and tasks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15887,6 +18393,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Commands go down the component stack, and events signal upward, often from hardware interrupts.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15903,6 +18410,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TinyOS tasks are nonpreemptive and run to completion, which reduces stack complexity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15919,6 +18427,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TinyOS has two concurrency levels: tasks and events.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15935,6 +18444,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TinyOS uses nesC to define components, interfaces, and event-driven behavior.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15951,6 +18461,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The scheduler is a simple FIFO (First-In, First-Out) queue and saves energy by sleeping when there is no work.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15967,6 +18478,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Wiring connects components at compile time through interfaces.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15983,6 +18495,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shared resources use an arbiter to enforce mutual exclusion and manage requests.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -15999,6 +18512,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The arbiter enforces the sharing policy and ensures one client uses the resource at a time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16015,6 +18529,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Resource interface handles access requests and release commands.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16031,6 +18546,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Resource Configure prepares a resource for a client before access is granted.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -16059,6 +18575,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Cloud computing provides elastic network access to shared resources such as servers, storage, applications, and services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16075,6 +18592,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "On-demand self-service lets consumers request capabilities automatically as needed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16091,6 +18609,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Broad network access means access through standard mechanisms from clients such as laptops and phones.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16107,6 +18626,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Resource pooling uses shared provider resources to serve multiple consumers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16123,6 +18643,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Rapid elasticity is the ability to provision and release resources quickly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16139,6 +18660,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Measured service gives both provider and consumer visibility into resource use.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16155,6 +18677,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SaaS exposes applications while the provider manages the cloud infrastructure.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16171,6 +18694,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "PaaS gives a platform for deploying consumer-created or acquired applications.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16187,6 +18711,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IaaS provides fundamental resources while consumers manage their OSs (Operating Systems) and applications.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16203,6 +18728,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A private cloud is dedicated to one organization and may be managed internally or by a third party.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16219,6 +18745,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A community cloud supports a specific community of organizations with shared requirements.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16235,6 +18762,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hybrid cloud combines private, public, or community clouds with portability mechanisms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16251,6 +18779,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NIST (National Institute of Standards and Technology) identifies cloud consumer, provider, broker, auditor, and carrier.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16267,6 +18796,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The consumer uses cloud services and has a business relationship with providers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16283,6 +18813,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The provider is responsible for making services available.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16299,6 +18830,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A cloud auditor independently evaluates cloud services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16315,6 +18847,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The carrier provides the network transport path for cloud services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16331,6 +18864,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Intermediation adds extra capability on top of a cloud service.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16347,6 +18881,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Aggregation combines several services into a useful package for the consumer.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16363,6 +18898,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Arbitrage lets the broker choose among services from different providers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16379,6 +18915,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Datacenter networks connect provider servers and storage with high-speed switching.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16395,6 +18932,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Cloud carriers must provide secure, reliable network transport with appropriate guarantees.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16411,6 +18949,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A Cloud OS (Operating System) manages physical and virtualized datacenter resources and implements IaaS.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16427,6 +18966,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Cloud OS (Operating System) is the infrastructure management layer, while PaaS is an application platform layer.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16443,6 +18983,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IaaS computing services manage VM (Virtual Machine) lifecycle operations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16459,6 +19000,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists block, file, and object storage as IaaS storage services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16475,6 +19017,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IaaS networking provides virtual network functions for cloud resources.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16491,6 +19034,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Virtualization lets providers move from dedicated servers to flexible COTS (Commercial Off-The-Shelf) hardware and virtual capacity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16507,6 +19051,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A SAN (Storage Area Network) provides block-level storage access through a high-speed network.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16523,6 +19068,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Object storage stores data with metadata and unique IDs (Identifiers), supporting massive scalability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16539,6 +19085,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Management and Orchestration coordinates compute, storage, network, and service lifecycle tasks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16555,6 +19102,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The VM (Virtual Machine) Manager handles virtual-machine instance management.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16571,6 +19119,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "OpenStack is presented as a case study for an open-source Cloud OS (Operating System).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16587,6 +19136,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Nova manages the lifecycle of compute instances.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16603,6 +19153,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Nova works with hypervisors through drivers rather than being the hypervisor itself.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16619,6 +19170,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Nova Scheduler places VM (Virtual Machine) instance requests.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16635,6 +19187,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Glance is OpenStack Image Service.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16651,6 +19204,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Neutron provides OpenStack networking services and plugin-based extensibility.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16667,6 +19221,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Swift is object storage, while Cinder provides block volumes for guest VMs (Virtual Machines).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16683,6 +19238,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Keystone is OpenStack Identity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16699,6 +19255,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Launching a VM (Virtual Machine) requires identity, placement, and image services, with storage if needed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16715,6 +19272,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Horizon is the OpenStack dashboard.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16731,6 +19289,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Ceilometer collects metering data such as CPU (Central Processing Unit), storage, and network usage.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16747,6 +19306,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Heat is OpenStack orchestration and uses templates as infrastructure code.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16763,6 +19323,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Trove provisions relational and nonrelational database engines.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16779,6 +19340,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Barbican provides secure storage and management for secret values.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16795,6 +19357,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IoT connects everyday objects, sensors, actuators, and cloud services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16811,6 +19374,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IoT devices sense, act, process locally, and communicate wirelessly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16827,6 +19391,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture places IoT in Edge, Fog, Core, and Cloud layers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16843,6 +19408,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The edge is closest to the physical environment.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16859,6 +19425,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Fog computing reduces latency and data volume before reaching the cloud.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16875,6 +19442,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The core connects fog systems with cloud systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16891,6 +19459,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Fog is closer to devices and optimized for low latency, while cloud is centralized and highly available.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16907,6 +19476,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IoT OSs (Operating Systems) must fit constrained hardware and conserve power.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16923,6 +19493,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists Class 0 as the smallest constrained-device class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16939,6 +19510,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IoT operating systems must run across many microcontroller architectures.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16955,6 +19527,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Battery-powered IoT devices depend on low-power operation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16971,6 +19544,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture architecture includes hardware abstraction, kernel services, libraries, drivers/file system, and networking.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -16987,6 +19561,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The HAL (Hardware Abstraction Layer) hides hardware differences behind common interfaces.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17003,6 +19578,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "GPIO (General-Purpose Input/Output) means General Purpose Input/Output.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17019,6 +19595,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "UART (Universal Asynchronous Receiver-Transmitter) is the Universal Asynchronous Receiver/Transmitter interface.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17035,6 +19612,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SPI (Serial Peripheral Interface) is the Serial Peripheral Interface.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17051,6 +19629,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The IoT kernel provides minimal core OS (Operating System) services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17067,6 +19646,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Modularity lets an IoT OS (Operating System) include only what the device needs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17083,6 +19663,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Low-power networking matches limited energy and communication needs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17099,6 +19680,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "IoT OSs (Operating Systems) include minimal libraries, drivers, and file-system support configured for the application.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17115,6 +19697,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RIOT (Real-time Internet of Things Operating System) is an open-source OS (Operating System) specifically designed for constrained IoT devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17131,6 +19714,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RIOT (Real-time Internet of Things Operating System) keeps essential features in the core and runs drivers/libraries separately.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17147,6 +19731,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture contrasts RIOT (Real-time Internet of Things Operating System) with TinyOS and mClinux by footprint and features.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17163,6 +19748,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RIOT (Real-time Internet of Things Operating System) is organized into core, drivers, pkg, and sys.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17179,6 +19765,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The RIOT (Real-time Internet of Things Operating System) kernel core includes the OS (Operating System) mechanisms needed for concurrent IoT programs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17195,6 +19782,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RIOT (Real-time Internet of Things Operating System) IPC (Interprocess Communication) is for synchronized communication between threads.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17211,6 +19799,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RIOT (Real-time Internet of Things Operating System) includes a kernel power-management module for low-power devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17227,6 +19816,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RIOT (Real-time Internet of Things Operating System) separates processor and board support to improve portability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17243,6 +19833,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RIOT (Real-time Internet of Things Operating System) scheduling enables concurrent threads on constrained IoT devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -17271,6 +19862,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Security is the broad problem; protection domains specify concrete rights.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17287,6 +19879,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Confidentiality is about keeping information secret.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17303,6 +19896,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Integrity means data remains correct and is changed only by authorized actions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17319,6 +19913,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Availability means authorized users can use the system when needed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17335,6 +19930,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Simple mechanisms are easier to analyze and less likely to contain security flaws.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17351,6 +19947,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Fail-safe defaults make the safe decision be denial, not permission.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17367,6 +19964,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Complete mediation prevents bypassing protection by reusing old unchecked access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17383,6 +19981,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Open design follows Kerckhoffs principle: the mechanism can be known while keys remain secret.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17399,6 +19998,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Separation of privilege reduces risk by requiring more than one condition for access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17415,6 +20015,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Least privilege limits damage if a program or account is compromised.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17431,6 +20032,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shared mechanisms can become channels for interference or leakage.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17447,6 +20049,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "If security is too hard to use, users work around it.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17463,6 +20066,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The TCB (Trusted Computing Base) is the part that must be trusted for security enforcement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17479,6 +20083,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The reference monitor checks access requests against security policy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17495,6 +20100,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A smaller TCB (Trusted Computing Base) gives less privileged code that must be trusted.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17511,6 +20117,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A domain maps objects to allowed rights such as read, write, or execute.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17527,6 +20134,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "User and group identities affect permissions and access rights.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17543,6 +20151,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Each cell lists the rights a domain has over an object.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17559,6 +20168,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Sparse matrices are better represented by per-object or per-domain lists.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17575,6 +20185,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "ACLs (Access Control Lists) store who can access an object and what operations are allowed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17591,6 +20202,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "This follows fail-safe defaults.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17607,6 +20219,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Groups and roles avoid repeating identical permissions for many users.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17623,6 +20236,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Capabilities are associated with domains and allow efficient access checks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17639,6 +20253,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A capability directly carries the authority needed for the object.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17655,6 +20270,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Attackers cannot forge the protected field without the secret check value.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17671,6 +20287,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "DAC (Discretionary Access Control) lets users delegate access at their discretion.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17687,6 +20304,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MAC (Mandatory Access Control) is needed where information flow must follow central policy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17703,6 +20321,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Bell-LaPadula prevents secret information from leaking downward.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17719,6 +20338,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A subject cannot read data above its clearance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17735,6 +20355,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "No write down stops high-level information from being written to lower-level objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17751,6 +20372,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Biba prevents low-integrity information from corrupting high-integrity data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17767,6 +20389,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "No write up protects higher-integrity objects from lower-integrity subjects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17783,6 +20406,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Secret-key cryptography uses one shared key.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17799,6 +20423,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Only the matching private key should decrypt data encrypted with the receiver public key.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17815,6 +20440,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Public-key methods are powerful but expensive.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17831,6 +20457,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The signature binds the document hash to the signer private key.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17847,6 +20474,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Matching hashes show integrity and signer authenticity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17863,6 +20491,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Different error messages can reveal valid account names.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17879,6 +20508,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Salt forces attackers to redo work for each salt value.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17895,6 +20525,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Knowing one used password should not let the attacker compute the next required one.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17911,6 +20542,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "If a buffer overflow overwrites the return address, it likely changes the canary.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17927,6 +20559,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NX (No-eXecute)/WX (Write XOR Execute) blocks direct execution of injected shellcode on the stack or heap.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17943,6 +20576,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "ROP (Return-Oriented Programming) reuses executable code already present in memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17959,6 +20593,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "ASLR (Address Space Layout Randomization) makes address-dependent exploits harder.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17975,6 +20610,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "If addresses leak, randomization can be calculated or bypassed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -17991,6 +20627,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Attackers can use format specifiers to read or write memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18007,6 +20644,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "%n writes the number of printed characters to a supplied address.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18023,6 +20661,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Freed memory may be reallocated with attacker-controlled content.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18039,6 +20678,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Type confusion can call methods or access fields not valid for the real object.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18055,6 +20695,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dereferencing NULL (Null Pointer) in privileged code can jump into attacker-controlled memory in vulnerable designs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18071,6 +20712,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Silent wraparound can make size calculations wrong.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18087,6 +20729,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Special characters can change the command a program sends to the shell.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18103,6 +20746,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Time Of Check To Time Of Use attacks exploit a race between checking and acting.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18119,6 +20763,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Covert channels bypass intended communication restrictions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18135,6 +20780,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Side channels exploit observable effects such as cache timing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18151,6 +20797,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Fast reload indicates the victim accessed that cache line.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18167,6 +20814,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Transient execution can leave microarchitectural traces even when results are undone.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18183,6 +20831,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Meltdown leaks privileged data through cache side effects after transient execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18199,6 +20848,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Spectre tricks speculation past security checks and leaks through side channels.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18215,6 +20865,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kernel Page Table Isolation reduces the mapped kernel data visible during user execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18231,6 +20882,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Stopping speculation across sensitive points can slow execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18247,6 +20899,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A logic bomb may activate when a condition such as an employee ID (Identifier) missing from payroll occurs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18263,6 +20916,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Back doors allow hidden access outside regular controls.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18279,6 +20933,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Login spoofing tricks users into giving credentials to an attacker.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18295,6 +20950,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "If one pointer leaks, coarse randomization may be easier to bypass.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18311,6 +20967,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CFI (Control-Flow Integrity) restricts control transfers to valid program paths.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18327,6 +20984,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Secure boot builds a chain of trust from firmware to bootloader to kernel.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18343,6 +21001,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Signed PCR (Platform Configuration Register) values can prove to a remote party how the system booted.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18359,6 +21018,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Sandboxing limits damage from untrusted code.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -18387,6 +21047,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux was developed by Linus Torvalds with UNIX compatibility as a central goal.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18403,6 +21064,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The earliest kernel was small and had very limited driver and file-system support.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18419,6 +21081,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux 1.0 added important networking and hardware support.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18435,6 +21098,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux 2.0 expanded portability and SMP (Symmetric Multiprocessing) support.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18451,6 +21115,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists these as important later Linux kernel improvements.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18467,6 +21132,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux combines its original kernel with many UNIX-compatible tools.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18483,6 +21149,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FHS (Filesystem Hierarchy Standard) helps distributions remain compatible in file-system layout.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18499,6 +21166,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Distributions package Linux into installable systems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18515,6 +21183,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RPM (Red Hat Package Manager) is a package format used for software distribution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18531,6 +21200,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "GPL (General Public License) allows selling distributions but requires source-code rights.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18547,6 +21217,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux aims to be a multiuser, multitasking UNIX-compatible system.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18563,6 +21234,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The kernel is privileged; libraries and utilities provide user-level OS (Operating System) functionality.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18579,6 +21251,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kernel code runs in kernel mode and manages resources.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18595,6 +21268,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Modules commonly implement drivers, file systems, or network protocols.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18611,6 +21285,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Modules make the kernel more flexible and configurable.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18627,6 +21302,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Module management connects loaded modules with kernel symbols and memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18643,6 +21319,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The requestor automates module loading and cleanup.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18659,6 +21336,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Registration updates dynamic kernel tables.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18675,6 +21353,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The kernel tracks allocated hardware resources.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18691,6 +21370,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "UNIX separates creating a process from loading a new program.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18707,6 +21387,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "System calls use PIDs (Process Identifiers) to signal, wait for, or modify processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18723,6 +21404,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "User IDs (Identifiers) and group IDs (Identifiers) are used in access control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18739,6 +21421,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Personality helps emulation libraries mimic different UNIX variants.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18755,6 +21438,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Namespaces can isolate file-system views.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18771,6 +21455,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Environment variables customize behavior per process.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18787,6 +21472,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Scheduling context is the most important part of the changing process context.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18803,6 +21489,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A file descriptor is an index into the process open-file table.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18819,6 +21506,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The file-system context affects path resolution for new opens.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18835,6 +21523,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Virtual-memory context tracks the address space.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18851,6 +21540,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux uses tasks for both processes and threads.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18867,6 +21557,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "clone gives fine-grained control over sharing between threads.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18883,6 +21574,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux scheduling includes processes and kernel work.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18899,6 +21591,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture notes that O(1) was preemptive and priority-based but had interactive issues.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18915,6 +21608,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CFS (Completely Fair Scheduler) models fair sharing of CPU (Central Processing Unit) time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18931,6 +21625,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CFS (Completely Fair Scheduler) weights runnable tasks using nice values.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18947,6 +21642,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Target latency influences how CFS (Completely Fair Scheduler) divides CPU (Central Processing Unit) time among runnable tasks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18963,6 +21659,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Minimum granularity avoids impractically tiny slices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18979,6 +21676,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kernel code runs for system calls, faults, and device interrupts.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -18995,6 +21693,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shared kernel data structures need mutual exclusion.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19011,6 +21710,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Nonpreemptibility helped protect kernel critical sections.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19027,6 +21727,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Disabling interrupts prevents interrupt handlers from entering conflicting sections.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19043,6 +21744,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Top halves handle immediate interrupt work; bottom halves do deferred work.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19059,6 +21761,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Lower or equal levels cannot interrupt the current level.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19075,6 +21778,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The single spinlock was simple but limited scalability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19091,6 +21795,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Fine-grained locking allows more parallel kernel execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19107,6 +21812,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The physical memory system manages page-level and small kernel allocations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19123,6 +21829,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Buddy allocation manages contiguous physical pages.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19139,6 +21846,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The slab allocator is used for efficient kernel object allocation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19155,6 +21863,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The page cache connects file I/O and virtual memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19171,6 +21880,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux tracks address-space layout separately from hardware mappings.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19187,6 +21897,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Backing store describes where pages come from.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19203,6 +21914,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux uses sharing and copy-on-write style behavior after fork.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19219,6 +21931,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pageout policy is part of the paging system.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19235,6 +21948,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The kernel reserves part of virtual address space for internal use.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19251,6 +21965,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Loader registration lets Linux support formats such as ELF (Executable and Linkable Format) and a.out.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19267,6 +21982,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dynamic linking avoids duplicate copies of common library routines.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19283,6 +21999,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "PIC (Position-Independent Code) supports flexible library placement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19299,6 +22016,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VFS (Virtual File System) lets Linux support many file systems through common objects and operations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19315,6 +22033,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "These VFS (Virtual File System) objects model files, open files, file systems, and directory entries.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19331,6 +22050,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "ext3 was a common Linux disk file system.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19347,6 +22067,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Adjacent physical placement can improve I/O performance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19363,6 +22084,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Journaling speeds recovery after crashes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19379,6 +22101,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "proc presents kernel and process information as generated files.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19395,6 +22118,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux caches file data and disk metadata separately in this description.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19411,6 +22135,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Disks are typical block devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19427,6 +22152,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Character devices pass reads and writes mostly directly to the driver.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19443,6 +22169,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The tty line discipline manages terminal interaction with processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19459,6 +22186,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Signals notify processes of events but carry limited information.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19475,6 +22203,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Semaphores coordinate processes and can support atomic multi-semaphore operations.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19491,6 +22220,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pipes pass streams of data between related processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19507,6 +22237,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shared memory is fast but does not automatically coordinate access.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19523,6 +22254,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux networking is layered from sockets to protocols to devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19539,6 +22271,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists UDP (User Datagram Protocol), TCP (Transmission Control Protocol), and ICMP (Internet Control Message Protocol) above routing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19555,6 +22288,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "PAM (Pluggable Authentication Modules) lets system components use common authentication modules.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19571,6 +22305,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Linux uses uid and gid for ownership and permission checks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19587,6 +22322,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Protection masks define standard UNIX file access modes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19603,6 +22339,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Saved uid supports safer privilege changes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19619,6 +22356,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Capabilities split root-like privilege into smaller rights.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -19647,6 +22385,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NT (New Technology) began as a portable OS (Operating System) project and later adopted Win32 as native.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19663,6 +22402,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture notes NT (New Technology) changed direction during development.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19679,6 +22419,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows 10 supports preemptive multitasking and both 32-bit and 64-bit execution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19695,6 +22436,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists these as Windows 10 goals.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19711,6 +22453,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows is described as layered and micro-kernel based.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19727,6 +22470,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture mentions Windows Desktop Bridge for older binaries.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19743,6 +22487,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists these Windows security mechanisms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19759,6 +22504,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Device Guard can restrict allowed signers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19775,6 +22521,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows uses remote and advanced local procedure calls.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19791,6 +22538,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The HAL (Hardware Abstraction Layer) DLL (Dynamic Link Library) hides platform differences.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19807,6 +22555,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture ties reliability to hardware and software protection mechanisms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19823,6 +22572,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NLS (National Language Support) supports different locales.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19839,6 +22589,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists these energy-saving features.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19855,6 +22606,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Protected mode contains the privileged OS (Operating System) layers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19871,6 +22623,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "User-mode subsystems provide operating environments and services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19887,6 +22640,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VTL (Virtual Trust Level) 0 and VTL (Virtual Trust Level) 1 separate normal and secure execution worlds.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19903,6 +22657,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VSM (Virtual Secure Mode) uses isolated secure components.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19919,6 +22674,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The kernel is the foundation for executive and subsystems.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19935,6 +22691,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dispatcher objects support scheduling and synchronization.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19951,6 +22708,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Control objects represent lower-level kernel control structures.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19967,6 +22725,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Processes own resources, but threads are scheduled.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19983,6 +22742,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A process is a container for resources and execution context.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -19999,6 +22759,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Trap handling switches mode and stack when needed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20015,6 +22776,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows uses a 32-level priority scheme.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20031,6 +22793,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The strategy keeps the GUI (Graphical User Interface) responsive and I/O devices busy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20047,6 +22810,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "These events can cause dispatcher decisions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20063,6 +22827,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows gives preferential CPU (Central Processing Unit) access but not hard deadlines.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20079,6 +22844,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Trap handling dispatches exceptions and interrupts.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20095,6 +22861,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Spin locks protect shared kernel data on multiprocessors.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20111,6 +22878,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The object manager supervises OS (Operating System) objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20127,6 +22895,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Handles are per-process references to objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20143,6 +22912,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Named objects form a namespace similar to paths.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20159,6 +22929,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Reservation and commitment are distinct VM (Virtual Machine) allocation steps.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20175,6 +22946,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows VM (Virtual Machine) uses hardware-supported page sizes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20191,6 +22963,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists six page states.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20207,6 +22980,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A page-file PTE (Page Table Entry) identifies where a paged-out page is stored.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20223,6 +22997,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The executive process manager handles process/thread services.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20239,6 +23014,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Silos are job-object based container support.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20255,6 +23031,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Small LPC (Local Procedure Call) messages up to about 256 bytes use queues and copying.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20271,6 +23048,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Large LPC (Local Procedure Call) transfers can share memory instead of copying.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20287,6 +23065,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The I/O manager coordinates much of the Windows I/O system.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20303,6 +23082,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Memory-mapped files connect I/O and virtual memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20319,6 +23099,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "This gives uniform runtime access validation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20335,6 +23116,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "PnP adapts to added devices such as PCI (Peripheral Component Interconnect) or USB (Universal Serial Bus).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20351,6 +23133,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Power management handles system and device power conditions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20367,6 +23150,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The registry stores system, user, software, security, and boot configuration.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20383,6 +23167,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Secure Boot helps ensure trusted boot components.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20399,6 +23184,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "winresume.efi restores hibernated state.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20415,6 +23201,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "SMSS (Session Manager Subsystem) is one of the early Windows processes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20431,6 +23218,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Win32 starts processes and provides keyboard, mouse, and graphical display capabilities.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20447,6 +23235,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "VDM (Virtual DOS Machine) emulates Microsoft Disk Operating System (MS-DOS) behavior in user mode.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20463,6 +23252,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The POSIX (Portable Operating System Interface) subsystem lets POSIX (Portable Operating System Interface)-style applications run.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20479,6 +23269,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows uses account names, passwords, and Kerberos for network authentication.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20495,6 +23286,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NTFS (New Technology File System) organizes storage into volumes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20511,6 +23303,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Clusters are the basic disk allocation units in NTFS (New Technology File System).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20527,6 +23320,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NTFS (New Technology File System) metadata is stored in regular files, including the MFT (Master File Table).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20543,6 +23337,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "File references uniquely identify files and support consistency checks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20559,6 +23354,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Logged transactions let NTFS (New Technology File System) restore metadata consistency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20575,6 +23371,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NTFS (New Technology File System) recovery protects file-system structures more than arbitrary user data.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20591,6 +23388,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The descriptor includes owner token information and ACLs (Access Control Lists).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20607,6 +23405,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Compression units are the NTFS (New Technology File System) compression granularity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20623,6 +23422,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Sparse files save disk space for all-zero regions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20639,6 +23439,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NDIS (Network Driver Interface Specification) lets adapters and protocols change independently.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20655,6 +23456,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Transport Driver Interface abstracts transport use.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20671,6 +23473,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Server Message Block is used for network I/O requests.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20687,6 +23490,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists four SMB (Server Message Block) message categories.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20703,6 +23507,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NetBIOS abstracts network naming and sessions.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20719,6 +23524,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TCP (Transmission Control Protocol)/IP (Internet Protocol) provides broad interoperability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20735,6 +23541,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Point-to-Point Tunneling Protocol supports remote access connectivity.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20751,6 +23558,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Named pipes support interprocess and network communication.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20767,6 +23575,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mailslots are suitable for broadcast-style messages.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20783,6 +23592,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Winsock hides differences among transport protocols.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20799,6 +23609,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Following DCE (Distributed Computing Environment) helps portability of RPC (Remote Procedure Call) programs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20815,6 +23626,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Redirectors make remote files appear local through the Windows I/O API (Application Programming Interface).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20831,6 +23643,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Multiple UNC (Universal Naming Convention) Provider chooses the appropriate redirector.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20847,6 +23660,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The server side satisfies the file request locally and sends results back.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20863,6 +23677,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Domains manage global access rights.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20879,6 +23694,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Transitive trust passes through the hierarchy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20895,6 +23711,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Crosslinks shorten trust paths.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20911,6 +23728,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Name resolution maps names such as hostnames to IP (Internet Protocol) addresses.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20927,6 +23745,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows can use several name-resolution sources.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20943,6 +23762,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "WINS (Windows Internet Name Service) servers and clients provide dynamic name resolution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20959,6 +23779,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The Win32 API (Application Programming Interface) provides several handle-sharing mechanisms.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20975,6 +23796,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CreateProcess starts a process and its first thread.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -20991,6 +23813,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CreateThread adds execution units.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21007,6 +23830,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists NORMAL (Normal priority class) as the typical class.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21023,6 +23847,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Foreground boosting improves interactive response.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21039,6 +23864,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Dynamic boosts help balance responsiveness and CPU (Central Processing Unit) use.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21055,6 +23881,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Windows provides several synchronization mechanisms for shared objects.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -21083,6 +23910,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "AI (Artificial Intelligence) workloads stress GPU (Graphics Processing Unit) scheduling, memory, and I/O differently from normal CPU (Central Processing Unit)-centric apps.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21099,6 +23927,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Drivers bridge AI (Artificial Intelligence) frameworks and accelerator hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21115,6 +23944,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Large GPU (Graphics Processing Unit) clusters need careful scheduling and communication placement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21131,6 +23961,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Unified memory helps high-throughput CPU (Central Processing Unit)-GPU (Graphics Processing Unit) data movement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21147,6 +23978,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Multiple agents need safe shared state and governance.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21163,6 +23995,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "AI (Artificial Intelligence) workloads benefit from prediction instead of static heuristics.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21179,6 +24012,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Modern AI (Artificial Intelligence) makes GPU (Graphics Processing Unit)/NPU (Neural Processing Unit) the primary compute unit.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21195,6 +24029,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "AI (Artificial Intelligence) commonly uses GEMM (General Matrix Multiply) and stochastic massive parallelism.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21211,6 +24046,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "GEMM (General Matrix Multiply) can consume 60 to 80 percent of GPU (Graphics Processing Unit) time.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21227,6 +24063,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LLMs (Large Language Models) can be limited by moving and storing KV (Key-Value)/cache data more than raw compute.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21243,6 +24080,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "KV (Key-Value) cache speeds autoregressive generation.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21259,6 +24097,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Longer contexts and larger batches require more KV (Key-Value) memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21275,6 +24114,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Scheduling must match hardware limits such as NVLink and high-bandwidth memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21291,6 +24131,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Training aims to process as much work as possible.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21307,6 +24148,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Interactive inference cares about latency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21323,6 +24165,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "These frameworks manage huge models with parallelism.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21339,6 +24182,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "They use advanced memory techniques for serving.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21355,6 +24199,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "AI (Artificial Intelligence) resource management balances complex infrastructure demands.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21371,6 +24216,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "AI (Artificial Intelligence) systems rely on heterogeneous accelerators.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21387,6 +24233,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Energy-aware scheduling reduces power and carbon cost.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21403,6 +24250,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "AI (Artificial Intelligence) accelerators need steady data feeds.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21419,6 +24267,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Kubernetes manages distributed containerized workloads.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21435,6 +24284,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "RL (Reinforcement Learning) can outperform fixed heuristics for changing workloads.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21451,6 +24301,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Prediction helps avoid demand spikes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21467,6 +24318,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Serverless reduces idle cost by allocating resources only when needed.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21483,6 +24335,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Schedulers must account for diverse hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21499,6 +24352,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "More GPUs (Graphics Processing Units) can add communication cost.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21515,6 +24369,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Cold starts lack prior data for prediction.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21531,6 +24386,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Bubbles waste GPU (Graphics Processing Unit) time during distributed training.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21547,6 +24403,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hummingbird uses microsecond-scale preemption opportunities.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21563,6 +24420,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Bless performs adaptive bubbleless sharing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21579,6 +24437,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NUMA (Non-Uniform Memory Access) placement affects data-transfer cost.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21595,6 +24454,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Poor allocation leaves unusable gaps.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21611,6 +24471,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "PagedAttention reduces fragmentation and supports prefix sharing.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21627,6 +24488,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Paged KV (Key-Value) blocks improve memory efficiency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21643,6 +24505,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Semantic clustering can increase cache hit rates.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21659,6 +24522,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Offloading extends context capacity beyond GPU (Graphics Processing Unit) memory.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21675,6 +24539,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "HBM (High Bandwidth Memory) is closest to GPU (Graphics Processing Unit) compute and highest bandwidth.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21691,6 +24556,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Stream2LLM targets long-context I/O latency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21707,6 +24573,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Drivers bridge CUDA/Vulkan/DirectX APIs (Application Programming Interfaces) and GPU (Graphics Processing Unit) hardware.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21723,6 +24590,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Ring buffers support asynchronous producer-consumer command flow.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21739,6 +24607,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Modern drivers split high-level translation from privileged hardware control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21755,6 +24624,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NVIDIA DCGM (Data Center GPU Manager) is a management suite over the driver stack.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21771,6 +24641,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Pass-through is fast but not flexible because the GPU (Graphics Processing Unit) is not shared.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21787,6 +24658,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "API (Application Programming Interface) remoting is lightweight but may lack native feature coverage.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21803,6 +24675,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "vGPU shares a physical GPU (Graphics Processing Unit) among VMs (Virtual Machines).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21819,6 +24692,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MIG (Multi-Instance GPU) provides stronger hardware-level partitioning.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21835,6 +24709,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "BARs (Base Address Registers) expose device memory/control regions to the CPU (Central Processing Unit).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21851,6 +24726,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "DMA (Direct Memory Access) improves high-speed data movement.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21867,6 +24743,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CPU (Central Processing Unit) drivers submit GPU (Graphics Processing Unit) work through command buffers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21883,6 +24760,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Synchronization primitives order work across devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21899,6 +24777,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Distributed AI (Artificial Intelligence) lets devices collaborate and process data locally or jointly.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21915,6 +24794,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MFU (Model FLOPs Utilization) and throughput reflect training efficiency.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21931,6 +24811,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "DP (Data Parallelism) distributes batches across model replicas.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21947,6 +24828,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "ZeRO reduces redundant memory across devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21963,6 +24845,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TP (Tensor Parallelism) splits compute inside layers.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21979,6 +24862,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NVLink-like intranode bandwidth is important for TP (Tensor Parallelism).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -21995,6 +24879,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "PP (Pipeline Parallelism) assigns different stages of the model to different devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22011,6 +24896,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Bubbles occur when stages are idle.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22027,6 +24913,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CP (Context Parallelism) distributes activation memory for long contexts.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22043,6 +24930,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Modern training uses multiple parallelism dimensions together.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22059,6 +24947,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "AllGather collects pieces so all ranks receive the full result.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22075,6 +24964,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "ReduceScatter combines reduction with distribution.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22091,6 +24981,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "MoE often routes tokens between many ranks.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22107,6 +24998,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Ray is a framework for distributed AI (Artificial Intelligence) workload coordination.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22123,6 +25015,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Spares reduce downtime in large training runs.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22139,6 +25032,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "NodeSweep monitors bad or slow nodes.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22155,6 +25049,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Containers solve environment consistency and deployment portability.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22171,6 +25066,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The toolkit connects containers to NVIDIA GPUs (Graphics Processing Units).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22187,6 +25083,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Edge AI (Artificial Intelligence) reduces latency and can improve privacy.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22203,6 +25100,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Small models fit local hardware better.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22219,6 +25117,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "TinyML targets very constrained devices.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22235,6 +25134,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "OrinFlight targets strict real-time embedded AI (Artificial Intelligence).",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22251,6 +25151,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The lecture lists these as OrinFlight features.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22267,6 +25168,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "CognitiveOS connects generative AI (Artificial Intelligence) with robotic control.",
               "fullExplanation": null,
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -22295,6 +25197,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Preemptable resources such as CPU (Central Processing Unit) time or swapped memory can be reclaimed safely.",
               "fullExplanation": "Preemptable resources such as CPU time or swapped memory can be reclaimed safely.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22311,6 +25214,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deadlocks involve resources that cannot be forcibly taken away without failure.",
               "fullExplanation": "Deadlocks involve resources that cannot be forcibly taken away without failure.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22327,6 +25231,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Processes normally request a resource, use it, then release it.",
               "fullExplanation": "Processes normally request a resource, use it, then release it.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22343,6 +25248,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Each process waits for an event only the other can cause, so neither can continue.",
               "fullExplanation": "Each process waits for an event only the other can cause, so neither can continue.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22359,6 +25265,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The circular dependence among processes prevents progress.",
               "fullExplanation": "The circular dependence among processes prevents progress.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22375,6 +25282,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Mutual exclusion means only one process can use the resource at a time.",
               "fullExplanation": "Mutual exclusion means only one process can use the resource at a time.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22391,6 +25299,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Hold and wait creates partial ownership while waiting for additional resources.",
               "fullExplanation": "Hold and wait creates partial ownership while waiting for additional resources.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22407,6 +25316,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "No preemption means resources are released voluntarily.",
               "fullExplanation": "No preemption means resources are released voluntarily.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22423,6 +25333,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Circular wait is a cycle of processes waiting for resources held by the next process.",
               "fullExplanation": "Circular wait is a cycle of processes waiting for resources held by the next process.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22439,6 +25350,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Deadlock requires mutual exclusion, hold and wait, no preemption, and circular wait.",
               "fullExplanation": "Deadlock requires mutual exclusion, hold and wait, no preemption, and circular wait.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22455,6 +25367,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The ostrich strategy ignores deadlocks when they are rare or cheaper to tolerate.",
               "fullExplanation": "The ostrich strategy ignores deadlocks when they are rare or cheaper to tolerate.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22471,6 +25384,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Process -> resource means request/waiting edge.",
               "fullExplanation": "Process -> resource means request/waiting edge.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22487,6 +25401,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Resource -> process means assignment/holding edge.",
               "fullExplanation": "Resource -> process means assignment/holding edge.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22503,6 +25418,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "For single-instance resources, a cycle is sufficient for deadlock.",
               "fullExplanation": "For single-instance resources, a cycle is sufficient for deadlock.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22519,6 +25435,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "DFS (Distributed File System) can detect cycles in a directed graph.",
               "fullExplanation": "DFS can detect cycles in a directed graph.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22535,6 +25452,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "E is the total resource vector in the system.",
               "fullExplanation": "E is the total resource vector in the system.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22551,6 +25469,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A is the vector of free resource instances.",
               "fullExplanation": "A is the vector of free resource instances.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22567,6 +25486,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "C is the allocation matrix.",
               "fullExplanation": "C is the allocation matrix.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22583,6 +25503,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "R is the request matrix.",
               "fullExplanation": "R is the request matrix.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22599,6 +25520,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Request (1,0) can be satisfied by available (1,0), so P1 can finish and return allocation.",
               "fullExplanation": "Request (1,0) can be satisfied by available (1,0), so P1 can finish and return allocation.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22615,6 +25537,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A request row must be <= A component by component.",
               "fullExplanation": "A request row must be <= A component by component.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22631,6 +25554,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The algorithm simulates completion and resource release.",
               "fullExplanation": "The algorithm simulates completion and resource release.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22647,6 +25571,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "If a process cannot be marked, it is part of the deadlocked set.",
               "fullExplanation": "If a process cannot be marked, it is part of the deadlocked set.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22663,6 +25588,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Banker’s algorithm checks safety before granting a request.",
               "fullExplanation": "Banker’s algorithm checks safety before granting a request.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22679,6 +25605,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The algorithm needs maximum claims to compute remaining needs.",
               "fullExplanation": "The algorithm needs maximum claims to compute remaining needs.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22695,6 +25622,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Safe means there is a safe completion order.",
               "fullExplanation": "Safe means there is a safe completion order.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22711,6 +25639,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Unsafe is risky but not necessarily deadlocked yet.",
               "fullExplanation": "Unsafe is risky but not necessarily deadlocked yet.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22727,6 +25656,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Available = total - allocated = 10 - (3+4+2) = 1.",
               "fullExplanation": "Available = total - allocated = 10 - (3+4+2) = 1.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22743,6 +25673,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P2 need 2 <= available 3, so it can finish first and release 1.",
               "fullExplanation": "P2 need 2 <= available 3, so it can finish first and release 1.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22759,6 +25690,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "(1,1) <= (1,2), so P1 can complete and release (2,0).",
               "fullExplanation": "(1,1) <= (1,2), so P1 can complete and release (2,0).",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22775,6 +25707,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The first component need 3 is greater than available 2.",
               "fullExplanation": "The first component need 3 is greater than available 2.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22791,6 +25724,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Real systems change processes/resources, and maximum needs may be unknown.",
               "fullExplanation": "Real systems change processes/resources, and maximum needs may be unknown.",
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -22819,6 +25753,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المورد القابل للاسترداد يمكن للنظام سحبه بأمان نسبيا.",
               "fullExplanation": "المورد القابل للاسترداد يمكن للنظام سحبه بأمان نسبيا.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22835,6 +25770,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الجمود يحدث عندما لا يمكن أخذ المورد بالقوة من العملية.",
               "fullExplanation": "الجمود يحدث عندما لا يمكن أخذ المورد بالقوة من العملية.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22851,6 +25787,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "هذا هو نمط اكتساب الموارد في المحاضرة.",
               "fullExplanation": "هذا هو نمط اكتساب الموارد في المحاضرة.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22867,6 +25804,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "كل عملية تنتظر الأخرى، لذلك لا أحد يستطيع التقدم.",
               "fullExplanation": "كل عملية تنتظر الأخرى، لذلك لا أحد يستطيع التقدم.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22883,6 +25821,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الاستبعاد المتبادل، الاحتفاظ والانتظار، عدم الاسترداد، والانتظار الدائري كلها ضرورية.",
               "fullExplanation": "الاستبعاد المتبادل، الاحتفاظ والانتظار، عدم الاسترداد، والانتظار الدائري كلها ضرورية.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22899,6 +25838,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Process -> Resource يعني request/wait.",
               "fullExplanation": "Process -> Resource يعني request/wait.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22915,6 +25855,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Resource -> Process يعني allocation.",
               "fullExplanation": "Resource -> Process يعني allocation.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22931,6 +25872,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "الدورة في single-instance graph تعني deadlock.",
               "fullExplanation": "الدورة في single-instance graph تعني deadlock.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22947,6 +25889,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A هي available vector.",
               "fullExplanation": "A هي available vector.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22963,6 +25906,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "نحاكي إكمال العملية ثم تحرير مواردها.",
               "fullExplanation": "نحاكي إكمال العملية ثم تحرير مواردها.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22979,6 +25923,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "غير المعلمة لم تستطع الإكمال في المحاكاة.",
               "fullExplanation": "غير المعلمة لم تستطع الإكمال في المحاكاة.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -22995,6 +25940,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Banker يختبر الأمان قبل منح الطلب.",
               "fullExplanation": "Banker يختبر الأمان قبل منح الطلب.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23011,6 +25957,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "safe sequence يعني يمكن للجميع الانتهاء.",
               "fullExplanation": "safe sequence يعني يمكن للجميع الانتهاء.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23027,6 +25974,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "المتاح = 10 - 3 - 4 - 2 = 1.",
               "fullExplanation": "المتاح = 10 - 3 - 4 - 2 = 1.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23043,6 +25991,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "(1,1) <= (2,1)، لذلك يمكن تلبية احتياجها.",
               "fullExplanation": "(1,1) <= (2,1)، لذلك يمكن تلبية احتياجها.",
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -23071,6 +26020,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FIFO (First-In, First-Out) removes pages in arrival order.",
               "fullExplanation": "FIFO removes pages in arrival order.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23087,6 +26037,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LRU (Least Recently Used) chooses by past recency.",
               "fullExplanation": "LRU chooses by past recency.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23103,6 +26054,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Optimal uses future knowledge and is mainly a benchmark.",
               "fullExplanation": "Optimal uses future knowledge and is mainly a benchmark.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23119,6 +26071,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Each first reference is absent and fills a free frame.",
               "fullExplanation": "Each first reference is absent and fills a free frame.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23135,6 +26088,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "7 entered first, so FIFO (First-In, First-Out) evicts 7.",
               "fullExplanation": "7 entered first, so FIFO evicts 7.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23151,6 +26105,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LRU (Least Recently Used) removes the least recently used page, 7.",
               "fullExplanation": "LRU removes the least recently used page, 7.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23167,6 +26122,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Future: 0 soon, 2 later, 3 later than 2, so 3 is farthest.",
               "fullExplanation": "Future: 0 soon, 2 later, 3 later than 2, so 3 is farthest.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23183,6 +26139,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Step through FIFO (First-In, First-Out): faults on 7,0,1,2,3,0,4,2,3,0 = 10.",
               "fullExplanation": "Step through FIFO: faults on 7,0,1,2,3,0,4,2,3,0 = 10.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23199,6 +26156,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LRU (Least Recently Used) faults 9 times for this classic reference string.",
               "fullExplanation": "LRU faults 9 times for this classic reference string.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23215,6 +26173,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Optimal gives the minimum here: 7 faults.",
               "fullExplanation": "Optimal gives the minimum here: 7 faults.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23231,6 +26190,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FIFO (First-In, First-Out) may have more faults with more frames.",
               "fullExplanation": "FIFO may have more faults with more frames.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23247,6 +26207,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Real OSs (Operating Systems) do not know future page references exactly.",
               "fullExplanation": "Real OSs do not know future page references exactly.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23263,6 +26224,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LRU (Least Recently Used) must update last-use order on hits.",
               "fullExplanation": "LRU must update last-use order on hits.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23279,6 +26241,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The pointer cycles through frames in FIFO (First-In, First-Out) order.",
               "fullExplanation": "The pointer cycles through frames in FIFO order.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23295,6 +26258,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "A hit is not a fault.",
               "fullExplanation": "A hit is not a fault.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23311,6 +26275,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "1 faults, 2 faults, second 1 is a hit.",
               "fullExplanation": "1 faults, 2 faults, second 1 is a hit.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23327,6 +26292,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "1 and 2 load; 3 replaces oldest 1, leaving 3 and 2.",
               "fullExplanation": "1 and 2 load; 3 replaces oldest 1, leaving 3 and 2.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23343,6 +26309,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "After hit on 1, page 2 is least recently used.",
               "fullExplanation": "After hit on 1, page 2 is least recently used.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23359,6 +26326,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Optimal is the theoretical lower bound.",
               "fullExplanation": "Optimal is the theoretical lower bound.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23375,6 +26343,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Faults occur on misses.",
               "fullExplanation": "Faults occur on misses.",
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -23403,6 +26372,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FCFS (First-Come, First-Served) orders processes by arrival time.",
               "fullExplanation": "FCFS orders processes by arrival time.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23419,6 +26389,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FCFS (First-Come, First-Served) runs by arrival: P1 then P2 then P3.",
               "fullExplanation": "FCFS runs by arrival: P1 then P2 then P3.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23435,6 +26406,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P2 starts at 5 and arrived at 1, so waiting = 5 - 1 = 4.",
               "fullExplanation": "P2 starts at 5 and arrived at 1, so waiting = 5 - 1 = 4.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23451,6 +26423,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P3 starts at 8 and arrived at 2, so waiting = 6.",
               "fullExplanation": "P3 starts at 8 and arrived at 2, so waiting = 6.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23467,6 +26440,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P1 finishes at 5 and arrived at 0, so turnaround = 5.",
               "fullExplanation": "P1 finishes at 5 and arrived at 0, so turnaround = 5.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23483,6 +26457,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P2 finishes at 8 and arrived at 1, so turnaround = 7.",
               "fullExplanation": "P2 finishes at 8 and arrived at 1, so turnaround = 7.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23499,6 +26474,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P3 finishes at 10 and arrived at 2, so turnaround = 8.",
               "fullExplanation": "P3 finishes at 10 and arrived at 2, so turnaround = 8.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23515,6 +26491,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Average waiting = (0+4+6)/3 = 3.33.",
               "fullExplanation": "Average waiting = (0+4+6)/3 = 3.33.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23531,6 +26508,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Average turnaround = (5+7+8)/3 = 6.67.",
               "fullExplanation": "Average turnaround = (5+7+8)/3 = 6.67.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23547,6 +26525,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The scheduler waits until a process is available.",
               "fullExplanation": "The scheduler waits until a process is available.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23563,6 +26542,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Waiting is the time spent before first running.",
               "fullExplanation": "Waiting is the time spent before first running.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23579,6 +26559,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Turnaround covers the whole time in system.",
               "fullExplanation": "Turnaround covers the whole time in system.",
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -23607,6 +26588,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The quantum controls each turn length.",
               "fullExplanation": "The quantum controls each turn length.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23623,6 +26605,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Processes rotate through the ready queue with quantum 2.",
               "fullExplanation": "Processes rotate through the ready queue with quantum 2.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23639,6 +26622,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P3 runs from 4 to 6 and finishes.",
               "fullExplanation": "P3 runs from 4 to 6 and finishes.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23655,6 +26639,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P2 runs 2-4, then 8-9 and finishes.",
               "fullExplanation": "P2 runs 2-4, then 8-9 and finishes.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23671,6 +26656,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "P1 runs 0-2, 6-8, 9-10.",
               "fullExplanation": "P1 runs 0-2, 6-8, 9-10.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23687,6 +26673,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Waiting = finish - arrival - burst = 10 - 0 - 5 = 5.",
               "fullExplanation": "Waiting = finish - arrival - burst = 10 - 0 - 5 = 5.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23703,6 +26690,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Waiting = 9 - 1 - 3 = 5.",
               "fullExplanation": "Waiting = 9 - 1 - 3 = 5.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23719,6 +26707,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Waiting = 6 - 2 - 2 = 2.",
               "fullExplanation": "Waiting = 6 - 2 - 2 = 2.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23735,6 +26724,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Average waiting = (5+5+2)/3 = 4.",
               "fullExplanation": "Average waiting = (5+5+2)/3 = 4.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23751,6 +26741,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Turnaround values are 10,8,4; average = 7.33.",
               "fullExplanation": "Turnaround values are 10,8,4; average = 7.33.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23767,6 +26758,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Completed processes go to the completed list.",
               "fullExplanation": "Completed processes go to the completed list.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23783,6 +26775,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The code increments time during idle periods.",
               "fullExplanation": "The code increments time during idle periods.",
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -23811,6 +26804,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The code checks if rank == 0 for master behavior.",
               "fullExplanation": "The code checks if rank == 0 for master behavior.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23827,6 +26821,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Rank identifies each MPI (Message Passing Interface) process.",
               "fullExplanation": "Rank identifies each MPI process.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23843,6 +26838,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Size is the communicator process count.",
               "fullExplanation": "Size is the communicator process count.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23859,6 +26855,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Workers are ranks 1 and 2, because rank 0 is master.",
               "fullExplanation": "Workers are ranks 1 and 2, because rank 0 is master.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23875,6 +26872,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Python list pop() without index removes the last element.",
               "fullExplanation": "Python list pop() without index removes the last element.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23891,6 +26889,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The worker computes task * task.",
               "fullExplanation": "The worker computes task * task.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23907,6 +26906,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The code sends to ranks 1..size-1 once, then receives once from each.",
               "fullExplanation": "The code sends to ranks 1..size-1 once, then receives once from each.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23923,6 +26923,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "comm.send sends data to the destination rank.",
               "fullExplanation": "comm.send sends data to the destination rank.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23939,6 +26940,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The master uses recv to collect worker results.",
               "fullExplanation": "The master uses recv to collect worker results.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23955,6 +26957,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The master coordinates work distribution.",
               "fullExplanation": "The master coordinates work distribution.",
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -23983,6 +26986,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The server accepts workers and sends tasks.",
               "fullExplanation": "The server accepts workers and sends tasks.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -23999,6 +27003,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "bind attaches the listening socket to host/port.",
               "fullExplanation": "bind attaches the listening socket to host/port.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24015,6 +27020,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "listen prepares the server to accept connections.",
               "fullExplanation": "listen prepares the server to accept connections.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24031,6 +27037,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Each accepted connection gets its own handler thread.",
               "fullExplanation": "Each accepted connection gets its own handler thread.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24047,6 +27054,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Python pop removes the last list element.",
               "fullExplanation": "Python pop removes the last list element.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24063,6 +27071,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "The client computes task * task.",
               "fullExplanation": "The client computes task * task.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24079,6 +27088,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "recv reads bytes; decode converts them to a string.",
               "fullExplanation": "recv reads bytes; decode converts them to a string.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24095,6 +27105,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "No data means the server closed the connection.",
               "fullExplanation": "No data means the server closed the connection.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24111,6 +27122,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Shared mutable state should be protected when multiple threads use it.",
               "fullExplanation": "Shared mutable state should be protected when multiple threads use it.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24127,6 +27139,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Sockets send bytes, not Python strings directly.",
               "fullExplanation": "Sockets send bytes, not Python strings directly.",
+              "modelAnswer": null,
               "points": 1
             }
           ]
@@ -24155,6 +27168,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "FIFO (First-In, First-Out) تعني الداخل أولا يخرج أولا.",
               "fullExplanation": "FIFO تعني الداخل أولا يخرج أولا.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24171,6 +27185,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LRU (Least Recently Used) يعتمد على الماضي: من لم تستخدم منذ أطول وقت.",
               "fullExplanation": "LRU يعتمد على الماضي: من لم تستخدم منذ أطول وقت.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24187,6 +27202,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Optimal ينظر للمستقبل لذلك يستخدم للمقارنة فقط.",
               "fullExplanation": "Optimal ينظر للمستقبل لذلك يستخدم للمقارنة فقط.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24203,6 +27219,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "كل صفحة غير موجودة فتسبب fault وتملأ إطارا.",
               "fullExplanation": "كل صفحة غير موجودة فتسبب fault وتملأ إطارا.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24219,6 +27236,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "7 هي الأقدم دخولا.",
               "fullExplanation": "7 هي الأقدم دخولا.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24235,6 +27253,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LRU (Least Recently Used) يخرج الأقل استخداما مؤخرا.",
               "fullExplanation": "LRU يخرج الأقل استخداما مؤخرا.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24251,6 +27270,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "بالتتبع خطوة خطوة تكون أخطاء FIFO (First-In, First-Out) = 10.",
               "fullExplanation": "بالتتبع خطوة خطوة تكون أخطاء FIFO = 10.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24267,6 +27287,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "LRU (Least Recently Used) يحسن على FIFO (First-In, First-Out) هنا ويعطي 9.",
               "fullExplanation": "LRU يحسن على FIFO هنا ويعطي 9.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24283,6 +27304,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "Optimal أقل عدد لأنه يعرف المستقبل.",
               "fullExplanation": "Optimal أقل عدد لأنه يعرف المستقبل.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24299,6 +27321,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "زيادة عدد الإطارات قد تزيد الأخطاء في FIFO (First-In, First-Out).",
               "fullExplanation": "زيادة عدد الإطارات قد تزيد الأخطاء في FIFO.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24315,6 +27338,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "النظام لا يعرف المستقبل الحقيقي.",
               "fullExplanation": "النظام لا يعرف المستقبل الحقيقي.",
+              "modelAnswer": null,
               "points": 1
             },
             {
@@ -24331,6 +27355,7 @@ window.UNIFIED_EXAM_DATA = {
               ],
               "explanation": "وجود الصفحة يعني hit وليس fault.",
               "fullExplanation": "وجود الصفحة يعني hit وليس fault.",
+              "modelAnswer": null,
               "points": 1
             }
           ]

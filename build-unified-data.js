@@ -12,19 +12,25 @@ function readJson(filePath) {
 function normalizeQuestion(question) {
   const choices = Array.isArray(question.choices) ? question.choices.map(String) : [];
   const answer = Array.isArray(question.answer) ? question.answer.map(Number) : [];
+  const type = question.type || (choices.length === 0 ? "Open Answer" : answer.length > 1 ? "Multiple Select" : "Single Choice");
   return {
-    type: question.type || (answer.length > 1 ? "Multiple Select" : "Single Choice"),
+    type,
     prompt: cleanStudyText(question.prompt || ""),
     choices: choices.map(cleanStudyText),
     answer,
     explanation: cleanStudyText(question.explanation || ""),
     fullExplanation: question.fullExplanation ? cleanStudyText(question.fullExplanation) : null,
+    modelAnswer: question.modelAnswer ? cleanStudyText(question.modelAnswer) : null,
     points: Number(question.points || 1)
   };
 }
 
 function cleanStudyText(value) {
   return String(value);
+}
+
+function isOpenQuestion(question) {
+  return question.type === "Open Answer" || question.choices.length === 0;
 }
 
 function normalizeExam(subjectId, bankId, bankTitle, exam) {
@@ -38,7 +44,7 @@ function normalizeExam(subjectId, bankId, bankTitle, exam) {
     title: exam.title || exam.id,
     description: exam.description || "",
     questions: (exam.questions || []).map(normalizeQuestion).filter(question => {
-      return question.prompt && question.choices.length > 0 && question.answer.length > 0;
+      return question.prompt && (isOpenQuestion(question) || (question.choices.length > 0 && question.answer.length > 0));
     })
   };
 }
@@ -207,6 +213,7 @@ const subjects = [
     { path: "oop-references.json", bankId: "references", title: "Reference Exams" }
   ]),
   loadGeneratedSubject("ai-ethics"),
+  loadGeneratedSubject("ai-ethics-doc-questions"),
   loadGeneratedSubject("ai"),
   loadGeneratedSubject("os")
 ];
