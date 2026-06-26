@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-26T11:27:23.120Z",
+  "generatedAt": "2026-06-26T11:37:19.543Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -9277,6 +9277,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In Bayes' theorem, what does the posterior probability represent?",
+              "choices": [
+                "The updated probability after observing evidence",
+                "The number of rows in the dataset",
+                "The error of a regression model",
+                "The distance between two clusters"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The posterior combines prior belief and evidence.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does a prior probability describe?",
+              "choices": [
+                "A probability before using the new evidence",
+                "A prediction after model training only",
+                "The final value of R2",
+                "The number of hidden layers"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The prior is the starting belief before observing the current evidence.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which rule is used to compute the probability of A or B?",
+              "choices": [
+                "The addition rule for union",
+                "Gradient descent",
+                "Backpropagation",
+                "The elbow method"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The union probability uses the addition rule, with overlap handled if needed.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -9354,6 +9405,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "قابلية التفسير تساعد في الثقة والمراجعة وكشف الأخطاء أو التحيز.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which company example is usually connected with biased hiring data?",
+              "choices": [
+                "Amazon recruiting tool",
+                "K-Means Iris clustering",
+                "Linear regression house prices",
+                "PCA eigenvectors"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The Amazon recruiting example is commonly used to show bias from historical hiring data.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does transparency require from an AI system?",
+              "choices": [
+                "Clear explanation of how decisions are made or justified",
+                "Hiding all model outputs",
+                "Using only larger datasets",
+                "Removing human review"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Transparency is about making model behavior understandable enough to review.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is facial-recognition bias a serious issue?",
+              "choices": [
+                "It can harm some groups more than others",
+                "It improves fairness automatically",
+                "It removes the need for privacy",
+                "It only affects file size"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Unequal error rates can create unfair or harmful decisions.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -9437,6 +9539,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the forward propagation example, what is ReLU used for?",
+              "choices": [
+                "Turning negative values into zero and keeping positive values",
+                "Measuring classification recall",
+                "Choosing the number of trees",
+                "Splitting data into train and test"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "ReLU is a common activation function: max(0, x).",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What information is needed before calculating a hidden-layer neuron output?",
+              "choices": [
+                "Inputs, weights, bias, and activation function",
+                "Only the final accuracy",
+                "Only the dataset filename",
+                "Only the confusion matrix"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A neuron needs weighted inputs plus bias, then an activation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the hidden layer output become in the next layer?",
+              "choices": [
+                "Input to the output layer",
+                "The model's final loss",
+                "A random forest tree",
+                "A VIF score"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Layer outputs feed forward into the following layer.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -9514,6 +9667,108 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "تحليل المشاعر يعتمد على فهم النصوص وتصنيفها.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which computer-vision task assigns a class to an entire image?",
+              "choices": [
+                "Image recognition",
+                "Machine translation",
+                "Text summarization",
+                "Question answering"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Image recognition classifies the whole image.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which computer-vision task locates objects inside an image?",
+              "choices": [
+                "Object detection",
+                "Sentiment analysis",
+                "Text generation",
+                "Cross validation"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Object detection identifies both object classes and positions.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does semantic segmentation do?",
+              "choices": [
+                "Assigns a class label to pixels or regions",
+                "Computes RMSE",
+                "Finds VIF values",
+                "Chooses a learning rate"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Segmentation is more detailed than whole-image classification.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which NLP task converts text from one language to another?",
+              "choices": [
+                "Machine translation",
+                "Face recognition",
+                "Medical imaging",
+                "Object detection"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Machine translation is a classic NLP application.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which application combines image understanding and language generation?",
+              "choices": [
+                "Image captioning",
+                "Linear regression",
+                "VIF testing",
+                "Decision-tree pruning"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Image captioning is a multimodal task using vision and language.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is multimodal AI?",
+              "choices": [
+                "AI that combines more than one data type such as image, text, or audio",
+                "A model that has no inputs",
+                "A metric for regression only",
+                "A way to delete features"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Multimodal systems reason across multiple forms of data.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -9597,6 +9852,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What output range is associated with the sigmoid activation?",
+              "choices": [
+                "Between 0 and 1",
+                "Only negative numbers",
+                "Any text label",
+                "Only integers above 100"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Sigmoid squashes values into the 0 to 1 range.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a key advantage of ReLU over sigmoid in many hidden layers?",
+              "choices": [
+                "It is simple and helps reduce some vanishing-gradient problems",
+                "It always outputs probabilities",
+                "It removes all need for weights",
+                "It only works for text"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "ReLU is computationally simple and often trains deep networks better.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does tanh output?",
+              "choices": [
+                "Values roughly between -1 and 1",
+                "Only values above 1",
+                "Only class names",
+                "Only missing values"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Tanh is centered around zero and ranges from -1 to 1.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -9674,6 +9980,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "العشوائية تساعد على تنويع الأشجار وتقليل التشابه بينها.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does bootstrapping mean in Random Forest?",
+              "choices": [
+                "Training trees on random samples drawn with replacement",
+                "Deleting the target column",
+                "Using one fixed row only",
+                "Turning trees into neural networks"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Bootstrapped samples help produce different trees.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does Random Forest choose random subsets of features?",
+              "choices": [
+                "To make trees more diverse",
+                "To make every tree identical",
+                "To remove the target variable",
+                "To stop training after one split"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Feature randomness reduces correlation among trees.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does Random Forest usually predict in regression?",
+              "choices": [
+                "By averaging tree predictions",
+                "By majority vote only",
+                "By computing recall",
+                "By applying Bayes' theorem directly"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "For regression, Random Forest combines numeric outputs by averaging.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -9757,6 +10114,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which measure describes the center of numeric data?",
+              "choices": [
+                "Mean",
+                "ROC curve",
+                "Kernel trick",
+                "Support vector"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The mean is a common measure of central tendency.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does standard deviation measure?",
+              "choices": [
+                "How spread out values are around the mean",
+                "The number of model classes",
+                "The size of a neural-network layer",
+                "The number of trees"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Standard deviation summarizes dispersion.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the difference between qualitative and quantitative data?",
+              "choices": [
+                "Qualitative is categorical; quantitative is numeric",
+                "Both are always numeric",
+                "Both are always image data",
+                "Qualitative is only for regression"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Statistics distinguishes categories from numeric measurements.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -9834,6 +10242,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "تقليل الأبعاد قد يسهل التصور والتدريب ويقلل التعقيد.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What happens to correlated original features after PCA transformation?",
+              "choices": [
+                "They are converted into new principal components",
+                "They become labels automatically",
+                "They are always all deleted",
+                "They become confusion-matrix cells"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "PCA creates new axes from combinations of original features.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why might PCA improve model training speed?",
+              "choices": [
+                "It can reduce the number of input dimensions",
+                "It increases every feature count",
+                "It removes the need for a model",
+                "It prevents evaluation"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Fewer dimensions can reduce computation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What should be checked before choosing the number of PCA components?",
+              "choices": [
+                "Cumulative explained variance",
+                "Only file name length",
+                "Only the number of classes",
+                "Only the final plot color"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Explained variance shows how much information is retained.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -9917,6 +10376,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does RMSE add compared with MSE?",
+              "choices": [
+                "It returns the error to the original target unit",
+                "It turns regression into classification",
+                "It ignores large errors",
+                "It calculates precision"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "RMSE is the square root of MSE, so its unit matches the target.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "If MAE is 0.5, what does that mean?",
+              "choices": [
+                "The average absolute prediction error is 0.5 target units",
+                "The model is 50 percent accurate in classification",
+                "There are exactly 0.5 features",
+                "The data has no errors"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "MAE is the average magnitude of errors.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "When is a higher R2 score generally better?",
+              "choices": [
+                "When it means the model explains more target variance",
+                "When it means more missing values",
+                "When it means lower recall",
+                "When it means fewer samples"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Higher R2 usually indicates a better fit, within context.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -9994,6 +10504,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "Recall مهم عندما يكون تفويت الحالات الإيجابية مكلفا.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does F1-score combine?",
+              "choices": [
+                "Precision and recall",
+                "MAE and MSE",
+                "PCA and VIF",
+                "Mean and median"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "F1 is the harmonic mean of precision and recall.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does AUC measure in ROC analysis?",
+              "choices": [
+                "How well the model separates classes across thresholds",
+                "The number of hidden layers",
+                "The regression slope",
+                "The dataset filename"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "AUC summarizes ROC performance over decision thresholds.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does Log Loss penalize?",
+              "choices": [
+                "Confident wrong probability predictions",
+                "Only correct predictions",
+                "Only missing values",
+                "Only feature names"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Log Loss cares about probability quality, not just class labels.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -10077,6 +10638,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Where does feature scaling usually belong in the model-building workflow?",
+              "choices": [
+                "After cleaning/splitting and before many distance- or gradient-based models",
+                "After final deployment only",
+                "Before defining the problem",
+                "Only after deleting all labels"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Scaling is preprocessing and must be fitted carefully to avoid leakage.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why should preprocessing be learned from training data only?",
+              "choices": [
+                "To avoid data leakage from test data",
+                "To make test data larger",
+                "To remove the target variable",
+                "To stop evaluation"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Using test information during preprocessing can make evaluation too optimistic.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What should happen after evaluation shows weak performance?",
+              "choices": [
+                "Analyze errors and improve data, features, model, or parameters",
+                "Delete the results and publish anyway",
+                "Never change anything",
+                "Use the test set for training repeatedly without care"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Model building is iterative.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -10154,6 +10766,74 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "التصور يساعد على فهم التوزيع والعلاقات والأخطاء.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which library is commonly used for deep learning with Keras?",
+              "choices": [
+                "TensorFlow",
+                "Statsmodels",
+                "SymPy",
+                "Matplotlib"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Keras is commonly integrated with TensorFlow.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which library is strongly associated with tensor computation and deep learning research?",
+              "choices": [
+                "PyTorch",
+                "Pandas",
+                "Seaborn",
+                "CSV"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "PyTorch is a major deep-learning framework.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which libraries are gradient-boosting tools mentioned for machine learning?",
+              "choices": [
+                "XGBoost, LightGBM, and CatBoost",
+                "NumPy, CSV, and OS",
+                "HTML, CSS, and SVG",
+                "Kaggle, Iris, and PDF"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "These are popular boosting libraries.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which library is useful for statistical modeling and regression summaries?",
+              "choices": [
+                "Statsmodels",
+                "TensorFlow only",
+                "Keras only",
+                "OpenCV only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Statsmodels provides statistical model outputs and summaries.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -10237,6 +10917,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does a high pairwise correlation between independent variables suggest?",
+              "choices": [
+                "Possible multicollinearity",
+                "Perfect classification accuracy",
+                "No need for regression",
+                "A missing target variable"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Correlation matrices are an early warning for multicollinearity.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can multicollinearity make coefficients hard to trust?",
+              "choices": [
+                "Small data changes can cause unstable coefficient estimates",
+                "It makes every coefficient exactly zero",
+                "It removes all error",
+                "It guarantees better prediction"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Highly related predictors make individual effects harder to separate.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which threshold idea is often used with VIF?",
+              "choices": [
+                "Large VIF values such as above 5 or 10 can be warning signs",
+                "VIF below zero is always required",
+                "VIF equals accuracy",
+                "VIF must be larger than the sample size"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The exact threshold varies, but high VIF warns about multicollinearity.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -10314,6 +11045,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "مثل عمق الشجرة أو معدل التعلم، وهي لا تتعلم مباشرة مثل الأوزان.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can removing outliers improve a model?",
+              "choices": [
+                "Outliers can distort learned relationships and errors",
+                "Outliers always improve every model",
+                "Outliers are the target variable",
+                "Outliers replace validation data"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Extreme unusual points may harm fitting, depending on context.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is data normalization or standardization used for?",
+              "choices": [
+                "Putting features on comparable scales",
+                "Changing all labels to images",
+                "Deleting all numerical values",
+                "Creating a confusion matrix"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Many algorithms work better when features have comparable scales.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is one reason to encode categorical variables?",
+              "choices": [
+                "Models usually need numeric inputs",
+                "Encoding removes the need for data",
+                "Encoding always creates labels",
+                "Encoding means drawing a plot"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Categorical values often must be converted to numeric representations.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -10397,6 +11179,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the validation fold do in cross validation?",
+              "choices": [
+                "Acts as temporary test data for one split",
+                "Stores only feature names",
+                "Removes the training set",
+                "Calculates VIF only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Each fold becomes validation once while others train.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is underfitting?",
+              "choices": [
+                "The model is too simple and performs poorly even on training data",
+                "The model memorizes training data perfectly",
+                "The model has no input data",
+                "The model has too many labels"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Underfitting means the model fails to capture the pattern.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why is regularization useful?",
+              "choices": [
+                "It discourages overly complex models",
+                "It removes the loss function",
+                "It forces every coefficient to be huge",
+                "It avoids using validation"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Regularization adds a penalty that can improve generalization.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -10474,6 +11307,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "أحيانا الحل الحقيقي هو تحسين جودة البيانات وجمع أمثلة أفضل.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which ensemble method trains models sequentially to correct previous mistakes?",
+              "choices": [
+                "Boosting",
+                "Bagging",
+                "Simple averaging with no learning",
+                "Train-test split"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Boosting builds learners that focus on earlier errors.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which ensemble method is Random Forest based on most directly?",
+              "choices": [
+                "Bagging",
+                "K-Means",
+                "PCA",
+                "OLS"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Random Forest is a bagging-style ensemble of decision trees.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does feature importance help you understand?",
+              "choices": [
+                "Which inputs contributed more to model decisions",
+                "Which file extension is best",
+                "Which row should be deleted randomly",
+                "Which plot color is brighter"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Feature importance is useful for interpretation and debugging.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -10557,6 +11441,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why must data collection match the target population?",
+              "choices": [
+                "So the model learns patterns relevant to real use",
+                "So every sample is duplicated",
+                "So evaluation becomes unnecessary",
+                "So labels are removed"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Unrepresentative data causes poor real-world performance.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a label in supervised learning data?",
+              "choices": [
+                "The correct output value or class for a sample",
+                "A random filename",
+                "The model's hidden layer",
+                "A plot title only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Labels are the known answers used for supervised training.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What should be documented during data collection?",
+              "choices": [
+                "Source, meaning, collection method, and limitations",
+                "Only the model color",
+                "Only the computer name",
+                "Nothing after download"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Documentation supports trust and reproducibility.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -10634,6 +11569,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "لأن المثال تصنيفي، يمكن استخدام الدقة ومصفوفة الالتباس.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which Iris classes appear in the Random Forest example?",
+              "choices": [
+                "Setosa, Versicolor, and Virginica",
+                "Dog, cat, and bird",
+                "High, medium, and low salary",
+                "Spam and not spam only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The Iris dataset has three flower species.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does random_state help with in a practical model example?",
+              "choices": [
+                "Reproducible splits or model behavior",
+                "Higher accuracy guaranteed",
+                "Deleting random columns",
+                "Avoiding all randomness"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A fixed random_state makes results easier to repeat.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why inspect accuracy after prediction?",
+              "choices": [
+                "To compare predicted labels with true test labels",
+                "To build the tree before training",
+                "To remove the dataset",
+                "To compute image captions"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Accuracy uses y_pred and y_test.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -10717,6 +11703,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can K-Means cluster labels differ from Iris class numbers?",
+              "choices": [
+                "Cluster numbers are arbitrary labels assigned by the algorithm",
+                "K-Means reads class names directly",
+                "Iris has no measurements",
+                "Cluster labels are always wrong"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Unsupervised cluster IDs may need mapping for comparison.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does fitting K-Means on Iris measurements use?",
+              "choices": [
+                "Feature columns such as flower measurements",
+                "The class labels as training targets",
+                "Only image pixels",
+                "Only model accuracy"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "K-Means groups samples based on features.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why draw K-Means results?",
+              "choices": [
+                "To visually inspect cluster separation",
+                "To compute Bayes' theorem",
+                "To train backpropagation",
+                "To create a PDF report only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Plots help understand clustering behavior.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -10794,6 +11831,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "الخط الفاصل يحدد إلى أي جهة تنتمي النقطة الجديدة.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In a 2D SVM example, what can the separating line be written as?",
+              "choices": [
+                "An equation such as w1*x1 + w2*x2 + b = 0",
+                "A confusion matrix only",
+                "A list of tree leaves",
+                "A PCA variance table"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A linear decision boundary can be expressed with weights and bias.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which points matter most for determining the SVM boundary?",
+              "choices": [
+                "The support vectors near the margin",
+                "Only the farthest points from all classes",
+                "Only missing values",
+                "Only duplicated rows"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Support vectors define the margin.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does maximizing the margin aim to improve?",
+              "choices": [
+                "Generalization between classes",
+                "The number of columns",
+                "The file size",
+                "The number of hidden neurons"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A larger margin can make the classifier more robust.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -10877,6 +11965,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is underfitting in the practical workflow?",
+              "choices": [
+                "A model too weak to learn the training pattern",
+                "A model that only fails on new data after perfect training",
+                "A perfect model",
+                "A model with no evaluation metric"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Underfitting performs poorly on both training and test data.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is overfitting in the practical workflow?",
+              "choices": [
+                "A model that memorizes training details and generalizes poorly",
+                "A model that is too simple for training data",
+                "A model without parameters",
+                "A dataset with no rows"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Overfitting is high training performance with weak test performance.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why should you compare training and testing scores?",
+              "choices": [
+                "To diagnose underfitting or overfitting",
+                "To remove the target variable",
+                "To avoid using metrics",
+                "To convert regression to classification"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The score gap helps identify generalization problems.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -10957,6 +12096,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why calculate VIF before applying PCA in the example?",
+              "choices": [
+                "To show the original multicollinearity problem",
+                "To calculate classification recall",
+                "To choose class labels",
+                "To delete the target value"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Before/after comparison shows whether PCA reduced the issue.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why build Linear Regression before and after PCA?",
+              "choices": [
+                "To compare model behavior with original features versus PCA components",
+                "To remove the need for testing",
+                "To force higher VIF",
+                "To turn PCA into a classifier"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The example compares the pipeline before and after transformation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the target variable in the house-price PCA example?",
+              "choices": [
+                "Price",
+                "VIF",
+                "PCA component name",
+                "The row index"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The dependent variable is the house price.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -11034,6 +12224,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "ترتيب القيم يساعد على اختيار أهم المكونات.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does covariance measure?",
+              "choices": [
+                "How two variables change together",
+                "The number of output classes",
+                "The final accuracy only",
+                "The number of trees"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Covariance indicates joint variation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are eigenvectors important in PCA?",
+              "choices": [
+                "They define the directions of principal components",
+                "They store labels",
+                "They choose random samples",
+                "They compute confusion matrices"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Principal directions come from eigenvectors of the covariance matrix.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which component is usually selected first?",
+              "choices": [
+                "The one with the largest eigenvalue",
+                "The one with the smallest filename",
+                "The last row in the dataset",
+                "The one with lowest variance always"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The largest eigenvalue explains the most variance.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -11134,6 +12375,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which type of learning uses rewards and penalties?",
+              "choices": [
+                "Reinforcement learning",
+                "Supervised regression only",
+                "Unsupervised clustering only",
+                "Simple statistics only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Reinforcement learning learns through actions and rewards.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is clustering an example of?",
+              "choices": [
+                "Unsupervised learning",
+                "Supervised classification",
+                "Regression evaluation",
+                "Backpropagation only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Clustering finds groups without target labels.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the purpose of model training?",
+              "choices": [
+                "Learning parameters or patterns from data",
+                "Writing a report title",
+                "Deleting all examples",
+                "Changing file encoding"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Training adjusts the model using examples.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -11211,6 +12503,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "النماذج الصحية تحتاج اختبارات دقيقة وفهم للمخاطر.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are healthcare datasets sensitive?",
+              "choices": [
+                "They may contain personal or medical information",
+                "They never contain missing values",
+                "They always guarantee perfect predictions",
+                "They are unrelated to ethics"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Medical data requires privacy and careful handling.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What should you check before using a health dataset from Kaggle?",
+              "choices": [
+                "Description, features, target, license, and quality",
+                "Only the download button color",
+                "Only the number of comments",
+                "Nothing before training"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Understanding the dataset prevents misuse.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can class imbalance be common in medical datasets?",
+              "choices": [
+                "Some diseases or outcomes may be rare",
+                "Every class always has the same count",
+                "Labels are never used",
+                "Images cannot be classified"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Rare conditions often produce imbalanced data.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -11311,6 +12654,74 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the loss step in Backpropagation used for?",
+              "choices": [
+                "Measuring prediction error before computing gradients",
+                "Choosing the number of clusters",
+                "Drawing a tree",
+                "Downloading a dataset"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Gradients come from the loss value.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are weights updated opposite to the gradient direction?",
+              "choices": [
+                "To reduce the loss",
+                "To increase error intentionally",
+                "To remove all inputs",
+                "To change labels into features"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Gradient descent moves parameters toward lower loss.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What role does the bias term play in a neuron?",
+              "choices": [
+                "It shifts the activation threshold",
+                "It stores the dataset source",
+                "It measures accuracy",
+                "It is always zero"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Bias lets the neuron fit patterns not passing through the origin.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a forward pass in the Backpropagation file?",
+              "choices": [
+                "Computing outputs from inputs through current weights",
+                "Updating weights from output to input",
+                "Calculating VIF",
+                "Choosing k in K-Means"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The forward pass produces the prediction used in loss calculation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -11388,6 +12799,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "كل عقدة داخلية تختبر خاصية لتوجيه العينة إلى فرع مناسب.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is entropy or Gini used for in a decision tree?",
+              "choices": [
+                "Measuring split quality or impurity",
+                "Measuring neural-network learning rate",
+                "Choosing PCA components",
+                "Counting missing files"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Tree algorithms choose splits that reduce impurity.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is pruning in a decision tree?",
+              "choices": [
+                "Reducing tree complexity by removing weak branches",
+                "Adding unlimited branches",
+                "Converting the tree into K-Means",
+                "Removing all leaves"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Pruning helps control overfitting.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why are decision trees easy to interpret?",
+              "choices": [
+                "Their decisions follow visible if-then paths",
+                "They hide all rules",
+                "They only use matrix multiplication",
+                "They require no features"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A tree path can be read as a sequence of conditions.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -11471,6 +12933,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What split criterion is common in regression trees?",
+              "choices": [
+                "Reducing variance or squared error",
+                "Increasing classification entropy only",
+                "Maximizing text length",
+                "Choosing image labels"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Regression trees choose splits that reduce numeric target error.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why can a regression tree make step-like predictions?",
+              "choices": [
+                "Each leaf predicts a constant value for a region",
+                "It predicts only class names",
+                "It never splits data",
+                "It uses only Bayes' theorem"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A tree's leaves produce piecewise-constant predictions.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Which visual tool can help understand a regression tree?",
+              "choices": [
+                "A tree plot showing splits and leaf values",
+                "A confusion matrix only",
+                "A ROC curve only",
+                "A random image"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Tree visualization shows how numeric predictions are reached.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -11548,6 +13061,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "التقييم على بيانات جديدة أكثر عدلا لقياس التعميم.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why convert text values into numbers in the student example?",
+              "choices": [
+                "Machine-learning models usually require numeric encoded inputs",
+                "To remove the target",
+                "To make all answers random",
+                "To calculate Bayes only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Categorical values such as pass/fail or yes/no need encoding.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why draw the decision tree in the example?",
+              "choices": [
+                "To understand the learned decision rules",
+                "To calculate RMSE only",
+                "To hide the model",
+                "To remove features"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A plotted tree helps explain how the prediction is made.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the risk of using a tiny hand-made dataset?",
+              "choices": [
+                "The model may not generalize to real students",
+                "It always gives perfect real-world accuracy",
+                "It removes bias completely",
+                "It needs no labels"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Small examples teach the method but are not enough for deployment.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -11631,6 +13195,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the step function do in a Perceptron example?",
+              "choices": [
+                "Converts the weighted sum into a binary output",
+                "Computes VIF",
+                "Chooses k clusters",
+                "Calculates R2"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A step activation gives one of two decisions.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why does the multilayer example include a hidden layer?",
+              "choices": [
+                "To combine inputs into intermediate features",
+                "To remove all weights",
+                "To stop calculations",
+                "To calculate only MAE"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Hidden layers transform input information before final output.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "How does ReLU affect a hidden-layer value of -0.4?",
+              "choices": [
+                "It outputs 0",
+                "It outputs -0.4 unchanged",
+                "It outputs a class name",
+                "It deletes the row"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "ReLU returns max(0, x).",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -11708,6 +13323,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "التصور يساعد على تفسير نتائج التجميع خاصة في بعدين.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the elbow method help choose?",
+              "choices": [
+                "A suitable number of clusters k",
+                "The number of tree leaves",
+                "The output class labels",
+                "The regression intercept"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The elbow method compares clustering cost for different k values.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is inertia in K-Means?",
+              "choices": [
+                "Sum of squared distances from samples to their cluster centers",
+                "Classification recall",
+                "Regression R2",
+                "A neural-network bias"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Lower inertia means points are closer to their centers, but k must be chosen sensibly.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why should features often be scaled before K-Means?",
+              "choices": [
+                "Because distance-based clustering is affected by feature scale",
+                "Because scaling creates labels",
+                "Because it removes all centers",
+                "Because it guarantees k = 1"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Large-scale features can dominate distances.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -11791,6 +13457,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does viewing the first five rows help with?",
+              "choices": [
+                "Understanding columns and sample values",
+                "Training a model automatically",
+                "Computing final AUC",
+                "Deleting missing data blindly"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "head() gives a quick look at dataset structure.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why call info() or similar dataset summary tools?",
+              "choices": [
+                "To inspect columns, types, and missing values",
+                "To choose a random password",
+                "To create labels automatically",
+                "To draw a neural network"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Dataset summaries reveal structure and data quality issues.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the Titanic-style Kaggle example, what is analyzing survivors useful for?",
+              "choices": [
+                "Understanding the target distribution",
+                "Computing PCA eigenvectors",
+                "Choosing a ReLU function",
+                "Removing all categorical features"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Target distribution is important before modeling.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -11868,6 +13585,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "مخرجات الانحدار رقمية، لذلك نستخدم مقاييس خطأ رقمية.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "In the house-area example, what is the independent variable?",
+              "choices": [
+                "Area of the house",
+                "Predicted price only",
+                "Model accuracy",
+                "Cluster number"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Area is the input used to predict price.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the regression line show in a plot?",
+              "choices": [
+                "The fitted relationship between input and predicted output",
+                "The confusion matrix",
+                "The support vectors only",
+                "The PCA eigenvalues"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The line visualizes the learned linear equation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why allow user input after training in the example?",
+              "choices": [
+                "To predict a new price from a new area value",
+                "To retrain the model with no data",
+                "To delete the model",
+                "To calculate recall"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Interactive prediction applies the trained model to a new case.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -11985,6 +13753,210 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is Ridge Regression mainly used for?",
+              "choices": [
+                "Linear regression with L2 regularization",
+                "Unsupervised clustering only",
+                "Image captioning only",
+                "A replacement for all evaluation"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Ridge adds an L2 penalty to control coefficient size.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is OLS?",
+              "choices": [
+                "Ordinary Least Squares regression",
+                "Only Label Sorting",
+                "Online Learning Score",
+                "Object Location System"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "OLS fits coefficients by minimizing squared errors.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why compare OLS and Ridge coefficients?",
+              "choices": [
+                "To see how regularization changes coefficient magnitudes",
+                "To count class labels",
+                "To choose k clusters",
+                "To calculate BLEU score"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Ridge often shrinks coefficients compared with OLS.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does combining PCA with Ridge aim to do?",
+              "choices": [
+                "Reduce dimensionality and stabilize regression",
+                "Increase multicollinearity",
+                "Remove all numeric columns",
+                "Avoid all preprocessing"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "PCA can reduce correlated dimensions before regularized regression.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the Kernel Trick used for in SVM?",
+              "choices": [
+                "Handling nonlinear separation through implicit feature spaces",
+                "Computing only MAE",
+                "Drawing a decision tree",
+                "Removing support vectors"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The kernel trick helps SVM model nonlinear boundaries.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does the elbow method in the assignments help determine?",
+              "choices": [
+                "Best or reasonable K for K-Means",
+                "Best number of hidden labels",
+                "Best regression intercept",
+                "Best file name"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The elbow method is used for selecting cluster count.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is image segmentation with K-Means?",
+              "choices": [
+                "Grouping pixels into clusters based on features such as color",
+                "Predicting house prices",
+                "Computing R2 only",
+                "Solving Bayes' theorem"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "K-Means can cluster pixels to segment images.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the difference between Euclidean and Manhattan distance?",
+              "choices": [
+                "Euclidean is straight-line distance; Manhattan sums axis-wise absolute differences",
+                "Both are exactly the same formula",
+                "Both require class labels",
+                "Both are loss functions only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "These are two common distance metrics.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is vanishing gradient?",
+              "choices": [
+                "Gradients become very small and early layers learn slowly",
+                "Gradients become infinite by definition",
+                "The dataset loses labels",
+                "The model has no inputs"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Deep networks can suffer when gradients shrink through layers.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is exploding gradient?",
+              "choices": [
+                "Gradients become too large and destabilize training",
+                "Errors become exactly zero",
+                "The model changes into PCA",
+                "The target variable disappears"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Exploding gradients can cause unstable updates.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why compare Decision Tree and Random Forest?",
+              "choices": [
+                "To see the effect of ensembling many trees",
+                "To prove one tree always wins",
+                "To avoid evaluation",
+                "To remove feature importance"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Random Forest often improves stability over a single tree.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does feature importance in Random Forest show?",
+              "choices": [
+                "Which variables contributed more to splits/predictions",
+                "Which files are largest",
+                "Which labels are missing only",
+                "Which rows are duplicated only"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Feature importance helps interpret the trained ensemble.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -12062,6 +14034,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "في الانحدار المتعدد نستخدم مقاييس رقمية وقد نحتاج Adjusted R² لمراعاة عدد المتغيرات.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does Adjusted R2 account for?",
+              "choices": [
+                "The number of predictors in the model",
+                "Only the number of classes",
+                "Only the filename length",
+                "The number of tree leaves"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Adjusted R2 penalizes unnecessary predictors more than plain R2.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why inspect coefficients in multiple regression?",
+              "choices": [
+                "To understand each feature's estimated effect when others are held constant",
+                "To choose the number of clusters",
+                "To compute a confusion matrix",
+                "To remove labels"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Coefficients are useful but must be interpreted carefully.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a dependent variable in multiple regression?",
+              "choices": [
+                "The target value being predicted",
+                "Any unused column",
+                "The train-test split ratio",
+                "The model name"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "The dependent variable is y.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -12145,6 +14168,57 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why should a machine-learning report include methodology?",
+              "choices": [
+                "So readers understand the steps used to produce results",
+                "So results can be hidden",
+                "So code is unnecessary always",
+                "So metrics are ignored"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Methodology explains data handling, modeling, and evaluation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What makes a report reproducible?",
+              "choices": [
+                "Clear data source, preprocessing, model settings, and evaluation details",
+                "Only a title page",
+                "Only final accuracy",
+                "No code or settings"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Reproducibility means others can follow or repeat the work.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why include visualizations in the report?",
+              "choices": [
+                "To communicate patterns and results clearly",
+                "To replace all numeric metrics",
+                "To hide weak performance",
+                "To delete tables"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Plots support explanation when used with metrics.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         },
@@ -12222,6 +14296,57 @@ window.UNIFIED_EXAM_DATA = {
                 0
               ],
               "explanation": "Kernel مثل RBF يستخدم للعلاقات غير الخطية.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is a hyperplane in SVM?",
+              "choices": [
+                "The decision boundary separating classes",
+                "The average target value",
+                "A cluster center",
+                "A confusion-matrix cell"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "In SVM, the hyperplane is the separating boundary.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does Linear SVM assume about the data?",
+              "choices": [
+                "Classes can be separated reasonably with a linear boundary",
+                "There are no classes",
+                "The problem is always regression",
+                "The data must be images"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Linear SVM uses a straight hyperplane.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What does RBF kernel help model?",
+              "choices": [
+                "Curved or nonlinear decision boundaries",
+                "Only missing values",
+                "Only linear regression slopes",
+                "Only class imbalance"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "RBF is a common nonlinear kernel.",
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
@@ -12305,11 +14430,62 @@ window.UNIFIED_EXAM_DATA = {
               "fullExplanation": null,
               "modelAnswer": null,
               "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What should happen to VIF values after a successful PCA transformation?",
+              "choices": [
+                "They should be reduced because components are less correlated",
+                "They should become class labels",
+                "They must all become negative",
+                "They should equal accuracy"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "PCA components are constructed to reduce correlation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "Why compare regression performance before and after handling VIF?",
+              "choices": [
+                "To check whether the fix improved stability without harming prediction too much",
+                "To remove evaluation",
+                "To create missing values",
+                "To choose random labels"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "A fix should be checked with metrics and interpretation.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
+            },
+            {
+              "type": "Single Choice",
+              "prompt": "What is the practical meaning of removing one highly collinear feature?",
+              "choices": [
+                "Reducing redundant information among predictors",
+                "Deleting the target value",
+                "Increasing duplicated columns",
+                "Converting regression to clustering"
+              ],
+              "answer": [
+                0
+              ],
+              "explanation": "Removing redundancy can make coefficients more stable.",
+              "fullExplanation": null,
+              "modelAnswer": null,
+              "points": 1
             }
           ]
         }
       ],
-      "questionCount": 156,
+      "questionCount": 284,
       "examCount": 38
     },
     {

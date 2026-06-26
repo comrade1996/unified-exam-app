@@ -298,6 +298,217 @@ const exams = [
   ])
 ];
 
+const supplemental = {
+  "ai-01-probability-basics": [
+    q("In Bayes' theorem, what does the posterior probability represent?", ["The updated probability after observing evidence", "The number of rows in the dataset", "The error of a regression model", "The distance between two clusters"], 0, "The posterior combines prior belief and evidence."),
+    q("What does a prior probability describe?", ["A probability before using the new evidence", "A prediction after model training only", "The final value of R2", "The number of hidden layers"], 0, "The prior is the starting belief before observing the current evidence."),
+    q("Which rule is used to compute the probability of A or B?", ["The addition rule for union", "Gradient descent", "Backpropagation", "The elbow method"], 0, "The union probability uses the addition rule, with overlap handled if needed.")
+  ],
+  "ai-02-ethics-ml": [
+    q("Which company example is usually connected with biased hiring data?", ["Amazon recruiting tool", "K-Means Iris clustering", "Linear regression house prices", "PCA eigenvectors"], 0, "The Amazon recruiting example is commonly used to show bias from historical hiring data."),
+    q("What does transparency require from an AI system?", ["Clear explanation of how decisions are made or justified", "Hiding all model outputs", "Using only larger datasets", "Removing human review"], 0, "Transparency is about making model behavior understandable enough to review."),
+    q("Why is facial-recognition bias a serious issue?", ["It can harm some groups more than others", "It improves fairness automatically", "It removes the need for privacy", "It only affects file size"], 0, "Unequal error rates can create unfair or harmful decisions.")
+  ],
+  "ai-03-forward-propagation": [
+    q("In the forward propagation example, what is ReLU used for?", ["Turning negative values into zero and keeping positive values", "Measuring classification recall", "Choosing the number of trees", "Splitting data into train and test"], 0, "ReLU is a common activation function: max(0, x)."),
+    q("What information is needed before calculating a hidden-layer neuron output?", ["Inputs, weights, bias, and activation function", "Only the final accuracy", "Only the dataset filename", "Only the confusion matrix"], 0, "A neuron needs weighted inputs plus bias, then an activation."),
+    q("What does the hidden layer output become in the next layer?", ["Input to the output layer", "The model's final loss", "A random forest tree", "A VIF score"], 0, "Layer outputs feed forward into the following layer.")
+  ],
+  "ai-04-cv-nlp-applications": [
+    q("Which computer-vision task assigns a class to an entire image?", ["Image recognition", "Machine translation", "Text summarization", "Question answering"], 0, "Image recognition classifies the whole image."),
+    q("Which computer-vision task locates objects inside an image?", ["Object detection", "Sentiment analysis", "Text generation", "Cross validation"], 0, "Object detection identifies both object classes and positions."),
+    q("What does semantic segmentation do?", ["Assigns a class label to pixels or regions", "Computes RMSE", "Finds VIF values", "Chooses a learning rate"], 0, "Segmentation is more detailed than whole-image classification."),
+    q("Which NLP task converts text from one language to another?", ["Machine translation", "Face recognition", "Medical imaging", "Object detection"], 0, "Machine translation is a classic NLP application."),
+    q("Which application combines image understanding and language generation?", ["Image captioning", "Linear regression", "VIF testing", "Decision-tree pruning"], 0, "Image captioning is a multimodal task using vision and language."),
+    q("What is multimodal AI?", ["AI that combines more than one data type such as image, text, or audio", "A model that has no inputs", "A metric for regression only", "A way to delete features"], 0, "Multimodal systems reason across multiple forms of data.")
+  ],
+  "ai-05-neural-networks": [
+    q("What output range is associated with the sigmoid activation?", ["Between 0 and 1", "Only negative numbers", "Any text label", "Only integers above 100"], 0, "Sigmoid squashes values into the 0 to 1 range."),
+    q("What is a key advantage of ReLU over sigmoid in many hidden layers?", ["It is simple and helps reduce some vanishing-gradient problems", "It always outputs probabilities", "It removes all need for weights", "It only works for text"], 0, "ReLU is computationally simple and often trains deep networks better."),
+    q("What does tanh output?", ["Values roughly between -1 and 1", "Only values above 1", "Only class names", "Only missing values"], 0, "Tanh is centered around zero and ranges from -1 to 1.")
+  ],
+  "ai-06-random-forest": [
+    q("What does bootstrapping mean in Random Forest?", ["Training trees on random samples drawn with replacement", "Deleting the target column", "Using one fixed row only", "Turning trees into neural networks"], 0, "Bootstrapped samples help produce different trees."),
+    q("Why does Random Forest choose random subsets of features?", ["To make trees more diverse", "To make every tree identical", "To remove the target variable", "To stop training after one split"], 0, "Feature randomness reduces correlation among trees."),
+    q("How does Random Forest usually predict in regression?", ["By averaging tree predictions", "By majority vote only", "By computing recall", "By applying Bayes' theorem directly"], 0, "For regression, Random Forest combines numeric outputs by averaging.")
+  ],
+  "ai-07-statistics-introduction": [
+    q("Which measure describes the center of numeric data?", ["Mean", "ROC curve", "Kernel trick", "Support vector"], 0, "The mean is a common measure of central tendency."),
+    q("What does standard deviation measure?", ["How spread out values are around the mean", "The number of model classes", "The size of a neural-network layer", "The number of trees"], 0, "Standard deviation summarizes dispersion."),
+    q("What is the difference between qualitative and quantitative data?", ["Qualitative is categorical; quantitative is numeric", "Both are always numeric", "Both are always image data", "Qualitative is only for regression"], 0, "Statistics distinguishes categories from numeric measurements.")
+  ],
+  "ai-08-pca-dimensionality": [
+    q("What happens to correlated original features after PCA transformation?", ["They are converted into new principal components", "They become labels automatically", "They are always all deleted", "They become confusion-matrix cells"], 0, "PCA creates new axes from combinations of original features."),
+    q("Why might PCA improve model training speed?", ["It can reduce the number of input dimensions", "It increases every feature count", "It removes the need for a model", "It prevents evaluation"], 0, "Fewer dimensions can reduce computation."),
+    q("What should be checked before choosing the number of PCA components?", ["Cumulative explained variance", "Only file name length", "Only the number of classes", "Only the final plot color"], 0, "Explained variance shows how much information is retained.")
+  ],
+  "ai-09-regression-evaluation": [
+    q("What does RMSE add compared with MSE?", ["It returns the error to the original target unit", "It turns regression into classification", "It ignores large errors", "It calculates precision"], 0, "RMSE is the square root of MSE, so its unit matches the target."),
+    q("If MAE is 0.5, what does that mean?", ["The average absolute prediction error is 0.5 target units", "The model is 50 percent accurate in classification", "There are exactly 0.5 features", "The data has no errors"], 0, "MAE is the average magnitude of errors."),
+    q("When is a higher R2 score generally better?", ["When it means the model explains more target variance", "When it means more missing values", "When it means lower recall", "When it means fewer samples"], 0, "Higher R2 usually indicates a better fit, within context.")
+  ],
+  "ai-10-classification-evaluation": [
+    q("What does F1-score combine?", ["Precision and recall", "MAE and MSE", "PCA and VIF", "Mean and median"], 0, "F1 is the harmonic mean of precision and recall."),
+    q("What does AUC measure in ROC analysis?", ["How well the model separates classes across thresholds", "The number of hidden layers", "The regression slope", "The dataset filename"], 0, "AUC summarizes ROC performance over decision thresholds."),
+    q("What does Log Loss penalize?", ["Confident wrong probability predictions", "Only correct predictions", "Only missing values", "Only feature names"], 0, "Log Loss cares about probability quality, not just class labels.")
+  ],
+  "ai-11-model-building-steps": [
+    q("Where does feature scaling usually belong in the model-building workflow?", ["After cleaning/splitting and before many distance- or gradient-based models", "After final deployment only", "Before defining the problem", "Only after deleting all labels"], 0, "Scaling is preprocessing and must be fitted carefully to avoid leakage."),
+    q("Why should preprocessing be learned from training data only?", ["To avoid data leakage from test data", "To make test data larger", "To remove the target variable", "To stop evaluation"], 0, "Using test information during preprocessing can make evaluation too optimistic."),
+    q("What should happen after evaluation shows weak performance?", ["Analyze errors and improve data, features, model, or parameters", "Delete the results and publish anyway", "Never change anything", "Use the test set for training repeatedly without care"], 0, "Model building is iterative.")
+  ],
+  "ai-12-python-libraries": [
+    q("Which library is commonly used for deep learning with Keras?", ["TensorFlow", "Statsmodels", "SymPy", "Matplotlib"], 0, "Keras is commonly integrated with TensorFlow."),
+    q("Which library is strongly associated with tensor computation and deep learning research?", ["PyTorch", "Pandas", "Seaborn", "CSV"], 0, "PyTorch is a major deep-learning framework."),
+    q("Which libraries are gradient-boosting tools mentioned for machine learning?", ["XGBoost, LightGBM, and CatBoost", "NumPy, CSV, and OS", "HTML, CSS, and SVG", "Kaggle, Iris, and PDF"], 0, "These are popular boosting libraries."),
+    q("Which library is useful for statistical modeling and regression summaries?", ["Statsmodels", "TensorFlow only", "Keras only", "OpenCV only"], 0, "Statsmodels provides statistical model outputs and summaries.")
+  ],
+  "ai-13-multicollinearity-tests": [
+    q("What does a high pairwise correlation between independent variables suggest?", ["Possible multicollinearity", "Perfect classification accuracy", "No need for regression", "A missing target variable"], 0, "Correlation matrices are an early warning for multicollinearity."),
+    q("Why can multicollinearity make coefficients hard to trust?", ["Small data changes can cause unstable coefficient estimates", "It makes every coefficient exactly zero", "It removes all error", "It guarantees better prediction"], 0, "Highly related predictors make individual effects harder to separate."),
+    q("Which threshold idea is often used with VIF?", ["Large VIF values such as above 5 or 10 can be warning signs", "VIF below zero is always required", "VIF equals accuracy", "VIF must be larger than the sample size"], 0, "The exact threshold varies, but high VIF warns about multicollinearity.")
+  ],
+  "ai-14-model-improvement-1": [
+    q("Why can removing outliers improve a model?", ["Outliers can distort learned relationships and errors", "Outliers always improve every model", "Outliers are the target variable", "Outliers replace validation data"], 0, "Extreme unusual points may harm fitting, depending on context."),
+    q("What is data normalization or standardization used for?", ["Putting features on comparable scales", "Changing all labels to images", "Deleting all numerical values", "Creating a confusion matrix"], 0, "Many algorithms work better when features have comparable scales."),
+    q("What is one reason to encode categorical variables?", ["Models usually need numeric inputs", "Encoding removes the need for data", "Encoding always creates labels", "Encoding means drawing a plot"], 0, "Categorical values often must be converted to numeric representations.")
+  ],
+  "ai-15-model-improvement-2": [
+    q("What does the validation fold do in cross validation?", ["Acts as temporary test data for one split", "Stores only feature names", "Removes the training set", "Calculates VIF only"], 0, "Each fold becomes validation once while others train."),
+    q("What is underfitting?", ["The model is too simple and performs poorly even on training data", "The model memorizes training data perfectly", "The model has no input data", "The model has too many labels"], 0, "Underfitting means the model fails to capture the pattern."),
+    q("Why is regularization useful?", ["It discourages overly complex models", "It removes the loss function", "It forces every coefficient to be huge", "It avoids using validation"], 0, "Regularization adds a penalty that can improve generalization.")
+  ],
+  "ai-16-model-improvement-3": [
+    q("Which ensemble method trains models sequentially to correct previous mistakes?", ["Boosting", "Bagging", "Simple averaging with no learning", "Train-test split"], 0, "Boosting builds learners that focus on earlier errors."),
+    q("Which ensemble method is Random Forest based on most directly?", ["Bagging", "K-Means", "PCA", "OLS"], 0, "Random Forest is a bagging-style ensemble of decision trees."),
+    q("What does feature importance help you understand?", ["Which inputs contributed more to model decisions", "Which file extension is best", "Which row should be deleted randomly", "Which plot color is brighter"], 0, "Feature importance is useful for interpretation and debugging.")
+  ],
+  "ai-17-data-collection": [
+    q("Why must data collection match the target population?", ["So the model learns patterns relevant to real use", "So every sample is duplicated", "So evaluation becomes unnecessary", "So labels are removed"], 0, "Unrepresentative data causes poor real-world performance."),
+    q("What is a label in supervised learning data?", ["The correct output value or class for a sample", "A random filename", "The model's hidden layer", "A plot title only"], 0, "Labels are the known answers used for supervised training."),
+    q("What should be documented during data collection?", ["Source, meaning, collection method, and limitations", "Only the model color", "Only the computer name", "Nothing after download"], 0, "Documentation supports trust and reproducibility.")
+  ],
+  "ai-18-random-forest-practical": [
+    q("Which Iris classes appear in the Random Forest example?", ["Setosa, Versicolor, and Virginica", "Dog, cat, and bird", "High, medium, and low salary", "Spam and not spam only"], 0, "The Iris dataset has three flower species."),
+    q("What does random_state help with in a practical model example?", ["Reproducible splits or model behavior", "Higher accuracy guaranteed", "Deleting random columns", "Avoiding all randomness"], 0, "A fixed random_state makes results easier to repeat."),
+    q("Why inspect accuracy after prediction?", ["To compare predicted labels with true test labels", "To build the tree before training", "To remove the dataset", "To compute image captions"], 0, "Accuracy uses y_pred and y_test.")
+  ],
+  "ai-19-kmeans-iris-example": [
+    q("Why can K-Means cluster labels differ from Iris class numbers?", ["Cluster numbers are arbitrary labels assigned by the algorithm", "K-Means reads class names directly", "Iris has no measurements", "Cluster labels are always wrong"], 0, "Unsupervised cluster IDs may need mapping for comparison."),
+    q("What does fitting K-Means on Iris measurements use?", ["Feature columns such as flower measurements", "The class labels as training targets", "Only image pixels", "Only model accuracy"], 0, "K-Means groups samples based on features."),
+    q("Why draw K-Means results?", ["To visually inspect cluster separation", "To compute Bayes' theorem", "To train backpropagation", "To create a PDF report only"], 0, "Plots help understand clustering behavior.")
+  ],
+  "ai-20-svm-math-example": [
+    q("In a 2D SVM example, what can the separating line be written as?", ["An equation such as w1*x1 + w2*x2 + b = 0", "A confusion matrix only", "A list of tree leaves", "A PCA variance table"], 0, "A linear decision boundary can be expressed with weights and bias."),
+    q("Which points matter most for determining the SVM boundary?", ["The support vectors near the margin", "Only the farthest points from all classes", "Only missing values", "Only duplicated rows"], 0, "Support vectors define the margin."),
+    q("What does maximizing the margin aim to improve?", ["Generalization between classes", "The number of columns", "The file size", "The number of hidden neurons"], 0, "A larger margin can make the classifier more robust.")
+  ],
+  "ai-21-full-model-practical": [
+    q("What is underfitting in the practical workflow?", ["A model too weak to learn the training pattern", "A model that only fails on new data after perfect training", "A perfect model", "A model with no evaluation metric"], 0, "Underfitting performs poorly on both training and test data."),
+    q("What is overfitting in the practical workflow?", ["A model that memorizes training details and generalizes poorly", "A model that is too simple for training data", "A model without parameters", "A dataset with no rows"], 0, "Overfitting is high training performance with weak test performance."),
+    q("Why should you compare training and testing scores?", ["To diagnose underfitting or overfitting", "To remove the target variable", "To avoid using metrics", "To convert regression to classification"], 0, "The score gap helps identify generalization problems.")
+  ],
+  "ai-22-pca-multicollinearity-example": [
+    q("Why calculate VIF before applying PCA in the example?", ["To show the original multicollinearity problem", "To calculate classification recall", "To choose class labels", "To delete the target value"], 0, "Before/after comparison shows whether PCA reduced the issue."),
+    q("Why build Linear Regression before and after PCA?", ["To compare model behavior with original features versus PCA components", "To remove the need for testing", "To force higher VIF", "To turn PCA into a classifier"], 0, "The example compares the pipeline before and after transformation."),
+    q("What is the target variable in the house-price PCA example?", ["Price", "VIF", "PCA component name", "The row index"], 0, "The dependent variable is the house price.")
+  ],
+  "ai-23-covariance-eigen": [
+    q("What does covariance measure?", ["How two variables change together", "The number of output classes", "The final accuracy only", "The number of trees"], 0, "Covariance indicates joint variation."),
+    q("Why are eigenvectors important in PCA?", ["They define the directions of principal components", "They store labels", "They choose random samples", "They compute confusion matrices"], 0, "Principal directions come from eigenvectors of the covariance matrix."),
+    q("Which component is usually selected first?", ["The one with the largest eigenvalue", "The one with the smallest filename", "The last row in the dataset", "The one with lowest variance always"], 0, "The largest eigenvalue explains the most variance.")
+  ],
+  "ai-24-machine-learning-intro": [
+    q("Which type of learning uses rewards and penalties?", ["Reinforcement learning", "Supervised regression only", "Unsupervised clustering only", "Simple statistics only"], 0, "Reinforcement learning learns through actions and rewards."),
+    q("What is clustering an example of?", ["Unsupervised learning", "Supervised classification", "Regression evaluation", "Backpropagation only"], 0, "Clustering finds groups without target labels."),
+    q("What is the purpose of model training?", ["Learning parameters or patterns from data", "Writing a report title", "Deleting all examples", "Changing file encoding"], 0, "Training adjusts the model using examples.")
+  ],
+  "ai-25-health-kaggle-datasets": [
+    q("Why are healthcare datasets sensitive?", ["They may contain personal or medical information", "They never contain missing values", "They always guarantee perfect predictions", "They are unrelated to ethics"], 0, "Medical data requires privacy and careful handling."),
+    q("What should you check before using a health dataset from Kaggle?", ["Description, features, target, license, and quality", "Only the download button color", "Only the number of comments", "Nothing before training"], 0, "Understanding the dataset prevents misuse."),
+    q("Why can class imbalance be common in medical datasets?", ["Some diseases or outcomes may be rare", "Every class always has the same count", "Labels are never used", "Images cannot be classified"], 0, "Rare conditions often produce imbalanced data.")
+  ],
+  "ai-26-backpropagation": [
+    q("What is the loss step in Backpropagation used for?", ["Measuring prediction error before computing gradients", "Choosing the number of clusters", "Drawing a tree", "Downloading a dataset"], 0, "Gradients come from the loss value."),
+    q("Why are weights updated opposite to the gradient direction?", ["To reduce the loss", "To increase error intentionally", "To remove all inputs", "To change labels into features"], 0, "Gradient descent moves parameters toward lower loss."),
+    q("What role does the bias term play in a neuron?", ["It shifts the activation threshold", "It stores the dataset source", "It measures accuracy", "It is always zero"], 0, "Bias lets the neuron fit patterns not passing through the origin."),
+    q("What is a forward pass in the Backpropagation file?", ["Computing outputs from inputs through current weights", "Updating weights from output to input", "Calculating VIF", "Choosing k in K-Means"], 0, "The forward pass produces the prediction used in loss calculation.")
+  ],
+  "ai-27-decision-tree-classification": [
+    q("What is entropy or Gini used for in a decision tree?", ["Measuring split quality or impurity", "Measuring neural-network learning rate", "Choosing PCA components", "Counting missing files"], 0, "Tree algorithms choose splits that reduce impurity."),
+    q("What is pruning in a decision tree?", ["Reducing tree complexity by removing weak branches", "Adding unlimited branches", "Converting the tree into K-Means", "Removing all leaves"], 0, "Pruning helps control overfitting."),
+    q("Why are decision trees easy to interpret?", ["Their decisions follow visible if-then paths", "They hide all rules", "They only use matrix multiplication", "They require no features"], 0, "A tree path can be read as a sequence of conditions.")
+  ],
+  "ai-28-decision-tree-regression": [
+    q("What split criterion is common in regression trees?", ["Reducing variance or squared error", "Increasing classification entropy only", "Maximizing text length", "Choosing image labels"], 0, "Regression trees choose splits that reduce numeric target error."),
+    q("Why can a regression tree make step-like predictions?", ["Each leaf predicts a constant value for a region", "It predicts only class names", "It never splits data", "It uses only Bayes' theorem"], 0, "A tree's leaves produce piecewise-constant predictions."),
+    q("Which visual tool can help understand a regression tree?", ["A tree plot showing splits and leaf values", "A confusion matrix only", "A ROC curve only", "A random image"], 0, "Tree visualization shows how numeric predictions are reached.")
+  ],
+  "ai-29-python-student-example": [
+    q("Why convert text values into numbers in the student example?", ["Machine-learning models usually require numeric encoded inputs", "To remove the target", "To make all answers random", "To calculate Bayes only"], 0, "Categorical values such as pass/fail or yes/no need encoding."),
+    q("Why draw the decision tree in the example?", ["To understand the learned decision rules", "To calculate RMSE only", "To hide the model", "To remove features"], 0, "A plotted tree helps explain how the prediction is made."),
+    q("What is the risk of using a tiny hand-made dataset?", ["The model may not generalize to real students", "It always gives perfect real-world accuracy", "It removes bias completely", "It needs no labels"], 0, "Small examples teach the method but are not enough for deployment.")
+  ],
+  "ai-30-reading-examples": [
+    q("What does the step function do in a Perceptron example?", ["Converts the weighted sum into a binary output", "Computes VIF", "Chooses k clusters", "Calculates R2"], 0, "A step activation gives one of two decisions."),
+    q("Why does the multilayer example include a hidden layer?", ["To combine inputs into intermediate features", "To remove all weights", "To stop calculations", "To calculate only MAE"], 0, "Hidden layers transform input information before final output."),
+    q("How does ReLU affect a hidden-layer value of -0.4?", ["It outputs 0", "It outputs -0.4 unchanged", "It outputs a class name", "It deletes the row"], 0, "ReLU returns max(0, x).")
+  ],
+  "ai-31-kmeans": [
+    q("What does the elbow method help choose?", ["A suitable number of clusters k", "The number of tree leaves", "The output class labels", "The regression intercept"], 0, "The elbow method compares clustering cost for different k values."),
+    q("What is inertia in K-Means?", ["Sum of squared distances from samples to their cluster centers", "Classification recall", "Regression R2", "A neural-network bias"], 0, "Lower inertia means points are closer to their centers, but k must be chosen sensibly."),
+    q("Why should features often be scaled before K-Means?", ["Because distance-based clustering is affected by feature scale", "Because scaling creates labels", "Because it removes all centers", "Because it guarantees k = 1"], 0, "Large-scale features can dominate distances.")
+  ],
+  "ai-32-kaggle": [
+    q("What does viewing the first five rows help with?", ["Understanding columns and sample values", "Training a model automatically", "Computing final AUC", "Deleting missing data blindly"], 0, "head() gives a quick look at dataset structure."),
+    q("Why call info() or similar dataset summary tools?", ["To inspect columns, types, and missing values", "To choose a random password", "To create labels automatically", "To draw a neural network"], 0, "Dataset summaries reveal structure and data quality issues."),
+    q("In the Titanic-style Kaggle example, what is analyzing survivors useful for?", ["Understanding the target distribution", "Computing PCA eigenvectors", "Choosing a ReLU function", "Removing all categorical features"], 0, "Target distribution is important before modeling.")
+  ],
+  "ai-33-linear-regression-simple": [
+    q("In the house-area example, what is the independent variable?", ["Area of the house", "Predicted price only", "Model accuracy", "Cluster number"], 0, "Area is the input used to predict price."),
+    q("What does the regression line show in a plot?", ["The fitted relationship between input and predicted output", "The confusion matrix", "The support vectors only", "The PCA eigenvalues"], 0, "The line visualizes the learned linear equation."),
+    q("Why allow user input after training in the example?", ["To predict a new price from a new area value", "To retrain the model with no data", "To delete the model", "To calculate recall"], 0, "Interactive prediction applies the trained model to a new case.")
+  ],
+  "ai-34-assignments-solutions": [
+    q("What is Ridge Regression mainly used for?", ["Linear regression with L2 regularization", "Unsupervised clustering only", "Image captioning only", "A replacement for all evaluation"], 0, "Ridge adds an L2 penalty to control coefficient size."),
+    q("What is OLS?", ["Ordinary Least Squares regression", "Only Label Sorting", "Online Learning Score", "Object Location System"], 0, "OLS fits coefficients by minimizing squared errors."),
+    q("Why compare OLS and Ridge coefficients?", ["To see how regularization changes coefficient magnitudes", "To count class labels", "To choose k clusters", "To calculate BLEU score"], 0, "Ridge often shrinks coefficients compared with OLS."),
+    q("What does combining PCA with Ridge aim to do?", ["Reduce dimensionality and stabilize regression", "Increase multicollinearity", "Remove all numeric columns", "Avoid all preprocessing"], 0, "PCA can reduce correlated dimensions before regularized regression."),
+    q("What is the Kernel Trick used for in SVM?", ["Handling nonlinear separation through implicit feature spaces", "Computing only MAE", "Drawing a decision tree", "Removing support vectors"], 0, "The kernel trick helps SVM model nonlinear boundaries."),
+    q("What does the elbow method in the assignments help determine?", ["Best or reasonable K for K-Means", "Best number of hidden labels", "Best regression intercept", "Best file name"], 0, "The elbow method is used for selecting cluster count."),
+    q("What is image segmentation with K-Means?", ["Grouping pixels into clusters based on features such as color", "Predicting house prices", "Computing R2 only", "Solving Bayes' theorem"], 0, "K-Means can cluster pixels to segment images."),
+    q("What is the difference between Euclidean and Manhattan distance?", ["Euclidean is straight-line distance; Manhattan sums axis-wise absolute differences", "Both are exactly the same formula", "Both require class labels", "Both are loss functions only"], 0, "These are two common distance metrics."),
+    q("What is vanishing gradient?", ["Gradients become very small and early layers learn slowly", "Gradients become infinite by definition", "The dataset loses labels", "The model has no inputs"], 0, "Deep networks can suffer when gradients shrink through layers."),
+    q("What is exploding gradient?", ["Gradients become too large and destabilize training", "Errors become exactly zero", "The model changes into PCA", "The target variable disappears"], 0, "Exploding gradients can cause unstable updates."),
+    q("Why compare Decision Tree and Random Forest?", ["To see the effect of ensembling many trees", "To prove one tree always wins", "To avoid evaluation", "To remove feature importance"], 0, "Random Forest often improves stability over a single tree."),
+    q("What does feature importance in Random Forest show?", ["Which variables contributed more to splits/predictions", "Which files are largest", "Which labels are missing only", "Which rows are duplicated only"], 0, "Feature importance helps interpret the trained ensemble.")
+  ],
+  "ai-35-multiple-linear-regression": [
+    q("What does Adjusted R2 account for?", ["The number of predictors in the model", "Only the number of classes", "Only the filename length", "The number of tree leaves"], 0, "Adjusted R2 penalizes unnecessary predictors more than plain R2."),
+    q("Why inspect coefficients in multiple regression?", ["To understand each feature's estimated effect when others are held constant", "To choose the number of clusters", "To compute a confusion matrix", "To remove labels"], 0, "Coefficients are useful but must be interpreted carefully."),
+    q("What is a dependent variable in multiple regression?", ["The target value being predicted", "Any unused column", "The train-test split ratio", "The model name"], 0, "The dependent variable is y.")
+  ],
+  "ai-36-ml-report": [
+    q("Why should a machine-learning report include methodology?", ["So readers understand the steps used to produce results", "So results can be hidden", "So code is unnecessary always", "So metrics are ignored"], 0, "Methodology explains data handling, modeling, and evaluation."),
+    q("What makes a report reproducible?", ["Clear data source, preprocessing, model settings, and evaluation details", "Only a title page", "Only final accuracy", "No code or settings"], 0, "Reproducibility means others can follow or repeat the work."),
+    q("Why include visualizations in the report?", ["To communicate patterns and results clearly", "To replace all numeric metrics", "To hide weak performance", "To delete tables"], 0, "Plots support explanation when used with metrics.")
+  ],
+  "ai-37-support-vector-machines": [
+    q("What is a hyperplane in SVM?", ["The decision boundary separating classes", "The average target value", "A cluster center", "A confusion-matrix cell"], 0, "In SVM, the hyperplane is the separating boundary."),
+    q("What does Linear SVM assume about the data?", ["Classes can be separated reasonably with a linear boundary", "There are no classes", "The problem is always regression", "The data must be images"], 0, "Linear SVM uses a straight hyperplane."),
+    q("What does RBF kernel help model?", ["Curved or nonlinear decision boundaries", "Only missing values", "Only linear regression slopes", "Only class imbalance"], 0, "RBF is a common nonlinear kernel.")
+  ],
+  "ai-38-vif-example": [
+    q("What should happen to VIF values after a successful PCA transformation?", ["They should be reduced because components are less correlated", "They should become class labels", "They must all become negative", "They should equal accuracy"], 0, "PCA components are constructed to reduce correlation."),
+    q("Why compare regression performance before and after handling VIF?", ["To check whether the fix improved stability without harming prediction too much", "To remove evaluation", "To create missing values", "To choose random labels"], 0, "A fix should be checked with metrics and interpretation."),
+    q("What is the practical meaning of removing one highly collinear feature?", ["Reducing redundant information among predictors", "Deleting the target value", "Increasing duplicated columns", "Converting regression to clustering"], 0, "Removing redundancy can make coefficients more stable.")
+  ]
+};
+
+for (const item of exams) {
+  item.questions.push(...(supplemental[item.id] || []));
+}
+
 const sourceFiles = new Set(fs.existsSync(sourceDir)
   ? fs.readdirSync(sourceDir).filter(name => name.toLowerCase().endsWith(".md"))
   : []);
