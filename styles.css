@@ -243,6 +243,16 @@ button.ghost:hover {
   margin-top: 6px;
 }
 
+.exam-item strong,
+.exam-item span,
+.exam-head h2,
+.exam-head p,
+.question-card h3,
+.choice span,
+.feedback {
+  unicode-bidi: plaintext;
+}
+
 .workspace {
   display: grid;
   align-content: start;
