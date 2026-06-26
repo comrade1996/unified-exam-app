@@ -206,15 +206,28 @@ function loadGeneratedSubject(subjectId, files = null) {
 }
 
 const subjects = [
-  loadGeneratedSubject("math-ai"),
-  loadGeneratedSubject("information-security"),
+  loadGeneratedSubject("math-ai", [
+    { path: "math-ai.json", bankId: "manual-md", title: "Manual Markdown Exams" },
+    { path: "imported-math-ai-downloads.json", bankId: "downloads-json", title: "Downloaded Math AI JSON Exams" }
+  ]),
+  loadGeneratedSubject("information-security", [
+    { path: "information-security.json", bankId: "manual-md", title: "Manual Markdown Exams" },
+    { path: "imported-information-security-downloads.json", bankId: "downloads-json", title: "Downloaded Information Security JSON Exams" }
+  ]),
   loadGeneratedSubject("oop", [
     { path: "oop.json", bankId: "manual-md", title: "Manual Markdown Exams" },
-    { path: "oop-references.json", bankId: "references", title: "Reference Exams" }
+    { path: "oop-references.json", bankId: "references", title: "Reference Exams" },
+    { path: "imported-oop-downloads.json", bankId: "downloads-json", title: "Downloaded OOP JSON Exams" }
   ]),
-  loadGeneratedSubject("ai-ethics"),
+  loadGeneratedSubject("ai-ethics", [
+    { path: "ai-ethics.json", bankId: "manual-md", title: "Manual Markdown Exams" },
+    { path: "imported-ai-ethics-downloads.json", bankId: "downloads-json", title: "Downloaded AI Ethics JSON Exams" }
+  ]),
   loadGeneratedSubject("ai-ethics-doc-questions"),
-  loadGeneratedSubject("ai"),
+  loadGeneratedSubject("ai", [
+    { path: "ai.json", bankId: "manual-md", title: "Manual Markdown Exams" },
+    { path: "imported-ai-topic-downloads.json", bankId: "downloads-topic-json", title: "Downloaded AI Topic JSON Exams" }
+  ]),
   loadGeneratedSubject("os")
 ];
 

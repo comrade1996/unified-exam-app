@@ -1,0 +1,3202 @@
+{
+  "id": "oop",
+  "title": "Object-Oriented Programming",
+  "description": "Downloaded OOP JSON exams imported from Downloads.",
+  "banks": [
+    {
+      "id": "downloads-json",
+      "title": "Downloaded OOP JSON Exams",
+      "examCount": 21
+    }
+  ],
+  "exams": [
+    {
+      "id": "lectures-lecture-1",
+      "kind": "Lecture Exam",
+      "title": "Lecture 1 - Review",
+      "description": "Lecture and Comprehensive Exams - Pointers, arrays, functions, recursion, structs, and arrays of structs.",
+      "questions": [
+        {
+          "type": "Output prediction",
+          "prompt": "What is printed?",
+          "choices": [
+            "1 1",
+            "1 3",
+            "address 1",
+            "3 1"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The array name points to the first element, so p = a makes *p equal to a[0].",
+          "code": "int a[] = {1, 3, 5};\nint* p = a;\ncout << a[0] << \" \" << *p;"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "After p = a; p++; which array element does *p refer to?",
+          "choices": [
+            "a[0]",
+            "a[1]",
+            "a[2]",
+            "The whole array"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Pointer arithmetic moves by one element of the pointer type, not by one byte in source-level thinking.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which statements are true about passing an array to a function as int* p?",
+          "choices": [
+            "The function can read array elements through *p.",
+            "The function automatically knows the array length.",
+            "p++ can move to the next element.",
+            "Changing *p can change the caller's array element."
+          ],
+          "answer": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "A pointer gives access to elements, but array length is not carried with the pointer.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "In C++, a struct can group different data fields under one name.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A struct is a user-defined aggregate, useful before classes for grouping related data.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which loop correctly prints exactly 3 elements using pointer p?",
+          "choices": [
+            "for(int i=0;i<=3;i++) cout << *p++;",
+            "for(int i=0;i<3;i++) cout << *p++;",
+            "for(int i=1;i<3;i++) cout << *p++;",
+            "for(int i=0;i<2;i++) cout << *p++;"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "For 3 elements, valid iteration counts are i = 0, 1, 2, so i < 3 is correct.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What is the dangerous part of recursion?",
+          "choices": [
+            "It cannot call itself.",
+            "It must use arrays.",
+            "It may never stop without a base case.",
+            "It cannot return values."
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "A recursive function needs a stopping condition; otherwise the calls continue until stack failure.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-2",
+      "kind": "Lecture Exam",
+      "title": "Lecture 2 - Programming Paradigms",
+      "description": "Lecture and Comprehensive Exams - Imperative, procedural, functional, declarative, and object-oriented thinking.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Which phrase best describes imperative programming?",
+          "choices": [
+            "Describe what result is needed, not how.",
+            "Give detailed step-by-step commands.",
+            "Organize code only around objects.",
+            "Use only pure functions."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Imperative code focuses on how the computer should do the task step by step.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Procedural programming mainly adds what idea to imperative programming?",
+          "choices": [
+            "Objects with private data",
+            "Function/procedure-based organization",
+            "Templates",
+            "Virtual functions"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Procedural programming subdivides a program into functions or procedures.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which ideas match OOP as presented in the lecture?",
+          "choices": [
+            "Separate concerns into objects.",
+            "Each object groups information and actions.",
+            "All data must stay global.",
+            "Objects communicate with each other."
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "OOP moves from one long procedure toward entities that own data and behavior.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A programming paradigm is the same thing as a programming language.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "A paradigm is a style or set of principles. A language may support one or many paradigms.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "In declarative programming, the programmer usually emphasizes:",
+          "choices": [
+            "Every loop counter and update step",
+            "What result is wanted",
+            "Manual memory addresses",
+            "Only inheritance trees"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Declarative style hides many mechanics and focuses on the desired result.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which comparison is most accurate?",
+          "choices": [
+            "Structured code has no functions; OOP has functions.",
+            "OOP combines related data and functions into objects.",
+            "OOP removes the need for data.",
+            "Procedural and OOP are identical names."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The important shift is packaging state and behavior together.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-3",
+      "kind": "Lecture Exam",
+      "title": "Lecture 3 - Classes",
+      "description": "Lecture and Comprehensive Exams - Class syntax, objects, access, setters/getters, constructors, destructors, and scope resolution.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "In a C++ class, members are private by default unless another access label is written. What does this mean?",
+          "choices": [
+            "They can be accessed using any object.",
+            "Only member/friend code can access them directly.",
+            "They are copied into every function.",
+            "They become global variables."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Class default access is private, so outside code cannot directly touch those data members.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Why should st.setdata(1, \"Osman\") be preferred over st.stno = 1 when stno is private?",
+          "choices": [
+            "It is shorter.",
+            "It allows validation/filtering before storing data.",
+            "It avoids creating an object.",
+            "It makes stno static."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Setters protect the object by controlling how data enters it.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which function name is a constructor for class elevator?",
+          "choices": [
+            "void elevator()",
+            "int elevator()",
+            "elevator()",
+            "~display()"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "A constructor has the same name as the class and has no return type.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A destructor can receive parameters so it can destroy the object in different ways.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "A destructor has no parameters and no return type.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What does elevator::display() mean?",
+          "choices": [
+            "display is global only.",
+            "display is defined outside the class but belongs to elevator.",
+            "display creates an elevator object.",
+            "display is private automatically."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The scope resolution operator connects the outside definition to the class.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "Which constructor is called?",
+          "choices": [
+            "Default constructor",
+            "Constructor with int parameter",
+            "Destructor only",
+            "Copy constructor"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Passing 11 matches the constructor that accepts one integer.",
+          "code": "class elevator {\npublic:\n  elevator() {}\n  elevator(int fl) {}\n};\nelevator elv(11);"
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-4",
+      "kind": "Lecture Exam",
+      "title": "Lecture 4 - Objects, Static Data, and Overloading",
+      "description": "Lecture and Comprehensive Exams - Object memory, static class data, object arguments, returning objects, function and constructor overloading.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "If a class has 3 objects, how many copies of non-static data members exist?",
+          "choices": [
+            "One shared copy",
+            "Three copies, one per object",
+            "Zero until a function is called",
+            "One per member function"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Each object owns its own ordinary data members.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "If a class has 3 objects, how many copies of a static data member exist?",
+          "choices": [
+            "One shared by the class",
+            "Three copies",
+            "One per constructor call only",
+            "No copy"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Static class data is shared among all objects of the class.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which changes can make function overloading valid?",
+          "choices": [
+            "Different number of parameters",
+            "Different parameter types",
+            "Different parameter order when types differ",
+            "Only different return type"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Return type alone is not enough for overload resolution.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "If no constructor is defined in a class, what can the compiler provide?",
+          "choices": [
+            "A default no-argument constructor",
+            "A destructor with arguments",
+            "A virtual constructor",
+            "A friend constructor"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The compiler can generate a default constructor when no constructor is user-declared.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What value is most likely printed by c2.get_count() after these operations?",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "Undefined because c2 shares c1 data"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "c2 is incremented twice; ordinary data is separate for each object.",
+          "code": "Counter c1, c2;\nc1.inc_count();\nc2.inc_count();\nc2.inc_count();\ncout << c2.get_count();"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "When a member function returns an object, what does it allow?",
+          "choices": [
+            "Assigning a computed object result, such as dist3 = dist1.add_dist(dist2)",
+            "Returning only addresses",
+            "Avoiding constructors forever",
+            "Changing private into public"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Returning objects makes object computations composable.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-5",
+      "kind": "Lecture Exam",
+      "title": "Lecture 5 - Unary Operator Overloading",
+      "description": "Lecture and Comprehensive Exams - Unary operators, prefix ++, return values, temporary objects, nameless objects, and this.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Which declaration overloads prefix ++ as a member function for class Counter?",
+          "choices": [
+            "void ++operator();",
+            "void operator++();",
+            "operator void ++();",
+            "void operator+(Counter);"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The keyword operator is followed by the operator symbol.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why does c1 = ++c2 fail if operator++ returns void?",
+          "choices": [
+            "Assignment needs a Counter value to assign.",
+            "Prefix ++ cannot be overloaded.",
+            "c1 must be static.",
+            "c2 must be private."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The expression ++c2 must produce something assignable to c1.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are valid strategies mentioned for returning from overloaded unary ++?",
+          "choices": [
+            "Return a named temporary object.",
+            "Return a nameless temporary object.",
+            "Return *this.",
+            "Return the class definition."
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "The lecture mentions temporary object, nameless temporary object, and this.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why does return Counter(count); require a constructor with one argument?",
+          "choices": [
+            "It creates a nameless temporary object initialized by count.",
+            "It calls the destructor.",
+            "It changes count into static.",
+            "It calls main again."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Counter(count) constructs a temporary Counter object using the one-argument constructor.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "Overloading ++ for Counter changes how ++ works for int variables.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Built-in types still use built-in operator behavior.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which declaration is the usual member form for postfix ++?",
+          "choices": [
+            "Counter operator++();",
+            "Counter operator++(int);",
+            "Counter operator(int ++);",
+            "Counter postfix++();"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The dummy int parameter distinguishes postfix from prefix.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-6",
+      "kind": "Lecture Exam",
+      "title": "Lecture 6 - Binary Operator Overloading",
+      "description": "Lecture and Comprehensive Exams - Binary operators, operator+, member operand roles, and object/int limitations.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "In Sedative = Panadol + Aspirin; with member operator+, which object calls the operator?",
+          "choices": [
+            "Sedative",
+            "Panadol",
+            "Aspirin",
+            "The compiler creates no caller"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "For member binary operators, the left operand is the calling object.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "In Items operator+(Items A), what is A usually?",
+          "choices": [
+            "The left operand",
+            "The right operand",
+            "The return object only",
+            "A static counter"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The right operand is passed as the parameter.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "If Panadol has 5 and Aspirin has 6, what should Sedative store after Panadol + Aspirin?",
+          "choices": [
+            "5",
+            "6",
+            "11",
+            "Undefined always"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "operator+ should add the item_count values and return the result object.",
+          "code": "Items Panadol(5), Aspirin(6), Sedative;\nSedative = Panadol + Aspirin;"
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which operators cannot be overloaded in standard C++?",
+          "choices": [
+            "::",
+            ".",
+            "?:",
+            "+"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Scope resolution, member access, and conditional cannot be overloaded. + can be overloaded.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why can Panadol + 7 work while 15 + Panadol may fail with only a member operator?",
+          "choices": [
+            "The left operand must be the object that owns the member operator.",
+            "Integers cannot appear in expressions.",
+            "7 is always converted to Panadol automatically both ways.",
+            "The right operand is ignored."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A member operator is found from the left operand's class.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which return style creates a nameless result object?",
+          "choices": [
+            "return temp;",
+            "return Items(count);",
+            "return void;",
+            "return operator+;"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Items(count) constructs and returns an unnamed temporary object.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-7",
+      "kind": "Lecture Exam",
+      "title": "Lecture 7 - Inheritance Concepts",
+      "description": "Lecture and Comprehensive Exams - Inheritance definition, parent/child classes, and forms of inheritance.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Inheritance means:",
+          "choices": [
+            "Packing data and functions into one component",
+            "Acquiring properties of a parent/base class in a child/derived class",
+            "Creating many functions with one name",
+            "Hiding all code from the compiler"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Inheritance lets a derived class reuse and extend a base class.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Vehicle -> Automobile -> FamilyCar is best described as:",
+          "choices": [
+            "Single inheritance only",
+            "Multilevel inheritance",
+            "Multiple inheritance",
+            "Friend inheritance"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "A chain across more than one level is multilevel inheritance.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "One base class inherited by many derived classes is:",
+          "choices": [
+            "Hierarchical inheritance",
+            "Hybrid inheritance",
+            "Multiple inheritance",
+            "Operator inheritance"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Hierarchical inheritance has one parent with multiple children.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "One derived class inheriting from more than one base class is:",
+          "choices": [
+            "Single inheritance",
+            "Multiple inheritance",
+            "Multilevel inheritance",
+            "Static inheritance"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Multiple inheritance combines more than one base class.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are listed inheritance types in the lecture?",
+          "choices": [
+            "Single",
+            "Multilevel",
+            "Multiple",
+            "Recursive"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "The lecture lists single, multilevel, multiple, hierarchical, and hybrid.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "Inheritance and encapsulation are the same concept because both use classes.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Encapsulation packages/hides data; inheritance reuses/extends parent class features.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-8",
+      "kind": "Lecture Exam",
+      "title": "Lecture 8 - Inheritance Syntax and Modes",
+      "description": "Lecture and Comprehensive Exams - Base/derived syntax, public/protected/private inheritance, and multiple inheritance examples.",
+      "questions": [
+        {
+          "type": "Correction choice",
+          "prompt": "Which syntax correctly declares Student as publicly derived from Person?",
+          "choices": [
+            "class Student public: Person",
+            "class Student : public Person",
+            "class Student -> public Person",
+            "class Student inherits public Person"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "C++ uses a colon followed by the inheritance access specifier and base class.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Under public inheritance, a public base member becomes what in the derived class?",
+          "choices": [
+            "private",
+            "protected",
+            "public",
+            "deleted"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Public inheritance preserves public as public.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Under protected inheritance, a public base member becomes what in the derived class?",
+          "choices": [
+            "public",
+            "protected",
+            "private",
+            "global"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Protected inheritance converts inherited public and protected members to protected.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Under private inheritance, protected base members become:",
+          "choices": [
+            "public",
+            "protected",
+            "private",
+            "static"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Private inheritance makes inherited public/protected members private in the derived class.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A derived class can directly access private members of the base class.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Private base members remain inaccessible directly to derived classes.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "class Bat : public Mammal, public Winged_Animal is an example of:",
+          "choices": [
+            "Multiple inheritance",
+            "Multilevel inheritance",
+            "Single inheritance",
+            "Template inheritance"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Bat has two base classes.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-9",
+      "kind": "Lecture Exam",
+      "title": "Lecture 9 - Polymorphism and Virtual Base Classes",
+      "description": "Lecture and Comprehensive Exams - Virtual functions, runtime polymorphism, overriding, and virtual inheritance.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Runtime polymorphism in C++ is mainly achieved using:",
+          "choices": [
+            "Static data only",
+            "Virtual functions through base pointers/references",
+            "Function overloading only",
+            "Header files"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Virtual dispatch chooses the derived override at runtime through a base pointer/reference.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A virtual function should have the same prototype in the base and derived class when overriding.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Different signatures may hide or overload instead of overriding.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why can shape* ptrarr[100] call different draw() implementations?",
+          "choices": [
+            "Each pointer may point to a different derived shape object.",
+            "Arrays overload every function automatically.",
+            "draw() must be static.",
+            "Pointers erase all types permanently."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A base pointer plus virtual draw() dispatches based on the actual object.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which statements about virtual functions are true?",
+          "choices": [
+            "They cannot be static.",
+            "They are declared with virtual in the base class.",
+            "They support runtime polymorphism.",
+            "They must always be constructors."
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Constructors cannot be virtual; virtual destructors are possible and often important.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What problem does virtual base class inheritance solve?",
+          "choices": [
+            "Duplicate base subobjects in diamond inheritance",
+            "Function overloading ambiguity only",
+            "All syntax errors",
+            "Lack of constructors"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Virtual base inheritance shares one common base subobject.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "Without virtual inheritance, why is basedata ambiguous in Grandchild?",
+          "choices": [
+            "Grandchild has two Parent subobjects through Child1 and Child2.",
+            "basedata is always public.",
+            "Grandchild has no base class.",
+            "The int type is ambiguous."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The compiler cannot know which inherited Parent copy is meant.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-10",
+      "kind": "Lecture Exam",
+      "title": "Lecture 10 - Friend Functions and Classes",
+      "description": "Lecture and Comprehensive Exams - Friend functions, bridge functions, friend classes, access permissions, and one-way friendship.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "A friend function is best described as:",
+          "choices": [
+            "A member function that is always public",
+            "A non-member function allowed to access private/protected class data",
+            "A constructor with parameters",
+            "A virtual private function"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "A friend is not a class member, but receives special access.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "The keyword friend is written in the function definition outside the class.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "friend appears in the declaration inside the class, not in the outside definition.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why are friends described as bridges?",
+          "choices": [
+            "They can operate on private data from two different classes.",
+            "They make every class inherit every other class.",
+            "They remove the need for objects.",
+            "They force runtime polymorphism."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A friend function can be declared by two classes and access both private parts.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are disadvantages or risks of friend functions?",
+          "choices": [
+            "They weaken data hiding.",
+            "They access private members from outside normal member functions.",
+            "They automatically support runtime polymorphism.",
+            "They may increase coupling."
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Friend functions are powerful but should be used carefully.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "If ClassB is declared friend inside ClassA, what follows?",
+          "choices": [
+            "ClassA automatically becomes friend of ClassB.",
+            "ClassB can access ClassA private/protected members.",
+            "Every class can access ClassA.",
+            "Friendship is inherited by all child classes automatically."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Friendship is granted one way; it is not automatically mutual.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which call style fits a friend function int sum(point p)?",
+          "choices": [
+            "p.sum()",
+            "point::sum(p)",
+            "sum(p)",
+            "p->sum()"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "A friend function is not called with the object's dot operator.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-lecture-11",
+      "kind": "Lecture Exam",
+      "title": "Lecture 11 - Templates",
+      "description": "Lecture and Comprehensive Exams - Function templates, class templates, multiple template parameters, generic swap, and typename/class.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "The main purpose of templates is to:",
+          "choices": [
+            "Write type-independent reusable code",
+            "Make every variable global",
+            "Prevent overloading forever",
+            "Replace all classes with structs"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Templates let one function or class work with different data types.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which function template header is valid?",
+          "choices": [
+            "template<class T>",
+            "template T<class>",
+            "class template<T>",
+            "template = T"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "C++ template declarations commonly use template<class T> or template<typename T>.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why can sum(int, double) be difficult for template<class T> T sum(T, T)?",
+          "choices": [
+            "Both parameters must deduce the same T.",
+            "Templates cannot add numbers.",
+            "double cannot be printed.",
+            "int cannot be a template type."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A single T parameter expects both arguments to match the same deduced type.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which can solve mixed-type template parameters?",
+          "choices": [
+            "template<class T1, class T2>",
+            "Explicit template arguments where appropriate",
+            "Writing only int functions forever",
+            "Choosing a suitable return type"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Multiple template parameters and explicit arguments help with mixed types.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "In many template declarations, class and typename are semantically equivalent.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "For type parameters, template<class T> and template<typename T> are generally interchangeable.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What does func_swap(num1, num2) do here?",
+          "choices": [
+            "num1=20 and num2=10",
+            "num1=10 and num2=20",
+            "Both become 0",
+            "Compilation must fail because T is int"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The template swaps by reference, so the caller's variables exchange values.",
+          "code": "template <typename T>\nvoid func_swap(T& a, T& b) {\n  T temp = a;\n  a = b;\n  b = temp;\n}\nint num1 = 10, num2 = 20;\nfunc_swap(num1, num2);"
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-all-1",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 1 - Foundations to Classes",
+      "description": "Lecture and Comprehensive Exams - Mixed tricky questions from review, paradigms, classes, constructors, static data, and overloading.",
+      "questions": [
+        {
+          "type": "Output prediction",
+          "prompt": "What is printed?",
+          "choices": [
+            "4",
+            "8",
+            "12",
+            "Address of a[2]"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "p starts at a[0], then p += 2 points at a[2], whose value is 8.",
+          "code": "int a[] = {2, 4, 8};\nint* p = a;\np += 2;\ncout << *p;"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which statement best separates encapsulation from inheritance?",
+          "choices": [
+            "Encapsulation hides/packages; inheritance acquires/reuses.",
+            "Encapsulation is only about ++; inheritance is only about templates.",
+            "They are the same term.",
+            "Inheritance hides all private data automatically from the base itself."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Encapsulation protects object internals; inheritance creates parent-child relationships.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which situations require overloaded functions rather than one identical signature?",
+          "choices": [
+            "Different parameter count",
+            "Different parameter types",
+            "Different return type only",
+            "Different type order with same count"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Return type alone cannot distinguish overloads.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which constructor is called by Student st;",
+          "choices": [
+            "Default/no-argument constructor",
+            "Parameterized constructor with int",
+            "Destructor",
+            "Friend function"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "No arguments means a default constructor is needed.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "All objects of a class share ordinary non-static data members.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Ordinary data is per object; static data is shared.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which is the best reason to keep data private?",
+          "choices": [
+            "To make validation impossible",
+            "To force controlled access through member functions",
+            "To remove constructors",
+            "To make all objects static"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Private data supports controlled changes and safer object states.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which paradigm says 'focus on what result is needed' most strongly?",
+          "choices": [
+            "Declarative",
+            "Imperative",
+            "Pointer-based",
+            "Constructor-based"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Declarative code hides the step-by-step mechanics.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What happens conceptually?",
+          "choices": [
+            "count becomes 1",
+            "A new object is created only if count was static",
+            "The destructor runs first",
+            "The class definition changes"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Prefix ++ calls the overloaded member function and increments count.",
+          "code": "Counter c;\n++c;"
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-all-2",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 2 - Operators and Inheritance",
+      "description": "Lecture and Comprehensive Exams - Unary/binary operators, inheritance forms, access modes, and object behavior.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "In a member overload for d1 + d2, why is d2 usually a parameter?",
+          "choices": [
+            "Because d1 is the implicit calling object.",
+            "Because d2 must be static.",
+            "Because binary operators cannot return.",
+            "Because + has no left operand."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Member binary operators use the left operand as this.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Select the true access transformations.",
+          "choices": [
+            "Public inheritance keeps public as public.",
+            "Protected inheritance makes public base members protected.",
+            "Private inheritance makes protected base members private.",
+            "Public inheritance makes private base members public."
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Private members remain inaccessible directly; they do not become public.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which inheritance type combines more than one form, such as multiple plus multilevel?",
+          "choices": [
+            "Hybrid",
+            "Single",
+            "Unary",
+            "Static"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Hybrid inheritance is a combination of inheritance types.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "operator++(int) is commonly used to distinguish postfix ++ from prefix ++.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The int is a dummy parameter used for postfix overload resolution.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which operator cannot be overloaded?",
+          "choices": [
+            "+",
+            "++",
+            "::",
+            "-"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The scope resolution operator cannot be overloaded.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What is the correct interpretation?",
+          "choices": [
+            "Aspirin is the caller and Panadol is the parameter.",
+            "Panadol is the caller and Aspirin is the parameter.",
+            "Sedative is the caller.",
+            "No object participates."
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The left operand calls the member operator+.",
+          "code": "Sedative = Panadol + Aspirin;"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "A derived class cannot directly access which base members?",
+          "choices": [
+            "private",
+            "protected",
+            "public",
+            "inherited public"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Private base members are not directly accessible in the derived class.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Vehicle -> Bus and Vehicle -> SportCar is:",
+          "choices": [
+            "Hierarchical inheritance",
+            "Multilevel inheritance",
+            "Multiple inheritance",
+            "Friend class"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "One base class with multiple derived classes is hierarchical.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-all-3",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 3 - Polymorphism, Friends, Templates",
+      "description": "Lecture and Comprehensive Exams - Virtual dispatch, virtual base classes, friend access, and generic programming.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Which feature makes ptr->draw() call Ball::draw() when ptr points to a Ball object?",
+          "choices": [
+            "virtual draw() in the base class",
+            "static draw()",
+            "friend draw()",
+            "template<class draw>"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Virtual dispatch uses the actual object type at runtime.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "Friendship in C++ is automatically mutual.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "If B is friend of A, A is not automatically friend of B.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are valid reasons to use templates?",
+          "choices": [
+            "Avoid duplicate code for many data types",
+            "Create generic functions/classes",
+            "Force all parameters to be int",
+            "Improve code flexibility"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Templates are about generic, reusable type-independent code.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What does virtual public Parent do in diamond inheritance?",
+          "choices": [
+            "Shares one Parent base subobject",
+            "Creates two extra Parent copies",
+            "Deletes Parent constructors",
+            "Makes Parent a friend"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Virtual inheritance prevents duplicate Parent subobjects.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which friend function declaration inside class point is plausible?",
+          "choices": [
+            "friend int sum(point);",
+            "int friend.point sum();",
+            "friend class int sum(point);",
+            "point::friend sum();"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The friend keyword precedes the function declaration inside the class.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why can template<class T> void swap(T&, T&) change caller variables?",
+          "choices": [
+            "Parameters are references.",
+            "Templates always use globals.",
+            "T must be a pointer.",
+            "The function returns both values."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "References allow the function to modify the original variables.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "Virtual functions are mainly used for runtime polymorphism.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The function call is resolved at runtime based on the actual object.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which is the most accurate risk of friend functions?",
+          "choices": [
+            "They can violate data hiding if overused.",
+            "They cannot access private data.",
+            "They are always inherited.",
+            "They are required for every class."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Friend access should be limited because it bypasses normal encapsulation.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-all-4",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 4 - Code Tracing and Corrections",
+      "description": "Lecture and Comprehensive Exams - Closed-choice tracing and fix-selection across all lecture topics.",
+      "questions": [
+        {
+          "type": "Output prediction",
+          "prompt": "What does this print?",
+          "choices": [
+            "5 6",
+            "6 5",
+            "5 5",
+            "Compilation must fail"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "func_swap uses references, so x and y are exchanged.",
+          "code": "int x = 5, y = 6;\nfunc_swap(x, y);\ncout << x << \" \" << y;"
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which fix allows c1 = ++c2 for class Counter?",
+          "choices": [
+            "Make operator++ return Counter or Counter&.",
+            "Make count public only.",
+            "Delete c1.",
+            "Make operator++ static void."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The expression must produce a Counter-compatible value.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which access mode should model an is-a relationship most naturally?",
+          "choices": [
+            "public inheritance",
+            "private inheritance",
+            "friend declaration",
+            "static class data"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Public inheritance preserves the substitutable is-a relation.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are closed-choice exam-safe question types?",
+          "choices": [
+            "Single choice",
+            "Multiple-select",
+            "Output prediction with choices",
+            "Essay explanation typed by student"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "This app avoids open-ended typed answers.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A class template object can be created as myclass<int> obj(1, 2);",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Template type arguments are provided when creating the object.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What does *p mean after int* p = &x;?",
+          "choices": [
+            "The value stored in x",
+            "The address of p",
+            "The name of x",
+            "A new array"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Dereferencing p accesses the value at the address p stores.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What is printed if print() is not virtual and bp is Base*?",
+          "choices": [
+            "Base version",
+            "Derived version",
+            "Both versions",
+            "No function can be called"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Without virtual dispatch, the base pointer type controls the call.",
+          "code": "Base* bp = new Derived;\nbp->print();"
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which is the best fix for diamond ambiguity of basedata?",
+          "choices": [
+            "Use virtual inheritance for the shared Parent base.",
+            "Make every member public.",
+            "Use operator+.",
+            "Use function overloading."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Virtual base classes make Child1 and Child2 share one Parent subobject.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "lectures-all-5",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 5 - Final-Style Closed Exam",
+      "description": "Lecture and Comprehensive Exams - A broad tricky closed exam covering the full lecture sequence.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Which chain best shows the course progression?",
+          "choices": [
+            "Pointers/functions -> classes -> overloading -> inheritance -> polymorphism -> friends/templates",
+            "Templates -> pointers -> syllabus only -> no classes",
+            "Friends -> arrays -> no objects",
+            "Inheritance before variables always"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The lectures build from C++ review into OOP features and then advanced tools.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which concepts directly support abstraction or hiding implementation details?",
+          "choices": [
+            "Encapsulation",
+            "Private data with public methods",
+            "Declarative style",
+            "Printing raw addresses only"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "All three reduce visible low-level detail in different ways.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which statement about constructors and destructors is correct?",
+          "choices": [
+            "Constructors initialize; destructors clean up when objects are destroyed.",
+            "Destructors initialize private data.",
+            "Constructors must return int.",
+            "Destructors can be overloaded by parameters."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Constructors prepare objects; destructors run during destruction and cannot take parameters.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "Which value is displayed?",
+          "choices": [
+            "70",
+            "60",
+            "65",
+            "Undefined because private members cannot be accessed inside class"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "The member function can access private marks of both Student objects and computes average.",
+          "code": "Student st1(70), st2(60);\nst1.calculateAverage(st1, st2);"
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which overload pair is invalid if only the return type differs?",
+          "choices": [
+            "int sum(int, int) and double sum(int, int)",
+            "int sum(int) and int sum(int, int)",
+            "int sum(int, double) and int sum(double, int)",
+            "double sum(double, double) and int sum(int, int)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Overload resolution cannot distinguish by return type alone.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which phrase best describes polymorphism?",
+          "choices": [
+            "Many forms through one interface",
+            "One object cannot have functions",
+            "Only private data",
+            "Only arrays of structs"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Polymorphism lets the same call shape invoke different behavior.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A friend class makes all member functions of that class friends of the granting class.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Declaring a friend class grants its member functions access.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which is the strongest reason to avoid unnecessary friends?",
+          "choices": [
+            "They bypass normal encapsulation boundaries.",
+            "They cannot compile with classes.",
+            "They force all data to be static.",
+            "They prevent templates."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Friends are useful, but they reduce strict data hiding.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\exams.json"
+    },
+    {
+      "id": "advanced-all-6",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 6 - Advanced Mixed Review",
+      "description": "Advanced Full-Lecture Exams - Full lecture coverage with tricky closed-choice questions from review through templates.",
+      "questions": [
+        {
+          "type": "Output prediction",
+          "prompt": "What is printed?",
+          "choices": [
+            "3",
+            "5",
+            "8",
+            "Address of a[1]"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "p starts at a[0]. ++p moves to a[1], so *p is 5.",
+          "code": "int a[] = {3, 5, 8};\nint* p = a;\n++p;\ncout << *p;"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which function parameter most clearly receives an array by pointer?",
+          "choices": [
+            "void print(int p)",
+            "void print(int* p)",
+            "void print(int& p)",
+            "void print(int p[]) is impossible"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "int* p receives the address of the first integer. int p[] in a parameter also decays to int*, but the direct pointer form is clearest here.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which programming style is closest to writing every exact step of an algorithm?",
+          "choices": [
+            "Imperative",
+            "Declarative",
+            "Object-oriented only",
+            "Template-based"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Imperative programming describes how to do the task step by step.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which items are usually bundled inside an object in OOP?",
+          "choices": [
+            "State/data",
+            "Behavior/methods",
+            "Unrelated global variables only",
+            "Responsibilities for one entity"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Objects combine data and behavior for a meaningful entity or responsibility.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which class declaration correctly makes balance hidden but deposit usable outside?",
+          "choices": [
+            "class Account { private: double balance; public: void deposit(double); };",
+            "class Account { public: double balance; private: void deposit(double); };",
+            "class Account { double balance; private: void deposit(double); };",
+            "class Account { public: private double balance; void deposit(double); };"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Private data plus public member functions is the usual encapsulation pattern.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What is wrong with declaring a constructor as void Student()?",
+          "choices": [
+            "A constructor has no return type.",
+            "A constructor must always be private.",
+            "A constructor must always return int.",
+            "Nothing is wrong."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Constructors use the class name and do not specify a return type.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A destructor name begins with ~ followed by the class name.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "For class Student, the destructor is written as ~Student().",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "A static data member is useful when:",
+          "choices": [
+            "All objects must share one class-wide value",
+            "Every object must have a unique copy only",
+            "The class has no constructors",
+            "The data must be invisible to member functions"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Static class data belongs to the class as a shared value, not to each individual object.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What is printed if count is static and the constructor increments it?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "Compilation error always"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "Three objects are constructed, so the shared static count becomes 3.",
+          "code": "class C {\n  static int count;\npublic:\n  C() { count++; }\n  int get() { return count; }\n};\nint C::count = 0;\nC a, b, c;\ncout << a.get();"
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which calls can match overloaded constructors Student() and Student(int)?",
+          "choices": [
+            "Student s;",
+            "Student s(10);",
+            "Student s(\"Ali\");",
+            "Student s = Student(3);"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "No-argument and int construction are supported. A string argument is not supported unless such a constructor exists.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which operator overload declaration is for a binary + member function?",
+          "choices": [
+            "Item operator+(Item rhs);",
+            "void operator++();",
+            "friend class operator+;",
+            "Item +(Item rhs);"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A member binary operator+ commonly receives the right operand as a parameter and returns a result object.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "In member operator overloading, what does this normally represent?",
+          "choices": [
+            "The left operand object",
+            "The right operand object",
+            "The return type",
+            "The compiler error message"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "For a member operator, this points to the object on the left side of the operator.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "Private inheritance means the base class private members become public in the derived class.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Private base members are never directly accessible in the derived class, and public/protected inherited members become private under private inheritance.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which keyword enables runtime dispatch for an overridden base-class function?",
+          "choices": [
+            "virtual",
+            "friend",
+            "static",
+            "template"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "virtual tells C++ to resolve the call based on the actual object at runtime.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which declaration best prevents diamond inheritance from storing two Parent subobjects?",
+          "choices": [
+            "class Child1 : virtual public Parent",
+            "class Child1 : friend Parent",
+            "class Child1 : static Parent",
+            "class Child1 : private virtual() Parent"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "virtual public Parent shares the Parent base subobject across diamond paths.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "A friend function is not a member, so how is it usually called?",
+          "choices": [
+            "sum(obj)",
+            "obj.sum()",
+            "Class::obj.sum()",
+            "obj->friend.sum()"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A friend function has ordinary function-call syntax; it is not called with the dot operator as a member.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which statements about templates are correct?",
+          "choices": [
+            "They support type-independent code.",
+            "They can define function templates.",
+            "They can define class templates.",
+            "They make runtime polymorphism unnecessary in every case."
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Templates are compile-time generic programming tools; they do not replace every need for runtime polymorphism.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What is the correct result?",
+          "choices": [
+            "x=2 y=9",
+            "x=9 y=2",
+            "x=2 y=2",
+            "The function cannot work with int"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The template swap receives references, so it exchanges the original variables.",
+          "code": "int x = 2, y = 9;\nfunc_swap(x, y);\ncout << \"x=\" << x << \" y=\" << y;"
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\advanced-exams.json"
+    },
+    {
+      "id": "advanced-all-7",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 7 - Tricky Code Concepts",
+      "description": "Advanced Full-Lecture Exams - Full lecture coverage with emphasis on code tracing, access control, and overload traps.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Which expression reads the third element of array a using pointer notation?",
+          "choices": [
+            "*(a + 2)",
+            "*(a + 3)",
+            "&a + 2",
+            "a + 2"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The third element has index 2, so *(a + 2) reads it.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "When an array is passed to a function, the function automatically knows how many elements are in it.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "The function usually receives a pointer to the first element; length must be passed separately or otherwise known.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What is printed?",
+          "choices": [
+            "7",
+            "9",
+            "16",
+            "Address of n"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "p points to n. Assigning through *p changes n to 9.",
+          "code": "int n = 7;\nint* p = &n;\n*p = 9;\ncout << n;"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which paradigm best matches breaking a program into named functions like input(), calculate(), display()?",
+          "choices": [
+            "Procedural",
+            "Virtual",
+            "Friend-only",
+            "Template specialization"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Procedural programming organizes work into procedures/functions.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are signs of encapsulation?",
+          "choices": [
+            "Private data",
+            "Public setter/getter methods",
+            "Validation before assignment",
+            "Direct public data modification everywhere"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Encapsulation protects data and exposes controlled operations.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which outside definition is correct for member function void display() of class Elevator?",
+          "choices": [
+            "void Elevator::display() { }",
+            "void display::Elevator() { }",
+            "Elevator.void display() { }",
+            "class Elevator::void display() { }"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The scope resolution operator attaches the function definition to the Elevator class.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What is a default constructor?",
+          "choices": [
+            "A constructor callable with no arguments",
+            "A destructor with no body",
+            "A constructor that must be virtual",
+            "A function named default()"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A default constructor can create an object without passing arguments.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "Which constructor is selected?",
+          "choices": [
+            "Box()",
+            "Box(int)",
+            "Both constructors",
+            "Destructor"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "Box b(4) passes one integer, so Box(int) is selected.",
+          "code": "class Box {\npublic:\n  Box() {}\n  Box(int size) {}\n};\nBox b(4);"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which overload set is valid?",
+          "choices": [
+            "void f(int); void f(double);",
+            "int f(int); double f(int);",
+            "void f(); int f();",
+            "double f(int); double f(int);"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Different parameter types create a valid overload. Return type alone is not enough.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which statement about object arguments is true?",
+          "choices": [
+            "A member function can access private data of another object of the same class.",
+            "No function can accept objects.",
+            "Objects must always be global to pass them.",
+            "Private data cannot be read by any member function."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Member functions of a class can access private members of any object of that same class.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which prefix ++ overload can support c2 = ++c1?",
+          "choices": [
+            "Counter operator++()",
+            "void operator++()",
+            "int operator++(Counter)",
+            "Counter ++operator()"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The prefix operator must return a Counter value or reference if its result is assigned.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which object is the implicit left operand in total = a + b when + is a member of Item?",
+          "choices": [
+            "a",
+            "b",
+            "total",
+            "Item class itself"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The left operand a calls the member operator+.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are valid inheritance types from the lecture list?",
+          "choices": [
+            "Single",
+            "Multiple",
+            "Hierarchical",
+            "Parameter inheritance"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Parameter inheritance is not one of the listed OOP inheritance types.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "In public inheritance, protected base members become:",
+          "choices": [
+            "protected in the derived class",
+            "public in the derived class",
+            "private in the base class",
+            "deleted"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Public inheritance keeps protected members protected.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A virtual function must be called through a base pointer or reference to demonstrate runtime polymorphism clearly.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Virtual dispatch is most clearly observed when a base pointer/reference refers to a derived object.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why can a virtual destructor be useful?",
+          "choices": [
+            "To destroy derived objects correctly through base pointers",
+            "To overload constructors",
+            "To make data static",
+            "To prevent templates"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A virtual destructor ensures the derived destructor runs when deleting through a base pointer.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which statement about friend classes is true?",
+          "choices": [
+            "Friendship is granted, not taken.",
+            "Friendship is always mutual.",
+            "Friendship is inherited automatically.",
+            "Friendship makes both classes the same class."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A class grants friendship to another; the relationship is not automatically reciprocal.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which template syntax declares two type parameters?",
+          "choices": [
+            "template<class T1, class T2>",
+            "template<T1, T2 class>",
+            "class template<T1, T2>",
+            "template(int T1, double T2)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Multiple type parameters are listed inside the template angle brackets.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "Which result is expected?",
+          "choices": [
+            "9",
+            "4",
+            "Compilation error because templates cannot compare char",
+            "Undefined"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "For numbers, a simple getMax template returns the larger value.",
+          "code": "myclass<int> obj(4, 9);\ncout << obj.getMax();"
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\advanced-exams.json"
+    },
+    {
+      "id": "advanced-all-8",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 8 - Concept Trap Exam",
+      "description": "Advanced Full-Lecture Exams - Tricky conceptual traps across all lectures with closed-choice answers only.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Which is the most precise meaning of &x?",
+          "choices": [
+            "The address of x",
+            "The value stored in x",
+            "A copy of x",
+            "The next element after x"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "& is the address-of operator.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which is the most precise meaning of *p when p stores a valid address?",
+          "choices": [
+            "The value at the address stored in p",
+            "The address of p itself",
+            "The type of p",
+            "The size of p"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "* dereferences the pointer, reading or writing the pointed-to object.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which ideas belong to the C++ review before OOP classes?",
+          "choices": [
+            "Pointers",
+            "Functions",
+            "Struct arrays",
+            "Virtual base classes"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Virtual base classes come later with inheritance and polymorphism.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "The cake recipe example in paradigms mainly illustrates:",
+          "choices": [
+            "Imperative step-by-step commands",
+            "Virtual dispatch",
+            "Friend class access",
+            "Template specialization"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The recipe describes exact steps, which matches imperative thinking.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A multi-paradigm language can support more than one programming style.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Languages like C++ can support procedural, object-oriented, and generic styles.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which class member should usually be private in a bank account class?",
+          "choices": [
+            "balance",
+            "deposit() interface",
+            "display() interface",
+            "main()"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "balance is internal state and should be protected by controlled operations.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which setter best shows validation?",
+          "choices": [
+            "void setAge(int a){ if(a >= 0) age = a; }",
+            "void setAge(int a){ age = -99; }",
+            "void setAge(){ cout << age; }",
+            "private: void setAge(int a);"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The setter checks the incoming value before storing it.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What is constructor overloading?",
+          "choices": [
+            "Defining multiple constructors with different parameter lists",
+            "Defining multiple destructors",
+            "Changing only the constructor return type",
+            "Making constructors virtual"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Constructor overloads differ by parameters, just like function overloads.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "Which value is printed?",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "Compilation error because count is private"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "inc_count is public and increments the private count twice through member access.",
+          "code": "Counter c;\nc.inc_count();\nc.inc_count();\ncout << c.get_count();"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which statement best describes class functions and object data in memory?",
+          "choices": [
+            "Each object has its own data; objects share the same member function code.",
+            "Each object has a full separate copy of all function code.",
+            "All objects share non-static data.",
+            "Member functions exist only after a destructor runs."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Objects have separate ordinary data, while member function code is shared.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why is operator overloading useful for objects?",
+          "choices": [
+            "It makes object operations more readable when the meaning is natural.",
+            "It changes the CPU hardware.",
+            "It avoids all constructors.",
+            "It makes private data public."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "d3 = d1 + d2 is clearer than d3.addobjects(d1, d2) when + has a meaningful object interpretation.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "At least one operand of an overloaded operator must involve a user-defined type.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "C++ does not allow redefining operators only for built-in types.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which inheritance form is Child : public Parent?",
+          "choices": [
+            "Single inheritance",
+            "Multiple inheritance",
+            "Hybrid inheritance",
+            "Virtual function"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "One derived class from one base class is single inheritance.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which inherited members can a derived class directly use from a public base class?",
+          "choices": [
+            "public",
+            "protected",
+            "private",
+            "compiler internals"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "Derived classes can directly access inherited public and protected members, but not private members.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "If print() is virtual, what is called?",
+          "choices": [
+            "Derived::print()",
+            "Base::print()",
+            "Both automatically",
+            "No function"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The base pointer refers to a Derived object, and virtual dispatch calls the derived override.",
+          "code": "Base* p = new Derived;\np->print();"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "In a diamond inheritance problem, ambiguity occurs because:",
+          "choices": [
+            "There may be two inherited copies of the same base subobject.",
+            "The compiler cannot add integers.",
+            "Friend functions are always private.",
+            "Templates cannot be instantiated."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Without virtual inheritance, two paths can create two copies of the same base class.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which friend declaration allows function add to access private data from class A?",
+          "choices": [
+            "friend int add(A);",
+            "int friend::add(A);",
+            "private friend add int(A);",
+            "A friend add(int);"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "friend appears before the ordinary function declaration inside the class.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which is a correct reason to use a class template?",
+          "choices": [
+            "The class logic is same but the data type changes.",
+            "The class must have no member variables.",
+            "The class must be friend of every other class.",
+            "The class cannot have constructors."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Class templates avoid duplicate classes for int, double, char, and other types when behavior is the same.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "template<typename T> and template<class T> are generally equivalent for type parameters.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "For ordinary type template parameters, both forms are commonly accepted.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\advanced-exams.json"
+    },
+    {
+      "id": "advanced-all-9",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 9 - Output and Design Choices",
+      "description": "Advanced Full-Lecture Exams - Full lecture coverage with design-choice questions and code-output traps.",
+      "questions": [
+        {
+          "type": "Output prediction",
+          "prompt": "What is printed?",
+          "choices": [
+            "10 20",
+            "20 30",
+            "10 30",
+            "30 20"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "p++ moves from a[0] to a[1], printing 20. Then p++ moves to a[2], printing 30.",
+          "code": "int a[] = {10, 20, 30};\nint* p = a;\np++;\ncout << *p << \" \";\np++;\ncout << *p;"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which item is best modeled as a struct in the review lecture?",
+          "choices": [
+            "A grouped student record with number and name",
+            "A virtual function table only",
+            "A template parameter only",
+            "A scope resolution operator"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A struct groups related fields like student number, name, and address.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which paradigm treats functions as first-class citizens most strongly?",
+          "choices": [
+            "Functional programming",
+            "Private inheritance",
+            "Friend classes",
+            "Unary overloading"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Functional programming emphasizes functions as values and pure functions.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "OOP was introduced in the lecture as a response to:",
+          "choices": [
+            "Large programs becoming hard to manage as long procedures",
+            "The impossibility of arrays",
+            "The removal of functions from C++",
+            "The lack of integers"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "OOP separates concerns into objects when one long procedural program becomes difficult to manage.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which object creation calls a no-argument constructor?",
+          "choices": [
+            "Elevator e;",
+            "Elevator e(4);",
+            "Elevator e = 4, 5;",
+            "Elevator::e();"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Elevator e; creates an object using the no-argument constructor.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What should a destructor usually be responsible for?",
+          "choices": [
+            "Cleanup when an object is destroyed",
+            "Choosing overloaded function return type",
+            "Creating global variables",
+            "Changing inheritance mode"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A destructor is called during object destruction to release resources or perform cleanup.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which facts about static class data are correct?",
+          "choices": [
+            "It is shared by all objects.",
+            "It must be defined outside the class in many pre-C++17 examples.",
+            "It is useful for object counters.",
+            "It is copied separately for every object."
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "The lecture counter example uses one shared static value for all instances.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which is the best reason object parameters can be useful?",
+          "choices": [
+            "They let one object compute using another object's data when allowed.",
+            "They prevent all constructors.",
+            "They make every field public.",
+            "They remove the need for classes."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Examples like Distance addition and Student average pass objects into functions for object-based calculations.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What does temp.count = count; usually do in operator++?",
+          "choices": [
+            "Copies the incremented value into the temporary return object",
+            "Deletes the original object",
+            "Makes count global",
+            "Calls a friend class"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A named temporary object can be filled with the new state and returned.",
+          "code": "Counter operator++() {\n  ++count;\n  Counter temp;\n  temp.count = count;\n  return temp;\n}"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why does int + Object often need a non-member or friend operator overload?",
+          "choices": [
+            "The left operand is not an object of the class, so no member operator is found there.",
+            "Integers cannot be left operands.",
+            "Objects cannot be right operands.",
+            "All + overloads must be private."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Member operators are looked up from the left operand's class; int has no user-defined member operator for your class.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "Multiple inheritance means one class can inherit from two or more base classes.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "For example, Bat can inherit from Mammal and Winged_Animal.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which declaration shows multiple inheritance?",
+          "choices": [
+            "class Bat : public Mammal, public Winged_Animal",
+            "class Bat : public Mammal : public Winged_Animal",
+            "class Bat public Mammal, Winged_Animal",
+            "class Bat -> Mammal + Winged_Animal"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "C++ separates multiple base classes with commas after the colon.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which access specifier allows derived classes to access a member but blocks normal outside access?",
+          "choices": [
+            "protected",
+            "private",
+            "public",
+            "friend"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "protected is available to the class and derived classes, but not ordinary outside code.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which virtual function rule is correct?",
+          "choices": [
+            "Virtual functions cannot be static.",
+            "Constructors must be virtual.",
+            "Virtual functions cannot be overridden.",
+            "Virtual functions are only for templates."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The lecture states virtual functions cannot be static.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are signs of runtime polymorphism?",
+          "choices": [
+            "Base pointer or reference",
+            "virtual function in base",
+            "Derived override",
+            "Only different return types"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Runtime polymorphism combines virtual functions, inheritance, and base references/pointers to derived objects.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Why can friend functions be useful for operator overloading?",
+          "choices": [
+            "They can access private data while allowing non-member left operands.",
+            "They force all operators to be unary.",
+            "They prevent object returns.",
+            "They make every overload virtual."
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Friends can implement non-member operators that still inspect private object data.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A friend function can be declared in public, private, or protected sections.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The access label does not change the meaning of the friend declaration.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which call explicitly asks a template function to use double?",
+          "choices": [
+            "sum<double>(n1, n2)",
+            "sum.template(double)(n1, n2)",
+            "template sum double(n1, n2)",
+            "sum::<double>(n1, n2)"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Explicit template arguments are placed after the function name in angle brackets.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What does T represent in template<class T>?",
+          "choices": [
+            "A placeholder for a type",
+            "A fixed integer variable",
+            "A destructor name",
+            "A friend class only"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "T is a type parameter substituted by the compiler when the template is instantiated.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\advanced-exams.json"
+    },
+    {
+      "id": "advanced-all-10",
+      "kind": "Comprehensive Exam",
+      "title": "All Lectures Exam 10 - Full Coverage Challenge",
+      "description": "Advanced Full-Lecture Exams - A final-style closed-choice challenge spanning all lecture topics.",
+      "questions": [
+        {
+          "type": "Single choice",
+          "prompt": "Which line correctly declares a pointer to int?",
+          "choices": [
+            "int* p;",
+            "pointer int p;",
+            "int &*p;",
+            "p* int;"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "int* p declares p as a pointer that can store the address of an int.",
+          "code": ""
+        },
+        {
+          "type": "Output prediction",
+          "prompt": "What is printed?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "Compilation error"
+          ],
+          "answer": [
+            2
+          ],
+          "explanation": "p points to a[1], so *(p + 1) refers to a[2], which is 3.",
+          "code": "int a[] = {1, 2, 3};\nint* p = &a[1];\ncout << *(p + 1);"
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which data structure from the review groups student number and name before classes are introduced?",
+          "choices": [
+            "struct",
+            "virtual base",
+            "template",
+            "operator overload"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Structs group related fields and are used in the review lecture before class details.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which paradigm hides loop mechanics behind functions like filter or sort?",
+          "choices": [
+            "Declarative",
+            "Imperative",
+            "Manual pointer arithmetic",
+            "Destructor-based"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Declarative programming emphasizes the desired result and hides many implementation steps.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are core OOP concepts mentioned across the lectures?",
+          "choices": [
+            "Encapsulation",
+            "Inheritance",
+            "Polymorphism",
+            "Hexadecimal-only programming"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Encapsulation, inheritance, and polymorphism are central OOP pillars in the lectures.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which class syntax is closest to the lecture's general pattern?",
+          "choices": [
+            "class Student { private: int no; public: void set(int); };",
+            "Student class { int no; };",
+            "class Student private public { };",
+            "object Student class;"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "C++ class syntax uses class Name { access sections and members };",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A public member function can read and modify private data of its own object.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Private blocks outside direct access, not access by the class's own member functions.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which member is called automatically when an object is created?",
+          "choices": [
+            "Constructor",
+            "Destructor",
+            "Friend function",
+            "Virtual base class"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Constructors initialize objects when they are created.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which member is called automatically when an object is destroyed?",
+          "choices": [
+            "Destructor",
+            "Constructor",
+            "Setter",
+            "Operator + only"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The destructor runs when the object's lifetime ends.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which variable should be static for counting how many objects were created?",
+          "choices": [
+            "A class-wide counter",
+            "Each object's name",
+            "A local variable inside main only",
+            "A function parameter only"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "A static class counter is shared and can track all constructed objects.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are valid reasons for overloaded constructors?",
+          "choices": [
+            "Allow objects to start with different initialization inputs",
+            "Support no-argument and parameterized creation",
+            "Change only return type",
+            "Make object creation more flexible"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Constructor overloads provide different parameter lists for different initialization needs.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What does operator++() without an int parameter usually represent?",
+          "choices": [
+            "Prefix ++",
+            "Postfix ++",
+            "Binary +",
+            "Destructor"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Prefix ++ is usually operator++(); postfix uses operator++(int).",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "What does operator++(int) usually represent?",
+          "choices": [
+            "Postfix ++",
+            "Prefix ++",
+            "Binary +",
+            "Scope resolution"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The dummy int parameter distinguishes postfix ++.",
+          "code": ""
+        },
+        {
+          "type": "Correction choice",
+          "prompt": "Which operator+ return creates an unnamed temporary object?",
+          "choices": [
+            "return Items(count);",
+            "return void;",
+            "return +Items;",
+            "return operator;"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Items(count) constructs a temporary object and returns it.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which relationship is best modeled by inheritance?",
+          "choices": [
+            "Student is a Person",
+            "Student has a random unrelated integer",
+            "Student prints a pointer",
+            "Student is a function overload"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Inheritance models is-a relationships when public inheritance is appropriate.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which inheritance mode is usually used for an is-a relationship?",
+          "choices": [
+            "public",
+            "private",
+            "friend",
+            "static"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Public inheritance preserves the base interface as part of the derived object.",
+          "code": ""
+        },
+        {
+          "type": "True/False",
+          "prompt": "A virtual base class can reduce ambiguity in multiple inheritance.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Virtual inheritance shares a common base subobject and prevents duplicate base ambiguity.",
+          "code": ""
+        },
+        {
+          "type": "Single choice",
+          "prompt": "Which access can a friend function receive?",
+          "choices": [
+            "Private and protected members of the granting class",
+            "Only public members",
+            "Only static members",
+            "No object data"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Friend functions can access private and protected members of the class that declares them as friends.",
+          "code": ""
+        },
+        {
+          "type": "Multi-select",
+          "prompt": "Which are good template use cases?",
+          "choices": [
+            "Generic sum for numeric types",
+            "Generic swap",
+            "Generic max class",
+            "Replacing every virtual function automatically"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Function and class templates are useful for generic algorithms and containers, but they do not automatically replace runtime polymorphism.",
+          "code": ""
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\Oop Lectures\\exam\\data\\advanced-exams.json"
+    }
+  ]
+}

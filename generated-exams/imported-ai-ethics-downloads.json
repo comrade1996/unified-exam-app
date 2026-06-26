@@ -1,0 +1,2554 @@
+{
+  "id": "ai-ethics",
+  "title": "AI Ethics",
+  "description": "Downloaded AI Ethics JSON exams imported from Downloads.",
+  "banks": [
+    {
+      "id": "downloads-json",
+      "title": "Downloaded AI Ethics JSON Exams",
+      "examCount": 10
+    }
+  ],
+  "exams": [
+    {
+      "id": "chapters-ai-ethics-chapter-1",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 1 - Professional Ethics in Computing",
+      "description": "Chapter Exams - Professional ethics, law versus ethics, professional responsibility, ACM code, avoiding harm, and privacy respect. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture1.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر1- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes professional ethics?",
+          "choices": [
+            "a set of values and principles that guide correct behavior in professional work",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Professional ethics is a set of values and principles that guide correct behavior in professional work.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 1 - Professional Ethics in Computing?",
+          "choices": [
+            "ethics versus law",
+            "professional responsibility",
+            "matrix diagonalization",
+            "ACM code of ethics",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers ethics versus law, professional responsibility, and ACM code of ethics.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Every legal action is automatically ethical.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Law sets minimum enforceable rules.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to choosing responsible behavior as a computing professional. What is the best first approach?",
+          "choices": [
+            "compare the legal requirement with the broader ethical duty",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "compare the legal requirement with the broader ethical duty helps to decide what a computing professional should do when rules alone are not enough.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: assuming legal means ethical. What is the best correction?",
+          "choices": [
+            "Check both the law and the ethical impact on users, society, and trust",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Check both the law and the ethical impact on users, society, and trust",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 1 - Professional Ethics in Computing.",
+          "choices": [
+            "Law sets minimum enforceable rules",
+            "Professional responsibility belongs only to managers",
+            "Ethics can require better behavior than the law",
+            "Ethics is irrelevant when code compiles",
+            "Computing affects many people's lives"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Law sets minimum enforceable rules; Ethics can require better behavior than the law; Computing affects many people's lives.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The answer ignores harm, privacy, or professional responsibility. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The answer ignores harm, privacy, or professional responsibility.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر1- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر1- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Ethics can require better behavior than the law.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 1 - Professional Ethics in Computing?",
+          "choices": [
+            "Define professional ethics",
+            "Apply this method: compare the legal requirement with the broader ethical duty",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "choosing responsible behavior as a computing professional",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 1 - Professional Ethics in Computing applies to choosing responsible behavior as a computing professional.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Ethics is irrelevant when code compiles.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Computing affects many people's lives.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why professional ethics is important in professional computing.",
+          "modelAnswer": "Professional ethics matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 1 - Professional Ethics in Computing, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "professional ethics",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect professional ethics to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: assuming legal means ethical. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The answer ignores harm, privacy, or professional responsibility. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Check both the law and the ethical impact on users, society, and trust.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Check both the law and the ethical impact on users, society, and trust"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where compare the legal requirement with the broader ethical duty would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve choosing responsible behavior as a computing professional. The professional should compare the legal requirement with the broader ethical duty, because this helps to decide what a computing professional should do when rules alone are not enough. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "choosing responsible behavior as a computing professional",
+            "compare the legal requirement with the broader ethical duty",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Law sets minimum enforceable rules\" is true, while \"Every legal action is automatically ethical\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Law sets minimum enforceable rules",
+            "Every legal action is automatically ethical",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-2",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 2 - Privacy and Data Protection",
+      "description": "Chapter Exams - Digital privacy, personal and sensitive data, informed consent, transparency, data minimization, and purpose limitation. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture2.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر2- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes digital privacy?",
+          "choices": [
+            "the individual's right to control how their data is collected, used, shared, and stored",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Digital privacy is the individual's right to control how their data is collected, used, shared, and stored.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 2 - Privacy and Data Protection?",
+          "choices": [
+            "personal versus sensitive data",
+            "informed consent",
+            "matrix diagonalization",
+            "data minimization",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers personal versus sensitive data, informed consent, and data minimization.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "More data collection is always more ethical.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Sensitive data can cause serious harm if misused.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to designing an ethical data collection process. What is the best first approach?",
+          "choices": [
+            "collect only necessary data and explain the purpose clearly",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "collect only necessary data and explain the purpose clearly helps to protect users and build trust in data systems.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: collecting extra data just in case it becomes useful later. What is the best correction?",
+          "choices": [
+            "Apply data minimization and purpose limitation",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Apply data minimization and purpose limitation",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 2 - Privacy and Data Protection.",
+          "choices": [
+            "Sensitive data can cause serious harm if misused",
+            "Consent is meaningful when the user is not informed",
+            "Informed consent requires clear knowledge of data use",
+            "Data collected for one purpose can always be reused for any other purpose",
+            "Data minimization reduces exposure during breaches"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Sensitive data can cause serious harm if misused; Informed consent requires clear knowledge of data use; Data minimization reduces exposure during breaches.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The system collects or reuses data beyond the stated need. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The system collects or reuses data beyond the stated need.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر2- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر2- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Informed consent requires clear knowledge of data use.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 2 - Privacy and Data Protection?",
+          "choices": [
+            "Define digital privacy",
+            "Apply this method: collect only necessary data and explain the purpose clearly",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "designing an ethical data collection process",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 2 - Privacy and Data Protection applies to designing an ethical data collection process.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Data collected for one purpose can always be reused for any other purpose.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Data minimization reduces exposure during breaches.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why digital privacy is important in professional computing.",
+          "modelAnswer": "Digital privacy matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 2 - Privacy and Data Protection, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "digital privacy",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect digital privacy to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: collecting extra data just in case it becomes useful later. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The system collects or reuses data beyond the stated need. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Apply data minimization and purpose limitation.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Apply data minimization and purpose limitation"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where collect only necessary data and explain the purpose clearly would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve designing an ethical data collection process. The professional should collect only necessary data and explain the purpose clearly, because this helps to protect users and build trust in data systems. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "designing an ethical data collection process",
+            "collect only necessary data and explain the purpose clearly",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Sensitive data can cause serious harm if misused\" is true, while \"More data collection is always more ethical\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Sensitive data can cause serious harm if misused",
+            "More data collection is always more ethical",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-3",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 3 - Cybersecurity Ethics",
+      "description": "Chapter Exams - Cybersecurity, CIA triad, social engineering, ransomware, ethical hacking, responsible disclosure, and protecting infrastructure. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture3.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر3- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes cybersecurity?",
+          "choices": [
+            "the protection of systems and data from attacks, unauthorized access, damage, and disruption",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Cybersecurity is the protection of systems and data from attacks, unauthorized access, damage, and disruption.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 3 - Cybersecurity Ethics?",
+          "choices": [
+            "confidentiality, integrity, and availability",
+            "social engineering",
+            "matrix diagonalization",
+            "ransomware risk",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers confidentiality, integrity, and availability, social engineering, and ransomware risk.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Security is only a technical issue, not an ethical one.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Confidentiality prevents unauthorized access.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to handling vulnerabilities ethically. What is the best first approach?",
+          "choices": [
+            "protect users by balancing security action with responsible disclosure",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "protect users by balancing security action with responsible disclosure helps to reduce harm while fixing vulnerabilities.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: publishing a vulnerability before the affected party can respond. What is the best correction?",
+          "choices": [
+            "Use responsible disclosure by informing the organization first and allowing time to fix",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Use responsible disclosure by informing the organization first and allowing time to fix",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 3 - Cybersecurity Ethics.",
+          "choices": [
+            "Confidentiality prevents unauthorized access",
+            "Social engineering attacks only computers, not people",
+            "Integrity protects data correctness",
+            "Full public disclosure is always safest immediately",
+            "Availability keeps systems usable when needed"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Confidentiality prevents unauthorized access; Integrity protects data correctness; Availability keeps systems usable when needed.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The action increases user risk even if the technical finding is real. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The action increases user risk even if the technical finding is real.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر3- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر3- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Integrity protects data correctness.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 3 - Cybersecurity Ethics?",
+          "choices": [
+            "Define cybersecurity",
+            "Apply this method: protect users by balancing security action with responsible disclosure",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "handling vulnerabilities ethically",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 3 - Cybersecurity Ethics applies to handling vulnerabilities ethically.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Full public disclosure is always safest immediately.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Availability keeps systems usable when needed.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why cybersecurity is important in professional computing.",
+          "modelAnswer": "Cybersecurity matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 3 - Cybersecurity Ethics, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "cybersecurity",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect cybersecurity to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: publishing a vulnerability before the affected party can respond. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The action increases user risk even if the technical finding is real. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Use responsible disclosure by informing the organization first and allowing time to fix.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Use responsible disclosure by informing the organization first and allowing time to fix"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where protect users by balancing security action with responsible disclosure would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve handling vulnerabilities ethically. The professional should protect users by balancing security action with responsible disclosure, because this helps to reduce harm while fixing vulnerabilities. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "handling vulnerabilities ethically",
+            "protect users by balancing security action with responsible disclosure",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Confidentiality prevents unauthorized access\" is true, while \"Security is only a technical issue, not an ethical one\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Confidentiality prevents unauthorized access",
+            "Security is only a technical issue, not an ethical one",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-4",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 4 - Intellectual Property and Software Licenses",
+      "description": "Chapter Exams - Intellectual property, copyright, patents, fair use, proprietary software, open source, MIT, GPL, and Apache licenses. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture4.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر4- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes intellectual property?",
+          "choices": [
+            "rights that protect creative and technical works such as software, code, designs, and inventions",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Intellectual property is rights that protect creative and technical works such as software, code, designs, and inventions.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 4 - Intellectual Property and Software Licenses?",
+          "choices": [
+            "copyright versus patents",
+            "fair use",
+            "matrix diagonalization",
+            "proprietary and open-source software",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers copyright versus patents, fair use, and proprietary and open-source software.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Copyright protects every abstract idea.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Copyright protects expression such as code text.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to using third-party software ethically. What is the best first approach?",
+          "choices": [
+            "read the license before using or redistributing software",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "read the license before using or redistributing software helps to respect creators and avoid legal or ethical misuse.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: copying code without checking its license. What is the best correction?",
+          "choices": [
+            "Identify the license and follow attribution, sharing, and distribution conditions",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Identify the license and follow attribution, sharing, and distribution conditions",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 4 - Intellectual Property and Software Licenses.",
+          "choices": [
+            "Copyright protects expression such as code text",
+            "Open source means there are no license conditions",
+            "Patents protect qualifying inventions",
+            "MIT license forbids commercial use",
+            "GPL requires derivative code to remain open under its terms"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Copyright protects expression such as code text; Patents protect qualifying inventions; GPL requires derivative code to remain open under its terms.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The solution treats all online code as free to reuse without conditions. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The solution treats all online code as free to reuse without conditions.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر4- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر4- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Patents protect qualifying inventions.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 4 - Intellectual Property and Software Licenses?",
+          "choices": [
+            "Define intellectual property",
+            "Apply this method: read the license before using or redistributing software",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "using third-party software ethically",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 4 - Intellectual Property and Software Licenses applies to using third-party software ethically.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "MIT license forbids commercial use.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: GPL requires derivative code to remain open under its terms.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why intellectual property is important in professional computing.",
+          "modelAnswer": "Intellectual property matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 4 - Intellectual Property and Software Licenses, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "intellectual property",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect intellectual property to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: copying code without checking its license. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The solution treats all online code as free to reuse without conditions. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Identify the license and follow attribution, sharing, and distribution conditions.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Identify the license and follow attribution, sharing, and distribution conditions"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where read the license before using or redistributing software would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve using third-party software ethically. The professional should read the license before using or redistributing software, because this helps to respect creators and avoid legal or ethical misuse. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "using third-party software ethically",
+            "read the license before using or redistributing software",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Copyright protects expression such as code text\" is true, while \"Copyright protects every abstract idea\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Copyright protects expression such as code text",
+            "Copyright protects every abstract idea",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-5",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 5 - Ethical Issues in Artificial Intelligence",
+      "description": "Chapter Exams - AI systems, ethical sensitivity, bias, unfair data, black-box decisions, transparency, explainability, accountability, and human oversight. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture5.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر5- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes AI bias?",
+          "choices": [
+            "unfair or discriminatory output caused by biased data, poor representation, design choices, or developer assumptions",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI bias is unfair or discriminatory output caused by biased data, poor representation, design choices, or developer assumptions.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 5 - Ethical Issues in Artificial Intelligence?",
+          "choices": [
+            "biased training data",
+            "black-box systems",
+            "matrix diagonalization",
+            "transparency and explainability",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers biased training data, black-box systems, and transparency and explainability.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "AI is always neutral because it uses math.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: AI decisions can affect hiring, loans, and access to services.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to reviewing an AI system for fairness and accountability. What is the best first approach?",
+          "choices": [
+            "audit data, model behavior, and decision impact for fairness and explainability",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "audit data, model behavior, and decision impact for fairness and explainability helps to reduce discrimination and improve accountability.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: trusting AI output because the model is complex. What is the best correction?",
+          "choices": [
+            "Check training data, explainability, fairness metrics, and human review",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Check training data, explainability, fairness metrics, and human review",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 5 - Ethical Issues in Artificial Intelligence.",
+          "choices": [
+            "AI decisions can affect hiring, loans, and access to services",
+            "Bias can only come from users, never data",
+            "Black-box systems are hard to explain",
+            "Human oversight is unnecessary in sensitive decisions",
+            "Accountability should not be assigned to the system alone"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: AI decisions can affect hiring, loans, and access to services; Black-box systems are hard to explain; Accountability should not be assigned to the system alone.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The system makes important decisions that people cannot understand or challenge. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The system makes important decisions that people cannot understand or challenge.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر5- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر5- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Black-box systems are hard to explain.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 5 - Ethical Issues in Artificial Intelligence?",
+          "choices": [
+            "Define AI bias",
+            "Apply this method: audit data, model behavior, and decision impact for fairness and explainability",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "reviewing an AI system for fairness and accountability",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 5 - Ethical Issues in Artificial Intelligence applies to reviewing an AI system for fairness and accountability.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Human oversight is unnecessary in sensitive decisions.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Accountability should not be assigned to the system alone.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why AI bias is important in professional computing.",
+          "modelAnswer": "AI bias matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 5 - Ethical Issues in Artificial Intelligence, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "AI bias",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect AI bias to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: trusting AI output because the model is complex. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The system makes important decisions that people cannot understand or challenge. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Check training data, explainability, fairness metrics, and human review.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Check training data, explainability, fairness metrics, and human review"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where audit data, model behavior, and decision impact for fairness and explainability would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve reviewing an AI system for fairness and accountability. The professional should audit data, model behavior, and decision impact for fairness and explainability, because this helps to reduce discrimination and improve accountability. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "reviewing an AI system for fairness and accountability",
+            "audit data, model behavior, and decision impact for fairness and explainability",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"AI decisions can affect hiring, loans, and access to services\" is true, while \"AI is always neutral because it uses math\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "AI decisions can affect hiring, loans, and access to services",
+            "AI is always neutral because it uses math",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-6",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 6 - Social Media and Digital Content",
+      "description": "Chapter Exams - Social media influence, misinformation, disinformation, malinformation, content verification, privacy risks, dark patterns, and respect for user time. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture6.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر6- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes misinformation?",
+          "choices": [
+            "false information shared without an intention to deceive",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Misinformation is false information shared without an intention to deceive.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 6 - Social Media and Digital Content?",
+          "choices": [
+            "misinformation, disinformation, and malinformation",
+            "content verification",
+            "matrix diagonalization",
+            "dark patterns",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers misinformation, disinformation, and malinformation, content verification, and dark patterns.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Misinformation is always intentional.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Disinformation is false information spread intentionally.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to using and designing social platforms responsibly. What is the best first approach?",
+          "choices": [
+            "verify content before sharing and avoid manipulative design",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "verify content before sharing and avoid manipulative design helps to reduce harm, panic, privacy abuse, and loss of trust.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: sharing content quickly without checking its source. What is the best correction?",
+          "choices": [
+            "Verify the information, consider impact, and avoid spreading rumors",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Verify the information, consider impact, and avoid spreading rumors",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 6 - Social Media and Digital Content.",
+          "choices": [
+            "Disinformation is false information spread intentionally",
+            "Users have no responsibility before sharing content",
+            "Malinformation can be true but used to harm",
+            "Respectful design tries to exploit user time",
+            "Dark patterns manipulate user choices"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Disinformation is false information spread intentionally; Malinformation can be true but used to harm; Dark patterns manipulate user choices.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The action amplifies unverified or manipulative content. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The action amplifies unverified or manipulative content.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر6- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر6- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Malinformation can be true but used to harm.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 6 - Social Media and Digital Content?",
+          "choices": [
+            "Define misinformation",
+            "Apply this method: verify content before sharing and avoid manipulative design",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "using and designing social platforms responsibly",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 6 - Social Media and Digital Content applies to using and designing social platforms responsibly.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Respectful design tries to exploit user time.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Dark patterns manipulate user choices.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why misinformation is important in professional computing.",
+          "modelAnswer": "Misinformation matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 6 - Social Media and Digital Content, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "misinformation",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect misinformation to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: sharing content quickly without checking its source. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The action amplifies unverified or manipulative content. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Verify the information, consider impact, and avoid spreading rumors.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Verify the information, consider impact, and avoid spreading rumors"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where verify content before sharing and avoid manipulative design would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve using and designing social platforms responsibly. The professional should verify content before sharing and avoid manipulative design, because this helps to reduce harm, panic, privacy abuse, and loss of trust. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "using and designing social platforms responsibly",
+            "verify content before sharing and avoid manipulative design",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Disinformation is false information spread intentionally\" is true, while \"Misinformation is always intentional\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Disinformation is false information spread intentionally",
+            "Misinformation is always intentional",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-7",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 7 - Workplace Ethics",
+      "description": "Chapter Exams - Professionalism, honesty, competence, punctuality, conflicts of interest, confidentiality, knowledge gaps, and workplace trust. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture7.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر7- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes professionalism?",
+          "choices": [
+            "the combination of ethical behavior, communication, responsibility, competence, honesty, and quality in work",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Professionalism is the combination of ethical behavior, communication, responsibility, competence, honesty, and quality in work.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 7 - Workplace Ethics?",
+          "choices": [
+            "competence and quality",
+            "honesty about skills",
+            "matrix diagonalization",
+            "conflict of interest",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers competence and quality, honesty about skills, and conflict of interest.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Professionalism is only technical skill.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Honesty builds workplace trust.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to handling workplace responsibilities ethically. What is the best first approach?",
+          "choices": [
+            "act honestly, disclose conflicts, and protect confidential information",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "act honestly, disclose conflicts, and protect confidential information helps to maintain trust and a healthy professional environment.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: pretending to know something instead of admitting a knowledge gap. What is the best correction?",
+          "choices": [
+            "Be honest, learn, ask for help, and take responsibility",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Be honest, learn, ask for help, and take responsibility",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 7 - Workplace Ethics.",
+          "choices": [
+            "Honesty builds workplace trust",
+            "It is ethical to exaggerate skills if the job is important",
+            "Conflicts of interest should be disclosed",
+            "Confidentiality ends when work becomes difficult",
+            "Confidential company and client information must be protected"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Honesty builds workplace trust; Conflicts of interest should be disclosed; Confidential company and client information must be protected.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The behavior damages trust or hides a conflict of interest. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The behavior damages trust or hides a conflict of interest.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر7- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر7- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Conflicts of interest should be disclosed.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 7 - Workplace Ethics?",
+          "choices": [
+            "Define professionalism",
+            "Apply this method: act honestly, disclose conflicts, and protect confidential information",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "handling workplace responsibilities ethically",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 7 - Workplace Ethics applies to handling workplace responsibilities ethically.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Confidentiality ends when work becomes difficult.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Confidential company and client information must be protected.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why professionalism is important in professional computing.",
+          "modelAnswer": "Professionalism matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 7 - Workplace Ethics, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "professionalism",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect professionalism to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: pretending to know something instead of admitting a knowledge gap. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The behavior damages trust or hides a conflict of interest. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Be honest, learn, ask for help, and take responsibility.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Be honest, learn, ask for help, and take responsibility"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where act honestly, disclose conflicts, and protect confidential information would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve handling workplace responsibilities ethically. The professional should act honestly, disclose conflicts, and protect confidential information, because this helps to maintain trust and a healthy professional environment. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "handling workplace responsibilities ethically",
+            "act honestly, disclose conflicts, and protect confidential information",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Honesty builds workplace trust\" is true, while \"Professionalism is only technical skill\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Honesty builds workplace trust",
+            "Professionalism is only technical skill",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-8",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 8 - Ethical Decision-Making",
+      "description": "Chapter Exams - Ethical decision frameworks, ambiguity, value conflicts, stakeholders, utilitarianism, duty ethics, options, evaluation, implementation, and review. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture8.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر8- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes ethical decision-making framework?",
+          "choices": [
+            "a structured process for identifying an ethical problem, stakeholders, options, consequences, duties, and a justified decision",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Ethical decision-making framework is a structured process for identifying an ethical problem, stakeholders, options, consequences, duties, and a justified decision.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 8 - Ethical Decision-Making?",
+          "choices": [
+            "ethical ambiguity",
+            "stakeholders",
+            "matrix diagonalization",
+            "utilitarianism",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers ethical ambiguity, stakeholders, and utilitarianism.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Ethical decisions are always clearly right or wrong.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Stakeholders are people or groups affected by a decision.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to solving ethical dilemmas in technology. What is the best first approach?",
+          "choices": [
+            "identify the issue, gather facts, map stakeholders, compare options, decide, act, and review",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "identify the issue, gather facts, map stakeholders, compare options, decide, act, and review helps to make ethical decisions more objective and defensible.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: choosing an option before identifying stakeholders and values. What is the best correction?",
+          "choices": [
+            "Use the decision framework step by step before selecting an action",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Use the decision framework step by step before selecting an action",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 8 - Ethical Decision-Making.",
+          "choices": [
+            "Stakeholders are people or groups affected by a decision",
+            "The first step is to ignore the problem",
+            "Utilitarianism focuses on outcomes and greatest benefit",
+            "Utilitarianism always protects minorities automatically",
+            "Duty ethics focuses on principles and rights"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Stakeholders are people or groups affected by a decision; Utilitarianism focuses on outcomes and greatest benefit; Duty ethics focuses on principles and rights.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The decision ignores affected people or conflicting values. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The decision ignores affected people or conflicting values.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر8- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر8- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Utilitarianism focuses on outcomes and greatest benefit.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 8 - Ethical Decision-Making?",
+          "choices": [
+            "Define ethical decision-making framework",
+            "Apply this method: identify the issue, gather facts, map stakeholders, compare options, decide, act, and review",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "solving ethical dilemmas in technology",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 8 - Ethical Decision-Making applies to solving ethical dilemmas in technology.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Utilitarianism always protects minorities automatically.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Duty ethics focuses on principles and rights.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why ethical decision-making framework is important in professional computing.",
+          "modelAnswer": "Ethical decision-making framework matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 8 - Ethical Decision-Making, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "ethical decision-making framework",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect ethical decision-making framework to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: choosing an option before identifying stakeholders and values. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The decision ignores affected people or conflicting values. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Use the decision framework step by step before selecting an action.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Use the decision framework step by step before selecting an action"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where identify the issue, gather facts, map stakeholders, compare options, decide, act, and review would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve solving ethical dilemmas in technology. The professional should identify the issue, gather facts, map stakeholders, compare options, decide, act, and review, because this helps to make ethical decisions more objective and defensible. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "solving ethical dilemmas in technology",
+            "identify the issue, gather facts, map stakeholders, compare options, decide, act, and review",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Stakeholders are people or groups affected by a decision\" is true, while \"Ethical decisions are always clearly right or wrong\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Stakeholders are people or groups affected by a decision",
+            "Ethical decisions are always clearly right or wrong",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-9",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 9 - Social Responsibility of Technology",
+      "description": "Chapter Exams - Social responsibility, technology as a double-edged tool, digital divide, access, skills, use, accessibility, WCAG, and green computing. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture9.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر9- أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes digital divide?",
+          "choices": [
+            "the gap between people who have access, skills, and meaningful use of technology and those who do not",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Digital divide is the gap between people who have access, skills, and meaningful use of technology and those who do not.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 9 - Social Responsibility of Technology?",
+          "choices": [
+            "social impact of technology",
+            "digital divide",
+            "matrix diagonalization",
+            "accessibility and WCAG",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers social impact of technology, digital divide, and accessibility and WCAG.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "The digital divide is only about owning a phone.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Technology can improve life but also increase inequality.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to evaluating technology's effect on society. What is the best first approach?",
+          "choices": [
+            "design technology for inclusion, access, sustainability, and reduced harm",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "design technology for inclusion, access, sustainability, and reduced harm helps to make systems socially responsible.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: designing only for privileged or average users. What is the best correction?",
+          "choices": [
+            "Consider access, skills, disability, affordability, and environmental impact",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Consider access, skills, disability, affordability, and environmental impact",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 9 - Social Responsibility of Technology.",
+          "choices": [
+            "Technology can improve life but also increase inequality",
+            "Accessibility is optional if most users can use the system",
+            "Accessibility supports inclusion for people with different abilities",
+            "Technology has only positive social effects",
+            "Green computing reduces environmental impact"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Technology can improve life but also increase inequality; Accessibility supports inclusion for people with different abilities; Green computing reduces environmental impact.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The system excludes groups or increases inequality. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The system excludes groups or increases inequality.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر9- أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة - جابتر9- أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Accessibility supports inclusion for people with different abilities.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 9 - Social Responsibility of Technology?",
+          "choices": [
+            "Define digital divide",
+            "Apply this method: design technology for inclusion, access, sustainability, and reduced harm",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "evaluating technology's effect on society",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 9 - Social Responsibility of Technology applies to evaluating technology's effect on society.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Technology has only positive social effects.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Green computing reduces environmental impact.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why digital divide is important in professional computing.",
+          "modelAnswer": "Digital divide matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 9 - Social Responsibility of Technology, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "digital divide",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect digital divide to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: designing only for privileged or average users. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The system excludes groups or increases inequality. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Consider access, skills, disability, affordability, and environmental impact.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Consider access, skills, disability, affordability, and environmental impact"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where design technology for inclusion, access, sustainability, and reduced harm would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve evaluating technology's effect on society. The professional should design technology for inclusion, access, sustainability, and reduced harm, because this helps to make systems socially responsible. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "evaluating technology's effect on society",
+            "design technology for inclusion, access, sustainability, and reduced harm",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Technology can improve life but also increase inequality\" is true, while \"The digital divide is only about owning a phone\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Technology can improve life but also increase inequality",
+            "The digital divide is only about owning a phone",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    },
+    {
+      "id": "chapters-ai-ethics-chapter-10",
+      "kind": "AI Ethics Exam",
+      "title": "AI Ethics Chapter 10 - Ethical Professional Future",
+      "description": "Chapter Exams - Professional reputation, consistent quality, honesty, continuous learning, changing ethical challenges, and ethical leadership. Source: C:/Users/Omair Gibreel/Downloads/ai ethics/detailed_lecture10.pdf. Solved questions: C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة- جابتر 10 -أسئلة محلولة.docx.",
+      "questions": [
+        {
+          "type": "Single Choice",
+          "prompt": "Which statement best describes professional reputation?",
+          "choices": [
+            "the impression others form about a person based on their behavior, reliability, quality, honesty, and work",
+            "a purely technical syntax rule",
+            "a file type used only for storage",
+            "an issue unrelated to professional computing"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Professional reputation is the impression others form about a person based on their behavior, reliability, quality, honesty, and work.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which concepts belong to AI Ethics Chapter 10 - Ethical Professional Future?",
+          "choices": [
+            "reputation and trust",
+            "consistent quality",
+            "matrix diagonalization",
+            "continuous learning",
+            "gradient descent learning rate"
+          ],
+          "answer": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "This chapter covers reputation and trust, consistent quality, and continuous learning.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Money is always more important than reputation.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A correct idea is: Reputation can open opportunities and protect a career.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "A computing professional faces a case related to planning a responsible career in technology. What is the best first approach?",
+          "choices": [
+            "build trust through honest work, learning, responsibility, and ethical leadership",
+            "ignore the ethical issue because the system works",
+            "choose the option that benefits only the developer",
+            "delay all responsibility until users complain"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "build trust through honest work, learning, responsibility, and ethical leadership helps to create a sustainable professional future.",
+          "points": 1
+        },
+        {
+          "type": "Correction Choice",
+          "prompt": "A student makes this mistake: sacrificing honesty or quality for short-term gain. What is the best correction?",
+          "choices": [
+            "Protect reputation through consistent quality, honesty, and continuous improvement",
+            "Focus only on technical performance",
+            "Assume no one is responsible",
+            "Hide the issue from affected users"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "Protect reputation through consistent quality, honesty, and continuous improvement",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Choose all true statements for AI Ethics Chapter 10 - Ethical Professional Future.",
+          "choices": [
+            "Reputation can open opportunities and protect a career",
+            "Ethical challenges never change with technology",
+            "Continuous learning helps professionals keep up with technology",
+            "Leadership is only about authority, not values",
+            "Ethical leadership guides others through values"
+          ],
+          "answer": [
+            0,
+            2,
+            4
+          ],
+          "explanation": "The true statements are: Reputation can open opportunities and protect a career; Continuous learning helps professionals keep up with technology; Ethical leadership guides others through values.",
+          "points": 1
+        },
+        {
+          "type": "Scenario",
+          "prompt": "An exam scenario shows this warning: The action may help today but damages long-term trust. What should you conclude?",
+          "choices": [
+            "There is an ethical risk that needs review before action",
+            "The action is ethical because it is convenient",
+            "The affected people do not matter",
+            "Only software speed should be evaluated"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The warning sign is: The action may help today but damages long-term trust.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "Which source contains the solved chapter questions for this exam?",
+          "choices": [
+            "C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة- جابتر 10 -أسئلة محلولة.docx",
+            "Only the Math for Machine Learning book",
+            "The lab notebook on PCA",
+            "The browser stylesheet"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "The matching solved-question source is C:/Users/Omair Gibreel/Downloads/ai ethics/أخلاقيات المهنة- جابتر 10 -أسئلة محلولة.docx.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Continuous learning helps professionals keep up with technology.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "True. This is one of the chapter's core ideas.",
+          "points": 1
+        },
+        {
+          "type": "Multiple Select",
+          "prompt": "Which study actions prepare you for AI Ethics Chapter 10 - Ethical Professional Future?",
+          "choices": [
+            "Define professional reputation",
+            "Apply this method: build trust through honest work, learning, responsibility, and ethical leadership",
+            "Memorize only the file name",
+            "Ignore the wrong options in MCQs"
+          ],
+          "answer": [
+            0,
+            1
+          ],
+          "explanation": "You should know the definition and be able to apply the ethical method to scenarios.",
+          "points": 1
+        },
+        {
+          "type": "Single Choice",
+          "prompt": "What is the main practical application of this chapter?",
+          "choices": [
+            "planning a responsible career in technology",
+            "calculating a determinant",
+            "renaming PDFs",
+            "compressing images with SVD"
+          ],
+          "answer": [
+            0
+          ],
+          "explanation": "AI Ethics Chapter 10 - Ethical Professional Future applies to planning a responsible career in technology.",
+          "points": 1
+        },
+        {
+          "type": "True/False",
+          "prompt": "Leadership is only about authority, not values.",
+          "choices": [
+            "True",
+            "False"
+          ],
+          "answer": [
+            1
+          ],
+          "explanation": "False. A better statement is: Ethical leadership guides others through values.",
+          "points": 1
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Explain why professional reputation is important in professional computing.",
+          "modelAnswer": "Professional reputation matters because it affects trust, harm, responsibility, and the people impacted by technology. In AI Ethics Chapter 10 - Ethical Professional Future, a good answer should connect the definition to real consequences and explain why professionals must think beyond technical performance.",
+          "answerKeywords": [
+            "professional reputation",
+            "trust",
+            "harm",
+            "responsibility",
+            "impact",
+            "professional"
+          ],
+          "explanation": "Open answers should connect professional reputation to professional duty, social impact, and user trust.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Analyze this mistake: sacrificing honesty or quality for short-term gain. Why is it ethically risky?",
+          "modelAnswer": "This mistake is risky because it ignores The action may help today but damages long-term trust. A strong answer explains the possible harm, identifies the affected stakeholders, and gives the correction: Protect reputation through consistent quality, honesty, and continuous improvement.",
+          "answerKeywords": [
+            "mistake",
+            "risk",
+            "harm",
+            "stakeholders",
+            "correction",
+            "Protect reputation through consistent quality, honesty, and continuous improvement"
+          ],
+          "explanation": "The answer should explain why the mistake matters ethically, not only define the term.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Give a short scenario where build trust through honest work, learning, responsibility, and ethical leadership would be the correct ethical approach.",
+          "modelAnswer": "A suitable scenario should involve planning a responsible career in technology. The professional should build trust through honest work, learning, responsibility, and ethical leadership, because this helps to create a sustainable professional future. The answer should mention who is affected and how the action reduces harm or increases trust.",
+          "answerKeywords": [
+            "scenario",
+            "planning a responsible career in technology",
+            "build trust through honest work, learning, responsibility, and ethical leadership",
+            "affected",
+            "harm",
+            "trust"
+          ],
+          "explanation": "Scenario answers are strongest when they name the situation, the affected people, and the ethical action.",
+          "points": 3,
+          "requiredKeywords": 3
+        },
+        {
+          "type": "Open Question",
+          "prompt": "Compare one true statement and one false statement from this chapter, then explain the difference.",
+          "modelAnswer": "For example, \"Reputation can open opportunities and protect a career\" is true, while \"Money is always more important than reputation\" is false. A strong answer explains the principle behind the true statement and why the false statement can mislead ethical decision-making.",
+          "answerKeywords": [
+            "Reputation can open opportunities and protect a career",
+            "Money is always more important than reputation",
+            "true",
+            "false",
+            "principle",
+            "mislead"
+          ],
+          "explanation": "Comparison questions test whether you understand the reason, not just the memorized wording.",
+          "points": 3,
+          "requiredKeywords": 3
+        }
+      ],
+      "sourceFile": "C:\\Users\\Omair Gibreel\\Downloads\\ai ethics\\exam\\data\\ai-ethics-exams.json"
+    }
+  ]
+}
