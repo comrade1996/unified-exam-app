@@ -208,7 +208,8 @@ function loadGeneratedSubject(subjectId, files = null) {
 const subjects = [
   loadGeneratedSubject("math-ai", [
     { path: "math-ai.json", bankId: "manual-md", title: "Manual Markdown Exams" },
-    { path: "imported-math-ai-downloads.json", bankId: "downloads-json", title: "Downloaded Math AI JSON Exams" }
+    { path: "imported-math-ai-downloads.json", bankId: "downloads-json", title: "Downloaded Math AI JSON Exams" },
+    { path: "math-ai-tutorial-full-qa.json", bankId: "tutorial-full-qa", title: "Tutorial Full Q&A Exams" }
   ]),
   loadGeneratedSubject("information-security", [
     { path: "information-security.json", bankId: "manual-md", title: "Manual Markdown Exams" },

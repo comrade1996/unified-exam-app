@@ -1,6 +1,6 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-26T18:42:38.577Z",
+  "generatedAt": "2026-06-27T17:06:23.277Z",
   "subjects": [
     {
       "id": "math-ai",
@@ -16,6 +16,11 @@ window.UNIFIED_EXAM_DATA = {
           "id": "downloads-json",
           "title": "Downloaded Math AI JSON Exams",
           "examCount": 76
+        },
+        {
+          "id": "tutorial-full-qa",
+          "title": "Tutorial Full Q&A Exams",
+          "examCount": 5
         }
       ],
       "exams": [
@@ -16078,10 +16083,1920 @@ window.UNIFIED_EXAM_DATA = {
               "points": 2
             }
           ]
+        },
+        {
+          "id": "math-ai__tutorial-full-qa__tutorial-full-qa-weeks-1-5-part-1",
+          "sourceId": "tutorial-full-qa-weeks-1-5-part-1",
+          "subjectId": "math-ai",
+          "bankId": "tutorial-full-qa",
+          "bankTitle": "Tutorial Full Q&A Exams",
+          "kind": "Tutorial Full Q&A",
+          "title": "Tutorial Full Q&A - Weeks 1 to 5 - Part 1",
+          "description": "All extracted questions and detailed solutions from the Weeks 1-5 tutorial question bank and solutions PDF. Questions 1-40 of 112.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "Why is mathematics referred to as the “Rosetta Stone” for Artificial Intelligence?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 1. Q1. Why is mathematics referred to as the “Rosetta Stone” for AI? Answer: It translates real-world data and logic into a universal language (mathematics) that computers can process to solve problems. Just as the Rosetta Stone bridged three ancient scripts, mathematics bridges diverse AI sub-fields — vision, language, robotics — through a shared formal- ism.",
+              "fullExplanation": null,
+              "modelAnswer": "Q1. Why is mathematics referred to as the “Rosetta Stone” for AI? Answer: It translates real-world data and logic into a universal language (mathematics) that computers can process to solve problems. Just as the Rosetta Stone bridged three ancient scripts, mathematics bridges diverse AI sub-fields — vision, language, robotics — through a shared formal- ism.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If we deconstruct a machine learning model into a function f : RD -> R, what do D and the output represent?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 2. Q2. If we deconstruct a machine learning model into a function f : RD -> R, what do D and the output represent? Answer: D is the dimensionality (number of features) of the input; the output is the prediction (e.g. a class score, a probability, or a continuous value such as a price).",
+              "fullExplanation": null,
+              "modelAnswer": "Q2. If we deconstruct a machine learning model into a function f : RD -> R, what do D and the output represent? Answer: D is the dimensionality (number of features) of the input; the output is the prediction (e.g. a class score, a probability, or a continuous value such as a price).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "List the four pillars of mathematics that form the foundation of AI. Technical Foundations — Vectors & Matrices",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 3. Q3. List the four pillars of mathematics that form the foundation of AI. Answer: Linear Algebra, Calculus, Probability, and Statistics.",
+              "fullExplanation": null,
+              "modelAnswer": "Q3. List the four pillars of mathematics that form the foundation of AI. Answer: Linear Algebra, Calculus, Probability, and Statistics.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Contrast the “Computer Science” perspective of a vector with the “Physics” perspective.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 4. Q4. Contrast the “Computer Science” perspective of a vector with the “Physics” perspective. Answer: CS: A vector is an ordered list/array of numbers, used to store data or features. Physics: A vector is an arrow in space with both magnitude and direction (e.g. velocity, force).",
+              "fullExplanation": null,
+              "modelAnswer": "Q4. Contrast the “Computer Science” perspective of a vector with the “Physics” perspective. Answer: CS: A vector is an ordered list/array of numbers, used to store data or features. Physics: A vector is an arrow in space with both magnitude and direction (e.g. velocity, force).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In the context of a neural layer, what is the difference between the Data Matrix (X) and the Weight Matrix (W )?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 5. Q5. In the context of a neural layer, what is the difference between X and W ? Answer: X contains the raw observations (rows are samples, columns are features) and is fixed for a given dataset. W contains the learnable parameters that define the layer’s transformation and is updated during training.",
+              "fullExplanation": null,
+              "modelAnswer": "Q5. In the context of a neural layer, what is the difference between X and W ? Answer: X contains the raw observations (rows are samples, columns are features) and is fixed for a given dataset. W contains the learnable parameters that define the layer’s transformation and is updated during training.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "To multiply matrix A (size m x n) by matrix B (size n x p), what condition must be met regarding their dimensions?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 6. Q6. To multiply matrix A (m x n) by B (n x p), what condition must be met? Answer: The number of columns in A (n) must equal the number of rows in B (n). The result is an m x p matrix.",
+              "fullExplanation": null,
+              "modelAnswer": "Q6. To multiply matrix A (m x n) by B (n x p), what condition must be met? Answer: The number of columns in A (n) must equal the number of rows in B (n). The result is an m x p matrix.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Why is matrix multiplication not commutative, and why does this matter in neural network computations? Applied Representation & Python Practice",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 7. Q7. Why is matrix multiplication not commutative? Answer: The (i, j) entry of AB is the dot product of row i of A with column j of B, which differs from BA. In neural networks, the order XW (data times weights) produces the correct output dimensions; W X would typically be dimensionally incompatible or meaningless.",
+              "fullExplanation": null,
+              "modelAnswer": "Q7. Why is matrix multiplication not commutative? Answer: The (i, j) entry of AB is the dot product of row i of A with column j of B, which differs from BA. In neural networks, the order XW (data times weights) produces the correct output dimensions; W X would typically be dimensionally incompatible or meaningless.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "How is a 28 x 28 greyscale image typically converted into a format suitable for a standard dense neural network layer?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 8. Q8. How is a 28 x 28 greyscale image converted for a dense neural layer? Answer: It is “flattened” into a 1D vector of 784 elements (28 x 28 = 784).",
+              "fullExplanation": null,
+              "modelAnswer": "Q8. How is a 28 x 28 greyscale image converted for a dense neural layer? Answer: It is “flattened” into a 1D vector of 784 elements (28 x 28 = 784).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If the Iris dataset has 150 samples and 4 features, what are the dimensions of the resulting data matrix X?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 9. Q9. If the Iris dataset has 150 samples and 4 features, what are the dimensions of X? Answer: 150 x 4.",
+              "fullExplanation": null,
+              "modelAnswer": "Q9. If the Iris dataset has 150 samples and 4 features, what are the dimensions of X? Answer: 150 x 4.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Define “Standardisation” and provide the mathematical formula for a single feature x.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 10. Q10. Define “Standardisation” and give the formula. Answer: Standardisation shifts data to have mean 0 and standard deviation 1. Formula: z = (x - μ)/σ, where μ is the feature mean and σ is the feature standard deviation.",
+              "fullExplanation": null,
+              "modelAnswer": "Q10. Define “Standardisation” and give the formula. Answer: Standardisation shifts data to have mean 0 and standard deviation 1. Formula: z = (x - μ)/σ, where μ is the feature mean and σ is the feature standard deviation.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What is the computational advantage of using NumPy arrays over standard Python lists?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 11. Q11. What is the computational advantage of NumPy arrays over Python lists? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: NumPy uses “vectorisation” to perform operations on whole arrays at once via C-optimised compiled code, avoiding slow interpreted Python loops. This can be orders of magnitude faster.",
+              "fullExplanation": null,
+              "modelAnswer": "Q11. What is the computational advantage of NumPy arrays over Python lists? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: NumPy uses “vectorisation” to perform operations on whole arrays at once via C-optimised compiled code, avoiding slow interpreted Python loops. This can be orders of magnitude faster.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Write the basic linear equation for a single neural layer output y, given input x, weights W , and bias b.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 12. Q12. Write the basic linear equation for a single neural layer output. Answer: y = W x + b.",
+              "fullExplanation": null,
+              "modelAnswer": "Q12. Write the basic linear equation for a single neural layer output. Answer: y = W x + b.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What is the mathematical term for the process of converting real-world objects (like flowers or faces) into numerical vectors? Week 3 — Linear Algebra & Decompositions Eigenvalues & Eigenvectors",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 13. Q13. What is the mathematical term for converting real-world objects into numerical vectors? Answer: Mathematical Abstraction (sometimes also called feature extraction or representation).",
+              "fullExplanation": null,
+              "modelAnswer": "Q13. What is the mathematical term for converting real-world objects into numerical vectors? Answer: Mathematical Abstraction (sometimes also called feature extraction or representation).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Write the fundamental equation defining an eigenvector v and eigenvalue λ for a matrix A. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 14. Q14. Write the fundamental eigenvalue–eigenvector equation. Answer: Av = λv.",
+              "fullExplanation": null,
+              "modelAnswer": "Q14. Write the fundamental eigenvalue–eigenvector equation. Answer: Av = λv.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "How is the characteristic polynomial derived from matrix A?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 15. Q15. How is the characteristic polynomial derived? Answer: By solving det(A - λI) = 0. The resulting polynomial in λ is the characteristic polyno- mial.",
+              "fullExplanation": null,
+              "modelAnswer": "Q15. How is the characteristic polynomial derived? Answer: By solving det(A - λI) = 0. The resulting polynomial in λ is the characteristic polyno- mial.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What happens to the direction of an eigenvector when it is multiplied by its parent matrix?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 16. Q16. What happens to the direction of an eigenvector under its parent matrix? Answer: It stays on the same line (its direction is invariant); it is only scaled by the eigenvalue λ.",
+              "fullExplanation": null,
+              "modelAnswer": "Q16. What happens to the direction of an eigenvector under its parent matrix? Answer: It stays on the same line (its direction is invariant); it is only scaled by the eigenvalue λ.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Name three applications of eigenvalues and eigenvectors in AI. Diagonalisation & Spectral Decomposition",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 17. Q17. Name three AI applications of eigenvalues and eigenvectors. Answer: PCA (directions of maximum variance), Spectral Clustering (cluster structure from graph Laplacian eigenvectors), and Stability Analysis in RNNs (eigenvalue magnitudes determine gradient explosion/vanishing).",
+              "fullExplanation": null,
+              "modelAnswer": "Q17. Name three AI applications of eigenvalues and eigenvectors. Answer: PCA (directions of maximum variance), Spectral Clustering (cluster structure from graph Laplacian eigenvectors), and Stability Analysis in RNNs (eigenvalue magnitudes determine gradient explosion/vanishing).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A matrix A is diagonalisable if it can be written as A = P DP -1. What do the matrices D and P represent?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 18. Q18. What do D and P represent in A = P DP -1? Answer: D is a diagonal matrix of eigenvalues; P is the matrix whose columns are the correspond- ing eigenvectors.",
+              "fullExplanation": null,
+              "modelAnswer": "Q18. What do D and P represent in A = P DP -1? Answer: D is a diagonal matrix of eigenvalues; P is the matrix whose columns are the correspond- ing eigenvectors.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If A = P DP -1, what is the formula for Ak? Why is this useful? Singular Value Decomposition (SVD)",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 19. Q19. What is Ak if A = P DP -1? Why is this useful? Answer: Ak = P DkP -1. It is useful because raising a diagonal matrix to a power is trivial — just raise each diagonal entry to the k-th power — avoiding expensive repeated matrix multiplications.",
+              "fullExplanation": null,
+              "modelAnswer": "Q19. What is Ak if A = P DP -1? Why is this useful? Answer: Ak = P DkP -1. It is useful because raising a diagonal matrix to a power is trivial — just raise each diagonal entry to the k-th power — avoiding expensive repeated matrix multiplications.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Define the components of the Singular Value Decomposition A = U SigmaV T .",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 20. Q20. Define the components of SVD: A = U SigmaV T . Answer: U : orthogonal matrix of left singular vectors (output space); Sigma: diagonal matrix of singular values (scaling factors); V T : orthogonal matrix of right singular vectors (input space).",
+              "fullExplanation": null,
+              "modelAnswer": "Q20. Define the components of SVD: A = U SigmaV T . Answer: U : orthogonal matrix of left singular vectors (output space); Sigma: diagonal matrix of singular values (scaling factors); V T : orthogonal matrix of right singular vectors (input space).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Why is SVD often preferred over Eigen-decomposition for real-world data matrices?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 21. Q21. Why is SVD preferred over Eigen-decomposition for real-world data? Answer: Because SVD works for any matrix (rectangular or square), whereas eigen-decomposition requires a square matrix. Most real data matrices are rectangular (n samples x d features).",
+              "fullExplanation": null,
+              "modelAnswer": "Q21. Why is SVD preferred over Eigen-decomposition for real-world data? Answer: Because SVD works for any matrix (rectangular or square), whereas eigen-decomposition requires a square matrix. Most real data matrices are rectangular (n samples x d features).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What does the magnitude of a singular value σi in Sigma tell us about the importance of its corresponding component? Principal Component Analysis (PCA)",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 22. Q22. What does the magnitude of σi tell us? Answer: Larger singular values indicate directions of greater variance/importance in the data. Components with near-zero singular values carry little information and can often be discarded.",
+              "fullExplanation": null,
+              "modelAnswer": "Q22. What does the magnitude of σi tell us? Answer: Larger singular values indicate directions of greater variance/importance in the data. Components with near-zero singular values carry little information and can often be discarded.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What is the primary objective of Principal Component Analysis (PCA)?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 23. Q23. What is the primary objective of PCA? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: To reduce the dimensionality of data while preserving as much variance (information) as possible.",
+              "fullExplanation": null,
+              "modelAnswer": "Q23. What is the primary objective of PCA? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: To reduce the dimensionality of data while preserving as much variance (information) as possible.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "How are the right singular vectors (V ) of a centred data matrix related to PCA?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 24. Q24. How are the right singular vectors V related to PCA? Answer: The columns of V (or rows of V T ) are the Principal Components — the orthogonal directions that capture the most variance. The corresponding singular values quantify how much variance each component captures.",
+              "fullExplanation": null,
+              "modelAnswer": "Q24. How are the right singular vectors V related to PCA? Answer: The columns of V (or rows of V T ) are the Principal Components — the orthogonal directions that capture the most variance. The corresponding singular values quantify how much variance each component captures.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In PCA, how do we decide which components to discard to reduce noise? Computational Decompositions",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 25. Q25. How do we decide which PCA components to discard? Answer: We keep the components corresponding to the largest singular values (which explain the most variance) and discard those with near-zero singular values, which mostly encode noise.",
+              "fullExplanation": null,
+              "modelAnswer": "Q25. How do we decide which PCA components to discard? Answer: We keep the components corresponding to the largest singular values (which explain the most variance) and discard those with near-zero singular values, which mostly encode noise.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Define L and U in the decomposition A = LU .",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 26. Q26. Define L and U in A = LU . Answer: L is a Lower triangular matrix (non-zero entries on and below the diagonal); U is an Upper triangular matrix (non-zero entries on and above the diagonal).",
+              "fullExplanation": null,
+              "modelAnswer": "Q26. Define L and U in A = LU . Answer: L is a Lower triangular matrix (non-zero entries on and below the diagonal); U is an Upper triangular matrix (non-zero entries on and above the diagonal).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Why is LU decomposition used to solve Ax = b instead of simply calculating A-1? Week 4 — Advanced Probability Joint & Marginal Distributions",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 27. Q27. Why use LU decomposition instead of computing A-1? Answer: LU is computationally cheaper (O(n3/3) vs O(n3)) and more numerically stable. Once A = LU is computed, solving for any new b requires only forward and back substitution (O(n2)), making it ideal when solving for multiple different b vectors.",
+              "fullExplanation": null,
+              "modelAnswer": "Q27. Why use LU decomposition instead of computing A-1? Answer: LU is computationally cheaper (O(n3/3) vs O(n3)) and more numerically stable. Once A = LU is computed, solving for any new b requires only forward and back substitution (O(n2)), making it ideal when solving for multiple different b vectors.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What does P (X, Y ) represent in a discrete system?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 28. Q28. What does P (X, Y ) represent in a discrete system? Answer: The probability that X = x AND Y = y occur at the same time — i.e. the joint probability of both events.",
+              "fullExplanation": null,
+              "modelAnswer": "Q28. What does P (X, Y ) represent in a discrete system? Answer: The probability that X = x AND Y = y occur at the same time — i.e. the joint probability of both events.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Given a joint distribution P (X, Y ), how do you calculate the marginal probability P (X)? Conditional Probability & Independence",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 29. Q29. How do you calculate P (X) from P (X, Y )? Answer: By summing (or integrating) the joint probability over all possible values of Y : P (X = x) = P y P (X = x, Y = y).",
+              "fullExplanation": null,
+              "modelAnswer": "Q29. How do you calculate P (X) from P (X, Y )? Answer: By summing (or integrating) the joint probability over all possible values of Y : P (X = x) = P y P (X = x, Y = y).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "State the formula for P (A | B).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 30. Q30. State the formula for P (A | B). Answer: P (A | B) = P (A ∩ B) / P (B), for P (B) > 0.",
+              "fullExplanation": null,
+              "modelAnswer": "Q30. State the formula for P (A | B). Answer: P (A | B) = P (A ∩ B) / P (B), for P (B) > 0.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In terms of conditional probability, what is a classification model trying to estimate given features X and labels Y ? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 31. Q31. What is a classification model trying to estimate? Answer: The conditional distribution P (Y | X) — the probability of the label Y given the ob- served features X.",
+              "fullExplanation": null,
+              "modelAnswer": "Q31. What is a classification model trying to estimate? Answer: The conditional distribution P (Y | X) — the probability of the label Y given the ob- served features X.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What is the mathematical definition of two independent events A and B?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 32. Q32. Define independence of events A and B. Answer: P (A, B) = P (A) · P (B). Equivalently, P (A | B) = P (A) — knowing B gives no information about A.",
+              "fullExplanation": null,
+              "modelAnswer": "Q32. Define independence of events A and B. Answer: P (A, B) = P (A) · P (B). Equivalently, P (A | B) = P (A) — knowing B gives no information about A.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Define what it means for X and Y to be conditionally independent given Z. Foundations of Inference",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 33. Q33. Define conditional independence of X and Y given Z. Answer: P (X, Y | Z) = P (X | Z) · P (Y | Z). Given Z, knowing X provides no additional information about Y .",
+              "fullExplanation": null,
+              "modelAnswer": "Q33. Define conditional independence of X and Y given Z. Answer: P (X, Y | Z) = P (X | Z) · P (Y | Z). Given Z, knowing X provides no additional information about Y .",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "How do you express the joint probability P (X, Y ) using conditional probability?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 34. Q34. Express P (X, Y ) using conditional probability. Answer: P (X, Y ) = P (X | Y ) · P (Y ) = P (Y | X) · P (X). This is the Product Rule. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "fullExplanation": null,
+              "modelAnswer": "Q34. Express P (X, Y ) using conditional probability. Answer: P (X, Y ) = P (X | Y ) · P (Y ) = P (Y | X) · P (X). This is the Product Rule. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Write the Law of Total Probability for P (B) given a partition {An}.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 35. Q35. Write the Law of Total Probability. Answer: P (B) = P i P (B | Ai) · P (Ai).",
+              "fullExplanation": null,
+              "modelAnswer": "Q35. Write the Law of Total Probability. Answer: P (B) = P i P (B | Ai) · P (Ai).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What is the “Naive” assumption made in a Naive Bayes classifier?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 36. Q36. What is the “Naive” assumption in Naive Bayes? Answer: It assumes all features are conditionally independent of each other given the class label: P (X1, . . . , Xd | Y ) = Q i P (Xi | Y ).",
+              "fullExplanation": null,
+              "modelAnswer": "Q36. What is the “Naive” assumption in Naive Bayes? Answer: It assumes all features are conditionally independent of each other given the class label: P (X1, . . . , Xd | Y ) = Q i P (Xi | Y ).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What is the difference between “Probability” (predicting data given a model) and “Inference” (finding a model given data)? Week 5 — Probabilistic Inference & Estimation Distributions for Estimation",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 37. Q37. Distinguish “Probability” from “Inference.” Answer: Probability: Assume the model is true and predict what data we would expect to see. Inference: Observe actual data and work backwards to determine the most likely model or parameter values that generated it.",
+              "fullExplanation": null,
+              "modelAnswer": "Q37. Distinguish “Probability” from “Inference.” Answer: Probability: Assume the model is true and predict what data we would expect to see. Inference: Observe actual data and work backwards to determine the most likely model or parameter values that generated it.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What kind of real-world scenario does a Bernoulli distribution model?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 38. Q38. What does a Bernoulli distribution model? Answer: A single binary “success/failure” trial — e.g. a single coin flip, one user clicking or not clicking an ad, one patient testing positive or negative.",
+              "fullExplanation": null,
+              "modelAnswer": "Q38. What does a Bernoulli distribution model? Answer: A single binary “success/failure” trial — e.g. a single coin flip, one user clicking or not clicking an ad, one patient testing positive or negative.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "How does a Binomial distribution differ from a Bernoulli distribution?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 39. Q39. How does the Binomial differ from the Bernoulli? Answer: Bernoulli models one trial; Binomial models the total number of successes in n indepen- dent Bernoulli trials. The Binomial is the sum of n independent Bernoulli random variables.",
+              "fullExplanation": null,
+              "modelAnswer": "Q39. How does the Binomial differ from the Bernoulli? Answer: Bernoulli models one trial; Binomial models the total number of successes in n indepen- dent Bernoulli trials. The Binomial is the sum of n independent Bernoulli random variables.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In Bayesian inference, why is the Beta distribution often used as a prior for a probability θ? Bayesian Inference",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 40. Q40. Why is the Beta distribution used as a prior for θ? Answer: Because it is defined on the interval [0, 1] (matching the range of a probability), it is very flexible in shape, and it is the conjugate prior for the Bernoulli/Binomial likelihood, meaning the posterior is also Beta — enabling analytical updates.",
+              "fullExplanation": null,
+              "modelAnswer": "Q40. Why is the Beta distribution used as a prior for θ? Answer: Because it is defined on the interval [0, 1] (matching the range of a probability), it is very flexible in shape, and it is the conjugate prior for the Bernoulli/Binomial likelihood, meaning the posterior is also Beta — enabling analytical updates.",
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "math-ai__tutorial-full-qa__tutorial-full-qa-weeks-1-5-part-2",
+          "sourceId": "tutorial-full-qa-weeks-1-5-part-2",
+          "subjectId": "math-ai",
+          "bankId": "tutorial-full-qa",
+          "bankTitle": "Tutorial Full Q&A Exams",
+          "kind": "Tutorial Full Q&A",
+          "title": "Tutorial Full Q&A - Weeks 1 to 5 - Part 2",
+          "description": "All extracted questions and detailed solutions from the Weeks 1-5 tutorial question bank and solutions PDF. Questions 41-80 of 112.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "Write the formula for Bayes’ Theorem as used for model parameters θ and data D.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 41. Q41. State Bayes’ Theorem for parameter θ and data D. Answer: P (θ | D) = P (D | θ) · P (θ) / P (D). Components: P (θ) = Prior, P (D | θ) = Likelihood, P (D) = Evidence, P (θ | D) = Posterior.",
+              "fullExplanation": null,
+              "modelAnswer": "Q41. State Bayes’ Theorem for parameter θ and data D. Answer: P (θ | D) = P (D | θ) · P (θ) / P (D). Components: P (θ) = Prior, P (D | θ) = Likelihood, P (D) = Evidence, P (θ | D) = Posterior.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In P (D | θ), which variable is fixed and which is varying?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 42. Q42. In P (D | θ), which variable is fixed and which varies? Answer: D (the observed data) is fixed; θ is the variable being varied. We are asking: “for different hypothetical parameter values θ, how probable is the data we actually observed?”",
+              "fullExplanation": null,
+              "modelAnswer": "Q42. In P (D | θ), which variable is fixed and which varies? Answer: D (the observed data) is fixed; θ is the variable being varied. We are asking: “for different hypothetical parameter values θ, how probable is the data we actually observed?”",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Define the “Prior” and the “Posterior” in the context of learning. Parameter Estimation Techniques",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 43. Q43. Define the Prior and the Posterior. Answer: Prior: our belief about the parameter before seeing any data. Posterior: our updated belief after observing data. Learning is the process of moving from prior to posterior via Bayes’ Rule.",
+              "fullExplanation": null,
+              "modelAnswer": "Q43. Define the Prior and the Posterior. Answer: Prior: our belief about the parameter before seeing any data. Posterior: our updated belief after observing data. Learning is the process of moving from prior to posterior via Bayes’ Rule.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What is the primary goal of Maximum Likelihood Estimation (MLE)?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 44. Q44. What is the primary goal of MLE? Answer: To find the parameter value θ that makes the observed data D most probable — i.e. ˆθMLE = arg maxθ P (D | θ).",
+              "fullExplanation": null,
+              "modelAnswer": "Q44. What is the primary goal of MLE? Answer: To find the parameter value θ that makes the observed data D most probable — i.e. ˆθMLE = arg maxθ P (D | θ).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "How does Maximum A Posteriori (MAP) estimation differ from MLE?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 45. Q45. How does MAP differ from MLE? Answer: MAP includes a Prior distribution: ˆθMAP = arg maxθ P (D | θ) · P (θ). MLE only max- imises the likelihood, ignoring any prior belief. When the prior is uniform, MAP reduces to MLE.",
+              "fullExplanation": null,
+              "modelAnswer": "Q45. How does MAP differ from MLE? Answer: MAP includes a Prior distribution: ˆθMAP = arg maxθ P (D | θ) · P (θ). MLE only max- imises the likelihood, ignoring any prior belief. When the prior is uniform, MAP reduces to MLE.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Why is MAP estimation considered mathematically equivalent to L2 regularisation (Weight Decay)?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 46. Q46. Why is MAP equivalent to L2 regularisation? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: Adding a Gaussian prior N (0, σ2I) on weights to the MAP objective is equivalent to adding a λ||w||2 penalty to the loss function, where λ = 1/σ2. Both penalise large weights in exactly the same way.",
+              "fullExplanation": null,
+              "modelAnswer": "Q46. Why is MAP equivalent to L2 regularisation? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: Adding a Gaussian prior N (0, σ2I) on weights to the MAP objective is equivalent to adding a λ||w||2 penalty to the loss function, where λ = 1/σ2. Both penalise large weights in exactly the same way.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Why is the “Evidence” term P (D) in Bayes’ Theorem often difficult to compute in high dimensions?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 47. Q47. Why is P (D) difficult to compute in high dimensions? Answer: It requires integrating (or summing) the product P (D | θ) · P (θ) over all possible values of θ, which is computationally intractable when the parameter space is high-dimensional.",
+              "fullExplanation": null,
+              "modelAnswer": "Q47. Why is P (D) difficult to compute in high dimensions? Answer: It requires integrating (or summing) the product P (D | θ) · P (θ) over all possible values of θ, which is computationally intractable when the parameter space is high-dimensional.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Instead of a single “best” value for θ, what does Full Bayesian Inference produce? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 AI Applications",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 48. Q48. What does Full Bayesian Inference produce? Answer: A full probability distribution over all possible values of θ — the posterior distribution P (θ | D). This captures the complete uncertainty about the parameter.",
+              "fullExplanation": null,
+              "modelAnswer": "Q48. What does Full Bayesian Inference produce? Answer: A full probability distribution over all possible values of θ — the posterior distribution P (θ | D). This captures the complete uncertainty about the parameter.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "What is “Predictive Uncertainty,” and how does a Bayesian model provide it?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 49. Q49. What is Predictive Uncertainty and how does a Bayesian model provide it? Answer: Predictive uncertainty measures how “sure” the model is about a prediction. Bayesian models provide it through the spread (variance) of the posterior predictive distribution P (y∗ | x∗, D) = R P (y∗ | x∗, θ) P (θ | D) dθ.",
+              "fullExplanation": null,
+              "modelAnswer": "Q49. What is Predictive Uncertainty and how does a Bayesian model provide it? Answer: Predictive uncertainty measures how “sure” the model is about a prediction. Bayesian models provide it through the spread (variance) of the posterior predictive distribution P (y∗ | x∗, D) = R P (y∗ | x∗, θ) P (θ | D) dθ.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "How do Bayesian Neural Networks (BNNs) differ from standard neural networks regarding their weights?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 50. Q50. How do BNNs differ from standard neural networks? Answer: In standard NNs, weights are fixed point-estimate numbers. In BNNs, each weight is a probability distribution, and predictions are formed by integrating over these distributions, providing built-in uncertainty quantification.",
+              "fullExplanation": null,
+              "modelAnswer": "Q50. How do BNNs differ from standard neural networks? Answer: In standard NNs, weights are fixed point-estimate numbers. In BNNs, each weight is a probability distribution, and predictions are formed by integrating over these distributions, providing built-in uncertainty quantification.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In what AI application would you typically use a Gaussian Process?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 51. Q51. When would you use a Gaussian Process? Answer: Regression tasks where you need a well-calibrated estimate of confidence/uncertainty for every prediction point — e.g. Bayesian optimisation, surrogate modelling, or active learning.",
+              "fullExplanation": null,
+              "modelAnswer": "Q51. When would you use a Gaussian Process? Answer: Regression tasks where you need a well-calibrated estimate of confidence/uncertainty for every prediction point — e.g. Bayesian optimisation, surrogate modelling, or active learning.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Describe the “Tug-of-War” between the Prior and the Likelihood in the MAP estimate. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Section B: Numerical Questions (Q53–Q82) — Questions Data Representation & Preprocessing (Week 1)",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 52. Q52. Describe the Prior–Likelihood “Tug-of-War” in MAP. Answer: If you have little data, the Prior dominates and the MAP estimate is close to the prior mean. If you have massive amounts of data, the Likelihood dominates and “washes out” the Prior, making MAP converge to MLE. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Section B: Numerical Questions — Answers",
+              "fullExplanation": null,
+              "modelAnswer": "Q52. Describe the Prior–Likelihood “Tug-of-War” in MAP. Answer: If you have little data, the Prior dominates and the MAP estimate is close to the prior mean. If you have massive amounts of data, the Likelihood dominates and “washes out” the Prior, making MAP converge to MLE. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Section B: Numerical Questions — Answers",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You have a dataset of 500 images. Each image is 64 x 64 pixels (greyscale). If you flatten each image into a row vector, what are the dimensions of your data matrix X?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 53. Q53. Dimensions of data matrix X (500 images, 64 x 64)? Answer: 500 x 4096 (since 64 x 64 = 4096 features per image).",
+              "fullExplanation": null,
+              "modelAnswer": "Q53. Dimensions of data matrix X (500 images, 64 x 64)? Answer: 500 x 4096 (since 64 x 64 = 4096 features per image).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Given vectors u = [3, -1, 2] and v = [0, 4, 5], calculate the dot product u · v.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 54. Q54. Dot product of u = [3, -1, 2] and v = [0, 4, 5]? Answer: (3 x 0) + (-1 x 4) + (2 x 5) = 0 - 4 + 10 = 6.",
+              "fullExplanation": null,
+              "modelAnswer": "Q54. Dot product of u = [3, -1, 2] and v = [0, 4, 5]? Answer: (3 x 0) + (-1 x 4) + (2 x 5) = 0 - 4 + 10 = 6.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A feature column has the values [10, 20, 30, 40, 50]. Calculate the mean μ.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 55. Q55. Mean of [10, 20, 30, 40, 50]? Answer: μ = (10 + 20 + 30 + 40 + 50)/5 = 150/5 = 30.",
+              "fullExplanation": null,
+              "modelAnswer": "Q55. Mean of [10, 20, 30, 40, 50]? Answer: μ = (10 + 20 + 30 + 40 + 50)/5 = 150/5 = 30.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Using the data from the previous question, the standard deviation is σ ~ 14.14. Calculate the standardised value (z-score) for the raw value x = 50.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 56. Q56. Z-score for x = 50 with μ = 30, σ ~ 14.14? Answer: z = (50 - 30)/14.14 = 20/14.14 ~ 1.414.",
+              "fullExplanation": null,
+              "modelAnswer": "Q56. Z-score for x = 50 with μ = 30, σ ~ 14.14? Answer: z = (50 - 30)/14.14 = 20/14.14 ~ 1.414.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If W = \u00141 2 3 4 - and x = \u0014 5 - , calculate the product W x.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 57. Q57. Product W x with W = \u0002 1 2 3 4 \u0003, x = [5, 10]T ? Answer: Row 1: (1 x 5) + (2 x 10) = 25. Row 2: (3 x 5) + (4 x 10) = 55. Result: [25, 55]T .",
+              "fullExplanation": null,
+              "modelAnswer": "Q57. Product W x with W = \u0002 1 2 3 4 \u0003, x = [5, 10]T ? Answer: Row 1: (1 x 5) + (2 x 10) = 25. Row 2: (3 x 5) + (4 x 10) = 55. Result: [25, 55]T .",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A single neuron has weights w = [0.5, -0.2], bias b = 0.1, and input x = [2, 3]. Calculate the linear output z = wT x + b. Matrix Decompositions (Week 3)",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 58. Q58. Linear output z = wT x + b? Answer: z = (0.5 x 2) + (-0.2 x 3) + 0.1 = 1.0 - 0.6 + 0.1 = 0.5.",
+              "fullExplanation": null,
+              "modelAnswer": "Q58. Linear output z = wT x + b? Answer: z = (0.5 x 2) + (-0.2 x 3) + 0.1 = 1.0 - 0.6 + 0.1 = 0.5.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Find the characteristic polynomial p(λ) for the matrix A = \u00144 1 2 3 - .",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 59. Q59. Characteristic polynomial of A = \u0002 4 1 2 3 \u0003? Answer: det(A - λI) = (4 - λ)(3 - λ) - (1)(2) = λ2 - 7λ + 12 - 2 = λ2 - 7λ + 10.",
+              "fullExplanation": null,
+              "modelAnswer": "Q59. Characteristic polynomial of A = \u0002 4 1 2 3 \u0003? Answer: det(A - λI) = (4 - λ)(3 - λ) - (1)(2) = λ2 - 7λ + 12 - 2 = λ2 - 7λ + 10.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Solve the polynomial from the previous question to find the two eigenvalues λ1, λ2.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 60. Q60. Eigenvalues from λ2 - 7λ + 10 = 0? Answer: (λ - 5)(λ - 2) = 0 ⇒ λ1 = 5, λ2 = 2.",
+              "fullExplanation": null,
+              "modelAnswer": "Q60. Eigenvalues from λ2 - 7λ + 10 = 0? Answer: (λ - 5)(λ - 2) = 0 ⇒ λ1 = 5, λ2 = 2.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If a matrix A is diagonalised with D = \u00142 0 0 0.5 - , what is D3?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 61. Q61. D3 with D = diag(2, 0.5)? Answer: D3 = diag(23, 0.53) = diag(8, 0.125) = \u0002 8 0 0 0.125 \u0003.",
+              "fullExplanation": null,
+              "modelAnswer": "Q61. D3 with D = diag(2, 0.5)? Answer: D3 = diag(23, 0.53) = diag(8, 0.125) = \u0002 8 0 0 0.125 \u0003.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A 2 x 2 matrix has eigenvalues λ1 = 5 and λ2 = -2. What is the Trace (sum of diagonal elements) of this matrix?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 62. Q62. Trace of a matrix with eigenvalues 5 and -2? Answer: Trace = λ1 + λ2 = 5 + (-2) = 3.",
+              "fullExplanation": null,
+              "modelAnswer": "Q62. Trace of a matrix with eigenvalues 5 and -2? Answer: Trace = λ1 + λ2 = 5 + (-2) = 3.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Using the same eigenvalues (λ1 = 5, λ2 = -2), what is the Determinant of the matrix?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 63. Q63. Determinant of a matrix with eigenvalues 5 and -2? Answer: det = λ1 x λ2 = 5 x (-2) = -10.",
+              "fullExplanation": null,
+              "modelAnswer": "Q63. Determinant of a matrix with eigenvalues 5 and -2? Answer: det = λ1 x λ2 = 5 x (-2) = -10.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "For the matrix A = \u00142 1 4 7 - , find the multiplier l21 used to zero out the element in the second row, first column (LU decomposition).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 64. Q64. Multiplier l21 for A = \u0002 2 1 4 7 \u0003? Answer: l21 = 4/2 = 2.",
+              "fullExplanation": null,
+              "modelAnswer": "Q64. Multiplier l21 for A = \u0002 2 1 4 7 \u0003? Answer: l21 = 4/2 = 2.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Using the multiplier from the previous question, provide the Upper triangular matrix U .",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 65. Q65. Upper triangular matrix U ? Answer: Row 2 becomes [4 - 2 x 2, 7 - 2 x 1] = [0, 5]. So U = \u0002 2 1 0 5 \u0003.",
+              "fullExplanation": null,
+              "modelAnswer": "Q65. Upper triangular matrix U ? Answer: Row 2 becomes [4 - 2 x 2, 7 - 2 x 1] = [0, 5]. So U = \u0002 2 1 0 5 \u0003.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If the eigenvalues of AT A are {25, 9, 0}, what are the singular values σ1, σ2, σ3 of matrix A?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 66. Q66. Singular values from eigenvalues of AT A = {25, 9, 0}? Answer: σi = sqrteigenvalue: σ1 = sqrt25 = 5, σ2 = sqrt9 = 3, σ3 = sqrt0 = 0. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "fullExplanation": null,
+              "modelAnswer": "Q66. Singular values from eigenvalues of AT A = {25, 9, 0}? Answer: σi = sqrteigenvalue: σ1 = sqrt25 = 5, σ2 = sqrt9 = 3, σ3 = sqrt0 = 0. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In a PCA analysis, the eigenvalues of the covariance matrix are {10, 5, 3, 2}. What percentage of the total variance is captured by the first principal component? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Probability & Inference (Week 4)",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 67. Q67. Percentage of variance from first PC with eigenvalues {10, 5, 3, 2}? Answer: Total variance = 10 + 5 + 3 + 2 = 20. First component: 10/20 = 50%.",
+              "fullExplanation": null,
+              "modelAnswer": "Q67. Percentage of variance from first PC with eigenvalues {10, 5, 3, 2}? Answer: Total variance = 10 + 5 + 3 + 2 = 20. First component: 10/20 = 50%.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A joint distribution table for X in {0, 1} and Y in {0, 1} is: P (0, 0) = 0.1, P (0, 1) = 0.2, P (1, 0) = 0.3, P (1, 1) = 0.4. Calculate the marginal probability P (X = 1).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 68. Q68. Marginal P (X = 1) from the joint table? Answer: P (X = 1) = P (1, 0) + P (1, 1) = 0.3 + 0.4 = 0.7.",
+              "fullExplanation": null,
+              "modelAnswer": "Q68. Marginal P (X = 1) from the joint table? Answer: P (X = 1) = P (1, 0) + P (1, 1) = 0.3 + 0.4 = 0.7.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Using the table above, calculate P (Y = 1 | X = 1).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 69. Q69. P (Y = 1 | X = 1)? Answer: P (Y = 1 | X = 1) = P (1, 1)/P (X = 1) = 0.4/0.7 ~ 0.571.",
+              "fullExplanation": null,
+              "modelAnswer": "Q69. P (Y = 1 | X = 1)? Answer: P (Y = 1 | X = 1) = P (1, 1)/P (X = 1) = 0.4/0.7 ~ 0.571.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Based on the table above, are X and Y independent? Show your working for any one cell.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 70. Q70. Are X and Y independent? Answer: No. P (X = 0) = 0.3, P (Y = 0) = 0.4. If independent: P (0, 0) should equal 0.3 x 0.4 = 0.12. But P (0, 0) = 0.1̸ = 0.12. Therefore X and Y are dependent.",
+              "fullExplanation": null,
+              "modelAnswer": "Q70. Are X and Y independent? Answer: No. P (X = 0) = 0.3, P (Y = 0) = 0.4. If independent: P (0, 0) should equal 0.3 x 0.4 = 0.12. But P (0, 0) = 0.1̸ = 0.12. Therefore X and Y are dependent.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A disease affects 1% of the population. A test has a 90% true positive rate and a 10% false positive rate. Calculate the total probability of testing positive P (T ).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 71. Q71. Total probability of testing positive P (T )? Answer: P (T ) = P (T | D) · P (D) + P (T | ¬D) · P (¬D) = (0.9 x 0.01) + (0.1 x 0.99) = 0.009 + 0.099 = 0.108.",
+              "fullExplanation": null,
+              "modelAnswer": "Q71. Total probability of testing positive P (T )? Answer: P (T ) = P (T | D) · P (D) + P (T | ¬D) · P (¬D) = (0.9 x 0.01) + (0.1 x 0.99) = 0.009 + 0.099 = 0.108.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Using the previous question, calculate P (D | T ) — the probability of actually having the disease given a positive test.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 72. Q72. P (D | T ) (disease given positive test)? Answer: P (D | T ) = P (T | D) · P (D)/P (T ) = 0.009/0.108 ~ 0.083 (8.3%).",
+              "fullExplanation": null,
+              "modelAnswer": "Q72. P (D | T ) (disease given positive test)? Answer: P (D | T ) = P (T | D) · P (D)/P (T ) = 0.009/0.108 ~ 0.083 (8.3%).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If P (A) = 0.4 and P (B | A) = 0.5, what is the joint probability P (A, B)?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 73. Q73. Joint probability P (A, B)? Answer: P (A, B) = P (B | A) · P (A) = 0.5 x 0.4 = 0.2.",
+              "fullExplanation": null,
+              "modelAnswer": "Q73. Joint probability P (A, B)? Answer: P (A, B) = P (B | A) · P (A) = 0.5 x 0.4 = 0.2.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Given class C, features X1 and X2 are conditionally independent. If P (X1 | C) = 0.7, P (X2 | C) = 0.6, and P (C) = 0.5, calculate the unnormalised posterior numerator P (X1, X2, C). Distributions & Estimation (Week 5)",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 74. Q74. Unnormalised posterior P (X1, X2, C)? Answer: P (X1, X2, C) = P (X1 | C) · P (X2 | C) · P (C) = 0.7 x 0.6 x 0.5 = 0.21.",
+              "fullExplanation": null,
+              "modelAnswer": "Q74. Unnormalised posterior P (X1, X2, C)? Answer: P (X1, X2, C) = P (X1 | C) · P (X2 | C) · P (C) = 0.7 x 0.6 x 0.5 = 0.21.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If the probability of success is θ = 0.8, calculate the variance of this Bernoulli distribution.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 75. Q75. Bernoulli variance with θ = 0.8? Answer: Var(X) = θ(1 - θ) = 0.8 x 0.2 = 0.16.",
+              "fullExplanation": null,
+              "modelAnswer": "Q75. Bernoulli variance with θ = 0.8? Answer: Var(X) = θ(1 - θ) = 0.8 x 0.2 = 0.16.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "If you perform n = 20 trials with success probability θ = 0.4, what is the expected number of successes?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 76. Q76. Expected successes with n = 20, θ = 0.4? Answer: E[Y ] = nθ = 20 x 0.4 = 8.",
+              "fullExplanation": null,
+              "modelAnswer": "Q76. Expected successes with n = 20, θ = 0.4? Answer: E[Y ] = nθ = 20 x 0.4 = 8.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Calculate the probability of exactly 2 successes in 3 trials if θ = 0.5.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 77. Q77. P (Y = 2) with n = 3, θ = 0.5? Answer: P (Y = 2) = \u00003 \u0001 · 0.52 · 0.51 = 3 x 0.25 x 0.5 = 0.375.",
+              "fullExplanation": null,
+              "modelAnswer": "Q77. P (Y = 2) with n = 3, θ = 0.5? Answer: P (Y = 2) = \u00003 \u0001 · 0.52 · 0.51 = 3 x 0.25 x 0.5 = 0.375.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A Beta distribution has parameters α = 8 and β = 2. Calculate its mean.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 78. Q78. Mean of Beta(8, 2)? Answer: Mean = α/(α + β) = 8/(8 + 2) = 8/10 = 0.8.",
+              "fullExplanation": null,
+              "modelAnswer": "Q78. Mean of Beta(8, 2)? Answer: Mean = α/(α + β) = 8/(8 + 2) = 8/10 = 0.8.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You start with a Uniform prior Beta(1, 1). You observe 4 successes and 1 failure. What are the parameters (α, β) of the posterior distribution?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 79. Q79. Posterior parameters after 4 successes and 1 failure from Beta(1, 1)? Answer: αpost = 1 + 4 = 5, βpost = 1 + 1 = 2. Posterior is Beta(5, 2).",
+              "fullExplanation": null,
+              "modelAnswer": "Q79. Posterior parameters after 4 successes and 1 failure from Beta(1, 1)? Answer: αpost = 1 + 4 = 5, βpost = 1 + 1 = 2. Posterior is Beta(5, 2).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Calculate the mean of the posterior distribution Beta(5, 2) found above.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 80. Q80. Posterior mean of Beta(5, 2)? Answer: Mean = 5/(5 + 2) = 5/7 ~ 0.714.",
+              "fullExplanation": null,
+              "modelAnswer": "Q80. Posterior mean of Beta(5, 2)? Answer: Mean = 5/(5 + 2) = 5/7 ~ 0.714.",
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "math-ai__tutorial-full-qa__tutorial-full-qa-weeks-1-5-part-3",
+          "sourceId": "tutorial-full-qa-weeks-1-5-part-3",
+          "subjectId": "math-ai",
+          "bankId": "tutorial-full-qa",
+          "bankTitle": "Tutorial Full Q&A Exams",
+          "kind": "Tutorial Full Q&A",
+          "title": "Tutorial Full Q&A - Weeks 1 to 5 - Part 3",
+          "description": "All extracted questions and detailed solutions from the Weeks 1-5 tutorial question bank and solutions PDF. Questions 81-112 of 112.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "You observe 10 coin flips and get 7 heads. What is the MLE for the probability of heads?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 81. Q81. MLE from 7 heads in 10 flips? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: ˆθMLE = k/n = 7/10 = 0.7.",
+              "fullExplanation": null,
+              "modelAnswer": "Q81. MLE from 7 heads in 10 flips? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: ˆθMLE = k/n = 7/10 = 0.7.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You observe 2 heads in 2 flips. Your prior is Beta(2, 2). Calculate the MAP estimate and compare it to the MLE. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Section C: Scenario-Based Questions (Q83–Q112) — Questions Identifying the Right Distribution or Concept",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 82. Q82. MAP vs MLE: 2 heads in 2 flips, prior Beta(2, 2)? Answer: Posterior is Beta(2+2, 2+0) = Beta(4, 2). MAP = (α -1)/(α +β -2) = 3/(4+2-2) = 3/4 = 0.75. MLE = 2/2 = 1.0. MAP is more moderate because the prior pulls the estimate toward 0.5. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Section C: Scenario-Based Questions — Answers",
+              "fullExplanation": null,
+              "modelAnswer": "Q82. MAP vs MLE: 2 heads in 2 flips, prior Beta(2, 2)? Answer: Posterior is Beta(2+2, 2+0) = Beta(4, 2). MAP = (α -1)/(α +β -2) = 3/(4+2-2) = 3/4 = 0.75. MLE = 2/2 = 1.0. MAP is more moderate because the prior pulls the estimate toward 0.5. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Section C: Scenario-Based Questions — Answers",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are building a system that looks at a single incoming email and decides if it is “Spam” or “Not Spam.” Which probability distribution models this single binary outcome?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 83. Q83. Spam/Not Spam single email — which distribution? Answer: Bernoulli Distribution.",
+              "fullExplanation": null,
+              "modelAnswer": "Q83. Spam/Not Spam single email — which distribution? Answer: Bernoulli Distribution.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You have a database of high-resolution face images (10,000 pixels each). You need to reduce the data to 50 key features per face to make comparison faster. Which technique should you use?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 84. Q84. Reduce 10,000-pixel face images to 50 features — which technique? Answer: Principal Component Analysis (PCA) — or equivalently, truncated SVD.",
+              "fullExplanation": null,
+              "modelAnswer": "Q84. Reduce 10,000-pixel face images to 50 features — which technique? Answer: Principal Component Analysis (PCA) — or equivalently, truncated SVD.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A data scientist needs to solve the linear system Ax = b for the same physical model (A) but for 500 different experimental observations (b). Which matrix decomposition makes this efficient?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 85. Q85. Solve Ax = b for 500 different b — which decomposition? Answer: LU Decomposition — factor A once, then solve cheaply for each new b.",
+              "fullExplanation": null,
+              "modelAnswer": "Q85. Solve Ax = b for 500 different b — which decomposition? Answer: LU Decomposition — factor A once, then solve cheaply for each new b.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You want to model your uncertainty about the probability that a user will click an ad before you have shown it to anyone. Which distribution is best for this “prior belief”?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 86. Q86. Prior belief about a click-through probability — which distribution? Answer: Beta Distribution.",
+              "fullExplanation": null,
+              "modelAnswer": "Q86. Prior belief about a click-through probability — which distribution? Answer: Beta Distribution.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A factory produces lightbulbs with a 1% defect rate. You want to calculate the probability of finding exactly 3 defective bulbs in a box of 100. Which distribution applies?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 87. Q87. 3 defective bulbs in 100 with 1% defect rate — which distribution? Answer: Binomial Distribution.",
+              "fullExplanation": null,
+              "modelAnswer": "Q87. 3 defective bulbs in 100 with 1% defect rate — which distribution? Answer: Binomial Distribution.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A biologist has a dataset where the number of features (genes) is much larger than the number of samples (patients). The matrix is rectangular. Should they use Eigen-decomposition or SVD to find the underlying structure? Identifying the Right Assumption or Method",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 88. Q88. Rectangular gene-expression matrix — Eigen-decomposition or SVD? Answer: SVD — it works for any rectangular matrix, whereas Eigen-decomposition requires a square matrix.",
+              "fullExplanation": null,
+              "modelAnswer": "Q88. Rectangular gene-expression matrix — Eigen-decomposition or SVD? Answer: SVD — it works for any rectangular matrix, whereas Eigen-decomposition requires a square matrix.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are building a document classifier. You assume that the presence of the word “Money” is independent of the word “Bank” given that the topic is “Finance.” What is this assumption called?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 89. Q89. Conditional independence of words given topic — what is this called? Answer: Conditional Independence (the Naive Bayes assumption).",
+              "fullExplanation": null,
+              "modelAnswer": "Q89. Conditional independence of words given topic — what is this called? Answer: Conditional Independence (the Naive Bayes assumption).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are training a neural network and notice overfitting. You add a penalty that assumes the weights should follow a Gaussian distribution centred at zero. In Bayesian terms, what estimation are you performing?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 90. Q90. Gaussian weight penalty to reduce overfitting — what estimation? Answer: MAP (Maximum A Posteriori) estimation.",
+              "fullExplanation": null,
+              "modelAnswer": "Q90. Gaussian weight penalty to reduce overfitting — what estimation? Answer: MAP (Maximum A Posteriori) estimation.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are given a colour image of 100 x 100 pixels with 3 colour channels (RGB). You need to feed this into a dense neural layer. What is the mathematical process of converting this 3D array into a 1D vector?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 91. Q91. Converting a 100 x 100 x 3 image to a 1D vector? Answer: Vectorisation (or Flattening). The result has 100 x 100 x 3 = 30,000 elements.",
+              "fullExplanation": null,
+              "modelAnswer": "Q91. Converting a 100 x 100 x 3 image to a 1D vector? Answer: Vectorisation (or Flattening). The result has 100 x 100 x 3 = 30,000 elements.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "Your dataset contains “Salary” (in thousands) and “Age” (in years). Because the scales are very different, your model struggles. Which preprocessing technique should you use to give them mean 0 and variance 1? Applied AI Scenarios",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 92. Q92. Different-scale features need mean 0 and variance 1 — which technique? Answer: Standardisation (Z-score normalisation).",
+              "fullExplanation": null,
+              "modelAnswer": "Q92. Different-scale features need mean 0 and variance 1 — which technique? Answer: Standardisation (Z-score normalisation).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are analysing a social network graph. You want to find “communities” by looking at the stable structural directions of the adjacency matrix. Which mathematical objects are you looking for?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 93. Q93. Finding communities in a social network graph? Answer: Eigenvectors (of the graph Laplacian or adjacency matrix) — this is the basis of spectral clustering.",
+              "fullExplanation": null,
+              "modelAnswer": "Q93. Finding communities in a social network graph? Answer: Eigenvectors (of the graph Laplacian or adjacency matrix) — this is the basis of spectral clustering.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A patient tests positive for a rare disease. You know the test’s accuracy and the disease prevalence. Which formula do you use to calculate the probability the patient actually has the disease? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 94. Q94. Probability patient has disease after positive test? Answer: Bayes’ Theorem.",
+              "fullExplanation": null,
+              "modelAnswer": "Q94. Probability patient has disease after positive test? Answer: Bayes’ Theorem.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A robot moves through a room. It has a prior belief about its location and receives a new sensor reading. Which Bayesian concept describes the robot’s updated belief?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 95. Q95. Robot’s updated belief after a sensor reading? Answer: The Posterior Distribution.",
+              "fullExplanation": null,
+              "modelAnswer": "Q95. Robot’s updated belief after a sensor reading? Answer: The Posterior Distribution.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You have two sensors measuring temperature. You want to know the probability that both sensors read above 25°C at the same time. Which type of distribution are you looking for?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 96. Q96. Probability both sensors read above 25°C simultaneously? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: A Joint Probability Distribution.",
+              "fullExplanation": null,
+              "modelAnswer": "Q96. Probability both sensors read above 25°C simultaneously? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: A Joint Probability Distribution.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You have a data matrix X. You want to find the specific direction in feature space that accounts for the highest amount of spread (variance) in the data. What is this direction called?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 97. Q97. Direction of maximum variance in feature space? Answer: The First Principal Component (the eigenvector corresponding to the largest eigenvalue of the covariance matrix).",
+              "fullExplanation": null,
+              "modelAnswer": "Q97. Direction of maximum variance in feature space? Answer: The First Principal Component (the eigenvector corresponding to the largest eigenvalue of the covariance matrix).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are designing a Recurrent Neural Network (RNN). You need to ensure that the hidden states don’t “explode” over time. You check if the absolute values of the of the weight matrix are less than 1. Estimation & Inference Scenarios",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 98. Q98. Preventing exploding hidden states in an RNN? Answer: Eigenvalues.",
+              "fullExplanation": null,
+              "modelAnswer": "Q98. Preventing exploding hidden states in an RNN? Answer: Eigenvalues.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You suspect a coin is biased. You flip it 50 times and observe 40 heads. You want to find the single best value for the “heads probability” that makes this result most likely. Which estimation technique are you using?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 99. Q99. Finding the best “heads probability” from 40/50 coin flips? Answer: Maximum Likelihood Estimation (MLE). The estimate is ˆθ = 40/50 = 0.8.",
+              "fullExplanation": null,
+              "modelAnswer": "Q99. Finding the best “heads probability” from 40/50 coin flips? Answer: Maximum Likelihood Estimation (MLE). The estimate is ˆθ = 40/50 = 0.8.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "A self-driving car needs to know not just where the road is, but how confident it is in that prediction. Which type of neural network provides a distribution of outputs rather than a single number?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 100. Q100. Self-driving car confidence — which neural network type? Answer: A Bayesian Neural Network.",
+              "fullExplanation": null,
+              "modelAnswer": "Q100. Self-driving car confidence — which neural network type? Answer: A Bayesian Neural Network.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In Linear Regression, you must solve (XT X)β = XT y. If XT X is a very large square matrix, which computational decomposition is standard for finding β?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 101. Q101. Solving normal equations with a large XT X matrix? Answer: LU Decomposition (or Cholesky Decomposition if the matrix is symmetric positive def- inite).",
+              "fullExplanation": null,
+              "modelAnswer": "Q101. Solving normal equations with a large XT X matrix? Answer: LU Decomposition (or Cholesky Decomposition if the matrix is symmetric positive def- inite).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You want to find the probability that a customer buys “Milk” given that they already put “Cereal” in their cart. Which probability concept is this? Advanced Applied Scenarios",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 102. Q102. Probability of buying Milk given Cereal in cart? Answer: Conditional Probability: P (Milk | Cereal).",
+              "fullExplanation": null,
+              "modelAnswer": "Q102. Probability of buying Milk given Cereal in cart? Answer: Conditional Probability: P (Milk | Cereal).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You have a massive matrix of movie ratings (Netflix-style). Most entries are empty. You want to fill the blanks by approximating the matrix as a product of two smaller matrices. Which decomposition is the foundation for this?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 103. Q103. Netflix-style matrix completion? Answer: Singular Value Decomposition (SVD) — specifically, low-rank matrix approximation.",
+              "fullExplanation": null,
+              "modelAnswer": "Q103. Netflix-style matrix completion? Answer: Singular Value Decomposition (SVD) — specifically, low-rank matrix approximation.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are calculating the “Marginal Probability” of a word appearing in a library. You have the “Joint Probability” of the word appearing in various categories (Sports, Politics, etc.). What mathematical operation (summing out categories) do you perform?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 104. Q104. Summing out categories to get word probability? Answer: Marginalisation (summing out the category variable).",
+              "fullExplanation": null,
+              "modelAnswer": "Q104. Summing out categories to get word probability? Answer: Marginalisation (summing out the category variable).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are looking at the relationship between two stocks. You want a single number that describes whether they move together or in opposite directions. What is this measure called?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 105. Q105. Single number for whether two stocks move together? Answer: Covariance (or, for a normalised version, Correlation).",
+              "fullExplanation": null,
+              "modelAnswer": "Q105. Single number for whether two stocks move together? Answer: Covariance (or, for a normalised version, Correlation).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You flip a fair coin once. X = 1 for heads, X = 0 for tails. What is E[X]?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 106. Q106. E[X] for a fair coin flip? Answer: E[X] = 0.5 x 0 + 0.5 x 1 = 0.5.",
+              "fullExplanation": null,
+              "modelAnswer": "Q106. E[X] for a fair coin flip? Answer: E[X] = 0.5 x 0 + 0.5 x 1 = 0.5.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In a neural network, you multiply an input vector by a matrix and add a vector. What are the names of the matrix and the added vector?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 107. Q107. Matrix and added vector in a neural layer? Answer: The Weight Matrix (W ) and the Bias Vector (b).",
+              "fullExplanation": null,
+              "modelAnswer": "Q107. Matrix and added vector in a neural layer? Answer: The Weight Matrix (W ) and the Bias Vector (b).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You have a dataset with 200 samples and 500 features. You want to perform a decomposi- tion. Why can’t you use standard Diagonalisation (A = P DP -1)? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 108. Q108. Why can’t you diagonalise a 200 x 500 matrix? Answer: Diagonalisation requires a square matrix. A 200 x 500 matrix is rectangular, so only SVD can be applied.",
+              "fullExplanation": null,
+              "modelAnswer": "Q108. Why can’t you diagonalise a 200 x 500 matrix? Answer: Diagonalisation requires a square matrix. A 200 x 500 matrix is rectangular, so only SVD can be applied.",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are performing PCA. The first eigenvalue is 50 and the second is 10. How much more variance does the first principal component capture compared to the second?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 109. Q109. First eigenvalue 50, second 10 — how much more variance? Answer: 5 times more (50/10 = 5).",
+              "fullExplanation": null,
+              "modelAnswer": "Q109. First eigenvalue 50, second 10 — how much more variance? Answer: 5 times more (50/10 = 5).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "In a Naive Bayes classifier for spam, you treat the occurrence of the word “Viagra” and the word “Free” as independent if you already know the email is spam. What is this specific type of independence called?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 110. Q110. “Viagra” and “Free” independent given Spam? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: Conditional Independence (given the class label “Spam”).",
+              "fullExplanation": null,
+              "modelAnswer": "Q110. “Viagra” and “Free” independent given Spam? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Answer: Conditional Independence (given the class label “Spam”).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You are told that “Ridge Regression” is the same as performing MAP estimation with a specific prior. What is that prior distribution?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 111. Q111. Ridge Regression = MAP with which prior? Answer: A Gaussian (Normal) Distribution centred at zero — N (0, σ2I).",
+              "fullExplanation": null,
+              "modelAnswer": "Q111. Ridge Regression = MAP with which prior? Answer: A Gaussian (Normal) Distribution centred at zero — N (0, σ2I).",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "You multiply a vector by a diagonal matrix. Geometrically, what has happened to the vector? Advanced Applied Mathematics for AI Question Bank — Weeks 1–5 Solutions Consult these solutions only after you have attempted the questions yourself. Advanced Applied Mathematics for AI Question Bank — Weeks 1–5",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial (1) - Weeks 1--5-Solutions.pdf, question 112. Q112. Multiplying a vector by a diagonal matrix — geometrically? Answer: It has been scaled (stretched or compressed) independently along each coordinate axis, by the corresponding diagonal entry. End of Question Bank — Good luck with your revision!",
+              "fullExplanation": null,
+              "modelAnswer": "Q112. Multiplying a vector by a diagonal matrix — geometrically? Answer: It has been scaled (stretched or compressed) independently along each coordinate axis, by the corresponding diagonal entry. End of Question Bank — Good luck with your revision!",
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "math-ai__tutorial-full-qa__tutorial-full-qa-weeks-6-11-part-1",
+          "sourceId": "tutorial-full-qa-weeks-6-11-part-1",
+          "subjectId": "math-ai",
+          "bankId": "tutorial-full-qa",
+          "bankTitle": "Tutorial Full Q&A Exams",
+          "kind": "Tutorial Full Q&A",
+          "title": "Tutorial Full Q&A - Weeks 6 to 11 - Part 1",
+          "description": "All extracted active-learning exercises and detailed solutions from the Weeks 6-11 tutorial workbook solution PDF. Questions 1-40 of 73.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "1 The simplest possible random variable You \u001dip a single biased coin where heads has probability θ. Let X = 1 if heads, X = 0 if tails. (a) Write down the probability of getting X = 0 and X = 1 in a single formula using θ. (b) If you \u001dipped this coin many times, what would be the average value of X? (c) How much would X typically vary around that average? For (a), notice that θ1(1 - θ)0 = θ and θ0(1 - θ)1 = 1 - θ. For (b) and (c), think about what happens when θ = 0.5 (maximum uncertainty) versus θ = 0.99 (very predictable).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 1. (a) The PMF P (X = x | θ) = θx(1 - θ)1-x for x in {0, 1} elegantly handles both cases in one formula. (b) The mean is E[X] = 1 · θ + 0 · (1 - θ) = θ. Intuitively: if the coin lands heads 70% of the time, the long-run average of X is 0.7. (c) Variance = θ(1 - θ). This is maximised at θ = 0.5 (variance = 0.25, maximum unpre- dictability) and equals 0 at θ = 0 or 1 (no randomness). The Bernoulli is the atomic unit of binary outcomes. Every spam-\u001clter prediction, every click/no-click event, every 'did the model get it right?' is a Bernoulli trial. From single trials to counts",
+              "fullExplanation": null,
+              "modelAnswer": "(a) The PMF P (X = x | θ) = θx(1 - θ)1-x for x in {0, 1} elegantly handles both cases in one formula. (b) The mean is E[X] = 1 · θ + 0 · (1 - θ) = θ. Intuitively: if the coin lands heads 70% of the time, the long-run average of X is 0.7. (c) Variance = θ(1 - θ). This is maximised at θ = 0.5 (variance = 0.25, maximum unpre- dictability) and equals 0 at θ = 0 or 1 (no randomness). The Bernoulli is the atomic unit of binary outcomes. Every spam-\u001clter prediction, every click/no-click event, every 'did the model get it right?' is a Bernoulli trial. From single trials to counts",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "2 When Bernoullis add up to a Binomial A diagnostic test is correct on each patient with probability θ = 0.7, and patients are inde- pendent. (a) If you test 20 patients, on average how many correct results do you expect? (b) What is the standard deviation around that expected count? (c) How does the distribution of the count of correct results relate to the Bernoulli distribution of a single test result?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 2. (a) The number of correct results Y follows a Binomial(n = 20, θ = 0.7), with mean E[Y ] = nθ = 20 x 0.7 = 14. (b) Variance = nθ(1 - θ) = 20 x 0.7 x 0.3 = 4.2, so SD ~ 2.05. (c) The Binomial Y is literally the sum of n independent Bernoulli trials: Y = X1+X2+· · ·+Xn. The PMF is P (Y = k) = \u0000n k \u0001θk(1 - θ)n-k, where \u0000n k \u0001 counts the number of ways to arrange k successes among n trials. Tutorial Workbook Weeks 6-11 A Binomial random variable is just n Bernoulli trials stacked together. This pattern 'simple atom -> aggregated quantity' is everywhere in probability. Why the Beta is the natural prior for a probability",
+              "fullExplanation": null,
+              "modelAnswer": "(a) The number of correct results Y follows a Binomial(n = 20, θ = 0.7), with mean E[Y ] = nθ = 20 x 0.7 = 14. (b) Variance = nθ(1 - θ) = 20 x 0.7 x 0.3 = 4.2, so SD ~ 2.05. (c) The Binomial Y is literally the sum of n independent Bernoulli trials: Y = X1+X2+· · ·+Xn. The PMF is P (Y = k) = \u0000n k \u0001θk(1 - θ)n-k, where \u0000n k \u0001 counts the number of ways to arrange k successes among n trials. Tutorial Workbook Weeks 6-11 A Binomial random variable is just n Bernoulli trials stacked together. This pattern 'simple atom -> aggregated quantity' is everywhere in probability. Why the Beta is the natural prior for a probability",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "3 Designing a prior for an unknown click-through rate You're about to launch an ad campaign and want to express your prior belief about its click- through rate θ before showing it to anyone. (a) What three properties would you want from a probability distribution used to represent your belief about θ? (b) How does Beta(α, β) satisfy each of these requirements? (c) Sketch (mentally) what Beta(2, 8) and Beta(8, 2) look like. What does each encode? A probability lives in [0, 1], so your distribution should too. You'd also want to express di\u001berent shapes of belief (uncertain, con\u001cdent, skewed) and ideally have nice maths when data arrives.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 3. (a) Three desirable properties: (i) support exactly [0, 1], (ii) \u001dexible shape to encode various beliefs, (iii) mathematical tractability when combined with data. (b) Beta(α, β) delivers all three: (i) de\u001cned precisely on [0, 1]; (ii) by varying α and β it can be uniform, bell-shaped, U-shaped, or skewed; (iii) it is the conjugate prior for the Bernoulli/Binomial likelihood, so the posterior is also Beta - enabling closed-form analytical updates. (c) Beta(2, 8) peaks near 0.2: 'I believe the click rate is low, around 20%.' Beta(8, 2) peaks near 0.8: 'I believe the click rate is high, around 80%.' Connecting the parameters to intuition",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Three desirable properties: (i) support exactly [0, 1], (ii) \u001dexible shape to encode various beliefs, (iii) mathematical tractability when combined with data. (b) Beta(α, β) delivers all three: (i) de\u001cned precisely on [0, 1]; (ii) by varying α and β it can be uniform, bell-shaped, U-shaped, or skewed; (iii) it is the conjugate prior for the Bernoulli/Binomial likelihood, so the posterior is also Beta - enabling closed-form analytical updates. (c) Beta(2, 8) peaks near 0.2: 'I believe the click rate is low, around 20%.' Beta(8, 2) peaks near 0.8: 'I believe the click rate is high, around 80%.' Connecting the parameters to intuition",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "4 Mean, mode, and uncertainty of a Beta distribution Consider Beta(8, 4). (a) Compute the mean and mode. Why are they slightly di\u001berent? (b) Compute the variance. (c) How would the mean change if you doubled both parameters to Beta(16, 8)? How would the variance change?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 4. (a) Mean = α/(α + β) = 8/12 ~ 0.667. Mode = (α - 1)/(α + β - 2) = 7/10 = 0.700. They di\u001ber because the Beta is slightly skewed; the mode (peak) and mean (centre of mass) coincide only when α = β. (b) Variance = αβ/[(α + β)2(α + β + 1)] = 32/(144 x 13) ~ 0.0171, so SD ~ 0.131. (c) For Beta(16, 8): mean is unchanged at 16/24 = 0.667, but variance shrinks to 128/(576 x 25) ~ 0.0089. Doubling both parameters preserves the mean but halves the variance - this is why α + β is interpreted as 'prior strength.' Tutorial Workbook Weeks 6-11 Think of α as 'pseudo-successes' and β as 'pseudo-failures' that the prior 'saw' before the real data. The sum α + β is the equivalent number of past observations. Bayesian Inference Decoding Bayes' Theorem one piece at a time",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Mean = α/(α + β) = 8/12 ~ 0.667. Mode = (α - 1)/(α + β - 2) = 7/10 = 0.700. They di\u001ber because the Beta is slightly skewed; the mode (peak) and mean (centre of mass) coincide only when α = β. (b) Variance = αβ/[(α + β)2(α + β + 1)] = 32/(144 x 13) ~ 0.0171, so SD ~ 0.131. (c) For Beta(16, 8): mean is unchanged at 16/24 = 0.667, but variance shrinks to 128/(576 x 25) ~ 0.0089. Doubling both parameters preserves the mean but halves the variance - this is why α + β is interpreted as 'prior strength.' Tutorial Workbook Weeks 6-11 Think of α as 'pseudo-successes' and β as 'pseudo-failures' that the prior 'saw' before the real data. The sum α + β is the equivalent number of past observations. Bayesian Inference Decoding Bayes' Theorem one piece at a time",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "5 Naming the four ingredients Bayes' Theorem reads P (θ | D) = P (D | θ) · P (θ) P (D) . (a) Identify which term represents: (i) what you believed before seeing data, (ii) how surprising the data would be under each θ, (iii) what you now believe after seeing data, (iv) the normalising constant that makes the posterior integrate to 1. (b) Why is the rule often written as 'Posterior ∝ Likelihood x Prior'?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 5. (a) (i) Prior P (θ). (ii) Likelihood P (D | θ). (iii) Posterior P (θ | D). (iv) Evidence P (D) =R P (D|θ)P (θ) dθ. (b) The evidence P (D) does not depend on θ - it is a constant from θ's viewpoint. So we often skip computing it explicitly and just identify the posterior up to proportionality, then normalise at the end (or recognise the family from its functional form, as in the conjugate Beta-Binomial case). The conjugate update in action",
+              "fullExplanation": null,
+              "modelAnswer": "(a) (i) Prior P (θ). (ii) Likelihood P (D | θ). (iii) Posterior P (θ | D). (iv) Evidence P (D) =R P (D|θ)P (θ) dθ. (b) The evidence P (D) does not depend on θ - it is a constant from θ's viewpoint. So we often skip computing it explicitly and just identify the posterior up to proportionality, then normalise at the end (or recognise the family from its functional form, as in the conjugate Beta-Binomial case). The conjugate update in action",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "6 Applying the Beta-Binomial update You start with prior Beta(2, 8) for the success rate of a new feature. You then run an A/B test where 18 of 50 users engage with it. (a) What is the posterior distribution? (b) Compute the posterior mean. Compare it to the prior mean and the MLE k/n. (c) Where does the posterior mean lie relative to these two? Why? The conjugate update is incredibly simple: just add the observed counts to the prior parameters. Successes -> α, failures -> β.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 6. (a) Posterior = Beta(α + k, β + n - k) = Beta(2 + 18, 8 + 32) = Beta(20, 40). (b) Posterior mean = 20/60 = 0.333. Prior mean = 2/10 = 0.200. MLE = 18/50 = 0.360. (c) The posterior mean (0.333) sits between the prior mean (0.200) and the MLE (0.360), pulled toward the data because n = 50 outweighs the weak prior strength α + β = 10. With a stronger prior, the posterior would sit closer to 0.200. The posterior is always a weighted average of prior and data - the weights depend on the relative 'strength' of each. More data -> more weight on the likelihood. Tutorial Workbook Weeks 6-11 Learning as belief updating",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Posterior = Beta(α + k, β + n - k) = Beta(2 + 18, 8 + 32) = Beta(20, 40). (b) Posterior mean = 20/60 = 0.333. Prior mean = 2/10 = 0.200. MLE = 18/50 = 0.360. (c) The posterior mean (0.333) sits between the prior mean (0.200) and the MLE (0.360), pulled toward the data because n = 50 outweighs the weak prior strength α + β = 10. With a stronger prior, the posterior would sit closer to 0.200. The posterior is always a weighted average of prior and data - the weights depend on the relative 'strength' of each. More data -> more weight on the likelihood. Tutorial Workbook Weeks 6-11 Learning as belief updating",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "7 The cumulative nature of Bayesian learning Suppose you receive data in three batches: 5 trials, then 15 more, then 30 more, all from the same true process. (a) How would you compute the posterior after all three batches without redoing the earlier work? (b) Does the order of the batches matter? (c) What does this property say about Bayesian inference as a model of learning?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 7. (a) Process them sequentially: posterior after batch 1 becomes prior for batch 2; posterior after batch 2 becomes prior for batch 3. With Beta-Binomial conjugacy, this just means adding successes/failures to α and β progressively. (b) No. The \u001cnal posterior depends only on cumulative success/failure counts, not on the order. This is a hallmark of true Bayesian inference. (c) Bayesian inference models learning as continuous, cumulative belief revision: yesterday's posterior is today's prior. We never have to 're-train from scratch' - we just update. Prior strength and data dominance",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Process them sequentially: posterior after batch 1 becomes prior for batch 2; posterior after batch 2 becomes prior for batch 3. With Beta-Binomial conjugacy, this just means adding successes/failures to α and β progressively. (b) No. The \u001cnal posterior depends only on cumulative success/failure counts, not on the order. This is a hallmark of true Bayesian inference. (c) Bayesian inference models learning as continuous, cumulative belief revision: yesterday's posterior is today's prior. We never have to 're-train from scratch' - we just update. Prior strength and data dominance",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "8 When does the prior matter, and when does it wash out? You observe 7 successes in 10 trials. Try three di\u001berent priors centred at 0.5: weak Beta(1, 1), moderate Beta(5, 5), and strong Beta(50, 50). (a) Compute the posterior mean for each. (b) Which is closest to the MLE (0.7)? Which is closest to the prior mean (0.5)? (c) Describe the 'tug-of-war' between prior and data.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 8. (a) Posterior means:  Beta(1, 1) -> Beta(8, 4), mean = 8/12 = 0.667  Beta(5, 5) -> Beta(12, 8), mean = 12/20 = 0.600  Beta(50, 50) -> Beta(57, 53), mean = 57/110 = 0.518 (b) The weak prior gives a posterior closest to the MLE; the strong prior gives a posterior closest to the prior mean. (c) Posterior mean = (prior_strength x prior_mean + n x MLE) / (prior_strength + n). When n ≫ prior strength, data wins. When prior is strong relative to n, the prior wins. This is why choosing a sensible prior matters more for small datasets. Parameter Estimation Deriving the MLE for the Binomial",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Posterior means:  Beta(1, 1) -> Beta(8, 4), mean = 8/12 = 0.667  Beta(5, 5) -> Beta(12, 8), mean = 12/20 = 0.600  Beta(50, 50) -> Beta(57, 53), mean = 57/110 = 0.518 (b) The weak prior gives a posterior closest to the MLE; the strong prior gives a posterior closest to the prior mean. (c) Posterior mean = (prior_strength x prior_mean + n x MLE) / (prior_strength + n). When n ≫ prior strength, data wins. When prior is strong relative to n, the prior wins. This is why choosing a sensible prior matters more for small datasets. Parameter Estimation Deriving the MLE for the Binomial",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "9 Why is k/n the maximum likelihood estimate? You observe k successes in n Bernoulli trials. Find the value of θ that makes this observation most probable. (a) Write the likelihood L(θ) = P (D | θ). (b) Maximising L is equivalent to maximising log L (why?). Compute the log-likelihood. Tutorial Workbook Weeks 6-11 (c) Di\u001berentiate and set to zero. Solve for θ. The combinatorial coe\u001ecient \u0000n k \u0001 doesn't depend on θ, so it can be ignored when maximising over θ. The log of a product becomes a sum, which is much easier to di\u001berentiate.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 9. (a) L(θ) = \u0000n k \u0001θk(1 - θ)n-k. (b) Log is monotonic, so it preserves the location of the maximum. log L = log \u0000n k \u0001 + k log θ + (n - k) log(1 - θ). (c) d dθ log L = k θ - n - k 1 - θ = 0. Cross-multiplying: k(1 - θ) = (n - k)θ, giving k = nθ, so ˆθMLE = k/n. The MLE is simply the observed proportion of successes - the most intuitive estimate turns out to be the formal maximum-likelihood one. Where MAP di\u001bers from MLE",
+              "fullExplanation": null,
+              "modelAnswer": "(a) L(θ) = \u0000n k \u0001θk(1 - θ)n-k. (b) Log is monotonic, so it preserves the location of the maximum. log L = log \u0000n k \u0001 + k log θ + (n - k) log(1 - θ). (c) d dθ log L = k θ - n - k 1 - θ = 0. Cross-multiplying: k(1 - θ) = (n - k)θ, giving k = nθ, so ˆθMLE = k/n. The MLE is simply the observed proportion of successes - the most intuitive estimate turns out to be the formal maximum-likelihood one. Where MAP di\u001bers from MLE",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "10 Comparing the two estimators with concrete numbers You observe k = 0 successes in n = 3 trials. (a) Compute the MLE. (b) Why is this answer unsatisfying? (c) Using a Beta(2, 2) prior, compute the MAP estimate ˆθMAP = (k + α - 1)/(n + α + β - 2). (d) Why is the MAP more sensible here?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 10. (a) MLE = 0/3 = 0. (b) It says success is impossible based on only 3 observations. With so little data, declaring θ = 0 is overcon\u001cdent. (c) MAP = (0 + 2 - 1)/(3 + 2 + 2 - 2) = 1/5 = 0.2. (d) The MAP is regularised by the prior, which encodes 'θ probably isn't exactly 0'. The prior acts as a safeguard against overcon\u001cdent estimates from sparse data. As n grows, the MAP and MLE converge. MLE asks 'what θ best explains the data?' MAP asks 'what θ best balances the data against my prior beliefs?' MLE is MAP with a \u001dat prior. MAP as L2 regularisation",
+              "fullExplanation": null,
+              "modelAnswer": "(a) MLE = 0/3 = 0. (b) It says success is impossible based on only 3 observations. With so little data, declaring θ = 0 is overcon\u001cdent. (c) MAP = (0 + 2 - 1)/(3 + 2 + 2 - 2) = 1/5 = 0.2. (d) The MAP is regularised by the prior, which encodes 'θ probably isn't exactly 0'. The prior acts as a safeguard against overcon\u001cdent estimates from sparse data. As n grows, the MAP and MLE converge. MLE asks 'what θ best explains the data?' MAP asks 'what θ best balances the data against my prior beliefs?' MLE is MAP with a \u001dat prior. MAP as L2 regularisation",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "11 Showing that Ridge regression is MAP estimation For linear regression, you minimise the loss function. With weights w, the log-posterior under a Gaussian prior w ∼ N (0, σ2I) and Gaussian noise is log P (w | D) = log P (D | w) - ||w||2 2σ2 + const. (a) Express 'maximising the log-posterior' as 'minimising a loss function'. Tutorial Workbook Weeks 6-11 (b) Identify the regularisation term and the regularisation strength λ. (c) What does this tell you about the prior variance σ2?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 11. (a) Maximising log P (w|D) is the same as minimising - log P (w|D): minimise: - log P (D|w) + ||w||2 2σ2 . Under Gaussian noise, - log P (D|w) is the squared-error loss (up to constants). (b) The regularisation term is λ||w||2 where λ = 1/(2σ2). This is exactly Ridge (L2) regulari- sation. (c) A small prior variance σ2 corresponds to a large λ - i.e. strong shrinkage toward zero. Conversely, a vague prior (large σ2) means weak regularisation. The hyperparameter λ encodes a prior belief about how big weights should be. Beyond point estimates",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Maximising log P (w|D) is the same as minimising - log P (w|D): minimise: - log P (D|w) + ||w||2 2σ2 . Under Gaussian noise, - log P (D|w) is the squared-error loss (up to constants). (b) The regularisation term is λ||w||2 where λ = 1/(2σ2). This is exactly Ridge (L2) regulari- sation. (c) A small prior variance σ2 corresponds to a large λ - i.e. strong shrinkage toward zero. Conversely, a vague prior (large σ2) means weak regularisation. The hyperparameter λ encodes a prior belief about how big weights should be. Beyond point estimates",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "12 When you need the whole distribution (a) What is the conceptual di\u001berence between MLE/MAP and Full Bayesian Inference? (b) Write the formula for the posterior predictive distribution P (y∗ | x∗, D). (c) Why might a self-driving car system prefer Full Bayesian Inference over MAP?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 12. (a) MLE/MAP return a single 'best' θ. Full Bayesian Inference returns the entire posterior distribution P (θ|D), retaining all uncertainty. (b) P (y∗ | x∗, D) = R P (y∗ | x∗, θ)P (θ | D)dθ. We average predictions over all plausible θ, weighted by their posterior probability. (c) A self-driving system needs to know not just the best prediction but how certain that prediction is. A point estimate hides uncertainty; the full posterior exposes it. When the model is uncertain (e.g. about an unfamiliar object), the system can slow down or hand control back to the driver. Convergence behaviour of estimators",
+              "fullExplanation": null,
+              "modelAnswer": "(a) MLE/MAP return a single 'best' θ. Full Bayesian Inference returns the entire posterior distribution P (θ|D), retaining all uncertainty. (b) P (y∗ | x∗, D) = R P (y∗ | x∗, θ)P (θ | D)dθ. We average predictions over all plausible θ, weighted by their posterior probability. (c) A self-driving system needs to know not just the best prediction but how certain that prediction is. A point estimate hides uncertainty; the full posterior exposes it. When the model is uncertain (e.g. about an unfamiliar object), the system can slow down or hand control back to the driver. Convergence behaviour of estimators",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "13 Comparing MLE and MAP as data grows Imagine running an experiment and computing both MLE and MAP at sample sizes n = 5, 50, 500, 5000. (a) Which estimator is more variable for small n? (b) Which is closer to the true parameter for very large n? (c) State the principle of Bayesian consistency in your own words.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 13. (a) The MLE is more variable for small n because it has no anchor to a prior. The MAP is regularised toward the prior mean and behaves more stably. (b) For large n, both converge to the true parameter - the prior's in\u001duence diminishes pro- portionally to α + β versus n. (c) Bayesian consistency: as the sample size grows without bound, the posterior concentrates Tutorial Workbook Weeks 6-11 entirely on the true parameter, and the MAP, posterior mean, and MLE all converge to the same value. With enough data, the choice of prior becomes irrelevant. Tutorial Workbook Weeks 6-11 Week 7 - Sampling, CLT & Con\u001cdence Intervals Population, Samples & Sampling Methods Distinguishing population from sample",
+              "fullExplanation": null,
+              "modelAnswer": "(a) The MLE is more variable for small n because it has no anchor to a prior. The MAP is regularised toward the prior mean and behaves more stably. (b) For large n, both converge to the true parameter - the prior's in\u001duence diminishes pro- portionally to α + β versus n. (c) Bayesian consistency: as the sample size grows without bound, the posterior concentrates Tutorial Workbook Weeks 6-11 entirely on the true parameter, and the MAP, posterior mean, and MLE all converge to the same value. With enough data, the choice of prior becomes irrelevant. Tutorial Workbook Weeks 6-11 Week 7 - Sampling, CLT & Con\u001cdence Intervals Population, Samples & Sampling Methods Distinguishing population from sample",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "14 Identifying the population in real AI scenarios For each scenario below, identify the population, the sample, and the parameter of interest. (a) A team evaluates their image classi\u001cer on 5,000 held-out images. (b) A poll of 1,200 voters predicts national election results. (c) Researchers test a new drug on 300 volunteers.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 14. (a) Population: all images the classi\u001cer might encounter in deployment. Sample: the 5,000 test images. Parameter: the classi\u001cer's true (population) accuracy. (b) Population: all eligible voters in the country. Sample: the 1,200 polled. Parameter: the true proportion supporting each candidate. (c) Population: all current and future patients with the condition. Sample: the 300 volunteers. Parameter: the drug's true e\u001bect size. Sampling exists because populations are too big, too expensive, or even impossible to measure entirely. Statistics is the discipline of drawing valid conclusions about populations from limited samples. Finite vs in\u001cnite populations",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Population: all images the classi\u001cer might encounter in deployment. Sample: the 5,000 test images. Parameter: the classi\u001cer's true (population) accuracy. (b) Population: all eligible voters in the country. Sample: the 1,200 polled. Parameter: the true proportion supporting each candidate. (c) Population: all current and future patients with the condition. Sample: the 300 volunteers. Parameter: the drug's true e\u001bect size. Sampling exists because populations are too big, too expensive, or even impossible to measure entirely. Statistics is the discipline of drawing valid conclusions about populations from limited samples. Finite vs in\u001cnite populations",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "15 When does the \u001cnite population correction matter? A small company has 500 employees (N = 500). You sample 100 of them (n = 100) without replacement to estimate average satisfaction. (a) The naive standard error formula is σ/sqrtn. The \u001cnite-population-corrected formula multi- plies this by p(N - n)/(N - 1). Compute both for σ = 1. (b) By what percentage does the FPC reduce the standard error? (c) Would you bother with the FPC if you sampled 100 people from a large city of 1 million?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 15. (a) Naive SE = 1/sqrt100 = 0.100. FPC factor = p400/499 = 0.895. Corrected SE = 0.100 x 0.895 = 0.0895. (b) About 10.5% reduction. (c) No - the FPC factor would be p999900/999999 ~ 0.99995, a negligible 0.005% reduction. Use the FPC only when n is a substantial fraction of N (rule of thumb: n/N > 5%). Tutorial Workbook Weeks 6-11 Probability vs non-probability sampling",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Naive SE = 1/sqrt100 = 0.100. FPC factor = p400/499 = 0.895. Corrected SE = 0.100 x 0.895 = 0.0895. (b) About 10.5% reduction. (c) No - the FPC factor would be p999900/999999 ~ 0.99995, a negligible 0.005% reduction. Use the FPC only when n is a substantial fraction of N (rule of thumb: n/N > 5%). Tutorial Workbook Weeks 6-11 Probability vs non-probability sampling",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "16 Why your sampling method matters A streaming service surveys 'what fraction of viewers liked our new show?' two ways:  Method 1: random sample of 1,000 subscribers  Method 2: 1,000 voluntary responses on social media (a) Why might Method 2 give a misleading estimate? (b) Can you compute a meaningful con\u001cdence interval from Method 2's data? (c) Name one valid probability-sampling alternative to simple random sampling.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 16. (a) Method 2 su\u001bers from self-selection bias: people who chose to respond are likely those with stronger opinions (especially negative ones). The sample is not representative of the viewer population. (b) Not really - con\u001cdence-interval theory assumes random sampling. With a self-selected sample, there is no probability model to which the formulas apply. (c) Strati\u001ced sampling: divide the population into strata (e.g. by age or region), then random- sample within each. Useful when subgroups have di\u001berent opinions and you want to ensure they are all represented proportionally. Sampling Distribution & CLT Properties of ¯ X",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Method 2 su\u001bers from self-selection bias: people who chose to respond are likely those with stronger opinions (especially negative ones). The sample is not representative of the viewer population. (b) Not really - con\u001cdence-interval theory assumes random sampling. With a self-selected sample, there is no probability model to which the formulas apply. (c) Strati\u001ced sampling: divide the population into strata (e.g. by age or region), then random- sample within each. Useful when subgroups have di\u001berent opinions and you want to ensure they are all represented proportionally. Sampling Distribution & CLT Properties of ¯ X",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "17 Understanding what ¯ X is and how it varies You repeat an experiment many times: each time, draw a sample of size n from a population with mean μ and variance σ2, then compute ¯x. (a) What is the average of all those ¯x values? (b) What is the variance of those ¯x values? (c) By what factor does the standard error shrink when you quadruple the sample size?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 17. (a) E[ ¯ X] = μ. The sample mean is an unbiased estimator of the population mean. (b) Var( ¯ X) = σ2/n. Standard error SE( ¯ X) = σ/sqrtn. (c) Quadrupling n doubles sqrtn, so SE halves. To double precision, you need 4x the data. To 10x the precision, you need 100x the data. This sqrtn scaling is the fundamental cost of statistical precision. The Central Limit Theorem",
+              "fullExplanation": null,
+              "modelAnswer": "(a) E[ ¯ X] = μ. The sample mean is an unbiased estimator of the population mean. (b) Var( ¯ X) = σ2/n. Standard error SE( ¯ X) = σ/sqrtn. (c) Quadrupling n doubles sqrtn, so SE halves. To double precision, you need 4x the data. To 10x the precision, you need 100x the data. This sqrtn scaling is the fundamental cost of statistical precision. The Central Limit Theorem",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "18 Stating and trusting the CLT (a) State the CLT formally. (b) Suppose you sample n = 50 values from a strongly skewed Exponential distribution. What does the CLT tell you about the distribution of ¯ X? (c) What three conditions does the CLT require? (d) Why is n = 30 commonly cited as the minimum? Tutorial Workbook Weeks 6-11",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 18. (a) For i.i.d. random variables with mean μ and \u001cnite variance σ2, ¯ X - μ σ/sqrtn d - -> N (0, 1) as n -> ∞. (b) Even though the population is skewed, the CLT guarantees ¯ X is approximately Normal for n = 50. Speci\u001ccally, ¯ X ~ N (μ, σ2/50). (c) Independence, identical distribution, \u001cnite variance. (For non-identical variables there are generalised CLTs.) (d) Empirical rule of thumb: by n = 30, the sampling distribution is usually 'close enough' to Normal for practical inference. Heavily skewed populations may need n ≥ 50 or more. Why the CLT is so important",
+              "fullExplanation": null,
+              "modelAnswer": "(a) For i.i.d. random variables with mean μ and \u001cnite variance σ2, ¯ X - μ σ/sqrtn d - -> N (0, 1) as n -> ∞. (b) Even though the population is skewed, the CLT guarantees ¯ X is approximately Normal for n = 50. Speci\u001ccally, ¯ X ~ N (μ, σ2/50). (c) Independence, identical distribution, \u001cnite variance. (For non-identical variables there are generalised CLTs.) (d) Empirical rule of thumb: by n = 30, the sampling distribution is usually 'close enough' to Normal for practical inference. Heavily skewed populations may need n ≥ 50 or more. Why the CLT is so important",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "19 Recognising the CLT's reach Re\u001dect on these statements and decide if they are correct, incorrect, or partially correct. (a) 'The CLT says that any data, if you collect enough of it, becomes Normal.' (b) 'The CLT lets us use Normal-distribution-based con\u001cdence intervals even when the popu- lation isn't Normal.' (c) 'Without the CLT, we couldn't do hypothesis testing on real-world data.'",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 19. (a) Incorrect. Individual data points stay in their original distribution. The CLT is about the distribution of the sample mean, not the data itself. (b) Correct. This is precisely why CIs work for arbitrary populations: even if the data are non-Normal, the sample mean is approximately Normal for large n. (c) Largely correct. Most classical hypothesis tests rely on distributional assumptions about the test statistic. The CLT delivers those assumptions asymptotically, making the tests valid for a vast range of real-world data. Sampling from a Normal population",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Incorrect. Individual data points stay in their original distribution. The CLT is about the distribution of the sample mean, not the data itself. (b) Correct. This is precisely why CIs work for arbitrary populations: even if the data are non-Normal, the sample mean is approximately Normal for large n. (c) Largely correct. Most classical hypothesis tests rely on distributional assumptions about the test statistic. The CLT delivers those assumptions asymptotically, making the tests valid for a vast range of real-world data. Sampling from a Normal population",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "20 The exact case (a) If X1, . . . , Xn ∼ N (μ, σ2), what is the exact distribution of ¯ X? For what n? (b) Compare this to the CLT result: what's the di\u001berence? (c) Why does this matter for small-sample analysis?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 20. (a) ¯ X ∼ N (μ, σ2/n) exactly, for any n (even n = 2). (b) The CLT gives an approximate Normal distribution that improves with larger n. The Normal-population result gives an exact Normal distribution at any sample size. (c) For small samples (n < 30), CLT-based approximations may be inaccurate. But if we know the data are Normal, exact Normal-based inference is valid even with n = 2. Con\u001cdence Intervals & Margin of Error Tutorial Workbook Weeks 6-11 Building a 95% CI",
+              "fullExplanation": null,
+              "modelAnswer": "(a) ¯ X ∼ N (μ, σ2/n) exactly, for any n (even n = 2). (b) The CLT gives an approximate Normal distribution that improves with larger n. The Normal-population result gives an exact Normal distribution at any sample size. (c) For small samples (n < 30), CLT-based approximations may be inaccurate. But if we know the data are Normal, exact Normal-based inference is valid even with n = 2. Con\u001cdence Intervals & Margin of Error Tutorial Workbook Weeks 6-11 Building a 95% CI",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "21 Constructing your \u001crst CI A factory makes bolts with a known σ = 2 mm. You measure n = 36 bolts and \u001cnd ¯x = 50.5 mm. (a) Compute the standard error. (b) Compute the 95% margin of error. (c) Construct the 95% CI for the true mean bolt length. (d) Write a one-sentence interpretation suitable for a non-statistician.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 21. (a) SE = σ/sqrtn = 2/6 = 0.333 mm. (b) MoE = 1.96 x 0.333 = 0.653 mm. (c) 95% CI = [50.5 - 0.653, 50.5 + 0.653] = [49.85, 51.15] mm. (d) 'We are 95% con\u001cdent that the true average bolt length lies between 49.85 mm and 51.15 mm.' (Note the careful wording - see next tutorial!) Interpreting con\u001cdence intervals correctly",
+              "fullExplanation": null,
+              "modelAnswer": "(a) SE = σ/sqrtn = 2/6 = 0.333 mm. (b) MoE = 1.96 x 0.333 = 0.653 mm. (c) 95% CI = [50.5 - 0.653, 50.5 + 0.653] = [49.85, 51.15] mm. (d) 'We are 95% con\u001cdent that the true average bolt length lies between 49.85 mm and 51.15 mm.' (Note the careful wording - see next tutorial!) Interpreting con\u001cdence intervals correctly",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "22 The trap of CI interpretation A CI of [49.85, 51.15] has been computed. Decide if each statement is correct. (a) 'There is a 95% probability that μ lies between 49.85 and 51.15.' (b) 'If we repeated this experiment many times, about 95% of the resulting CIs would contain μ.' (c) '95% of bolts have lengths between 49.85 and 51.15.'",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 22. (a) Incorrect (in frequentist statistics). The true μ is a \u001cxed number, not random. After computing one speci\u001cc CI, μ either is or isn't in it - no probability statement applies to a \u001cxed quantity. This is the most common CI misinterpretation. (b) Correct. The 95% refers to the long-run behaviour of the procedure, not a single interval. About 95% of intervals from repeated sampling would capture μ. (c) Incorrect. The CI is about the mean, not individual bolts. Individual bolts have variability σ, much wider than the SE of the mean. A con\u001cdence interval is a statement about the procedure's reliability, not the speci\u001cc interval you computed. The 95% guarantee applies before you see the data, not after. Factors a\u001becting the margin of error",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Incorrect (in frequentist statistics). The true μ is a \u001cxed number, not random. After computing one speci\u001cc CI, μ either is or isn't in it - no probability statement applies to a \u001cxed quantity. This is the most common CI misinterpretation. (b) Correct. The 95% refers to the long-run behaviour of the procedure, not a single interval. About 95% of intervals from repeated sampling would capture μ. (c) Incorrect. The CI is about the mean, not individual bolts. Individual bolts have variability σ, much wider than the SE of the mean. A con\u001cdence interval is a statement about the procedure's reliability, not the speci\u001cc interval you computed. The 95% guarantee applies before you see the data, not after. Factors a\u001becting the margin of error",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "23 Tuning the precision You currently have a 95% MoE of 1.0 with σ = 5 and n = 100. (a) How would the MoE change if you switched to a 99% con\u001cdence level? (Hint: z0.005 ~ 2.576.) (b) How large does n need to be to halve the MoE to 0.5 (still 95%)? (c) Can you reduce the MoE by changing σ? Why or why not? Tutorial Workbook Weeks 6-11",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 23. (a) New MoE = 2.576 x 5/sqrt100 = 2.576 x 0.5 = 1.288. Higher con\u001cdence makes the interval wider, since you're requiring greater certainty. (b) Solve 1.96 x 5/sqrtn = 0.5 ⇒ sqrtn = 19.6 ⇒ n = 384. Halving the MoE requires roughly 4x the sample size. (c) σ is a property of the population - you cannot 'change' it. You can only reduce the MoE through larger n or lower con\u001cdence level. (You could also stratify to reduce within-stratum variance, but σ itself is \u001cxed.) Why CIs matter for AI",
+              "fullExplanation": null,
+              "modelAnswer": "(a) New MoE = 2.576 x 5/sqrt100 = 2.576 x 0.5 = 1.288. Higher con\u001cdence makes the interval wider, since you're requiring greater certainty. (b) Solve 1.96 x 5/sqrtn = 0.5 ⇒ sqrtn = 19.6 ⇒ n = 384. Halving the MoE requires roughly 4x the sample size. (c) σ is a property of the population - you cannot 'change' it. You can only reduce the MoE through larger n or lower con\u001cdence level. (You could also stratify to reduce within-stratum variance, but σ itself is \u001cxed.) Why CIs matter for AI",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "24 Reporting model accuracy honestly Your image classi\u001cer gets 87% accuracy on a 200-image test set. (a) Compute the 95% CI for the true accuracy. (For proportions: SE = pp(1 - p)/n.) (b) Suppose a competitor reports 89% accuracy on the same 200-image test set. Can you con\u001cdently say their model is better? (c) What test-set size would you need for the MoE to be at most ±1%?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 24. (a) SE = p0.87 x 0.13/200 = 0.0238. MoE = 1.96 x 0.0238 = 0.047. CI = [82.3%, 91.7%]. (b) No. Their 89% lies well within your CI. The two intervals overlap heavily; the di\u001berence might just be random variation. With only 200 images, you cannot reliably distinguish 87% from 89%. (c) Solve 1.96xp0.87 x 0.13/n ≤ 0.01 ⇒ n ≥ 4346. To make claims about 1% di\u001berences, you need thousands of test examples. Chi-Square & Student's t-Distribution The Chi-square distribution",
+              "fullExplanation": null,
+              "modelAnswer": "(a) SE = p0.87 x 0.13/200 = 0.0238. MoE = 1.96 x 0.0238 = 0.047. CI = [82.3%, 91.7%]. (b) No. Their 89% lies well within your CI. The two intervals overlap heavily; the di\u001berence might just be random variation. With only 200 images, you cannot reliably distinguish 87% from 89%. (c) Solve 1.96xp0.87 x 0.13/n ≤ 0.01 ⇒ n ≥ 4346. To make claims about 1% di\u001berences, you need thousands of test examples. Chi-Square & Student's t-Distribution The Chi-square distribution",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "25 Where does χ2 come from? (a) De\u001cne the χ2(k) distribution as a sum of squares. (b) State the connection to the sample variance: if Xi ∼ N (μ, σ2), what is the distribution of (n - 1)S2/σ2? (c) Why is this useful for inference about variability?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 25. (a) If Z1, . . . , Zk ∼ N (0, 1) independently, then Q = Z2 1 + Z2 2 + · · · + Z2 k ∼ χ2(k) with k degrees of freedom. Mean = k, variance = 2k. (b) (n - 1)S2/σ2 ∼ χ2(n - 1) when sampling from a Normal population. (c) It allows construction of con\u001cdence intervals and hypothesis tests for the population variance σ2 - e.g. testing whether a manufacturing process has too much variability or whether a new model's output spread is acceptable. Tutorial Workbook Weeks 6-11 Student's t-distribution",
+              "fullExplanation": null,
+              "modelAnswer": "(a) If Z1, . . . , Zk ∼ N (0, 1) independently, then Q = Z2 1 + Z2 2 + · · · + Z2 k ∼ χ2(k) with k degrees of freedom. Mean = k, variance = 2k. (b) (n - 1)S2/σ2 ∼ χ2(n - 1) when sampling from a Normal population. (c) It allows construction of con\u001cdence intervals and hypothesis tests for the population variance σ2 - e.g. testing whether a manufacturing process has too much variability or whether a new model's output spread is acceptable. Tutorial Workbook Weeks 6-11 Student's t-distribution",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "26 When you don't know σ You want to construct a CI for μ, but you don't know σ - you have to estimate it from the same data. (a) Why can't you just plug S into the Normal-based formula? (b) What distribution does T = ( ¯ X - μ)/(S/sqrtn) follow? (c) How do the t-distribution's tails compare to the Normal's? What practical e\u001bect does this have on CIs? (d) What happens to t(n - 1) as n -> ∞?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 26. (a) Doing so would understate the uncertainty: S is itself a random variable with its own vari- ability. Plugging it into a Normal-based CI ignores this extra uncertainty, producing intervals that are too narrow. (b) T ∼ t(n - 1), the Student's t-distribution with n - 1 degrees of freedom. (c) The t-distribution has heavier tails than the Normal - meaning more probability of large deviations. Practically, t-based CIs are wider than Normal-based CIs, especially for small n. This wider interval correctly accounts for estimating σ from data. (d) As n -> ∞, the t-distribution converges to N (0, 1). With in\u001cnite data, S becomes exact and there is no extra uncertainty. Constructing a t-interval",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Doing so would understate the uncertainty: S is itself a random variable with its own vari- ability. Plugging it into a Normal-based CI ignores this extra uncertainty, producing intervals that are too narrow. (b) T ∼ t(n - 1), the Student's t-distribution with n - 1 degrees of freedom. (c) The t-distribution has heavier tails than the Normal - meaning more probability of large deviations. Practically, t-based CIs are wider than Normal-based CIs, especially for small n. This wider interval correctly accounts for estimating σ from data. (d) As n -> ∞, the t-distribution converges to N (0, 1). With in\u001cnite data, S becomes exact and there is no extra uncertainty. Constructing a t-interval",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "27 Putting it together with real data You measure 10 reaction times: ¯x = 250 ms, s = 30 ms, n = 10. Build a 95% CI using the t-distribution. (a) How many degrees of freedom? (b) Look up (or compute) t0.025,9. (c) Compute the MoE and the CI. (d) Compare to the Normal-based CI you'd get if you wrongly used z = 1.96.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 27. (a) df = n - 1 = 9. (b) t0.025,9 ~ 2.262 (slightly larger than 1.96). (c) SE = 30/sqrt10 = 9.49. MoE = 2.262 x 9.49 = 21.46. CI = [228.5, 271.5] ms. (d) Normal-based CI: MoE = 1.96 x 9.49 = 18.60, giving [231.4, 268.6] ms. The Normal-based interval is too narrow - it underestimates uncertainty by ignoring the variability in s. The t-based CI is the correct choice. Tutorial Workbook Weeks 6-11 Week 8 - Hypothesis Testing Foundations The logic of hypothesis testing",
+              "fullExplanation": null,
+              "modelAnswer": "(a) df = n - 1 = 9. (b) t0.025,9 ~ 2.262 (slightly larger than 1.96). (c) SE = 30/sqrt10 = 9.49. MoE = 2.262 x 9.49 = 21.46. CI = [228.5, 271.5] ms. (d) Normal-based CI: MoE = 1.96 x 9.49 = 18.60, giving [231.4, 268.6] ms. The Normal-based interval is too narrow - it underestimates uncertainty by ignoring the variability in s. The t-based CI is the correct choice. Tutorial Workbook Weeks 6-11 Week 8 - Hypothesis Testing Foundations The logic of hypothesis testing",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "28 Setting up the framework A sceptic claims a coin is fair. You \u001dip it 100 times and get 65 heads. (a) Frame this as a hypothesis test: what are H0 and H1? (b) If H0 were true, what would you expect to see? How surprising is 65 heads? (c) Why do we say 'reject H0' rather than 'prove H1'?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 28. (a) H0 : θ = 0.5 (fair coin) vs H1 : θ̸ = 0.5 (biased) - two-tailed. (b) Under H0, expected = 50 heads with SD = sqrt100 x 0.5 x 0.5 = 5. Observing 65 is (65 - 50)/5 = 3 SDs above the expected value - very surprising. (c) Hypothesis testing is logically asymmetric: data can be inconsistent with H0 (giving ev- idence against it), but absence of evidence is not evidence of absence. We never 'prove' a hypothesis - we only fail to disprove the null. This is modelled on Karl Popper's principle of falsi\u001ccation. One-tailed vs two-tailed",
+              "fullExplanation": null,
+              "modelAnswer": "(a) H0 : θ = 0.5 (fair coin) vs H1 : θ̸ = 0.5 (biased) - two-tailed. (b) Under H0, expected = 50 heads with SD = sqrt100 x 0.5 x 0.5 = 5. Observing 65 is (65 - 50)/5 = 3 SDs above the expected value - very surprising. (c) Hypothesis testing is logically asymmetric: data can be inconsistent with H0 (giving ev- idence against it), but absence of evidence is not evidence of absence. We never 'prove' a hypothesis - we only fail to disprove the null. This is modelled on Karl Popper's principle of falsi\u001ccation. One-tailed vs two-tailed",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "29 Choosing the form of the test For each scenario, decide whether to use a one-tailed or two-tailed test, and write H0 and H1. (a) Testing whether a new model has higher accuracy than the old one (you only care about improvement). (b) Quality control: testing whether a manufactured part's mean weight matches the target of 100 g (deviation in any direction is bad). (c) Drug testing: is the new drug worse than the placebo?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 29. (a) One-tailed (right): H0 : μnew ≤ μold vs H1 : μnew > μold. We only reject for clearly higher accuracy. (b) Two-tailed : H0 : μ = 100 vs H1 : μ̸ = 100. Both heavier and lighter parts are problems. (c) One-tailed (left): H0 : μdrug ≥ μplacebo vs H1 : μdrug < μplacebo. Choose the alternative before seeing the data. Choosing one-tailed after observing the direction of the e\u001bect is cherry-picking and in\u001dates the false-positive rate. Decision Errors & the p-value Tutorial Workbook Weeks 6-11 Understanding the four outcomes",
+              "fullExplanation": null,
+              "modelAnswer": "(a) One-tailed (right): H0 : μnew ≤ μold vs H1 : μnew > μold. We only reject for clearly higher accuracy. (b) Two-tailed : H0 : μ = 100 vs H1 : μ̸ = 100. Both heavier and lighter parts are problems. (c) One-tailed (left): H0 : μdrug ≥ μplacebo vs H1 : μdrug < μplacebo. Choose the alternative before seeing the data. Choosing one-tailed after observing the direction of the e\u001bect is cherry-picking and in\u001dates the false-positive rate. Decision Errors & the p-value Tutorial Workbook Weeks 6-11 Understanding the four outcomes",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "30 Building the error matrix Sketch the 2x2 table whose rows are 'H0 true' / 'H0 false' and columns are 'Reject H0' / 'Fail to reject H0'. (a) Label each cell with its probability (α, β, 1 - α, 1 - β). (b) Which cells represent errors? Give them their formal names. (c) De\u001cne statistical power. Reject H0 Fail to reject H0 H0 true Type I error (α) Correct (1 - α) H0 false Correct (Power = 1 - β) Type II error (β)",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 30. (a) Done above. (b) Type I error (false positive): rejecting a true H0. Type II error (false negative): failing to reject a false H0. (c) Power = 1 - β: the probability of correctly rejecting H0 when it is false. We want high power (typically ≥ 0.8) so that real e\u001bects are detected. Trade-o\u001bs in error rates",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Done above. (b) Type I error (false positive): rejecting a true H0. Type II error (false negative): failing to reject a false H0. (c) Power = 1 - β: the probability of correctly rejecting H0 when it is false. We want high power (typically ≥ 0.8) so that real e\u001bects are detected. Trade-o\u001bs in error rates",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "31 Tightening one error tightens the other You can choose any α for your test. (a) If you set α = 0.001 (very strict), what happens to β? (b) If α = 0.20 (loose), what happens to power? (c) How can you simultaneously reduce both α and β?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 31. (a) Tightening α moves the rejection region further from the null, making Type II errors more likely - β increases (power decreases). (b) Loose α means a wide rejection region, so we reject more easily. β decreases and power increases - but at the cost of more false positives. (c) The only way to reduce both errors simultaneously is to collect more data. Increasing n shrinks the sampling distribution under both H0 and H1, allowing better discrimination. Demystifying the p-value",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Tightening α moves the rejection region further from the null, making Type II errors more likely - β increases (power decreases). (b) Loose α means a wide rejection region, so we reject more easily. β decreases and power increases - but at the cost of more false positives. (c) The only way to reduce both errors simultaneously is to collect more data. Increasing n shrinks the sampling distribution under both H0 and H1, allowing better discrimination. Demystifying the p-value",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "32 The most misunderstood concept in statistics For a hypothesis test, you compute p = 0.03. (a) What does 'p = 0.03' mean precisely? (b) Decide whether each of these statements is correct:  'There is a 3% probability that H0 is true.'  'If H0 were true, observing data this extreme or more would happen 3% of the time.'  'The probability of \u001cnding this result by chance is 3%.' (c) Apply the decision rule with α = 0.05. Tutorial Workbook Weeks 6-11",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 32. (a) p = 0.03 is the probability, assuming H0 is true, of observing a test statistic at least as extreme as the one computed. (b)  Statement 1: Incorrect. The p-value is not a probability about H0.  Statement 2: Correct. This is the precise de\u001cnition.  Statement 3: Slightly imprecise. It's the probability under H0 of observing this-or-more- extreme, not just 'this result.' (c) p = 0.03 < α = 0.05 ⇒ Reject H0. The seven-step recipe",
+              "fullExplanation": null,
+              "modelAnswer": "(a) p = 0.03 is the probability, assuming H0 is true, of observing a test statistic at least as extreme as the one computed. (b)  Statement 1: Incorrect. The p-value is not a probability about H0.  Statement 2: Correct. This is the precise de\u001cnition.  Statement 3: Slightly imprecise. It's the probability under H0 of observing this-or-more- extreme, not just 'this result.' (c) p = 0.03 < α = 0.05 ⇒ Reject H0. The seven-step recipe",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "33 Putting it all together List the seven steps of any hypothesis test, then walk through them for: 'A claim says the average customer wait time is 5 minutes; you sample 50 customers and \u001cnd a mean wait of 5.8 minutes with sample SD 2.1 minutes. Test at α = 0.05.' Steps: (1) State H0 and H1. (2) Choose α. (3) Identify the appropriate test. (4) Compute the test statistic. (5) Determine critical region or p-value. (6) Decide. (7) Interpret. Worked example:  (1) H0 : μ = 5 vs H1 : μ̸ = 5 (two-tailed).  (2) α = 0.05.  (3) One-sample t-test (σ unknown).  (4) T = (5.8 - 5)/(2.1/sqrt50) = 0.8/0.297 = 2.69.  (5) Critical values ±t0.025,49 ~ ±2.01. Two-sided p-value ~ 0.0098.  (6) |T | = 2.69 > 2.01 (and p < 0.05), so reject H0.  (7) The data provide signi\u001ccant evidence that the average wait time di\u001bers from the claimed 5 minutes.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 33. The Z-test and T-tests When to use the z-test",
+              "fullExplanation": null,
+              "modelAnswer": "The Z-test and T-tests When to use the z-test",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "34 The simplest hypothesis test A factory's manufacturing process has a known σ = 5 g. The process target is 200 g. You sample 25 items and \u001cnd ¯x = 197 g. (a) Why is the z-test appropriate here (rather than a t-test)? (b) Set up H0 and H1 for a two-tailed test. (c) Compute the test statistic and p-value, then decide at α = 0.05.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 34. (a) The z-test requires known σ. We have σ = 5 from historical process data, so the z-test (rather than t-test) applies. (b) H0 : μ = 200 vs H1 : μ̸ = 200. (c) Z = (197 - 200)/(5/sqrt25) = -3/1 = -3.0. Two-sided p-value = 2 x P (Z < -3) ~ 0.0027. Critical values ±1.96. Since | - 3.0| > 1.96 (and p ≪ 0.05), reject H0. The process is signi\u001ccantly o\u001b-target. Tutorial Workbook Weeks 6-11 The one-sample t-test",
+              "fullExplanation": null,
+              "modelAnswer": "(a) The z-test requires known σ. We have σ = 5 from historical process data, so the z-test (rather than t-test) applies. (b) H0 : μ = 200 vs H1 : μ̸ = 200. (c) Z = (197 - 200)/(5/sqrt25) = -3/1 = -3.0. Two-sided p-value = 2 x P (Z < -3) ~ 0.0027. Critical values ±1.96. Since | - 3.0| > 1.96 (and p ≪ 0.05), reject H0. The process is signi\u001ccantly o\u001b-target. Tutorial Workbook Weeks 6-11 The one-sample t-test",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "35 Testing when σ is unknown A claim states the average response time of a server is 200 ms. You sample 12 response times: ¯x = 209.2 ms, s = 9.4 ms. (a) Why is this a t-test, not a z-test? (b) Compute T and df . (c) Test at α = 0.05 (two-tailed).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 35. (a) We don't know the population σ - we estimate it as s = 9.4. This extra uncertainty requires the t-distribution. (b) T = (209.2 - 200)/(9.4/sqrt12) = 9.2/2.713 = 3.39. df = 11. (c) Critical t0.025,11 ~ 2.20. Since |T | = 3.39 > 2.20, reject H0. (Two-sided p-value ~ 0.0061.) The data provide strong evidence the mean response time exceeds 200 ms. Paired vs independent samples",
+              "fullExplanation": null,
+              "modelAnswer": "(a) We don't know the population σ - we estimate it as s = 9.4. This extra uncertainty requires the t-distribution. (b) T = (209.2 - 200)/(9.4/sqrt12) = 9.2/2.713 = 3.39. df = 11. (c) Critical t0.025,11 ~ 2.20. Since |T | = 3.39 > 2.20, reject H0. (Two-sided p-value ~ 0.0061.) The data provide strong evidence the mean response time exceeds 200 ms. Paired vs independent samples",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "36 Recognising the right test For each scenario below, decide between a paired t-test and an independent two-sample t-test, and explain why. (a) Comparing the same students' test scores before and after a tutoring programme. (b) Comparing test scores of one class taught with method A and a di\u001berent class taught with method B. (c) Evaluating two ML models on the same test set.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 36. (a) Paired t-test: same students measured twice; di\u001berences are within-subject. (b) Independent two-sample t-test: two unrelated groups of students. (c) Paired t-test: each test example contributes a pair of predictions (model A's, model B's). Pairing controls for example di\u001eculty, increasing power substantially compared to an indepen- dent test. Pooled two-sample t-test",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Paired t-test: same students measured twice; di\u001berences are within-subject. (b) Independent two-sample t-test: two unrelated groups of students. (c) Paired t-test: each test example contributes a pair of predictions (model A's, model B's). Pairing controls for example di\u001eculty, increasing power substantially compared to an indepen- dent test. Pooled two-sample t-test",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "37 Comparing two independent group means Two teaching methods are compared. Method A: n1 = 18, ¯x1 = 73.4, s1 = 9.1. Method B: n2 = 22, ¯x2 = 79.1, s2 = 8.6. (a) Assuming equal variances, compute the pooled SD Sp. (b) Compute the test statistic and degrees of freedom. (c) Test H0 : μ1 = μ2 vs H1 : μ1̸ = μ2 at α = 0.05.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 37. (a) Sp = r 17 x 9.12 + 21 x 8.62 38 = r 1407.77 + 1553.16 38 = sqrt77.92 = 8.83. (b) SE of di\u001berence = 8.83 x p1/18 + 1/22 = 8.83 x 0.318 = 2.81. T = (73.4 - 79.1)/2.81 = -2.03. df = 18 + 22 - 2 = 38. Tutorial Workbook Weeks 6-11 (c) Critical t0.025,38 ~ 2.024. Since |T | = 2.03 slightly exceeds 2.024, reject H0 - borderline signi\u001ccant di\u001berence (p ~ 0.049). Welch's t-test for unequal variances",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Sp = r 17 x 9.12 + 21 x 8.62 38 = r 1407.77 + 1553.16 38 = sqrt77.92 = 8.83. (b) SE of di\u001berence = 8.83 x p1/18 + 1/22 = 8.83 x 0.318 = 2.81. T = (73.4 - 79.1)/2.81 = -2.03. df = 18 + 22 - 2 = 38. Tutorial Workbook Weeks 6-11 (c) Critical t0.025,38 ~ 2.024. Since |T | = 2.03 slightly exceeds 2.024, reject H0 - borderline signi\u001ccant di\u001berence (p ~ 0.049). Welch's t-test for unequal variances",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "38 The safe default for two-sample comparisons Group X: n1 = 30, ¯x1 = 12.4, s1 = 2.1. Group Y: n2 = 25, ¯x2 = 11.6, s2 = 4.5. (a) Inspect the variances. Why might Welch's test be safer than the pooled test? (b) Compute Welch's T . (c) Compute the Welch-Satterthwaite degrees of freedom. (d) Test at α = 0.05 (two-tailed).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 38. (a) s2 2/s2 1 = (4.5/2.1)2 ~ 4.6. Variances di\u001ber by nearly 5x - the equal-variance assumption is unsafe. Welch's test does not require it. (b) SE = p2.12/30 + 4.52/25 = sqrt0.147 + 0.810 = sqrt0.957 = 0.978. T = (12.4 - 11.6)/0.978 = 0.818. (c) Numerator: (0.147+0.810)2 = 0.916. Denominator: (0.147)2/29+(0.810)2/24 = 0.000745+ 0.02734 = 0.0281. df = 0.916/0.0281 ~ 32.6. (d) Critical t0.025,32.6 ~ 2.04. |T | = 0.818 < 2.04, so fail to reject H0. No signi\u001ccant di\u001berence detected. Welch's test is nearly as powerful as the pooled test when variances are equal, and far more reliable when they aren't. Modern statistical practice recommends Welch's as the default for two-sample comparisons. Degrees of freedom intuition",
+              "fullExplanation": null,
+              "modelAnswer": "(a) s2 2/s2 1 = (4.5/2.1)2 ~ 4.6. Variances di\u001ber by nearly 5x - the equal-variance assumption is unsafe. Welch's test does not require it. (b) SE = p2.12/30 + 4.52/25 = sqrt0.147 + 0.810 = sqrt0.957 = 0.978. T = (12.4 - 11.6)/0.978 = 0.818. (c) Numerator: (0.147+0.810)2 = 0.916. Denominator: (0.147)2/29+(0.810)2/24 = 0.000745+ 0.02734 = 0.0281. df = 0.916/0.0281 ~ 32.6. (d) Critical t0.025,32.6 ~ 2.04. |T | = 0.818 < 2.04, so fail to reject H0. No signi\u001ccant di\u001berence detected. Welch's test is nearly as powerful as the pooled test when variances are equal, and far more reliable when they aren't. Modern statistical practice recommends Welch's as the default for two-sample comparisons. Degrees of freedom intuition",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "39 Why n - 1, n1 + n2 - 2, and Welch's ν? (a) Why does the one-sample t-test use df = n - 1 instead of n? (b) Why does the pooled two-sample test use df = n1 + n2 - 2? (c) Why is the Welch-Satterthwaite df typically not an integer?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 39. (a) You 'spend' one degree of freedom estimating ¯x before computing s. This is why the variance formula divides by n - 1, not n, to be unbiased. (b) Two means are estimated from two samples, so two degrees are used up: df = n1 + n2 - 2. (c) Welch's df weights the contributions of the two samples by their variances and sizes. This produces a continuous (often non-integer) df that better approximates the distribution of the test statistic when variances are unequal. Tutorial Workbook Weeks 6-11 Week 9 - Calculus for AI: Derivatives to Backpropagation Derivatives & Partial Derivatives From secant to tangent",
+              "fullExplanation": null,
+              "modelAnswer": "(a) You 'spend' one degree of freedom estimating ¯x before computing s. This is why the variance formula divides by n - 1, not n, to be unbiased. (b) Two means are estimated from two samples, so two degrees are used up: df = n1 + n2 - 2. (c) Welch's df weights the contributions of the two samples by their variances and sizes. This produces a continuous (often non-integer) df that better approximates the distribution of the test statistic when variances are unequal. Tutorial Workbook Weeks 6-11 Week 9 - Calculus for AI: Derivatives to Backpropagation Derivatives & Partial Derivatives From secant to tangent",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "40 Discovering the derivative For f (x) = x2 at a = 3, compute the di\u001berence quotient [f (a + ∆x) - f (a)]/∆x for ∆x in {1, 0.5, 0.1, 0.01, 0.001}. (a) What value do the di\u001berence quotients approach as ∆x -> 0? (b) Verify your answer using the symbolic derivative f ′(x) = 2x at x = 3. (c) What do you visualise geometrically as ∆x -> 0?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 40. (a) Compute [(3 + ∆x)2 - 9]/∆x: ∆x = 1: (16 - 9)/1 = 7; ∆x = 0.5: (12.25 - 9)/0.5 = 6.5; ∆x = 0.1: (9.61 - 9)/0.1 = 6.1; ∆x = 0.01: 6.01; ∆x = 0.001: 6.001. The values approach 6. (b) f ′(3) = 2 x 3 = 6. Match! (c) Geometrically, the secant line through (3, 9) and (3 + ∆x, f (3 + ∆x)) rotates as ∆x shrinks, until it becomes the tangent line at x = 3. The derivative is the tangent's slope: the instan- taneous rate of change. Partial derivatives",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Compute [(3 + ∆x)2 - 9]/∆x: ∆x = 1: (16 - 9)/1 = 7; ∆x = 0.5: (12.25 - 9)/0.5 = 6.5; ∆x = 0.1: (9.61 - 9)/0.1 = 6.1; ∆x = 0.01: 6.01; ∆x = 0.001: 6.001. The values approach 6. (b) f ′(3) = 2 x 3 = 6. Match! (c) Geometrically, the secant line through (3, 9) and (3 + ∆x, f (3 + ∆x)) rotates as ∆x shrinks, until it becomes the tangent line at x = 3. The derivative is the tangent's slope: the instan- taneous rate of change. Partial derivatives",
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "math-ai__tutorial-full-qa__tutorial-full-qa-weeks-6-11-part-2",
+          "sourceId": "tutorial-full-qa-weeks-6-11-part-2",
+          "subjectId": "math-ai",
+          "bankId": "tutorial-full-qa",
+          "bankTitle": "Tutorial Full Q&A Exams",
+          "kind": "Tutorial Full Q&A",
+          "title": "Tutorial Full Q&A - Weeks 6 to 11 - Part 2",
+          "description": "All extracted active-learning exercises and detailed solutions from the Weeks 6-11 tutorial workbook solution PDF. Questions 41-73 of 73.",
+          "questions": [
+            {
+              "type": "Open Answer",
+              "prompt": "41 Di\u001berentiating one variable at a time For f (x, y) = x2y + 3y2: (a) Compute ∂f /∂x (treat y as a constant). (b) Compute ∂f /∂y (treat x as a constant). (c) Evaluate both at (x, y) = (2, 1) and interpret each as a slope.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 41. (a) ∂f /∂x = 2xy (the term 3y2 has no x, so disappears). (b) ∂f /∂y = x2 + 6y. (c) At (2, 1): ∂f /∂x = 4, ∂f /∂y = 4 + 6 = 10. Slope along the x-axis is 4 (moving in x direction with y \u001cxed at 1). Slope along the y-axis is 10. Each partial is a slope of a 1D 'slice' of the 2D surface. Gradient & Gradient Descent The gradient as a vector",
+              "fullExplanation": null,
+              "modelAnswer": "(a) ∂f /∂x = 2xy (the term 3y2 has no x, so disappears). (b) ∂f /∂y = x2 + 6y. (c) At (2, 1): ∂f /∂x = 4, ∂f /∂y = 4 + 6 = 10. Slope along the x-axis is 4 (moving in x direction with y \u001cxed at 1). Slope along the y-axis is 10. Each partial is a slope of a 1D 'slice' of the 2D surface. Gradient & Gradient Descent The gradient as a vector",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "42 Direction and magnitude of steepest ascent Continuing f (x, y) = x2y + 3y2 at (2, 1): (a) Write the gradient ∇f as a vector. (b) In what direction does f increase fastest at this point? (c) How fast (per unit distance moved)? Tutorial Workbook Weeks 6-11",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 42. (a) ∇f = [∂f /∂x, ∂f /∂y] = [4, 10] at (2, 1). (b) The direction of steepest ascent is the direction of the gradient: [4, 10]/||[4, 10]|| = [4, 10]/sqrt116 ~ [0.37, 0.93]. (c) The rate of ascent in that direction is ||∇f || = sqrt116 ~ 10.77 units of f per unit distance. The gradient is a compact summary of all directional information about a multivariable function: where it climbs fastest, how steeply, and (after negating) where to move to make it shrink fastest. Gradient descent: how AI learns",
+              "fullExplanation": null,
+              "modelAnswer": "(a) ∇f = [∂f /∂x, ∂f /∂y] = [4, 10] at (2, 1). (b) The direction of steepest ascent is the direction of the gradient: [4, 10]/||[4, 10]|| = [4, 10]/sqrt116 ~ [0.37, 0.93]. (c) The rate of ascent in that direction is ||∇f || = sqrt116 ~ 10.77 units of f per unit distance. The gradient is a compact summary of all directional information about a multivariable function: where it climbs fastest, how steeply, and (after negating) where to move to make it shrink fastest. Gradient descent: how AI learns",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "43 Stepping toward the minimum You want to minimise L(w) = (w - 4)2 starting from w0 = 0 with learning rate η = 0.3. (a) Compute L′(w) symbolically. (b) Perform three iterations of w ← w - η · L′(w). (c) Where is the minimum? How close did you get?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 43. (a) L′(w) = 2(w - 4). (b) Iterations:  Start: w = 0, L′(0) = -8, w ← 0 - 0.3 x (-8) = 2.4  w = 2.4, L′(2.4) = -3.2, w ← 2.4 - 0.3 x (-3.2) = 3.36  w = 3.36, L′(3.36) = -1.28, w ← 3.36 - 0.3 x (-1.28) = 3.744 (c) The true minimum is w∗ = 4. After 3 iterations we're at 3.744 - already 93% of the way. Each step moves us a fraction (1 - 2η) = 0.4 closer; convergence is geometric. Choosing the learning rate",
+              "fullExplanation": null,
+              "modelAnswer": "(a) L′(w) = 2(w - 4). (b) Iterations:  Start: w = 0, L′(0) = -8, w ← 0 - 0.3 x (-8) = 2.4  w = 2.4, L′(2.4) = -3.2, w ← 2.4 - 0.3 x (-3.2) = 3.36  w = 3.36, L′(3.36) = -1.28, w ← 3.36 - 0.3 x (-1.28) = 3.744 (c) The true minimum is w∗ = 4. After 3 iterations we're at 3.744 - already 93% of the way. Each step moves us a fraction (1 - 2η) = 0.4 closer; convergence is geometric. Choosing the learning rate",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "44 Goldilocks learning rates Repeat the previous exercise but with η in {0.01, 0.5, 1.5}. (a) Which η converges fastest? (b) What happens with η = 1.5? (c) In your own words, explain the trade-o\u001b.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 44. (a) η = 0.5 is fastest. With L(w) = (w - 4)2, the convergence factor is |1 - 2η|; minimised at η = 0.5 (factor = 0, one-step convergence!). (b) η = 1.5: convergence factor |1 - 3| = 2, so the algorithm diverges. First step: w ← 0 - 1.5 x (-8) = 12. Next: w ← 12 - 1.5 x 16 = -12. Oscillates and grows unboundedly. (c) Too small: slow, wastes computation. Too large: overshoots, diverges. Just right: stable, fast convergence. In practice, learning-rate tuning is one of the most important hyper- parameters in deep learning. Chain Rule & Computation Graphs Tutorial Workbook Weeks 6-11 The chain rule for compositions",
+              "fullExplanation": null,
+              "modelAnswer": "(a) η = 0.5 is fastest. With L(w) = (w - 4)2, the convergence factor is |1 - 2η|; minimised at η = 0.5 (factor = 0, one-step convergence!). (b) η = 1.5: convergence factor |1 - 3| = 2, so the algorithm diverges. First step: w ← 0 - 1.5 x (-8) = 12. Next: w ← 12 - 1.5 x 16 = -12. Oscillates and grows unboundedly. (c) Too small: slow, wastes computation. Too large: overshoots, diverges. Just right: stable, fast convergence. In practice, learning-rate tuning is one of the most important hyper- parameters in deep learning. Chain Rule & Computation Graphs Tutorial Workbook Weeks 6-11 The chain rule for compositions",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "45 Di\u001berentiating h(x) = (3x2 + 1)4 (a) Identify the inner and outer functions. (b) Compute their individual derivatives. (c) Apply the chain rule. (d) Verify by computing h′(1) both via the chain rule and by expanding h \u001crst.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 45. (a) Inner: u = g(x) = 3x2 + 1. Outer: f (u) = u4. Then h(x) = f (g(x)). (b) g′(x) = 6x. f ′(u) = 4u3. (c) h′(x) = f ′(g(x)) · g′(x) = 4(3x2 + 1)3 · 6x = 24x(3x2 + 1)3. (d) At x = 1: h′(1) = 24 x 1 x 43 = 24 x 64 = 1536. Alternative: h(x) = (3x2 + 1)4 has at most x8 so h′(x) has at most x7; direct calculation gives the same value 1536. Sequential vs parallel paths",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Inner: u = g(x) = 3x2 + 1. Outer: f (u) = u4. Then h(x) = f (g(x)). (b) g′(x) = 6x. f ′(u) = 4u3. (c) h′(x) = f ′(g(x)) · g′(x) = 4(3x2 + 1)3 · 6x = 24x(3x2 + 1)3. (d) At x = 1: h′(1) = 24 x 1 x 43 = 24 x 64 = 1536. Alternative: h(x) = (3x2 + 1)4 has at most x8 so h′(x) has at most x7; direct calculation gives the same value 1536. Sequential vs parallel paths",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "46 The two rules of the multivariable chain rule Consider L(x) = sin(x2) + ex, which has two parallel paths from x to L. (a) Identify the two parallel paths. (b) Use the rule 'parallel paths -> add' to compute dL/dx. (c) Now consider M (x) = sin(x2), which has one sequential path. Apply 'sequential -> multi- ply' to compute dM/dx.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 46. (a) Path 1: x -> x2 -> sin(x2). Path 2: x -> ex. Both contribute to L. (b) Path 1 contribution: cos(x2) · 2x. Path 2 contribution: ex. Sum: dL/dx = 2x cos(x2) + ex. (c) Path: x -> u = x2 -> M = sin(u). dM/du = cos(u), du/dx = 2x. Multiply along the path: dM/dx = cos(x2) · 2x. Multiply along, add across. Sequential operations (one feeds the next) multiply their derivatives. Parallel operations (one variable feeds many places) add their contributions. This is the entire chain rule. Computation graphs",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Path 1: x -> x2 -> sin(x2). Path 2: x -> ex. Both contribute to L. (b) Path 1 contribution: cos(x2) · 2x. Path 2 contribution: ex. Sum: dL/dx = 2x cos(x2) + ex. (c) Path: x -> u = x2 -> M = sin(u). dM/du = cos(u), du/dx = 2x. Multiply along the path: dM/dx = cos(x2) · 2x. Multiply along, add across. Sequential operations (one feeds the next) multiply their derivatives. Parallel operations (one variable feeds many places) add their contributions. This is the entire chain rule. Computation graphs",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "47 Drawing a small one Consider L = (wx + b - y)2 where x = 2, y = 1, w = 0.5, b = -0.3. (a) Identify the intermediate values: z = wx + b, r = z - y, L = r2. (b) Compute each intermediate value (the forward pass). (c) Sketch the computation graph as a sequence of nodes: w, x, b, y -> z -> r -> L.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 47. (a) Three intermediate values as listed. (b) z = 0.5 x 2 + (-0.3) = 0.7. r = 0.7 - 1 = -0.3. L = (-0.3)2 = 0.09. Tutorial Workbook Weeks 6-11 (c) The graph: w x b y ↓ ↓ ↓ ↓ z = wx + b -> r = z - y -> L = r2 Each node stores a value (forward pass) and will store a gradient (backward pass). Backpropagation Forward and backward passes",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Three intermediate values as listed. (b) z = 0.5 x 2 + (-0.3) = 0.7. r = 0.7 - 1 = -0.3. L = (-0.3)2 = 0.09. Tutorial Workbook Weeks 6-11 (c) The graph: w x b y ↓ ↓ ↓ ↓ z = wx + b -> r = z - y -> L = r2 Each node stores a value (forward pass) and will store a gradient (backward pass). Backpropagation Forward and backward passes",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "48 Computing gradients via backprop Continue the previous example. Compute ∂L/∂w and ∂L/∂b by traversing the computation graph backward. (a) Start at L: what is ∂L/∂L? (b) Move back to r: ∂L/∂r? (c) Move back to z: ∂L/∂z? (d) Finally, ∂L/∂w and ∂L/∂b?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 48. (a) ∂L/∂L = 1 trivially. (b) L = r2 ⇒ ∂L/∂r = 2r = 2 x (-0.3) = -0.6. (c) r = z - y ⇒ ∂r/∂z = 1. By the chain rule: ∂L/∂z = ∂L/∂r · ∂r/∂z = -0.6 x 1 = -0.6. (d) z = wx + b ⇒ ∂z/∂w = x = 2, ∂z/∂b = 1. Therefore: ∂L/∂w = -0.6 x 2 = -1.2. ∂L/∂b = -0.6 x 1 = -0.6. These tell gradient descent how to update w and b to reduce L. Why backprop is e\u001ecient",
+              "fullExplanation": null,
+              "modelAnswer": "(a) ∂L/∂L = 1 trivially. (b) L = r2 ⇒ ∂L/∂r = 2r = 2 x (-0.3) = -0.6. (c) r = z - y ⇒ ∂r/∂z = 1. By the chain rule: ∂L/∂z = ∂L/∂r · ∂r/∂z = -0.6 x 1 = -0.6. (d) z = wx + b ⇒ ∂z/∂w = x = 2, ∂z/∂b = 1. Therefore: ∂L/∂w = -0.6 x 2 = -1.2. ∂L/∂b = -0.6 x 1 = -0.6. These tell gradient descent how to update w and b to reduce L. Why backprop is e\u001ecient",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "49 The big idea (a) In a network with P parameters, how many forward passes would you need to compute all gradients via \u001cnite di\u001berences? (b) How many backward passes does backpropagation need? (c) Why does this matter for training networks with millions of parameters?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 49. (a) You'd need P + 1 forward passes (one baseline plus one for each parameter perturbation). For P = 107 parameters, that's 10 million forward passes per training step! (b) Just one forward pass and one backward pass - regardless of P . (c) This roughly P x speedup is what makes deep learning feasible. Without backprop, training a modern neural network would take centuries. Backpropagation is arguably the most important algorithmic innovation in modern AI. Tutorial Workbook Weeks 6-11 Backprop on a single neuron",
+              "fullExplanation": null,
+              "modelAnswer": "(a) You'd need P + 1 forward passes (one baseline plus one for each parameter perturbation). For P = 107 parameters, that's 10 million forward passes per training step! (b) Just one forward pass and one backward pass - regardless of P . (c) This roughly P x speedup is what makes deep learning feasible. Without backprop, training a modern neural network would take centuries. Backpropagation is arguably the most important algorithmic innovation in modern AI. Tutorial Workbook Weeks 6-11 Backprop on a single neuron",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "50 Putting it all together A neuron computes z = wx + b, a = σ(z) = 1/(1 + e-z ), L = (a - y)2. (a) Find ∂L/∂a. (b) Find ∂a/∂z. (Hint: use the identity σ′(z) = σ(z)(1 - σ(z)).) (c) Combine via the chain rule to get ∂L/∂w and ∂L/∂b.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 50. (a) ∂L/∂a = 2(a - y). (b) ∂a/∂z = σ(z)(1 - σ(z)) = a(1 - a). (c) ∂L/∂w = ∂L/∂a · ∂a/∂z · ∂z/∂w = 2(a - y) · a(1 - a) · x. ∂L/∂b = ∂L/∂a · ∂a/∂z · ∂z/∂b = 2(a - y) · a(1 - a) · 1. Note how each factor is the local derivative of one node, and they multiply along the sequential path. This is exactly how PyTorch and TensorFlow compute gradients internally. Tutorial Workbook Weeks 6-11 Week 10 - Discrete Mathematics for AI Set Theory Sets in AI",
+              "fullExplanation": null,
+              "modelAnswer": "(a) ∂L/∂a = 2(a - y). (b) ∂a/∂z = σ(z)(1 - σ(z)) = a(1 - a). (c) ∂L/∂w = ∂L/∂a · ∂a/∂z · ∂z/∂w = 2(a - y) · a(1 - a) · x. ∂L/∂b = ∂L/∂a · ∂a/∂z · ∂z/∂b = 2(a - y) · a(1 - a) · 1. Note how each factor is the local derivative of one node, and they multiply along the sequential path. This is exactly how PyTorch and TensorFlow compute gradients internally. Tutorial Workbook Weeks 6-11 Week 10 - Discrete Mathematics for AI Set Theory Sets in AI",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "51 Recognising sets in everyday AI tasks Two recommendation users have these movie histories: A = {Inception, The Matrix, Arrival, Blade Runner} B = {The Matrix, Arrival, Dune, Alien} (a) Compute A ∩ B and interpret it. (b) Compute A \\ B and B \\ A. How could a recommender use these? (c) Compute |A|, |B|, |A ∩ B| and verify the inclusion-exclusion principle: |A ∪ B| = |A| + |B| - |A ∩ B|.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 51. (a) A ∩ B = {The Matrix, Arrival} - their shared taste. (b) A \\ B = {Inception, Blade Runner} (movies only A watched); B \\ A = {Dune, Alien}. The recommender can suggest A \\ B to user B and B \\ A to user A - the \u001clms they haven't seen but their similar peer enjoyed. (c) |A| = 4, |B| = 4, |A ∩ B| = 2. |A ∪ B| = 4 + 4 - 2 = 6 - matches the count of unique movies {Inception, The Matrix, Arrival, Blade Runner, Dune, Alien}. Filtering with sets",
+              "fullExplanation": null,
+              "modelAnswer": "(a) A ∩ B = {The Matrix, Arrival} - their shared taste. (b) A \\ B = {Inception, Blade Runner} (movies only A watched); B \\ A = {Dune, Alien}. The recommender can suggest A \\ B to user B and B \\ A to user A - the \u001clms they haven't seen but their similar peer enjoyed. (c) |A| = 4, |B| = 4, |A ∩ B| = 2. |A ∪ B| = 4 + 4 - 2 = 6 - matches the count of unique movies {Inception, The Matrix, Arrival, Blade Runner, Dune, Alien}. Filtering with sets",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "52 Building a query with set operations Customer database \u001celds: premium (bool), recent_buyer (bool), age_over_30 (bool). De\u001cne sets: P = {premium customers}, R = {recent buyers}, O = {customers over 30}. (a) Express 'premium customers who haven't bought recently' as a set expression. (b) Express 'customers over 30 who are either premium or recent buyers (or both)'. (c) Express 'recent buyers who are not premium and are over 30'.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 52. (a) P \\ R (premium minus those who bought recently). (b) O ∩ (P ∪ R). (c) R ∩ O \\ P = (R ∩ O) \\ P . (Or equivalently R ∩ O ∩ P c.) These expressions translate directly into SQL WHERE clauses or pandas \u001clters. Propositional Logic Truth tables and implication",
+              "fullExplanation": null,
+              "modelAnswer": "(a) P \\ R (premium minus those who bought recently). (b) O ∩ (P ∪ R). (c) R ∩ O \\ P = (R ∩ O) \\ P . (Or equivalently R ∩ O ∩ P c.) These expressions translate directly into SQL WHERE clauses or pandas \u001clters. Propositional Logic Truth tables and implication",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "53 Decoding the strange truth table of p ⇒ q Consider the rule 'IF a transaction exceeds ¿1000 THEN it requires manager approval.' (a) Construct the truth table for p ⇒ q where p = '> 1000' and q = 'approved'. (b) Which combination violates the rule? (c) For the other three combinations, the rule is consistent. Why is p ⇒ q True when p is False (regardless of q)? Tutorial Workbook Weeks 6-11",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 53. (a) p q p ⇒ q T T T (consistent) T F F (rule violated) F T T (vacuous) F F T (vacuous) (b) The only violation is (T, F ): a transaction over ¿1000 not requiring approval breaks the rule. (c) If the antecedent p is False, the rule simply doesn't apply - no violation is possible. We say the implication is vacuously true. Equivalently, p ⇒ q ≡ ¬p ∨ q. Logic in decision trees",
+              "fullExplanation": null,
+              "modelAnswer": "(a) p q p ⇒ q T T T (consistent) T F F (rule violated) F T T (vacuous) F F T (vacuous) (b) The only violation is (T, F ): a transaction over ¿1000 not requiring approval breaks the rule. (c) If the antecedent p is False, the rule simply doesn't apply - no violation is possible. We say the implication is vacuously true. Equivalently, p ⇒ q ≡ ¬p ∨ q. Logic in decision trees",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "54 Reading a decision tree as logic A loan-approval tree:  IF income ≥ 50k AND credit_score ≥ 700 AND NOT high_debt THEN approve  ELSE IF income ≥ 50k AND collateral THEN approve  ELSE reject (a) Express the full 'approve' rule as a single propositional logic formula. (b) Why is this representation called explainable? (c) Apply the rule to: income = 60k, credit = 720, high_debt = False, collateral = False.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 54. (a) Approve ≡ (i50 ∧ c700 ∧ ¬h) ∨ (i50 ∧ l) where i50 = 'income ≥ 50k', etc. Distributing: ≡ i50 ∧ ((c700 ∧ ¬h) ∨ l). (b) Each decision is a transparent conjunction of named conditions a human can read, debate, and audit. Compare to a neural network: 'approve because of the dot product of these 10 million weights with these inputs.' (c) i50 = T , c700 = T , ¬h = T . The \u001crst conjunct is True, so approve. Limits of logic",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Approve ≡ (i50 ∧ c700 ∧ ¬h) ∨ (i50 ∧ l) where i50 = 'income ≥ 50k', etc. Distributing: ≡ i50 ∧ ((c700 ∧ ¬h) ∨ l). (b) Each decision is a transparent conjunction of named conditions a human can read, debate, and audit. Compare to a neural network: 'approve because of the dot product of these 10 million weights with these inputs.' (c) i50 = T , c700 = T , ¬h = T . The \u001crst conjunct is True, so approve. Limits of logic",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "55 What logic struggles with A spam \u001clter encodes the rule: 'IF email contains the word `free' THEN classify as spam.' (a) Identify a non-spam email that this rule would mis-classify. (b) Identify a spam email that this rule would miss. (c) List three fundamental limitations of pure logical rules for AI.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 55. (a) 'Free parking is available next Tuesday' - legitimate, not spam. (b) 'Earn $$$ now! Click here.' - spam without the word 'free'. (c) Brittleness (rules don't tolerate variation), no uncertainty (everything is True/False), no learning (rules must be hand-crafted), no perception (struggles with images, audio). Modern AI combines logic with probability and learning to overcome these. Graph Theory Tutorial Workbook Weeks 6-11 Recognising graph types",
+              "fullExplanation": null,
+              "modelAnswer": "(a) 'Free parking is available next Tuesday' - legitimate, not spam. (b) 'Earn $$$ now! Click here.' - spam without the word 'free'. (c) Brittleness (rules don't tolerate variation), no uncertainty (everything is True/False), no learning (rules must be hand-crafted), no perception (struggles with images, audio). Modern AI combines logic with probability and learning to overcome these. Graph Theory Tutorial Workbook Weeks 6-11 Recognising graph types",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "56 Classifying graphs from descriptions For each scenario, identify the graph type (directed/undirected, weighted/unweighted, bipar- tite or not). (a) Facebook friendships. (b) Web hyperlinks between pages. (c) Distances between cities. (d) Users rating movies.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 56. (a) Undirected, unweighted : friendship is symmetric (no direction); each edge is a binary fact. (b) Directed, unweighted : A links to B doesn't imply B links to A. (c) Undirected, weighted : London-Paris distance is the same in both directions; the value is the weight. (d) Bipartite, weighted : two disjoint node sets (users, movies); edges only between sets, weighted by rating. The adjacency matrix",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Undirected, unweighted : friendship is symmetric (no direction); each edge is a binary fact. (b) Directed, unweighted : A links to B doesn't imply B links to A. (c) Undirected, weighted : London-Paris distance is the same in both directions; the value is the weight. (d) Bipartite, weighted : two disjoint node sets (users, movies); edges only between sets, weighted by rating. The adjacency matrix",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "57 Building an adjacency matrix and using A2 A small undirected graph has 4 nodes A, B, C, D and edges: A-B, B-C, C-D, A-D. (a) Write the adjacency matrix A. (b) Compute A2. (c) How many length-2 paths are there from A to C? (d) Verify your answer by enumerating paths.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 57. (a) A =     0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0     (b) A2 =     2 0 2 0 0 2 0 2 2 0 2 0 0 2 0 2     (c) A2 1,3 = 2, so 2 paths of length 2 from A to C. (d) The two paths: A-B-C and A-D-C. Con\u001crmed! Tutorial Workbook Weeks 6-11 Knowledge graphs",
+              "fullExplanation": null,
+              "modelAnswer": "(a) A =     0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0     (b) A2 =     2 0 2 0 0 2 0 2 2 0 2 0 0 2 0 2     (c) A2 1,3 = 2, so 2 paths of length 2 from A to C. (d) The two paths: A-B-C and A-D-C. Con\u001crmed! Tutorial Workbook Weeks 6-11 Knowledge graphs",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "58 Multi-hop reasoning A small knowledge graph contains:  (Alan Turing, born_in, London)  (Alan Turing, worked_at, Bletchley Park)  (Bletchley Park, located_in, England)  (London, part_of, England)  (England, part_of, UK) (a) Answer 'Where was Alan Turing born?' (1 hop). (b) Answer 'In which country did Alan Turing work?' (2 hops). (c) Answer 'Was Alan Turing born in the UK?' (multi-hop reasoning).",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 58. (a) 1-hop traversal: (Turing, born_in, ?) -> London. (b) 2-hop traversal: Turing ->[worked_at]-> Bletchley Park ->[located_in]-> England. Answer: England. (c) 3-hop: Turing ->[born_in]-> London ->[part_of]-> England ->[part_of]-> UK. An- swer: Yes. This is how Google's Knowledge Panel and Siri synthesise factual answers. Shortest path",
+              "fullExplanation": null,
+              "modelAnswer": "(a) 1-hop traversal: (Turing, born_in, ?) -> London. (b) 2-hop traversal: Turing ->[worked_at]-> Bletchley Park ->[located_in]-> England. Answer: England. (c) 3-hop: Turing ->[born_in]-> London ->[part_of]-> England ->[part_of]-> UK. An- swer: Yes. This is how Google's Knowledge Panel and Siri synthesise factual answers. Shortest path",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "59 Why graph search powers AI (a) Name two AI applications that depend on shortest-path algorithms. (b) BFS \u001cnds shortest paths in unweighted graphs. What algorithm is needed for weighted graphs? (c) In a knowledge graph with 50 million nodes, naive search would be infeasible. Name one technique used to make it tractable.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 59. (a) GPS navigation; AI game playing (state-space search); robot path planning; recommenda- tion systems traversing user-item graphs. (b) Dijkstra's algorithm for non-negative weights; Bellman-Ford for graphs with negative edges; A* with heuristics for goal-directed search. (c) Indexing (precompute neighbour lists), embeddings (represent nodes as vectors to enable approximate nearest-neighbour search), graph partitioning, or learned heuristics. Combinatorics Permutations vs combinations",
+              "fullExplanation": null,
+              "modelAnswer": "(a) GPS navigation; AI game playing (state-space search); robot path planning; recommenda- tion systems traversing user-item graphs. (b) Dijkstra's algorithm for non-negative weights; Bellman-Ford for graphs with negative edges; A* with heuristics for goal-directed search. (c) Indexing (precompute neighbour lists), embeddings (represent nodes as vectors to enable approximate nearest-neighbour search), graph partitioning, or learned heuristics. Combinatorics Permutations vs combinations",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "60 Order matters or not? (a) How many ways can 8 students be ranked from 1st to 3rd? (Permutations.) (b) How many ways can 3 students be chosen (no ranking) from 8? (Combinations.) (c) Compute both numerically. Tutorial Workbook Weeks 6-11",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 60. (a) Order matters ⇒ permutations: P (8, 3) = 8!/5! = 8 x 7 x 6 = 336. (b) Order doesn't matter ⇒ combinations: C(8, 3) = 8!/(3! · 5!) = 336/6 = 56. (c) Note that P (n, k) = k! · C(n, k) - permutations exceed combinations by the number of orderings of the chosen k. Combinatorial explosion",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Order matters ⇒ permutations: P (8, 3) = 8!/5! = 8 x 7 x 6 = 336. (b) Order doesn't matter ⇒ combinations: C(8, 3) = 8!/(3! · 5!) = 336/6 = 56. (c) Note that P (n, k) = k! · C(n, k) - permutations exceed combinations by the number of orderings of the chosen k. Combinatorial explosion",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "61 Why brute force fails You're tuning a model with 6 hyperparameters, each having 5 possible values. (a) How many con\u001cgurations would grid search evaluate? (b) If each evaluation takes 5 minutes, how long for grid search? (c) Random search runs only 100 random con\u001cgurations. How long does it take? (d) Why does random search often \u001cnd near-optimal con\u001cgurations almost as well as grid search?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 61. (a) 56 = 15,625 con\u001cgurations. (b) 15,625 x 5 = 78,125 minutes ~ 54 days. (c) 100 x 5 = 500 minutes ~ 8 hours. (d) Most hyperparameters have a few important values; random search e\u001eciently explores di- verse combinations rather than wasting evaluations on irrelevant variations (Bergstra & Bengio, 2012). For high-dimensional searches, random search is often the better choice. Counting input patterns",
+              "fullExplanation": null,
+              "modelAnswer": "(a) 56 = 15,625 con\u001cgurations. (b) 15,625 x 5 = 78,125 minutes ~ 54 days. (c) 100 x 5 = 500 minutes ~ 8 hours. (d) Most hyperparameters have a few important values; random search e\u001eciently explores di- verse combinations rather than wasting evaluations on irrelevant variations (Bergstra & Bengio, 2012). For high-dimensional searches, random search is often the better choice. Counting input patterns",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "62 The curse of dimensionality (a) How many distinct binary feature vectors of length 30 exist? (b) For a 28x28 greyscale image (256 levels), how many possible images exist? (c) Why is it impossible for a model to 'memorise' all inputs? (d) What does this imply about the role of generalisation in machine learning?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 62. (a) 230 ~ 1.07 billion. (b) 256784 ~ 101888 - a number larger than the number of atoms in the observable universe by an astronomical factor. (c) Storage is impossible; we'd need more memory than exists. Even encountering all inputs takes longer than the universe's age. (d) Generalisation is essential. Models must learn compact patterns and abstractions, not memorise speci\u001cc examples. The whole point of machine learning is to discover regularities that allow predictions for unseen inputs. Tutorial Workbook Weeks 6-11 Week 11 - Numerical Stability & Error Analysis for AI Floating-Point Representation Why 0.1 + 0.2̸ = 0.3",
+              "fullExplanation": null,
+              "modelAnswer": "(a) 230 ~ 1.07 billion. (b) 256784 ~ 101888 - a number larger than the number of atoms in the observable universe by an astronomical factor. (c) Storage is impossible; we'd need more memory than exists. Even encountering all inputs takes longer than the universe's age. (d) Generalisation is essential. Models must learn compact patterns and abstractions, not memorise speci\u001cc examples. The whole point of machine learning is to discover regularities that allow predictions for unseen inputs. Tutorial Workbook Weeks 6-11 Week 11 - Numerical Stability & Error Analysis for AI Floating-Point Representation Why 0.1 + 0.2̸ = 0.3",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "63 The most famous \u001doating-point oddity (a) Open a Python interpreter and check whether 0.1 + 0.2 == 0.3 is True. Print the actual value with high precision. (b) Why does this happen? (c) Verify that 0.1 + 0.2 + 0.3 is not equal to 0.3 + 0.2 + 0.1.",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 63. (a) print(0.1 + 0.2) gives 0.30000000000000004, so the equality check is False. (b) Computers store numbers in binary. The decimal 0.1 is binary 0.0001100110011 . . . (an in\u001cnite repeating pattern). The computer truncates this to a \u001cnite mantissa, introducing a tiny error of order 10-17. (c) Floating-point addition is not associative. The two sums use di\u001berent intermediate values and produce di\u001berent rounding errors. This is a real consequence of \u001cnite precision and matters in numerical algorithms. Comparing precision formats",
+              "fullExplanation": null,
+              "modelAnswer": "(a) print(0.1 + 0.2) gives 0.30000000000000004, so the equality check is False. (b) Computers store numbers in binary. The decimal 0.1 is binary 0.0001100110011 . . . (an in\u001cnite repeating pattern). The computer truncates this to a \u001cnite mantissa, introducing a tiny error of order 10-17. (c) Floating-point addition is not associative. The two sums use di\u001berent intermediate values and produce di\u001berent rounding errors. This is a real consequence of \u001cnite precision and matters in numerical algorithms. Comparing precision formats",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "64 The trade-o\u001bs of FP64, FP32, FP16, BF16, INT8 (a) Rank these formats by storage size (largest to smallest). (b) FP16's max value is about 65,504. Why does this matter for neural network training? (c) BF16 has the same range as FP32 but lower precision. Why is this preferred for deep learning? (d) Where is INT8 typically used?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 64. (a) FP64 (8 bytes) > FP32 (4) > FP16 = BF16 (2) > INT8 (1). (b) A loss value or logit exceeding 65,504 over\u001dows to +∞ in FP16, breaking training. With ReLU activations and large layers, this is alarmingly common. (c) The exponent range of BF16 matches FP32, so it almost never over\u001dows. The trade-o\u001b is reduced mantissa precision, but for noisy gradient updates this is acceptable. BF16 is the dominant format for modern transformer training (Google, Anthropic, Meta). (d) INT8 is used in quantised inference on edge devices - mobile phones, embedded systems - where memory and energy are scarce. Training is rarely in INT8. Types of Numerical Error Tutorial Workbook Weeks 6-11 Absolute vs relative error",
+              "fullExplanation": null,
+              "modelAnswer": "(a) FP64 (8 bytes) > FP32 (4) > FP16 = BF16 (2) > INT8 (1). (b) A loss value or logit exceeding 65,504 over\u001dows to +∞ in FP16, breaking training. With ReLU activations and large layers, this is alarmingly common. (c) The exponent range of BF16 matches FP32, so it almost never over\u001dows. The trade-o\u001b is reduced mantissa precision, but for noisy gradient updates this is acceptable. BF16 is the dominant format for modern transformer training (Google, Anthropic, Meta). (d) INT8 is used in quantised inference on edge devices - mobile phones, embedded systems - where memory and energy are scarce. Training is rarely in INT8. Types of Numerical Error Tutorial Workbook Weeks 6-11 Absolute vs relative error",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "65 Why relative error is the better measure You measure two quantities:  Quantity A: true value 1010, measured 1010 + 100.  Quantity B: true value 10-5, measured 10-5 + 10-7. (a) Compute the absolute error of each. (b) Compute the relative error of each. (c) Which measurement is more accurate?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 65. (a) A: |100| = 100. B: |10-7| = 10-7. (b) A: 100/1010 = 10-8. B: 10-7/10-5 = 10-2 (1%). (c) A is much more accurate despite its huge absolute error. Relative error is 8 orders of magnitude smaller. Absolute error is meaningless without a scale - relative error gives a uniform quality measure across magnitudes. Catastrophic cancellation",
+              "fullExplanation": null,
+              "modelAnswer": "(a) A: |100| = 100. B: |10-7| = 10-7. (b) A: 100/1010 = 10-8. B: 10-7/10-5 = 10-2 (1%). (c) A is much more accurate despite its huge absolute error. Relative error is 8 orders of magnitude smaller. Absolute error is meaningless without a scale - relative error gives a uniform quality measure across magnitudes. Catastrophic cancellation",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "66 The danger of subtracting near-equal numbers You want to compute f (x) = (1 - cos x)/x2 for small x. (a) What is the mathematical limit as x -> 0? (b) Try computing this in Python for x = 10-7, 10-8, 10-10. What do you observe? (c) The trigonometric identity 1 - cos x = 2 sin2(x/2) gives an alternative formula. Why is it numerically stable?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 66. (a) limx->0(1 - cos x)/x2 = 1/2. (b) For x = 10-7: cos x rounds to a number very close to 1. The subtraction 1 - 0.99999999... loses most signi\u001ccant digits. By x = 10-10, the result is essentially 0 instead of 0.5 - a complete loss of accuracy. (c) The alternative computes 2 sin2(x/2)/x2, which avoids subtraction of near-equal quantities. For small x, sin(x/2) ~ x/2 accurately, so the formula returns close to 0.5. Mathematically equivalent, numerically very di\u001berent. Whenever your formula subtracts two nearly equal large numbers, look for a mathematically equivalent rearrangement that avoids the subtraction. Numerical analysts call this 'algebraic refactoring for stability.' Error accumulation",
+              "fullExplanation": null,
+              "modelAnswer": "(a) limx->0(1 - cos x)/x2 = 1/2. (b) For x = 10-7: cos x rounds to a number very close to 1. The subtraction 1 - 0.99999999... loses most signi\u001ccant digits. By x = 10-10, the result is essentially 0 instead of 0.5 - a complete loss of accuracy. (c) The alternative computes 2 sin2(x/2)/x2, which avoids subtraction of near-equal quantities. For small x, sin(x/2) ~ x/2 accurately, so the formula returns close to 0.5. Mathematically equivalent, numerically very di\u001berent. Whenever your formula subtracts two nearly equal large numbers, look for a mathematically equivalent rearrangement that avoids the subtraction. Numerical analysts call this 'algebraic refactoring for stability.' Error accumulation",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "67 Many small errors -> one big error You sum 0.1 a million times. (a) Mathematically, what is the result? (b) Try this in FP32 versus FP64. What di\u001berence do you see? (c) Why does this matter for neural network training? Tutorial Workbook Weeks 6-11",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 67. (a) 1,000,000 x 0.1 = 100,000 exactly. (b) FP64: very close to 100,000 (error ~ 10-9). FP32: noticeably o\u001b (error ~ 1.3). Each addition introduces a tiny rounding error; over a million operations, FP32 errors accumulate substantially. (c) A modern neural network performs trillions of arithmetic operations per training step. Even tiny per-operation errors can accumulate to corrupt gradients and destabilise training. This is why numerical formats are chosen carefully and why mixed-precision training keeps a master FP32 copy of weights. Over\u001dow, Under\u001dow & Softmax Stable softmax",
+              "fullExplanation": null,
+              "modelAnswer": "(a) 1,000,000 x 0.1 = 100,000 exactly. (b) FP64: very close to 100,000 (error ~ 10-9). FP32: noticeably o\u001b (error ~ 1.3). Each addition introduces a tiny rounding error; over a million operations, FP32 errors accumulate substantially. (c) A modern neural network performs trillions of arithmetic operations per training step. Even tiny per-operation errors can accumulate to corrupt gradients and destabilise training. This is why numerical formats are chosen carefully and why mixed-precision training keeps a master FP32 copy of weights. Over\u001dow, Under\u001dow & Softmax Stable softmax",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "68 The \u001cx everyone uses The softmax function softmax(zi) = ezi / P j ezj is everywhere in neural networks. But naive implementation breaks for large z. (a) For z = [1000, 1001, 1002], what does naive softmax produce in FP64? (b) State the 'max-subtraction trick' formula. (c) Verify mathematically that softmax(z) = softmax(z - c) for any constant c. (d) Apply the trick to z = [1000, 1001, 1002]. What do you get?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 68. (a) e1000, e1001, e1002 all over\u001dow to ∞ in FP64 (max ~ 1.8 x 10308). Result: nan/nan = NaN. Disaster. (b) Stable softmax: softmax(zi) = ezi-c P j ezj -c where c = max(z). (c) Numerator and denominator both multiplied by e-c, which cancels: ezi-c P j ezj -c = ezi e-c P j ezj e-c = ezi P j ezj . (d) z - c = [-2, -1, 0]. e[-2,-1,0] = [0.135, 0.368, 1], sum = 1.503. softmax = [0.090, 0.245, 0.665]. Identical to the (unobtainable) naive answer, but numerically robust. Probability under\u001dow and log-space",
+              "fullExplanation": null,
+              "modelAnswer": "(a) e1000, e1001, e1002 all over\u001dow to ∞ in FP64 (max ~ 1.8 x 10308). Result: nan/nan = NaN. Disaster. (b) Stable softmax: softmax(zi) = ezi-c P j ezj -c where c = max(z). (c) Numerator and denominator both multiplied by e-c, which cancels: ezi-c P j ezj -c = ezi e-c P j ezj e-c = ezi P j ezj . (d) z - c = [-2, -1, 0]. e[-2,-1,0] = [0.135, 0.368, 1], sum = 1.503. softmax = [0.090, 0.245, 0.665]. Identical to the (unobtainable) naive answer, but numerically robust. Probability under\u001dow and log-space",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "69 Why language models work in log space A language model assigns probability ∼ 0.01 to each word, and you have a 100-word sentence. (a) Compute the sentence probability by direct multiplication. Does it under\u001dow? (b) Switch to log probabilities: how would you compute the equivalent quantity? (c) Convert back: log P = -100 x log(100) ~ -460. What's the corresponding probability?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 69. (a) 0.01100 = 10-200. FP64 minimum is ~ 10-308, so this is just barely representable. With 200 words it would under\u001dow. With longer texts, certain under\u001dow. (b) log P = P i log pi = 100 x log(0.01) = -460.5. Adding logs replaces multiplication - and all values stay in a manageable range. (c) P = e-460.5 ~ 10-200. The log representation captures the same information without Tutorial Workbook Weeks 6-11 under\u001dowing. This is why all language models internally use log probabilities (and why cross-entropy loss is the negative log probability). The log-sum-exp trick",
+              "fullExplanation": null,
+              "modelAnswer": "(a) 0.01100 = 10-200. FP64 minimum is ~ 10-308, so this is just barely representable. With 200 words it would under\u001dow. With longer texts, certain under\u001dow. (b) log P = P i log pi = 100 x log(0.01) = -460.5. Adding logs replaces multiplication - and all values stay in a manageable range. (c) P = e-460.5 ~ 10-200. The log representation captures the same information without Tutorial Workbook Weeks 6-11 under\u001dowing. This is why all language models internally use log probabilities (and why cross-entropy loss is the negative log probability). The log-sum-exp trick",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "70 Stably computing log (P i eai ) (a) For a = [800, 801, 802], naive computation of log(P i eai ) fails. Why? (b) State the LSE trick: LSE(a) = c + log(P i eai-c) with c = max(a). (c) Verify the trick is mathematically equivalent (factor out ec). (d) Apply it to a = [800, 801, 802].",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 70. (a) e800 over\u001dows. The naive computation produces log(∞) = ∞. (b) As stated. (c) P i eai = ec P i eai-c. Taking log: log(P eai ) = c + log(P eai-c). Identity. (d) c = 802, a-c = [-2, -1, 0]. ea-c = [0.135, 0.368, 1], sum = 1.503. LSE = 802+log(1.503) = 802 + 0.407 = 802.41. This appears in cross-entropy loss, attention layers, and many other parts of deep learning. Conditioning & Gradient Stability Condition numbers",
+              "fullExplanation": null,
+              "modelAnswer": "(a) e800 over\u001dows. The naive computation produces log(∞) = ∞. (b) As stated. (c) P i eai = ec P i eai-c. Taking log: log(P eai ) = c + log(P eai-c). Identity. (d) c = 802, a-c = [-2, -1, 0]. ea-c = [0.135, 0.368, 1], sum = 1.503. LSE = 802+log(1.503) = 802 + 0.407 = 802.41. This appears in cross-entropy loss, attention layers, and many other parts of deep learning. Conditioning & Gradient Stability Condition numbers",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "71 Sensing instability in linear systems Consider these two matrices: A1 = \u00122 1 1 3 \u0013 , A2 = \u00121 1 1 1.0001 \u0013 (a) Compute (or estimate) det(A1) and det(A2). What does a near-zero determinant suggest? (b) Solve A1x = [1, 1]T and A2x = [1, 1]T . Then perturb b slightly to [1, 1.001]T and re-solve. Compare how much x changes. (c) Why is A2 called ill-conditioned ?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 71. (a) det(A1) = 5, det(A2) = 0.0001 (very small). A near-zero determinant means the matrix is close to singular - nearly non-invertible. (b) For A1: solution barely changes after perturbing b. For A2: a 0.1% change in b produces a ∼ 1000x change in x. (c) The condition number κ(A2) = σmax/σmin is very large. Tiny input changes -> huge output changes. In linear regression, this leads to wildly unstable weight estimates - which is why we add regularisation (Ridge: add λI to XT X). Tutorial Workbook Weeks 6-11 Vanishing and exploding gradients",
+              "fullExplanation": null,
+              "modelAnswer": "(a) det(A1) = 5, det(A2) = 0.0001 (very small). A near-zero determinant means the matrix is close to singular - nearly non-invertible. (b) For A1: solution barely changes after perturbing b. For A2: a 0.1% change in b produces a ∼ 1000x change in x. (c) The condition number κ(A2) = σmax/σmin is very large. Tiny input changes -> huge output changes. In linear regression, this leads to wildly unstable weight estimates - which is why we add regularisation (Ridge: add λI to XT X). Tutorial Workbook Weeks 6-11 Vanishing and exploding gradients",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "72 Gradient \u001dow through a deep network A deep network has 50 layers, each with a local gradient factor r. (a) By the chain rule, the overall gradient is proportional to r50. Compute this for r = 0.5, r = 1, r = 1.5. (b) Sigmoid's derivative is at most 0.25. Why does this cause vanishing gradients in deep sigmoid networks? (c) ReLU's derivative is 0 or 1. Why does this help?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 72. (a) 0.550 ~ 8.9 x 10-16 (vanishes). 150 = 1 (perfect). 1.550 ~ 6.4 x 108 (explodes). (b) Through 50 sigmoid layers, the gradient is at most 0.2550 ~ 8 x 10-31 - numerically zero. Earlier layers receive no learning signal. (c) For active ReLU units, the local gradient is exactly 1. The chain product stays at 1 instead of vanishing. This is why ReLU revolutionised deep learning around 2010 and made networks with hundreds of layers (ResNets) feasible. Stability techniques in practice",
+              "fullExplanation": null,
+              "modelAnswer": "(a) 0.550 ~ 8.9 x 10-16 (vanishes). 150 = 1 (perfect). 1.550 ~ 6.4 x 108 (explodes). (b) Through 50 sigmoid layers, the gradient is at most 0.2550 ~ 8 x 10-31 - numerically zero. Earlier layers receive no learning signal. (c) For active ReLU units, the local gradient is exactly 1. The chain product stays at 1 instead of vanishing. This is why ReLU revolutionised deep learning around 2010 and made networks with hundreds of layers (ResNets) feasible. Stability techniques in practice",
+              "points": 2
+            },
+            {
+              "type": "Open Answer",
+              "prompt": "73 The toolkit of modern AI (a) Name three techniques to prevent gradient explosions. (b) Name three techniques to combat vanishing gradients. (c) Why is mixed-precision (FP16+FP32) better than pure FP16?",
+              "choices": [],
+              "answer": [],
+              "explanation": "Detailed solution from Tutorial_Workbook_Weeks_6_to_11 Solution.pdf, question 73. (a) Gradient clipping (cap the gradient norm), lower learning rates, weight initialisation that controls scale (Xavier/He init), batch normalisation. (b) ReLU activations (no saturation for positive inputs), skip connections (ResNet: gradients \u001dow directly past layers), LSTM/GRU for RNNs, batch normalisation (also helps here), careful weight init. (c) Pure FP16 has insu\u001ecient range and precision for accumulating tiny gradient updates. Mixed precision keeps a master FP32 copy of weights (preventing precision loss from update accumulation) while running fast FP16 forward/backward passes (gaining 2-3x speedup on modern GPUs). Loss scaling further preserves small gradients during the FP16 backward pass. Numerical stability is invisible when it works and devastating when it fails. The techniques in this section are not optional - they are why modern deep learning works at all. Every line of PyTorch or TensorFlow you write relies on these stable implementations under the hood. End of Tutorial Workbook Understanding comes from doing. Well done!",
+              "fullExplanation": null,
+              "modelAnswer": "(a) Gradient clipping (cap the gradient norm), lower learning rates, weight initialisation that controls scale (Xavier/He init), batch normalisation. (b) ReLU activations (no saturation for positive inputs), skip connections (ResNet: gradients \u001dow directly past layers), LSTM/GRU for RNNs, batch normalisation (also helps here), careful weight init. (c) Pure FP16 has insu\u001ecient range and precision for accumulating tiny gradient updates. Mixed precision keeps a master FP32 copy of weights (preventing precision loss from update accumulation) while running fast FP16 forward/backward passes (gaining 2-3x speedup on modern GPUs). Loss scaling further preserves small gradients during the FP16 backward pass. Numerical stability is invisible when it works and devastating when it fails. The techniques in this section are not optional - they are why modern deep learning works at all. Every line of PyTorch or TensorFlow you write relies on these stable implementations under the hood. End of Tutorial Workbook Understanding comes from doing. Well done!",
+              "points": 2
+            }
+          ]
         }
       ],
-      "questionCount": 974,
-      "examCount": 105
+      "questionCount": 1159,
+      "examCount": 110
     },
     {
       "id": "information-security",
