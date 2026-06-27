@@ -1,11 +1,11 @@
 window.UNIFIED_EXAM_DATA = {
   "version": 1,
-  "generatedAt": "2026-06-27T19:22:28.413Z",
+  "generatedAt": "2026-06-27T19:26:31.001Z",
   "subjects": [
     {
       "id": "math-ai",
       "title": "Mathematics for AI",
-      "description": "Full open-answer tutorial questions and detailed solutions imported from the Math AI tutorial PDFs.",
+      "description": "Closed-choice tutorial Q&A exams with original answers and explanations imported from the Math AI tutorial PDFs.",
       "banks": [
         {
           "id": "tutorial-full-qa",

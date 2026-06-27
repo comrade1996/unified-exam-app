@@ -4847,7 +4847,7 @@
   ],
   "id": "math-ai",
   "title": "Mathematics for AI",
-  "description": "Full open-answer tutorial questions and detailed solutions imported from the Math AI tutorial PDFs.",
+  "description": "Closed-choice tutorial Q&A exams with original answers and explanations imported from the Math AI tutorial PDFs.",
   "banks": [
     {
       "examCount": 5,
